@@ -6,9 +6,16 @@ nostr is an open protocol for censorship-resistant global networks created by [@
 - [protocol specification](https://github.com/fiatjaf/nostr/blob/master/nips/01.md), NIPS protocol specs
 - [nostr, a basic tour](https://github.com/rajarshimaitra/rust-nostr/blob/main/VISION.md), nostr intro by [@raj](https://github.com/rajarshimaitra)
 
-### Branle sites
-- [branle.fiatjaff.com](https://branle.fiatjaf.com/)
-- [branle.netlify.app](https://branle.netlify.app/)
+### Videos
+- [applications on nostr](https://www.youtube.com/watch?v=h2h94RCynIo), store and run applications in a decentralized manner
+- [nostr-twitter](https://www.youtube.com/watch?v=BpvjL6pAw7o), building a decentralised twitter on the NOSTR network
+- [nostr-twitter install guide](https://www.youtube.com/watch?v=G6xFOBWI7S8), production installation guide for nostr-twitter
+
+
+### Sites
+- [branle.fiatjaff.com](https://branle.fiatjaf.com/), fiatjaff's branle site
+- [branle.netlify.app](https://branle.netlify.app/), another branle site
+- [nostr.com](https://nostr.com/), nostr-twitter by Ben Arc
 
 
 ### Relays
@@ -25,7 +32,7 @@ nostr is an open protocol for censorship-resistant global networks created by [@
 
 ### Clients
 
-  - [branle](https://github.com/fiatjaf/branle), a Twitter-like client with chat (several live sites can be found at 
+  - [branle](https://github.com/fiatjaf/branle), a Twitter-like client with chat (several live sites can be found [above](#branle-sites))
   - [noscl](https://github.com/fiatjaf/noscli), a basic command-line client written in Go.
   - [nostr-chat](https://github.com/emeceve/nostr-chat), a desktop app written in Rust for direct encrypted chat.
   - [chastr](https://github.com/dolu89/chastr), a mobile directed encrypted chat app written in Xamarin.
@@ -42,3 +49,4 @@ nostr is an open protocol for censorship-resistant global networks created by [@
   - [nostr registry](https://codeberg.org/rsbondi/nostr-registry), a database of known relays with their uptime and NIP support tables.
   - [nostr-launch](https://codeberg.org/rsbondi/nostr-launch), a tool for launching a bunch of relays and clients locally for development and testing.
   - [nostr signer extension](https://github.com/fiatjaf/nos2x), browser extension for signing events on 3rd party site without sharing your private keys with them
+
