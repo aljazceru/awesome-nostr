@@ -48,4 +48,4 @@ nostr is an open protocol for censorship-resistant global networks created by [@
 
 ### Communities
   - [nostr telegram group](https://t.me/nostr_protocol), a telegram group for nostr protocol discussion.
-  - [nostr reddt](https://www.reddit.com/r/nostr/), a sub reddit for nostr related discussion.
+  - [nostr reddit](https://www.reddit.com/r/nostr/), a sub reddit for nostr related discussion.
