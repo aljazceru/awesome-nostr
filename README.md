@@ -6,12 +6,17 @@ nostr is an open protocol for censorship-resistant global networks created by [@
 - [protocol specification](https://github.com/fiatjaf/nostr/blob/master/nips/01.md), NIPS protocol specs
 - [nostr, a basic tour](https://github.com/rajarshimaitra/rust-nostr/blob/main/VISION.md), nostr intro by [@raj](https://github.com/rajarshimaitra)
 
-### Sites
+### Branle sites
 - [branle.fiatjaff.com](https://branle.fiatjaf.com/)
 - [branle.netlify.app](https://branle.netlify.app/)
 
 
 ### Relays
+- [nostr.rocks](https://nostr.rocks/)
+- [noster-pub.wellorder.net](https://nostr-pub.wellorder.net/)
+
+
+### Relay implementations
   - [NNostr](https://github.com/Kukks/NNostr), a C# Nostr relay.
   - [nostr-rs-relay](https://sr.ht/~gheartsfield/nostr-rs-relay/), a minimalistic relay written in Rust that saves data on SQLite.
   - [Relayer Basic](https://github.com/fiatjaf/relayer/tree/master/basic), a simple relay based on _relayer_ backed by Postgres.
@@ -21,7 +26,7 @@ nostr is an open protocol for censorship-resistant global networks created by [@
 
 ### Clients
 
-  - [branle](https://github.com/fiatjaf/branle), a Twitter-like client also with chat.
+  - [branle](https://github.com/fiatjaf/branle), a Twitter-like client with chat (several live sites can be found at 
   - [noscl](https://github.com/fiatjaf/noscli), a basic command-line client written in Go.
   - [nostr-chat](https://github.com/emeceve/nostr-chat), a desktop app written in Rust for direct encrypted chat.
   - [chastr](https://github.com/dolu89/chastr), a mobile directed encrypted chat app written in Xamarin.
