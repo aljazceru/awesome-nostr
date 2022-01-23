@@ -13,7 +13,7 @@ nostr is an open protocol for censorship-resistant global networks created by [@
 
 ### Sites
 - [branle.netlify.app](https://branle.netlify.app/), fiatjaf's branle site
-
+- [nostr.rocks](https://nostr.rocks/), another branle site
 
 ### Relays
 - [nostr relay registry](https://nostr-registry.netlify.app/), real-time checking of status of some known relays.
@@ -46,3 +46,6 @@ nostr is an open protocol for censorship-resistant global networks created by [@
   - [nostr-launch](https://codeberg.org/rsbondi/nostr-launch), a tool for launching a bunch of relays and clients locally for development and testing.
   - [nostr signer extension](https://github.com/fiatjaf/nos2x), browser extension for signing events on 3rd party site without sharing your private keys with them
 
+### Communities
+  - [nostr telegram group](https://t.me/nostr_protocol), a telegram group for nostr protocol discussion.
+  - [nostr reddt](https://www.reddit.com/r/nostr/), a sub reddit for nostr related discussion.
