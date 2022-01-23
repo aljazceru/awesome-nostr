@@ -16,7 +16,7 @@ nostr is an open protocol for censorship-resistant global networks created by [@
 - [branle.fiatjaff.com](https://branle.fiatjaf.com/), fiatjaff's branle site
 - [branle.netlify.app](https://branle.netlify.app/), another branle site
 - [nostr.com](https://nostr.com/), nostr-twitter by Ben Arc
-
+- [nostr.rocks](https://nostr.rocks/), another branle site
 
 ### Relays
 - [nostr relay registry](https://nostr-registry.netlify.app/), real-time checking of status of some known relays.
@@ -28,7 +28,7 @@ nostr is an open protocol for censorship-resistant global networks created by [@
   - [Relayer Basic](https://github.com/fiatjaf/relayer/tree/master/basic), a simple relay based on _relayer_ backed by Postgres.
   - [rsslay](https://github.com/fiatjaf/rsslay), a bridge that puts RSS feeds into Nostr.
   - [nodestr](https://github.com/Dolu89/nodestr-relay), A Node.js implementation.
-  - [expansive relay](https://github.com/fiatjaf/expensive-relay), a nostr relay that requires payment for registration 
+  - [expensive relay](https://github.com/fiatjaf/expensive-relay), a nostr relay that requires payment for registration 
 
 ### Clients
 
@@ -50,3 +50,6 @@ nostr is an open protocol for censorship-resistant global networks created by [@
   - [nostr-launch](https://codeberg.org/rsbondi/nostr-launch), a tool for launching a bunch of relays and clients locally for development and testing.
   - [nostr signer extension](https://github.com/fiatjaf/nos2x), browser extension for signing events on 3rd party site without sharing your private keys with them
 
+### Communities
+  - [nostr telegram group](https://t.me/nostr_protocol), a telegram group for nostr protocol discussion.
+  - [nostr reddt](https://www.reddit.com/r/nostr/), a sub reddit for nostr related discussion.
