@@ -1,5 +1,5 @@
 # awesome-nostr
-nostr is an open protocol for censorship-resistant global networks created by [@fiatjaff](https://github.com/fiatjaf)
+nostr is an open protocol for censorship-resistant global networks created by [@fiatjaf](https://github.com/fiatjaf)
 
 ### Protocol
 - [nostr](https://github.com/fiatjaf/nostr), main repo with specs
@@ -8,14 +8,11 @@ nostr is an open protocol for censorship-resistant global networks created by [@
 
 ### Videos
 - [applications on nostr](https://www.youtube.com/watch?v=h2h94RCynIo), store and run applications in a decentralized manner
+- [lightning hacksprint CCC](https://www.youtube.com/watch?v=olq8mA51_ng), an introductory chat about nostr
 - [nostr-twitter](https://www.youtube.com/watch?v=BpvjL6pAw7o), building a decentralised twitter on the NOSTR network
-- [nostr-twitter install guide](https://www.youtube.com/watch?v=G6xFOBWI7S8), production installation guide for nostr-twitter
-
 
 ### Sites
-- [branle.fiatjaff.com](https://branle.fiatjaf.com/), fiatjaff's branle site
-- [branle.netlify.app](https://branle.netlify.app/), another branle site
-- [nostr.com](https://nostr.com/), nostr-twitter by Ben Arc
+- [branle.netlify.app](https://branle.netlify.app/), fiatjaf's branle site
 
 
 ### Relays
@@ -28,15 +25,14 @@ nostr is an open protocol for censorship-resistant global networks created by [@
   - [Relayer Basic](https://github.com/fiatjaf/relayer/tree/master/basic), a simple relay based on _relayer_ backed by Postgres.
   - [rsslay](https://github.com/fiatjaf/rsslay), a bridge that puts RSS feeds into Nostr.
   - [nodestr](https://github.com/Dolu89/nodestr-relay), A Node.js implementation.
-  - [expansive relay](https://github.com/fiatjaf/expensive-relay), a nostr relay that requires payment for registration 
+  - [expensive relay](https://github.com/fiatjaf/expensive-relay), a nostr relay that requires payment for registration 
 
 ### Clients
 
   - [branle](https://github.com/fiatjaf/branle), a Twitter-like client with chat (several live sites can be found [above](#branle-sites))
-  - [noscl](https://github.com/fiatjaf/noscli), a basic command-line client written in Go.
-  - [nostr-chat](https://github.com/emeceve/nostr-chat), a desktop app written in Rust for direct encrypted chat.
+  - [noscl](https://github.com/fiatjaf/noscl), a basic command-line client written in Go.
+  - [loquaz](https://github.com/emeceve/loquaz), a desktop app written in Rust for direct encrypted chat.
   - [chastr](https://github.com/dolu89/chastr), a mobile directed encrypted chat app written in Xamarin.
-  - [nostr-twitter](https://github.com/arcbtc/nostr), a Twitter-like UI that also implements private direct messages.
 
 ### Libraries
   - [NNostr.Client](https://github.com/Kukks/NNostr), a C# Nostr library for use by clients.
