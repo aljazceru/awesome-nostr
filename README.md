@@ -15,6 +15,7 @@ nostr is an open protocol for censorship-resistant global networks created by [@
 - [branle.netlify.app](https://branle.netlify.app/), fiatjaf's branle site
 - [nostr.com](https://nostr.com/), another branle site
 - [nostr.rocks](https://nostr.rocks/), another branle site
+- [branle.wlvs.space](https://branle.wlvs.space/), another branle site
 
 ### Relays
 - [nostr relay registry](https://nostr-registry.netlify.app/), real-time checking of status of some known relays.
