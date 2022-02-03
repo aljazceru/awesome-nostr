@@ -38,6 +38,7 @@ nostr is an open protocol for censorship-resistant global networks created by [@
   - [noscl](https://github.com/fiatjaf/noscl), a basic command-line client written in Go.
   - [loquaz](https://github.com/emeceve/loquaz), a desktop app written in Rust for direct encrypted chat.
   - [chastr](https://github.com/dolu89/chastr), a mobile directed encrypted chat app written in Xamarin.
+  - [hanostr](https://github.com/prolic/hanostr), nostr client desktop app written in haskel.
 
 ### Libraries
   - [NNostr.Client](https://github.com/Kukks/NNostr), a C# Nostr library for use by clients.
