@@ -32,6 +32,7 @@ nostr is an open protocol for censorship-resistant global networks created by [@
   - [rsslay](https://github.com/fiatjaf/rsslay), a bridge that puts RSS feeds into Nostr.
   - [nodestr](https://github.com/Dolu89/nodestr-relay), A Node.js implementation.
   - [expensive relay](https://github.com/fiatjaf/expensive-relay), a nostr relay that requires payment for registration. 
+  - [me.untethr.nostr-relay](https://github.com/atdixon/me.untethr.nostr-relay), a nostr relay written in Clojure
 
 ### Clients
 
