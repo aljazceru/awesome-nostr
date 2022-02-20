@@ -57,6 +57,7 @@ nostr is an open protocol for censorship-resistant global networks created by [@
   - [nos2x - nostr signer extension](https://github.com/fiatjaf/nos2x), browser extension for signing events on 3rd party site without sharing your private keys with them.
   - [nostr GitHub Action](https://github.com/theborakompanioni/nostr-action), send events from GitHub Actions.
   - [wen](https://github.com/fiatjaf/wen), website enhancer with nostr
+  - [nostrefresh](https://github.com/melvincarvalho/nostrefresh), simple refresh function for nostr web pages
 
 ### Communities
   - [nostr telegram group](https://t.me/nostr_protocol), a telegram group for nostr protocol discussion.
