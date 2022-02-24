@@ -43,6 +43,7 @@ nostr is an open protocol for censorship-resistant global networks created by [@
   - [chastr](https://github.com/dolu89/chastr), a mobile directed encrypted chat app written in Xamarin.
   - [hanostr](https://github.com/prolic/hanostr), nostr client desktop app written in haskel.
   - [nvote](https://github.com/rdbell/nvote), Nvote is a decentralized, vote-driven community similar to services like Reddit and HackerNews. Nvote is powered by nostr.
+  - [vanilla-js-nostr](https://github.com/supertestnet/vanilla-js-nostr),  A demo of posting and viewing a feed in nostr using vanilla javascript.
 
 ### Libraries
   - [NNostr.Client](https://github.com/Kukks/NNostr), a C# Nostr library for use by clients.
