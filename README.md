@@ -21,6 +21,7 @@ nostr is an open protocol for censorship-resistant global networks created by [@
 - [nvote.co](https://nvote.co/a), Nvote is an open-source, decentralized, vote-driven community similar to services like Reddit and HackerNews.
 - [nostr army knife](https://nostr-army-knife.netlify.app/), nostr army knife by fiatjaf.
 - [nashboard](https://nashboard.netlify.app/), a Nostr network dashboard with network statistics.
+- [anonroom](https://anonroom.netlify.app/), anonymous chatroom on nostr.
 
 ### Relays
 - [nostr relay registry](https://nostr-registry.netlify.app/), real-time checking of status of some known relays.
@@ -58,9 +59,10 @@ nostr is an open protocol for censorship-resistant global networks created by [@
   - [nostr-launch](https://codeberg.org/rsbondi/nostr-launch), a tool for launching a bunch of relays and clients locally for development and testing.
   - [nos2x - nostr signer extension](https://github.com/fiatjaf/nos2x), browser extension for signing events on 3rd party site without sharing your private keys with them.
   - [nostr GitHub Action](https://github.com/theborakompanioni/nostr-action), send events from GitHub Actions.
-  - [wen](https://github.com/fiatjaf/wen), website enhancer with nostr
-  - [nostrefresh](https://github.com/melvincarvalho/nostrefresh), simple refresh function for nostr web pages
-  - [nashboard](https://github.com/vinliao/nashboard), nostr network statistic 
+  - [wen](https://github.com/fiatjaf/wen), website enhancer with nostr.
+  - [nostrefresh](https://github.com/melvincarvalho/nostrefresh), simple refresh function for nostr web pages.
+  - [nashboard](https://github.com/vinliao/nashboard), nostr network statistic.
+  - [anonroom](https://github.com/vinliao/anonroom), anonymous chat room inside nostr
 
 ### Communities
   - [nostr telegram group](https://t.me/nostr_protocol), a telegram group for nostr protocol discussion.
