@@ -23,6 +23,7 @@ nostr is an open protocol for censorship-resistant global networks created by [@
 - [nashboard](https://nashboard.netlify.app/), a Nostr network dashboard with network statistics.
 - [anonroom](https://anonroom.netlify.app/), anonymous chatroom on nostr.
 - [alphaama](https://alphaama.com/), playground by [Tiago Balas](https://github.com/eskema)
+- [branle.orange.surf/](https://branle.orange.surf/), another branle site.
 
 ### Relays
 - [nostr relay registry](https://nostr-registry.netlify.app/), real-time checking of status of some known relays.
