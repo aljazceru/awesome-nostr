@@ -44,7 +44,7 @@ nostr is an open protocol for censorship-resistant global networks created by [@
   - [noscl](https://github.com/fiatjaf/noscl), a basic command-line client written in Go.
   - [loquaz](https://github.com/emeceve/loquaz), a desktop app written in Rust for direct encrypted chat.
   - [chastr](https://github.com/dolu89/chastr), a mobile directed encrypted chat app written in Xamarin.
-  - [FuTr](https://github.com/prolic/futr), nostr client desktop app written in haskel.
+  - [FuTr](https://github.com/prolic/futr), nostr client desktop app written in Haskell.
   - [nvote](https://github.com/rdbell/nvote), Nvote is a decentralized, vote-driven community similar to services like Reddit and HackerNews. Nvote is powered by nostr.
   - [vanilla-js-nostr](https://github.com/supertestnet/vanilla-js-nostr),  A demo of posting and viewing a feed in nostr using vanilla javascript.
 
