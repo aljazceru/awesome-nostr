@@ -23,6 +23,7 @@ nostr is an open protocol for censorship-resistant global networks created by [@
 - [nashboard](https://nashboard.netlify.app/), a Nostr network dashboard with network statistics.
 - [alphaama](https://alphaama.com/), playground by [Tiago Balas](https://github.com/eskema)
 - [branle.orange.surf/](https://branle.orange.surf/), another branle site.
+- [astral](https://astral.ninja/), branle fork with global feed and UI makeover.
 
 ### Relays
 - [nostr relay registry](https://nostr-registry.netlify.app/), real-time checking of status of some known relays.
@@ -47,6 +48,7 @@ nostr is an open protocol for censorship-resistant global networks created by [@
   - [FuTr](https://github.com/prolic/futr), nostr client desktop app written in Haskell.
   - [nvote](https://github.com/rdbell/nvote), Nvote is a decentralized, vote-driven community similar to services like Reddit and HackerNews. Nvote is powered by nostr.
   - [vanilla-js-nostr](https://github.com/supertestnet/vanilla-js-nostr),  A demo of posting and viewing a feed in nostr using vanilla javascript.
+  - [astral](https://github.com/monlovesmango/astral), branle fork with global feed and UI makeover.
 
 ### Libraries
   - [NNostr.Client](https://github.com/Kukks/NNostr), a C# Nostr library for use by clients.
