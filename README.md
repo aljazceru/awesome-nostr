@@ -67,6 +67,7 @@ nostr is an open protocol for censorship-resistant global networks created by [@
   - [nashboard](https://github.com/vinliao/nashboard), nostr network statistic.
   - [anonroom](https://github.com/vinliao/anonroom), anonymous chat room inside nostr
   - [nostril](https://github.com/jb55/nostril), C cli tool for creating nostr events
+  - [nostr-rs-relay-compose](https://github.com/vdo/nostr-rs-relay-compose), a Docker compose deployment for nostr-rs-relay with SSL support based on Traefik.
 
 ### Communities
   - [nostr telegram group](https://t.me/nostr_protocol), a telegram group for nostr protocol discussion.
