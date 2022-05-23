@@ -24,6 +24,7 @@ nostr is an open protocol for censorship-resistant global networks created by [@
 - [alphaama](https://alphaama.com/), playground by [Tiago Balas](https://github.com/eskema)
 - [branle.orange.surf/](https://branle.orange.surf/), another branle site.
 - [astral](https://astral.ninja/), branle fork with global feed and UI makeover.
+- [Jester](https://jesterui.github.io/), Chess over nostr.
 
 ### Relays
 - [nostr relay registry](https://nostr-registry.netlify.app/), real-time checking of status of some known relays.
