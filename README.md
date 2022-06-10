@@ -2,8 +2,8 @@
 nostr is an open protocol for censorship-resistant global networks created by [@fiatjaf](https://github.com/fiatjaf).
 
 ### Protocol
-- [nostr](https://github.com/fiatjaf/nostr), main repo with specs.
-- [protocol specification](https://github.com/fiatjaf/nostr/blob/master/nips/01.md), NIPS protocol specs.
+- [nostr](https://github.com/nostr-protocol/nostr), main repo with specs.
+- [protocol specification](https://github.com/nostr-protocol/nips), NIPS protocol specs.
 - [nostr, a basic tour](https://github.com/rajarshimaitra/rust-nostr/blob/main/VISION.md), nostr intro by [@raj](https://github.com/rajarshimaitra).
 
 ### Videos
