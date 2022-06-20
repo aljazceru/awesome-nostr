@@ -50,6 +50,7 @@ nostr is an open protocol for censorship-resistant global networks created by [@
   - [nvote](https://github.com/rdbell/nvote), Nvote is a decentralized, vote-driven community similar to services like Reddit and HackerNews. Nvote is powered by nostr.
   - [vanilla-js-nostr](https://github.com/supertestnet/vanilla-js-nostr),  A demo of posting and viewing a feed in nostr using vanilla javascript.
   - [astral](https://github.com/monlovesmango/astral), branle fork with global feed and UI makeover.
+  - [damus](https://github.com/damus-io/damus), a twitter-like nostr client for iOS and MacOS.
 
 ### Libraries
   - [NNostr.Client](https://github.com/Kukks/NNostr), a C# Nostr library for use by clients.
