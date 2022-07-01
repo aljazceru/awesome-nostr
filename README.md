@@ -59,6 +59,7 @@ nostr is an open protocol for censorship-resistant global networks created by [@
   - [go-nostr](https://github.com/fiatjaf/go-nostr), a Go library that implements relay management, plus event encoding and signing utils.
   - [nostr-rs](https://github.com/futurepaul/nostr-rs), a Rust implementation of the nostr protocol.
   - [relayer](https://github.com/fiatjaf/relayer), a server framework for writing custom relays.
+  - [NostrPostr](https://github.com/Giszmo/NostrPostr), a Kotlin Nostr library for clients or relays
 
 ### Tools
   - [nostr registry](https://codeberg.org/rsbondi/nostr-registry), a database of known relays with their uptime and NIP support tables.
