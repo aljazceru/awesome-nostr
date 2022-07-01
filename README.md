@@ -59,7 +59,7 @@ nostr is an open protocol for censorship-resistant global networks created by [@
   - [go-nostr](https://github.com/fiatjaf/go-nostr), a Go library that implements relay management, plus event encoding and signing utils.
   - [nostr-rs](https://github.com/futurepaul/nostr-rs), a Rust implementation of the nostr protocol.
   - [relayer](https://github.com/fiatjaf/relayer), a server framework for writing custom relays.
-  - [NostrPostr](https://github.com/Giszmo/NostrPostr), a Kotlin Nostr library for clients or relays
+  - [NostrPostr](https://github.com/Giszmo/NostrPostr), a Kotlin Nostr library for clients or relays.
 
 ### Tools
   - [nostr registry](https://codeberg.org/rsbondi/nostr-registry), a database of known relays with their uptime and NIP support tables.
@@ -69,9 +69,10 @@ nostr is an open protocol for censorship-resistant global networks created by [@
   - [wen](https://github.com/fiatjaf/wen), browser extension for website enhancer with nostr.
   - [nostrefresh](https://github.com/melvincarvalho/nostrefresh), simple refresh function for nostr web pages.
   - [nashboard](https://github.com/vinliao/nashboard), nostr network statistic.
-  - [anonroom](https://github.com/vinliao/anonroom), anonymous chat room inside nostr
-  - [nostril](https://github.com/jb55/nostril), C cli tool for creating nostr events
+  - [anonroom](https://github.com/vinliao/anonroom), anonymous chat room inside nostr.
+  - [nostril](https://github.com/jb55/nostril), C cli tool for creating nostr events.
   - [nostr-rs-relay-compose](https://github.com/vdo/nostr-rs-relay-compose), a Docker compose deployment for nostr-rs-relay with SSL support based on Traefik.
+  - [tostr](https://github.com/slaninas/tostr), twitter to nostr bot.
 
 ### Communities
   - [nostr telegram group](https://t.me/nostr_protocol), a telegram group for nostr protocol discussion.
