@@ -13,7 +13,7 @@ nostr is an open protocol for censorship-resistant global networks created by [@
 
 ### Sites
 - [branle.netlify.app](https://branle.netlify.app/), fiatjaf's branle site.
-- [nostr.com](https://nostr.com/), another branle site.
+- [nostr.com](https://nostr.com/), a nostr web gateway for viewing events by their ID.
 - [nostr.rocks](https://nostr.rocks/), another branle site.
 - [branle.wlvs.space](https://branle.wlvs.space/), another branle site.
 - [branle tor](http://hbn4yzl3qkzi3qpse6nvljbduzcdecaq76tbcfjfzmoaik3q3uryxuad.onion/3bf0c63fcb93463407af97a5e5ee64fa883d107ef9e558472c4eb9aaaefa459d), branle on tor.
