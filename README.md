@@ -52,7 +52,8 @@ nostr is an open protocol for censorship-resistant global networks created by [@
   - [vanilla-js-nostr](https://github.com/supertestnet/vanilla-js-nostr),  A demo of posting and viewing a feed in nostr using vanilla javascript.
   - [astral](https://github.com/monlovesmango/astral), branle fork with global feed and UI makeover.
   - [damus](https://github.com/damus-io/damus), a twitter-like nostr client for iOS and MacOS.
-
+  - [more-speech](https://github.com/unclebob/more-speech), desktop client for nostr written in Clojure 
+  
 ### Libraries
   - [NNostr.Client](https://github.com/Kukks/NNostr), a C# Nostr library for use by clients.
   - [nostr-tools](https://github.com/fiatjaf/nostr-tools), a JavaScript client that abstracts the relay management code for use by clients.
