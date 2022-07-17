@@ -18,7 +18,7 @@ nostr is an open protocol for censorship-resistant global networks created by [@
 - [branle.wlvs.space](https://branle.wlvs.space/), another branle site.
 - [branle tor](http://hbn4yzl3qkzi3qpse6nvljbduzcdecaq76tbcfjfzmoaik3q3uryxuad.onion/3bf0c63fcb93463407af97a5e5ee64fa883d107ef9e558472c4eb9aaaefa459d), branle on tor.
 - [nostrandom.netlify.app](https://nostrandom.netlify.app/), generate publish-able Nostr event with random keys.
-- [nvote.co](https://nvote.co/a), Nvote is an open-source, decentralized, vote-driven community similar to services like Reddit and HackerNews.
+- [nvote.co](https://nvote.co/), Nvote is an open-source, decentralized, vote-driven community similar to services like Reddit and HackerNews.
 - [nostr army knife](https://nostr-army-knife.netlify.app/), nostr army knife by fiatjaf.
 - [nashboard](https://nashboard.netlify.app/), a Nostr network dashboard with network statistics.
 - [alphaama](https://alphaama.com/), playground by [Tiago Balas](https://github.com/eskema)
