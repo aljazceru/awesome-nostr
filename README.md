@@ -26,6 +26,7 @@ nostr is an open protocol for censorship-resistant global networks created by [@
 - [astral](https://astral.ninja/), branle fork with global feed and UI makeover.
 - [Jester](https://jesterui.github.io/), Chess over nostr.
 - [Sendstr](https://sendstr.com/), shared clipboard between devices over nostr.
+- [Minds](https://www.minds.com/), open source social network. Supports reading and creating posts using the Nostr protocol.
 
 ### Relays
 - [nostr relay registry](https://nostr-registry.netlify.app/), real-time checking of status of some known relays.
@@ -40,6 +41,8 @@ nostr is an open protocol for censorship-resistant global networks created by [@
   - [nodestr](https://github.com/Dolu89/nodestr-relay), A Node.js implementation.
   - [expensive relay](https://github.com/fiatjaf/expensive-relay), a nostr relay that requires payment for registration. 
   - [me.untethr.nostr-relay](https://github.com/atdixon/me.untethr.nostr-relay), a nostr relay written in Clojure
+  - [Minds Nostr Relay](https://gitlab.com/minds/infrastructure/nostr-relay), Nostr relay for [Minds](https://www.minds.com) (open source social network).
+    - [Minds Engine - Nostr](https://gitlab.com/minds/engine/-/tree/master/Core/Nostr), relevant Minds API code for reading/writing Minds posts using Nostr.
 
 ### Clients
 
