@@ -50,7 +50,6 @@ them:
 - [Sendstr](https://sendstr.com/) - shared clipboard between devices over nostr
 - [noscl](https://github.com/fiatjaf/noscl) - a basic command-line client written in Go
 - [loquaz](https://github.com/emeceve/loquaz) - a desktop app written in Rust for direct encrypted chat
-- [chastr](https://github.com/dolu89/chastr) - a mobile directed encrypted chat app written in Xamarin
   
 ## Libraries
 - [NNostr.Client](https://github.com/Kukks/NNostr) - a C# Nostr library for use by clients
