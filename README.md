@@ -5,7 +5,7 @@ created by [@fiatjaf](https://github.com/fiatjaf).
 
 ## Protocol
 - [nostr](https://github.com/fiatjaf/nostr) - overview and FAQ
-- [NIPs](https://github.com/nostr-protocol/nips) - the "**N**ostr **I**mplementation **P**ossibilities**" describe the protocol in technical detail
+- [NIPs](https://github.com/nostr-protocol/nips) - the "**N**ostr **I**mplementation **P**ossibilities" describe the protocol in technical detail
 - [nostr, a basic tour](https://github.com/rajarshimaitra/rust-nostr/blob/main/VISION.md) - an intro to nostr
 
 ## Relays
