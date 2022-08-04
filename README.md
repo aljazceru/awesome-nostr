@@ -58,6 +58,7 @@ them:
 - [nostr-rs](https://github.com/futurepaul/nostr-rs) - a Rust implementation of the nostr protocol
 - [relayer](https://github.com/fiatjaf/relayer) - a server framework for writing custom relays
 - [NostrPostr](https://github.com/Giszmo/NostrPostr) - a Kotlin Nostr library for clients or relays
+- [python-nostr](https://github.com/jeffthibault/python-nostr) - a python library for making clients
 
 ## Tools
 - [nostr registry](https://codeberg.org/rsbondi/nostr-registry) - a database of known relays with their uptime and NIP support tables
