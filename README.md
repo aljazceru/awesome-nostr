@@ -23,6 +23,7 @@ of the public instances.
 - [Minds Nostr Relay](https://gitlab.com/minds/infrastructure/nostr-relay) - a relay for [Minds](https://www.minds.com), an open source social network
   - [Minds Engine - Nostr](https://gitlab.com/minds/engine/-/tree/master/Core/Nostr) - relevant Minds API code for reading/writing Minds posts using Nostr
 - [NostrPostr Relay](https://github.com/Giszmo/NostrPostr/tree/master/NostrRelay) - a Kotlin Relay supporting both SQLite and Postgresql
+- [nostrypy](https://github.com/monty888/nostrpy) - relay, client and other tooling in python 
 
 ### Instances
 Instances are plenty and their availability may vary but these projects track
