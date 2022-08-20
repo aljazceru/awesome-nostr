@@ -52,7 +52,8 @@ them:
 - [Sendstr](https://sendstr.com/) - shared clipboard between devices over nostr
 - [noscl](https://github.com/fiatjaf/noscl) - a basic command-line client written in Go
 - [loquaz](https://github.com/emeceve/loquaz) - a desktop app written in Rust for direct encrypted chat
-  
+- [nostr console](https://github.com/vishalxl/nostr_console) - a nostr command line client written in Dart. Binaries available for Windows, Linux and MacOS.
+
 ## Libraries
 - [NNostr.Client](https://github.com/Kukks/NNostr) - a C# Nostr library for use by clients
 - [nostr-tools](https://github.com/fiatjaf/nostr-tools) - a JavaScript client that abstracts the relay management code for use by clients
