@@ -80,6 +80,7 @@ them:
 - [nostrandom.netlify.app](https://nostrandom.netlify.app/) - generate publish-able Nostr event with random keys
 - [nashboard](https://nashboard.netlify.app/) - a Nostr network dashboard with network statistics
 - [nostr army knife](https://nostr-army-knife.netlify.app/) - nostr army knife by fiatjaf
+- [joinstr](https://github.com/1440000bytes/joinstr) - coinjoin implementation using nostr
 
 ## Community
 Outside of nostr itself, you find the community on:
