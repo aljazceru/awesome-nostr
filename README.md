@@ -59,6 +59,7 @@ them:
 - [nostr-tools](https://github.com/fiatjaf/nostr-tools) - a JavaScript client that abstracts the relay management code for use by clients
 - [go-nostr](https://github.com/fiatjaf/go-nostr) - a Go library that implements relay management, plus event encoding and signing utils
 - [nostr-rs](https://github.com/futurepaul/nostr-rs) - a Rust implementation of the nostr protocol
+  - [ok300/nostr-rs](https://github.com/ok300/nostr-rs) - a more maintained fork of nostr-rs
 - [relayer](https://github.com/fiatjaf/relayer) - a server framework for writing custom relays
 - [NostrPostr](https://github.com/Giszmo/NostrPostr) - a Kotlin Nostr library for clients or relays
 - [python-nostr](https://github.com/jeffthibault/python-nostr) - a python library for making clients
