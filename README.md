@@ -91,3 +91,4 @@ Outside of nostr itself, you find the community on:
 ## Other links
 - [nostr on YouTube](https://www.youtube.com/results?search_query=nostr+protocol)
 - [vanilla-js-nostr](https://github.com/supertestnet/vanilla-js-nostr) - a demo of posting and viewing a feed in nostr using vanilla javascript
+- [nostr workshop with super testnet](https://www.youtube.com/watch?v=HbicnlCXg_Y) 
