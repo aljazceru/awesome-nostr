@@ -4,7 +4,7 @@
 created by [@fiatjaf](https://github.com/fiatjaf).
 
 ## Protocol
-- [nostr](https://github.com/fiatjaf/nostr) - overview and FAQ
+- [nostr](https://github.com/nostr-protocol/nostr) - overview and FAQ
 - [NIPs](https://github.com/nostr-protocol/nips) - the "**N**ostr **I**mplementation **P**ossibilities" describe the protocol in technical detail
 - [nostr, a basic tour](https://github.com/rajarshimaitra/rust-nostr/blob/main/VISION.md) - an intro to nostr
 
@@ -53,6 +53,8 @@ them:
 - [noscl](https://github.com/fiatjaf/noscl) - a basic command-line client written in Go
 - [loquaz](https://github.com/emeceve/loquaz) - a desktop app written in Rust for direct encrypted chat
 - [nostr console](https://github.com/vishalxl/nostr_console) - a nostr command line client written in Dart. Binaries available for Windows, Linux and MacOS.
+- [anigma](https://github.com/brilliancebitcoin/nostrgram) - A clone of telegram built on nostr
+- [ArcadeCity](https://github.com/ArcadeCity/app) - Public group chats and P2P services (WIP) over nostr
 
 ## Libraries
 - [NNostr.Client](https://github.com/Kukks/NNostr) - a C# Nostr library for use by clients
