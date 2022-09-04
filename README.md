@@ -85,7 +85,7 @@ them:
 - [nostr army knife](https://nostr-army-knife.netlify.app/) - nostr army knife by fiatjaf
 - [joinstr](https://github.com/1440000bytes/joinstr) - coinjoin implementation using nostr
 - [smtp nostr gateway ](https://github.com/Cameri/smtp-nostr-gateway) - a bridge that forwards emails to pubkeys as encrypted direct messages
-- [ndxstr](https://github.com/ArcadeCity/ndxstr) - nostr's layer 2 indexing nodes
+- [ndxstr](https://github.com/ArcadeCity/ndxstr) - nostr's layer 2 indexing nodes, with more advanced querying capability than currently supported by relays
 
 ## Community
 Outside of nostr itself, you find the community on:
