@@ -84,6 +84,7 @@ them:
 - [nashboard](https://nashboard.netlify.app/) - a Nostr network dashboard with network statistics
 - [nostr army knife](https://nostr-army-knife.netlify.app/) - nostr army knife by fiatjaf
 - [joinstr](https://github.com/1440000bytes/joinstr) - coinjoin implementation using nostr
+- [smtp nostr gateway ](https://github.com/Cameri/smtp-nostr-gateway) - a bridge that forwards emails to pubkeys as encrypted direct messages
 
 ## Community
 Outside of nostr itself, you find the community on:
