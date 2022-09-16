@@ -87,6 +87,7 @@ them:
 - [joinstr](https://github.com/1440000bytes/joinstr) - coinjoin implementation using nostr
 - [smtp nostr gateway ](https://github.com/Cameri/smtp-nostr-gateway) - a bridge that forwards emails to pubkeys as encrypted direct messages
 - [ndxstr](https://github.com/ArcadeCity/ndxstr) - nostr's layer 2 indexing nodes, with more advanced querying capability than currently supported by relays
+- [nostrillery](https://github.com/Cameri/nostrillery) - a tool for running performance tests against Nostr relays
 
 ## Community
 Outside of nostr itself, you find the community on:
