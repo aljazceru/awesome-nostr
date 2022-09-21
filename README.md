@@ -56,6 +56,7 @@ them:
 - [anigma](https://github.com/brilliancebitcoin/nostrgram) - A clone of telegram built on nostr
 - [ArcadeCity](https://github.com/ArcadeCity/app) - Public group chats and P2P services (WIP) over nostr
 - [second exchange](https://github.com/cynsar-foundation/second.exchange) - an experiment to work out something of like medium , something of creator economy where users are rewarded for engaging quality discussion and most importantly engaging in governance related discussion.
+- [scalastr](https://github.com/benthecarman/scalastr) - A barebones nostr client written in scala
 
 ## Libraries
 - [NNostr.Client](https://github.com/Kukks/NNostr) - a C# Nostr library for use by clients
