@@ -68,6 +68,7 @@ them:
 - [NostrPostr](https://github.com/Giszmo/NostrPostr) - a Kotlin Nostr library for clients or relays
 - [python-nostr](https://github.com/jeffthibault/python-nostr) - a python library for making clients
 - [nostr-bot](https://github.com/slaninas/nostr-bot) - a Rust library for writing bots
+- [NostrKit](https://github.com/cnixbtc/NostrKit) - a Swift library for interacting with relays
 
 ## Tools
 - [nostr registry](https://codeberg.org/rsbondi/nostr-registry) - a database of known relays with their uptime and NIP support tables
