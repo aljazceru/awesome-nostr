@@ -58,6 +58,9 @@ them:
 - [second exchange](https://github.com/cynsar-foundation/second.exchange) - an experiment to work out something of like medium , something of creator economy where users are rewarded for engaging quality discussion and most importantly engaging in governance related discussion.
 - [scalastr](https://github.com/benthecarman/scalastr) - A barebones nostr client written in scala
 
+### List of clients and/or reviews
+- Feature [comparison of Nostr clients as of mid-2022](https://github.com/vishalxl/Nostr-Clients-Features-List)
+
 ## Libraries
 - [NNostr.Client](https://github.com/Kukks/NNostr) - a C# Nostr library for use by clients
 - [nostr-tools](https://github.com/fiatjaf/nostr-tools) - a JavaScript client that abstracts the relay management code for use by clients
