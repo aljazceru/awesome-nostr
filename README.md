@@ -58,6 +58,7 @@ them:
 - [ArcadeCity](https://github.com/ArcadeCity/app) - Public group chats and P2P services (WIP) over nostr
 - [second exchange](https://github.com/cynsar-foundation/second.exchange) - an experiment to work out something of like medium , something of creator economy where users are rewarded for engaging quality discussion and most importantly engaging in governance related discussion.
 - [scalastr](https://github.com/benthecarman/scalastr) - A barebones nostr client written in scala
+- [Nostros](https://github.com/KoalaSat/nostros) - A nostr mobile client for Android
 
 ### Client reviews and/or comparisons
 - Feature [comparison of Nostr clients as of mid-2022](https://github.com/vishalxl/Nostr-Clients-Features-List)
