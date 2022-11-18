@@ -68,6 +68,7 @@ them:
 - [NNostr.Client](https://github.com/Kukks/NNostr) - a C# Nostr library for use by clients
 - [nostr-tools](https://github.com/fiatjaf/nostr-tools) - a JavaScript client that abstracts the relay management code for use by clients
 - [go-nostr](https://github.com/fiatjaf/go-nostr) - a Go library that implements relay management, plus event encoding and signing utils
+- [nostr_rust](https://github.com/0xtlt/nostr_rust) - Functional Rust implementation of the nostr protocol
 - [nostr-rs](https://github.com/futurepaul/nostr-rs) - a Rust implementation of the nostr protocol
   - [ok300/nostr-rs](https://github.com/ok300/nostr-rs) - a more maintained fork of nostr-rs
 - [nostr-rs-sdk](https://github.com/yukibtc/nostr-rs-sdk) - Nostr `protocol` implementation, `SDK` and `FFI` written in Rust
