@@ -60,6 +60,8 @@ them:
 - [scalastr](https://github.com/benthecarman/scalastr) - A barebones nostr client written in scala
 - [Nostros](https://github.com/KoalaSat/nostros) - A nostr mobile client for Android
 - [NostrEmitter](https://github.com/cmdruid/nostr-emitter)- Simple E2E encrypted client and EventEmitter object.
+- [Lightning.Pub](https://github.com/shocknet/Lightning.Pub)- A nostr daemon for Lightning nodes.
+- [shockwallet](https://github.com/shocknet/wallet2)- A Lightning wallet that uses nostr and lnurl to connect to nodes.
 
 ### Client reviews and/or comparisons
 - Feature [comparison of Nostr clients as of mid-2022](https://github.com/vishalxl/Nostr-Clients-Features-List)
