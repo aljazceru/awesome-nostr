@@ -100,6 +100,7 @@ them:
 - [ndxstr](https://github.com/ArcadeCity/ndxstr) - nostr's layer 2 indexing nodes, with more advanced querying capability than currently supported by relays
 - [nostrillery](https://github.com/Cameri/nostrillery) - a tool for running performance tests against Nostr relays
 - [nostr-terminal](https://github.com/cmdruid/nostr-terminal) - SSH-like access to your machine via web terminal, powered by Nostr.
+- [rana](https://github.com/grunch/rana) - Nostr mining pubkey with multi threading
 
 ## Community
 Outside of nostr itself, you find the community on:
