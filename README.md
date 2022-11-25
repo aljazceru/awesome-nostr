@@ -32,7 +32,7 @@ Instances are plenty and their availability may vary but these projects track
 them:
 - [nostr relay registry](https://nostr-registry.netlify.app/) - real-time checking of status of some known relays
 - [nostr.info](https://nostr.info/) - real-time checking of status of some known relays
-- [nostr.watch](http://nostr.watch) - real-time checking of status of some known relays with advanced checks.
+- [nostr.watch](https://nostr.watch) - real-time checking of status of some known relays with advanced checks.
 
 ## Clients
 - [branle](https://github.com/fiatjaf/branle) - a Twitter-like client with chat. Some instances:
