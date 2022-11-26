@@ -82,6 +82,7 @@ them:
 - [NostrKit](https://github.com/cnixbtc/NostrKit) - a Swift library for interacting with relays
 
 ## Tools
+- [git-nostr-tools](http://git.jb55.com/git-nostr-tools) - A cli tool for sending code patches over nostr
 - [nostr registry](https://codeberg.org/rsbondi/nostr-registry) - a database of known relays with their uptime and NIP support tables
 - [nostr-fzf](https://github.com/Cameri/nostr-fzf) - Nostr Directory; a tool for searching usernames and channels
 - [nostr-notify](https://github.com/jb55/nostr-notify) - desktop nostr notifications using libnotify
