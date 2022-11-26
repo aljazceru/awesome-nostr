@@ -71,6 +71,7 @@ them:
 - [nostr-tools](https://github.com/fiatjaf/nostr-tools) - a JavaScript client that abstracts the relay management code for use by clients
 - [go-nostr](https://github.com/fiatjaf/go-nostr) - a Go library that implements relay management, plus event encoding and signing utils
 - [nostr_rust](https://github.com/0xtlt/nostr_rust) - Functional Rust implementation of the nostr protocol
+- [nostr-js](https://github.com/jb55/nostr-js) - a javascript implementation of the nostr protocol
 - [nostr-rs](https://github.com/futurepaul/nostr-rs) - a Rust implementation of the nostr protocol
   - [ok300/nostr-rs](https://github.com/ok300/nostr-rs) - a more maintained fork of nostr-rs
 - [nostr-rs-sdk](https://github.com/yukibtc/nostr-rs-sdk) - Nostr `protocol` implementation, `SDK` and `FFI` written in Rust
@@ -81,8 +82,11 @@ them:
 - [NostrKit](https://github.com/cnixbtc/NostrKit) - a Swift library for interacting with relays
 
 ## Tools
+- [git-nostr-tools](http://git.jb55.com/git-nostr-tools) - A cli tool for sending code patches over nostr
+- [nostr-cln-events](http://git.jb55.com/nostr-cln-events) - A CLN plugin to push clightning node events to nostr
 - [nostr registry](https://codeberg.org/rsbondi/nostr-registry) - a database of known relays with their uptime and NIP support tables
 - [nostr-fzf](https://github.com/Cameri/nostr-fzf) - Nostr Directory; a tool for searching usernames and channels
+- [nostr-notify](https://github.com/jb55/nostr-notify) - desktop nostr notifications using libnotify
 - [nostr-launch](https://codeberg.org/rsbondi/nostr-launch) - a tool for launching a bunch of relays and clients locally for development and testing
 - [nos2x - nostr signer extension](https://github.com/fiatjaf/nos2x) - a browser extension for signing events on 3rd party site without sharing your private keys with them
 - [nostr GitHub Action](https://github.com/theborakompanioni/nostr-action) - send events from GitHub Actions
