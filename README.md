@@ -80,7 +80,6 @@ them:
 - [python-nostr](https://github.com/jeffthibault/python-nostr) - a python library for making clients
 - [nostr-bot](https://github.com/slaninas/nostr-bot) - a Rust library for writing bots
 - [NostrKit](https://github.com/cnixbtc/NostrKit) - a Swift library for interacting with relays
-- [nostr-js](http://github.com/jb55/nostr-js) - A javascript library for interacting with relays and relay pools. 
 - [nostr-relay-inspector](https://github.com/dskvr/nostr-relay-inspector) - A library that returns useful information about relays based on nostr-js
 
 ## Tools
