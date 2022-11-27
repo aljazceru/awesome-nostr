@@ -32,6 +32,7 @@ Instances are plenty and their availability may vary but these projects track
 them:
 - [nostr relay registry](https://nostr-registry.netlify.app/) - real-time checking of status of some known relays
 - [nostr.info](https://nostr.info/) - real-time checking of status of some known relays
+- [nostr.watch](https://nostr.watch) - real-time checking of status of some known relays with advanced checks.
 
 ## Clients
 - [branle](https://github.com/fiatjaf/branle) - a Twitter-like client with chat. Some instances:
@@ -80,6 +81,7 @@ them:
 - [python-nostr](https://github.com/jeffthibault/python-nostr) - a python library for making clients
 - [nostr-bot](https://github.com/slaninas/nostr-bot) - a Rust library for writing bots
 - [NostrKit](https://github.com/cnixbtc/NostrKit) - a Swift library for interacting with relays
+- [nostr-relay-inspector](https://github.com/dskvr/nostr-relay-inspector) - A library that returns useful information about relays based on nostr-js
 
 ## Tools
 - [git-nostr-tools](http://git.jb55.com/git-nostr-tools) - A cli tool for sending code patches over nostr
