@@ -109,6 +109,7 @@ them:
 - [nostrillery](https://github.com/Cameri/nostrillery) - a tool for running performance tests against Nostr relays
 - [nostr-terminal](https://github.com/cmdruid/nostr-terminal) - SSH-like access to your machine via web terminal, powered by Nostr.
 - [rana](https://github.com/grunch/rana) - Nostr mining pubkey with multi threading
+- [nostreq](https://github.com/blakejakopovic/nostreq) - Nostr relay event request generator
 
 ## Community
 Outside of nostr itself, you find the community on:
