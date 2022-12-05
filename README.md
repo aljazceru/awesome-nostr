@@ -111,6 +111,7 @@ them:
 - [nostr-terminal](https://github.com/cmdruid/nostr-terminal) - SSH-like access to your machine via web terminal, powered by Nostr.
 - [nostcat](https://github.com/blakejakopovic/nostcat) - cat-like nostr client for scripting and debugging written in Rust
 - [rana](https://github.com/grunch/rana) - Nostr mining pubkey with multi threading
+- [nostreq](https://github.com/blakejakopovic/nostreq) - Nostr relay event request generator
 
 ## Community
 Outside of nostr itself, you find the community on:
