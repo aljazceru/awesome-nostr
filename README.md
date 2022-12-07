@@ -112,6 +112,7 @@ them:
 - [rana](https://github.com/grunch/rana) - Nostr mining pubkey with multi threading
 - [nostreq](https://github.com/blakejakopovic/nostreq) - Nostr relay event request generator
 - [nostr.io](https://nostr.io/) - network statistics with last published notes, top 50 publishers and top 50 followed users
+- [nostr-commander](https://github.com/8go/nostr-commander-rs) - simple but convenient CLI-based Nostr app for following users, sending DMs, etc.
 
 ## Community
 Outside of nostr itself, you find the community on:
