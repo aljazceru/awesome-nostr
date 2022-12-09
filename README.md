@@ -64,6 +64,8 @@ them:
 - [Lightning.Pub](https://github.com/shocknet/Lightning.Pub)- A nostr daemon for Lightning nodes.
 - [shockwallet](https://github.com/shocknet/wallet2)- A Lightning wallet that uses nostr and lnurl to connect to nodes.
 - [coracle](https://github.com/staab/coracle) - A nostr web client
+- [nostrweb](https://git.qcode.ch/nostr/nostrweb) - another nostr web client in vanilla JS
+  - [nostr.ch](https://nostr.ch/) - live instance
 
 ### Client reviews and/or comparisons
 - Feature [comparison of Nostr clients as of mid-2022](https://github.com/vishalxl/Nostr-Clients-Features-List)
