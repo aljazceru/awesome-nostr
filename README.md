@@ -66,6 +66,7 @@ them:
 - [coracle](https://github.com/staab/coracle) - A nostr web client
 - [nostrweb](https://git.qcode.ch/nostr/nostrweb) - another nostr web client in vanilla JS
   - [nostr.ch](https://nostr.ch/) - live instance
+- [Bija](https://github.com/BrightonBTC/bija) - A desktop client written python. Currently Linux only.
 
 ### Client reviews and/or comparisons
 - Feature [comparison of Nostr clients as of mid-2022](https://github.com/vishalxl/Nostr-Clients-Features-List)
