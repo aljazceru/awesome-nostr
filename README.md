@@ -78,7 +78,6 @@ them:
 - [nostr_rust](https://github.com/0xtlt/nostr_rust) - Functional Rust implementation of the nostr protocol
 - [nostr-js](https://github.com/jb55/nostr-js) - a javascript implementation of the nostr protocol
 - [nostr-rs](https://github.com/futurepaul/nostr-rs) - a Rust implementation of the nostr protocol
-  - [ok300/nostr-rs](https://github.com/ok300/nostr-rs) - a more maintained fork of nostr-rs
 - [nostr-rs-sdk](https://github.com/yukibtc/nostr-rs-sdk) - Nostr `protocol` implementation, `SDK` and `FFI` written in Rust
 - [relayer](https://github.com/fiatjaf/relayer) - a server framework for writing custom relays
 - [NostrPostr](https://github.com/Giszmo/NostrPostr) - a Kotlin Nostr library for clients or relays
