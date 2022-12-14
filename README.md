@@ -17,7 +17,6 @@ of the public instances.
 - [NNostr](https://github.com/Kukks/NNostr) - a C# relay
 - [nostr-rs-relay](https://sr.ht/~gheartsfield/nostr-rs-relay/) - a minimalistic relay written in Rust that saves data on SQLite
 - [Relayer Basic](https://github.com/fiatjaf/relayer/tree/master/basic) - a simple relay based on _relayer_ backed by Postgres
-- [rsslay](https://github.com/fiatjaf/rsslay) - a bridge that puts RSS feeds into Nostr
 - [nodestr](https://github.com/Dolu89/nodestr-relay) - a Node.js implementation
 - [expensive relay](https://github.com/fiatjaf/expensive-relay) - a relay that requires payment for registration
 - [me.untethr.nostr-relay](https://github.com/atdixon/me.untethr.nostr-relay) - a relay written in Clojure
@@ -87,6 +86,11 @@ them:
 - [NostrKit](https://github.com/cnixbtc/NostrKit) - a Swift library for interacting with relays
 - [nostr-relay-inspector](https://github.com/dskvr/nostr-relay-inspector) - A library that returns useful information about relays based on nostr-js
 
+## Bridges and Gateways
+- [rsslay](https://github.com/fiatjaf/rsslay) - a bridge that puts RSS feeds into Nostr
+- [smtp nostr gateway ](https://github.com/Cameri/smtp-nostr-gateway) - a bridge that forwards emails to pubkeys as encrypted direct messages
+- [matrix-nostr-bridge](https://github.com/8go/matrix-nostr-bridge) a simple Matrix-to-Nostr or Nostr-to-Matrix bridge
+
 ## Tools
 - [git-nostr-tools](http://git.jb55.com/git-nostr-tools) - A cli tool for sending code patches over nostr
 - [nostr-cln-events](http://git.jb55.com/nostr-cln-events) - A CLN plugin to push clightning node events to nostr
@@ -107,7 +111,6 @@ them:
 - [nashboard](https://github.com/vinliao/nashboard) and [here](https://nashboard.space/) - a Nostr network dashboard with network statistics
 - [nostr army knife](https://nostr-army-knife.netlify.app/) - nostr army knife by fiatjaf
 - [joinstr](https://github.com/1440000bytes/joinstr) - coinjoin implementation using nostr
-- [smtp nostr gateway ](https://github.com/Cameri/smtp-nostr-gateway) - a bridge that forwards emails to pubkeys as encrypted direct messages
 - [ndxstr](https://github.com/ArcadeCity/ndxstr) - nostr's layer 2 indexing nodes, with more advanced querying capability than currently supported by relays
 - [nostrillery](https://github.com/Cameri/nostrillery) - a tool for running performance tests against Nostr relays
 - [nostr-terminal](https://github.com/cmdruid/nostr-terminal) - SSH-like access to your machine via web terminal, powered by Nostr.
