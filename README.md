@@ -100,7 +100,6 @@ them:
 - [nostr-launch](https://codeberg.org/rsbondi/nostr-launch) - a tool for launching a bunch of relays and clients locally for development and testing
 - [nos2x - nostr signer extension](https://github.com/fiatjaf/nos2x) - a browser extension for signing events on 3rd party site without sharing your private keys with them
 - [nostr GitHub Action](https://github.com/theborakompanioni/nostr-action) - send events from GitHub Actions
-- [wen](https://github.com/fiatjaf/wen) - browser extension for website enhancer with nostr
 - [nostrefresh](https://github.com/melvincarvalho/nostrefresh) - simple refresh function for nostr web pages
 - [anonroom](https://github.com/vinliao/anonroom) - anonymous chat room inside nostr
 - [nostril](https://github.com/jb55/nostril) - C cli tool for creating nostr events
@@ -119,6 +118,13 @@ them:
 - [nostreq](https://github.com/blakejakopovic/nostreq) - Nostr relay event request generator
 - [nostr.io](https://nostr.io/) - network statistics with last published notes, top 50 publishers and top 50 followed users
 - [nostr-commander](https://github.com/8go/nostr-commander-rs) - simple but convenient CLI-based Nostr app for following users, sending DMs, etc.
+
+## Browser extensions
+Allow you to sign Nostr events on web-apps without having to give them your keys.
+ - [Alby](https://getalby.com) - Bitcoin Lightning app with nostr support
+ - [nos2x](https://github.com/fiatjaf/nos2x) - Nostr Signer Extension
+ - [wen](https://github.com/fiatjaf/wen) - browser extension for website enhancer with nostr
+
 
 ## Community
 Outside of nostr itself, you find the community on:
