@@ -3,6 +3,6 @@ plugins:
 - jekyll-remote-theme
 
 
-title: Nostr 
-description: “nostr” stands for “Notes and Other Stuff Transmitted by Relays” and is an open protocol for censorship-resistant global networks
+#title: Nostr
+#description: “nostr” stands for “Notes and Other Stuff Transmitted by Relays” and is an open protocol for censorship-resistant global networks
 show_downloads: false
