@@ -124,7 +124,7 @@ Allow you to sign Nostr events on web-apps without having to give them your keys
  - [Alby](https://getalby.com) - Bitcoin Lightning app with nostr support
  - [nos2x](https://github.com/fiatjaf/nos2x) - Nostr Signer Extension
  - [wen](https://github.com/fiatjaf/wen) - browser extension for website enhancer with nostr
-
+ - [Blockcore](https://github.com/block-core/blockcore-wallet) - Multi wallet browser extension with nostr support
 
 ## Community
 Outside of nostr itself, you find the community on:
