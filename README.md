@@ -20,10 +20,10 @@ of the public instances.
 - [nodestr](https://github.com/Dolu89/nodestr-relay) - a Node.js implementation
 - [expensive relay](https://github.com/fiatjaf/expensive-relay) - a relay that requires payment for registration
 - [me.untethr.nostr-relay](https://github.com/atdixon/me.untethr.nostr-relay) - a relay written in Clojure
-- [Minds Nostr Relay](https://gitlab.com/minds/infrastructure/nostr-relay) - a relay for [Minds](https://www.minds.com), an open source social network
+- [Minds Nostr Relay](https://gitlab.com/minds/infrastructure/nostr-relay) - a relay for [Minds](https://www.minds.com), an open-source social network
   - [Minds Engine - Nostr](https://gitlab.com/minds/engine/-/tree/master/Core/Nostr) - relevant Minds API code for reading/writing Minds posts using Nostr
 - [NostrPostr Relay](https://github.com/Giszmo/NostrPostr/tree/master/NostrRelay) - a Kotlin Relay supporting both SQLite and Postgresql
-- [nostrypy](https://github.com/monty888/nostrpy) - relay, client and other tooling in python 
+- [nostrypy](https://github.com/monty888/nostrpy) - relay, client, and other tooling in python 
 - [nostr-ts-relay](https://github.com/Cameri/nostr-ts-relay) - a nostr relay written in Typescript backed by PostgreSQL
 
 ### Instances
@@ -53,10 +53,10 @@ them:
 - [Sendstr](https://sendstr.com/) - shared clipboard between devices over nostr
 - [noscl](https://github.com/fiatjaf/noscl) - a basic command-line client written in Go
 - [loquaz](https://github.com/emeceve/loquaz) - a desktop app written in Rust for direct encrypted chat
-- [nostr console](https://github.com/vishalxl/nostr_console) - a nostr command line client written in Dart. Binaries available for Windows, Linux and MacOS.
+- [nostr console](https://github.com/vishalxl/nostr_console) - a nostr command line client written in Dart. Binaries available for Windows, Linux, and MacOS.
 - [anigma](https://github.com/brilliancebitcoin/nostrgram) - A clone of telegram built on nostr
 - [ArcadeCity](https://github.com/ArcadeCity/app) - Public group chats and P2P services (WIP) over nostr
-- [second exchange](https://github.com/cynsar-foundation/second.exchange) - an experiment to work out something of like medium , something of creator economy where users are rewarded for engaging quality discussion and most importantly engaging in governance related discussion.
+- [second exchange](https://github.com/cynsar-foundation/second.exchange) - an experiment to work out something of like medium, something of creator economy where users are rewarded for engaging in quality discussion and most importantly engaging in governance-related discussion.
 - [scalastr](https://github.com/benthecarman/scalastr) - A barebones nostr client written in scala
 - [Nostros](https://github.com/KoalaSat/nostros) - A nostr mobile client for Android
 - [NostrEmitter](https://github.com/cmdruid/nostr-emitter)- Simple E2E encrypted client and EventEmitter object.
@@ -65,7 +65,7 @@ them:
 - [coracle](https://github.com/staab/coracle) - A nostr web client
 - [nostrweb](https://git.qcode.ch/nostr/nostrweb) - another nostr web client in vanilla JS
   - [nostr.ch](https://nostr.ch/) - live instance
-- [Bija](https://github.com/BrightonBTC/bija) - A desktop client written python. Currently Linux only.
+- [Bija](https://github.com/BrightonBTC/bija) - A desktop client written in python. Currently Linux only.
 - [Nosky](https://github.com/KotlinGeekDev/Nosky) - A native Android client for Nostr. Still in development.
 
 ### Client reviews and/or comparisons
@@ -78,7 +78,7 @@ them:
 - [nostr_rust](https://github.com/0xtlt/nostr_rust) - Functional Rust implementation of the nostr protocol
 - [nostr-js](https://github.com/jb55/nostr-js) - a javascript implementation of the nostr protocol
 - [nostr-rs](https://github.com/futurepaul/nostr-rs) - a Rust implementation of the nostr protocol
-- [nostr-rs-sdk](https://github.com/yukibtc/nostr-rs-sdk) - Nostr `protocol` implementation, `SDK` and `FFI` written in Rust
+- [nostr-rs-sdk](https://github.com/yukibtc/nostr-rs-sdk) - Nostr `protocol` implementation, `SDK`, and `FFI` written in Rust
 - [relayer](https://github.com/fiatjaf/relayer) - a server framework for writing custom relays
 - [NostrPostr](https://github.com/Giszmo/NostrPostr) - a Kotlin Nostr library for clients or relays
 - [python-nostr](https://github.com/jeffthibault/python-nostr) - a python library for making clients
@@ -116,7 +116,7 @@ them:
 - [nostcat](https://github.com/blakejakopovic/nostcat) - cat-like nostr client for scripting and debugging written in Rust
 - [rana](https://github.com/grunch/rana) - Nostr mining pubkey with multi threading
 - [nostreq](https://github.com/blakejakopovic/nostreq) - Nostr relay event request generator
-- [nostr.io](https://nostr.io/) - network statistics with last published notes, top 50 publishers and top 50 followed users
+- [nostr.io](https://nostr.io/) - network statistics with last published notes, top 50 publishers, and top 50 followed users
 - [nostr-commander](https://github.com/8go/nostr-commander-rs) - simple but convenient CLI-based Nostr app for following users, sending DMs, etc.
 
 ## Browser extensions
@@ -129,7 +129,7 @@ Allow you to sign Nostr events on web-apps without having to give them your keys
 ## Community
 Outside of nostr itself, you find the community on:
 - [nostr telegram group](https://t.me/nostr_protocol) - a telegram group for nostr protocol discussion
-- [nostr reddit](https://www.reddit.com/r/nostr/) - a sub reddit for nostr related discussion
+- [nostr reddit](https://www.reddit.com/r/nostr/) - a subreddit for nostr related discussion
 
 ## Other links
 - [nostr on YouTube](https://www.youtube.com/results?search_query=nostr+protocol)
