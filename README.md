@@ -67,7 +67,8 @@ them:
   - [nostr.ch](https://nostr.ch/) - live instance
 - [Bija](https://github.com/BrightonBTC/bija) - A desktop client written in python. Currently Linux only.
 - [Nosky](https://github.com/KotlinGeekDev/Nosky) - A native Android client for Nostr. Still in development.
-
+- [Stackerstan](https://stackerstan.org) - A decentralised organisation built on Bitcoin and Nostr, implemented as a replicated state machine in Golang.
+ 
 ### Client reviews and/or comparisons
 - Feature [comparison of Nostr clients as of mid-2022](https://github.com/vishalxl/Nostr-Clients-Features-List)
 
