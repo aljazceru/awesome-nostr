@@ -134,10 +134,13 @@ Outside of nostr itself, you find the community on:
 - [nostr telegram group](https://t.me/nostr_protocol) - a telegram group for nostr protocol discussion
 - [nostr reddit](https://www.reddit.com/r/nostr/) - a subreddit for nostr related discussion
 
+## Tutorials 
+- [Set up a nostr relay server in under 5 minutes ](https://andreneves.xyz/p/set-up-a-nostr-relay-server-in-under)
+- [nostr workshop with super testnet](https://www.youtube.com/watch?v=HbicnlCXg_Y) 
+
 ## Other links
 - [nostr on YouTube](https://www.youtube.com/results?search_query=nostr+protocol)
 - [vanilla-js-nostr](https://github.com/supertestnet/vanilla-js-nostr) - a demo of posting and viewing a feed in nostr using vanilla javascript
-- [nostr workshop with super testnet](https://www.youtube.com/watch?v=HbicnlCXg_Y) 
 - [nostr playground in Ruby](https://github.com/dtonon/nostr-ruby-playground) 
 
 
