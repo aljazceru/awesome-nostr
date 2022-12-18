@@ -53,21 +53,22 @@ them:
 - [Sendstr](https://sendstr.com/) - shared clipboard between devices over nostr
 - [noscl](https://github.com/fiatjaf/noscl) - a basic command-line client written in Go
 - [loquaz](https://github.com/emeceve/loquaz) - a desktop app written in Rust for direct encrypted chat
-- [nostr console](https://github.com/vishalxl/nostr_console) - a nostr command line client written in Dart. Binaries available for Windows, Linux, and MacOS.
+- [nostr console](https://github.com/vishalxl/nostr_console) - a nostr command line client written in Dart. Binaries available for Windows, Linux, and MacOS
 - [anigma](https://github.com/brilliancebitcoin/nostrgram) - A clone of telegram built on nostr
 - [ArcadeCity](https://github.com/ArcadeCity/app) - Public group chats and P2P services (WIP) over nostr
-- [second exchange](https://github.com/cynsar-foundation/second.exchange) - an experiment to work out something of like medium, something of creator economy where users are rewarded for engaging in quality discussion and most importantly engaging in governance-related discussion.
+- [second exchange](https://github.com/cynsar-foundation/second.exchange) - an experiment to work out something of like medium, something of creator economy where users are rewarded for engaging in quality discussion and most importantly engaging in governance-related discussion
 - [scalastr](https://github.com/benthecarman/scalastr) - A barebones nostr client written in scala
 - [Nostros](https://github.com/KoalaSat/nostros) - A nostr mobile client for Android
-- [NostrEmitter](https://github.com/cmdruid/nostr-emitter)- Simple E2E encrypted client and EventEmitter object.
-- [Lightning.Pub](https://github.com/shocknet/Lightning.Pub)- A nostr daemon for Lightning nodes.
-- [shockwallet](https://github.com/shocknet/wallet2)- A Lightning wallet that uses nostr and lnurl to connect to nodes.
+- [NostrEmitter](https://github.com/cmdruid/nostr-emitter)- Simple E2E encrypted client and EventEmitter object
+- [Lightning.Pub](https://github.com/shocknet/Lightning.Pub)- A nostr daemon for Lightning nodes
+- [shockwallet](https://github.com/shocknet/wallet2)- A Lightning wallet that uses nostr and lnurl to connect to nodes
 - [coracle](https://github.com/staab/coracle) - A nostr web client
 - [nostrweb](https://git.qcode.ch/nostr/nostrweb) - another nostr web client in vanilla JS
   - [nostr.ch](https://nostr.ch/) - live instance
-- [Bija](https://github.com/BrightonBTC/bija) - A desktop client written in python. Currently Linux only.
-- [Nosky](https://github.com/KotlinGeekDev/Nosky) - A native Android client for Nostr. Still in development.
-- [Stackerstan](https://stackerstan.org) - A decentralised organisation built on Bitcoin and Nostr, implemented as a replicated state machine in Golang.
+- [Bija](https://github.com/BrightonBTC/bija) - A desktop client written in python. Currently Linux only
+- [Nosky](https://github.com/KotlinGeekDev/Nosky) - A native Android client for Nostr. Still in development
+- [Stackerstan](https://stackerstan.org) - A decentralised organisation built on Bitcoin and Nostr, implemented as a replicated state machine in Golang
+- [nostr-java](https://github.com/tcheeric/nostr-java) - A nostr client API written in java, for generating, signing and publishing events to relays
  
 ### Client reviews and/or comparisons
 - Feature [comparison of Nostr clients as of mid-2022](https://github.com/vishalxl/Nostr-Clients-Features-List)
@@ -123,7 +124,7 @@ them:
 - [nostr-tool](https://github.com/0xtrr/nostr-tool) - Rust CLI tool to generate and publish events
 
 ## Browser extensions
-Allow you to sign Nostr events on web-apps without having to give them your keys.
+Allow you to sign Nostr events on web-apps without having to give them your keys
  - [Alby](https://getalby.com) - Bitcoin Lightning app with nostr support
  - [nos2x](https://github.com/fiatjaf/nos2x) - Nostr Signer Extension
  - [wen](https://github.com/fiatjaf/wen) - browser extension for website enhancer with nostr
