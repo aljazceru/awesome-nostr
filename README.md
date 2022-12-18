@@ -139,3 +139,6 @@ Outside of nostr itself, you find the community on:
 - [vanilla-js-nostr](https://github.com/supertestnet/vanilla-js-nostr) - a demo of posting and viewing a feed in nostr using vanilla javascript
 - [nostr workshop with super testnet](https://www.youtube.com/watch?v=HbicnlCXg_Y) 
 - [nostr playground in Ruby](https://github.com/dtonon/nostr-ruby-playground) 
+
+
+Data for this list is crowdsourced by the community and maintained by [@aaaljaz](https://twitter.com/aaaljaz).
