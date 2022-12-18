@@ -107,7 +107,7 @@ them:
 - [nostril](https://github.com/jb55/nostril) - C cli tool for creating nostr events
 - [nostr-rs-relay-compose](https://github.com/vdo/nostr-rs-relay-compose) - a Docker compose deployment for nostr-rs-relay with SSL support based on Traefik
 - [tostr](https://github.com/slaninas/tostr) - a twitter to nostr bot
-- [nostr.com](https://nostr.com/) - a nostr web gateway for viewing events by their ID
+- [nostr.guru](https://nostr.guru/) - a nostr web gateway for viewing events by their ID
 - [nostrandom.netlify.app](https://nostrandom.netlify.app/) - generate publish-able Nostr event with random keys
 - [nashboard](https://github.com/vinliao/nashboard) and [here](https://nashboard.space/) - a Nostr network dashboard with network statistics
 - [nostr army knife](https://nostr-army-knife.netlify.app/) - nostr army knife by fiatjaf
