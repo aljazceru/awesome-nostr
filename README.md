@@ -144,4 +144,4 @@ Outside of nostr itself, you find the community on:
 - [nostr playground in Ruby](https://github.com/dtonon/nostr-ruby-playground) 
 
 
-Data for this list is crowdsourced by the community and maintained by [@aaaljaz](https://twitter.com/aaaljaz).
+Data for this list is contributed by the community and curated by [@aaaljaz](https://twitter.com/aaaljaz).
