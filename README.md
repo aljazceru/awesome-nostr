@@ -120,6 +120,7 @@ them:
 - [nostr.io](https://nostr.io/) - network statistics with last published notes, top 50 publishers, and top 50 followed users
 - [nostr-commander](https://github.com/8go/nostr-commander-rs) - simple but convenient CLI-based Nostr app for following users, sending DMs, etc.
 - [nostr.directory](https://github.com/pseudozach/nostr.directory) - searchable database of nostr users and their other social media links.
+- [nostr-tool](https://github.com/0xtrr/nostr-tool) - Rust CLI tool to generate and publish events
 
 ## Browser extensions
 Allow you to sign Nostr events on web-apps without having to give them your keys.
