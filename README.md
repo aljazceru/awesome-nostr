@@ -25,6 +25,7 @@ of the public instances.
 - [NostrPostr Relay](https://github.com/Giszmo/NostrPostr/tree/master/NostrRelay) - a Kotlin Relay supporting both SQLite and Postgresql
 - [nostrypy](https://github.com/monty888/nostrpy) - relay, client, and other tooling in python 
 - [nostr-ts-relay](https://github.com/Cameri/nostr-ts-relay) - a nostr relay written in Typescript backed by PostgreSQL
+- [nostr_relay](https://code.pobblelabs.org/fossil/nostr_relay/) – a nostr relay written in python, backed by SQLite
 
 ### Instances
 Instances are plenty and their availability may vary but these projects track
