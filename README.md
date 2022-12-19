@@ -145,6 +145,7 @@ Outside of nostr itself, you find the community on:
 - [nostr on YouTube](https://www.youtube.com/results?search_query=nostr+protocol)
 - [vanilla-js-nostr](https://github.com/supertestnet/vanilla-js-nostr) - a demo of posting and viewing a feed in nostr using vanilla javascript
 - [nostr playground in Ruby](https://github.com/dtonon/nostr-ruby-playground) 
+- [search posts by keyword](https://realsearch.cc) - posts from major relays indexed and searchable in real-time
 
 
 Data for this list is contributed by the community and curated by [@aaaljaz](https://twitter.com/aaaljaz).
