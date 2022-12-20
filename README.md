@@ -1,19 +1,23 @@
 # awesome-nostr
+
 "nostr" stands for "**N**otes and **O**ther **S**tuff **T**ransmitted by
 **R**elays" and is an open protocol for censorship-resistant global networks
 created by [@fiatjaf](https://github.com/fiatjaf).
 
 ## Protocol
+
 - [nostr](https://github.com/nostr-protocol/nostr) - overview and FAQ
 - [NIPs](https://github.com/nostr-protocol/nips) - the "**N**ostr **I**mplementation **P**ossibilities" describe the protocol in technical detail
 - [nostr, a basic tour](https://github.com/rajarshimaitra/rust-nostr/blob/main/VISION.md) - an intro to nostr
 - [Nostr: Solucionando la censura de una vez por todas](https://estudiobitcoin.com/nostr-solucionando-la-censura-de-una-vez-por-todas/)
 
 ## Relays
+
 Relays are (so far) application agnostic. You can run your own or use any or all
 of the public instances.
 
 ### Implementations
+
 - [NNostr](https://github.com/Kukks/NNostr) - a C# relay
 - [nostr-rs-relay](https://sr.ht/~gheartsfield/nostr-rs-relay/) - a minimalistic relay written in Rust that saves data on SQLite
 - [Relayer Basic](https://github.com/fiatjaf/relayer/tree/master/basic) - a simple relay based on _relayer_ backed by Postgres
@@ -23,18 +27,21 @@ of the public instances.
 - [Minds Nostr Relay](https://gitlab.com/minds/infrastructure/nostr-relay) - a relay for [Minds](https://www.minds.com), an open-source social network
   - [Minds Engine - Nostr](https://gitlab.com/minds/engine/-/tree/master/Core/Nostr) - relevant Minds API code for reading/writing Minds posts using Nostr
 - [NostrPostr Relay](https://github.com/Giszmo/NostrPostr/tree/master/NostrRelay) - a Kotlin Relay supporting both SQLite and Postgresql
-- [nostrypy](https://github.com/monty888/nostrpy) - relay, client, and other tooling in python 
+- [nostrypy](https://github.com/monty888/nostrpy) - relay, client, and other tooling in python
 - [nostr-ts-relay](https://github.com/Cameri/nostr-ts-relay) - a nostr relay written in Typescript backed by PostgreSQL
 - [nostr_relay](https://code.pobblelabs.org/fossil/nostr_relay/) – a nostr relay written in python, backed by SQLite
 
 ### Instances
+
 Instances are plenty and their availability may vary but these projects track
 them:
+
 - [nostr relay registry](https://nostr-registry.netlify.app/) - real-time checking of status of some known relays
 - [nostr.info](https://nostr.info/) - real-time checking of status of some known relays
 - [nostr.watch](https://nostr.watch) - real-time checking of status of some known relays with advanced checks.
 
 ## Clients
+
 - [branle](https://github.com/fiatjaf/branle) - a Twitter-like client with chat. Some instances:
   - [branle.netlify.app](https://branle.netlify.app/) - by fiatjaf
   - [nostr.rocks](https://nostr.rocks/)
@@ -44,7 +51,7 @@ them:
   - [astral.ninja](https://astral.ninja/)
 - [damus](https://github.com/damus-io/damus) - a twitter-like nostr client for iOS and MacOS
   - [damus on testflight](https://testflight.apple.com/join/CLwjLxWl)
-- [more-speech](https://github.com/unclebob/more-speech) - desktop client for nostr written in Clojure 
+- [more-speech](https://github.com/unclebob/more-speech) - desktop client for nostr written in Clojure
 - [futr](https://github.com/prolic/futr) - nostr client desktop app written in Haskell
 - [nvote](https://github.com/rdbell/nvote), Nvote is a decentralized, vote-driven community similar to services like Reddit and HackerNews. Nvote is powered by nostr
   - [nvote.co](https://nvote.co/)
@@ -70,12 +77,14 @@ them:
 - [Nosky](https://github.com/KotlinGeekDev/Nosky) - A native Android client for Nostr. Still in development
 - [Stackerstan](https://stackerstan.org) - A decentralised organisation built on Bitcoin and Nostr, implemented as a replicated state machine in Golang
 - [nostr-java](https://github.com/tcheeric/nostr-java) - A nostr client API written in java, for generating, signing and publishing events to relays
- 
+
 ### Client reviews and/or comparisons
+
 - Feature [comparison of Nostr clients as of mid-2022](https://github.com/vishalxl/Nostr-Clients-Features-List)
 
 ## Libraries
-- [nostr-ruby](https://github.com/dtonon/nostr-ruby) -  a Ruby implementation of the nostr protocol
+
+- [nostr-ruby](https://github.com/dtonon/nostr-ruby) - a Ruby implementation of the nostr protocol
 - [NNostr.Client](https://github.com/Kukks/NNostr) - a C# Nostr library for use by clients
 - [nostr-tools](https://github.com/fiatjaf/nostr-tools) - a JavaScript client that abstracts the relay management code for use by clients
 - [go-nostr](https://github.com/fiatjaf/go-nostr) - a Go library that implements relay management, plus event encoding and signing utils
@@ -89,13 +98,16 @@ them:
 - [nostr-bot](https://github.com/slaninas/nostr-bot) - a Rust library for writing bots
 - [NostrKit](https://github.com/cnixbtc/NostrKit) - a Swift library for interacting with relays
 - [nostr-relay-inspector](https://github.com/dskvr/nostr-relay-inspector) - A library that returns useful information about relays based on nostr-js
+- [schorr_snap](https://github.com/neeboo/schnorr_snap) - A snap plugin for Metamask Flask, supports nostr
 
 ## Bridges and Gateways
+
 - [rsslay](https://github.com/fiatjaf/rsslay) - a bridge that puts RSS feeds into Nostr
 - [smtp nostr gateway ](https://github.com/Cameri/smtp-nostr-gateway) - a bridge that forwards emails to pubkeys as encrypted direct messages
 - [matrix-nostr-bridge](https://github.com/8go/matrix-nostr-bridge) a simple Matrix-to-Nostr or Nostr-to-Matrix bridge
 
 ## Tools
+
 - [git-nostr-tools](http://git.jb55.com/git-nostr-tools) - A cli tool for sending code patches over nostr
 - [nostr-cln-events](http://git.jb55.com/nostr-cln-events) - A CLN plugin to push clightning node events to nostr
 - [nostr registry](https://codeberg.org/rsbondi/nostr-registry) - a database of known relays with their uptime and NIP support tables
@@ -126,26 +138,31 @@ them:
 - [nostr-tool](https://github.com/0xtrr/nostr-tool) - Rust CLI tool to generate and publish events
 
 ## Browser extensions
+
 Allow you to sign Nostr events on web-apps without having to give them your keys
- - [Alby](https://getalby.com) - Bitcoin Lightning app with nostr support
- - [nos2x](https://github.com/fiatjaf/nos2x) - Nostr Signer Extension
- - [wen](https://github.com/fiatjaf/wen) - browser extension for website enhancer with nostr
- - [Blockcore](https://github.com/block-core/blockcore-wallet) - Multi wallet browser extension with nostr support
+
+- [Alby](https://getalby.com) - Bitcoin Lightning app with nostr support
+- [nos2x](https://github.com/fiatjaf/nos2x) - Nostr Signer Extension
+- [wen](https://github.com/fiatjaf/wen) - browser extension for website enhancer with nostr
+- [Blockcore](https://github.com/block-core/blockcore-wallet) - Multi wallet browser extension with nostr support
 
 ## Community
+
 Outside of nostr itself, you find the community on:
+
 - [nostr telegram group](https://t.me/nostr_protocol) - a telegram group for nostr protocol discussion
 - [nostr reddit](https://www.reddit.com/r/nostr/) - a subreddit for nostr related discussion
 
-## Tutorials 
+## Tutorials
+
 - [Set up a nostr relay server in under 5 minutes ](https://andreneves.xyz/p/set-up-a-nostr-relay-server-in-under)
-- [nostr workshop with super testnet](https://www.youtube.com/watch?v=HbicnlCXg_Y) 
+- [nostr workshop with super testnet](https://www.youtube.com/watch?v=HbicnlCXg_Y)
 
 ## Other links
+
 - [nostr on YouTube](https://www.youtube.com/results?search_query=nostr+protocol)
 - [vanilla-js-nostr](https://github.com/supertestnet/vanilla-js-nostr) - a demo of posting and viewing a feed in nostr using vanilla javascript
-- [nostr playground in Ruby](https://github.com/dtonon/nostr-ruby-playground) 
+- [nostr playground in Ruby](https://github.com/dtonon/nostr-ruby-playground)
 - [search posts by keyword](https://realsearch.cc) - posts from major relays indexed and searchable in real-time
-
 
 Data for this list is contributed by the community and curated by [@aaaljaz](https://twitter.com/aaaljaz).
