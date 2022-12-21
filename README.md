@@ -31,6 +31,7 @@ of the public instances.
 - [nostrypy](https://github.com/monty888/nostrpy) - relay, client, and other tooling in python
 - [nostr-ts-relay](https://github.com/Cameri/nostr-ts-relay) - a nostr relay written in Typescript backed by PostgreSQL
 - [nostr_relay](https://code.pobblelabs.org/fossil/nostr_relay/) – a nostr relay written in python, backed by SQLite
+- [søstr](https://github.com/metasikander/s0str) – a private nostr relay written in rust, saves all notes from one pubkey and publish them to anyone that requests them
 
 ### Instances
 
