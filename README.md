@@ -140,6 +140,7 @@ them:
 - [nostr-commander](https://github.com/8go/nostr-commander-rs) - simple but convenient CLI-based Nostr app for following users, sending DMs, etc.
 - [nostr.directory](https://github.com/pseudozach/nostr.directory) - searchable database of nostr users and their other social media links.
 - [nostr-tool](https://github.com/0xtrr/nostr-tool) - Rust CLI tool to generate and publish events
+- [nostrplebs](https://nostrplebs.com) - A NIP-05 ID registration service.
 
 ## Browser extensions
 
