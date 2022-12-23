@@ -79,6 +79,7 @@ them:
 - [Nosky](https://github.com/KotlinGeekDev/Nosky) - A native Android client for Nostr. Still in development
 - [Stackerstan](https://stackerstan.org) - A decentralised organisation built on Bitcoin and Nostr, implemented as a replicated state machine in Golang
 - [nostr-java](https://github.com/tcheeric/nostr-java) - A nostr client API written in java, for generating, signing and publishing events to relays
+- [bolt.fun](https://makers.bolt.fun/feed) - A bitcoin lightning makers community that supports reading and creating comments using Nostr 
 
 ### Client reviews and/or comparisons
 
