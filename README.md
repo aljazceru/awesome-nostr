@@ -104,6 +104,7 @@ them:
 - [NostrKit](https://github.com/cnixbtc/NostrKit) - a Swift library for interacting with relays
 - [nostr-relay-inspector](https://github.com/dskvr/nostr-relay-inspector) - A library that returns useful information about relays based on nostr-js
 - [schorr_snap](https://github.com/neeboo/schnorr_snap) - A snap plugin for Metamask Flask, supports nostr
+- [nostr-deno](https://github.com/KiPSOFT/nostr-deno) - a client library for Deno javascript runtime.
 
 ## Bridges and Gateways
 
