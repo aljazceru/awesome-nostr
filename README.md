@@ -82,6 +82,7 @@ them:
 - [bolt.fun](https://makers.bolt.fun/feed) - A bitcoin lightning makers community that supports reading and creating comments using Nostr 
 - [iris](https://iris.to) - A nostr web client
 - [gossip](https://github.com/mikedilger/gossip) - A desktop client in rust presented with egui
+- [Attached](https://github.com/dyegolara/nostr-attached) - Open-Source ReactNative Expo app for Nostr (iOS, Android). Currently under app stores review.
 
 ### Client reviews and/or comparisons
 
