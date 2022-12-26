@@ -81,6 +81,7 @@ them:
 - [nostr-java](https://github.com/tcheeric/nostr-java) - A nostr client API written in java, for generating, signing and publishing events to relays
 - [bolt.fun](https://makers.bolt.fun/feed) - A bitcoin lightning makers community that supports reading and creating comments using Nostr 
 - [iris](https://iris.to) - A nostr web client
+- [gossip](https://github.com/mikedilger/gossip) - A desktop client in rust presented with egui
 
 ### Client reviews and/or comparisons
 
@@ -106,6 +107,7 @@ them:
 - [nostr-relay-inspector](https://github.com/dskvr/nostr-relay-inspector) - A library that returns useful information about relays based on nostr-js
 - [schorr_snap](https://github.com/neeboo/schnorr_snap) - A snap plugin for Metamask Flask, supports nostr
 - [nostr-deno](https://github.com/KiPSOFT/nostr-deno) - a client library for Deno javascript runtime.
+- [nostr-types](https://github.com/mikedilger/nostr-types) - a rust library defining types useful for the nostr protocol
 
 ## Bridges and Gateways
 
