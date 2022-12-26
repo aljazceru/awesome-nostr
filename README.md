@@ -174,5 +174,6 @@ Outside of nostr itself, you find the community on:
 - [vanilla-js-nostr](https://github.com/supertestnet/vanilla-js-nostr) - a demo of posting and viewing a feed in nostr using vanilla javascript
 - [nostr playground in Ruby](https://github.com/dtonon/nostr-ruby-playground)
 - [search posts by keyword](https://realsearch.cc) - posts from major relays indexed and searchable in real-time
+- [nostr.build](https://nostr.build/) - nostr image uploader 
 
 Data for this list is contributed by the community and curated by [@aaaljaz](https://twitter.com/aaaljaz).
