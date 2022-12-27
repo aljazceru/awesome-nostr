@@ -23,6 +23,7 @@ of the public instances.
 - [nostr-rs-relay](https://sr.ht/~gheartsfield/nostr-rs-relay/) - a minimalistic relay written in Rust that saves data on SQLite
 - [Relayer Basic](https://github.com/fiatjaf/relayer/tree/master/basic) - a simple relay based on _relayer_ backed by Postgres
 - [nodestr](https://github.com/Dolu89/nodestr-relay) - a Node.js implementation
+- [nostream](https://github.com/Cameri/nostream) - typescript based Node.js implementation 
 - [expensive relay](https://github.com/fiatjaf/expensive-relay) - a relay that requires payment for registration
 - [me.untethr.nostr-relay](https://github.com/atdixon/me.untethr.nostr-relay) - a relay written in Clojure
 - [Minds Nostr Relay](https://gitlab.com/minds/infrastructure/nostr-relay) - a relay for [Minds](https://www.minds.com), an open-source social network
