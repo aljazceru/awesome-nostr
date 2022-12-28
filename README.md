@@ -148,6 +148,7 @@ them:
 - [nostr.directory](https://github.com/pseudozach/nostr.directory) - searchable database of nostr users and their other social media links.
 - [nostr-tool](https://github.com/0xtrr/nostr-tool) - Rust CLI tool to generate and publish events
 - [nostrplebs](https://nostrplebs.com) - A NIP-05 ID registration service.
+- [frostr](https://github.com/nickfarrow/frostr) - Create joint nostr identities and require t-of-n signatures to post
 
 ## Browser extensions
 
