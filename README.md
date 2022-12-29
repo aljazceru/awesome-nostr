@@ -84,7 +84,8 @@ them:
 - [iris](https://iris.to) - A nostr web client
 - [gossip](https://github.com/mikedilger/gossip) - A desktop client in rust presented with egui
 - [Attached](https://github.com/dyegolara/nostr-attached) - Open-Source ReactNative Expo app for Nostr (iOS, Android). Currently under app stores review.
-
+- [Member](https://github.com/memberapp/memberapp.github.io) - Progressive Web App Client. Works on desktop and mobile.
+  - [member.cash](https://member.cash/) - live instance
 ### Client reviews and/or comparisons
 
 - Feature [comparison of Nostr clients as of mid-2022](https://github.com/vishalxl/Nostr-Clients-Features-List)
