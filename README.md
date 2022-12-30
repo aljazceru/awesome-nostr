@@ -56,16 +56,12 @@ them:
   - [damus on testflight](https://testflight.apple.com/join/CLwjLxWl)
 - [more-speech](https://github.com/unclebob/more-speech) - desktop client for nostr written in Clojure
 - [futr](https://github.com/prolic/futr) - nostr client desktop app written in Haskell
-- [nvote](https://github.com/rdbell/nvote), Nvote is a decentralized, vote-driven community similar to services like Reddit and HackerNews. Nvote is powered by nostr
-  - [nvote.co](https://nvote.co/)
 - [Minds](https://www.minds.com/) - open source social network. Supports reading and creating posts using the Nostr protocol
-- [alphaama](https://alphaama.com/) - playground by [Tiago Balas](https://github.com/eskema)
 - [Jester](https://jesterui.github.io/) - Chess over nostr
 - [Sendstr](https://sendstr.com/) - shared clipboard between devices over nostr
 - [noscl](https://github.com/fiatjaf/noscl) - a basic command-line client written in Go
 - [loquaz](https://github.com/emeceve/loquaz) - a desktop app written in Rust for direct encrypted chat
 - [nostr console](https://github.com/vishalxl/nostr_console) - a nostr command line client written in Dart. Binaries available for Windows, Linux, and MacOS
-- [anigma](https://github.com/brilliancebitcoin/nostrgram) - A clone of telegram built on nostr
 - [ArcadeCity](https://github.com/ArcadeCity/app) - Public group chats and P2P services (WIP) over nostr
 - [second exchange](https://github.com/cynsar-foundation/second.exchange) - an experiment to work out something of like medium, something of creator economy where users are rewarded for engaging in quality discussion and most importantly engaging in governance-related discussion
 - [scalastr](https://github.com/benthecarman/scalastr) - A barebones nostr client written in scala
@@ -88,7 +84,7 @@ them:
   - [member.cash](https://member.cash/) - live instance
 ### Client reviews and/or comparisons
 
-- Feature [comparison of Nostr clients as of mid-2022](https://github.com/vishalxl/Nostr-Clients-Features-List)
+- Feature [comparison list of Nostr clients](https://github.com/vishalxl/Nostr-Clients-Features-List)
 
 ## Libraries
 
@@ -172,6 +168,12 @@ Outside of nostr itself, you find the community on:
 
 - [Set up a nostr relay server in under 5 minutes ](https://andreneves.xyz/p/set-up-a-nostr-relay-server-in-under)
 - [nostr workshop with super testnet](https://www.youtube.com/watch?v=HbicnlCXg_Y)
+
+## Deprecated 
+
+- [anigma.io](https://anigma.io) - has known xss attack vulnerabilities, which can put private key at risk, or risk signing events you may not want to send.
+- [nvote](https://nvote.co) - it does server side processing, and even private key is handled server side, and as such is deprecated for normal use.
+- [alphaama.com](https://alphaama.com) - is *under maintenance* as of late 2022.
 
 ## Other links
 
