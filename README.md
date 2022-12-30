@@ -151,6 +151,7 @@ them:
 - [nostrplebs](https://nostrplebs.com) - A NIP-05 ID registration service.
 - [frostr](https://github.com/nickfarrow/frostr) - Create joint nostr identities and require t-of-n signatures to post
 - [plebs.place](https://plebs.place) - A NIP-05 ID registration service (in portuguese).
+- [nostr.rest](https://nostr.rest) - Mine proof of work public keys with user specified prefixes
 
 ## Browser extensions
 
