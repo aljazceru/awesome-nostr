@@ -187,5 +187,6 @@ Outside of nostr itself, you find the community on:
 - [nostr playground in Ruby](https://github.com/dtonon/nostr-ruby-playground)
 - [search posts by keyword](https://realsearch.cc) - posts from major relays indexed and searchable in real-time
 - [nostr.build](https://nostr.build/) - nostr image uploader 
+- [wellorder nostr datasets](https://wiki.wellorder.net/wiki/nostr-datasets/) - Public standardized nostr datasets for benchmarking, data science, or other analysis.
 
 Data for this list is contributed by the community and curated by [@aaaljaz](https://twitter.com/aaaljaz).
