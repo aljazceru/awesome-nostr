@@ -83,6 +83,7 @@ them:
 - [Member](https://github.com/memberapp/memberapp.github.io) - Progressive Web App Client. Works on desktop and mobile.
   - [member.cash](https://member.cash/) - live instance
 - [dispute](https://github.com/ethicnology/dispute) -  A cross-platform (Linux, Android, iOS, MacOs, Windows and Web) client for NOSTR 
+- [snort.social](https://snort.social) - Nostr UI written in react
 
 ### Client reviews and/or comparisons
 
