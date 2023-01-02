@@ -82,6 +82,8 @@ them:
 - [Attached](https://github.com/dyegolara/nostr-attached) - Open-Source ReactNative Expo app for Nostr (iOS, Android). Currently under app stores review.
 - [Member](https://github.com/memberapp/memberapp.github.io) - Progressive Web App Client. Works on desktop and mobile.
   - [member.cash](https://member.cash/) - live instance
+- [dispute](https://github.com/ethicnology/dispute) -  A cross-platform (Linux, Android, iOS, MacOs, Windows and Web) client for NOSTR 
+
 ### Client reviews and/or comparisons
 
 - Feature [comparison list of Nostr clients](https://github.com/vishalxl/Nostr-Clients-Features-List)
@@ -107,6 +109,7 @@ them:
 - [schorr_snap](https://github.com/neeboo/schnorr_snap) - A snap plugin for Metamask Flask, supports nostr
 - [nostr-deno](https://github.com/KiPSOFT/nostr-deno) - a client library for Deno javascript runtime.
 - [nostr-types](https://github.com/mikedilger/nostr-types) - a rust library defining types useful for the nostr protocol
+- [dart-nostr](https://github.com/ethicnology/dart-nostr) -   a Dart library for Flutter 
 
 ## Bridges and Gateways
 
