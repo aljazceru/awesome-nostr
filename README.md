@@ -84,7 +84,9 @@ them:
   - [member.cash](https://member.cash/) - live instance
 - [dispute](https://github.com/ethicnology/dispute) -  A cross-platform (Linux, Android, iOS, MacOs, Windows and Web) client for NOSTR 
 - [snort.social](https://snort.social) - Nostr UI written in react
-
+- [Hamstr](https://github.com/styppo/hamstr) - A twitter-style web client based on astral
+  - [hamstr.to](https://hamstr.to)
+ 
 ### Client reviews and/or comparisons
 
 - Feature [comparison list of Nostr clients](https://github.com/vishalxl/Nostr-Clients-Features-List)
