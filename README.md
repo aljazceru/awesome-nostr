@@ -96,6 +96,7 @@ them:
 - [nostr-ruby](https://github.com/dtonon/nostr-ruby) - a Ruby implementation of the nostr protocol
 - [NNostr.Client](https://github.com/Kukks/NNostr) - a C# Nostr library for use by clients
 - [nostr-tools](https://github.com/fiatjaf/nostr-tools) - a JavaScript client that abstracts the relay management code for use by clients
+- [nostr-relaypool](https://github.com/adamritter/nostr-relaypool-ts) - a TypeScript relay pool library on top of nostr-tools that simplifies handling subscriptions to multiple servers
 - [nostrgg/client](https://github.com/nostrgg/nostrgg-client) - a TypeScript library for the client that handles the hard stuff
 - [nostrgg/react](https://github.com/nostrgg/nostrgg-react) - React Hooks for Nostr
 - [go-nostr](https://github.com/fiatjaf/go-nostr) - a Go library that implements relay management, plus event encoding and signing utils
