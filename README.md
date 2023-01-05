@@ -74,7 +74,7 @@ them:
   - [nostr.ch](https://nostr.ch/) - live instance
 - [Bija](https://github.com/BrightonBTC/bija)![stars](https://img.shields.io/github/stars/BrightonBTC/bija.svg?style=social) - A desktop client written in python. Currently Linux only
 - [Nosky](https://github.com/KotlinGeekDev/Nosky)![stars](https://img.shields.io/github/stars/KotlinGeekDev/Nosky.svg?style=social) - A native Android client for Nostr. Still in development
-- [Stackerstan](https://stackerstan.org) - A decentralised organisation built on Bitcoin and Nostr, implemented as a replicated state machine in Golang
+- [Stackerstan](https://stackerstan.org) - ![stars](https://img.shields.io/github/stars/stackerstan/mindmachine.svg?style=social)A decentralised organisation built on Bitcoin and Nostr, implemented as a replicated state machine in Golang
 - [nostr-java](https://github.com/tcheeric/nostr-java)![stars](https://img.shields.io/github/stars/tcheeric/nostr-java.svg?style=social) - A nostr client API written in java, for generating, signing and publishing events to relays
 - [bolt.fun](https://makers.bolt.fun/feed) - A bitcoin lightning makers community that supports reading and creating comments using Nostr
 - [iris](https://iris.to) - A nostr web client
