@@ -189,6 +189,7 @@ Outside of nostr itself, you find the community on:
 - [nostr playground in Ruby](https://github.com/dtonon/nostr-ruby-playground)![stars](https://img.shields.io/github/stars/dtonon/nostr-ruby-playground.svg?style=social)
 - [search posts by keyword](https://realsearch.cc) - posts from major relays indexed and searchable in real-time
 - [nostr.build](https://nostr.build/) - nostr image uploader
-- [wellorder nostr datasets](https://wiki.wellorder.net/wiki/nostr-datasets/) - Public standardized nostr datasets for benchmarking, data science, or other analysis.
+- [wellorder nostr datasets](https://wiki.wellorder.net/wiki/nostr-datasets/) - Public standardized nostr datasets for benchmarking, data science, or other analysis.  
+- [Nostrovia Podcast](https://nostrovia.org/) - A Nostr podcast covering all the new projects, all the new cool stuff, all the new NIPs. It’s all here. Once a week. Listen to it.
 
 Data for this list is contributed by the community and curated by [@aaaljaz](https://twitter.com/aaaljaz).
