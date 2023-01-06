@@ -59,7 +59,7 @@ them:
 - [Minds](https://www.minds.com/) - open source social network. Supports reading and creating posts using the Nostr protocol
 - [Jester](https://jesterui.github.io/) - Chess over nostr
 - [Sendstr](https://sendstr.com/) - shared clipboard between devices over nostr
-- [nosbin](https://nosbin.com/) - pastebin over nostr
+- [nosbin](https://nosbin.com/)![stars](https://img.shields.io/github/stars/jacany/nosbin.svg?style=social) - pastebin over nostr
 - [noscl](https://github.com/fiatjaf/noscl)![stars](https://img.shields.io/github/stars/fiatjaf/noscl.svg?style=social) - a basic command-line client written in Go
 - [loquaz](https://github.com/emeceve/loquaz)![stars](https://img.shields.io/github/stars/emeceve/loquaz.svg?style=social) - a desktop app written in Rust for direct encrypted chat
 - [nostr console](https://github.com/vishalxl/nostr_console)![stars](https://img.shields.io/github/stars/vishalxl/nostr_console.svg?style=social) - a nostr command line client written in Dart. Binaries available for Windows, Linux, and MacOS
