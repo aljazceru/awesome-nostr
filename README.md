@@ -1,5 +1,3 @@
-# awesome-nostr
-
 "nostr" stands for "**N**otes and **O**ther **S**tuff **T**ransmitted by
 **R**elays" and is an open protocol for censorship-resistant global networks
 created by [@fiatjaf](https://github.com/fiatjaf).
