@@ -86,6 +86,7 @@ them:
 - [snort.social](https://snort.social) - Nostr UI written in react
 - [Hamstr](https://github.com/styppo/hamstr)![stars](https://img.shields.io/github/stars/styppo/hamstr.svg?style=social) - A twitter-style web client based on astral
   - [hamstr.to](https://hamstr.to)
+- [Nozzle](https://github.com/kaiwolfram/Nozzle)![stars](https://img.shields.io/github/stars/kaiwolfram/Nozzle.svg?style=social) - A Twitter-like native Android client written with Jetpack Compose
  
 ### Client reviews and/or comparisons
 
