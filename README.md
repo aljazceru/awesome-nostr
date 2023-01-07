@@ -84,7 +84,8 @@ them:
 - [Member](https://github.com/memberapp/memberapp.github.io)![stars](https://img.shields.io/github/stars/memberapp/memberapp.github.io.svg?style=social) - Progressive Web App Client. Works on desktop and mobile.
   - [member.cash](https://member.cash/) - live instance
 - [dispute](https://github.com/ethicnology/dispute)![stars](https://img.shields.io/github/stars/ethicnology/dispute.svg?style=social) -  A cross-platform (Linux, Android, iOS, MacOs, Windows and Web) client for NOSTR
-- [snort.social](https://snort.social) - Nostr UI written in react
+- [Snort](https://github.com/v0l/snort)![stars](https://img.shields.io/github/stars/v0l/snort.svg?style=social) - Nostr UI written in react
+  - [snort.social](https://snort.social)
 - [Hamstr](https://github.com/styppo/hamstr)![stars](https://img.shields.io/github/stars/styppo/hamstr.svg?style=social) - A twitter-style web client based on astral
   - [hamstr.to](https://hamstr.to)
 
