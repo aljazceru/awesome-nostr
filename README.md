@@ -157,6 +157,7 @@ them:
 - [frostr](https://github.com/nickfarrow/frostr)![stars](https://img.shields.io/github/stars/nickfarrow/frostr.svg?style=social) - Create joint nostr identities and require t-of-n signatures to post
 - [plebs.place](https://plebs.place) - A NIP-05 ID registration service (in portuguese).
 - [nostr.rest](https://nostr.rest) - Mine proof of work public keys with user specified prefixes
+- [lnpass](https://lnpass.github.io)![stars](https://img.shields.io/github/stars/lnpass/lnpass-web.svg?style=social) - A key manager for Lightning and nostr.
 
 ## Browser extensions
 
