@@ -182,6 +182,7 @@ Outside of nostr itself, you find the community on:
 - [Step-by-Step guide to set up a relay on your server](https://github.com/BlockChainCaffe/Nostr-Relay-Setup-Guide) (AWS, DigitalOcean, RaspBerry...  )
 - [Set up a nostr relay server in under 5 minutes ](https://andreneves.xyz/p/set-up-a-nostr-relay-server-in-under)
 - [nostr workshop with super testnet](https://www.youtube.com/watch?v=HbicnlCXg_Y)
+- [Nostr Newcomers Most Common Questions and Answers](https://uselessshit.co/resources/nostr/)
 
 ## Deprecated
 
