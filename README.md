@@ -161,6 +161,7 @@ them:
 - [nostr.rest](https://nostr.rest) - Mine proof of work public keys with user specified prefixes
 - [lnpass](https://lnpass.github.io)![stars](https://img.shields.io/github/stars/lnpass/lnpass-web.svg?style=social) - A key manager for Lightning and nostr.
 - [sb.nostr.band](https://sb.nostr.band) - Search bots that you can create and follow to receive new posts matching a keyword right into your feed.
+- [sovereign-stack](https://www.sovereign-stack.org) - A tool that helps you deploy nostr relays and create Value4Value websites.
 
 ## Browser extensions
 
