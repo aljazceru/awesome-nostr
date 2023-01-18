@@ -53,6 +53,7 @@ them:
   - [branle tor](http://hbn4yzl3qkzi3qpse6nvljbduzcdecaq76tbcfjfzmoaik3q3uryxuad.onion/3bf0c63fcb93463407af97a5e5ee64fa883d107ef9e558472c4eb9aaaefa459d) - on tor
 - [astral](https://github.com/monlovesmango/astral)![stars](https://img.shields.io/github/stars/monlovesmango/astral.svg?style=social) - a branle fork with global feed and UI makeover
   - [astral.ninja](https://astral.ninja/)
+  - [client.nostr.guide](https://client.nostr.guide/)
 - [damus](https://github.com/damus-io/damus)![stars](https://img.shields.io/github/stars/damus-io/damus.svg?style=social) - a twitter-like nostr client for iOS and MacOS
   - [damus on testflight](https://testflight.apple.com/join/CLwjLxWl)
 - [more-speech](https://github.com/unclebob/more-speech)![stars](https://img.shields.io/github/stars/unclebob/more-speech.svg?style=social) - desktop client for nostr written in Clojure
