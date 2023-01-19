@@ -10,7 +10,7 @@ created by [@fiatjaf](https://github.com/fiatjaf).
 - [Nostr: Solucionando la censura de una vez por todas](https://estudiobitcoin.com/nostr-solucionando-la-censura-de-una-vez-por-todas/)
 - [UseNostr](https://usenostr.org) - A small guide for anyone who wants to learn more about how nostr works and what it can do.
 - [nostr.how](https://nostr.how) - Quick-start to onboard desktop users with Alby & Astral
-- [nostr.guide] (https://nostr.guide) - a guide to all things nostr.
+- [nostr.guide](https://nostr.guide) - A guide to all things nostr
 
 ## Relays
 
