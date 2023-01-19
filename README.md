@@ -207,5 +207,6 @@ Outside of nostr itself, you find the community on:
 - [wellorder nostr datasets](https://wiki.wellorder.net/wiki/nostr-datasets/) - Public standardized nostr datasets for benchmarking, data science, or other analysis.  
 - [Nostrovia Podcast](https://nostrovia.org/) - A Nostr podcast covering all the new projects, all the new cool stuff, all the new NIPs
 - [Summaries of all Nostr Improvements Proposals](https://anchor.fm/s/d8e8d5a4/podcast/rss) - ChatGPT generated summaries of all NIPs by k00b
+- [Media caching server for Nostr](https://media.nostr.band) - caches resized profile pictures and banners to save bandwidth for clients
 
 Data for this list is contributed by the community and curated by [@aaaljaz](https://twitter.com/aaaljaz).
