@@ -10,6 +10,7 @@ created by [@fiatjaf](https://github.com/fiatjaf).
 - [Nostr: Solucionando la censura de una vez por todas](https://estudiobitcoin.com/nostr-solucionando-la-censura-de-una-vez-por-todas/)
 - [UseNostr](https://usenostr.org) - A small guide for anyone who wants to learn more about how nostr works and what it can do.
 - [nostr.how](https://nostr.how) - Quick-start to onboard desktop users with Alby & Astral
+- [nostr.guide](https://nostr.guide) - A guide to all things nostr
 
 ## Relays
 
@@ -97,9 +98,14 @@ them:
 - [nostr-chat-widget-react](https://www.npmjs.com/package/nostr-chat-widget-react?activeTab=readme) - A React component that provides a live-chat widget over nostr that can be embedded into any website.
 - [Blockcore Notes](https://github.com/block-core/blockcore-notes) ![stars](https://img.shields.io/github/stars/block-core/blockcore-notes.svg?style=social) - Progressive Web App that can be installed on mobile and desktop, organize following in circles and have both public and private following lists. Dynamic interface for different uses, such as optimized for photograph viewing.
   - [notes.blockcore.net](https://notes.blockcore.net/)
+- [emon](https://github.com/sebastiaanwouters/emon)![stars](https://img.shields.io/github/stars/sebastiaanwouters/emon.svg?style=social) - Encrypted DMs over nostr with lightning payments integrated (WIP).
+  - [emon.chat](https://emon.chat)
+- [notebin.org](https://notebin.org) ![stars](https://img.shields.io/github/stars/nodetec/notebin.svg?style=social) - Nostr UI created with NextJS, support for markdown and code highlighting
 - [Daisy](https://github.com/neb-b/daisy) - Mobile client for Android and iOS
   - [testflight + android builds](https://neb.lol/nostr)
 - [Flycat](https://github.com/digi-monkey/flycat-web)![stars](https://img.shields.io/github/stars/digi-monkey/flycat-web.svg?style=social) - A 2000s old-school style web client which support blogging on Nostr
+- [Amethyst](https://github.com/vitorpamplona/amethyst) ![stars](https://img.shields.io/github/stars/vitorpamplona/amethyst.svg?style=social) - An Android client for nostr written in Kotlin
+- [MeShell](https://meshell.io) - Web, iOS and Android blog type client destined to publish articles and researches for independent journalists.
 
 ### Client reviews and/or comparisons
 
@@ -108,6 +114,7 @@ them:
 ## Libraries
 
 - [nostr-ruby](https://github.com/dtonon/nostr-ruby)![stars](https://img.shields.io/github/stars/dtonon/nostr-ruby.svg?style=social) - a Ruby implementation of the nostr protocol
+- [nostr](https://github.com/wilsonsilva/nostr)![stars](https://img.shields.io/github/stars/wilsonsilva/nostr.svg?style=social) - a Ruby Nostr gem for use by clients
 - [NNostr.Client](https://github.com/Kukks/NNostr)![stars](https://img.shields.io/github/stars/Kukks/NNostr.svg?style=social) - a C# Nostr library for use by clients
 - [nostr-tools](https://github.com/fiatjaf/nostr-tools)![stars](https://img.shields.io/github/stars/fiatjaf/nostr-tools.svg?style=social) - a JavaScript client that abstracts the relay management code for use by clients
 - [nostr-relaypool-ts](https://github.com/adamritter/nostr-relaypool-ts)![stars](https://img.shields.io/github/stars/adamritter/nostr-relaypool-ts.svg?style=social) - a TypeScript relay pool library on top of nostr-tools that simplifies handling subscriptions to multiple servers
@@ -170,6 +177,7 @@ them:
 - [nostr.rest](https://nostr.rest) - Mine proof of work public keys with user specified prefixes
 - [lnpass](https://lnpass.github.io)![stars](https://img.shields.io/github/stars/lnpass/lnpass-web.svg?style=social) - A key manager for Lightning and nostr.
 - [sb.nostr.band](https://sb.nostr.band) - Search bots that you can create and follow to receive new posts matching a keyword right into your feed.
+- [nostr.industries](https://nostr.industries) - A free NIP-05 ID registration service.
 
 ## Browser extensions
 
@@ -210,5 +218,6 @@ Outside of nostr itself, you find the community on:
 - [wellorder nostr datasets](https://wiki.wellorder.net/wiki/nostr-datasets/) - Public standardized nostr datasets for benchmarking, data science, or other analysis.
 - [Nostrovia Podcast](https://nostrovia.org/) - A Nostr podcast covering all the new projects, all the new cool stuff, all the new NIPs
 - [Summaries of all Nostr Improvements Proposals](https://anchor.fm/s/d8e8d5a4/podcast/rss) - ChatGPT generated summaries of all NIPs by k00b
+- [Media caching server for Nostr](https://media.nostr.band) - caches resized profile pictures and banners to save bandwidth for clients
 
 Data for this list is contributed by the community and curated by [@aaaljaz](https://twitter.com/aaaljaz).
