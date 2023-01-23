@@ -115,7 +115,10 @@ them:
 - [nostr_rust](https://github.com/0xtlt/nostr_rust)![stars](https://img.shields.io/github/stars/0xtlt/nostr_rust.svg?style=social) - Functional Rust implementation of the nostr protocol
 - [nostr-js](https://github.com/jb55/nostr-js)![stars](https://img.shields.io/github/stars/jb55/nostr-js.svg?style=social) - a javascript implementation of the nostr protocol
 - [nostr-rs](https://github.com/futurepaul/nostr-rs)![stars](https://img.shields.io/github/stars/futurepaul/nostr-rs.svg?style=social) - a Rust implementation of the nostr protocol
-- [nostr-rs-sdk](https://github.com/yukibtc/nostr-rs-sdk)![stars](https://img.shields.io/github/stars/yukibtc/nostr-rs-sdk.svg?style=social) - Nostr `protocol` implementation, `SDK`, and `FFI` written in Rust
+- [nostr](https://github.com/rust-nostr/nostr)![stars](https://img.shields.io/github/stars/rust-nostr/nostr.svg?style=social):
+    - [nostr](https://github.com/rust-nostr/nostr/tree/master/crates/nostr): Rust implementation of Nostr protocol.
+    - [nostr-sdk](https://github.com/rust-nostr/nostr/tree/master/crates/nostr-sdk): High level client library.
+    - [bindings](https://github.com/rust-nostr/nostr/tree/master/bindings): UniFFI (Kotlin, Swift, Python, Ruby) bindings
 - [relayer](https://github.com/fiatjaf/relayer)![stars](https://img.shields.io/github/stars/fiatjaf/relayer.svg?style=social) - a server framework for writing custom relays
 - [NostrPostr](https://github.com/Giszmo/NostrPostr)![stars](https://img.shields.io/github/stars/Giszmo/NostrPostr.svg?style=social) - a Kotlin Nostr library for clients or relays
 - [python-nostr](https://github.com/jeffthibault/python-nostr)![stars](https://img.shields.io/github/stars/jeffthibault/python-nostr.svg?style=social) - a python library for making clients
