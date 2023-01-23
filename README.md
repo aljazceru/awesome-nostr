@@ -10,6 +10,7 @@ created by [@fiatjaf](https://github.com/fiatjaf).
 - [Nostr: Solucionando la censura de una vez por todas](https://estudiobitcoin.com/nostr-solucionando-la-censura-de-una-vez-por-todas/)
 - [UseNostr](https://usenostr.org) - A small guide for anyone who wants to learn more about how nostr works and what it can do.
 - [nostr.how](https://nostr.how) - Quick-start to onboard desktop users with Alby & Astral
+- [nostr.guide](https://nostr.guide) - A guide to all things nostr
 
 ## Relays
 
@@ -100,6 +101,7 @@ them:
 - [Daisy](https://github.com/neb-b/daisy) - Mobile client for Android and iOS
   - [testflight + android builds](https://neb.lol/nostr)
 - [Amethyst](https://github.com/vitorpamplona/amethyst) ![stars](https://img.shields.io/github/stars/vitorpamplona/amethyst.svg?style=social) - An Android client for nostr written in Kotlin
+- [MeShell](https://meshell.io) - Web, iOS and Android blog type client destined to publish articles and researches for independent journalists.
 
 ### Client reviews and/or comparisons
 
@@ -170,6 +172,7 @@ them:
 - [nostr.rest](https://nostr.rest) - Mine proof of work public keys with user specified prefixes
 - [lnpass](https://lnpass.github.io)![stars](https://img.shields.io/github/stars/lnpass/lnpass-web.svg?style=social) - A key manager for Lightning and nostr.
 - [sb.nostr.band](https://sb.nostr.band) - Search bots that you can create and follow to receive new posts matching a keyword right into your feed.
+- [nostr.industries](https://nostr.industries) - A free NIP-05 ID registration service.
 
 ## Browser extensions
 
