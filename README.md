@@ -99,6 +99,7 @@ them:
   - [notes.blockcore.net](https://notes.blockcore.net/)
 - [Daisy](https://github.com/neb-b/daisy) - Mobile client for Android and iOS
   - [testflight + android builds](https://neb.lol/nostr)
+- [MeShell](https://meshell.io) - Web, iOS and Android blog type client destined to publish articles and researches for independent journalists.
 
 ### Client reviews and/or comparisons
 
