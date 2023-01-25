@@ -110,6 +110,7 @@ them:
 - [Amethyst](https://github.com/vitorpamplona/amethyst) ![stars](https://img.shields.io/github/stars/vitorpamplona/amethyst.svg?style=social) - An Android client for nostr written in Kotlin
 - [MeShell](https://meshell.io) - Web, iOS and Android blog type client destined to publish articles and researches for independent journalists.
 - [Disgus](https://github.com/carlitoplatanito/disgus) ![stars](https://img.shields.io/github/stars/carlitoplatanito/disgus.svg?style=social) - A comment widget like Disqus, but for Nostr.
+- [NostrID](https://github.com/erdaltoprak/nostrid) ![stars](https://img.shields.io/github/stars/erdaltoprak/nostrid.svg?style=social) - A Nostr ID Management App for iOS.
 
 ### Client reviews and/or comparisons
 
