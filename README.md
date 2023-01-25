@@ -71,6 +71,8 @@ them:
 - [second exchange](https://github.com/cynsar-foundation/second.exchange)![stars](https://img.shields.io/github/stars/cynsar-foundation/second.exchange.svg?style=social) - an experiment to work out something of like medium, something of creator economy where users are rewarded for engaging in quality discussion and most importantly engaging in governance-related discussion
 - [scalastr](https://github.com/benthecarman/scalastr)![stars](https://img.shields.io/github/stars/benthecarman/scalastr.svg?style=social) - A barebones nostr client written in scala
 - [Nostros](https://github.com/KoalaSat/nostros)![stars](https://img.shields.io/github/stars/KoalaSat/nostros.svg?style=social) - A nostr mobile client for Android
+- [Nostrify.me](https://github.com/lightningorb/nostrify.me)![stars](https://img.shields.io/github/stars/lightningorb/nostrify.me.svg?style=social) - Nostr client built in SvelteKit.
+  - [Nostrify.me](https://nostrify.me) - Live instance.
 - [NostrEmitter](https://github.com/cmdruid/nostr-emitter)![stars](https://img.shields.io/github/stars/cmdruid/nostr-emitter.svg?style=social) - Simple E2E encrypted client and EventEmitter object
 - [Lightning.Pub](https://github.com/shocknet/Lightning.Pub)![stars](https://img.shields.io/github/stars/shocknet/Lightning.Pub.svg?style=social) - A nostr daemon for Lightning nodes
 - [shockwallet](https://github.com/shocknet/wallet2)![stars](https://img.shields.io/github/stars/shocknet/wallet2.svg?style=social) - A Lightning wallet that uses nostr and lnurl to connect to nodes
