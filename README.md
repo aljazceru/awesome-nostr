@@ -189,6 +189,7 @@ them:
 - [NIP-05 on LNBits](https://github.com/lnbits/lnbits/tree/main/lnbits/extensions/nostrnip5) - Sell NIP-05 verification for your domain using LNBits.
 - [nostr-pubminer](https://github.com/lacaulac/nostr-pubminer)![stars](https://img.shields.io/github/stars/lacaulac/nostr-pubminer.svg?style=social) - A simple tool to mine nostr vanity pubkeys
 - [rana](https://github.com/grunch/rana)![stars](https://img.shields.io/github/stars/grunch/rana.svg?style=social) - Vanity pubkey miner based on nip13
+- [nostrogen](https://github.com/tonyinit/nostrogen)![stars](https://img.shields.io/github/stars/tonyinit/nostrogen).svg?style=social) 
 
 ## Browser extensions
 
