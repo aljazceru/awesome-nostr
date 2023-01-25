@@ -114,6 +114,9 @@ them:
 - [MeShell](https://meshell.io) - Web, iOS and Android blog type client destined to publish articles and researches for independent journalists.
 - [Disgus](https://github.com/carlitoplatanito/disgus) ![stars](https://img.shields.io/github/stars/carlitoplatanito/disgus.svg?style=social) - A comment widget like Disqus, but for Nostr.
 - [NostrID](https://github.com/erdaltoprak/nostrid) ![stars](https://img.shields.io/github/stars/erdaltoprak/nostrid.svg?style=social) - A Nostr ID Management App for iOS.
+- [nostromat](https://github.com/ekimber/nostromat) ![stars](https://img.shields.io/github/stars/ekimber/nostromat.svg?style=social) - A Twitter-style Nostr web client, written in Clojurescript/React
+  - [nostrom.at](https://nostrom.at) - live instance
+
 
 ### Client reviews and/or comparisons
 
