@@ -203,6 +203,7 @@ Allow you to sign Nostr events on web-apps without having to give them your keys
 Outside of nostr itself, you find the community on:
 
 - [nostr telegram group](https://t.me/nostr_protocol) - a telegram group for nostr protocol discussion
+- [nostr español/spanish telegram group](https://t.me/nostr_es) - a spanish telegram group for nostr
 - [nostr reddit](https://www.reddit.com/r/nostr/) - a subreddit for nostr related discussion
 - [nostr discord](https://discord.gg/Pxkcgt9sMj) - a discord server for nostr enthusiasts and developers
 
