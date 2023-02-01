@@ -180,7 +180,6 @@ them:
 - [nostrillery](https://github.com/Cameri/nostrillery)![stars](https://img.shields.io/github/stars/Cameri/nostrillery.svg?style=social) - a tool for running performance tests against Nostr relays
 - [nostr-terminal](https://github.com/cmdruid/nostr-terminal)![stars](https://img.shields.io/github/stars/cmdruid/nostr-terminal.svg?style=social) - SSH-like access to your machine via web terminal, powered by Nostr.
 - [nostcat](https://github.com/blakejakopovic/nostcat)![stars](https://img.shields.io/github/stars/blakejakopovic/nostcat.svg?style=social) - cat-like nostr client for scripting and debugging written in Rust
-- [rana](https://github.com/grunch/rana)![stars](https://img.shields.io/github/stars/grunch/rana.svg?style=social) - Nostr mining pubkey with multi threading
 - [nostreq](https://github.com/blakejakopovic/nostreq)![stars](https://img.shields.io/github/stars/blakejakopovic/nostreq.svg?style=social) - Nostr relay event request generator
 - [nostr.io](https://nostr.io/) - network statistics with last published notes, top 50 publishers, and top 50 followed users
 - [nostr-commander](https://github.com/8go/nostr-commander-rs)![stars](https://img.shields.io/github/stars/8go/nostr-commander-rs.svg?style=social) - simple but convenient CLI-based Nostr app for following users, sending DMs, etc.
@@ -194,10 +193,7 @@ them:
 - [sb.nostr.band](https://sb.nostr.band) - Search bots that you can create and follow to receive new posts matching a keyword right into your feed.
 - [nostr.industries](https://nostr.industries) - A free NIP-05 ID registration service.
 - [NIP-05 on LNBits](https://github.com/lnbits/lnbits/tree/main/lnbits/extensions/nostrnip5) - Sell NIP-05 verification for your domain using LNBits.
-- [nostr-pubminer](https://github.com/lacaulac/nostr-pubminer)![stars](https://img.shields.io/github/stars/lacaulac/nostr-pubminer.svg?style=social) - A simple tool to mine nostr vanity pubkeys
-- [rana](https://github.com/grunch/rana)![stars](https://img.shields.io/github/stars/grunch/rana.svg?style=social) - Vanity pubkey miner based on nip13
-- [glasnostr](https://github.com/eyelight/glasnostr) ![stars](https://img.shields.io/github/stars/eyelight/glasnostr.svg?style=social) - CLI tool to mine a vanity prefix for your nostr npub
-- [nostrogen](https://github.com/tonyinit/nostrogen)![stars](https://img.shields.io/github/stars/tonyinit/nostrogen.svg?style=social)  -  simple web based nostr vanity address generator 
+
 - [rss.nostr.band](https://rss.nostr.band) - Create custom RSS feeds with posts matching your keywords and consume using your favorite RSS reader.
 - [nostrview](https://nostrview.com) - A nostr search engine. Search by content, tags, events or pub keys.
 - [nostr-bulk-dms](https://github.com/leesalminen/nostr-bulk-dm)![stars](https://img.shields.io/github/stars/leesalminen/nostr-bulk-dm.svg?style=social) - A tool that allows you to send DMs over nostr to many recipients in bulk.
@@ -206,6 +202,12 @@ them:
   - [nip06.jaonoct.us](https://nip06.jaonoct.us) - by jaonoctus
 - [nip06-cli](https://github.com/jaonoctus/nip06-cli)![stars](https://img.shields.io/github/stars/jaonoctus/nip06-cli.svg?style=social) - a Node.js CLI to generate or restore NIP-06 seed phrases
 
+## Vanity pubkey mining
+
+- [nostr-pubminer](https://github.com/lacaulac/nostr-pubminer)![stars](https://img.shields.io/github/stars/lacaulac/nostr-pubminer.svg?style=social) - A simple tool to mine nostr vanity pubkeys
+- [rana](https://github.com/grunch/rana)![stars](https://img.shields.io/github/stars/grunch/rana.svg?style=social) - Vanity pubkey miner based on nip13
+- [glasnostr](https://github.com/eyelight/glasnostr) ![stars](https://img.shields.io/github/stars/eyelight/glasnostr.svg?style=social) - CLI tool to mine a vanity prefix for your nostr npub
+- [nostrogen](https://github.com/tonyinit/nostrogen)![stars](https://img.shields.io/github/stars/tonyinit/nostrogen.svg?style=social)  -  simple web based nostr vanity address generator 
 ## Browser extensions
 
 Allow you to sign Nostr events on web-apps without having to give them your keys
