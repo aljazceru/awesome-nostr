@@ -117,6 +117,7 @@ them:
 - [NostrID](https://github.com/erdaltoprak/nostrid) ![stars](https://img.shields.io/github/stars/erdaltoprak/nostrid.svg?style=social) - A Nostr ID Management App for iOS.
 - [nostromat](https://github.com/ekimber/nostromat) ![stars](https://img.shields.io/github/stars/ekimber/nostromat.svg?style=social) - A Twitter-style Nostr web client, written in Clojurescript/React
   - [nostrom.at](https://nostrom.at) - live instance
+- [blogstack.io](https://blogstack.io) ![stars](https://img.shields.io/github/stars/nodetec/blogstack.svg?style=social) - Blogging site for nostr, supports markdown
 
 
 ### Client reviews and/or comparisons
