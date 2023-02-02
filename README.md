@@ -243,9 +243,9 @@ Outside of nostr itself, you find the community on:
 - [nostr playground in Ruby](https://github.com/dtonon/nostr-ruby-playground)![stars](https://img.shields.io/github/stars/dtonon/nostr-ruby-playground.svg?style=social)
 - [search posts/profiles by keyword](https://nostr.band) - posts from major relays indexed and searchable in real-time
 - [nostr.build](https://nostr.build/) - nostr image uploader
-- [INOSTA API](https://github.com/johnongit/INOSTA-Nostr-Img-Service): Expensive Image Hosting Service
-   - [https://api.inosta.cc](https://api.inosta.cc): Backend live instance
-   - [https://inosta.cc](https://inosta.cc): Demonstrator live instance
+- [inosta api](https://github.com/johnongit/INOSTA-Nostr-Img-Service)![stars](https://img.shields.io/github/stars/johnongit/INOSTA-Nostr-Img-Service.svg?style=social) - Expensive Image Hosting Service
+   - [api.inosta.cc](https://api.inosta.cc) - Backend live instance
+   - [inosta.cc](https://inosta.cc)-  Demonstrator live instance
 - [wellorder nostr datasets](https://wiki.wellorder.net/wiki/nostr-datasets/) - Public standardized nostr datasets for benchmarking, data science, or other analysis.
 - [Nostrovia Podcast](https://nostrovia.org/) - A Nostr podcast covering all the new projects, all the new cool stuff, all the new NIPs
 - [Summaries of all Nostr Improvements Proposals](https://anchor.fm/s/d8e8d5a4/podcast/rss) - ChatGPT generated summaries of all NIPs by k00b
