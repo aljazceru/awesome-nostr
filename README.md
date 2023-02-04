@@ -118,6 +118,7 @@ them:
 - [nostromat](https://github.com/ekimber/nostromat) ![stars](https://img.shields.io/github/stars/ekimber/nostromat.svg?style=social) - A Twitter-style Nostr web client, written in Clojurescript/React
   - [nostrom.at](https://nostrom.at) - live instance
 - [blogstack.io](https://blogstack.io) ![stars](https://img.shields.io/github/stars/nodetec/blogstack.svg?style=social) - Blogging site for nostr, supports markdown
+- [Votestr](https://votestr.com/) ![stars](https://img.shields.io/github/stars/vilm3r/votestr.svg?style=social) - Poll web app with nostr authentication and blind signature unlinkability
 
 
 ### Client reviews and/or comparisons
