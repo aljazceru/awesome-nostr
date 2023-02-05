@@ -204,6 +204,8 @@ them:
 - [nip06-web](https://github.com/jaonoctus/nip06-web)![stars](https://img.shields.io/github/stars/jaonoctus/nip06-web.svg?style=social) - a website to generate or restore NIP-06 seed phrases
   - [nip06.jaonoct.us](https://nip06.jaonoct.us) - by jaonoctus
 - [nip06-cli](https://github.com/jaonoctus/nip06-cli)![stars](https://img.shields.io/github/stars/jaonoctus/nip06-cli.svg?style=social) - a Node.js CLI to generate or restore NIP-06 seed phrases
+- [nostr-follow-bundler](https://github.com/leesalminen/nostr-follow-bundler) This tool lets you create lists of profiles that other users can then see and follow themselves.
+
 
 ## Offline signer
 
