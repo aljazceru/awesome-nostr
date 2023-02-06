@@ -205,6 +205,7 @@ them:
   - [nip06.jaonoct.us](https://nip06.jaonoct.us) - by jaonoctus
 - [nip06-cli](https://github.com/jaonoctus/nip06-cli)![stars](https://img.shields.io/github/stars/jaonoctus/nip06-cli.svg?style=social) - a Node.js CLI to generate or restore NIP-06 seed phrases
 - [nostr-follow-bundler](https://github.com/leesalminen/nostr-follow-bundler) This tool lets you create lists of profiles that other users can then see and follow themselves.
+- [nostr-broadcast](https://github.com/leesalminen/nostr-broadcast) This tool lets you take your events from some relays and broadcast them to another relay. Could be helpful for backing up your notes to a private relay.
 
 
 ## Offline signer
