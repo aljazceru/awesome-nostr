@@ -230,6 +230,7 @@ Allow you to sign Nostr events on web-apps without having to give them your keys
 - [wen](https://github.com/fiatjaf/wen)![stars](https://img.shields.io/github/stars/fiatjaf/wen.svg?style=social) - browser extension for website enhancer with nostr
 - [Blockcore](https://github.com/block-core/blockcore-wallet)![stars](https://img.shields.io/github/stars/block-core/blockcore-wallet.svg?style=social) - Multi wallet browser extension with nostr support
 - [Nostore](https://testflight.apple.com/join/ouPWAQAV) - Nostr Signer Extension for iOS/macOS Safari
+- [Flamingo](https://github.com/t4t5/flamingo)![stars](https://img.shields.io/github/stars/t4t5/flamingo.svg?style=social) - A Nostr browser extension focused on UX
 
 ## Community
 
