@@ -62,7 +62,7 @@ them:
 - [futr](https://github.com/prolic/futr)![stars](https://img.shields.io/github/stars/prolic/futr.svg?style=social) - nostr client desktop app written in Haskell
 - [Minds](https://www.minds.com/) - open source social network. Supports reading and creating posts using the Nostr protocol
 - [Jester](https://jesterui.github.io/) - Chess over nostr
-- [Sendstr](https://sendstr.com/) - shared clipboard between devices over nostr
+- [Sendstr](https://sendstr.com/) ![stars](https://img.shields.io/github/stars/vilm3r/sendstr.svg?style=social) - shared clipboard between devices over nostr
 - [nosbin](https://nosbin.com/)![stars](https://img.shields.io/github/stars/jacany/nosbin.svg?style=social) - pastebin over nostr
 - [noscl](https://github.com/fiatjaf/noscl)![stars](https://img.shields.io/github/stars/fiatjaf/noscl.svg?style=social) - a basic command-line client written in Go
 - [loquaz](https://github.com/emeceve/loquaz)![stars](https://img.shields.io/github/stars/emeceve/loquaz.svg?style=social) - a desktop app written in Rust for direct encrypted chat
@@ -118,6 +118,7 @@ them:
 - [nostromat](https://github.com/ekimber/nostromat) ![stars](https://img.shields.io/github/stars/ekimber/nostromat.svg?style=social) - A Twitter-style Nostr web client, written in Clojurescript/React
   - [nostrom.at](https://nostrom.at) - live instance
 - [blogstack.io](https://blogstack.io) ![stars](https://img.shields.io/github/stars/nodetec/blogstack.svg?style=social) - Blogging site for nostr, supports markdown
+- [Votestr](https://votestr.com/) ![stars](https://img.shields.io/github/stars/vilm3r/votestr.svg?style=social) - Poll web app with nostr authentication and blind signature unlinkability
 
 
 ### Client reviews and/or comparisons
@@ -204,8 +205,8 @@ them:
 - [nip06-web](https://github.com/jaonoctus/nip06-web)![stars](https://img.shields.io/github/stars/jaonoctus/nip06-web.svg?style=social) - a website to generate or restore NIP-06 seed phrases
   - [nip06.jaonoct.us](https://nip06.jaonoct.us) - by jaonoctus
 - [nip06-cli](https://github.com/jaonoctus/nip06-cli)![stars](https://img.shields.io/github/stars/jaonoctus/nip06-cli.svg?style=social) - a Node.js CLI to generate or restore NIP-06 seed phrases
-- [nostr-follow-bundler](https://github.com/leesalminen/nostr-follow-bundler) This tool lets you create lists of profiles that other users can then see and follow themselves.
-- [nostr-broadcast](https://github.com/leesalminen/nostr-broadcast) This tool lets you take your events from some relays and broadcast them to another relay. Could be helpful for backing up your notes to a private relay.
+- [nostr-broadcast](https://github.com/leesalminen/nostr-broadcast)![stars](https://img.shields.io/github/stars/leesalminen/nostr-broadcast.svg?style=social) This tool lets you take your events from some relays and broadcast them to another relay. Could be helpful for backing up your notes to a private relay.
+- [nostr-follow-bundler](https://github.com/leesalminen/nostr-follow-bundler)![stars](https://img.shields.io/github/stars/leesalminen/nostr-follow-bundler.svg?style=social) This tool lets you create lists of profiles that other users can then see and follow themselves.
 
 
 ## Offline signer
@@ -244,6 +245,7 @@ Outside of nostr itself, you find the community on:
 - [Set up a nostr relay server in under 5 minutes ](https://andreneves.xyz/p/set-up-a-nostr-relay-server-in-under)
 - [nostr workshop with super testnet](https://www.youtube.com/watch?v=HbicnlCXg_Y)
 - [Nostr Newcomers Most Common Questions and Answers](https://uselessshit.co/resources/nostr/)
+- [How to: Run your own nostr relay](https://nutcroft.com/blog/how-to-run-your-own-nostr-relay/) (nostr-rs-relay, Caddy, no Docker)
 
 ## Deprecated
 
