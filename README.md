@@ -221,6 +221,7 @@ them:
 - [rana](https://github.com/grunch/rana)![stars](https://img.shields.io/github/stars/grunch/rana.svg?style=social) - Vanity pubkey miner based on nip13
 - [glasnostr](https://github.com/eyelight/glasnostr) ![stars](https://img.shields.io/github/stars/eyelight/glasnostr.svg?style=social) - CLI tool to mine a vanity prefix for your nostr npub
 - [nostrogen](https://github.com/tonyinit/nostrogen)![stars](https://img.shields.io/github/stars/tonyinit/nostrogen.svg?style=social)  -  simple web based nostr vanity address generator 
+- [nostr-vanity-address-generator](https://github.com/chawyehsu/nostr-vanity-address-generator) ![stars](https://img.shields.io/github/stars/chawyehsu/nostr-vanity-address-generator.svg?style=social) - Cross-platform nostr vanity address generator
 
 ## Browser extensions
 
