@@ -62,7 +62,7 @@ them:
 - [futr](https://github.com/prolic/futr)![stars](https://img.shields.io/github/stars/prolic/futr.svg?style=social) - nostr client desktop app written in Haskell
 - [Minds](https://www.minds.com/) - open source social network. Supports reading and creating posts using the Nostr protocol
 - [Jester](https://jesterui.github.io/) - Chess over nostr
-- [Sendstr](https://sendstr.com/) ![stars](https://img.shields.io/github/stars/vilm3r/sendstr.svg?style=social) - shared clipboard between devices over nostr
+- [Sendstr](https://sendstr.com/) ![stars](https://img.shields.io/github/stars/vilm3r/sendstr-web.svg?style=social) - shared clipboard between devices over nostr
 - [nosbin](https://nosbin.com/)![stars](https://img.shields.io/github/stars/jacany/nosbin.svg?style=social) - pastebin over nostr
 - [noscl](https://github.com/fiatjaf/noscl)![stars](https://img.shields.io/github/stars/fiatjaf/noscl.svg?style=social) - a basic command-line client written in Go
 - [loquaz](https://github.com/emeceve/loquaz)![stars](https://img.shields.io/github/stars/emeceve/loquaz.svg?style=social) - a desktop app written in Rust for direct encrypted chat
