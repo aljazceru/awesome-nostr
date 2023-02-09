@@ -36,6 +36,7 @@ of the public instances.
 - [knostr](https://github.com/lpicanco/knostr)![stars](https://img.shields.io/github/stars/lpicanco/knostr.svg?style=social) – a nostr relay implemented in Kotlin with support for Postgres and metrics(micrometer).
 - [PyRelay](https://github.com/johnny423/pyrelay) ![stars](https://img.shields.io/github/stars/johnny423/pyrelay.svg?style=social) – a python implementation of a nostr relay, using asyncio.
 - [strfry](https://github.com/hoytech/strfry) ![stars](https://img.shields.io/github/stars/hoytech/strfry.svg?style=social) – C++ implementation backed by LMDB with efficient syncing of events using merkle trees
+- [Astro](https://github.com/Nostrology/astro) – Elixir based implementation built to be performant and highly distributed. 
 
 ### Instances
 
