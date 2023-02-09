@@ -250,6 +250,7 @@ Outside of nostr itself, you find the community on:
 - [nostr workshop with super testnet](https://www.youtube.com/watch?v=HbicnlCXg_Y)
 - [Nostr Newcomers Most Common Questions and Answers](https://uselessshit.co/resources/nostr/)
 - [How to: Run your own nostr relay](https://nutcroft.com/blog/how-to-run-your-own-nostr-relay/) (nostr-rs-relay, Caddy, no Docker)
+- [How to set up a paid nostr relay](https://andreneves.xyz/p/how-to-setup-a-paid-nostr-relay)
 
 ## Deprecated
 
