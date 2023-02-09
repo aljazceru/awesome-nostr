@@ -34,9 +34,9 @@ of the public instances.
 - [nostr_relay](https://code.pobblelabs.org/fossil/nostr_relay/) – a nostr relay written in python, backed by SQLite
 - [søstr](https://github.com/metasikander/s0str)![stars](https://img.shields.io/github/stars/metasikander/s0str.svg?style=social) – a private nostr relay written in rust, saves all notes from one pubkey and publish them to anyone that requests them
 - [knostr](https://github.com/lpicanco/knostr)![stars](https://img.shields.io/github/stars/lpicanco/knostr.svg?style=social) – a nostr relay implemented in Kotlin with support for Postgres and metrics(micrometer).
-- [PyRelay](https://github.com/johnny423/pyrelay) ![stars](https://img.shields.io/github/stars/johnny423/pyrelay.svg?style=social) – a python implementation of a nostr relay, using asyncio.
-- [strfry](https://github.com/hoytech/strfry) ![stars](https://img.shields.io/github/stars/hoytech/strfry.svg?style=social) – C++ implementation backed by LMDB with efficient syncing of events using merkle trees
-- [Astro](https://github.com/Nostrology/astro) – Elixir based implementation built to be performant and highly distributed. 
+- [PyRelay](https://github.com/johnny423/pyrelay)![stars](https://img.shields.io/github/stars/johnny423/pyrelay.svg?style=social) – a python implementation of a nostr relay, using asyncio.
+- [strfry](https://github.com/hoytech/strfry)![stars](https://img.shields.io/github/stars/hoytech/strfry.svg?style=social) – C++ implementation backed by LMDB with efficient syncing of events using merkle trees
+- [Astro](https://github.com/Nostrology/astro)![stars](https://img.shields.io/github/stars/Nostrology/astro.svg?style=social)– Elixir based implementation built to be performant and highly distributed. 
 
 ### Instances
 
