@@ -191,15 +191,10 @@ them:
 - [nostr-commander](https://github.com/8go/nostr-commander-rs)![stars](https://img.shields.io/github/stars/8go/nostr-commander-rs.svg?style=social) - simple but convenient CLI-based Nostr app for following users, sending DMs, etc.
 - [nostr.directory](https://github.com/pseudozach/nostr.directory)![stars](https://img.shields.io/github/stars/pseudozach/nostr.directory.svg?style=social) - searchable database of nostr users and their other social media links.
 - [nostr-tool](https://github.com/0xtrr/nostr-tool)![stars](https://img.shields.io/github/stars/0xtrr/nostr-tool.svg?style=social) - Rust CLI tool to generate and publish events
-- [nostrplebs](https://nostrplebs.com) - A NIP-05 ID registration service.
 - [frostr](https://github.com/nickfarrow/frostr)![stars](https://img.shields.io/github/stars/nickfarrow/frostr.svg?style=social) - Create joint nostr identities and require t-of-n signatures to post
-- [plebs.place](https://plebs.place) - A NIP-05 ID registration service (in portuguese).
 - [nostr.rest](https://nostr.rest) - Mine proof of work public keys with user specified prefixes
 - [lnpass](https://lnpass.github.io)![stars](https://img.shields.io/github/stars/lnpass/lnpass-web.svg?style=social) - A key manager for Lightning and nostr.
 - [sb.nostr.band](https://sb.nostr.band) - Search bots that you can create and follow to receive new posts matching a keyword right into your feed.
-- [nostr.industries](https://nostr.industries) - A free NIP-05 ID registration service.
-- [NIP-05 on LNBits](https://github.com/lnbits/lnbits/tree/main/lnbits/extensions/nostrnip5) - Sell NIP-05 verification for your domain using LNBits.
-
 - [rss.nostr.band](https://rss.nostr.band) - Create custom RSS feeds with posts matching your keywords and consume using your favorite RSS reader.
 - [nostrview](https://nostrview.com) - A nostr search engine. Search by content, tags, events or pub keys.
 - [nostr-bulk-dms](https://github.com/leesalminen/nostr-bulk-dm)![stars](https://img.shields.io/github/stars/leesalminen/nostr-bulk-dm.svg?style=social) - A tool that allows you to send DMs over nostr to many recipients in bulk.
@@ -209,8 +204,15 @@ them:
 - [nip06-cli](https://github.com/jaonoctus/nip06-cli)![stars](https://img.shields.io/github/stars/jaonoctus/nip06-cli.svg?style=social) - a Node.js CLI to generate or restore NIP-06 seed phrases
 - [nostr-broadcast](https://github.com/leesalminen/nostr-broadcast)![stars](https://img.shields.io/github/stars/leesalminen/nostr-broadcast.svg?style=social) This tool lets you take your events from some relays and broadcast them to another relay. Could be helpful for backing up your notes to a private relay.
 - [nostr-follow-bundler](https://github.com/leesalminen/nostr-follow-bundler)![stars](https://img.shields.io/github/stars/leesalminen/nostr-follow-bundler.svg?style=social) This tool lets you create lists of profiles that other users can then see and follow themselves.
-- [nanostr](https://github.com/xbol0/nanostr)![stars](https://img.shields.io/github/stars/xbol0/nanostr?style=social) A NIP-05 name server written in Deno.
 - [nostr-proxy](https://github.com/dolu89/nostr-proxy)[stars](https://img.shields.io/github/stars/dolu89/nostr-proxy?style=social) - Push and get events to your Proxy, get results from multiple Nostr relays
+
+## NIP-05 
+- [nostrcheck.me](https://nostrcheck.me/) - A NIP-05 ID registration service.
+- [nostrplebs](https://nostrplebs.com) - A NIP-05 ID registration service.
+- [plebs.place](https://plebs.place) - A NIP-05 ID registration service (in portuguese).
+- [nanostr](https://github.com/xbol0/nanostr)![stars](https://img.shields.io/github/stars/xbol0/nanostr?style=social) A NIP-05 name server written in Deno.
+- [nostr.industries](https://nostr.industries) - A free NIP-05 ID registration service.
+- [NIP-05 on LNBits](https://github.com/lnbits/lnbits/tree/main/lnbits/extensions/nostrnip5) - Sell NIP-05 verification for your domain using LNBits.
 
 ## Offline signer
 
