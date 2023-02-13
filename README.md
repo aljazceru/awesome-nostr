@@ -206,7 +206,8 @@ them:
 - [nostr-follow-bundler](https://github.com/leesalminen/nostr-follow-bundler)![stars](https://img.shields.io/github/stars/leesalminen/nostr-follow-bundler.svg?style=social) This tool lets you create lists of profiles that other users can then see and follow themselves.
 - [nostr-proxy](https://github.com/dolu89/nostr-proxy)[stars](https://img.shields.io/github/stars/dolu89/nostr-proxy?style=social) - Push and get events to your Proxy, get results from multiple Nostr relays
 
-## NIP-05 
+## NIP-05 identity services
+
 - [nostrcheck.me](https://nostrcheck.me/) - A NIP-05 ID registration service.
 - [nostrplebs](https://nostrplebs.com) - A NIP-05 ID registration service.
 - [plebs.place](https://plebs.place) - A NIP-05 ID registration service (in portuguese).
