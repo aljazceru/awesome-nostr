@@ -11,6 +11,7 @@ created by [@fiatjaf](https://github.com/fiatjaf).
 - [UseNostr](https://usenostr.org) - A small guide for anyone who wants to learn more about how nostr works and what it can do.
 - [nostr.how](https://nostr.how) - Quick-start to onboard desktop users with Alby & Astral
 - [nostr.guide](https://nostr.guide) - A guide to all things nostr
+- [tinkering with nostr without any client](https://github.com/p2w34/blog/blob/master/2023-02-11-tinkering-with-the-nostr-protocol/tinkering-with-the-nostr-protocol.md)
 
 ## Relays
 
