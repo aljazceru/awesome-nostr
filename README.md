@@ -205,6 +205,7 @@ them:
 - [nostr-broadcast](https://github.com/leesalminen/nostr-broadcast)![stars](https://img.shields.io/github/stars/leesalminen/nostr-broadcast.svg?style=social) This tool lets you take your events from some relays and broadcast them to another relay. Could be helpful for backing up your notes to a private relay.
 - [nostr-follow-bundler](https://github.com/leesalminen/nostr-follow-bundler)![stars](https://img.shields.io/github/stars/leesalminen/nostr-follow-bundler.svg?style=social) This tool lets you create lists of profiles that other users can then see and follow themselves.
 - [nostr-proxy](https://github.com/dolu89/nostr-proxy)![stars](https://img.shields.io/github/stars/dolu89/nostr-proxy?style=social) - Push and get events to your Proxy, get results from multiple Nostr relays
+- [nostrends](https://github.com/akiomik/nostrends)![stars](https://img.shields.io/github/stars/akiomik/nostrends?style=social) Trending on Nostr, like Twitter trends. Live at [nostrends.vercel.app](https://nostrends.vercel.app)
 
 ## NIP-05 identity services
 
