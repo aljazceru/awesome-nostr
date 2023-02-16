@@ -122,6 +122,7 @@ them:
   - [nostrom.at](https://nostrom.at) - live instance
 - [blogstack.io](https://blogstack.io) ![stars](https://img.shields.io/github/stars/nodetec/blogstack.svg?style=social) - Blogging site for nostr, supports markdown
 - [Votestr](https://votestr.com/) ![stars](https://img.shields.io/github/stars/vilm3r/votestr.svg?style=social) - Poll web app with nostr authentication and blind signature unlinkability
+- [algia](https://github.com/mattn/algia) ![stars](https://img.shields.io/github/stars/mattn/algia.svg?style=social) - A cli application for nostr
 
 
 ### Client reviews and/or comparisons
@@ -282,3 +283,4 @@ Outside of nostr itself, you find the community on:
 - [Media caching server for Nostr](https://media.nostr.band) - caches resized profile pictures and banners to save bandwidth for clients
 
 Data for this list is contributed by the community and curated by [@aaaljaz](https://twitter.com/aaaljaz) ( npub1aljazgxlpnpfp7n5sunlk3dvfp72456x6nezjw4sd850q879rxqsthg9jp)
+
