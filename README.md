@@ -39,7 +39,8 @@ of the public instances.
 - [strfry](https://github.com/hoytech/strfry)![stars](https://img.shields.io/github/stars/hoytech/strfry.svg?style=social) – C++ implementation backed by LMDB with efficient syncing of events using merkle trees
 - [Astro](https://github.com/Nostrology/astro)![stars](https://img.shields.io/github/stars/Nostrology/astro.svg?style=social)– Elixir based implementation built to be performant and highly distributed.
 - [Nex](https://github.com/lebrunel/nex) ![stars](https://img.shields.io/github/stars/lebrunel/nex.svg?style=social) - A powerful and scalable Nostr relay written in Elixir with Postgres DB.
-- [nostring](https://github.com/xbol0/nostring)![stars](https://img.shields.io/github/stars/xbol0/nostring.svg?style=social) - A Nostr relay written in Deno
+- [gnost-relay](https://github.com/barkyq/gnost-relay) ![stars](https://img.shields.io/github/stars/barkyq/gnost-relay.svg?style=social) - nostr relay written in go backed by postgresql database.
+- [nostring](https://github.com/xbol0/nostring)![stars](https://img.shields.io/github/stars/xbol0/nostring.svg?style=social) - A Nostr relay written in Deno.
 
 ### Instances
 
@@ -110,20 +111,21 @@ them:
   - [notes.blockcore.net](https://notes.blockcore.net/)
 - [emon](https://github.com/sebastiaanwouters/emon)![stars](https://img.shields.io/github/stars/sebastiaanwouters/emon.svg?style=social) - Encrypted DMs over nostr with lightning payments integrated (WIP).
   - [emon.chat](https://emon.chat)
-- [notebin.org](https://notebin.org) ![stars](https://img.shields.io/github/stars/nodetec/notebin.svg?style=social) - Nostr UI created with NextJS, support for markdown and code highlighting
+- [notebin.org](https://notebin.org)![stars](https://img.shields.io/github/stars/nodetec/notebin.svg?style=social) - Nostr UI created with NextJS, support for markdown and code highlighting
 - [Daisy](https://github.com/neb-b/daisy) - Mobile client for Android and iOS
   - [testflight + android builds](https://neb.lol/nostr)
 - [Flycat](https://github.com/digi-monkey/flycat-web)![stars](https://img.shields.io/github/stars/digi-monkey/flycat-web.svg?style=social) - A 2000s old-school style web client which support blogging on Nostr
-- [Amethyst](https://github.com/vitorpamplona/amethyst) ![stars](https://img.shields.io/github/stars/vitorpamplona/amethyst.svg?style=social) - An Android client for nostr written in Kotlin
-- [MeShell](https://github.com/BEEBSDONE/MeShell_Nodejs) ![stars](https://img.shields.io/github/stars/BEEBSDONE/MeShell_Nodejs.svg?style=social) - Web, iOS and Android blog type client destined to publish articles and researches for independent journalists.
+- [Amethyst](https://github.com/vitorpamplona/amethyst)![stars](https://img.shields.io/github/stars/vitorpamplona/amethyst.svg?style=social) - An Android client for nostr written in Kotlin
+- [MeShell](https://github.com/BEEBSDONE/MeShell_Nodejs)![stars](https://img.shields.io/github/stars/BEEBSDONE/MeShell_Nodejs.svg?style=social) - Web, iOS and Android blog type client destined to publish articles and researches for independent journalists.
   - [MeShell.io](https://meshell.io) - Landing page for more information
-- [Disgus](https://github.com/carlitoplatanito/disgus) ![stars](https://img.shields.io/github/stars/carlitoplatanito/disgus.svg?style=social) - A comment widget like Disqus, but for Nostr.
-- [NostrID](https://github.com/erdaltoprak/nostrid) ![stars](https://img.shields.io/github/stars/erdaltoprak/nostrid.svg?style=social) - A Nostr ID Management App for iOS.
-- [nostromat](https://github.com/ekimber/nostromat) ![stars](https://img.shields.io/github/stars/ekimber/nostromat.svg?style=social) - A Twitter-style Nostr web client, written in Clojurescript/React
+- [Disgus](https://github.com/carlitoplatanito/disgus)![stars](https://img.shields.io/github/stars/carlitoplatanito/disgus.svg?style=social) - A comment widget like Disqus, but for Nostr.
+- [NostrID](https://github.com/erdaltoprak/nostrid)![stars](https://img.shields.io/github/stars/erdaltoprak/nostrid.svg?style=social) - A Nostr ID Management App for iOS.
+- [nostromat](https://github.com/ekimber/nostromat)![stars](https://img.shields.io/github/stars/ekimber/nostromat.svg?style=social) - A Twitter-style Nostr web client, written in Clojurescript/React
   - [nostrom.at](https://nostrom.at) - live instance
-- [blogstack.io](https://blogstack.io) ![stars](https://img.shields.io/github/stars/nodetec/blogstack.svg?style=social) - Blogging site for nostr, supports markdown
-- [Votestr](https://votestr.com/) ![stars](https://img.shields.io/github/stars/vilm3r/votestr.svg?style=social) - Poll web app with nostr authentication and blind signature unlinkability
-- [algia](https://github.com/mattn/algia) ![stars](https://img.shields.io/github/stars/mattn/algia.svg?style=social) - A cli application for nostr
+- [blogstack.io](https://blogstack.io)![stars](https://img.shields.io/github/stars/nodetec/blogstack.svg?style=social) - Blogging site for nostr, supports markdown
+- [Votestr](https://votestr.com/)![stars](https://img.shields.io/github/stars/vilm3r/votestr.svg?style=social) - Poll web app with nostr authentication and blind signature unlinkability
+- [gnost-deflate-client](https://github.com/barkyq/gnost-deflate-client)![stars](https://img.shields.io/github/stars/barkyq/gnost-deflate-client?style=social) CLI nostr client written in go implementing permessage-deflate websocket compression.
+- [algia](https://github.com/mattn/algia)![stars](https://img.shields.io/github/stars/mattn/algia.svg?style=social) - A cli application for nostr.
 
 
 ### Client reviews and/or comparisons
