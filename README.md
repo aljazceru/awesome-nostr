@@ -219,6 +219,7 @@ them:
 - [nanostr](https://github.com/xbol0/nanostr)![stars](https://img.shields.io/github/stars/xbol0/nanostr?style=social) A NIP-05 name server written in Deno.
 - [nostr.industries](https://nostr.industries) - A free NIP-05 ID registration service.
 - [NIP-05 on LNBits](https://github.com/lnbits/lnbits/tree/main/lnbits/extensions/nostrnip5) - Sell NIP-05 verification for your domain using LNBits.
+- [younostr.com](https://younostr.com) - A NIP-05 ID registration service (in portuguese).
 - [nostrprotocol.net](https://github.com/KiPSOFT/nostr-nip05-service)![stars](https://img.shields.io/github/stars/KiPSOFT/nostr-nip05-service?style=social) - A free NIP-05 identifier service.
 
 ## Offline signer
