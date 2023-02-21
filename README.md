@@ -11,7 +11,7 @@ created by [@fiatjaf](https://github.com/fiatjaf).
 - [UseNostr](https://usenostr.org) - A small guide for anyone who wants to learn more about how nostr works and what it can do.
 - [nostr.how](https://nostr.how) - Quick-start to onboard desktop users with Alby & Astral
 - [nostr.guide](https://nostr.guide) - A guide to all things nostr
-- [tinkering with nostr without any client](https://github.com/p2w34/blog/blob/master/2023-02-11-tinkering-with-the-nostr-protocol/tinkering-with-the-nostr-protocol.md)
+- [tinkering with nostr without any client](https://medium.com/@p2w34/tinkering-with-the-nostr-protocol-will-it-take-twitter-over-74c4bf0fea66)
 
 ## Relays
 
@@ -39,6 +39,7 @@ of the public instances.
 - [strfry](https://github.com/hoytech/strfry)![stars](https://img.shields.io/github/stars/hoytech/strfry.svg?style=social) – C++ implementation backed by LMDB with efficient syncing of events using merkle trees
 - [Astro](https://github.com/Nostrology/astro)![stars](https://img.shields.io/github/stars/Nostrology/astro.svg?style=social)– Elixir based implementation built to be performant and highly distributed.
 - [Nex](https://github.com/lebrunel/nex) ![stars](https://img.shields.io/github/stars/lebrunel/nex.svg?style=social) - A powerful and scalable Nostr relay written in Elixir with Postgres DB.
+- [nostring](https://github.com/xbol0/nostring)![stars](https://img.shields.io/github/stars/xbol0/nostring.svg?style=social) - A Nostr relay written in Deno
 
 ### Instances
 
@@ -122,6 +123,7 @@ them:
   - [nostrom.at](https://nostrom.at) - live instance
 - [blogstack.io](https://blogstack.io) ![stars](https://img.shields.io/github/stars/nodetec/blogstack.svg?style=social) - Blogging site for nostr, supports markdown
 - [Votestr](https://votestr.com/) ![stars](https://img.shields.io/github/stars/vilm3r/votestr.svg?style=social) - Poll web app with nostr authentication and blind signature unlinkability
+- [algia](https://github.com/mattn/algia) ![stars](https://img.shields.io/github/stars/mattn/algia.svg?style=social) - A cli application for nostr
 
 
 ### Client reviews and/or comparisons
@@ -205,8 +207,9 @@ them:
 - [nip06-cli](https://github.com/jaonoctus/nip06-cli)![stars](https://img.shields.io/github/stars/jaonoctus/nip06-cli.svg?style=social) - a Node.js CLI to generate or restore NIP-06 seed phrases
 - [nostr-broadcast](https://github.com/leesalminen/nostr-broadcast)![stars](https://img.shields.io/github/stars/leesalminen/nostr-broadcast.svg?style=social) This tool lets you take your events from some relays and broadcast them to another relay. Could be helpful for backing up your notes to a private relay.
 - [nostr-follow-bundler](https://github.com/leesalminen/nostr-follow-bundler)![stars](https://img.shields.io/github/stars/leesalminen/nostr-follow-bundler.svg?style=social) This tool lets you create lists of profiles that other users can then see and follow themselves.
-- [nostr-proxy](https://github.com/dolu89/nostr-proxy)![stars](https://img.shields.io/github/stars/dolu89/nostr-proxy?style=social) - Push and get events to your Proxy, get results from multiple Nostr relays
-- [nostrends](https://github.com/akiomik/nostrends)![stars](https://img.shields.io/github/stars/akiomik/nostrends?style=social) Trending on Nostr, like Twitter trends. Live at [nostrends.vercel.app](https://nostrends.vercel.app)
+- [nostr-proxy](https://github.com/dolu89/nostr-proxy)![stars](https://img.shields.io/github/stars/dolu89/nostr-proxy?style=social) - Push and get events to your Proxy, get results from multiple Nostr relays.
+- [nostrends](https://github.com/akiomik/nostrends)![stars](https://img.shields.io/github/stars/akiomik/nostrends?style=social) - Trending on Nostr, like Twitter trends. Live at [nostrends.vercel.app](https://nostrends.vercel.app).
+- [homebrew-nostr](https://github.com/0xbabo/homebrew-nostr)![stars](https://img.shields.io/github/stars/0xbabo/homebrew-nostr?style=social) - Homebrew tap for Nostr software.
 
 ## NIP-05 identity services
 
@@ -217,6 +220,7 @@ them:
 - [nostr.industries](https://nostr.industries) - A free NIP-05 ID registration service.
 - [NIP-05 on LNBits](https://github.com/lnbits/lnbits/tree/main/lnbits/extensions/nostrnip5) - Sell NIP-05 verification for your domain using LNBits.
 - [younostr.com](https://younostr.com) - A NIP-05 ID registration service (in portuguese).
+- [nostrprotocol.net](https://github.com/KiPSOFT/nostr-nip05-service)![stars](https://img.shields.io/github/stars/KiPSOFT/nostr-nip05-service?style=social) - A free NIP-05 identifier service.
 
 ## Offline signer
 
@@ -283,3 +287,4 @@ Outside of nostr itself, you find the community on:
 - [Media caching server for Nostr](https://media.nostr.band) - caches resized profile pictures and banners to save bandwidth for clients
 
 Data for this list is contributed by the community and curated by [@aaaljaz](https://twitter.com/aaaljaz) ( npub1aljazgxlpnpfp7n5sunlk3dvfp72456x6nezjw4sd850q879rxqsthg9jp)
+
