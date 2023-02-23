@@ -248,6 +248,7 @@ Allow you to sign Nostr events on web-apps without having to give them your keys
 - [wen](https://github.com/fiatjaf/wen)![stars](https://img.shields.io/github/stars/fiatjaf/wen.svg?style=social) - browser extension for website enhancer with nostr
 - [Blockcore](https://github.com/block-core/blockcore-wallet)![stars](https://img.shields.io/github/stars/block-core/blockcore-wallet.svg?style=social) - Multi wallet browser extension with nostr support
 - [Nostore](https://testflight.apple.com/join/ouPWAQAV) - Nostr Signer Extension for iOS/macOS Safari
+- [nostr-keyx](https://github.com/susumuota/nostr-keyx)![stars](https://img.shields.io/github/stars/susumuota/nostr-keyx.svg?style=social) - A NIP-07 browser extension that uses the OS's native keychain application (e.g. Keychain Access on macOS) to protect your private keys
 
 ## Community
 
