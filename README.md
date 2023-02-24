@@ -216,7 +216,9 @@ them:
 - [homebrew-nostr](https://github.com/0xbabo/homebrew-nostr)![stars](https://img.shields.io/github/stars/0xbabo/homebrew-nostr?style=social) - Homebrew tap for Nostr software.
 - [heyxynip5](https://github.com/bennyhodl/hexynip5)![stars](https://img.shields.io/github/stars/bennyhodl/hexynip5?style=social) - A CLI helper for converting nostr npub/nsec to their hex format for NIP-05 verification.
 - [http-nostr-publisher](https://github.com/getAlby/http-nostr-publisher)![stars](https://img.shields.io/github/stars/getAlby/http-nostr-publisher?style=social) -  A Cloudflare worker to publish Nostr events to relays through a non-blocking HTTP interface .
-- [blastr](https://github.com/MutinyWallet/blastr)![stars](https://img.shields.io/github/stars/MutinyWallet/blastr?style=social) -  A nostr cloudflare workers proxy relay that publishes to all known relays.
+- [blastr](https://github.com/MutinyWallet/blastr)![stars](https://img.shields.io/github/stars/MutinyWallet/blastr?style=social) - A nostr cloudflare workers proxy relay that publishes to all known relays.
+- [keystr-rs](https://github.com/keystr/keystr-rs)![stars](https://img.shields.io/github/stars/keystr/keystr-rs?style=social) - An application for managing Nostr keys. Written in Rust, with simple UI (Iced).
+
 
 ## NIP-05 identity services
 
