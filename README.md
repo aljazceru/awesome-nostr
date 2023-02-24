@@ -232,6 +232,7 @@ them:
 - [nostrprotocol.net](https://github.com/KiPSOFT/nostr-nip05-service)![stars](https://img.shields.io/github/stars/KiPSOFT/nostr-nip05-service?style=social) - A free NIP-05 identifier service.
 - [nostr.ly/easyNostr](https://nostr.ly) - NIP-05 ID provider on domains: nostr.ly, mynostr.io, easyNostr.com. Free. Coming soon: NIP-05 on your own domain.
 - [getalby.com](https://getalby.com/) - Lightning wallet with NIP-05 ID registration service.
+- [iris.to](https://iris.to) — A Nostr client that provides a free NIP-05 ID
 
 ## Offline signer
 
