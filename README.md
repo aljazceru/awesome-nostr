@@ -91,7 +91,6 @@ them:
 - [bolt.fun](https://makers.bolt.fun/feed) - A bitcoin lightning makers community that supports reading and creating comments using Nostr
 - [iris](https://github.com/irislib/iris-messenger)![stars](https://img.shields.io/github/stars/irislib/iris-messenger.svg?style=social) - A nostr web client
   - [iris.to](https://iris.to) - live instance
-  - [iOS Testflight](iOS Testflight) 
   - [Android app](https://play.google.com/store/apps/details?id=to.iris.twa)
 - [gossip](https://github.com/mikedilger/gossip)![stars](https://img.shields.io/github/stars/mikedilger/gossip.svg?style=social) - A desktop client in rust presented with egui
 - [Attached](https://github.com/dyegolara/nostr-attached)![stars](https://img.shields.io/github/stars/dyegolara/nostr-attached.svg?style=social) - Open-Source ReactNative Expo app for Nostr (iOS, Android). Currently under app stores review.
