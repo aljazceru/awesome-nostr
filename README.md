@@ -220,6 +220,7 @@ them:
 - [blastr](https://github.com/MutinyWallet/blastr)![stars](https://img.shields.io/github/stars/MutinyWallet/blastr?style=social) - A nostr cloudflare workers proxy relay that publishes to all known relays.
 - [keystr-rs](https://github.com/keystr/keystr-rs)![stars](https://img.shields.io/github/stars/keystr/keystr-rs?style=social) - An application for managing Nostr keys. Written in Rust, with simple UI (Iced).
 - [nostr_simple_publish](https://www.drupal.org/project/nostr_simple_publish/)- Drupal module to publish content to Nostr.
+- [nostr-spam-detection](https://github.com/blakejakopovic/nostr-spam-detection) -  An experiment in building a machine learning model to label Nostr spam content for filtering and relay rejection. 
 
 
 ## NIP-05 identity services
