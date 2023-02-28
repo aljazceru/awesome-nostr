@@ -237,6 +237,7 @@ them:
 - [nostr.ly/easyNostr](https://nostr.ly) - NIP-05 ID provider on domains: nostr.ly, mynostr.io, easyNostr.com. Free. Coming soon: NIP-05 on your own domain.
 - [getalby.com](https://getalby.com/) - Lightning wallet with NIP-05 ID registration service.
 - [iris.to](https://iris.to) — A Nostr client that provides a free NIP-05 ID
+- [bitcoiner.chat](https://bitcoiner.chat) - A free NIP-05 ID registration service.
 
 ## Offline signer
 
