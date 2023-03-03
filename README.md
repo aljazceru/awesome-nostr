@@ -120,7 +120,7 @@ them:
 - [MeShell](https://github.com/BEEBSDONE/MeShell_Nodejs)![stars](https://img.shields.io/github/stars/BEEBSDONE/MeShell_Nodejs.svg?style=social) - Web, iOS and Android blog type client destined to publish articles and researches for independent journalists.
   - [MeShell.io](https://meshell.io) - Landing page for more information
 - [Disgus](https://github.com/carlitoplatanito/disgus)![stars](https://img.shields.io/github/stars/carlitoplatanito/disgus.svg?style=social) - A comment widget like Disqus, but for Nostr.
-- [NostrID](https://github.com/erdaltoprak/nostrid)![stars](https://img.shields.io/github/stars/erdaltoprak/nostrid.svg?style=social) - A Nostr ID Management App for iOS.
+- [Tamga](https://github.com/erdaltoprak/tamga)![stars](https://img.shields.io/github/stars/erdaltoprak/tamga.svg?style=social) - An offline first nostr contact & profile manager for iOS!
 - [nostromat](https://github.com/ekimber/nostromat)![stars](https://img.shields.io/github/stars/ekimber/nostromat.svg?style=social) - A Twitter-style Nostr web client, written in Clojurescript/React
   - [nostrom.at](https://nostrom.at) - live instance
 - [blogstack.io](https://blogstack.io)![stars](https://img.shields.io/github/stars/nodetec/blogstack.svg?style=social) - Blogging site for nostr, supports markdown
