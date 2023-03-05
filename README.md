@@ -11,6 +11,7 @@ created by [@fiatjaf](https://github.com/fiatjaf).
 - [UseNostr](https://usenostr.org) - A small guide for anyone who wants to learn more about how nostr works and what it can do.
 - [nostr.how](https://nostr.how) - Quick-start to onboard desktop users with Alby & Astral
 - [nostr.guide](https://nostr.guide) - A guide to all things nostr
+- [nostr address book](https://github.com/aitechguy/nostr-address-book) - A directory of twitter users accounts and their NOSTR addresses
 - [tinkering with nostr without any client](https://medium.com/@p2w34/tinkering-with-the-nostr-protocol-will-it-take-twitter-over-74c4bf0fea66)
 
 ## Relays
