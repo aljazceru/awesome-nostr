@@ -240,6 +240,7 @@ them:
 - [getalby.com](https://getalby.com/) - Lightning wallet with NIP-05 ID registration service.
 - [iris.to](https://iris.to) — A Nostr client that provides a free NIP-05 ID
 - [bitcoiner.chat](https://bitcoiner.chat) - A free NIP-05 ID registration service.
+- [pleroma2nip05](https://code.taurix.net/guy/pleroma2nip05) - A Python based service to link pleroma ID's to nostr keys.
 
 ## Offline signer
 
