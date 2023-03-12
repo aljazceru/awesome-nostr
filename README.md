@@ -54,20 +54,17 @@ them:
 
 ## Clients
 
-- [branle](https://github.com/fiatjaf/branle)![stars](https://img.shields.io/github/stars/fiatjaf/branle.svg?style=social) - a Twitter-like client with chat. Some instances:
-  - [branle.netlify.app](https://branle.netlify.app/) - by fiatjaf
-  - [nostr.rocks](https://nostr.rocks/)
-  - [branle.wlvs.space](https://branle.wlvs.space/)
-  - [branle tor](http://hbn4yzl3qkzi3qpse6nvljbduzcdecaq76tbcfjfzmoaik3q3uryxuad.onion/3bf0c63fcb93463407af97a5e5ee64fa883d107ef9e558472c4eb9aaaefa459d) - on tor
-- [astral](https://github.com/monlovesmango/astral)![stars](https://img.shields.io/github/stars/monlovesmango/astral.svg?style=social) - a branle fork with global feed and UI makeover
+- [Astral](https://github.com/monlovesmango/astral)![stars](https://img.shields.io/github/stars/monlovesmango/astral.svg?style=social) - a branle fork with global feed and UI makeover
   - [astral.ninja](https://astral.ninja/)
   - [client.nostr.guide](https://client.nostr.guide/)
+  - [Astral on TOR](http://hbn4yzl3qkzi3qpse6nvljbduzcdecaq76tbcfjfzmoaik3q3uryxuad.onion/3bf0c63fcb93463407af97a5e5ee64fa883d107ef9e558472c4eb9aaaefa459d)
 - [damus](https://github.com/damus-io/damus)![stars](https://img.shields.io/github/stars/damus-io/damus.svg?style=social) - a twitter-like nostr client for iOS and MacOS
   - [damus on testflight](https://testflight.apple.com/join/CLwjLxWl)
 - [more-speech](https://github.com/unclebob/more-speech)![stars](https://img.shields.io/github/stars/unclebob/more-speech.svg?style=social) - desktop client for nostr written in Clojure
 - [futr](https://github.com/prolic/futr)![stars](https://img.shields.io/github/stars/prolic/futr.svg?style=social) - nostr client desktop app written in Haskell
 - [Minds](https://www.minds.com/) - open source social network. Supports reading and creating posts using the Nostr protocol
-- [Jester](https://jesterui.github.io/) - Chess over nostr
+- [Jester](https://github.com/jesterui/jesterui) ![stars](https://img.shields.io/github/stars/jesterui/jesterui.svg?style=social) - Chess over nostr
+  - [Jester instance](https://jesterui.github.io/)
 - [Sendstr](https://sendstr.com/) ![stars](https://img.shields.io/github/stars/vilm3r/sendstr-web.svg?style=social) - shared clipboard between devices over nostr
 - [nosbin](https://nosbin.com/)![stars](https://img.shields.io/github/stars/jacany/nosbin.svg?style=social) - pastebin over nostr
 - [noscl](https://github.com/fiatjaf/noscl)![stars](https://img.shields.io/github/stars/fiatjaf/noscl.svg?style=social) - a basic command-line client written in Go
@@ -289,6 +286,7 @@ Outside of nostr itself, you find the community on:
 
 ## Deprecated
 
+- [branle](https://github.com/fiatjaf/branle)![stars](https://img.shields.io/github/stars/fiatjaf/branle.svg?style=social) - a Twitter-like client that was discontinued but lives on in its fork "Astral".
 - [anigma.io](https://anigma.io) - has known xss attack vulnerabilities, which can put private key at risk, or risk signing events you may not want to send.
 - [nvote](https://nvote.co) - it does server side processing, and even private key is handled server side, and as such is deprecated for normal use.
 - [alphaama.com](https://alphaama.com) - is _under maintenance_ as of late 2022.
