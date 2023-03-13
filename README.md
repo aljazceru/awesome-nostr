@@ -223,7 +223,7 @@ them:
 - [nostr_simple_publish](https://www.drupal.org/project/nostr_simple_publish/)- Drupal module to publish content to Nostr.
 - [nostr-spam-detection](https://github.com/blakejakopovic/nostr-spam-detection)![stars](https://img.shields.io/github/stars/blakejakopovic/nostr-spam-detection.svg?style=social) -  An experiment in building a machine learning model to label Nostr spam content for filtering and relay rejection.
 - [blogsync](https://github.com/canostrical/blogsync)![stars](https://img.shields.io/github/stars/canostrical/blogsync.svg?style=social) - Self-host blog articles from long-form notes e.g. via Caddy server.
-
+- [NostrFlu](https://heguro.github.io/nostr-following-list-util/)![stars](https://img.shields.io/github/stars/heguro/nostr-following-list-util.svg?style=social) - A tool to collect and resend following lists from relays. You can also check badges.
 
 ## NIP-05 identity services
 
