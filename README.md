@@ -129,6 +129,8 @@ them:
 - [gnost-deflate-client](https://github.com/barkyq/gnost-deflate-client)![stars](https://img.shields.io/github/stars/barkyq/gnost-deflate-client?style=social) CLI nostr client written in go implementing permessage-deflate websocket compression.
 - [algia](https://github.com/mattn/algia)![stars](https://img.shields.io/github/stars/mattn/algia.svg?style=social) - A cli application for nostr.
 - [algia-web](https://github.com/ryogrid/algia-web)![stars](https://img.shields.io/github/stars/ryogrid/algia-web.svg?style=social) - A small resource consumption oriented Nostr web client.
+- [Written](https://github.com/silencesoft/written)![stars] Self hosted blog using nostr long-form content (NIP-23) and it shows only posts by selected authors.
+  - [Demo](https://written-weld.vercel.app/)
 
 ### Client reviews and/or comparisons
 
@@ -160,7 +162,7 @@ them:
 - [nostr-deno](https://github.com/KiPSOFT/nostr-deno)![stars](https://img.shields.io/github/stars/KiPSOFT/nostr-deno.svg?style=social) - a client library for Deno javascript runtime.
 - [nostr-types](https://github.com/mikedilger/nostr-types)![stars](https://img.shields.io/github/stars/mikedilger/nostr-types.svg?style=social) - a rust library defining types useful for the nostr protocol
 - [dart-nostr](https://github.com/ethicnology/dart-nostr)![stars](https://img.shields.io/github/stars/ethicnology/dart-nostr.svg?style=social) - a Dart library for Flutter
-- [nostr-connect](https://github.com/nostr-connect/connect)![stars](https://img.shields.io/github/stars/nostr-connect/connect.svg?style=social) - Nostr Connect SDK for TypeScript is a library that allows you to easily integrate Nostr Connect into your web application 
+- [nostr-connect](https://github.com/nostr-connect/connect)![stars](https://img.shields.io/github/stars/nostr-connect/connect.svg?style=social) - Nostr Connect SDK for TypeScript is a library that allows you to easily integrate Nostr Connect into your web application
 - [pynostr](https://github.com/holgern/pynostr)![stars](https://img.shields.io/github/stars/holgern/pynostr.svg?style=social) - a python library for nostr
 - [nostr-php](https://github.com/swentel/nostr-php)![stars](https://img.shields.io/github/stars/swentel/nostr-php.svg?style=social) - a PHP library for nostr
 
@@ -208,7 +210,7 @@ them:
 - [rss.nostr.band](https://rss.nostr.band) - Create custom RSS feeds with posts matching your keywords and consume using your favorite RSS reader.
 - [nostrview](https://nostrview.com) - A nostr search engine. Search by content, tags, events or pub keys.
 - [nostr-bulk-dms](https://github.com/leesalminen/nostr-bulk-dm)![stars](https://img.shields.io/github/stars/leesalminen/nostr-bulk-dm.svg?style=social) - A tool that allows you to send DMs over nostr to many recipients in bulk.
-- [nostrify](https://github.com/joelklabo/nostrify)![stars](https://img.shields.io/github/stars/joelklabo/nostrify.svg?style=social) - A Core Lightning plugin that sends events (forwards, connect, disconnect, etc.) to nostr. 
+- [nostrify](https://github.com/joelklabo/nostrify)![stars](https://img.shields.io/github/stars/joelklabo/nostrify.svg?style=social) - A Core Lightning plugin that sends events (forwards, connect, disconnect, etc.) to nostr.
 - [nip06-web](https://github.com/jaonoctus/nip06-web)![stars](https://img.shields.io/github/stars/jaonoctus/nip06-web.svg?style=social) - a website to generate or restore NIP-06 seed phrases
   - [nip06.jaonoct.us](https://nip06.jaonoct.us) - by jaonoctus
 - [nip06-cli](https://github.com/jaonoctus/nip06-cli)![stars](https://img.shields.io/github/stars/jaonoctus/nip06-cli.svg?style=social) - a Node.js CLI to generate or restore NIP-06 seed phrases
@@ -252,7 +254,7 @@ them:
 - [nostr-pubminer](https://github.com/lacaulac/nostr-pubminer)![stars](https://img.shields.io/github/stars/lacaulac/nostr-pubminer.svg?style=social) - A simple tool to mine nostr vanity pubkeys
 - [rana](https://github.com/grunch/rana)![stars](https://img.shields.io/github/stars/grunch/rana.svg?style=social) - Vanity pubkey miner based on nip13
 - [glasnostr](https://github.com/eyelight/glasnostr) ![stars](https://img.shields.io/github/stars/eyelight/glasnostr.svg?style=social) - CLI tool to mine a vanity prefix for your nostr npub
-- [nostrogen](https://github.com/tonyinit/nostrogen)![stars](https://img.shields.io/github/stars/tonyinit/nostrogen.svg?style=social)  -  simple web based nostr vanity address generator 
+- [nostrogen](https://github.com/tonyinit/nostrogen)![stars](https://img.shields.io/github/stars/tonyinit/nostrogen.svg?style=social)  -  simple web based nostr vanity address generator
 - [nostr-vanity-address-generator](https://github.com/chawyehsu/nostr-vanity-address-generator) ![stars](https://img.shields.io/github/stars/chawyehsu/nostr-vanity-address-generator.svg?style=social) - Cross-platform nostr vanity address generator
 - [go-pubmine](https://github.com/tenkoh/go-pubmine) ![stars](https://img.shields.io/github/stars/tenkoh/go-pubmine.svg?style=social) - Multithreading nostr keypair generator which gives pretty (vanity) public keys. Both cli and web app are available.
 - [key-generator](https://github.com/TP-Lab/key-generator) ![stars](https://img.shields.io/github/stars/TP-Lab/key-generator.svg?style=social) - A simple tool to generate nostr keypair.
