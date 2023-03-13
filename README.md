@@ -129,6 +129,7 @@ them:
 - [Blowater](https://blowater.deno.dev) - A desktop Web client focusing on chat with delightful UX.
 - [Written](https://github.com/silencesoft/written)![stars](https://img.shields.io/github/stars/silencesoft/written.svg?style=social) Self hosted blog using nostr long-form content (NIP-23) and it shows only posts by selected authors.
   - [Demo](https://written-weld.vercel.app/)
+- [Nostr Nests](https://nostrnests.com/) - Nostr Nests is an audio space for chatting, brainstorming, debating, jamming, micro-conferences and more.
 
 ### Client reviews and/or comparisons
 
