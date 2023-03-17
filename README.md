@@ -164,6 +164,8 @@ them:
 - [nostr-connect](https://github.com/nostr-connect/connect)![stars](https://img.shields.io/github/stars/nostr-connect/connect.svg?style=social) - Nostr Connect SDK for TypeScript is a library that allows you to easily integrate Nostr Connect into your web application
 - [pynostr](https://github.com/holgern/pynostr)![stars](https://img.shields.io/github/stars/holgern/pynostr.svg?style=social) - a python library for nostr
 - [nostr-php](https://github.com/swentel/nostr-php)![stars](https://img.shields.io/github/stars/swentel/nostr-php.svg?style=social) - a PHP library for nostr
+- [nostr-web3js](https://github.com/nostrchain/nostr-web3js)![stars](https://img.shields.io/github/stars/swentel/nostr-web3js.svg?style=social) - Using a Nostr private key to sign, directly call the blockchain to achieve fast token transfer and data storage on the chain.
+
 
 ## Bridges and Gateways
 
