@@ -54,6 +54,8 @@ them:
 
 ## Clients
 
+- [Nostribe.com](https://github.com/sepehr-safari/nostribe-web-client) ![stars](https://img.shields.io/github/stars/sepehr-safari/nostribe-web-client.svg?style=social) - Nostr client web app built with Next.js 13 and TypeScript.
+  - [Nostribe.com](https://nostribe.com/) - Live instance.
 - [Astral](https://github.com/monlovesmango/astral)![stars](https://img.shields.io/github/stars/monlovesmango/astral.svg?style=social) - a branle fork with global feed and UI makeover
   - [astral.ninja](https://astral.ninja/)
   - [client.nostr.guide](https://client.nostr.guide/)
