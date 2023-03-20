@@ -228,6 +228,7 @@ them:
 - [NostrFlu](https://heguro.github.io/nostr-following-list-util/)![stars](https://img.shields.io/github/stars/heguro/nostr-following-list-util.svg?style=social) - A tool to collect and resend following lists from relays. You can also check badges.
 - [nkcli](https://github.com/mdzz-club/nkcli)![stars](https://img.shields.io/github/stars/mdzz-club/nkcli.svg?style=social) - A CLI tool for nostr key manage and serve NIP-46.
 - [git-nostr](https://github.com/colealbon/git-nostr)![stars](https://img.shields.io/github/stars/colealbon/git-nostr.svg?style=social) - A tool to enhance git cli with nostr communications.  Publish patch content, prs, repo name, issues, etc to nostr relay.
+- [nostr-wtf](https://github.com/LightningK0ala/nostr-wtf)![stars](https://img.shields.io/github/stars/LightningK0ala/nostr-wtf.svg?style=social) - A set of nostr tools available and deployed on a web app including a [pubkey converter](https://lightningk0ala.github.io/nostr-wtf/) and [relay query tool](https://lightningk0ala.github.io/nostr-wtf/query).
 
 ## NIP-05 identity services
 
