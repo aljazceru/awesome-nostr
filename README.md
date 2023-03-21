@@ -130,6 +130,7 @@ them:
 - [Written](https://github.com/silencesoft/written)![stars](https://img.shields.io/github/stars/silencesoft/written.svg?style=social) Self hosted blog using nostr long-form content (NIP-23) and it shows only posts by selected authors.
   - [Demo](https://written-weld.vercel.app/)
 - [Nostr Nests](https://nostrnests.com/) - Nostr Nests is an audio space for chatting, brainstorming, debating, jamming, micro-conferences and more.
+- [nblog](https://github.com/jacany/nblog)![stars](https://img.shields.io/github/stars/jacany/nblog.svg?style=social) - a self-host nostr ghost blog
 - [Nostribe.com](https://github.com/sepehr-safari/nostribe-web-client) ![stars](https://img.shields.io/github/stars/sepehr-safari/nostribe-web-client.svg?style=social) - Nostr client web app built with Next.js 13 and TypeScript.
   - [Nostribe.com](https://nostribe.com/) - Live instance.
   
