@@ -235,6 +235,7 @@ them:
 
 ## NIP-05 identity services
 
+- [nip05.social](https://nip05.social) - A free and anonymous NIP-05 ID registration service
 - [nostrcheck.me](https://nostrcheck.me/) - A NIP-05 ID registration service.
 - [nostrplebs](https://nostrplebs.com) - A NIP-05 ID registration service.
 - [plebs.place](https://plebs.place) - A NIP-05 ID registration service (in portuguese).
