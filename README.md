@@ -131,7 +131,9 @@ them:
   - [Demo](https://written-weld.vercel.app/)
 - [Nostr Nests](https://nostrnests.com/) - Nostr Nests is an audio space for chatting, brainstorming, debating, jamming, micro-conferences and more.
 - [nblog](https://github.com/jacany/nblog)![stars](https://img.shields.io/github/stars/jacany/nblog.svg?style=social) - a self-host nostr ghost blog
-
+- [Nostribe.com](https://github.com/sepehr-safari/nostribe-web-client) ![stars](https://img.shields.io/github/stars/sepehr-safari/nostribe-web-client.svg?style=social) - Nostr client web app built with Next.js 13 and TypeScript.
+  - [Nostribe.com](https://nostribe.com/) - Live instance.
+  
 ### Client reviews and/or comparisons
 
 - Feature [comparison list of Nostr clients](https://github.com/vishalxl/Nostr-Clients-Features-List)![stars](https://img.shields.io/github/stars/vishalxl/Nostr-Clients-Features-List.svg?style=social)
@@ -229,6 +231,7 @@ them:
 - [NostrFlu](https://heguro.github.io/nostr-following-list-util/)![stars](https://img.shields.io/github/stars/heguro/nostr-following-list-util.svg?style=social) - A tool to collect and resend following lists from relays. You can also check badges.
 - [nkcli](https://github.com/mdzz-club/nkcli)![stars](https://img.shields.io/github/stars/mdzz-club/nkcli.svg?style=social) - A CLI tool for nostr key manage and serve NIP-46.
 - [git-nostr](https://github.com/colealbon/git-nostr)![stars](https://img.shields.io/github/stars/colealbon/git-nostr.svg?style=social) - A tool to enhance git cli with nostr communications.  Publish patch content, prs, repo name, issues, etc to nostr relay.
+- [nostr-wtf](https://github.com/LightningK0ala/nostr-wtf)![stars](https://img.shields.io/github/stars/LightningK0ala/nostr-wtf.svg?style=social) - A set of nostr tools available and deployed on a web app including a [pubkey converter](https://lightningk0ala.github.io/nostr-wtf/) and [relay query tool](https://lightningk0ala.github.io/nostr-wtf/query).
 
 ## NIP-05 identity services
 
