@@ -235,7 +235,6 @@ them:
 
 ## NIP-05 identity services
 
-- [nip05.social](https://nip05.social) - A free and anonymous NIP-05 ID registration service
 - [nostrcheck.me](https://nostrcheck.me/) - A NIP-05 ID registration service.
 - [nostrplebs](https://nostrplebs.com) - A NIP-05 ID registration service.
 - [plebs.place](https://plebs.place) - A NIP-05 ID registration service (in portuguese).
@@ -249,6 +248,8 @@ them:
 - [iris.to](https://iris.to) — A Nostr client that provides a free NIP-05 ID
 - [bitcoiner.chat](https://bitcoiner.chat) - A free NIP-05 ID registration service.
 - [pleroma2nip05](https://code.taurix.net/guy/pleroma2nip05) - A Python based service to link pleroma ID's to nostr keys.
+- [nip05.social](https://nip05.social) - A free and anonymous NIP-05 ID registration service
+
 
 ## Offline signer
 
