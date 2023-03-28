@@ -135,6 +135,8 @@ them:
 - [nblog](https://github.com/jacany/nblog)![stars](https://img.shields.io/github/stars/jacany/nblog.svg?style=social) - a self-host nostr ghost blog
 - [Nostribe.com](https://github.com/sepehr-safari/nostribe-web-client) ![stars](https://img.shields.io/github/stars/sepehr-safari/nostribe-web-client.svg?style=social) - Nostr client web app built with Next.js 13 and TypeScript.
   - [Nostribe.com](https://nostribe.com/) - Live instance.
+- [WP Nostr](https://github.com/pjv/wp-nostr) ![stars](https://img.shields.io/github/stars/pjv/wp-nostr.svg?style=social) - WordPress plugin for sending WP posts to Nostr.
+  
   
 ### Client reviews and/or comparisons
 
