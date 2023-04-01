@@ -135,7 +135,8 @@ them:
 - [nblog](https://github.com/jacany/nblog)![stars](https://img.shields.io/github/stars/jacany/nblog.svg?style=social) - a self-host nostr ghost blog
 - [Nostribe.com](https://github.com/sepehr-safari/nostribe-web-client) ![stars](https://img.shields.io/github/stars/sepehr-safari/nostribe-web-client.svg?style=social) - Nostr client web app built with Next.js 13 and TypeScript.
   - [Nostribe.com](https://nostribe.com/) - Live instance.
-  
+- [ourChan.org](https://github.com/smolgrrr/ourchan)![stars](https://img.shields.io/github/stars/smolgrrr/ourchan.svg?style=social) Anonymous imageboard on nostr, from a fork of 4Chan.org
+
 ### Client reviews and/or comparisons
 
 - Feature [comparison list of Nostr clients](https://github.com/vishalxl/Nostr-Clients-Features-List)![stars](https://img.shields.io/github/stars/vishalxl/Nostr-Clients-Features-List.svg?style=social)
