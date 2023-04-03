@@ -38,6 +38,7 @@ of the public instances.
 - [knostr](https://github.com/lpicanco/knostr)![stars](https://img.shields.io/github/stars/lpicanco/knostr.svg?style=social) – a nostr relay implemented in Kotlin with support for Postgres and metrics(micrometer).
 - [PyRelay](https://github.com/johnny423/pyrelay)![stars](https://img.shields.io/github/stars/johnny423/pyrelay.svg?style=social) – a python implementation of a nostr relay, using asyncio.
 - [strfry](https://github.com/hoytech/strfry)![stars](https://img.shields.io/github/stars/hoytech/strfry.svg?style=social) – C++ implementation backed by LMDB with efficient syncing of events using merkle trees
+- [strfry personal relay](https://github.com/pjv/strfry_personal_docker)![stars](https://img.shields.io/github/stars/pjv/strfry_personal_docker.svg?style=social) - 10 minute setup of a personal nostr relay on a vanilla Linux VPS. Adds support for NIP-65.
 - [Astro](https://github.com/Nostrology/astro)![stars](https://img.shields.io/github/stars/Nostrology/astro.svg?style=social)– Elixir based implementation built to be performant and highly distributed.
 - [Nex](https://github.com/lebrunel/nex) ![stars](https://img.shields.io/github/stars/lebrunel/nex.svg?style=social) - A powerful and scalable Nostr relay written in Elixir with Postgres DB.
 - [gnost-relay](https://github.com/barkyq/gnost-relay) ![stars](https://img.shields.io/github/stars/barkyq/gnost-relay.svg?style=social) - nostr relay written in go backed by postgresql database.
