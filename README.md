@@ -38,7 +38,6 @@ of the public instances.
 - [knostr](https://github.com/lpicanco/knostr)![stars](https://img.shields.io/github/stars/lpicanco/knostr.svg?style=social) – a nostr relay implemented in Kotlin with support for Postgres and metrics(micrometer).
 - [PyRelay](https://github.com/johnny423/pyrelay)![stars](https://img.shields.io/github/stars/johnny423/pyrelay.svg?style=social) – a python implementation of a nostr relay, using asyncio.
 - [strfry](https://github.com/hoytech/strfry)![stars](https://img.shields.io/github/stars/hoytech/strfry.svg?style=social) – C++ implementation backed by LMDB with efficient syncing of events using merkle trees
-- [strfry personal relay](https://github.com/pjv/strfry_personal_docker)![stars](https://img.shields.io/github/stars/pjv/strfry_personal_docker.svg?style=social) - 10 minute setup of a personal nostr relay on a vanilla Linux VPS. Adds support for NIP-65.
 - [Astro](https://github.com/Nostrology/astro)![stars](https://img.shields.io/github/stars/Nostrology/astro.svg?style=social)– Elixir based implementation built to be performant and highly distributed.
 - [Nex](https://github.com/lebrunel/nex) ![stars](https://img.shields.io/github/stars/lebrunel/nex.svg?style=social) - A powerful and scalable Nostr relay written in Elixir with Postgres DB.
 - [gnost-relay](https://github.com/barkyq/gnost-relay) ![stars](https://img.shields.io/github/stars/barkyq/gnost-relay.svg?style=social) - nostr relay written in go backed by postgresql database.
@@ -251,7 +250,6 @@ them:
 - [plebs.place](https://plebs.place) - A NIP-05 ID registration service (in portuguese).
 - [nanostr](https://github.com/xbol0/nanostr)![stars](https://img.shields.io/github/stars/xbol0/nanostr?style=social) A NIP-05 name server written in Deno.
 - [nostr.industries](https://nostr.industries) ![stars](https://img.shields.io/github/stars/jigglycrumb/nostr-verify?style=social) - A free and open source NIP-05 ID registration service. [Run your own](https://github.com/jigglycrumb/nostr-verify).
-- [NIP-05 on LNBits](https://github.com/lnbits/lnbits/tree/main/lnbits/extensions/nostrnip5) - Sell NIP-05 verification for your domain using LNBits.
 - [younostr.com](https://younostr.com) - A NIP-05 ID registration service (in portuguese).
 - [nostrprotocol.net](https://github.com/KiPSOFT/nostr-nip05-service)![stars](https://img.shields.io/github/stars/KiPSOFT/nostr-nip05-service?style=social) - A free NIP-05 identifier service.
 - [nostr.ly/easyNostr](https://nostr.ly) - NIP-05 ID provider: Use your own domain, or one of ours: nostr.ly, mynostr.io, easyNostr.com. Free (for now).
@@ -310,6 +308,8 @@ Outside of nostr itself, you find the community on:
 - [Nostr Newcomers Most Common Questions and Answers](https://uselessshit.co/resources/nostr/)
 - [How to: Run your own nostr relay](https://nutcroft.com/blog/how-to-run-your-own-nostr-relay/) (nostr-rs-relay, Caddy, no Docker)
 - [How to set up a paid nostr relay](https://andreneves.xyz/p/how-to-setup-a-paid-nostr-relay)
+- [strfry personal relay](https://github.com/pjv/strfry_personal_docker)![stars](https://img.shields.io/github/stars/pjv/strfry_personal_docker.svg?style=social) - 10 minute setup of a personal nostr relay on a vanilla Linux VPS. Adds support for NIP-65.
+
 
 ## Deprecated
 
