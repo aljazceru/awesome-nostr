@@ -38,12 +38,15 @@ of the public instances.
 - [knostr](https://github.com/lpicanco/knostr)![stars](https://img.shields.io/github/stars/lpicanco/knostr.svg?style=social) – a nostr relay implemented in Kotlin with support for Postgres and metrics(micrometer).
 - [PyRelay](https://github.com/johnny423/pyrelay)![stars](https://img.shields.io/github/stars/johnny423/pyrelay.svg?style=social) – a python implementation of a nostr relay, using asyncio.
 - [strfry](https://github.com/hoytech/strfry)![stars](https://img.shields.io/github/stars/hoytech/strfry.svg?style=social) – C++ implementation backed by LMDB with efficient syncing of events using merkle trees
+- [strfry personal relay](https://github.com/pjv/strfry_personal_docker)![stars](https://img.shields.io/github/stars/pjv/strfry_personal_docker.svg?style=social) - 10 minute setup of a personal nostr relay on a vanilla Linux VPS. Adds support for NIP-65.
 - [Astro](https://github.com/Nostrology/astro)![stars](https://img.shields.io/github/stars/Nostrology/astro.svg?style=social)– Elixir based implementation built to be performant and highly distributed.
 - [Nex](https://github.com/lebrunel/nex) ![stars](https://img.shields.io/github/stars/lebrunel/nex.svg?style=social) - A powerful and scalable Nostr relay written in Elixir with Postgres DB.
 - [gnost-relay](https://github.com/barkyq/gnost-relay) ![stars](https://img.shields.io/github/stars/barkyq/gnost-relay.svg?style=social) - nostr relay written in go backed by postgresql database.
 - [nostring](https://github.com/xbol0/nostring)![stars](https://img.shields.io/github/stars/xbol0/nostring.svg?style=social) - A Nostr relay written in Deno.
 - [Denostr](https://github.com/guakamoli/denostr)![stars](https://img.shields.io/github/stars/guakamoli/denostr.svg?style=social) - Deno based, cloud native nostr implemention support by ByteTrade and Revo.
 - [nostr-relay-nestjs](https://github.com/CodyTseng/nostr-relay-nestjs)![stars](https://img.shields.io/github/stars/CodyTseng/nostr-relay-nestjs.svg?style=social) - A Nostr relay implemented using the NestJS framework
+- [Ephemerelay](https://gitlab.com/soapbox-pub/ephemerelay)![stars](https://img.shields.io/gitlab/stars/soapbox-pub/ephemerelay.svg?style=social) - An in-memory Nostr relay that doesn't store data.
+- [Servus](https://github.com/ibz/servus)![stars](https://img.shields.io/github/stars/ibz/servus.svg?style=social) - A self-contained, single executable, CMS / blogging engine reminiscent of Jekyll which also acts as a personal Nostr relay for your blog posts. Written in Rust.
 
 ### Instances
 
@@ -136,7 +139,10 @@ them:
 - [Nostribe.com](https://github.com/sepehr-safari/nostribe-web-client) ![stars](https://img.shields.io/github/stars/sepehr-safari/nostribe-web-client.svg?style=social) - Nostr client web app built with Next.js 13 and TypeScript.
   - [Nostribe.com](https://nostribe.com/) - Live instance.
 - [ourChan.org](https://github.com/smolgrrr/ourchan)![stars](https://img.shields.io/github/stars/smolgrrr/ourchan.svg?style=social) Anonymous imageboard on nostr, from a fork of 4Chan.org
-
+- [Nostrtium](https://github.com/pjv/nostrtium)![stars](https://img.shields.io/github/stars/pjv/nostrtium.svg?style=social) - Post to Nostr directly from within WordPress
+- [uBlog](https://github.com/nodetec/ublog) ![stars](https://img.shields.io/github/stars/nodetec/ublog.svg?style=social) - A minimalist blog on nostr that allows anyone to easily create their own personal micro-blog.
+  - [u-blog.vercel.app](https://u-blog.vercel.app)
+  
 ### Client reviews and/or comparisons
 
 - Feature [comparison list of Nostr clients](https://github.com/vishalxl/Nostr-Clients-Features-List)![stars](https://img.shields.io/github/stars/vishalxl/Nostr-Clients-Features-List.svg?style=social)
@@ -176,7 +182,7 @@ them:
 - [rsslay](https://github.com/piraces/rsslay)![stars](https://img.shields.io/github/stars/piraces/rsslay.svg?style=social) - fork of the rsslay by @fiatjaf. a bridge that puts RSS feeds into Nostr optimized, more funcionalities and UI improvements. Live at [rsslay.nostr.moe](https://rsslay.nostr.moe/)
 - [smtp nostr gateway ](https://github.com/Cameri/smtp-nostr-gateway)![stars](https://img.shields.io/github/stars/Cameri/smtp-nostr-gateway.svg?style=social) - a bridge that forwards emails to pubkeys as encrypted direct messages
 - [matrix-nostr-bridge](https://github.com/8go/matrix-nostr-bridge)![stars](https://img.shields.io/github/stars/8go/matrix-nostr-bridge.svg?style=social) a simple Matrix-to-Nostr or Nostr-to-Matrix bridge
-- [Mostr](https://gitlab.com/soapbox-pub/mostr)![stars](https://img.shields.io/github/stars/soapbox-pub/mostr.svg?style=social) - a bridge between Nostr and the Fediverse (Mastodon, ActivityPub, etc.)
+- [Mostr](https://gitlab.com/soapbox-pub/mostr)![stars](https://img.shields.io/gitlab/stars/soapbox-pub/mostr.svg?style=social) - a bridge between Nostr and the Fediverse (Mastodon, ActivityPub, etc.)
 
 ## Tools
 
@@ -235,6 +241,8 @@ them:
 - [nkcli](https://github.com/mdzz-club/nkcli)![stars](https://img.shields.io/github/stars/mdzz-club/nkcli.svg?style=social) - A CLI tool for nostr key manage and serve NIP-46.
 - [git-nostr](https://github.com/colealbon/git-nostr)![stars](https://img.shields.io/github/stars/colealbon/git-nostr.svg?style=social) - A tool to enhance git cli with nostr communications.  Publish patch content, prs, repo name, issues, etc to nostr relay.
 - [nostr-wtf](https://github.com/LightningK0ala/nostr-wtf)![stars](https://img.shields.io/github/stars/LightningK0ala/nostr-wtf.svg?style=social) - A set of nostr tools available and deployed on a web app including a [pubkey converter](https://lightningk0ala.github.io/nostr-wtf/) and [relay query tool](https://lightningk0ala.github.io/nostr-wtf/query).
+- [strfry policies](https://gitlab.com/soapbox-pub/strfry-policies)![stars](https://img.shields.io/gitlab/stars/soapbox-pub/strfry-policies.svg?style=social) - A collection of moderation & antispam policies for the strfry relay developed in TypeScript/Deno.
+- [powrelay.xyz](https://powrelay.xyz) - A proof of work based nostr explorer.
 
 ## NIP-05 identity services
 
@@ -252,6 +260,7 @@ them:
 - [bitcoiner.chat](https://bitcoiner.chat) - A free NIP-05 ID registration service.
 - [pleroma2nip05](https://code.taurix.net/guy/pleroma2nip05) - A Python based service to link pleroma ID's to nostr keys.
 - [nip05.social](https://nip05.social) - A free and anonymous NIP-05 ID registration service
+- [nostr-relay.org](https://nostr-relay.org) - A NIP-05 ID registration service
 
 
 ## Offline signer
@@ -288,6 +297,8 @@ Outside of nostr itself, you find the community on:
 
 - [nostr telegram group](https://t.me/nostr_protocol) - a telegram group for nostr protocol discussion
 - [nostr español/spanish telegram group](https://t.me/nostr_es) - a spanish telegram group for nostr
+- [nostr france/french telegram group](https://t.me/nostr_fr) - a french telegram group for nostr
+
 - [nostr reddit](https://www.reddit.com/r/nostr/) - a subreddit for nostr related discussion
 - [nostr discord](https://discord.gg/Pxkcgt9sMj) - a discord server for nostr enthusiasts and developers
 
