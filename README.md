@@ -337,3 +337,9 @@ Outside of nostr itself, you find the community on:
 - [nostr icons](https://github.com/satscoffee/nostr_icons)![stars](https://img.shields.io/github/stars/satscoffee/nostr_icons.svg?style=social) - Purple, white, and black icons in various formats designed for nostr.
 
 Data for this list is contributed by the community and curated by [@aaaljaz](https://twitter.com/aaaljaz) ( npub1aljazgxlpnpfp7n5sunlk3dvfp72456x6nezjw4sd850q879rxqsthg9jp)
+
+## Contributors
+
+<a align="center" href="https://github.com/aljazceru/awesome-nostr/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=aljazceru/awesome-nostr" />
+</a>
