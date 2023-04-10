@@ -143,6 +143,7 @@ them:
   - [u-blog.vercel.app](https://u-blog.vercel.app)
 - [Listr](https://github.com/sepehr-safari/listr) ![stars](https://img.shields.io/github/stars/sepehr-safari/listr.svg?style=social) - A Nostr Web Client for Making Lists, built with Next.js 13 and TypeScript.
   - [Listr-demo.vercel.app](https://listr-demo.vercel.app/) - Live instance.
+- [daorayaki.org](https://daorayaki.org)![stars](https://img.shields.io/github/stars/smolgrrr/ourchan.svg?style=social) – A censorship and data ownership free protocol concerning dmedia. 
 
 ### Client reviews and/or comparisons
 
