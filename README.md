@@ -215,7 +215,6 @@ them:
 - [nostr-commander](https://github.com/8go/nostr-commander-rs)![stars](https://img.shields.io/github/stars/8go/nostr-commander-rs.svg?style=social) - simple but convenient CLI-based Nostr app for following users, sending DMs, etc.
 - [nostr.directory](https://github.com/pseudozach/nostr.directory)![stars](https://img.shields.io/github/stars/pseudozach/nostr.directory.svg?style=social) - searchable database of nostr users and their other social media links.
 - [nostr-tool](https://github.com/0xtrr/nostr-tool)![stars](https://img.shields.io/github/stars/0xtrr/nostr-tool.svg?style=social) - Rust CLI tool to generate and publish events
-- [frostr](https://github.com/nickfarrow/frostr)![stars](https://img.shields.io/github/stars/nickfarrow/frostr.svg?style=social) - Create joint nostr identities and require t-of-n signatures to post
 - [nostr.rest](https://nostr.rest) - Mine proof of work public keys with user specified prefixes
 - [lnpass](https://lnpass.github.io)![stars](https://img.shields.io/github/stars/lnpass/lnpass-web.svg?style=social) - A key manager for Lightning and nostr.
 - [sb.nostr.band](https://sb.nostr.band) - Search bots that you can create and follow to receive new posts matching a keyword right into your feed.
