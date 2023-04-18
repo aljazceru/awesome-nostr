@@ -294,11 +294,15 @@ Allow you to sign Nostr events on web-apps without having to give them your keys
 - [nostr-keyx](https://github.com/susumuota/nostr-keyx)![stars](https://img.shields.io/github/stars/susumuota/nostr-keyx.svg?style=social) - A NIP-07 browser extension that uses the OS's keychain or YubiKey to protect your private keys.
 - [TokenPocket](https://github.com/TP-Lab/TokenPocket)![stars](https://img.shields.io/github/stars/TP-Lab/TokenPocket.svg?style=social) - Multi wallet browser extension with nostr support. https://tokenpocket.pro
 
-## Wallets supporting Zaps
+## NIP-57 Zaps compatible wallets 
 - [Alby](https://getalby.com)![stars](https://img.shields.io/github/stars/getAlby/lightning-browser-extension.svg?style=social) - Bitcoin Lightning app with nostr support
 - [Wallet of Satoshi](https://www.walletofsatoshi.com/) - Custodial lightning wallet
 - [ZeusLN](https://github.com/ZeusLN/zeus)![stars](https://img.shields.io/github/stars/ZeusLN/zeus.svg?style=social) -  A mobile Bitcoin/Lightning app for LND, Core Lightning, and Eclair node operators
 - [LightningTipBot](https://github.com/LightningTipBot/LightningTipBot)![stars](https://img.shields.io/github/stars/LightningTipBot/LightningTipBot.svg?style=social) - A tip bot and Bitcoin Lightning wallet on Telegram
+- [Zebedee app](https://zebedee.io/app) - Zebedee's wallet/lightning app
+- [Current](https://app.getcurrent.io/) - nostr client + lightning wallet 
+- [Blink](https://www.blink.sv/) - Blink (ex Bitcoin Beach Wallet) 
+
 
 ## Community
 
