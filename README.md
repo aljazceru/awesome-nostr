@@ -294,6 +294,12 @@ Allow you to sign Nostr events on web-apps without having to give them your keys
 - [nostr-keyx](https://github.com/susumuota/nostr-keyx)![stars](https://img.shields.io/github/stars/susumuota/nostr-keyx.svg?style=social) - A NIP-07 browser extension that uses the OS's keychain or YubiKey to protect your private keys.
 - [TokenPocket](https://github.com/TP-Lab/TokenPocket)![stars](https://img.shields.io/github/stars/TP-Lab/TokenPocket.svg?style=social) - Multi wallet browser extension with nostr support. https://tokenpocket.pro
 
+## Wallets supporting Zaps
+- [Alby](https://getalby.com)![stars](https://img.shields.io/github/stars/getAlby/lightning-browser-extension.svg?style=social) - Bitcoin Lightning app with nostr support
+- [Wallet of Satoshi](https://www.walletofsatoshi.com/) - Custodial lightning wallet
+- [ZeusLN](https://github.com/ZeusLN/zeus)![stars](https://img.shields.io/github/stars/ZeusLN/zeus.svg?style=social) -  A mobile Bitcoin/Lightning app for LND, Core Lightning, and Eclair node operators
+- [LightningTipBot](https://github.com/LightningTipBot/LightningTipBot)![stars](https://img.shields.io/github/stars/LightningTipBot/LightningTipBot.svg?style=social) - A tip bot and Bitcoin Lightning wallet on Telegram
+
 ## Community
 
 Outside of nostr itself, you find the community on:
@@ -339,6 +345,7 @@ Outside of nostr itself, you find the community on:
 - [Summaries of all Nostr Improvements Proposals](https://anchor.fm/s/d8e8d5a4/podcast/rss) - ChatGPT generated summaries of all NIPs by k00b
 - [Media caching server for Nostr](https://media.nostr.band) - caches resized profile pictures and banners to save bandwidth for clients
 - [nostr icons](https://github.com/satscoffee/nostr_icons)![stars](https://img.shields.io/github/stars/satscoffee/nostr_icons.svg?style=social) - Purple, white, and black icons in various formats designed for nostr.
+
 
 Data for this list is contributed by the community and curated by [@aaaljaz](https://twitter.com/aaaljaz) ( npub1aljazgxlpnpfp7n5sunlk3dvfp72456x6nezjw4sd850q879rxqsthg9jp)
 
