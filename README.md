@@ -294,7 +294,7 @@ Allow you to sign Nostr events on web-apps without having to give them your keys
 - [nostr-keyx](https://github.com/susumuota/nostr-keyx)![stars](https://img.shields.io/github/stars/susumuota/nostr-keyx.svg?style=social) - A NIP-07 browser extension that uses the OS's keychain or YubiKey to protect your private keys.
 - [TokenPocket](https://github.com/TP-Lab/TokenPocket)![stars](https://img.shields.io/github/stars/TP-Lab/TokenPocket.svg?style=social) - Multi wallet browser extension with nostr support. https://tokenpocket.pro
 
-## NIP-57 Zaps compatible wallets 
+## NIP-57 Zaps compatible wallets and solutions 
 - [Alby](https://getalby.com)![stars](https://img.shields.io/github/stars/getAlby/lightning-browser-extension.svg?style=social) - Bitcoin Lightning app with nostr support
 - [Wallet of Satoshi](https://www.walletofsatoshi.com/) - Custodial lightning wallet
 - [ZeusLN](https://github.com/ZeusLN/zeus)![stars](https://img.shields.io/github/stars/ZeusLN/zeus.svg?style=social) -  A mobile Bitcoin/Lightning app for LND, Core Lightning, and Eclair node operators
@@ -302,7 +302,8 @@ Allow you to sign Nostr events on web-apps without having to give them your keys
 - [Zebedee app](https://zebedee.io/app) - Zebedee's wallet/lightning app
 - [Current](https://app.getcurrent.io/) - nostr client + lightning wallet 
 - [Blink](https://www.blink.sv/) - Blink (ex Bitcoin Beach Wallet) 
-
+- [nostdress](https://github.com/believethehype/nostdress)![stars](https://img.shields.io/github/stars/believethehype/nostdress.svg?style=social) -  Lightning addresses server based on satdress. Adapted to work with Nostr features (NIP05, NIP57) 
+- [btcpayserver](https://btcpayserver.org/) - btcpayserver has NIP-57 support for LN addresses since 1.9 version
 
 ## Community
 
