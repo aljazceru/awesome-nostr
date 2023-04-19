@@ -312,9 +312,11 @@ Outside of nostr itself, you find the community on:
 - [nostr telegram group](https://t.me/nostr_protocol) - a telegram group for nostr protocol discussion
 - [nostr español/spanish telegram group](https://t.me/nostr_es) - a spanish telegram group for nostr
 - [nostr francophone/french telegram group](https://t.me/nostrfr) - a french telegram group for nostr
+- [nostr CN/chinese telegram group](https://t.me/nostr_cn) - a chinese telegram group for nostr
 
 - [nostr reddit](https://www.reddit.com/r/nostr/) - a subreddit for nostr related discussion
 - [nostr discord](https://discord.gg/Pxkcgt9sMj) - a discord server for nostr enthusiasts and developers
+- [nostr hk](https://www.nostr.hk) - Connecting everyone who is interested in nostr in HK so we can meet up and have fun
 
 ## Tutorials
 
