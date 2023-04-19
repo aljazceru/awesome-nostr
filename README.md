@@ -315,6 +315,7 @@ Outside of nostr itself, you find the community on:
 
 - [nostr reddit](https://www.reddit.com/r/nostr/) - a subreddit for nostr related discussion
 - [nostr discord](https://discord.gg/Pxkcgt9sMj) - a discord server for nostr enthusiasts and developers
+- [nostr hk](https://www.nostr.hk) - Connecting everyone who is interested in nostr in HK so we can meet up and have fun
 
 ## Tutorials
 
