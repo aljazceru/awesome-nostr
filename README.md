@@ -144,6 +144,8 @@ them:
   - [u-blog.vercel.app](https://u-blog.vercel.app)
 - [Listr](https://github.com/sepehr-safari/listr) ![stars](https://img.shields.io/github/stars/sepehr-safari/listr.svg?style=social) - A Nostr Web Client for Making Lists, built with Next.js 13 and TypeScript.
   - [Listr-demo.vercel.app](https://listr-demo.vercel.app/) - Live instance.
+- [Nos](https://github.com/planetary-social/nos) ![stars](https://img.shields.io/github/stars/planetary-social/nos.svg?style=social) - A UX focused iOS / MacOS app written in swift based on [planetary.social](https://planetary.social)
+  - [nos.social](https://nos.social)
 
 ### Client reviews and/or comparisons
 
