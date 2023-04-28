@@ -134,6 +134,7 @@ them:
   - [nostr.noteon.io](https://nostr.noteon.io/)
 - [Nozzle](https://github.com/kaiwolfram/Nozzle)![stars](https://img.shields.io/github/stars/kaiwolfram/Nozzle.svg?style=social) - A Twitter-like native Android client written with Jetpack Compose
 - [ourChan.org](https://github.com/smolgrrr/ourchan)![stars](https://img.shields.io/github/stars/smolgrrr/ourchan.svg?style=social) Anonymous imageboard on nostr, from a fork of 4Chan.org
+- [Pretty Good Apps](https://github.com/wds4/pretty-good)![stars](https://img.shields.io/github/stars/wds4/pretty-good?style=social) - A desktop nostr client for linux, mac and windows with a focus on decentralized reputation and web of trust. First application: crowdsourced decentralized list curation.
 - [scalastr](https://github.com/benthecarman/scalastr)![stars](https://img.shields.io/github/stars/benthecarman/scalastr.svg?style=social) - A barebones nostr client written in scala
 - [second exchange](https://github.com/cynsar-foundation/second.exchange)![stars](https://img.shields.io/github/stars/cynsar-foundation/second.exchange.svg?style=social) - an experiment to work out something of like medium, something of creator economy where users are rewarded for engaging in quality discussion and most importantly engaging in governance-related discussion
 - [Sendstr](https://sendstr.com/) ![stars](https://img.shields.io/github/stars/vilm3r/sendstr-web.svg?style=social) - shared clipboard between devices over nostr
