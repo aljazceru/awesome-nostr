@@ -150,6 +150,7 @@ them:
 - [Votestr](https://votestr.com/)![stars](https://img.shields.io/github/stars/vilm3r/votestr.svg?style=social) - Poll web app with nostr authentication and blind signature unlinkability
 - [Written](https://github.com/silencesoft/written)![stars](https://img.shields.io/github/stars/silencesoft/written.svg?style=social) Self hosted blog using nostr long-form content (NIP-23) and it shows only posts by selected authors.
   - [Demo](https://written-weld.vercel.app/)
+- [yakihonne.com](https://yakihonne.com)![stars](https://img.shields.io/github/stars/smolgrrr/ourchan.svg?style=social) - A censorship-resistant and data ownership free protocol concerning dmedia.
 
 ### Client reviews and/or comparisons
 
