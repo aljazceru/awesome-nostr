@@ -332,6 +332,7 @@ Outside of nostr itself, you find the community on:
 - [nostr hk](https://www.nostr.hk) - Connecting everyone who is interested in nostr in HK so we can meet up and have fun
 - [nostr reddit](https://www.reddit.com/r/nostr/) - a subreddit for nostr related discussion
 - [nostr telegram group](https://t.me/nostr_protocol) - a telegram group for nostr protocol discussion
+- [nostr RU/UA/BY telegram group](https://t.me/nostru_community) - an eastern european community in telegram group for nostr
 
 ## Tutorials
 
