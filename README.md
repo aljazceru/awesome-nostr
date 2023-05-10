@@ -96,8 +96,6 @@ them:
 - [Jester](https://github.com/jesterui/jesterui) ![stars](https://img.shields.io/github/stars/jesterui/jesterui.svg?style=social) - Chess over nostr
   - [Jester instance](https://jesterui.github.io/)
 - [Lightning.Pub](https://github.com/shocknet/Lightning.Pub)![stars](https://img.shields.io/github/stars/shocknet/Lightning.Pub.svg?style=social) - A nostr daemon for Lightning nodes
-- [Listr](https://github.com/sepehr-safari/listr) ![stars](https://img.shields.io/github/stars/sepehr-safari/listr.svg?style=social) - A Nostr Web Client for Making Lists, built with Next.js 13 and TypeScript.
-  - [Listr-demo.vercel.app](https://listr-demo.vercel.app/) - Live instance.
 - [loquaz](https://github.com/emeceve/loquaz)![stars](https://img.shields.io/github/stars/emeceve/loquaz.svg?style=social) - a desktop app written in Rust for direct encrypted chat
 - [Member](https://github.com/memberapp/memberapp.github.io)![stars](https://img.shields.io/github/stars/memberapp/memberapp.github.io.svg?style=social) - Progressive Web App Client. Works on desktop and mobile.
   - [member.cash](https://member.cash/) - live instance
@@ -353,6 +351,7 @@ Outside of nostr itself, you find the community on:
 - [branle](https://github.com/fiatjaf/branle)![stars](https://img.shields.io/github/stars/fiatjaf/branle.svg?style=social) - a Twitter-like client that was discontinued but lives on in its fork "Astral".
 - [nvote](https://nvote.co) - it does server side processing, and even private key is handled server side, and as such is deprecated for normal use.
 - [rsslay](https://github.com/fiatjaf/rsslay)![stars](https://img.shields.io/github/stars/fiatjaf/rsslay.svg?style=social) - a bridge that puts RSS feeds into Nostr
+- [Listr](https://github.com/sepehr-safari/listr) ![stars](https://img.shields.io/github/stars/sepehr-safari/listr.svg?style=social) - A Nostr Web Client for Making Lists. _deprecated due to the development of a superior replacement_
 
 ## Other links
 
