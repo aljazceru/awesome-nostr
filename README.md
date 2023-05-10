@@ -351,7 +351,7 @@ Outside of nostr itself, you find the community on:
 - [branle](https://github.com/fiatjaf/branle)![stars](https://img.shields.io/github/stars/fiatjaf/branle.svg?style=social) - a Twitter-like client that was discontinued but lives on in its fork "Astral".
 - [nvote](https://nvote.co) - it does server side processing, and even private key is handled server side, and as such is deprecated for normal use.
 - [rsslay](https://github.com/fiatjaf/rsslay)![stars](https://img.shields.io/github/stars/fiatjaf/rsslay.svg?style=social) - a bridge that puts RSS feeds into Nostr
-- [Listr](https://github.com/sepehr-safari/listr) ![stars](https://img.shields.io/github/stars/sepehr-safari/listr.svg?style=social) - A Nostr Web Client for Making Lists. _deprecated duo to the development of a superior replacement_
+- [Listr](https://github.com/sepehr-safari/listr) ![stars](https://img.shields.io/github/stars/sepehr-safari/listr.svg?style=social) - A Nostr Web Client for Making Lists. _deprecated due to the development of a superior replacement_
 
 ## Other links
 
