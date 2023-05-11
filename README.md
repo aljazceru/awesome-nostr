@@ -155,6 +155,7 @@ them:
 - [Written](https://github.com/silencesoft/written)![stars](https://img.shields.io/github/stars/silencesoft/written.svg?style=social) Self hosted blog using nostr long-form content (NIP-23) and it shows only posts by selected authors.
   - [Demo](https://written-weld.vercel.app/)
 - [yakihonne.com](https://yakihonne.com)![stars](https://img.shields.io/github/stars/smolgrrr/ourchan.svg?style=social) - YakiHonne is a censorship-resistant content media protocol, which supports free curation, creation, publishing, and reporting by various media.
+- [ZappedIt](https://zappedit.com) ![stars](https://img.shields.io/github/stars/vivganes/zappedit.svg?style=social) - Reddit-style client for nostr where you can follow topics (similar to subreddits), upzap and downzap notes.
 
 ### Client reviews and/or comparisons
 
