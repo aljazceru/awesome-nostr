@@ -137,6 +137,7 @@ them:
 - [Pinstr](https://github.com/sepehr-safari/pinstr) ![stars](https://img.shields.io/github/stars/sepehr-safari/pinstr?style=social) - Pinstr is a decentralized and open-source social network for curating and sharing your interests with the world.
   - [Pinstr.app](https://pinstr.app) - live instance
 - [Pretty Good Apps](https://github.com/wds4/pretty-good)![stars](https://img.shields.io/github/stars/wds4/pretty-good?style=social) - A desktop nostr client for linux, mac and windows with a focus on decentralized reputation and web of trust. First application: crowdsourced decentralized list curation.
+- [Primal](https://primal.net) - Lightning fast web client for Nostr. Features extensive analytics, vanity profiles and more.
 - [Pollstr](https://github.com/mroxso/pollstr)![stars](https://img.shields.io/github/stars/mroxso/pollstr?style=social) - A nostr web client with a focus on polls.
   - [pollstr.online](https://pollstr.online) - live instance
 - [Satellite](https://github.com/lovvtide/satellite-web)![stars](https://img.shields.io/github/stars/lovvtide/satellite-web.svg?style=social) - Nostr web client with Reddit-style threads
@@ -208,6 +209,9 @@ matrix-nostr-bridgestars - a simple Matrix-to-Nostr or Nostr-to-Matrix bridge
 Mostrstars - a bridge between Nostr and the Fediverse (Mastodon, ActivityPub, etc.)
 rsslaystars - fork of the rsslay by @fiatjaf. a bridge that puts RSS feeds into Nostr optimized, more funcionalities and UI improvements. Live at rsslay.nostr.moe
 smtp nostr gateway stars - a bridge that forwards emails to pubkeys as encrypted direct messages
+
+## Cache services
+- [Primal](https://github.com/PrimalHQ/primal-caching-service) - Caching service for Nostr connects to the specified set of relays, collects all events in real time, stores them locally, and makes them available to nostr clients through a web socket-based API.
 
 ## Tools
 
