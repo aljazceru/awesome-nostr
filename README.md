@@ -154,6 +154,7 @@ them:
   - [Demo](https://written-weld.vercel.app/)
 - [yakihonne.com](https://yakihonne.com)![stars](https://img.shields.io/github/stars/smolgrrr/ourchan.svg?style=social) - YakiHonne is a censorship-resistant content media protocol, which supports free curation, creation, publishing, and reporting by various media.
 - [ZappedIt](https://zappedit.com) ![stars](https://img.shields.io/github/stars/vivganes/zappedit.svg?style=social) - Reddit-style client for nostr where you can follow topics (similar to subreddits), upzap and downzap notes.
+- [Agora](https://agorasocial.app) ![stars](https://img.shields.io/github/stars/ghobs91/agora.svg?style=social) - Follow your favorite topics in the Nostr-verse (and even posts from Mastodon, Reddit, Bluesky, and Twitter)
 
 ### Client reviews and/or comparisons
 
