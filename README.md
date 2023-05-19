@@ -290,6 +290,7 @@ smtp nostr gateway stars - a bridge that forwards emails to pubkeys as encrypted
 - [pleroma2nip05](https://code.taurix.net/guy/pleroma2nip05) - A Python based service to link pleroma ID's to nostr keys.
 - [younostr.com](https://younostr.com) - A NIP-05 ID registration service (in portuguese).
 - [onlyzaps.club](https://onlyzaps.club) - A free, open-source and anonymous NIP-05 ID registration service for all
+- [nip05.nostr.band](https://nip05.nostr.band) - A NIP-05 ID registration service.
 
 ## Offline signer
 
