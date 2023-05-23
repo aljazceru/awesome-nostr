@@ -167,6 +167,7 @@ them:
 - [dart_nostr](https://github.com/anasfik/nostr)![stars](https://img.shields.io/github/stars/anasfik/nostr.svg?style=social) - A developer experience Dart library for Nostr
 - [dart-nostr](https://github.com/ethicnology/dart-nostr)![stars](https://img.shields.io/github/stars/ethicnology/dart-nostr.svg?style=social) - a Dart library for Flutter
 - [go-nostr](https://github.com/fiatjaf/go-nostr)![stars](https://img.shields.io/github/stars/fiatjaf/go-nostr.svg?style=social) - a Go library that implements relay management, plus event encoding and signing utils
+- [nmostr](https://github.com/Gruruya/nmostr)![stars](https://img.shields.io/github/stars/Gruruya/nmostr.svg?style=social) - a Nim library for Nostr
 - [NNostr.Client](https://github.com/Kukks/NNostr)![stars](https://img.shields.io/github/stars/Kukks/NNostr.svg?style=social) - a C# Nostr library for use by clients
 - [nostr_rust](https://github.com/0xtlt/nostr_rust)![stars](https://img.shields.io/github/stars/0xtlt/nostr_rust.svg?style=social) - Functional Rust implementation of the nostr protocol
 - [nostr-bot](https://github.com/slaninas/nostr-bot)![stars](https://img.shields.io/github/stars/slaninas/nostr-bot.svg?style=social) - a Rust library for writing bots
