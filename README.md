@@ -273,6 +273,8 @@ smtp nostr gateway stars - a bridge that forwards emails to pubkeys as encrypted
 - [strfry policies](https://gitlab.com/soapbox-pub/strfry-policies)![stars](https://img.shields.io/gitlab/stars/soapbox-pub/strfry-policies.svg?style=social) - A collection of moderation & antispam policies for the strfry relay developed in TypeScript/Deno.
 - [Spamster](https://github.com/gourcetools/spamster)![stars](https://img.shields.io/github/stars/gourcetools/spamster.svg?style=social) - Spamster is for testing relays and spam filters.
 - [tostr](https://github.com/slaninas/tostr)![stars](https://img.shields.io/github/stars/slaninas/tostr.svg?style=social) - a twitter to nostr bot
+- [Embed widget](https://embed.nostr.band) - Embed Nostr notes or profiles into any website with just a line of code.
+
 
 ## NIP-05 identity services
 
