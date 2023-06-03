@@ -226,7 +226,8 @@ them:
 - [NIP-05 on LNBits](https://github.com/lnbits/lnbits/tree/main/lnbits/extensions/nostrnip5) - Sell NIP-05 verification for your domain using LNBits.
 - [younostr.com](https://younostr.com) - A NIP-05 ID registration service (in portuguese).
 - [nostrprotocol.net](https://github.com/KiPSOFT/nostr-nip05-service)![stars](https://img.shields.io/github/stars/KiPSOFT/nostr-nip05-service?style=social) - A free NIP-05 identifier service.
-- [nostr.ly/easyNostr](https://nostr.ly) - NIP-05 ID provider: Use your own domain, or one of ours: nostr.ly, mynostr.io, easyNostr.com. Free (for now).
+- [easyNostr](https://easyNostr.com) - NIP-05 ID provider: Use your own domain, or one of ours: nostr.ly, mynostr.io, easyNostr.com. Free (for now).
+- [easyNostr-NIP05](https://wordpress.org/plugins/easynostr-nip05/) WordPress plugin to enable your site as a NIP-05 endpoint for every registered user on your system using your own domain
 - [getalby.com](https://getalby.com/) - Lightning wallet with NIP-05 ID registration service.
 
 ## Offline signer
