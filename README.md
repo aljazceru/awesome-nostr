@@ -318,6 +318,7 @@ smtp nostr gateway stars - a bridge that forwards emails to pubkeys as encrypted
 Allow you to sign Nostr events on web-apps without having to give them your keys
 
 - [Alby](https://getalby.com)![stars](https://img.shields.io/github/stars/getAlby/lightning-browser-extension.svg?style=social) - Bitcoin Lightning app with nostr support
+- [Aka Profile](https://github.com/neilck/aka-extension)![stars](https://img.shields.io/github/stars/neilck/aka-extension.svg?style=social) -  Nostr Signing Extension for Chrome supporting multiple key pairs based on nos2x.
 - [Blockcore](https://github.com/block-core/blockcore-wallet)![stars](https://img.shields.io/github/stars/block-core/blockcore-wallet.svg?style=social) - Multi wallet browser extension with nostr support
 - [Flamingo](https://www.getflamingo.org) - Nostr browser extension with a focus on UX
 - [nos2x](https://github.com/fiatjaf/nos2x)![stars](https://img.shields.io/github/stars/fiatjaf/nos2x.svg?style=social) - Nostr Signer Extension
