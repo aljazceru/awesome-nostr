@@ -310,7 +310,8 @@ smtp nostr gateway stars - a bridge that forwards emails to pubkeys as encrypted
 - [nostr-pubminer](https://github.com/lacaulac/nostr-pubminer)![stars](https://img.shields.io/github/stars/lacaulac/nostr-pubminer.svg?style=social) - A simple tool to mine nostr vanity pubkeys
 - [nostr-vanity-address-generator](https://github.com/chawyehsu/nostr-vanity-address-generator) ![stars](https://img.shields.io/github/stars/chawyehsu/nostr-vanity-address-generator.svg?style=social) - Cross-platform nostr vanity address generator
 - [nostrogen](https://github.com/tonyinit/nostrogen)![stars](https://img.shields.io/github/stars/tonyinit/nostrogen.svg?style=social) - simple web based nostr vanity address generator
-- [powpub](https://lab.oak-node.net/powpub) - A decentralized way to buy Nostr vanity pubkeys or sell hashrate. Protocol, Rust library, sample client and provider.
+- [powpub](https://lab.oak-node.net/powpub) - A decentralized protocol to buy Nostr vanity pubkeys or sell hashrate
+  - [WebLN demo](https://lab.oak-node.net/powpub/uv/wasm-client/) - Simple web demo where clients can pay with WebLN
 - [rana](https://github.com/grunch/rana)![stars](https://img.shields.io/github/stars/grunch/rana.svg?style=social) - Vanity pubkey miner based on nip13
 
 ## Browser extensions
