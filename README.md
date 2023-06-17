@@ -204,12 +204,6 @@ them:
 - [rsslay](https://github.com/piraces/rsslay)![stars](https://img.shields.io/github/stars/piraces/rsslay.svg?style=social) - fork of the rsslay by @fiatjaf. a bridge that puts RSS feeds into Nostr optimized, more funcionalities and UI improvements. Live at [rsslay.nostr.moe](https://rsslay.nostr.moe/)
 - [smtp nostr gateway ](https://github.com/Cameri/smtp-nostr-gateway)![stars](https://img.shields.io/github/stars/Cameri/smtp-nostr-gateway.svg?style=social) - a bridge that forwards emails to pubkeys as encrypted direct messages
 
-Sure, here's the list sorted alphabetically while maintaining the markdown syntax:
-
-matrix-nostr-bridgestars - a simple Matrix-to-Nostr or Nostr-to-Matrix bridge
-Mostrstars - a bridge between Nostr and the Fediverse (Mastodon, ActivityPub, etc.)
-rsslaystars - fork of the rsslay by @fiatjaf. a bridge that puts RSS feeds into Nostr optimized, more funcionalities and UI improvements. Live at rsslay.nostr.moe
-smtp nostr gateway stars - a bridge that forwards emails to pubkeys as encrypted direct messages
 
 ## Cache services
 - [Primal](https://github.com/PrimalHQ/primal-caching-service) - Caching service for Nostr connects to the specified set of relays, collects all events in real time, stores them locally, and makes them available to nostr clients through a web socket-based API.
