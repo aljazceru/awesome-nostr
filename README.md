@@ -116,7 +116,7 @@ them:
 - [nostr console](https://github.com/vishalxl/nostr_console)![stars](https://img.shields.io/github/stars/vishalxl/nostr_console.svg?style=social) - a nostr command line client written in Dart. Binaries available for Windows, Linux, and MacOS
 - [Nostr Nests](https://nostrnests.com/) - Nostr Nests is an audio space for chatting, brainstorming, debating, jamming, micro-conferences and more.
 - [nostr-chat-widget-react](https://www.npmjs.com/package/nostr-chat-widget-react?activeTab=readme) - A React component that provides a live-chat widget over nostr that can be embedded into any website.
-- [nostri.chat](https://nostri.chat/) - A embeded chat widget for your website. (seriously simple like copy/paste)
+- [nostri.chat](https://nostri.chat/) - An embeded chat widget for your website. (seriously simple like copy/paste)
 - [NostrEmitter](https://github.com/cmdruid/nostr-emitter)![stars](https://img.shields.io/github/stars/cmdruid/nostr-emitter.svg?style=social) - Simple E2E encrypted client and EventEmitter object
 - [Nostribe.com](https://github.com/sepehr-safari/nostribe-web-client) ![stars](https://img.shields.io/github/stars/sepehr-safari/nostribe-web-client.svg?style=social) - Nostr client web app built with Next.js 13 and TypeScript.
   - [Nostribe.com](https://nostribe.com/) - Live instance.
@@ -390,7 +390,7 @@ Outside of nostr itself, you find the community on:
 - [search posts/profiles by keyword](https://nostr.band) - posts from major relays indexed and searchable in real-time
 - [Summaries of all Nostr Improvements Proposals](https://anchor.fm/s/d8e8d5a4/podcast/rss) - ChatGPT generated summaries of all NIPs by k00b
 - [vanilla-js-nostr](https://github.com/supertestnet/vanilla-js-nostr)![stars](https://img.shields.io/github/stars/supertestnet/vanilla-js-nostr.svg?style=social) - a demo of posting and viewing a feed in nostr using vanilla javascript
-- [Zapllife](https://zaplife.lol) - Real-time feed for nostr zaps. The best tool to shut up the "lightning doesn't work" people.
+- [Zaplife](https://zaplife.lol) - Real-time feed for nostr zaps. The best tool to shut up the "lightning doesn't work" people.
 - [wellorder nostr datasets](https://wiki.wellorder.net/wiki/nostr-datasets/) - Public standardized nostr datasets for benchmarking, data science, or other analysis.
 
 Data for this list is contributed by the community and curated by [@aaaljaz](https://twitter.com/aaaljaz) ( npub1aljazgxlpnpfp7n5sunlk3dvfp72456x6nezjw4sd850q879rxqsthg9jp)
