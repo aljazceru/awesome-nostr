@@ -155,6 +155,7 @@ them:
   - [Demo](https://written-weld.vercel.app/)
 - [yakihonne.com](https://yakihonne.com)![stars](https://img.shields.io/github/stars/smolgrrr/ourchan.svg?style=social) - YakiHonne is a censorship-resistant content media protocol, which supports free curation, creation, publishing, and reporting by various media.
 - [zapddit](https://zapddit.com) ![stars](https://img.shields.io/github/stars/vivganes/zapddit.svg?style=social) - Reddit-style client for nostr where you can follow topics (similar to subreddits), mute certain topics (like #bitcoin), upzap and downzap notes using your hard-earned sats.
+- [Highlighter](https://highlighter.com) - Discover and share curated insights by people you trust. Highlight Books, articles, tweets, anything!
 
 ### Client reviews and/or comparisons
 
@@ -271,6 +272,8 @@ them:
 - [Spamster](https://github.com/gourcetools/spamster)![stars](https://img.shields.io/github/stars/gourcetools/spamster.svg?style=social) - Spamster is for testing relays and spam filters.
 - [tostr](https://github.com/slaninas/tostr)![stars](https://img.shields.io/github/stars/slaninas/tostr.svg?style=social) - a twitter to nostr bot
 - [Embed widget](https://embed.nostr.band) - Embed Nostr notes or profiles into any website with just a line of code.
+- [nostri.chat](https://nostri.chat/) - An embeded chat widget for your website. (seriously simple like copy/paste)
+- [NostrTool](https://nostrtool.com/) - a tool to play with keys.
 
 
 ## NIP-05 identity services
@@ -389,6 +392,7 @@ Outside of nostr itself, you find the community on:
 - [search posts/profiles by keyword](https://nostr.band) - posts from major relays indexed and searchable in real-time
 - [Summaries of all Nostr Improvements Proposals](https://anchor.fm/s/d8e8d5a4/podcast/rss) - ChatGPT generated summaries of all NIPs by k00b
 - [vanilla-js-nostr](https://github.com/supertestnet/vanilla-js-nostr)![stars](https://img.shields.io/github/stars/supertestnet/vanilla-js-nostr.svg?style=social) - a demo of posting and viewing a feed in nostr using vanilla javascript
+- [Zaplife](https://zaplife.lol) - Real-time feed for nostr zaps. The best tool to shut up the "lightning doesn't work" people.
 - [wellorder nostr datasets](https://wiki.wellorder.net/wiki/nostr-datasets/) - Public standardized nostr datasets for benchmarking, data science, or other analysis.
 
 Data for this list is contributed by the community and curated by [@aaaljaz](https://twitter.com/aaaljaz) ( npub1aljazgxlpnpfp7n5sunlk3dvfp72456x6nezjw4sd850q879rxqsthg9jp)
