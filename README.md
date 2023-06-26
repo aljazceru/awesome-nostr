@@ -377,6 +377,7 @@ Outside of nostr itself, you find the community on:
 - [nodestr](https://github.com/Dolu89/nodestr-relay)![stars](https://img.shields.io/github/stars/Dolu89/nodestr-relay.svg?style=social) - a Node.js implementation
 - [nostr-rs](https://github.com/futurepaul/nostr-rs)![stars](https://img.shields.io/github/stars/futurepaul/nostr-rs.svg?style=social) - a Rust implementation of the nostr protocol
 - [nostr relay registry](https://nostr-registry.netlify.app/) - real-time checking of status of some known relays
+
 ## Other links
 
 - [inosta api](https://github.com/johnongit/INOSTA-Nostr-Img-Service)![stars](https://img.shields.io/github/stars/johnongit/INOSTA-Nostr-Img-Service.svg?style=social) - Expensive Image Hosting Service
@@ -389,6 +390,7 @@ Outside of nostr itself, you find the community on:
 - [nostr playground in Ruby](https://github.com/dtonon/nostr-ruby-playground)![stars](https://img.shields.io/github/stars/dtonon/nostr-ruby-playground.svg?style=social)
 - [nostr.build](https://nostr.build/) - nostr image uploader
 - [Nostrovia Podcast](https://nostrovia.org/) - A Nostr podcast covering all the new projects, all the new cool stuff, all the new NIPs
+- [RSS feeds for news on Nostr](https://listr.lol/a/naddr1qqy4y56nyprx2etywvpzqx78pgq53vlnzmdr8l3u38eru0n3438lnxqz0mr39wg9e5j0dfq3qvzqqqr4xq8yq7gf) - Listr, a curated list of news channels RSS feeds that you can follow on Nostr
 - [search posts/profiles by keyword](https://nostr.band) - posts from major relays indexed and searchable in real-time
 - [Summaries of all Nostr Improvements Proposals](https://anchor.fm/s/d8e8d5a4/podcast/rss) - ChatGPT generated summaries of all NIPs by k00b
 - [vanilla-js-nostr](https://github.com/supertestnet/vanilla-js-nostr)![stars](https://img.shields.io/github/stars/supertestnet/vanilla-js-nostr.svg?style=social) - a demo of posting and viewing a feed in nostr using vanilla javascript
