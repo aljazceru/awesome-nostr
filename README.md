@@ -321,7 +321,7 @@ Allow you to sign Nostr events on web-apps without having to give them your keys
 - [Blockcore](https://github.com/block-core/blockcore-wallet)![stars](https://img.shields.io/github/stars/block-core/blockcore-wallet.svg?style=social) - Multi wallet browser extension with nostr support
 - [Flamingo](https://www.getflamingo.org) - Nostr browser extension with a focus on UX
 - [nos2x](https://github.com/fiatjaf/nos2x)![stars](https://img.shields.io/github/stars/fiatjaf/nos2x.svg?style=social) - Nostr Signer Extension
-- [Nostore](https://testflight.apple.com/join/ouPWAQAV) - Nostr Signer Extension for iOS/macOS Safari
+- [Nostore on GitHub](https://github.com/ursuscamp/nostore)![stars](https://img.shields.io/github/stars/ursuscamp/nostore.svg?style=social) - Nostr Signer Extension for iOS/macOS Safari ([Nostore on Mac App Store](https://apps.apple.com/us/app/nostore/id1666553677))
 - [nostr-keyx](https://github.com/susumuota/nostr-keyx)![stars](https://img.shields.io/github/stars/susumuota/nostr-keyx.svg?style=social) - A NIP-07 browser extension that uses the OS's keychain or YubiKey to protect your private keys.
 - [TokenPocket](https://github.com/TP-Lab/TokenPocket)![stars](https://img.shields.io/github/stars/TP-Lab/TokenPocket.svg?style=social) - Multi wallet browser extension with nostr support. https://tokenpocket.pro
 - [wen](https://github.com/fiatjaf/wen)![stars](https://img.shields.io/github/stars/fiatjaf/wen.svg?style=social) - browser extension for website enhancer with nostr
@@ -382,6 +382,7 @@ Outside of nostr itself, you find the community on:
   - [inosta.cc](https://inosta.cc)- Demonstrator live instance
 - [Media caching server for Nostr](https://media.nostr.band) - caches resized profile pictures and banners to save bandwidth for clients
 - [nostr icons](https://github.com/satscoffee/nostr_icons)![stars](https://img.shields.io/github/stars/satscoffee/nostr_icons.svg?style=social) - Purple, white, and black icons in various formats designed for nostr.
+- [nostr icons 2](https://github.com/SovrynMatt/Nostr-Website-Button-Design) - Another repository of nostr icons (rounded, rectangular)
 - [nostr on YouTube](https://www.youtube.com/results?search_query=nostr+protocol)
 - [nostr playground in Ruby](https://github.com/dtonon/nostr-ruby-playground)![stars](https://img.shields.io/github/stars/dtonon/nostr-ruby-playground.svg?style=social)
 - [nostr.build](https://nostr.build/) - nostr image uploader
