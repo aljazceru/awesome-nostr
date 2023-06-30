@@ -215,6 +215,7 @@ them:
 
 ## Tools
 
+- [advanced-nostr-tools](https://advancednostrsearch.vercel.app/) - A tool to search Nostr notes.
 - [anonroom](https://github.com/vinliao/anonroom)![stars](https://img.shields.io/github/stars/vinliao/anonroom.svg?style=social) - anonymous chat room inside nostr
 - [blastr](https://github.com/MutinyWallet/blastr)![stars](https://img.shields.io/github/stars/MutinyWallet/blastr?style=social) - A nostr cloudflare workers proxy relay that publishes to all known relays.
 - [blogsync](https://github.com/canostrical/blogsync)![stars](https://img.shields.io/github/stars/canostrical/blogsync.svg?style=social) - Self-host blog articles from long-form notes e.g. via Caddy server.
