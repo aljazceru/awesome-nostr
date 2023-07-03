@@ -156,7 +156,7 @@ them:
 - [Votestr](https://votestr.com/)![stars](https://img.shields.io/github/stars/vilm3r/votestr.svg?style=social) - Poll web app with nostr authentication and blind signature unlinkability
 - [Written](https://github.com/silencesoft/written)![stars](https://img.shields.io/github/stars/silencesoft/written.svg?style=social) Self hosted blog using nostr long-form content (NIP-23) and it shows only posts by selected authors.
   - [Demo](https://written-weld.vercel.app/)
-- [yakihonne.com](https://yakihonne.com)![stars](https://img.shields.io/github/stars/smolgrrr/ourchan.svg?style=social) - YakiHonne is a censorship-resistant content media protocol, which supports free curation, creation, publishing, and reporting by various media.
+- [yakihonne.com](https://yakihonne.com) - YakiHonne is a censorship-resistant content media protocol, which supports free curation, creation, publishing, and reporting by various media.
 - [zapddit](https://zapddit.com) ![stars](https://img.shields.io/github/stars/vivganes/zapddit.svg?style=social) - Reddit-style client for nostr where you can follow topics (similar to subreddits), mute certain topics (like #bitcoin), upzap and downzap notes using your hard-earned sats.
 - [Highlighter](https://highlighter.com) - Discover and share curated insights by people you trust. Highlight Books, articles, tweets, anything!
 - [Habla.news](https://github.com/verbiricha/habla.news)![stars](https://img.shields.io/github/stars/verbiricha/habla.news.svg?style=social) Habla allows you to read, write, curate and monetize long form content over Nostr, a censorship-resistant protocol for social media that uses long form nostr content.
