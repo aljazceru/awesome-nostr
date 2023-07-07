@@ -210,6 +210,7 @@ them:
 - [rsslay](https://github.com/piraces/rsslay)![stars](https://img.shields.io/github/stars/piraces/rsslay.svg?style=social) - fork of the rsslay by @fiatjaf. a bridge that puts RSS feeds into Nostr optimized, more funcionalities and UI improvements. Live at [rsslay.nostr.moe](https://rsslay.nostr.moe/)
 - [smtp nostr gateway ](https://github.com/Cameri/smtp-nostr-gateway)![stars](https://img.shields.io/github/stars/Cameri/smtp-nostr-gateway.svg?style=social) - a bridge that forwards emails to pubkeys as encrypted direct messages
 - [Nostr over LoRa](https://github.com/geoffwhittington/meshtastic-bridge) ![stars](https://img.shields.io/github/stars/geoffwhittington/meshtastic-bridge.svg?style=social) - a gateway that can relay off-grid [Meshtastic](https://meshtastic.org) messages to NoStr.
+- [atomstr](https://git.sr.ht/~psic4t/atomstr) - RSS/Atom gateway to Nostr. Live at [https://atomstr.data.haus](https://atomstr.data.haus)
 
 
 ## Cache services
