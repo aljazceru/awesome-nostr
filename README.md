@@ -99,6 +99,8 @@ them:
   - [Android app](https://play.google.com/store/apps/details?id=to.iris.twa)
 - [Jester](https://github.com/jesterui/jesterui) ![stars](https://img.shields.io/github/stars/jesterui/jesterui.svg?style=social) - Chess over nostr
   - [Jester instance](https://jesterui.github.io/)
+- [JiYou](https://github.com/TimA314/JiYou) ![stars](https://img.shields.io/github/stars/TimA314/JiYou.svg?style=social) - A nostr PWA client with a highly customizable UI
+  - [JiYou.social](https://JiYou.social) - live instance
 - [Lightning.Pub](https://github.com/shocknet/Lightning.Pub)![stars](https://img.shields.io/github/stars/shocknet/Lightning.Pub.svg?style=social) - A nostr daemon for Lightning nodes
 - [Listr](https://github.com/sepehr-safari/listr) ![stars](https://img.shields.io/github/stars/sepehr-safari/listr.svg?style=social) - A Nostr Web Client for Making Lists.
 - [loquaz](https://github.com/emeceve/loquaz)![stars](https://img.shields.io/github/stars/emeceve/loquaz.svg?style=social) - a desktop app written in Rust for direct encrypted chat
