@@ -306,6 +306,7 @@ them:
 - [younostr.com](https://younostr.com) - A NIP-05 ID registration service (in portuguese).
 - [onlyzaps.club](https://onlyzaps.club) - A free, open-source and anonymous NIP-05 ID registration service for all
 - [nip05.nostr.band](https://nip05.nostr.band) - A NIP-05 ID registration service.
+- [Nostr-Check.com](https://nostr-check.com) - A free NIP-05 ID registration service.
 
 ## Offline signer
 
