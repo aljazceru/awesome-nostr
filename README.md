@@ -306,6 +306,7 @@ them:
 - [younostr.com](https://younostr.com) - A NIP-05 ID registration service (in portuguese).
 - [onlyzaps.club](https://onlyzaps.club) - A free, open-source and anonymous NIP-05 ID registration service for all
 - [nip05.nostr.band](https://nip05.nostr.band) - A NIP-05 ID registration service.
+- [lifpay.me](https://lifpay.me) - Lightning wallet with NIP-05 ID registration service.
 
 ## Offline signer
 
@@ -348,6 +349,7 @@ Allow you to sign Nostr events on web-apps without having to give them your keys
 - [btcpayserver](https://btcpayserver.org/) - btcpayserver has NIP-57 support for LN addresses since 1.9 version
 - [Current](https://app.getcurrent.io/) - nostr client + lightning wallet
 - [LightningTipBot](https://github.com/LightningTipBot/LightningTipBot)![stars](https://img.shields.io/github/stars/LightningTipBot/LightningTipBot.svg?style=social) - A tip bot and Bitcoin Lightning wallet on Telegram
+- [LifPay](https://lifpay.me) - Bitcoin Lightning app with personalized features
 - [nostdress](https://github.com/believethehype/nostdress)![stars](https://img.shields.io/github/stars/believethehype/nostdress.svg?style=social) - Lightning addresses server based on satdress. Adapted to work with Nostr features (NIP05, NIP57)
 - [Wallet of Satoshi](https://www.walletofsatoshi.com/) - Custodial lightning wallet
 - [Zebedee app](https://zebedee.io/app) - Zebedee's wallet/lightning app
