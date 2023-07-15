@@ -61,9 +61,6 @@ them:
 
 ## Clients
 
-- [0xchat](https://github.com/0xchat-app)![stars](https://img.shields.io/github/stars/0xchat-app/0xchat-core.svg?style=social) - a telegram/wechat-like nostr client for iOS and Android
-  - [0xchat on iOS](https://apps.apple.com/app/0xchat/id1637607169)
-  - [0xchat on Android](https://play.google.com/store/apps/details?id=com.oxchat.nostr)
 - [algia-web](https://github.com/ryogrid/algia-web)![stars](https://img.shields.io/github/stars/ryogrid/algia-web.svg?style=social) - A small resource consumption oriented Nostr web client
 - [Agora](https://agorasocial.app) ![stars](https://img.shields.io/github/stars/ghobs91/agora.svg?style=social) - Follow your favorite topics in the Nostr-verse (and even posts from Mastodon, Reddit, Bluesky, and Twitter)
 - [algia](https://github.com/mattn/algia)![stars](https://img.shields.io/github/stars/mattn/algia.svg?style=social) - A cli application for nostr.
@@ -140,6 +137,9 @@ them:
 - [Noteon](https://github.com/ShawnCN/cinny_nostsr2/tree/dev)![stars](https://img.shields.io/github/stars/ShawnCN/cinny_nostsr2.svg?style=social) - Yet another nostr client focused on private chat and group chat with a simple, elegant and secure interface.
   - [nostr.noteon.io](https://nostr.noteon.io/)
 - [Nozzle](https://github.com/kaiwolfram/Nozzle)![stars](https://img.shields.io/github/stars/kaiwolfram/Nozzle.svg?style=social) - A Twitter-like native Android client written with Jetpack Compose
+- [0xchat](https://github.com/0xchat-app)![stars](https://img.shields.io/github/stars/0xchat-app/0xchat-core.svg?style=social) - a telegram/wechat-like nostr client for iOS and Android
+  - [0xchat on iOS](https://apps.apple.com/app/0xchat/id1637607169)
+  - [0xchat on Android](https://play.google.com/store/apps/details?id=com.oxchat.nostr)
 - [OstrichGram](https://ostrichgram.com) - OstrichGram is a Telegram style desktop app for Linux and Windows featuring group chats and DMs.
 - [ourChan.org](https://github.com/smolgrrr/ourchan)![stars](https://img.shields.io/github/stars/smolgrrr/ourchan.svg?style=social) Anonymous imageboard on nostr, from a fork of 4Chan.org
 - [Pinstr](https://github.com/sepehr-safari/pinstr) ![stars](https://img.shields.io/github/stars/sepehr-safari/pinstr?style=social) - Pinstr is a decentralized and open-source social network for curating and sharing your interests with the world.
