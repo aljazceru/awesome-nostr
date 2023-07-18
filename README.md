@@ -292,6 +292,7 @@ them:
 - [bitcoiner.chat](https://bitcoiner.chat) - A free NIP-05 ID registration service.
 - [getalby.com](https://getalby.com/) - Lightning wallet with NIP-05 ID registration service.
 - [iris.to](https://iris.to) — A Nostr client that provides a free NIP-05 ID
+- [lifpay.me](https://lifpay.me) - Lightning wallet with NIP-05 ID registration service.
 - [nanostr](https://github.com/xbol0/nanostr)![stars](https://img.shields.io/github/stars/xbol0/nanostr?style=social) A NIP-05 name server written in Deno.
 - [nip05.social](https://nip05.social) - A free and anonymous NIP-05 ID registration service
 - [nostr-relay.org](https://nostr-relay.org) - A NIP-05 ID registration service
@@ -299,6 +300,7 @@ them:
 - [easyNostr](https://easyNostr.com) - NIP-05 ID provider: Use your own domain, or one of ours: nostr.ly, mynostr.io, easyNostr.com.
 - [easyNostr-NIP05](https://wordpress.org/plugins/easynostr-nip05/) WordPress plugin to enable your site as a NIP-05 endpoint for every registered user on your system using your own domain.
 - [nostrcheck.me](https://nostrcheck.me/) - A NIP-05 ID registration service.
+- [Nostr-Check.com](https://nostr-check.com) - A free NIP-05 ID registration service.
 - [nostrplebs](https://nostrplebs.com) - A NIP-05 ID registration service.
 - [nostrprotocol.net](https://github.com/KiPSOFT/nostr-nip05-service)![stars](https://img.shields.io/github/stars/KiPSOFT/nostr-nip05-service?style=social) - A free NIP-05 identifier service.
 - [plebs.place](https://plebs.place) - A NIP-05 ID registration service (in portuguese).
@@ -306,7 +308,8 @@ them:
 - [younostr.com](https://younostr.com) - A NIP-05 ID registration service (in portuguese).
 - [onlyzaps.club](https://onlyzaps.club) - A free, open-source and anonymous NIP-05 ID registration service for all
 - [nip05.nostr.band](https://nip05.nostr.band) - A NIP-05 ID registration service.
-- [Nostr-Check.com](https://nostr-check.com) - A free NIP-05 ID registration service.
+
+
 
 ## Offline signer
 
@@ -348,6 +351,7 @@ Allow you to sign Nostr events on web-apps without having to give them your keys
 - [Blink](https://www.blink.sv/) - Blink (ex Bitcoin Beach Wallet)
 - [btcpayserver](https://btcpayserver.org/) - btcpayserver has NIP-57 support for LN addresses since 1.9 version
 - [Current](https://app.getcurrent.io/) - nostr client + lightning wallet
+- [LifPay](https://lifpay.me) - Bitcoin Lightning app with personalized features
 - [LightningTipBot](https://github.com/LightningTipBot/LightningTipBot)![stars](https://img.shields.io/github/stars/LightningTipBot/LightningTipBot.svg?style=social) - A tip bot and Bitcoin Lightning wallet on Telegram
 - [nostdress](https://github.com/believethehype/nostdress)![stars](https://img.shields.io/github/stars/believethehype/nostdress.svg?style=social) - Lightning addresses server based on satdress. Adapted to work with Nostr features (NIP05, NIP57)
 - [Wallet of Satoshi](https://www.walletofsatoshi.com/) - Custodial lightning wallet
