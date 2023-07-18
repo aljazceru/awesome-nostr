@@ -164,6 +164,9 @@ them:
 - [zapddit](https://zapddit.com) ![stars](https://img.shields.io/github/stars/vivganes/zapddit.svg?style=social) - Reddit-style client for nostr where you can follow topics (similar to subreddits), mute certain topics (like #bitcoin), upzap and downzap notes using your hard-earned sats.
 - [Highlighter](https://highlighter.com) - Discover and share curated insights by people you trust. Highlight Books, articles, tweets, anything!
 - [Habla.news](https://github.com/verbiricha/habla.news)![stars](https://img.shields.io/github/stars/verbiricha/habla.news.svg?style=social) Habla allows you to read, write, curate and monetize long form content over Nostr, a censorship-resistant protocol for social media that uses long form nostr content.
+- [0xchat](https://github.com/0xchat-app)![stars](https://img.shields.io/github/stars/0xchat-app/0xchat-core.svg?style=social) - a telegram/wechat-like nostr client for iOS and Android
+  - [0xchat on iOS](https://apps.apple.com/app/0xchat/id1637607169)
+  - [0xchat on Android](https://play.google.com/store/apps/details?id=com.oxchat.nostr)
 
 ### Client reviews and/or comparisons
 
