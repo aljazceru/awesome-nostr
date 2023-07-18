@@ -288,7 +288,7 @@ them:
 - [Embed widget](https://embed.nostr.band) - Embed Nostr notes or profiles into any website with just a line of code.
 - [nostri.chat](https://nostri.chat/) - An embeded chat widget for your website. (seriously simple like copy/paste)
 - [NostrTool](https://nostrtool.com/) - a tool to play with keys.
-- [Nostr NIP-36 Image Redirector](https://github.com/ryogrid/NostrNIP36ImageRedirector) - Reverse proxy server which blocks accesses to NIP-36 marked image file from NOT NIP-36 compliant client.
+- [Nostr NIP-36 Image Redirector](https://github.com/ryogrid/NostrNIP36ImageRedirector) - Reverse proxy server which blocks accesses to NIP-36 marked image files from NOT NIP-36 compliant clients.
 
 ## NIP-05 identity services
 
