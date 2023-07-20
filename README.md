@@ -41,6 +41,7 @@ of the public instances.
 - [NostrPostr Relay](https://github.com/Giszmo/NostrPostr/tree/master/NostrRelay) - a Kotlin Relay supporting both SQLite and Postgresql
 - [nostrpy](https://github.com/monty888/nostrpy)![stars](https://img.shields.io/github/stars/monty888/nostrpy.svg?style=social) - relay, client, and other tooling in python (No longer being developed.)
 - [PyRelay](https://github.com/johnny423/pyrelay)![stars](https://img.shields.io/github/stars/johnny423/pyrelay.svg?style=social) – a python implementation of a nostr relay, using asyncio.
+- [QNostr](https://github.com/Aseman-Land/QNostr)![stars](https://img.shields.io/github/stars/Aseman-Land/QNostr.svg?style=social) – A Nostr protocol implementation for clients as a Qt Module in C++ 
 - [Relayer Basic](https://github.com/fiatjaf/relayer/tree/master/basic) - a simple relay based on _relayer_ backed by Postgres
 - [rnostr](https://github.com/rnostr/rnostr)![stars](https://img.shields.io/github/stars/rnostr/rnostr.svg?style=social) - A high-performance and scalable nostr relay written in Rust.
 - [Servus](https://github.com/ibz/servus)![stars](https://img.shields.io/github/stars/ibz/servus.svg?style=social) - A self-contained, single executable, CMS / blogging engine reminiscent of Jekyll which also acts as a personal Nostr relay for your blog posts. Written in Rust.
