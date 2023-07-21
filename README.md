@@ -168,6 +168,9 @@ them:
 - [0xchat](https://github.com/0xchat-app)![stars](https://img.shields.io/github/stars/0xchat-app/0xchat-core.svg?style=social) - a telegram/wechat-like nostr client for iOS and Android
   - [0xchat on iOS](https://apps.apple.com/app/0xchat/id1637607169)
   - [0xchat on Android](https://play.google.com/store/apps/details?id=com.oxchat.nostr)
+- [Plebstr](https://plebstr.com) - Nostr client Reimagined, the most beautiful Twitter-like nostr client for iOS & Android.
+  - [Plebstr on Apple App Store](https://apps.apple.com/app/plebstr-nostr-client/id1666230916)
+  - [Plebstr on Google Play Store](https://play.google.com/store/apps/details?id=com.plebstr.client)
 
 ### Client reviews and/or comparisons
 
