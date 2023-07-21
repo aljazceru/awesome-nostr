@@ -293,6 +293,7 @@ them:
 - [nostri.chat](https://nostri.chat/) - An embeded chat widget for your website. (seriously simple like copy/paste)
 - [NostrTool](https://nostrtool.com/) - a tool to play with keys.
 - [Nostr NIP-36 Image Redirector](https://github.com/ryogrid/NostrNIP36ImageRedirector) - Reverse proxy server which blocks accesses to NIP-36 marked image files from NOT NIP-36 compliant clients.
+- [LikZap](https://github.com/silencesoft/likzap)![stars](https://img.shields.io/github/stars/silencesoft/likzap.svg?style=social) - A nostr bot to zap a note when you like it.
 
 ## NIP-05 identity services
 
