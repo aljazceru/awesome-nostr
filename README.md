@@ -171,6 +171,7 @@ them:
 - [Plebstr](https://plebstr.com) - Nostr client Reimagined, the most beautiful Twitter-like nostr client for iOS & Android.
   - [Plebstr on Apple App Store](https://apps.apple.com/app/plebstr-nostr-client/id1666230916)
   - [Plebstr on Google Play Store](https://play.google.com/store/apps/details?id=com.plebstr.client)
+- [Swarmstr](https://swarmstr.com) - Your knowledge hub for curious minds
 
 ### Client reviews and/or comparisons
 
@@ -316,6 +317,8 @@ them:
 - [younostr.com](https://younostr.com) - A NIP-05 ID registration service (in portuguese).
 - [onlyzaps.club](https://onlyzaps.club) - A free, open-source and anonymous NIP-05 ID registration service for all
 - [nip05.nostr.band](https://nip05.nostr.band) - A NIP-05 ID registration service.
+- [nostrich.love](https://uselessshit.co/nostr/nip-05/) - A Nostr Address registration service.
+- [swarmstr.com](https://swarmstr.com/nostr-address) - A free Nostr Address registration service.
 
 
 
