@@ -413,7 +413,7 @@ Outside of nostr itself, you find the community on:
 - [Media caching server for Nostr](https://media.nostr.band) - caches resized profile pictures and banners to save bandwidth for clients
 - [nostr icons](https://github.com/satscoffee/nostr_icons)![stars](https://img.shields.io/github/stars/satscoffee/nostr_icons.svg?style=social) - Purple, white, and black icons in various formats designed for nostr.
 - [nostr icons 2](https://github.com/SovrynMatt/Nostr-Website-Button-Design) - Another repository of nostr icons (rounded, rectangular)
-- [nostr on YouTube](https://www.youtube.com/results?search_query=nostr+protocol)
+- [Nostr Documentary](https://www.youtube.com/watch?v=aA-jiiepOrE) -  Social Media is broken. Can we fix it? 
 - [nostr playground in Ruby](https://github.com/dtonon/nostr-ruby-playground)![stars](https://img.shields.io/github/stars/dtonon/nostr-ruby-playground.svg?style=social)
 - [nostr.build](https://nostr.build/) - nostr image uploader
 - [Nostrovia Podcast](https://nostrovia.org/) - A Nostr podcast covering all the new projects, all the new cool stuff, all the new NIPs
