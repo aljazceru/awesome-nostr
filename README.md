@@ -192,6 +192,7 @@ them:
 - [nostr-java](https://github.com/tcheeric/nostr-java)![stars](https://img.shields.io/github/stars/tcheeric/nostr-java.svg?style=social) - A nostr client library, written in java, for generating, signing and publishing events.
 - [nostr-js](https://github.com/jb55/nostr-js)![stars](https://img.shields.io/github/stars/jb55/nostr-js.svg?style=social) - a javascript implementation of the nostr protocol
 - [nostr-hooks](https://github.com/sepehr-safari/nostr-hooks)![stars](https://img.shields.io/github/stars/sepehr-safari/nostr-hooks.svg?style=social) - React hooks for developing Nostr clients. It's simple and intelligent.
+- [nostr-one](https://github.com/dolu89/nostr-one)![stars](https://img.shields.io/github/stars/dolu89/nostr-one.svg?style=social) - A reusable web component that provides a simple way to integrate with the Nostr NIP 98 HTTP Auth.
 - [nostr-php](https://github.com/swentel/nostr-php)![stars](https://img.shields.io/github/stars/swentel/nostr-php.svg?style=social) - a PHP library for nostr
 - [nostr-react](https://github.com/t4t5/nostr-react)![stars](https://img.shields.io/github/stars/t4t5/nostr-react.svg?style=social) - React Hooks for Nostr
 - [nostr-relay-inspector](https://github.com/dskvr/nostr-relay-inspector)![stars](https://img.shields.io/github/stars/dskvr/nostr-relay-inspector.svg?style=social) - A library that returns useful information about relays based on nostr-js
