@@ -395,6 +395,33 @@ Outside of nostr itself, you find the community on:
 - [Step-by-Step guide to set up a relay on your server](https://github.com/BlockChainCaffe/Nostr-Relay-Setup-Guide) (AWS, DigitalOcean, RaspBerry... )
 - [strfry personal relay](https://github.com/pjv/strfry_personal_docker)![stars](https://img.shields.io/github/stars/pjv/strfry_personal_docker.svg?style=social) - 10 minute setup of a personal nostr relay on a vanilla Linux VPS. Adds support for NIP-65.
 
+## Recommended reading/watching
+- [Nostr, an introduction](https://wiki.wellorder.net/post/nostr-intro/) - written bs scsibug
+- [Why I'm Betting Big On Nostr](https://hivemind.vc/nostr/) - written by Max Webster, Hivemind VC
+- [Why Nostr Matters](https://blog.lopp.net/why-nostr-matters/) -  written by Jameson Lopp
+- [A vision for content discovery and relay usage for basic social-networking in Nostr](https://fiatjaf.com/3f106d31.html) - written by fiatjaf
+- [Nostr Documentary](https://www.youtube.com/watch?v=aA-jiiepOrE) -  Social Media is broken. Can we fix it?
+- [Nostrovia Podcast](https://nostrovia.org/) - A Nostr podcast covering all the new projects, all the new cool stuff, all the new NIPs
+ 
+## Other links
+
+- [inosta api](https://github.com/johnongit/INOSTA-Nostr-Img-Service)![stars](https://img.shields.io/github/stars/johnongit/INOSTA-Nostr-Img-Service.svg?style=social) - Expensive Image Hosting Service
+  - [api.inosta.cc](https://api.inosta.cc) - Backend live instance
+  - [inosta.cc](https://inosta.cc)- Demonstrator live instance
+- [Media caching server for Nostr](https://media.nostr.band) - caches resized profile pictures and banners to save bandwidth for clients
+- [nostr icons](https://github.com/satscoffee/nostr_icons)![stars](https://img.shields.io/github/stars/satscoffee/nostr_icons.svg?style=social) - Purple, white, and black icons in various formats designed for nostr.
+- [nostr icons 2](https://github.com/SovrynMatt/Nostr-Website-Button-Design) - Another repository of nostr icons (rounded, rectangular)
+- [nostr playground in Ruby](https://github.com/dtonon/nostr-ruby-playground)![stars](https://img.shields.io/github/stars/dtonon/nostr-ruby-playground.svg?style=social)
+- [nostr.build](https://nostr.build/) - nostr image uploader
+- [RSS feeds for news on Nostr](https://verityj.github.io/nostr-news-feeds) ![stars](https://img.shields.io/github/stars/verityj/verityj.github.io.svg?style=social) - a curated list of news press channels RSS feeds that we can follow on Nostr
+- [search posts/profiles by keyword](https://nostr.band) - posts from major relays indexed and searchable in real-time
+- [Summaries of all Nostr Improvements Proposals](https://anchor.fm/s/d8e8d5a4/podcast/rss) - ChatGPT generated summaries of all NIPs by k00b
+- [vanilla-js-nostr](https://github.com/supertestnet/vanilla-js-nostr)![stars](https://img.shields.io/github/stars/supertestnet/vanilla-js-nostr.svg?style=social) - a demo of posting and viewing a feed in nostr using vanilla javascript
+- [Zaplife](https://zaplife.lol) - Real-time feed for nostr zaps. The best tool to shut up the "lightning doesn't work" people.
+- [wellorder nostr datasets](https://wiki.wellorder.net/wiki/nostr-datasets/) - Public standardized nostr datasets for benchmarking, data science, or other analysis.
+
+
+
 ## Deprecated
 
 - [alphaama.com](https://alphaama.com) - is _under maintenance_ as of late 2022.
@@ -406,26 +433,6 @@ Outside of nostr itself, you find the community on:
 - [nodestr](https://github.com/Dolu89/nodestr-relay)![stars](https://img.shields.io/github/stars/Dolu89/nodestr-relay.svg?style=social) - a Node.js implementation
 - [nostr-rs](https://github.com/futurepaul/nostr-rs)![stars](https://img.shields.io/github/stars/futurepaul/nostr-rs.svg?style=social) - a Rust implementation of the nostr protocol
 - [nostr relay registry](https://nostr-registry.netlify.app/) - real-time checking of status of some known relays
-
-## Other links
-
-- [inosta api](https://github.com/johnongit/INOSTA-Nostr-Img-Service)![stars](https://img.shields.io/github/stars/johnongit/INOSTA-Nostr-Img-Service.svg?style=social) - Expensive Image Hosting Service
-  - [api.inosta.cc](https://api.inosta.cc) - Backend live instance
-  - [inosta.cc](https://inosta.cc)- Demonstrator live instance
-- [Media caching server for Nostr](https://media.nostr.band) - caches resized profile pictures and banners to save bandwidth for clients
-- [nostr icons](https://github.com/satscoffee/nostr_icons)![stars](https://img.shields.io/github/stars/satscoffee/nostr_icons.svg?style=social) - Purple, white, and black icons in various formats designed for nostr.
-- [nostr icons 2](https://github.com/SovrynMatt/Nostr-Website-Button-Design) - Another repository of nostr icons (rounded, rectangular)
-- [Nostr Documentary](https://www.youtube.com/watch?v=aA-jiiepOrE) -  Social Media is broken. Can we fix it? 
-- [nostr playground in Ruby](https://github.com/dtonon/nostr-ruby-playground)![stars](https://img.shields.io/github/stars/dtonon/nostr-ruby-playground.svg?style=social)
-- [nostr.build](https://nostr.build/) - nostr image uploader
-- [Nostrovia Podcast](https://nostrovia.org/) - A Nostr podcast covering all the new projects, all the new cool stuff, all the new NIPs
-- [RSS feeds for news on Nostr](https://verityj.github.io/nostr-news-feeds) ![stars](https://img.shields.io/github/stars/verityj/verityj.github.io.svg?style=social) - a curated list of news press channels RSS feeds that we can follow on Nostr
-- [search posts/profiles by keyword](https://nostr.band) - posts from major relays indexed and searchable in real-time
-- [Summaries of all Nostr Improvements Proposals](https://anchor.fm/s/d8e8d5a4/podcast/rss) - ChatGPT generated summaries of all NIPs by k00b
-- [vanilla-js-nostr](https://github.com/supertestnet/vanilla-js-nostr)![stars](https://img.shields.io/github/stars/supertestnet/vanilla-js-nostr.svg?style=social) - a demo of posting and viewing a feed in nostr using vanilla javascript
-- [Zaplife](https://zaplife.lol) - Real-time feed for nostr zaps. The best tool to shut up the "lightning doesn't work" people.
-- [wellorder nostr datasets](https://wiki.wellorder.net/wiki/nostr-datasets/) - Public standardized nostr datasets for benchmarking, data science, or other analysis.
-
 
 Data for this list is contributed by the community and curated by [@aaaljaz](https://twitter.com/aaaljaz) ( npub1aljazgxlpnpfp7n5sunlk3dvfp72456x6nezjw4sd850q879rxqsthg9jp)
 
