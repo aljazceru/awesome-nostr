@@ -39,7 +39,6 @@ of the public instances.
 - [nostream](https://github.com/Cameri/nostream)![stars](https://img.shields.io/github/stars/Cameri/nostream.svg?style=social) - a nostr relay written in Typescript backed by PostgreSQL (renamed from nostr-ts-relay)
 - [nostring](https://github.com/xbol0/nostring)![stars](https://img.shields.io/github/stars/xbol0/nostring.svg?style=social) - A Nostr relay written in Deno.
 - [NostrPostr Relay](https://github.com/Giszmo/NostrPostr/tree/master/NostrRelay) - a Kotlin Relay supporting both SQLite and Postgresql
-- [Nostpy](https://github.com/UTXOnly/nost-py/tree/main) - An easy to deploy/audit Python relay for beginner relay operators
 - [nostrpy](https://github.com/monty888/nostrpy)![stars](https://img.shields.io/github/stars/monty888/nostrpy.svg?style=social) - relay, client, and other tooling in python (No longer being developed.)
 - [PyRelay](https://github.com/johnny423/pyrelay)![stars](https://img.shields.io/github/stars/johnny423/pyrelay.svg?style=social) – a python implementation of a nostr relay, using asyncio.
 - [QNostr](https://github.com/Aseman-Land/QNostr)![stars](https://img.shields.io/github/stars/Aseman-Land/QNostr.svg?style=social) – A Nostr protocol implementation for clients as a Qt Module in C++ 
