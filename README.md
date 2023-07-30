@@ -402,6 +402,7 @@ Outside of nostr itself, you find the community on:
 - [A vision for content discovery and relay usage for basic social-networking in Nostr](https://fiatjaf.com/3f106d31.html) - written by fiatjaf
 - [Nostr Documentary](https://www.youtube.com/watch?v=aA-jiiepOrE) -  Social Media is broken. Can we fix it?
 - [Nostrovia Podcast](https://nostrovia.org/) - A Nostr podcast covering all the new projects, all the new cool stuff, all the new NIPs
+- [What is Nostr?](https://www.youtube.com/watch?v=MaxXvcr181c) - Uncle Bob explains nostr 
  
 ## Other links
 
