@@ -396,7 +396,7 @@ Outside of nostr itself, you find the community on:
 - [strfry personal relay](https://github.com/pjv/strfry_personal_docker)![stars](https://img.shields.io/github/stars/pjv/strfry_personal_docker.svg?style=social) - 10 minute setup of a personal nostr relay on a vanilla Linux VPS. Adds support for NIP-65.
 
 ## Recommended reading/watching
-- [Nostr, an introduction](https://wiki.wellorder.net/post/nostr-intro/) - written bs scsibug
+- [Nostr, an introduction](https://wiki.wellorder.net/post/nostr-intro/) - written by scsibug
 - [Why I'm Betting Big On Nostr](https://hivemind.vc/nostr/) - written by Max Webster, Hivemind VC
 - [Why Nostr Matters](https://blog.lopp.net/why-nostr-matters/) -  written by Jameson Lopp
 - [A vision for content discovery and relay usage for basic social-networking in Nostr](https://fiatjaf.com/3f106d31.html) - written by fiatjaf
