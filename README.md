@@ -253,7 +253,7 @@ them:
 - [nostcat](https://github.com/blakejakopovic/nostcat)![stars](https://img.shields.io/github/stars/blakejakopovic/nostcat.svg?style=social) - cat-like nostr client for scripting and debugging written in Rust
 - [NostrAirTracker](https://github.com/gourcetools/NostrAirTracker))![stars](https://img.shields.io/github/stars/gourcetools/NostrAirTracker.svg?style=social) - Elonjet on Nostr
 - [nostr army knife](https://nostr-army-knife.netlify.app/) - nostr army knife by fiatjaf
-- [nostr-cdrt](https://github.com/YousefED/nostr-crdt)![stars](https://img.shields.io/github/stars//YousefED/nostr-crdt.svg?style=social - use nostr for collaborative, decentralized, local-first applications with the Nostr-CRDT Yjs provider
+- [nostr-cdrt](https://github.com/YousefED/nostr-crdt)![stars](https://img.shields.io/github/stars//YousefED/nostr-crdt.svg?style=social) - use nostr for collaborative, decentralized, local-first applications with the Nostr-CRDT Yjs provider
 - [nostr GitHub Action](https://github.com/theborakompanioni/nostr-action)![stars](https://img.shields.io/github/stars/theborakompanioni/nostr-action.svg?style=social) - send events from GitHub Actions
 - [nostr registry](https://codeberg.org/rsbondi/nostr-registry) - a database of known relays with their uptime and NIP support tables
 - [NostrReply](https://github.com/gourcetools/nostreply)![stars](https://img.shields.io/github/stars/gourcetools/nostreply.svg?style=social) - Bot that replies to specified text on nostr global feed using NIP50
