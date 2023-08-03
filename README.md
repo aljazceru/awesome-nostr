@@ -2,6 +2,18 @@
 **R**elays" and is an open protocol for censorship-resistant global networks
 created by [@fiatjaf](https://github.com/fiatjaf).
 
+## Most popular 
+### Mobile clients
+- [Damus](https://damus.io/) - The OG nostr client for IOS
+- [plebstr](https://plebstr.com/) - Android and IOS app
+- [amethyst](https://github.com/vitorpamplona/amethyst) - Android only app
+
+### Web clients
+- [snort.social](https://snort.social/)
+- [iris.to](https://iris.to/)
+- [primal.net](https://primal.net/)
+
+
 ## Protocol
 
 - [NIPs](https://github.com/nostr-protocol/nips)![stars](https://img.shields.io/github/stars/nostr-protocol/nips.svg?style=social) - the "**N**ostr **I**mplementation **P**ossibilities" describe the protocol in technical detail
