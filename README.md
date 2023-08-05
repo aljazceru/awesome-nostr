@@ -151,6 +151,7 @@ them:
 - [Noteon](https://github.com/ShawnCN/cinny_nostsr2/tree/dev)![stars](https://img.shields.io/github/stars/ShawnCN/cinny_nostsr2.svg?style=social) - Yet another nostr client focused on private chat and group chat with a simple, elegant and secure interface.
   - [nostr.noteon.io](https://nostr.noteon.io/)
 - [Nozzle](https://github.com/dluvian/Nozzle)![stars](https://img.shields.io/github/stars/dluvian/Nozzle.svg?style=social) - A lightweight Android client
+- [Obsidian Nostr Writer](https://github.com/jamesmagoo/nostr-writer#readme) - A free Obsidian plugin that allows writers to seamlessly publish to Nostr
 - [OstrichGram](https://ostrichgram.com) - OstrichGram is a Telegram style desktop app for Linux and Windows featuring group chats and DMs.
 - [ourChan.org](https://github.com/smolgrrr/ourchan)![stars](https://img.shields.io/github/stars/smolgrrr/ourchan.svg?style=social) Anonymous imageboard on nostr, from a fork of 4Chan.org
 - [Pinstr](https://github.com/sepehr-safari/pinstr) ![stars](https://img.shields.io/github/stars/sepehr-safari/pinstr?style=social) - Pinstr is a decentralized and open-source social network for curating and sharing your interests with the world.
