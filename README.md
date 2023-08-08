@@ -189,6 +189,7 @@ them:
 ### Client reviews and/or comparisons
 
 - Feature [comparison list of Nostr clients](https://github.com/vishalxl/Nostr-Clients-Features-List)![stars](https://img.shields.io/github/stars/vishalxl/Nostr-Clients-Features-List.svg?style=social)
+- [Nostr Matrix](https://github.com/babonyx/nostr-matrix)![stars](https://img.shields.io/github/stars/babonyx/nostr-matrix.svg?style=social) - Feature matrix for nostr clients
 
 ## Libraries
 
