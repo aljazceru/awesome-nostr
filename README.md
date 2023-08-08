@@ -306,6 +306,7 @@ them:
 - [nostrillery](https://github.com/Cameri/nostrillery)![stars](https://img.shields.io/github/stars/Cameri/nostrillery.svg?style=social) - a tool for running performance tests against Nostr relays
 - [NostrSwap](https://www.nostrswap.com/) - NostrSwap is a fully decentralized exchange built on Nostr Protocol.
 - [nostrview](https://nostrview.com) - A nostr search engine. Search by content, tags, events or pub keys.
+- [Obsidian Nostr Writer](https://github.com/jamesmagoo/nostr-writer#readme) - A free Obsidian plugin that allows writers to seamlessly publish to Nostr
 - [powrelay.xyz](https://powrelay.xyz) - A proof of work based nostr explorer.
 - [rss.nostr.band](https://rss.nostr.band) - Create custom RSS feeds with posts matching your keywords and consume using your favorite RSS reader.
 - [sb.nostr.band](https://sb.nostr.band) - Search bots that you can create and follow to receive new posts matching a keyword right into your feed.
