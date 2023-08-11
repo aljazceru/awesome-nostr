@@ -185,7 +185,7 @@ them:
   - [Plebstr on Apple App Store](https://apps.apple.com/app/plebstr-nostr-client/id1666230916)
   - [Plebstr on Google Play Store](https://play.google.com/store/apps/details?id=com.plebstr.client)
 - [Swarmstr](https://swarmstr.com) - Your knowledge hub for curious minds
-- [Nostree](https://github.com/gzuuus/linktr-nostr)![stars](https://img.shields.io/github/stars/gzuuus/linktr-nostr.svg?style=social) A Nostr-based application linktree-style to create, manage and discover link lists, show notes and other stuff.
+- [Nostree](https://github.com/gzuuus/linktr-nostr)![stars](https://img.shields.io/github/stars/gzuuus/linktr-nostr.svg?style=social)[nostree.me](https://nostree.me) A Nostr-based application linktree-style to create, manage and discover link lists, show notes and other stuff.
 ### Client reviews and/or comparisons
 
 - Feature [comparison list of Nostr clients](https://github.com/vishalxl/Nostr-Clients-Features-List)![stars](https://img.shields.io/github/stars/vishalxl/Nostr-Clients-Features-List.svg?style=social)
