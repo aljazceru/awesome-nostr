@@ -184,8 +184,8 @@ them:
 - [Plebstr](https://plebstr.com) - Nostr client Reimagined, the most beautiful Twitter-like nostr client for iOS & Android.
   - [Plebstr on Apple App Store](https://apps.apple.com/app/plebstr-nostr-client/id1666230916)
   - [Plebstr on Google Play Store](https://play.google.com/store/apps/details?id=com.plebstr.client)
-- [Swarmstr](https://swarmstr.com) - Your knowledge hub for curious minds
-
+- [Swarmstr](https://github.com/ptrio42/swarmstr.com)(![stars](https://img.shields.io/github/stars/verbiricha/habla.news.svg?style=social)  - Your knowledge hub for curious minds
+  - [Swarmstr](https://swarmstr.com) - live instance
 ### Client reviews and/or comparisons
 
 - Feature [comparison list of Nostr clients](https://github.com/vishalxl/Nostr-Clients-Features-List)![stars](https://img.shields.io/github/stars/vishalxl/Nostr-Clients-Features-List.svg?style=social)
