@@ -33,7 +33,8 @@ of the public instances.
 
 ### Implementations
 
-- [Astro](https://github.com/Nostrology/astro)![stars](https://img.shields.io/github/stars/Nostrology/astro.svg?style=social)- Elixir based implementation built to be performant and highly distributed.
+- [Astro](https://github.com/Nostrology/astro)![stars](https://img.shields.io/github/stars/Nostrology/astro.svg?style=social) - Elixir based implementation built to be performant and highly distributed.
+- [Bucket](https://github.com/coracle-social/bucket)![stars](https://img.shields.io/github/stars/coracle-social/bucket.svg?style=social) - in-memory-only nodejs relay for testing/hacking on. Stupid simple, <100 LOC.
 - [Denostr](https://github.com/guakamoli/denostr)![stars](https://img.shields.io/github/stars/guakamoli/denostr.svg?style=social) - Deno based, cloud native nostr implemention support by ByteTrade and Revo.
 - [Ephemerelay](https://gitlab.com/soapbox-pub/ephemerelay)![stars](https://img.shields.io/gitlab/stars/soapbox-pub/ephemerelay.svg?style=social) - An in-memory Nostr relay that doesn't store data.
 - [gnost-relay](https://github.com/barkyq/gnost-relay) ![stars](https://img.shields.io/github/stars/barkyq/gnost-relay.svg?style=social) - nostr relay written in go backed by postgresql database.
@@ -143,6 +144,7 @@ them:
 - [nostromat](https://github.com/ekimber/nostromat)![stars](https://img.shields.io/github/stars/ekimber/nostromat.svg?style=social) - A Twitter-style Nostr web client, written in Clojurescript/React
   - [nostrom.at](https://nostrom.at) - live instance
 - [Nostros](https://github.com/KoalaSat/nostros)![stars](https://img.shields.io/github/stars/KoalaSat/nostros.svg?style=social) - A nostr mobile client for Android
+- [Nostree](https://github.com/gzuuus/linktr-nostr)![stars](https://img.shields.io/github/stars/gzuuus/linktr-nostr.svg?style=social)[nostree.me](https://nostree.me) A Nostr-based application linktree-style to create, manage and discover link lists, show notes and other stuff.
 - [Nostrtium](https://github.com/pjv/nostrtium)![stars](https://img.shields.io/github/stars/pjv/nostrtium.svg?style=social) - Post to Nostr directly from within WordPress
 - [nostrweb](https://git.qcode.ch/nostr/nostrweb) - another nostr web client in vanilla JS
   - [nostr.ch](https://nostr.ch/) - live instance
@@ -184,8 +186,15 @@ them:
 - [Plebstr](https://plebstr.com) - Nostr client Reimagined, the most beautiful Twitter-like nostr client for iOS & Android.
   - [Plebstr on Apple App Store](https://apps.apple.com/app/plebstr-nostr-client/id1666230916)
   - [Plebstr on Google Play Store](https://play.google.com/store/apps/details?id=com.plebstr.client)
-- [Swarmstr](https://swarmstr.com) - Your knowledge hub for curious minds
-- [Nostree](https://github.com/gzuuus/linktr-nostr)![stars](https://img.shields.io/github/stars/gzuuus/linktr-nostr.svg?style=social)[nostree.me](https://nostree.me) A Nostr-based application linktree-style to create, manage and discover link lists, show notes and other stuff.
+- [Swarmstr](https://github.com/ptrio42/swarmstr.com)(![stars](https://img.shields.io/github/stars/verbiricha/habla.news.svg?style=social)  - Your knowledge hub for curious minds
+  - [Swarmstr](https://swarmstr.com) - live instance
+
+### Nostr Marketplace clients (NIP-15)
+
+- [LNBits Nostrmarket](https://github.com/lnbits/nostrmarket)![stars](https://img.shields.io/github/stars/lnbits/nostrmarket.svg?style=social) - Nostrmarket extension for LNBits allows you to sell items directly from your LNBits instance
+- [Plebeian Market](https://github.com/PlebeianTech/plebeian-market)![stars](https://img.shields.io/github/stars/PlebeianTech/plebeian-market.svg?style=social) - The Bitcoin-native self-sovereign marketplace built on top of NIP-15 includes fixed-price items and auctions
+
+
 ### Client reviews and/or comparisons
 
 - Feature [comparison list of Nostr clients](https://github.com/vishalxl/Nostr-Clients-Features-List)![stars](https://img.shields.io/github/stars/vishalxl/Nostr-Clients-Features-List.svg?style=social)
