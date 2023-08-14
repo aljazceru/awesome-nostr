@@ -186,6 +186,12 @@ them:
   - [Plebstr on Google Play Store](https://play.google.com/store/apps/details?id=com.plebstr.client)
 - [Swarmstr](https://github.com/ptrio42/swarmstr.com)(![stars](https://img.shields.io/github/stars/verbiricha/habla.news.svg?style=social)  - Your knowledge hub for curious minds
   - [Swarmstr](https://swarmstr.com) - live instance
+
+### Nostr Marketplace clients (NIP-15)
+
+- [LNBits Nostrmarket](https://github.com/lnbits/nostrmarket)![stars](https://img.shields.io/github/stars/lnbits/nostrmarket.svg?style=social) - Nostrmarket extension for LNBits allows you to sell items directly from your LNBits instance
+- [Plebeian Market](https://github.com/PlebeianTech/plebeian-market)![stars](https://img.shields.io/github/stars/PlebeianTech/plebeian-market.svg?style=social) - The Bitcoin-native self-sovereign marketplace built on top of NIP-15 includes fixed-price items and auctions
+
 ### Client reviews and/or comparisons
 
 - Feature [comparison list of Nostr clients](https://github.com/vishalxl/Nostr-Clients-Features-List)![stars](https://img.shields.io/github/stars/vishalxl/Nostr-Clients-Features-List.svg?style=social)
