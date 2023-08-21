@@ -352,7 +352,7 @@ them:
 - [zaps.lol](https://zaps.lol) ![stars](https://img.shields.io/github/stars/jigglycrumb/nostr-address-provider?style=social) - A free and open source NIP-05 ID registration service. [Run your own](https://github.com/jigglycrumb/nostr-address-provider).
 - [easyNostr](https://easyNostr.com) - NIP-05 ID provider: Use your own domain, or one of ours: nostr.ly, mynostr.io, easyNostr.com.
 - [easyNostr-NIP05](https://wordpress.org/plugins/easynostr-nip05/) WordPress plugin to enable your site as a NIP-05 endpoint for every registered user on your system using your own domain.
-- [nostrcheck.me](https://nostrcheck.me/) - A NIP-05 ID registration service.
+- [nostrcheck.me](https://nostrcheck.me/) - A free NIP-05 ID (nostr address) registration service, lightning redirection and media uploads.
 - [Nostr-Check.com](https://nostr-check.com) - A free NIP-05 ID registration service.
 - [nostrplebs](https://nostrplebs.com) - A NIP-05 ID registration service.
 - [nostrprotocol.net](https://github.com/KiPSOFT/nostr-nip05-service)![stars](https://img.shields.io/github/stars/KiPSOFT/nostr-nip05-service?style=social) - A free NIP-05 identifier service.
