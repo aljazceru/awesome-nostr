@@ -153,6 +153,8 @@ them:
 - [notebin.org](https://notebin.org)![stars](https://img.shields.io/github/stars/nodetec/notebin.svg?style=social) - Nostr UI created with NextJS, support for markdown and code highlighting
 - [Noteon](https://github.com/ShawnCN/cinny_nostsr2/tree/dev)![stars](https://img.shields.io/github/stars/ShawnCN/cinny_nostsr2.svg?style=social) - Yet another nostr client focused on private chat and group chat with a simple, elegant and secure interface.
   - [nostr.noteon.io](https://nostr.noteon.io/)
+- [Nostr Web](https://github.com/franzos/nostr-ts) - React web client for static hosting
+  - [franzos.github.io/nostr-ts](https://franzos.github.io/nostr-ts/) - preview from `master` branch
 - [Nozzle](https://github.com/dluvian/Nozzle)![stars](https://img.shields.io/github/stars/dluvian/Nozzle.svg?style=social) - A lightweight Android client
 - [OstrichGram](https://ostrichgram.com) - OstrichGram is a Telegram style desktop app for Linux and Windows featuring group chats and DMs.
 - [ourChan.org](https://github.com/smolgrrr/ourchan)![stars](https://img.shields.io/github/stars/smolgrrr/ourchan.svg?style=social) Anonymous imageboard on nostr, from a fork of 4Chan.org
