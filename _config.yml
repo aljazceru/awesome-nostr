@@ -1,5 +1,5 @@
 include: [".well-known"]
-remote_theme: pages-themes/hacker@v0.2.0
+remote_theme: aljazceru/hacker-gh-pages-theme
 plugins:
 - jekyll-remote-theme
 
@@ -7,3 +7,4 @@ plugins:
 #title: Nostr
 #description: “nostr” stands for “Notes and Other Stuff Transmitted by Relays” and is an open protocol for censorship-resistant global networks
 show_downloads: false
+google_analytics: G-E6V2R7B0KQ
