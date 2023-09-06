@@ -424,14 +424,14 @@ Allow you to sign Nostr events on web-apps without having to give them your keys
 
 Outside of nostr itself, you find the community on:
 
-- [nostr CN/chinese telegram group](https://t.me/nostr_cn) - a chinese telegram group for nostr
-- [nostr discord](https://discord.gg/Pxkcgt9sMj) - a discord server for nostr enthusiasts and developers
-- [nostr español/spanish telegram group](https://t.me/nostr_es) - a spanish telegram group for nostr
-- [nostr francophone/french telegram group](https://t.me/nostrfr) - a french telegram group for nostr
-- [nostr hk](https://www.nostr.hk) - Connecting everyone who is interested in nostr in HK so we can meet up and have fun
-- [nostr reddit](https://www.reddit.com/r/nostr/) - a subreddit for nostr related discussion
-- [nostr telegram group](https://t.me/nostr_protocol) - a telegram group for nostr protocol discussion
-- [nostr RU/UA/BY telegram group](https://t.me/nostru_community) - an eastern european community in telegram group for nostr
+- [Discord](https://discord.gg/Pxkcgt9sMj) - a discord server for nostr enthusiasts and developers
+- [Reddit /r/nostr](https://www.reddit.com/r/nostr/) - subreddit for nostr related discussion
+- [Telegram: nostr Protocol](https://t.me/nostr_protocol) - telegram group for nostr protocol discussion
+- [Telegram: nostr CN](https://t.me/nostr_cn) - chinese telegram group for nostr
+- [Telegram: nostr ES (Español/Spanish)](https://t.me/nostr_es) - spanish telegram group for nostr
+- [Telegram: nostr FR (Francophone/French)](https://t.me/nostrfr) - french telegram group for nostr
+- [Telegram: nostr NL (Dutch, Nederlands)](https://t.me/nostrnederland) - Dutch nostr group
+- [Telegram: nostr RU/UA/BY](https://t.me/nostru_community) - an Eastern European community in telegram group for nostr
 
 ## Tutorials
 
