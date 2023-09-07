@@ -370,6 +370,7 @@ them:
 - [nip05.nostr.band](https://nip05.nostr.band) - A NIP-05 ID registration service.
 - [nostrich.love](https://uselessshit.co/nostr/nip-05/) - A Nostr Address registration service.
 - [swarmstr.com](https://swarmstr.com/nostr-address) - A free Nostr Address registration service.
+- [siamstr.com](https://siamstr.com) - A free NIP-05 ID registration service, lightning redirection.
 
 
 
