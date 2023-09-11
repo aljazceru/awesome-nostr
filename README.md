@@ -408,6 +408,16 @@ Allow you to sign Nostr events on web-apps without having to give them your keys
 - [wen](https://github.com/fiatjaf/wen)![stars](https://img.shields.io/github/stars/fiatjaf/wen.svg?style=social) - browser extension for website enhancer with nostr
 - [Signum XT Wallet](https://github.com/signum-network/signum-xt-wallet)![stars](https://img.shields.io/github/stars/signum-network/signum-xt-wallet.svg?style=social) - Metamask-like browser extension for Signum blockchain with full NIP07 support and multi-account management
 
+## NIP-47 Nostr Wallet Connect (NWC) implementations
+
+Clients (apps using NWC to access a LN wallet)
+
+- [Damus](https://damus.io/) - The OG nostr client for iOS
+- [Amethyst](https://github.com/vitorpamplona/amethyst) - Android only app
+
+Endpoints (services or apps that expose a LN wallet via NWC)
+
+- [Alby](https://getalby.com)![stars](https://img.shields.io/github/stars/getAlby/lightning-browser-extension.svg?style=social) - Bitcoin Lightning app with nostr support
 
 ## NIP-57 Zaps compatible wallets and solutions
 
