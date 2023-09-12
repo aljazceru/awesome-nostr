@@ -413,6 +413,7 @@ Allow you to sign Nostr events on web-apps without having to give them your keys
 Clients (apps using NWC to access a LN wallet)
 - [Damus](https://damus.io/) - The OG nostr client for iOS
 - [Amethyst](https://github.com/vitorpamplona/amethyst)![stars](https://img.shields.io/github/stars/vitorpamplona/amethyst.svg?style=social) - Android only app
+- [Lume](https://lume.nu) - Cross-platform desktop app
 
 Endpoints (services or apps that expose a LN wallet via NWC)
 
