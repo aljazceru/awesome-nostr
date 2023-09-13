@@ -372,6 +372,7 @@ them:
 - [nostrich.love](https://uselessshit.co/nostr/nip-05/) - A Nostr Address registration service.
 - [swarmstr.com](https://swarmstr.com/nostr-address) - A free Nostr Address registration service.
 - [siamstr.com](https://siamstr.com) - A free NIP-05 ID registration service, lightning redirection.
+- [toastr.space](https://toastr.space) - Paid NIP-05 and Reputation Badge service. Verify and link your identity from Twitter or GitHub to your Nostr account, and get a badge to prove it.
 
 
 
@@ -401,6 +402,7 @@ Allow you to sign Nostr events on web-apps without having to give them your keys
 - [Aka Profile](https://github.com/neilck/aka-extension)![stars](https://img.shields.io/github/stars/neilck/aka-extension.svg?style=social) -  Nostr Signing Extension for Chrome supporting multiple key pairs based on nos2x.
 - [Blockcore](https://github.com/block-core/blockcore-wallet)![stars](https://img.shields.io/github/stars/block-core/blockcore-wallet.svg?style=social) - Multi wallet browser extension with nostr support
 - [Flamingo](https://www.getflamingo.org) - Nostr browser extension with a focus on UX
+- [Keys.Band](https://keys.band) - Multi-key Nostr signing extension for Chrome with a sleak UI/UX. Based on NOS2X.
 - [nos2x](https://github.com/fiatjaf/nos2x)![stars](https://img.shields.io/github/stars/fiatjaf/nos2x.svg?style=social) - Nostr Signer Extension
 - [Nostore on GitHub](https://github.com/ursuscamp/nostore)![stars](https://img.shields.io/github/stars/ursuscamp/nostore.svg?style=social) - Nostr Signer Extension for iOS/macOS Safari ([Nostore on Mac App Store](https://apps.apple.com/us/app/nostore/id1666553677))
 - [nostr-keyx](https://github.com/susumuota/nostr-keyx)![stars](https://img.shields.io/github/stars/susumuota/nostr-keyx.svg?style=social) - A NIP-07 browser extension that uses the OS's keychain or YubiKey to protect your private keys.
