@@ -413,13 +413,17 @@ Allow you to sign Nostr events on web-apps without having to give them your keys
 ## NIP-47 Nostr Wallet Connect (NWC) implementations
 
 Clients (apps using NWC to access a LN wallet)
+
 - [Damus](https://damus.io/) - The OG nostr client for iOS
 - [Amethyst](https://github.com/vitorpamplona/amethyst)![stars](https://img.shields.io/github/stars/vitorpamplona/amethyst.svg?style=social) - Android only app
 - [Lume](https://lume.nu) - Cross-platform desktop app
+- [Nostur](https://nostur.com) - A nostr client for iPhone and macOS
 
 Endpoints (services or apps that expose a LN wallet via NWC)
 
-- [Alby](https://getalby.com)![stars](https://img.shields.io/github/stars/getAlby/lightning-browser-extension.svg?style=social) - Bitcoin Lightning app with nostr support
+- [Alby NWC (Umbrel)](https://apps.umbrel.com/app/alby-nostr-wallet-connect) - Umbrel app for exposing your self-custodial Umbrel LN Wallet over NWC
+- [Alby NWC (Web)](https://nwc.getalby.com/) - Web portal for exposing your custodial Alby account over NWC
+- [Mutiny](https://www.mutinywallet.com) - Self-custodial LN wallet that runs in the browser
 
 ## NIP-57 Zaps compatible wallets and solutions
 
