@@ -249,6 +249,7 @@ them:
 - [relayer](https://github.com/fiatjaf/relayer)![stars](https://img.shields.io/github/stars/fiatjaf/relayer.svg?style=social) - a server framework for writing custom relays
 - [schorr_snap](https://github.com/neeboo/schnorr_snap)![stars](https://img.shields.io/github/stars/neeboo/schnorr_snap.svg?style=social) - A snap plugin for Metamask Flask, supports nostr
 - [Nostra](https://github.com/lontivero/Nostra)![stars](https://img.shields.io/github/stars/lontivero/nostra.svg?style=social) - a F# library, available as a nuget package, for interacting with relays. The Nostra relay is built on top of it too. 
+- [Nostr Access Control](https://github.com/neilck/nostr-access-control)![stars](https://img.shields.io/github/stars/neilck/nostr-access-control.svg?style=social) - Library using Classified Listings, Badge Definition & Award events to check if a user is elgible to access a resource
 
 ## Bridges and Gateways
 
@@ -346,6 +347,7 @@ them:
 - [NostrTool](https://nostrtool.com/) - a tool to play with keys.
 - [Nostr NIP-36 Image Redirector](https://github.com/ryogrid/NostrNIP36ImageRedirector) - Reverse proxy server which blocks accesses to NIP-36 marked image files from NOT NIP-36 compliant clients.
 - [LikZap](https://github.com/silencesoft/likzap)![stars](https://img.shields.io/github/stars/silencesoft/likzap.svg?style=social) - A nostr bot to zap a note when you like it.
+- [NAC Demo App](https://github.com/neilck/nac-demo-app)![stars](https://img.shields.io/github/stars/neilck/nac-demo-app.svg?style=social) - Demo Nostr app using Next.js and NDK which demonstrates using the [Nostr Access Control](https://github.com/neilck/nostr-access-control) library, as well as NIP-07 logins
 
 ## NIP-05 identity services
 
