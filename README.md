@@ -2,7 +2,7 @@
 **R**elays" and is an open protocol for censorship-resistant global networks
 created by [@fiatjaf](https://github.com/fiatjaf).
 
-## Most popular 
+## Most popular
 ### Mobile clients
 - [Damus](https://damus.io/) - The OG nostr client for iOS
 - [Plebstr](https://plebstr.com/) - Android and iOS app
@@ -13,6 +13,7 @@ created by [@fiatjaf](https://github.com/fiatjaf).
 - [snort.social](https://snort.social/)
 - [iris.to](https://iris.to/)
 - [primal.net](https://primal.net/)
+- [coracle.social](https://coracle.social/)
 
 
 ## Protocol
@@ -94,7 +95,8 @@ them:
 - [blogstack.io](https://blogstack.io)![stars](https://img.shields.io/github/stars/nodetec/blogstack.svg?style=social) - Blogging site for nostr, supports markdown
 - [Blowater](https://blowater.deno.dev) - A desktop Web client focusing on chat with delightful UX
 - [bolt.fun](https://makers.bolt.fun/feed) - A bitcoin lightning makers community that supports reading and creating comments using Nostr
-- [coracle](https://github.com/staab/coracle)![stars](https://img.shields.io/github/stars/staab/coracle.svg?style=social) - A nostr web client
+- [Coracle](https://github.com/coracle-social/coracle)![stars](https://img.shields.io/github/stars/coracle-social/coracle.svg?style=social) - A nostr web client
+- [Coracle Chat](https://github.com/coracle-social/coracle-chat)![stars](https://img.shields.io/github/stars/coracle-social/coracle-chat.svg?style=social) - A standalone port of Coracle's chat functionality
 - [Daisy](https://github.com/neb-b/daisy) - Mobile client for Android and iOS
   - [testflight + android builds](https://neb.lol/nostr)
 - [damus](https://github.com/damus-io/damus)![stars](https://img.shields.io/github/stars/damus-io/damus.svg?style=social) - a twitter-like nostr client for iOS and MacOS
@@ -111,6 +113,7 @@ them:
 - [gossip](https://github.com/mikedilger/gossip)![stars](https://img.shields.io/github/stars/mikedilger/gossip.svg?style=social) - A desktop client in rust presented with egui
 - [Hamstr](https://github.com/styppo/hamstr)![stars](https://img.shields.io/github/stars/styppo/hamstr.svg?style=social) - A twitter-style web client built with Vue.js
   - [hamstr.to](https://hamstr.to)
+- [inbox](https://github.com/coracle-social/inbox)![stars](https://img.shields.io/github/stars/coracle-social/inbox.svg?style=social) - A proof-of-concept messaging application for NIP 24 DMs and group chats.
 - [iris](https://github.com/irislib/iris-messenger)![stars](https://img.shields.io/github/stars/irislib/iris-messenger.svg?style=social) - A nostr web client
   - [iris.to](https://iris.to) - live instance
   - [Android app](https://play.google.com/store/apps/details?id=to.iris.twa)
@@ -146,6 +149,7 @@ them:
   - [nostrom.at](https://nostrom.at) - live instance
 - [Nostros](https://github.com/KoalaSat/nostros)![stars](https://img.shields.io/github/stars/KoalaSat/nostros.svg?style=social) - A nostr mobile client for Android
 - [Nostree](https://github.com/gzuuus/linktr-nostr)![stars](https://img.shields.io/github/stars/gzuuus/linktr-nostr.svg?style=social)[nostree.me](https://nostree.me) A Nostr-based application linktree-style to create, manage and discover link lists, show notes and other stuff.
+- [nostr.time](https://github.com/coracle-social/nostrtime)![stars](https://img.shields.io/github/stars/coracle-social/nostrtime.svg?style=social) - A calendar app built on nostr
 - [Nostrtium](https://github.com/pjv/nostrtium)![stars](https://img.shields.io/github/stars/pjv/nostrtium.svg?style=social) - Post to Nostr directly from within WordPress
 - [nostrweb](https://git.qcode.ch/nostr/nostrweb) - another nostr web client in vanilla JS
   - [nostr.ch](https://nostr.ch/) - live instance
@@ -191,12 +195,12 @@ them:
   - [Plebstr on Google Play Store](https://play.google.com/store/apps/details?id=com.plebstr.client)
 - [Swarmstr](https://github.com/ptrio42/swarmstr.com)(![stars](https://img.shields.io/github/stars/verbiricha/habla.news.svg?style=social)  - Your knowledge hub for curious minds
   - [Swarmstr](https://swarmstr.com) - live instance
+- [zephyr](https://github.com/coracle-social/zephyr)![stars](https://img.shields.io/github/stars/coracle-social/zephyr.svg?style=social) - A meditative nostr feed reader
 
 ### Nostr Marketplace clients (NIP-15)
 
 - [LNBits Nostrmarket](https://github.com/lnbits/nostrmarket)![stars](https://img.shields.io/github/stars/lnbits/nostrmarket.svg?style=social) - Nostrmarket extension for LNBits allows you to sell items directly from your LNBits instance
 - [Plebeian Market](https://github.com/PlebeianTech/plebeian-market)![stars](https://img.shields.io/github/stars/PlebeianTech/plebeian-market.svg?style=social) - The Bitcoin-native self-sovereign marketplace built on top of NIP-15 includes fixed-price items and auctions
-
 
 ### Client reviews and/or comparisons
 
@@ -209,6 +213,7 @@ them:
 - [dart_nostr](https://github.com/anasfik/nostr)![stars](https://img.shields.io/github/stars/anasfik/nostr.svg?style=social) - A developer experience Dart library for Nostr
 - [dart-nostr](https://github.com/ethicnology/dart-nostr)![stars](https://img.shields.io/github/stars/ethicnology/dart-nostr.svg?style=social) - a Dart library for Flutter
 - [go-nostr](https://github.com/fiatjaf/go-nostr)![stars](https://img.shields.io/github/stars/fiatjaf/go-nostr.svg?style=social) - a Go library that implements relay management, plus event encoding and signing utils
+- [navigatr](https://github.com/coracle-social/navigatr)![stars](https://img.shields.io/github/stars/coracle-social/navigatr.svg?style=social) - A utility for discovering relays and scraping events
 - [nmostr](https://github.com/Gruruya/nmostr)![stars](https://img.shields.io/github/stars/Gruruya/nmostr.svg?style=social) - a Nim library for Nostr
 - [NNostr.Client](https://github.com/Kukks/NNostr)![stars](https://img.shields.io/github/stars/Kukks/NNostr.svg?style=social) - a C# Nostr library for use by clients
 - [rust-nostr](https://github.com/rust-nostr/nostr)![stars](https://img.shields.io/github/stars/rust-nostr/nostr.svg?style=social):
