@@ -82,7 +82,7 @@ them:
 - [Agora](https://agorasocial.app) ![stars](https://img.shields.io/github/stars/ghobs91/agora.svg?style=social) - Follow your favorite topics in the Nostr-verse (and even posts from Mastodon, Reddit, Bluesky, and Twitter)
 - [algia](https://github.com/mattn/algia)![stars](https://img.shields.io/github/stars/mattn/algia.svg?style=social) - A cli application for nostr.
 - [Amethyst](https://github.com/vitorpamplona/amethyst)![stars](https://img.shields.io/github/stars/vitorpamplona/amethyst.svg?style=social) - An Android client for nostr written in Kotlin
-- [ArcadeCity](https://github.com/ArcadeCity/app)![stars](https://img.shields.io/github/stars/ArcadeCity/app.svg?style=social) - Public group chats and P2P services (WIP) over nostr
+- [ArcadeCity](https://github.com/ArcadeCity/arcade)![stars](https://img.shields.io/github/stars/ArcadeCity/arcade.svg?style=social) - Public group chats and P2P services (WIP) over nostr
 - [Astral](https://github.com/monlovesmango/astral)![stars](https://img.shields.io/github/stars/monlovesmango/astral.svg?style=social) - a branle fork with global feed and UI makeover
   - [Astral on TOR](http://hbn4yzl3qkzi3qpse6nvljbduzcdecaq76tbcfjfzmoaik3q3uryxuad.onion/3bf0c63fcb93463407af97a5e5ee64fa883d107ef9e558472c4eb9aaaefa459d)
   - [astral.ninja](https://astral.ninja/)
