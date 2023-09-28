@@ -503,7 +503,6 @@ Outside of nostr itself, you find the community on:
 - [branle](https://github.com/fiatjaf/branle)![stars](https://img.shields.io/github/stars/fiatjaf/branle.svg?style=social) - a Twitter-like client that was discontinued but lives on in its fork "Astral".
 - [Listr](https://github.com/sepehr-safari/listr) ![stars](https://img.shields.io/github/stars/sepehr-safari/listr.svg?style=social) - A Nostr Web Client for Making Lists.
 - [nvote](https://nvote.co) - it does server side processing, and even private key is handled server side, and as such is deprecated for normal use.
-- [rsslay](https://github.com/fiatjaf/rsslay)![stars](https://img.shields.io/github/stars/fiatjaf/rsslay.svg?style=social) - a bridge that puts RSS feeds into Nostr
 - [expensive relay](https://github.com/fiatjaf/expensive-relay)![stars](https://img.shields.io/github/stars/fiatjaf/expensive-relay.svg?style=social)- a relay that requires payment for registration
 - [nodestr](https://github.com/Dolu89/nodestr-relay)![stars](https://img.shields.io/github/stars/Dolu89/nodestr-relay.svg?style=social) - a Node.js implementation
 - [nostr-rs](https://github.com/futurepaul/nostr-rs)![stars](https://img.shields.io/github/stars/futurepaul/nostr-rs.svg?style=social) - a Rust implementation of the nostr protocol
