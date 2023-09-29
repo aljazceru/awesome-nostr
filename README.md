@@ -232,6 +232,7 @@ them:
 - [nostr-connect](https://github.com/nostr-connect/connect)![stars](https://img.shields.io/github/stars/nostr-connect/connect.svg?style=social) - Nostr Connect SDK for TypeScript is a library that allows you to easily integrate Nostr Connect into your web application
 - [nostr-deno](https://github.com/KiPSOFT/nostr-deno)![stars](https://img.shields.io/github/stars/KiPSOFT/nostr-deno.svg?style=social) - a client library for Deno javascript runtime.
 - [nostr-development-kit - NDK](https://github.com/nostr-dev-kit/ndk)![stars](https://img.shields.io/github/stars/nostr-dev-kit/ndk.svg?style=social) - NDK is a nostr development kit that makes the experience of building Nostr-related applications, whether they are relays, clients, or anything in between, better, more reliable.
+- [nostr-fetch](https://github.com/jiftechnify/nostr-fetch)![stars](https://img.shields.io/github/stars/jiftechnify/nostr-fetch.svg?style=social) - A utility library that allows JS/TS apps to effortlessly fetch past events from Nostr relays.
 - [nostr-java](https://github.com/tcheeric/nostr-java)![stars](https://img.shields.io/github/stars/tcheeric/nostr-java.svg?style=social) - A nostr client library, written in java, for generating, signing and publishing events.
 - [nostr-js](https://github.com/jb55/nostr-js)![stars](https://img.shields.io/github/stars/jb55/nostr-js.svg?style=social) - a javascript implementation of the nostr protocol
 - [nostr-ts](https://github.com/franzos/nostr-ts)![stars](https://img.shields.io/github/stars/franzos/nostr-ts.svg?style=social) - a Typescript implementation of the nostr protocol plus toys
@@ -296,6 +297,7 @@ them:
 - [nkcli](https://github.com/mdzz-club/nkcli)![stars](https://img.shields.io/github/stars/mdzz-club/nkcli.svg?style=social) - A CLI tool for nostr key manage and serve NIP-46.
 - [nos2x - nostr signer extension](https://github.com/fiatjaf/nos2x)![stars](https://img.shields.io/github/stars/fiatjaf/nos2x.svg?style=social) - a browser extension for signing events on 3rd party site without sharing your private keys with them
 - [nostcat](https://github.com/blakejakopovic/nostcat)![stars](https://img.shields.io/github/stars/blakejakopovic/nostcat.svg?style=social) - cat-like nostr client for scripting and debugging written in Rust
+- [nosdump](https://github.com/jiftechnify/nosdump)![stars](https://img.shields.io/github/stars/jiftechnify/nosdump.svg?style=social) - A command line tool which dumps (download) events stored in Nostr relays
 - [NostrAirTracker](https://github.com/gourcetools/NostrAirTracker))![stars](https://img.shields.io/github/stars/gourcetools/NostrAirTracker.svg?style=social) - Elonjet on Nostr
 - [nostr army knife](https://nak.nostr.com/) - nostr army knife by fiatjaf
 - [nostr-crdt](https://github.com/YousefED/nostr-crdt) ![stars](https://img.shields.io/github/stars/YousefED/nostr-crdt.svg?style=social) - Use Nostr for collaborative, decentralized, local-first applications with the Nostr-CRDT Yjs provider.
