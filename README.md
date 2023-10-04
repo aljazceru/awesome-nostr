@@ -205,7 +205,8 @@ them:
 ### Client reviews and/or comparisons
 
 - Feature [comparison list of Nostr clients](https://github.com/vishalxl/Nostr-Clients-Features-List)![stars](https://img.shields.io/github/stars/vishalxl/Nostr-Clients-Features-List.svg?style=social)
-- [Nostr Matrix](https://github.com/nostorg/nostr-matrix)![stars](https://img.shields.io/github/stars/nostorg/nostr-matrix.svg?style=social) - Feature matrix for nostr clients
+- [Feature Matrix for Nostr Clients](https://github.com/nostorg/clients)![stars](https://img.shields.io/github/stars/nostorg/clients.svg?style=social)
+  - [Landing page](https://nostorg.github.io/clients/)
 
 ## Libraries
 
@@ -343,6 +344,7 @@ them:
 - [powrelay.xyz](https://powrelay.xyz) - A proof of work based nostr explorer.
 - [rss.nostr.band](https://rss.nostr.band) - Create custom RSS feeds with posts matching your keywords and consume using your favorite RSS reader.
 - [sb.nostr.band](https://sb.nostr.band) - Search bots that you can create and follow to receive new posts matching a keyword right into your feed.
+- [scoop-nostr](https://github.com/nostorg/scoop-nostr)![stars](https://img.shields.io/github/stars/nostorg/scoop-nostr?style=social) - Scoop bucket for Nostr software.
 - [secret-border](https://github.com/guilhermegps/secret-border)![stars](https://img.shields.io/github/stars/guilhermegps/secret-border.svg?style=social) - A safe Nostr identity generator.
 - [strfry policies](https://gitlab.com/soapbox-pub/strfry-policies)![stars](https://img.shields.io/gitlab/stars/soapbox-pub/strfry-policies.svg?style=social) - A collection of moderation & antispam policies for the strfry relay developed in TypeScript/Deno.
 - [Spamster](https://github.com/gourcetools/spamster)![stars](https://img.shields.io/github/stars/gourcetools/spamster.svg?style=social) - Spamster is for testing relays and spam filters.
