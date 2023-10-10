@@ -177,6 +177,7 @@ them:
 - [shockwallet](https://github.com/shocknet/wallet2)![stars](https://img.shields.io/github/stars/shocknet/wallet2.svg?style=social) - A Lightning wallet that uses nostr and lnurl to connect to nodes
 - [Snort](https://github.com/v0l/snort)![stars](https://img.shields.io/github/stars/v0l/snort.svg?style=social) - Nostr UI written in react
   - [snort.social](https://snort.social)
+- [Spring Browser](https://spring.site) - Nostr-focused browser app for Android.
 - [Stackerstan](https://stackerstan.org) - ![stars](https://img.shields.io/github/stars/stackerstan/mindmachine.svg?style=social)A decentralised organisation built on Bitcoin and Nostr, implemented as a replicated state machine in Golang
 - [Tamga](https://github.com/erdaltoprak/tamga)![stars](https://img.shields.io/github/stars/erdaltoprak/tamga.svg?style=social) - An offline first nostr contact & profile manager for iOS!
 - [uBlog](https://github.com/nodetec/ublog) ![stars](https://img.shields.io/github/stars/nodetec/ublog.svg?style=social) - A minimalist blog on nostr that allows anyone to easily create their own personal micro-blog.
@@ -358,6 +359,8 @@ them:
 - [Nostr NIP-36 Image Redirector](https://github.com/ryogrid/NostrNIP36ImageRedirector) - Reverse proxy server which blocks accesses to NIP-36 marked image files from NOT NIP-36 compliant clients.
 - [LikZap](https://github.com/silencesoft/likzap)![stars](https://img.shields.io/github/stars/silencesoft/likzap.svg?style=social) - A nostr bot to zap a note when you like it.
 - [NAC Demo App](https://github.com/neilck/nac-demo-app)![stars](https://img.shields.io/github/stars/neilck/nac-demo-app.svg?style=social) - Demo Nostr app using Next.js and NDK which demonstrates using the [Nostr Access Control](https://github.com/neilck/nostr-access-control) library, as well as NIP-07 logins
+- [Zapper](https://zapper.nostrapps.org) - Nostr micro-app for zapping
+- [Replies][https://replies.nostrapps.org] - Nostr micro-app for viewing replies and reactions to events
 
 ## NIP-05 identity services
 
@@ -429,6 +432,7 @@ Clients (apps using NWC to access a LN wallet)
 - [Amethyst](https://github.com/vitorpamplona/amethyst)![stars](https://img.shields.io/github/stars/vitorpamplona/amethyst.svg?style=social) - Android only app
 - [Lume](https://lume.nu) - Cross-platform desktop app
 - [Nostur](https://nostur.com) - A nostr client for iPhone and macOS
+- [Spring Browser](https://spring.site) - Nostr-focused browser app for Android.
 
 Endpoints (services or apps that expose a LN wallet via NWC)
 
