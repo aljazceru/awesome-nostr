@@ -360,7 +360,7 @@ them:
 - [LikZap](https://github.com/silencesoft/likzap)![stars](https://img.shields.io/github/stars/silencesoft/likzap.svg?style=social) - A nostr bot to zap a note when you like it.
 - [NAC Demo App](https://github.com/neilck/nac-demo-app)![stars](https://img.shields.io/github/stars/neilck/nac-demo-app.svg?style=social) - Demo Nostr app using Next.js and NDK which demonstrates using the [Nostr Access Control](https://github.com/neilck/nostr-access-control) library, as well as NIP-07 logins
 - [Zapper](https://zapper.nostrapps.org) - Nostr micro-app for zapping
-- [Replies][https://replies.nostrapps.org] - Nostr micro-app for viewing replies and reactions to events
+- [Replies](https://replies.nostrapps.org) - Nostr micro-app for viewing replies and reactions to events
 
 ## NIP-05 identity services
 
