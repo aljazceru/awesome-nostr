@@ -122,9 +122,11 @@ them:
 - [JiYou](https://github.com/TimA314/JiYou) ![stars](https://img.shields.io/github/stars/TimA314/JiYou.svg?style=social) - A nostr PWA client with a highly customizable UI
   - [JiYou.social](https://JiYou.social) - live instance
 - [Lightning.Pub](https://github.com/shocknet/Lightning.Pub)![stars](https://img.shields.io/github/stars/shocknet/Lightning.Pub.svg?style=social) - A nostr daemon for Lightning nodes
+- [Listr](https://listr.lol/) - Curate, organize, and discover everything Nostr has to offer. Listr is the best way to create, manage, and browse Nostr lists.
 - [loquaz](https://github.com/emeceve/loquaz)![stars](https://img.shields.io/github/stars/emeceve/loquaz.svg?style=social) - a desktop app written in Rust for direct encrypted chat
 - [Member](https://github.com/memberapp/memberapp.github.io)![stars](https://img.shields.io/github/stars/memberapp/memberapp.github.io.svg?style=social) - Progressive Web App Client. Works on desktop and mobile.
   - [member.cash](https://member.cash/) - live instance
+- [Memestr](https://memestr.app/) - The Nostr hub for memes.
 - [MeShell](https://github.com/BEEBSDONE/MeShell_Nodejs)![stars](https://img.shields.io/github/stars/BEEBSDONE/MeShell_Nodejs.svg?style=social) - Web, iOS and Android blog type client destined to publish articles and researches for independent journalists.
   - [MeShell.io](https://meshell.io) - Landing page for more information
 - [Minds](https://www.minds.com/) - open source social network. Supports reading and creating posts using the Nostr protocol
@@ -282,7 +284,7 @@ them:
 - [blogsync](https://github.com/canostrical/blogsync)![stars](https://img.shields.io/github/stars/canostrical/blogsync.svg?style=social) - Self-host blog articles from long-form notes e.g. via Caddy server.
 - [cafe-society.news](https://github.com/colealbon/cafe-society)![stars](https://img.shields.io/github/stars/colealbon/cafe-society.svg?style=social) - Self-sovereign machine learning training tool for nostr global feed.  Trained models can be monetized/distributed over nostr private messages.  Your pre-paid model subscribers register via lightning payments.
 - [contact cloud](https://github.com/canostrical/contact_cloud)![stars](https://img.shields.io/github/stars/canostrical/contact_cloud.svg?style=social) - Discover the Nostr contact list graph and your own pubkey in it. 
-- [granary](https://github.com/snarfed/granary)![stars](https://img.shields.io/github/stars/snarfed/granary.svg?style=social) - Convert nostr content in to atom, html, rss, json, indieweb feed, mastodon, microformats2, activitystreams, activitypub/fediverse, jsonfeed, and bluesky's atproto all with web and rest-api. 
+- [granary](https://github.com/snarfed/granary)![stars](https://img.shields.io/github/stars/snarfed/granary.svg?style=social) - Convert nostr content into atom, html, rss, json, indieweb feed, mastodon, microformats2, activitystreams, activitypub/fediverse, jsonfeed, and bluesky's atproto all with web and rest-api. 
   - [granary.io](https://granary.io/) - live instance 
 - [git-nostr-tools](http://git.jb55.com/git-nostr-tools) - A cli tool for sending code patches over nostr
 - [git-nostr](https://github.com/colealbon/git-nostr)![stars](https://img.shields.io/github/stars/colealbon/git-nostr.svg?style=social) - A tool to enhance git cli with nostr communications. Publish patch content, prs, repo name, issues, etc to nostr relay.
