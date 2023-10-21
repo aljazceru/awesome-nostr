@@ -344,6 +344,7 @@ them:
 - [nostrify](https://github.com/joelklabo/nostrify)![stars](https://img.shields.io/github/stars/joelklabo/nostrify.svg?style=social) - A Core Lightning plugin that sends events (forwards, connect, disconnect, etc.) to nostr.
 - [nostril](https://github.com/jb55/nostril)![stars](https://img.shields.io/github/stars/jb55/nostril.svg?style=social) - C cli tool for creating nostr events
 - [nostrillery](https://github.com/Cameri/nostrillery)![stars](https://img.shields.io/github/stars/Cameri/nostrillery.svg?style=social) - a tool for running performance tests against Nostr relays
+- [nostro](https://github.com/r3drun3/nostro)![stars](https://img.shields.io/github/stars/r3drun3/nostro.svg?style=social) - nostr osint (open source intelligence) tool
 - [NostrSwap](https://www.nostrswap.com/) - NostrSwap is a fully decentralized exchange built on Nostr Protocol.
 - [nostrview](https://nostrview.com) - A nostr search engine. Search by content, tags, events or pub keys.
 - [nsecbunkerd](https://github.com/kind-0/nsecbunkerd) - Keep your nostr keys in a single place and provide fine-grained access to your team members.
