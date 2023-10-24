@@ -414,7 +414,7 @@ them:
   - [WebLN demo](https://lab.oak-node.net/powpub/uv/wasm-client/) - Simple web demo where clients can pay with WebLN
 - [rana](https://github.com/grunch/rana)![stars](https://img.shields.io/github/stars/grunch/rana.svg?style=social) - Vanity pubkey miner based on nip13
 
-## Browser extensions
+## NIP-07 Browser extensions
 
 Allow you to sign Nostr events on web-apps without having to give them your keys
 
