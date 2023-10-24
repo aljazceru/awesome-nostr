@@ -498,6 +498,7 @@ Outside of nostr itself, you find the community on:
 - [inosta api](https://github.com/johnongit/INOSTA-Nostr-Img-Service)![stars](https://img.shields.io/github/stars/johnongit/INOSTA-Nostr-Img-Service.svg?style=social) - Expensive Image Hosting Service
   - [api.inosta.cc](https://api.inosta.cc) - Backend live instance
   - [inosta.cc](https://inosta.cc)- Demonstrator live instance
+- [logseq-nostr-sync](https://github.com/KoalaSat/logseq-nostr-sync)![stars](https://img.shields.io/github/stars/KoalaSat/logseq-nostr-sync.svg?style=social) Logseq plugin to receive new entries as DM.
 - [Media caching server for Nostr](https://media.nostr.band) - caches resized profile pictures and banners to save bandwidth for clients
 - [nostr icons](https://github.com/satscoffee/nostr_icons)![stars](https://img.shields.io/github/stars/satscoffee/nostr_icons.svg?style=social) - Purple, white, and black icons in various formats designed for nostr.
 - [nostr icons 2](https://github.com/SovrynMatt/Nostr-Website-Button-Design) - Another repository of nostr icons (rounded, rectangular)
@@ -511,8 +512,6 @@ Outside of nostr itself, you find the community on:
 - [Zaplife](https://zaplife.lol) - Real-time feed for nostr zaps. The best tool to shut up the "lightning doesn't work" people.
 - [wellorder nostr datasets](https://wiki.wellorder.net/wiki/nostr-datasets/) - Public standardized nostr datasets for benchmarking, data science, or other analysis.
 - [ostrich.work](https://ostrich.work/) - nostr job board
-
-
 
 ## Deprecated
 
