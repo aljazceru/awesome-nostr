@@ -168,6 +168,7 @@ them:
 - [ourChan.org](https://github.com/smolgrrr/ourchan)![stars](https://img.shields.io/github/stars/smolgrrr/ourchan.svg?style=social) Anonymous imageboard on nostr, from a fork of 4Chan.org
 - [Pinstr](https://github.com/sepehr-safari/pinstr) ![stars](https://img.shields.io/github/stars/sepehr-safari/pinstr?style=social) - Pinstr is a decentralized and open-source social network for curating and sharing your interests with the world.
   - [Pinstr.app](https://pinstr.app) - live instance
+- [Postr For Nostr](https://github.com/joel-st/postr-for-nostr)![stars](https://img.shields.io/github/stars/joel-st/postr-for-nostr.svg?style=social) - Post to Nostr directly from within WordPress using NIP-07
 - [Pretty Good Apps](https://github.com/wds4/pretty-good)![stars](https://img.shields.io/github/stars/wds4/pretty-good?style=social) - A desktop nostr client for linux, mac and windows with a focus on decentralized reputation and web of trust. First application: crowdsourced decentralized list curation.
 - [Primal](https://primal.net) - Lightning fast web client for Nostr. Features extensive analytics, vanity profiles and more.
 - [Pollstr](https://github.com/mroxso/pollstr)![stars](https://img.shields.io/github/stars/mroxso/pollstr?style=social) - A nostr web client with a focus on polls.
