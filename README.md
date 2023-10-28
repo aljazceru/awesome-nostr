@@ -19,7 +19,7 @@ created by [@fiatjaf](https://github.com/fiatjaf).
 ## Protocol
 
 - [NIPs](https://github.com/nostr-protocol/nips)![stars](https://img.shields.io/github/stars/nostr-protocol/nips.svg?style=social) - the "**N**ostr **I**mplementation **P**ossibilities" describe the protocol in technical detail
-  - [List of NIPs Before Recommendation](https://github.com/AsaiToshiya/list-of-nips-before-recommendation)
+  - [List of NIPs Before the Recommendation](https://github.com/AsaiToshiya/list-of-nips-before-recommendation)
 - [nostr address book](https://github.com/aitechguy/nostr-address-book) - A directory of twitter users accounts and their NOSTR addresses
 - [nostr, a basic tour](https://github.com/rajarshimaitra/rust-nostr/blob/main/VISION.md) - an intro to nostr
 - [Nostr: Solucionando la censura de una vez por todas](https://estudiobitcoin.com/nostr-solucionando-la-censura-de-una-vez-por-todas/)
