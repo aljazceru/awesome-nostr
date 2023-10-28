@@ -465,6 +465,13 @@ Endpoints (services or apps that expose a LN wallet via NWC)
 - [Zebedee app](https://zebedee.io/app) - Zebedee's wallet/lightning app
 - [ZeusLN](https://github.com/ZeusLN/zeus)![stars](https://img.shields.io/github/stars/ZeusLN/zeus.svg?style=social) - A mobile Bitcoin/Lightning app for LND, Core Lightning, and Eclair node operators
 
+## NIP-90 Data vending machines
+- [data-vending-machines.org](https://www.data-vending-machines.org/) - This website provides specs of the different NIP-90 Data Vending Machine kinds
+- [data vending machine example](https://github.com/pablof7z/nostr-data-vending-machine))![stars](https://img.shields.io/github/stars/pablof7z/nostr-data-vending-machine.svg?style=social) -  Nostr data vending machine example  by Pablof7z
+- [dvm references](https://github.com/pablof7z/dvm-references/))![stars](https://img.shields.io/github/stars/pablof7z/dvm-references.svg?style=social) - reference implementation of a DVM (Data Vending Machine) backend
+- [vendata.io](https://vendata.io/) - data processing AI marketplace with nostr data vending machines
+- [tasktiger.io](https://tasktiger.io/) - another DVM provider 
+
 ## Community
 
 Outside of nostr itself, you find the community on:
