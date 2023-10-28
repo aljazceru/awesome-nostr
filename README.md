@@ -514,7 +514,7 @@ Outside of nostr itself, you find the community on:
 - [Thank god for nostr](https://tgfb.com/podcasts/thank-god-for-nostr/) - The Thank God For Nostr podcast explores the ins and outs of Nostr, the decentralized social protocol, through a Christian lens
 - [La Cosa Nostr](https://tunein.com/podcasts/Technology-Podcasts/La-Cosa-Nostr---The-Decentralized-Network-p3709902/?topicId=338397586) - A podcast about the Nostr decentralized communications protocol.
 - [No Strings](https://www.fountain.fm/show/jCajOVJfkIXAkAyqvmW6) - freedom tech podcast
-- [Plebchain Radio](https://nostrnests.com/plebchainradio) - a radio show for plebs, by plebs
+- [Plebchain Radio](https://fountain.fm/show/0N6GGdZuYNNG7ysagCg9) - weekly live audio show made for plebs, by plebs which focuses on the intersection of Nostr protocol and Bitcoin plebs.
  
 ## Other links
 
