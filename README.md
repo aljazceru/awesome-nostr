@@ -506,7 +506,8 @@ Outside of nostr itself, you find the community on:
 - [Why Nostr Matters](https://blog.lopp.net/why-nostr-matters/) -  written by Jameson Lopp
 - [A vision for content discovery and relay usage for basic social-networking in Nostr](https://fiatjaf.com/3f106d31.html) - written by fiatjaf
 - [Nostr Documentary](https://www.youtube.com/watch?v=aA-jiiepOrE) -  Social Media is broken. Can we fix it?
-- [What is Nostr?](https://www.youtube.com/watch?v=MaxXvcr181c) - Uncle Bob explains nostr 
+- [What is Nostr?](https://www.youtube.com/watch?v=MaxXvcr181c) - Uncle Bob explains nostr
+- [Decentralizing Global Markets with Nostr](https://www.youtube.com/watch?v=WtpY_pQ3zcI) - Guy Swann and Pablof7z
 
 ## Podcasts 
 - [Nostrovia Podcast](https://nostrovia.org/) - A Nostr podcast covering all the new projects, all the new cool stuff, all the new NIPs
