@@ -467,10 +467,13 @@ Endpoints (services or apps that expose a LN wallet via NWC)
 
 ## NIP-90 Data vending machines
 - [data-vending-machines.org](https://www.data-vending-machines.org/) - This website provides specs of the different NIP-90 Data Vending Machine kinds
-- [data vending machine example](https://github.com/pablof7z/nostr-data-vending-machine))![stars](https://img.shields.io/github/stars/pablof7z/nostr-data-vending-machine.svg?style=social) -  Nostr data vending machine example  by Pablof7z
-- [dvm references](https://github.com/pablof7z/dvm-references/))![stars](https://img.shields.io/github/stars/pablof7z/dvm-references.svg?style=social) - reference implementation of a DVM (Data Vending Machine) backend
+- [data vending machine example](https://github.com/pablof7z/nostr-data-vending-machine)![stars](https://img.shields.io/github/stars/pablof7z/nostr-data-vending-machine.svg?style=social) -  Nostr data vending machine example  by Pablof7z
+- [dvm references](https://github.com/pablof7z/dvm-references/)![stars](https://img.shields.io/github/stars/pablof7z/dvm-references.svg?style=social) - reference implementation of a DVM (Data Vending Machine) backend
+- [nostr-dvm-ts](https://github.com/Kodylow/nostr-dvm-ts)![stars](https://img.shields.io/github/stars/Kodylow/nostr-dvm-ts.svg?style=social) - Typescript examples of Nostr Data Vending Machines 
 - [vendata.io](https://vendata.io/) - data processing AI marketplace with nostr data vending machines
-- [tasktiger.io](https://tasktiger.io/) - another DVM provider 
+- [tasktiger.io](https://tasktiger.io/) - another DVM provider
+- [DVM Clients and Services Tutorial](https://www.youtube.com/watch?v=dAuLnNxU0Yg) - Nostr Data Vending Machine Clients and Services Tutorial by Kody Low
+
 
 ## Communities
 
