@@ -472,7 +472,7 @@ Endpoints (services or apps that expose a LN wallet via NWC)
 - [vendata.io](https://vendata.io/) - data processing AI marketplace with nostr data vending machines
 - [tasktiger.io](https://tasktiger.io/) - another DVM provider 
 
-## Community
+## Communities
 
 Outside of nostr itself, you find the community on:
 
@@ -503,8 +503,13 @@ Outside of nostr itself, you find the community on:
 - [Why Nostr Matters](https://blog.lopp.net/why-nostr-matters/) -  written by Jameson Lopp
 - [A vision for content discovery and relay usage for basic social-networking in Nostr](https://fiatjaf.com/3f106d31.html) - written by fiatjaf
 - [Nostr Documentary](https://www.youtube.com/watch?v=aA-jiiepOrE) -  Social Media is broken. Can we fix it?
-- [Nostrovia Podcast](https://nostrovia.org/) - A Nostr podcast covering all the new projects, all the new cool stuff, all the new NIPs
 - [What is Nostr?](https://www.youtube.com/watch?v=MaxXvcr181c) - Uncle Bob explains nostr 
+
+## Podcasts 
+- [Nostrovia Podcast](https://nostrovia.org/) - A Nostr podcast covering all the new projects, all the new cool stuff, all the new NIPs
+- [Nost talks](https://www.curiousdk.com/podcast) - Nostr related news and interviews
+- [Thank god for nostr](https://tgfb.com/podcasts/thank-god-for-nostr/) - The Thank God For Nostr podcast explores the ins and outs of Nostr, the decentralized social protocol, through a Christian lens
+- [La Cosa Nostr](https://tunein.com/podcasts/Technology-Podcasts/La-Cosa-Nostr---The-Decentralized-Network-p3709902/?topicId=338397586) - A podcast about the Nostr decentralized communications protocol.
  
 ## Other links
 
