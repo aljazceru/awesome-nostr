@@ -348,6 +348,7 @@ them:
 - [nostro](https://github.com/r3drun3/nostro)![stars](https://img.shields.io/github/stars/r3drun3/nostro.svg?style=social) - nostr osint (open source intelligence) tool
 - [NostrSwap](https://www.nostrswap.com/) - NostrSwap is a fully decentralized exchange built on Nostr Protocol.
 - [nostrview](https://nostrview.com) - A nostr search engine. Search by content, tags, events or pub keys.
+- [hostr](https://github.com/studiokaiji/nostr-webhost) - nostr-webhost is a tool for hosting SPA on nostr 
 - [nsecbunkerd](https://github.com/kind-0/nsecbunkerd) - Keep your nostr keys in a single place and provide fine-grained access to your team members.
 - [Obsidian Nostr Writer](https://github.com/jamesmagoo/nostr-writer#readme) - A free Obsidian plugin that allows writers to seamlessly publish to Nostr
 - [powrelay.xyz](https://powrelay.xyz) - A proof of work based nostr explorer.
