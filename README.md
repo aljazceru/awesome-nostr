@@ -36,6 +36,7 @@ of the public instances.
 ### Implementations
 
 - [Astro](https://github.com/Nostrology/astro)![stars](https://img.shields.io/github/stars/Nostrology/astro.svg?style=social) - Elixir based implementation built to be performant and highly distributed.
+- [Bostr](https://github.com/Yonle/bostr)![stars](https://img.shields.io/github/stars/Yonle/bostr.svg?style=social) - Nostr bouncer nodejs relay
 - [Bucket](https://github.com/coracle-social/bucket)![stars](https://img.shields.io/github/stars/coracle-social/bucket.svg?style=social) - in-memory-only nodejs relay for testing/hacking on. Stupid simple, <100 LOC.
 - [Denostr](https://github.com/guakamoli/denostr)![stars](https://img.shields.io/github/stars/guakamoli/denostr.svg?style=social) - Deno based, cloud native nostr implemention support by ByteTrade and Revo.
 - [Ephemerelay](https://gitlab.com/soapbox-pub/ephemerelay)![stars](https://img.shields.io/gitlab/stars/soapbox-pub/ephemerelay.svg?style=social) - An in-memory Nostr relay that doesn't store data.
@@ -360,6 +361,7 @@ them:
 - [strfry policies](https://gitlab.com/soapbox-pub/strfry-policies)![stars](https://img.shields.io/gitlab/stars/soapbox-pub/strfry-policies.svg?style=social) - A collection of moderation & antispam policies for the strfry relay developed in TypeScript/Deno.
 - [Spamster](https://github.com/gourcetools/spamster)![stars](https://img.shields.io/github/stars/gourcetools/spamster.svg?style=social) - Spamster is for testing relays and spam filters.
 - [tostr](https://github.com/slaninas/tostr)![stars](https://img.shields.io/github/stars/slaninas/tostr.svg?style=social) - a twitter to nostr bot
+- [Undelete my Nostr](https://yonle.github.io/undelete-my-nostr)![stars](https://img.shields.io/github/stars/Yonle/undelete-my-nostr.svg?style=social) - Simple tool for restoring deleted nostr account.
 - [Embed widget](https://embed.nostr.band) - Embed Nostr notes or profiles into any website with just a line of code.
 - [nostri.chat](https://nostri.chat/) - An embeded chat widget for your website. (seriously simple like copy/paste)
 - [NostrTool](https://nostrtool.com/) - a tool to play with keys.
