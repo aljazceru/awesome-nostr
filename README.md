@@ -367,6 +367,7 @@ them:
 - [NAC Demo App](https://github.com/neilck/nac-demo-app)![stars](https://img.shields.io/github/stars/neilck/nac-demo-app.svg?style=social) - Demo Nostr app using Next.js and NDK which demonstrates using the [Nostr Access Control](https://github.com/neilck/nostr-access-control) library, as well as NIP-07 logins
 - [Zapper](https://zapper.nostrapps.org) - Nostr micro-app for zapping
 - [Replies](https://replies.nostrapps.org) - Nostr micro-app for viewing replies and reactions to events
+- [Chief](https://github.com/0xtrr/chief) - A Strfry write policy plugin that provides blacklists for public keys, event kinds and words/sentences.
 
 ## NIP-05 identity services
 
