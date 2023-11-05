@@ -398,6 +398,7 @@ them:
 - [swarmstr.com](https://swarmstr.com/nostr-address) - A free Nostr Address registration service.
 - [siamstr.com](https://siamstr.com) - A free NIP-05 ID registration service, lightning redirection.
 - [toastr.space](https://toastr.space) - Paid NIP-05 and Reputation Badge service. Verify and link your identity from Twitter or GitHub to your Nostr account, and get a badge to prove it.
+- [Nostrich House](https://nostrich.house) - Paid NIP-05 service with nostr bot interface. Buy your nostr address with DM to nostrich@nostrich.house for 1 sat/hour, anonymous, immediate.
 
 
 
