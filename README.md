@@ -114,6 +114,7 @@ them:
 - [futr](https://github.com/prolic/futr)![stars](https://img.shields.io/github/stars/prolic/futr.svg?style=social) - nostr client desktop app written in Haskell
 - [gnost-deflate-client](https://github.com/barkyq/gnost-deflate-client)![stars](https://img.shields.io/github/stars/barkyq/gnost-deflate-client?style=social) CLI nostr client written in go implementing permessage-deflate websocket compression.
 - [gossip](https://github.com/mikedilger/gossip)![stars](https://img.shields.io/github/stars/mikedilger/gossip.svg?style=social) - A desktop client in rust presented with egui
+- [get-tao.app](https://github.com/smolgrrr/TAO)![stars](https://img.shields.io/github/stars/smolgrrr/TAO.svg?style=social) Anonymous-first client with PoW notes
 - [Hamstr](https://github.com/styppo/hamstr)![stars](https://img.shields.io/github/stars/styppo/hamstr.svg?style=social) - A twitter-style web client built with Vue.js
   - [hamstr.to](https://hamstr.to)
 - [inbox](https://github.com/coracle-social/inbox)![stars](https://img.shields.io/github/stars/coracle-social/inbox.svg?style=social) - A proof-of-concept messaging application for NIP 24 DMs and group chats.
@@ -168,7 +169,6 @@ them:
   - [franzos.github.io/nostr-ts](https://franzos.github.io/nostr-ts/) - preview from `master` branch
 - [Nozzle](https://github.com/dluvian/Nozzle)![stars](https://img.shields.io/github/stars/dluvian/Nozzle.svg?style=social) - A lightweight Android client
 - [OstrichGram](https://ostrichgram.com) - OstrichGram is a Telegram style desktop app for Linux and Windows featuring group chats and DMs.
-- [ourChan.org](https://github.com/smolgrrr/ourchan)![stars](https://img.shields.io/github/stars/smolgrrr/ourchan.svg?style=social) Anonymous imageboard on nostr, from a fork of 4Chan.org
 - [Pinstr](https://github.com/sepehr-safari/pinstr) ![stars](https://img.shields.io/github/stars/sepehr-safari/pinstr?style=social) - Pinstr is a decentralized and open-source social network for curating and sharing your interests with the world.
   - [Pinstr.app](https://pinstr.app) - live instance
 - [Postr For Nostr](https://github.com/joel-st/postr-for-nostr)![stars](https://img.shields.io/github/stars/joel-st/postr-for-nostr.svg?style=social) - Post to Nostr directly from within WordPress using NIP-07
