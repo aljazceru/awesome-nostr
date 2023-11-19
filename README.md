@@ -71,12 +71,10 @@ of the public instances.
 - [Nerostr](https://codeberg.org/pluja/nerostr) - A Nostr expensive relay paid with Monero and written in Go
 - [Nostr client and relay](https://github.com/pedro-vicente/nostr_client_relay) -  A Nostr protocol implementation of a client and relay in C++ 
 
-### Instances
+### Relay lists 
+Websites with lists of relays and their performance/health:
 
-Instances are plenty and their availability may vary but these projects track
-them:
-
-- [nostr.info](https://nostr.info/) - real-time checking of status of some known relays
+- [nostr.info](https://nostr.info/relays/)) - real-time checking of status of some known relays
 - [nostr.watch](https://nostr.watch) - real-time checking of status of some known relays
 
 ## Clients
