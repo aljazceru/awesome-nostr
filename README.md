@@ -1,6 +1,5 @@
 "nostr" stands for "**N**otes and **O**ther **S**tuff **T**ransmitted by
-**R**elays" and is an open protocol for censorship-resistant global networks
-created by [@fiatjaf](https://github.com/fiatjaf).
+**R**elays" and is an open protocol for censorship-resistant global networks.
 
 ## Most popular
 ### Mobile clients
@@ -541,6 +540,7 @@ Outside of nostr itself, you find the community on:
 - [Zaplife](https://zaplife.lol) - Real-time feed for nostr zaps. The best tool to shut up the "lightning doesn't work" people.
 - [wellorder nostr datasets](https://wiki.wellorder.net/wiki/nostr-datasets/) - Public standardized nostr datasets for benchmarking, data science, or other analysis.
 - [ostrich.work](https://ostrich.work/) - nostr job board
+- [njump.me](https://njump.me/) - hosted http gateway for browsing profiles, notes and relays
 
 ## Deprecated
 
