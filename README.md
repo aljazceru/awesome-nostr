@@ -545,14 +545,10 @@ Outside of nostr itself, you find the community on:
 ## Deprecated
 
 - [alphaama.com](https://alphaama.com) - is _under maintenance_ as of late 2022.
-- [anigma.io](https://anigma.io) - has known xss attack vulnerabilities, which can put private key at risk, or risk signing events you may not want to send.
 - [branle](https://github.com/fiatjaf/branle)![stars](https://img.shields.io/github/stars/fiatjaf/branle.svg?style=social) - a Twitter-like client that was discontinued but lives on in its fork "Astral".
 - [Listr](https://github.com/sepehr-safari/listr) ![stars](https://img.shields.io/github/stars/sepehr-safari/listr.svg?style=social) - A Nostr Web Client for Making Lists.
-- [nvote](https://nvote.co) - it does server side processing, and even private key is handled server side, and as such is deprecated for normal use.
 - [expensive relay](https://github.com/fiatjaf/expensive-relay)![stars](https://img.shields.io/github/stars/fiatjaf/expensive-relay.svg?style=social)- a relay that requires payment for registration
 - [nodestr](https://github.com/Dolu89/nodestr-relay)![stars](https://img.shields.io/github/stars/Dolu89/nodestr-relay.svg?style=social) - a Node.js implementation
-- [nostr-rs](https://github.com/futurepaul/nostr-rs)![stars](https://img.shields.io/github/stars/futurepaul/nostr-rs.svg?style=social) - a Rust implementation of the nostr protocol
-- [nostr relay registry](https://nostr-registry.netlify.app/) - real-time checking of status of some known relays
 
 Data for this list is contributed by the community and curated by [@aaaljaz](https://twitter.com/aaaljaz) ( npub1aljazgxlpnpfp7n5sunlk3dvfp72456x6nezjw4sd850q879rxqsthg9jp)
 
