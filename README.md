@@ -516,6 +516,8 @@ Outside of nostr itself, you find the community on:
 - [Nostr Documentary](https://www.youtube.com/watch?v=aA-jiiepOrE) -  Social Media is broken. Can we fix it?
 - [What is Nostr?](https://www.youtube.com/watch?v=MaxXvcr181c) - Uncle Bob explains nostr
 - [Decentralizing Global Markets with Nostr](https://www.youtube.com/watch?v=WtpY_pQ3zcI) - Guy Swann and Pablof7z
+- [Why Nostr resonates](https://sebastix.nl/blog/why-nostr-resonates/) - written by Sebastix
+  - [Dutch translation on bitcoinfocus.nl](https://bitcoinfocus.nl/2023/11/02/278-waarom-nostr-resoneert/)
 
 ## Podcasts 
 - [Nostrovia Podcast](https://nostrovia.org/) - A Nostr podcast covering all the new projects, all the new cool stuff, all the new NIPs
