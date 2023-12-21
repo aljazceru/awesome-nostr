@@ -37,7 +37,7 @@ of the public instances.
 - [Astro](https://github.com/Nostrology/astro)![stars](https://img.shields.io/github/stars/Nostrology/astro.svg?style=social) - Elixir based implementation built to be performant and highly distributed.
 - [Bostr](https://github.com/Yonle/bostr)![stars](https://img.shields.io/github/stars/Yonle/bostr.svg?style=social) - Nostr bouncer nodejs relay
 - [Bucket](https://github.com/coracle-social/bucket)![stars](https://img.shields.io/github/stars/coracle-social/bucket.svg?style=social) - in-memory-only nodejs relay for testing/hacking on. Stupid simple, <100 LOC.
-- [Denostr](https://github.com/guakamoli/denostr)![stars](https://img.shields.io/github/stars/guakamoli/denostr.svg?style=social) - Deno based, cloud native nostr implemention support by ByteTrade and Revo.
+- [Denostr](https://github.com/guakamoli/denostr)![stars](https://img.shields.io/github/stars/guakamoli/denostr.svg?style=social) - Deno based, cloud native nostr implemention.
 - [Ephemerelay](https://gitlab.com/soapbox-pub/ephemerelay)![stars](https://img.shields.io/gitlab/stars/soapbox-pub/ephemerelay.svg?style=social) - An in-memory Nostr relay that doesn't store data.
 - [gnost-relay](https://github.com/barkyq/gnost-relay) ![stars](https://img.shields.io/github/stars/barkyq/gnost-relay.svg?style=social) - nostr relay written in go backed by postgresql database.
 - [knostr](https://github.com/lpicanco/knostr)![stars](https://img.shields.io/github/stars/lpicanco/knostr.svg?style=social) - a nostr relay implemented in Kotlin with support for Postgres and metrics(micrometer).
@@ -104,6 +104,7 @@ Websites with lists of relays and their performance/health:
 - [damus](https://github.com/damus-io/damus)![stars](https://img.shields.io/github/stars/damus-io/damus.svg?style=social) - a twitter-like nostr client for iOS and MacOS
   - [damus on testflight](https://testflight.apple.com/join/CLwjLxWl)
   - [damus on Mac app store](https://apps.apple.com/us/app/damus/id1628663131)
+- [Denny](https://github.com/denostr-lab/denny)![stars](https://img.shields.io/github/stars/denostr-lab/denny.svg?style=social) - Secure, private, and decentralized group chat messaging client on Nostr
 - [Disgus](https://github.com/carlitoplatanito/disgus)![stars](https://img.shields.io/github/stars/carlitoplatanito/disgus.svg?style=social) - A comment widget like Disqus, but for Nostr.
 - [dispute](https://github.com/ethicnology/dispute)![stars](https://img.shields.io/github/stars/ethicnology/dispute.svg?style=social) - A cross-platform (Linux, Android, iOS, MacOs, Windows and Web) client for NOSTR
 - [electron-nostr](https://github.com/wds4/electron-react-boilerplate-nostr)![stars](https://img.shields.io/github/stars/wds4/electron-react-boilerplate-nostr?style=social) - A bare-bones desktop nostr client using electron-react-boilerplate. Goal is to be an easy template for people to experiment with different ideas on decentralized ratings, reputation, and web of trust
