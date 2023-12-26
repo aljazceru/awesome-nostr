@@ -74,7 +74,7 @@ of the public instances.
 ### Relay lists 
 Websites with lists of relays and their performance/health:
 
-- [nostr.info](https://nostr.info/relays/)) - real-time checking of status of some known relays
+- [nostr.info](https://nostr.info/relays/) - real-time checking of status of some known relays
 - [nostr.watch](https://nostr.watch) - real-time checking of status of some known relays
 
 ## Clients
