@@ -220,6 +220,9 @@ Websites with lists of relays and their performance/health:
 - [Feature Matrix for Nostr Clients](https://github.com/nostorg/clients)![stars](https://img.shields.io/github/stars/nostorg/clients.svg?style=social)
   - [Landing page](https://nostorg.github.io/clients/)
 
+## Facilities Manager
+- [NIPF](https://github.com/nextdebug/nipf)![stars](https://img.shields.io/github/stars/nextdebug/nipf.svg?style=social) - A Python facilities manager for NOSTR ecossystem.
+
 ## Libraries
 
 - [amberflutter](https://github.com/sebdeveloper6952/amberflutter)![stars](https://img.shields.io/github/stars/sebdeveloper6952/amberflutter.svg?style=social) - A Flutter wrapper for Amber (Offline Signer).
