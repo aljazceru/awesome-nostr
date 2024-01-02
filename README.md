@@ -306,6 +306,7 @@ Websites with lists of relays and their performance/health:
 - [nashboard](https://github.com/vinliao/nashboard)![stars](https://img.shields.io/github/stars/vinliao/nashboard.svg?style=social) - a Nostr network dashboard with network statistics, reachable [here](https://nashboard.space/)
 - [ndxstr](https://github.com/ArcadeCity/ndxstr)![stars](https://img.shields.io/github/stars/ArcadeCity/ndxstr.svg?style=social) - nostr's layer 2 indexing nodes, with more advanced querying capability than currently supported by relays
 - [njump](https://github.com/fiatjaf/njump)![stars](https://img.shields.io/github/stars/fiatjaf/njump.svg?style=social) - a nostr static gateway, it displays notes and other stuff from inside nostr as HTML with previews.
+- [NIPF](https://github.com/nextdebug/nipf)![stars](https://img.shields.io/github/stars/nextdebug/nipf.svg?style=social) - A Python facilities manager for NOSTR ecosystem.
 - [nip06-cli](https://github.com/jaonoctus/nip06-cli)![stars](https://img.shields.io/github/stars/jaonoctus/nip06-cli.svg?style=social) - a Node.js CLI to generate or restore NIP-06 seed phrases
 - [nip06-web](https://github.com/jaonoctus/nip06-web)![stars](https://img.shields.io/github/stars/jaonoctus/nip06-web.svg?style=social) - a website to generate or restore NIP-06 seed phrases
   - [nip06.jaonoct.us](https://nip06.jaonoct.us) - by jaonoctus
