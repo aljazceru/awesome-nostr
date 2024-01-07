@@ -1,3 +1,5 @@
+nostr.net services [relay.nostr.net](https://relay.nostr.net) ||  [nostr.at](https://nostr.at) || [broadcaster.nostr.net](https://broadcaster.nostr.net) 
+
 "nostr" stands for "**N**otes and **O**ther **S**tuff **T**ransmitted by
 **R**elays" and is an open protocol for censorship-resistant global networks.
 
@@ -306,6 +308,7 @@ Websites with lists of relays and their performance/health:
 - [nashboard](https://github.com/vinliao/nashboard)![stars](https://img.shields.io/github/stars/vinliao/nashboard.svg?style=social) - a Nostr network dashboard with network statistics, reachable [here](https://nashboard.space/)
 - [ndxstr](https://github.com/ArcadeCity/ndxstr)![stars](https://img.shields.io/github/stars/ArcadeCity/ndxstr.svg?style=social) - nostr's layer 2 indexing nodes, with more advanced querying capability than currently supported by relays
 - [njump](https://github.com/fiatjaf/njump)![stars](https://img.shields.io/github/stars/fiatjaf/njump.svg?style=social) - a nostr static gateway, it displays notes and other stuff from inside nostr as HTML with previews.
+- [NIPF](https://github.com/nextdebug/nipf)![stars](https://img.shields.io/github/stars/nextdebug/nipf.svg?style=social) - A Python facilities manager for NOSTR ecosystem.
 - [nip06-cli](https://github.com/jaonoctus/nip06-cli)![stars](https://img.shields.io/github/stars/jaonoctus/nip06-cli.svg?style=social) - a Node.js CLI to generate or restore NIP-06 seed phrases
 - [nip06-web](https://github.com/jaonoctus/nip06-web)![stars](https://img.shields.io/github/stars/jaonoctus/nip06-web.svg?style=social) - a website to generate or restore NIP-06 seed phrases
   - [nip06.jaonoct.us](https://nip06.jaonoct.us) - by jaonoctus
@@ -430,8 +433,8 @@ Websites with lists of relays and their performance/health:
 
 Allow you to sign Nostr events on web-apps without having to give them your keys
 
-- [Alby](https://getalby.com)![stars](https://img.shields.io/github/stars/getAlby/lightning-browser-extension.svg?style=social) - Bitcoin Lightning app with nostr support
 - [Aka Profile](https://github.com/neilck/aka-extension)![stars](https://img.shields.io/github/stars/neilck/aka-extension.svg?style=social) -  Nostr Signing Extension for Chrome supporting multiple key pairs based on nos2x.
+- [Alby](https://getalby.com)![stars](https://img.shields.io/github/stars/getAlby/lightning-browser-extension.svg?style=social) - Bitcoin Lightning app with nostr support
 - [Blockcore](https://github.com/block-core/blockcore-wallet)![stars](https://img.shields.io/github/stars/block-core/blockcore-wallet.svg?style=social) - Multi wallet browser extension with nostr support
 - [Flamingo](https://www.getflamingo.org) - Nostr browser extension with a focus on UX
 - [horse](https://github.com/fiatjaf/horse) - hardware remote nostr event signer with webserial
@@ -439,14 +442,14 @@ Allow you to sign Nostr events on web-apps without having to give them your keys
 - [nodestr](https://github.com/lightning-digital-entertainment/nodestr) - A nip07 provider and polyfill for NodeJS
 - [nos2x](https://github.com/fiatjaf/nos2x)![stars](https://img.shields.io/github/stars/fiatjaf/nos2x.svg?style=social) - Nostr Signer Extension
 - [nos2x-fox](https://diegogurpegui.com/nos2x-fox/) - A Firefox add-on that lets you manager your Nostr keys in one place, and then sign events in websites without exposing your private key
-- [Nostrmo](https://github.com/haorendashu/nostrmo_faq#download) - A nostr client.
 - [Nostore on GitHub](https://github.com/ursuscamp/nostore)![stars](https://img.shields.io/github/stars/ursuscamp/nostore.svg?style=social) - Nostr Signer Extension for iOS/macOS Safari ([Nostore on Mac App Store](https://apps.apple.com/us/app/nostore/id1666553677))
 - [nostr-keyx](https://github.com/susumuota/nostr-keyx)![stars](https://img.shields.io/github/stars/susumuota/nostr-keyx.svg?style=social) - A NIP-07 browser extension that uses the OS's keychain or YubiKey to protect your private keys.
+- [Nostrmo](https://github.com/haorendashu/nostrmo_faq#download) - A nostr client.
 - [OneKey](https://onekey.so)![stars](https://img.shields.io/github/stars/onekeyhq/app-monorepo.svg?style=social) - Open-source crypto wallet with nosrt support.
+- [Signum XT Wallet](https://github.com/signum-network/signum-xt-wallet)![stars](https://img.shields.io/github/stars/signum-network/signum-xt-wallet.svg?style=social) - Metamask-like browser extension for Signum blockchain with full NIP07 support and multi-account management
 - [Spring Browser](https://spring.site) - Nostr-focused browser app for Android.
 - [TokenPocket](https://github.com/TP-Lab/TokenPocket)![stars](https://img.shields.io/github/stars/TP-Lab/TokenPocket.svg?style=social) - Multi wallet browser extension with nostr support. https://tokenpocket.pro
 - [wen](https://github.com/fiatjaf/wen)![stars](https://img.shields.io/github/stars/fiatjaf/wen.svg?style=social) - browser extension for website enhancer with nostr
-- [Signum XT Wallet](https://github.com/signum-network/signum-xt-wallet)![stars](https://img.shields.io/github/stars/signum-network/signum-xt-wallet.svg?style=social) - Metamask-like browser extension for Signum blockchain with full NIP07 support and multi-account management
 
 ## NIP-47 Nostr Wallet Connect (NWC) implementations
 
