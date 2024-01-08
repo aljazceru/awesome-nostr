@@ -37,6 +37,7 @@ of the public instances.
 
 ### Implementations
 
+- [The NOSTR Community Standard](https://github.com/ionextdebug/NOSTR-COMMUNITY-STANDARD) - A standard managed by the community to do implementations standardized according to NIPs.
 - [Astro](https://github.com/Nostrology/astro)![stars](https://img.shields.io/github/stars/Nostrology/astro.svg?style=social) - Elixir based implementation built to be performant and highly distributed.
 - [Bostr](https://github.com/Yonle/bostr)![stars](https://img.shields.io/github/stars/Yonle/bostr.svg?style=social) - Nostr bouncer nodejs relay
 - [Bucket](https://github.com/coracle-social/bucket)![stars](https://img.shields.io/github/stars/coracle-social/bucket.svg?style=social) - in-memory-only nodejs relay for testing/hacking on. Stupid simple, <100 LOC.
