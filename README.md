@@ -492,6 +492,14 @@ Endpoints (services or apps that expose a LN wallet via NWC)
 - [tasktiger.io](https://tasktiger.io/) - another DVM provider
 - [DVM Clients and Services Tutorial](https://www.youtube.com/watch?v=dAuLnNxU0Yg) - Nostr Data Vending Machine Clients and Services Tutorial by Kody Low
 
+## NIP-96 File Storage Servers
+- [nostrcheck.me](https://nostrcheck.me)
+- [nostrage](https://nostrage.com)
+- [sove](https://sove.rent)
+- [nostr.build](https://nostr.build)
+- [sovbit](https://files.sovbit.host)
+- [void.cat](https://void.cat)
+
 
 ## Communities
 
