@@ -439,7 +439,6 @@ Allow you to sign Nostr events on web-apps without having to give them your keys
 - [Aka Profile](https://github.com/neilck/aka-extension)![stars](https://img.shields.io/github/stars/neilck/aka-extension.svg?style=social) -  Nostr Signing Extension for Chrome supporting multiple key pairs based on nos2x.
 - [Alby](https://getalby.com)![stars](https://img.shields.io/github/stars/getAlby/lightning-browser-extension.svg?style=social) - Bitcoin Lightning app with nostr support
 - [Blockcore](https://github.com/block-core/blockcore-wallet)![stars](https://img.shields.io/github/stars/block-core/blockcore-wallet.svg?style=social) - Multi wallet browser extension with nostr support
-- [Flamingo](https://www.getflamingo.org) - Nostr browser extension with a focus on UX
 - [horse](https://github.com/fiatjaf/horse) - hardware remote nostr event signer with webserial
 - [Keys.Band](https://keys.band) - Multi-key Nostr signing extension for Chrome with a sleak UI/UX. Based on NOS2X.
 - [nodestr](https://github.com/lightning-digital-entertainment/nodestr) - A nip07 provider and polyfill for NodeJS
