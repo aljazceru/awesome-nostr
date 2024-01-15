@@ -21,7 +21,6 @@ nostr.net services [relay.nostr.net](https://relay.nostr.net) ||  [nostr.at](htt
 ## Protocol
 
 - [NIPs](https://github.com/nostr-protocol/nips)![stars](https://img.shields.io/github/stars/nostr-protocol/nips.svg?style=social) - the "**N**ostr **I**mplementation **P**ossibilities" describe the protocol in technical detail
-- [The NOSTR Community Standard](https://github.com/ionextdebug/NOSTR-COMMUNITY-STANDARD) - A standard managed by the community to do implementations standardized according to NIPs.
 - [nostr address book](https://github.com/aitechguy/nostr-address-book) - A directory of twitter users accounts and their NOSTR addresses
 - [nostr, a basic tour](https://github.com/rajarshimaitra/rust-nostr/blob/main/VISION.md) - an intro to nostr
 - [Nostr: Solucionando la censura de una vez por todas](https://estudiobitcoin.com/nostr-solucionando-la-censura-de-una-vez-por-todas/)
