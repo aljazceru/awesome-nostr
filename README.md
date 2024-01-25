@@ -466,6 +466,7 @@ Clients (apps using NWC to access a LN wallet)
 - [Lume](https://lume.nu) - Cross-platform desktop app
 - [Nostur](https://nostur.com) - A nostr client for iPhone and macOS
 - [Spring Browser](https://spring.site) - Nostr-focused browser app for Android.
+- [YakiHonne](https://yakihonne.com/yakihonne-mobile-app) – iOS and Android app
 
 Endpoints (services or apps that expose a LN wallet via NWC)
 
