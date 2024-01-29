@@ -264,7 +264,7 @@ Websites with lists of relays and their performance/health:
 - [nostr-one](https://github.com/dolu89/nostr-one)![stars](https://img.shields.io/github/stars/dolu89/nostr-one.svg?style=social) - A reusable web component that provides a simple way to integrate with the Nostr NIP 98 HTTP Auth.
 - [nostr-php](https://github.com/swentel/nostr-php)![stars](https://img.shields.io/github/stars/swentel/nostr-php.svg?style=social) - a PHP library for nostr
 - [nostr-react](https://github.com/t4t5/nostr-react)![stars](https://img.shields.io/github/stars/t4t5/nostr-react.svg?style=social) - React Hooks for Nostr
-- [nostr-relay](https://github.com/CodyTseng/nostr-relay)![starts](https://img.shields.io/github/stars/CodyTseng/nostr-relay.svg?style=social) - A library that helps you easily build your customized Nostr Relay.
+- [nostr-relay](https://github.com/CodyTseng/nostr-relay)![starts](https://img.shields.io/github/stars/CodyTseng/nostr-relay.svg?style=social) - A typescript library that helps you easily build your customized Nostr relay.
 - [nostr-relay-inspector](https://github.com/dskvr/nostr-relay-inspector)![stars](https://img.shields.io/github/stars/dskvr/nostr-relay-inspector.svg?style=social) - A library that returns useful information about relays based on nostr-js
 - [nostr-relaypool-ts](https://github.com/adamritter/nostr-relaypool-ts)![stars](https://img.shields.io/github/stars/adamritter/nostr-relaypool-ts.svg?style=social) - a TypeScript relay pool library on top of nostr-tools that simplifies handling subscriptions to multiple servers
 - [nostr-ruby](https://github.com/dtonon/nostr-ruby)![stars](https://img.shields.io/github/stars/dtonon/nostr-ruby.svg?style=social) - a Ruby implementation of the nostr protocol
