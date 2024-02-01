@@ -281,6 +281,8 @@ Websites with lists of relays and their performance/health:
 - [Nostra](https://github.com/lontivero/Nostra)![stars](https://img.shields.io/github/stars/lontivero/nostra.svg?style=social) - a F# library, available as a nuget package, for interacting with relays. The Nostra relay is built on top of it too. 
 - [Nostr Access Control](https://github.com/neilck/nostr-access-control)![stars](https://img.shields.io/github/stars/neilck/nostr-access-control.svg?style=social) - Library using Classified Listings, Badge Definition & Award events to check if a user is elgible to access a resource
 - [nostr-geotags](https://github.com/sandwichfarm/nostr-geotags)![stars](https://img.shields.io/github/stars/sandwichfarm/nostr-geotags.svg?style=social) - NPM module that generates geotags for nostr events given datapoints such as GPS/DD, an ISO-3166-1 countryCode and/or an ISO-3166-2 regionName, as well as many passthroughts. Supports ISO-3166-1/2/3 and UN M49. 
+- [nostr-relay](https://github.com/mattn/nostr-relay)![stars](https://img.shields.io/github/stars/mattn/nostr-relay.svg?style=social) - Nostr relay in Go based on relayer. Backend by sqlite3/postgresql/mysql.
+- [cagliostr](https://github.com/cagliostr)![stars](https://img.shields.io/github/stars/mattn/cagliostr.svg?style=social) - Faster Nostr relay in C++ backend by sqlite3.
 
 ## Bridges and Gateways
 
