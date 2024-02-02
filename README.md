@@ -523,7 +523,6 @@ Outside of nostr itself, you find the community on:
 ## Tutorials
 
 - [Build your first nostr app](https://www.youtube.com/watch?v=4qOVxq9lUbs) - Nostr Dev course by Super Testnet
-- [How to implement nostr protocol in python](https://fullstackengineer.hashnode.dev/how-to-implement-nostr-protocol-from-scratch-with-python-nip-01) - How to implement the NIP-01 from scratch using Python 
 - [Reddit clone by Super Testnet - part 1](https://www.youtube.com/watch?v=IAK0mrY2_Ew),[part 2](https://www.youtube.com/watch?v=3Pv940IEvTA) - building a reddit clone by Super Testnet
 - [How to set up a paid nostr relay](https://andreneves.xyz/p/how-to-setup-a-paid-nostr-relay)
 - [How to: Run your own nostr relay](https://nutcroft.com/blog/how-to-run-your-own-nostr-relay/) (nostr-rs-relay, Caddy, no Docker)
