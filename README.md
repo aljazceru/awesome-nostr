@@ -10,6 +10,7 @@ nostr.net services [relay.nostr.net](https://relay.nostr.net) ||  [nostr.at](htt
 - [Amethyst](https://github.com/vitorpamplona/amethyst) - Android only app
 - [Primal](https://primal.net/downloads) - iOS and Android apps.
 - [YakiHonne](https://yakihonne.com/yakihonne-mobile-app) – iOS and Android app
+- [Nostur](https://nostur.com) - Nostr client app for iOS, iPad and MacOS.
 
 ### Web clients
 - [snort.social](https://snort.social/)
@@ -141,6 +142,7 @@ Websites with lists of relays and their performance/health:
 - [Minds](https://www.minds.com/) - open source social network. Supports reading and creating posts using the Nostr protocol
 - [more-speech](https://github.com/unclebob/more-speech)![stars](https://img.shields.io/github/stars/unclebob/more-speech.svg?style=social) - desktop client for nostr written in Clojure
 - [nblog](https://github.com/jacany/nblog)![stars](https://img.shields.io/github/stars/jacany/nblog.svg?style=social) - a self-host nostr ghost blog
+- [Nootti](https://nootti.com) - Cross-posting iOS & iPad client app for Bluesky, Mastodon and Nostr
 - [Nos](https://github.com/planetary-social/nos) ![stars](https://img.shields.io/github/stars/planetary-social/nos.svg?style=social) - A UX focused iOS / MacOS app written in swift based on [planetary.social](https://planetary.social)
   - [nos.social](https://nos.social)
 - [nosbin](https://nosbin.com/)![stars](https://img.shields.io/github/stars/jacany/nosbin.svg?style=social) - pastebin over nostr
