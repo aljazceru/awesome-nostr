@@ -142,6 +142,7 @@ Websites with lists of relays and their performance/health:
 - [more-speech](https://github.com/unclebob/more-speech)![stars](https://img.shields.io/github/stars/unclebob/more-speech.svg?style=social) - desktop client for nostr written in Clojure
 - [nblog](https://github.com/jacany/nblog)![stars](https://img.shields.io/github/stars/jacany/nblog.svg?style=social) - a self-host nostr ghost blog
 - [ni.py](https://github.com/0n4t3/nipy)![stars](https://img.shields.io/github/stars/0n4t3/nipy.svg?style=social) - CLI post only client for Nostr, Activity Pub, and the AT Protocol written in Python.
+- [Nootti](https://nootti.com) - Cross-posting iOS & iPad client app for Bluesky, Mastodon and Nostr
 - [Nos](https://github.com/planetary-social/nos) ![stars](https://img.shields.io/github/stars/planetary-social/nos.svg?style=social) - A UX focused iOS / MacOS app written in swift based on [planetary.social](https://planetary.social)
   - [nos.social](https://nos.social)
 - [nosbin](https://nosbin.com/)![stars](https://img.shields.io/github/stars/jacany/nosbin.svg?style=social) - pastebin over nostr
