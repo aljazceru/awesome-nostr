@@ -40,6 +40,7 @@ of the public instances.
 - [Astro](https://github.com/Nostrology/astro)![stars](https://img.shields.io/github/stars/Nostrology/astro.svg?style=social) - Elixir based implementation built to be performant and highly distributed.
 - [Bostr](https://github.com/Yonle/bostr)![stars](https://img.shields.io/github/stars/Yonle/bostr.svg?style=social) - Nostr bouncer nodejs relay
 - [Bucket](https://github.com/coracle-social/bucket)![stars](https://img.shields.io/github/stars/coracle-social/bucket.svg?style=social) - in-memory-only nodejs relay for testing/hacking on. Stupid simple, <100 LOC.
+- [cagliostr](https://github.com/mattn/cagliostr)![stars](https://img.shields.io/github/stars/mattn/cagliostr.svg?style=social) - Faster Nostr relay in C++ backend by sqlite3.
 - [Denostr](https://github.com/guakamoli/denostr)![stars](https://img.shields.io/github/stars/guakamoli/denostr.svg?style=social) - Deno based, cloud native nostr implemention.
 - [Ephemerelay](https://gitlab.com/soapbox-pub/ephemerelay)![stars](https://img.shields.io/gitlab/stars/soapbox-pub/ephemerelay.svg?style=social) - An in-memory Nostr relay that doesn't store data.
 - [gnost-relay](https://github.com/barkyq/gnost-relay) ![stars](https://img.shields.io/github/stars/barkyq/gnost-relay.svg?style=social) - nostr relay written in go backed by postgresql database.
@@ -54,6 +55,7 @@ of the public instances.
 - [NNostr](https://github.com/Kukks/NNostr)![stars](https://img.shields.io/github/stars/Kukks/NNostr.svg?style=social) - a C# relay
 - [nostr_relay](https://code.pobblelabs.org/fossil/nostr_relay/) - a nostr relay written in python, backed by SQLite
 - [nostr-filter-relay](https://github.com/atrifat/nostr-filter-relay)![stars](https://img.shields.io/github/stars/atrifat/nostr-filter-relay.svg?style=social) - A nostr relay docker image package which filter content based on content type (SFW/NSFW), user type, language, hate speech (toxic comment), and various rules.
+- [nostr-relay](https://github.com/mattn/nostr-relay)![stars](https://img.shields.io/github/stars/mattn/nostr-relay.svg?style=social) - Nostr relay in Go based on relayer. Backend by sqlite3/postgresql/mysql.
 - [nostr-relay-nestjs](https://github.com/CodyTseng/nostr-relay-nestjs)![stars](https://img.shields.io/github/stars/CodyTseng/nostr-relay-nestjs.svg?style=social) - A Nostr relay with a clear architecture and high test coverage (PostgreSQL, MeiliSearch, NestJS)
 - [nostr-rs-relay](https://sr.ht/~gheartsfield/nostr-rs-relay/) - a minimalistic relay written in Rust that saves data on SQLite
 - [nostream](https://github.com/Cameri/nostream)![stars](https://img.shields.io/github/stars/Cameri/nostream.svg?style=social) - a nostr relay written in Typescript backed by PostgreSQL (renamed from nostr-ts-relay)
@@ -236,7 +238,6 @@ Websites with lists of relays and their performance/health:
 
 - [amberflutter](https://github.com/sebdeveloper6952/amberflutter)![stars](https://img.shields.io/github/stars/sebdeveloper6952/amberflutter.svg?style=social) - A Flutter wrapper for Amber (Offline Signer).
 - [arduino-nostr](https://github.com/lnbits/arduino-nostr)![stars](https://img.shields.io/github/stars/lnbits/arduino-nostr.svg?style=social) - An Arduino nostr library.
-- [cagliostr](https://github.com/mattn/cagliostr)![stars](https://img.shields.io/github/stars/mattn/cagliostr.svg?style=social) - Faster Nostr relay in C++ backend by sqlite3.
 - [dart_nostr](https://github.com/anasfik/nostr)![stars](https://img.shields.io/github/stars/anasfik/nostr.svg?style=social) - A developer experience Dart library for Nostr
 - [dart-nostr](https://github.com/ethicnology/dart-nostr)![stars](https://img.shields.io/github/stars/ethicnology/dart-nostr.svg?style=social) - a Dart library for Flutter
 - [go-nostr](https://github.com/fiatjaf/go-nostr)![stars](https://img.shields.io/github/stars/fiatjaf/go-nostr.svg?style=social) - a Go library that implements relay management, plus event encoding and signing utils
@@ -269,7 +270,6 @@ Websites with lists of relays and their performance/health:
 - [Nostra](https://github.com/lontivero/Nostra)![stars](https://img.shields.io/github/stars/lontivero/nostra.svg?style=social) - a F# library, available as a nuget package, for interacting with relays. The Nostra relay is built on top of it too. 
 - [Nostr Access Control](https://github.com/neilck/nostr-access-control)![stars](https://img.shields.io/github/stars/neilck/nostr-access-control.svg?style=social) - Library using Classified Listings, Badge Definition & Award events to check if a user is elgible to access a resource
 - [nostr-geotags](https://github.com/sandwichfarm/nostr-geotags)![stars](https://img.shields.io/github/stars/sandwichfarm/nostr-geotags.svg?style=social) - NPM module that generates geotags for nostr events given datapoints such as GPS/DD, an ISO-3166-1 countryCode and/or an ISO-3166-2 regionName, as well as many passthroughts. Supports ISO-3166-1/2/3 and UN M49. 
-- [nostr-relay](https://github.com/mattn/nostr-relay)![stars](https://img.shields.io/github/stars/mattn/nostr-relay.svg?style=social) - Nostr relay in Go based on relayer. Backend by sqlite3/postgresql/mysql.
 - [noscrypt](https://github.com/vnuge/noscrypt)![stars](https://img.shields.io/github/stars/vnuge/noscrypt.svg?style=social) - A C89 library for nostr specific cryptography operations.  
  [paravel](https://github.com/coracle-social/paravel) ![stars](https://img.shields.io/github/stars/coracle-social/paravel.svg?style=social) - an abstract toolkit for writing nostr clients.
 - [pynostr](https://github.com/holgern/pynostr)![stars](https://img.shields.io/github/stars/holgern/pynostr.svg?style=social) - a python library for nostr
