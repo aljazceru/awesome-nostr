@@ -575,6 +575,7 @@ Outside of nostr itself, you find the community on:
 - [wellorder nostr datasets](https://wiki.wellorder.net/wiki/nostr-datasets/) - Public standardized nostr datasets for benchmarking, data science, or other analysis.
 - [ostrich.work](https://ostrich.work/) - nostr job board
 - [njump.me](https://njump.me/) - hosted http gateway for browsing profiles, notes and relays
+- [NostrP2P](https://github.com/ryogrid/nostrp2p)![stars](https://img.shields.io/github/stars/ryogrid/nostrp2p.svg?style=social) - Pure peer-to-peer distributed microblog system on NAT transparent overlay network implemented in Golang based on idea of Nostr
 
 ## Deprecated
 
