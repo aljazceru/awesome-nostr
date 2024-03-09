@@ -515,7 +515,7 @@ Endpoints (services or apps that expose a LN wallet via NWC)
 - [mockingyou.com](https://mockingyou.com)
 - [nostr.onch.services](https://nostr.onch.services)
 
-  Updated NIP-96 servers [here](https://github.com/quentintaranpino/NIP96-compatible-servers)
+  Updated list of NIP-96 servers [here](https://github.com/quentintaranpino/NIP96-compatible-servers)
 
 ## Communities
 
