@@ -285,6 +285,7 @@ Websites with lists of relays and their performance/health:
     * Kotlin: [`io.github.rust-nostr:nostr-sdk`](https://central.sonatype.com/artifact/io.github.rust-nostr/nostr-sdk/)
     * Swift: https://github.com/rust-nostr/nostr-sdk-swift
     * Python: https://pypi.org/project/nostr-sdk
+- [nostr-spring-boot-starter](https://github.com/theborakompanioni/nostr-spring-boot-starter)![stars](https://img.shields.io/github/stars/theborakompanioni/nostr-spring-boot-starter.svg?style=social) - Spring boot starter projects for building Nostr applications.
 
 
 ## Bridges and Gateways
