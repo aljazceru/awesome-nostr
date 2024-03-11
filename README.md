@@ -511,7 +511,11 @@ Endpoints (services or apps that expose a LN wallet via NWC)
 - [nostr.build](https://nostr.build)
 - [sovbit](https://files.sovbit.host)
 - [void.cat](https://void.cat)
+- [nostpic](https://nostpic.com)
+- [mockingyou.com](https://mockingyou.com)
+- [nostr.onch.services](https://nostr.onch.services)
 
+  Updated list of NIP-96 servers [here](https://github.com/quentintaranpino/NIP96-compatible-servers)
 
 ## Communities
 
