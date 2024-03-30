@@ -593,7 +593,7 @@ Outside of nostr itself, you find the community on:
 - [Hamstr](https://github.com/styppo/hamstr)![stars](https://img.shields.io/github/stars/styppo/hamstr.svg?style=social) - A twitter-style web client built with Vue.js
   - [hamstr.to](https://hamstr.to)
 
-Data for this list is contributed by the community and curated by [@aaaljaz](https://twitter.com/aaaljaz) ( npub1aljazgxlpnpfp7n5sunlk3dvfp72456x6nezjw4sd850q879rxqsthg9jp)
+Data for this list is contributed by the community and curated by aljaz@nostr.si ( npub1aljazgxlpnpfp7n5sunlk3dvfp72456x6nezjw4sd850q879rxqsthg9jp)
 
 ## Contributors
 
