@@ -74,6 +74,7 @@ of the public instances.
 - [Notra](https://github.com/lontivero/Nostra)![stars](https://img.shields.io/github/stars/lontivero/nostra.svg?style=social) - F# implementation backed by SQLite database.
 - [Nerostr](https://codeberg.org/pluja/nerostr) - A Nostr expensive relay paid with Monero and written in Go
 - [Nostr client and relay](https://github.com/pedro-vicente/nostr_client_relay)![stars](https://img.shields.io/github/stars/pedro-vicente/nostr_client_relay.svg?style=social) -  C++ engine that allows to build Nostr applications for command line, desktop or web.
+- [Nosflare](https://github.com/Spl0itable/nosflare)![stars](https://img.shields.io/github/stars/Spl0itable/nosflare.svg?style=social) -  a serverless Nostr relay purpose-built for [Cloudflare Workers](https://workers.cloudflare.com/) and the [Cloudflare KV](https://www.cloudflare.com/products/workers-kv/) store.
 
 ### Relay lists 
 Websites with lists of relays and their performance/health:
@@ -423,7 +424,7 @@ Websites with lists of relays and their performance/health:
 - [siamstr.com](https://siamstr.com) - A free NIP-05 ID registration service, lightning redirection.
 - [toastr.space](https://toastr.space) - Paid NIP-05 and Reputation Badge service. Verify and link your identity from Twitter or GitHub to your Nostr account, and get a badge to prove it.
 - [Nostrich House](https://nostrich.house) - Paid NIP-05 service with nostr bot interface. Buy your nostr address with DM to nostrich@nostrich.house for 1 sat/hour, anonymous, immediate.
-
+- [Verified-Nostr.com](https://verified-nostr.com) - Free and Paid Nostr Address (NIP-05) verifier service with premium relay and vanity domains.
 
 
 ## Offline signers
