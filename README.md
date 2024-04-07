@@ -256,7 +256,7 @@ Websites with lists of relays and their performance/health:
 - [nostr-java](https://github.com/tcheeric/nostr-java)![stars](https://img.shields.io/github/stars/tcheeric/nostr-java.svg?style=social) - A nostr client library, written in java, for generating, signing and publishing events.
 - [nostr-js](https://github.com/jb55/nostr-js)![stars](https://img.shields.io/github/stars/jb55/nostr-js.svg?style=social) - a javascript implementation of the nostr protocol
 - [nostr-ts](https://github.com/franzos/nostr-ts)![stars](https://img.shields.io/github/stars/franzos/nostr-ts.svg?style=social) - a Typescript implementation of the nostr protocol plus toys
-- [nostr-hooks](https://github.com/sepehr-safari/nostr-hooks)![stars](https://img.shields.io/github/stars/sepehr-safari/nostr-hooks.svg?style=social) - React hooks for developing Nostr clients. It's simple and intelligent.
+- [nostr-hooks](https://github.com/ostyjs/nostr-hooks)![stars](https://img.shields.io/github/stars/ostyjs/nostr-hooks.svg?style=social) - React hooks for developing Nostr clients. It's simple and intelligent.
 - [nostr-one](https://github.com/dolu89/nostr-one)![stars](https://img.shields.io/github/stars/dolu89/nostr-one.svg?style=social) - A reusable web component that provides a simple way to integrate with the Nostr NIP 98 HTTP Auth.
 - [nostr-php](https://github.com/swentel/nostr-php)![stars](https://img.shields.io/github/stars/swentel/nostr-php.svg?style=social) - a PHP library for nostr
 - [nostr-react](https://github.com/t4t5/nostr-react)![stars](https://img.shields.io/github/stars/t4t5/nostr-react.svg?style=social) - React Hooks for Nostr
@@ -270,10 +270,13 @@ Websites with lists of relays and their performance/health:
 - [NostrKit](https://github.com/cnixbtc/NostrKit)![stars](https://img.shields.io/github/stars/cnixbtc/NostrKit.svg?style=social) - a Swift library for interacting with relays
 - [NostrPostr](https://github.com/Giszmo/NostrPostr)![stars](https://img.shields.io/github/stars/Giszmo/NostrPostr.svg?style=social) - a Kotlin Nostr library for clients or relays
 - [schorr_snap](https://github.com/neeboo/schnorr_snap)![stars](https://img.shields.io/github/stars/neeboo/schnorr_snap.svg?style=social) - A snap plugin for Metamask Flask, supports nostr
-- [Nostra](https://github.com/lontivero/Nostra)![stars](https://img.shields.io/github/stars/lontivero/nostra.svg?style=social) - a F# library, available as a nuget package, for interacting with relays. The Nostra relay is built on top of it too. 
-- [nostr-geotags](https://github.com/sandwichfarm/nostr-geotags)![stars](https://img.shields.io/github/stars/sandwichfarm/nostr-geotags.svg?style=social) - NPM module that generates geotags for nostr events given datapoints such as GPS/DD, an ISO-3166-1 countryCode and/or an ISO-3166-2 regionName, as well as many passthroughts. Supports ISO-3166-1/2/3 and UN M49. 
-- [noscrypt](https://github.com/vnuge/noscrypt)![stars](https://img.shields.io/github/stars/vnuge/noscrypt.svg?style=social) - A C89 library for nostr specific cryptography operations.  
- [paravel](https://github.com/coracle-social/paravel) ![stars](https://img.shields.io/github/stars/coracle-social/paravel.svg?style=social) - an abstract toolkit for writing nostr clients.
+- [Nostra](https://github.com/lontivero/Nostra)![stars](https://img.shields.io/github/stars/lontivero/nostra.svg?style=social) - a F# library, available as a nuget package, for interacting with relays. The Nostra relay is built on top of it too.
+- [nostr-geotags](https://github.com/sandwichfarm/nostr-geotags)![stars](https://img.shields.io/github/stars/sandwichfarm/nostr-geotags.svg?style=social) - NPM module that generates geotags for nostr events given datapoints such as GPS/DD, an ISO-3166-1 countryCode and/or an ISO-3166-2 regionName, as well as many passthroughts. Supports ISO-3166-1/2/3 and UN M49.
+- [noscrypt](https://github.com/vnuge/noscrypt)![stars](https://img.shields.io/github/stars/vnuge/noscrypt.svg?style=social) - A C89 library for nostr specific cryptography operations.
+- [Osty](https://github.com/ostyjs/create-osty)![stars](https://img.shields.io/github/stars/ostyjs/create-osty.svg?style=social)
+  - [npm create osty@latest](https://www.npmjs.com/package/create-osty) - Osty on NPM
+  - [osty.dev](https://osty.dev) - Landing Website of Osty
+- [paravel](https://github.com/coracle-social/paravel) ![stars](https://img.shields.io/github/stars/coracle-social/paravel.svg?style=social) - an abstract toolkit for writing nostr clients.
 - [pynostr](https://github.com/holgern/pynostr)![stars](https://img.shields.io/github/stars/holgern/pynostr.svg?style=social) - a python library for nostr
 - [python-nostr](https://github.com/jeffthibault/python-nostr)![stars](https://img.shields.io/github/stars/jeffthibault/python-nostr.svg?style=social) - a python library for making clients
 - [relayer](https://github.com/fiatjaf/relayer)![stars](https://img.shields.io/github/stars/fiatjaf/relayer.svg?style=social) - a server framework for writing custom relays
