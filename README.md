@@ -225,7 +225,7 @@ Websites with lists of relays and their performance/health:
 - [Swarmstr](https://github.com/ptrio42/swarmstr.com)![stars](https://img.shields.io/github/stars/verbiricha/habla.news.svg?style=social)  - Your knowledge hub for curious minds
   - [Swarmstr](https://swarmstr.com) - live instance
 - [zephyr](https://github.com/coracle-social/zephyr)![stars](https://img.shields.io/github/stars/coracle-social/zephyr.svg?style=social) - A meditative nostr feed reader
-- [Voyage](https://github.com/dluvian/voyage) ![stars](https://img.shields.io/github/stars/dluvian/voyage.svg?style=social) - Lightweight client with a Reddit-like UI
+- [Voyage](https://github.com/dluvian/voyage) ![stars](https://img.shields.io/github/stars/dluvian/voyage.svg?style=social) - Lightweight Android client with a Reddit-like UI
 
 ### Nostr Marketplace clients (NIP-15)
 
