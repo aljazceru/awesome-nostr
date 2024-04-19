@@ -442,6 +442,7 @@ Websites with lists of relays and their performance/health:
 
 ## Vanity pubkey mining
 
+- [nostr.rest](https://nostr.rest) - Mine proof of work public keys with user specified prefixes
 - [glasnostr](https://github.com/eyelight/glasnostr) ![stars](https://img.shields.io/github/stars/eyelight/glasnostr.svg?style=social) - CLI tool to mine a vanity prefix for your nostr npub
 - [go-pubmine](https://github.com/tenkoh/go-pubmine) ![stars](https://img.shields.io/github/stars/tenkoh/go-pubmine.svg?style=social) - Multithreading nostr keypair generator which gives pretty (vanity) public keys. Both cli and web app are available.
 - [key-generator](https://github.com/TP-Lab/key-generator) ![stars](https://img.shields.io/github/stars/TP-Lab/key-generator.svg?style=social) - A simple tool to generate nostr keypair.
