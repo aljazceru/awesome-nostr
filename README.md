@@ -367,7 +367,6 @@ Websites with lists of relays and their performance/health:
 - [nostr.directory](https://github.com/pseudozach/nostr.directory)![stars](https://img.shields.io/github/stars/pseudozach/nostr.directory.svg?style=social) - searchable database of nostr users and their other social media links.
 - [nostr.guru](https://nostr.guru/) - a nostr web gateway for viewing events by their ID
 - [nostr.io](https://nostr.io/) - network statistics with last published notes, top 50 publishers, and top 50 followed users
-- [nostr.rest](https://nostr.rest) - Mine proof of work public keys with user specified prefixes
 - [nostrandom.netlify.app](https://nostrandom.netlify.app/) - generate publish-able Nostr event with random keys
 - [nostrefresh](https://github.com/melvincarvalho/nostrefresh)![stars](https://img.shields.io/github/stars/melvincarvalho/nostrefresh.svg?style=social) - simple refresh function for nostr web pages
 - [nostrends](https://github.com/akiomik/nostrends)![stars](https://img.shields.io/github/stars/akiomik/nostrends?style=social) - Trending on Nostr, like Twitter trends. Live at [nostrends.vercel.app](https://nostrends.vercel.app).
@@ -442,10 +441,12 @@ Websites with lists of relays and their performance/health:
 
 ## Vanity pubkey mining
 
+
 - [glasnostr](https://github.com/eyelight/glasnostr) ![stars](https://img.shields.io/github/stars/eyelight/glasnostr.svg?style=social) - CLI tool to mine a vanity prefix for your nostr npub
 - [go-pubmine](https://github.com/tenkoh/go-pubmine) ![stars](https://img.shields.io/github/stars/tenkoh/go-pubmine.svg?style=social) - Multithreading nostr keypair generator which gives pretty (vanity) public keys. Both cli and web app are available.
 - [key-generator](https://github.com/TP-Lab/key-generator) ![stars](https://img.shields.io/github/stars/TP-Lab/key-generator.svg?style=social) - A simple tool to generate nostr keypair.
 - [nostr-pubminer](https://github.com/lacaulac/nostr-pubminer)![stars](https://img.shields.io/github/stars/lacaulac/nostr-pubminer.svg?style=social) - A simple tool to mine nostr vanity pubkeys
+- [nostr.rest](https://nostr.rest) - Mine proof of work public keys with user specified prefixes
 - [nostr-vanity-address-generator](https://github.com/chawyehsu/nostr-vanity-address-generator) ![stars](https://img.shields.io/github/stars/chawyehsu/nostr-vanity-address-generator.svg?style=social) - Cross-platform nostr vanity address generator
 - [nostrogen](https://github.com/tonyinit/nostrogen)![stars](https://img.shields.io/github/stars/tonyinit/nostrogen.svg?style=social) - simple web based nostr vanity address generator
 - [powpub](https://lab.oak-node.net/powpub) - A decentralized protocol to buy Nostr vanity pubkeys or sell hashrate
