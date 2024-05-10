@@ -45,8 +45,6 @@ of the public instances.
 - [Ephemerelay](https://gitlab.com/soapbox-pub/ephemerelay)![stars](https://img.shields.io/gitlab/stars/soapbox-pub/ephemerelay.svg?style=social) - An in-memory Nostr relay that doesn't store data.
 - [gnost-relay](https://github.com/barkyq/gnost-relay) ![stars](https://img.shields.io/github/stars/barkyq/gnost-relay.svg?style=social) - nostr relay written in go backed by postgresql database.
 - [knostr](https://github.com/lpicanco/knostr)![stars](https://img.shields.io/github/stars/lpicanco/knostr.svg?style=social) - a nostr relay implemented in Kotlin with support for Postgres and metrics(micrometer).
-- [knob](https://github.com/plantimals/knob)![stars](https://img.shields.io/github/stars/plantimals/knob.svg?style=social) - command line tool to post text files to nostr
-- [nostr-pass](https://github.com/plantimals/nostr-pass)![stars](https://img.shields.io/github/stars/plantimals/nostr-pass.svg?style=social) - experimenting with nostr priv/pub key pairs for replacing passwords
 - [mapstr](https://mapstr.xyz/) - Find local businesses which accept BTC and add reviews to those businesses as a customer. Allows ability to receive Zaps for your reviews. You can also add Nostr notes with coordinates which allows them to be mapped to your location.
 - [me.untethr.nostr-relay](https://github.com/atdixon/me.untethr.nostr-relay)![stars](https://img.shields.io/github/stars/atdixon/me.untethr.nostr-relay.svg?style=social) - a relay written in Clojure
 - [Minds Nostr Relay](https://gitlab.com/minds/infrastructure/nostr-relay) - a relay for [Minds](https://www.minds.com), an open-source social network
@@ -326,8 +324,10 @@ Websites with lists of relays and their performance/health:
 - [heyxynip5](https://github.com/bennyhodl/hexynip5)![stars](https://img.shields.io/github/stars/bennyhodl/hexynip5?style=social) - A CLI helper for converting nostr npub/nsec to their hex format for NIP-05 verification.
 - [homebrew-nostr](https://github.com/nostorg/homebrew-nostr)![stars](https://img.shields.io/github/stars/nostorg/homebrew-nostr?style=social) - Homebrew tap for Nostr software.
 - [http-nostr-publisher](https://github.com/getAlby/http-nostr-publisher)![stars](https://img.shields.io/github/stars/getAlby/http-nostr-publisher?style=social) - A Cloudflare worker to publish Nostr events to relays through a non-blocking HTTP interface .
+- [knob](https://github.com/plantimals/knob)![stars](https://img.shields.io/github/stars/plantimals/knob.svg?style=social) - command line tool to post text files to nostr
 - [keystr-rs](https://github.com/keystr/keystr-rs)![stars](https://img.shields.io/github/stars/keystr/keystr-rs?style=social) - An application for managing Nostr keys. Written in Rust, with simple UI (Iced).
 - [lnpass](https://lnpass.github.io)![stars](https://img.shields.io/github/stars/lnpass/lnpass-web.svg?style=social) - A key manager for Lightning and nostr.
+- [nostr-pass](https://github.com/plantimals/nostr-pass)![stars](https://img.shields.io/github/stars/plantimals/nostr-pass.svg?style=social) - experimenting with nostr priv/pub key pairs for replacing passwords
 - [Nostr profile manager](https://metadata.nostr.com/) - Backup your nostr profile and metadata
 - [nashboard](https://github.com/vinliao/nashboard)![stars](https://img.shields.io/github/stars/vinliao/nashboard.svg?style=social) - a Nostr network dashboard with network statistics, reachable [here](https://nashboard.space/)
 - [ndxstr](https://github.com/ArcadeCity/ndxstr)![stars](https://img.shields.io/github/stars/ArcadeCity/ndxstr.svg?style=social) - nostr's layer 2 indexing nodes, with more advanced querying capability than currently supported by relays
@@ -469,6 +469,7 @@ Allow you to sign Nostr events on web-apps without having to give them your keys
 - [nos2x-fox](https://diegogurpegui.com/nos2x-fox/) - A Firefox add-on that lets you manager your Nostr keys in one place, and then sign events in websites without exposing your private key
 - [Nostore on GitHub](https://github.com/ursuscamp/nostore)![stars](https://img.shields.io/github/stars/ursuscamp/nostore.svg?style=social) - Nostr Signer Extension for iOS/macOS Safari ([Nostore on Mac App Store](https://apps.apple.com/us/app/nostore/id1666553677))
 - [nostr-keyx](https://github.com/susumuota/nostr-keyx)![stars](https://img.shields.io/github/stars/susumuota/nostr-keyx.svg?style=social) - A NIP-07 browser extension that uses the OS's keychain or YubiKey to protect your private keys.
+- [nostr](https://github.com/jinglescode/nostr-password-manager) - A free, open source, and decentralized password manager, powered by NOSTR
 - [Nostrmo](https://github.com/haorendashu/nostrmo_faq#download) - A nostr client.
 - [OneKey](https://onekey.so)![stars](https://img.shields.io/github/stars/onekeyhq/app-monorepo.svg?style=social) - Open-source crypto wallet with nosrt support.
 - [Signum XT Wallet](https://github.com/signum-network/signum-xt-wallet)![stars](https://img.shields.io/github/stars/signum-network/signum-xt-wallet.svg?style=social) - Metamask-like browser extension for Signum blockchain with full NIP07 support and multi-account management
