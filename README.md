@@ -554,6 +554,7 @@ Outside of nostr itself, you find the community on:
 - [Set up a nostr relay server in under 5 minutes ](https://andreneves.xyz/p/set-up-a-nostr-relay-server-in-under)
 - [Step-by-Step guide to set up a relay on your server](https://github.com/BlockChainCaffe/Nostr-Relay-Setup-Guide) (AWS, DigitalOcean, RaspBerry... )
 - [strfry personal relay](https://github.com/pjv/strfry_personal_docker)![stars](https://img.shields.io/github/stars/pjv/strfry_personal_docker.svg?style=social) - 10 minute setup of a personal nostr relay on a vanilla Linux VPS. Adds support for NIP-65.
+- [Java Nostr-Relay Framework](https://github.com/avlo/nostr-relay/?tab=readme-ov-file#creating-relay-event-handlers) - Creating Java Nostr-Relay Framework & Web Application event-handlers
 
 ## Recommended reading/watching
 - [Nostr, an introduction](https://wiki.wellorder.net/post/nostr-intro/) - written by scsibug
