@@ -336,7 +336,6 @@ Websites with lists of relays and their performance/health:
 - [knob](https://github.com/plantimals/knob)![stars](https://img.shields.io/github/stars/plantimals/knob.svg?style=social) - command line tool to post text files to nostr
 - [keystr-rs](https://github.com/keystr/keystr-rs)![stars](https://img.shields.io/github/stars/keystr/keystr-rs?style=social) - An application for managing Nostr keys. Written in Rust, with simple UI (Iced).
 - [lnpass](https://lnpass.github.io)![stars](https://img.shields.io/github/stars/lnpass/lnpass-web.svg?style=social) - A key manager for Lightning and nostr.
-- [nostr-pass](https://github.com/plantimals/nostr-pass)![stars](https://img.shields.io/github/stars/plantimals/nostr-pass.svg?style=social) - experimenting with nostr priv/pub key pairs for replacing passwords
 - [Nostr profile manager](https://metadata.nostr.com/) - Backup your nostr profile and metadata
 - [nashboard](https://github.com/vinliao/nashboard)![stars](https://img.shields.io/github/stars/vinliao/nashboard.svg?style=social) - a Nostr network dashboard with network statistics, reachable [here](https://nashboard.space/)
 - [ndxstr](https://github.com/ArcadeCity/ndxstr)![stars](https://img.shields.io/github/stars/ArcadeCity/ndxstr.svg?style=social) - nostr's layer 2 indexing nodes, with more advanced querying capability than currently supported by relays
@@ -617,6 +616,7 @@ Outside of nostr itself, you find the community on:
 - [Nozzle](https://github.com/dluvian/Nozzle)![stars](https://img.shields.io/github/stars/dluvian/Nozzle.svg?style=social) - A lightweight Android client
 - [Hamstr](https://github.com/styppo/hamstr)![stars](https://img.shields.io/github/stars/styppo/hamstr.svg?style=social) - A twitter-style web client built with Vue.js
   - [hamstr.to](https://hamstr.to)
+- [nostr-pass](https://github.com/plantimals/nostr-pass)![stars](https://img.shields.io/github/stars/plantimals/nostr-pass.svg?style=social) - experimenting with nostr priv/pub key pairs for replacing passwords
 
 Data for this list is contributed by the community and curated by aljaz@nostr.si ( npub1aljazgxlpnpfp7n5sunlk3dvfp72456x6nezjw4sd850q879rxqsthg9jp)
 
