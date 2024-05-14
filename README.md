@@ -9,7 +9,7 @@ nostr.net services [relay.nostr.net](https://relay.nostr.net) ||  [nostr.at](htt
 - [Plebstr](https://plebstr.com/) - Android and iOS app
 - [Amethyst](https://github.com/vitorpamplona/amethyst) - Android only app
 - [Primal](https://primal.net/downloads) - iOS and Android apps.
-- [YakiHonne](https://yakihonne.com/yakihonne-mobile-app) – iOS and Android app
+- [YakiHonne](https://yakihonne.com/yakihonne-mobile-app) - iOS and Android app
 
 ### Web clients
 - [snort.social](https://snort.social/)
@@ -207,7 +207,7 @@ Websites with lists of relays and their performance/health:
 - [Snort](https://github.com/v0l/snort)![stars](https://img.shields.io/github/stars/v0l/snort.svg?style=social) - Nostr UI written in react
   - [snort.social](https://snort.social)
 - [Spring Browser](https://spring.site) - Nostr-focused browser app for Android.
-- [Stackerstan](https://stackerstan.org) - ![stars](https://img.shields.io/github/stars/stackerstan/mindmachine.svg?style=social)A decentralised organisation built on Bitcoin and Nostr, implemented as a replicated state machine in Golang
+- [Stackerstan](https://stackerstan.org)![stars](https://img.shields.io/github/stars/stackerstan/mindmachine.svg?style=social) - A decentralised organisation built on Bitcoin and Nostr, implemented as a replicated state machine in Golang
 - [Tamga](https://github.com/erdaltoprak/tamga)![stars](https://img.shields.io/github/stars/erdaltoprak/tamga.svg?style=social) - An offline first nostr contact & profile manager for iOS!
 - [uBlog](https://github.com/nodetec/ublog) ![stars](https://img.shields.io/github/stars/nodetec/ublog.svg?style=social) - A minimalist blog on nostr that allows anyone to easily create their own personal micro-blog.
   - [u-blog.vercel.app](https://u-blog.vercel.app)
@@ -217,7 +217,7 @@ Websites with lists of relays and their performance/health:
 - [Written](https://github.com/silencesoft/written)![stars](https://img.shields.io/github/stars/silencesoft/written.svg?style=social) Self hosted blog using nostr long-form content (NIP-23) and it shows only posts by selected authors.
   - [Demo](https://written-weld.vercel.app/)
 - [yakihonne.com](https://yakihonne.com) - YakiHonne is a censorship-resistant content media protocol, which supports free curation, creation, publishing, and reporting by various media.
-  - [YakiHonne mobile app](https://yakihonne.com/yakihonne-mobile-app) – iOS and Android app
+  - [YakiHonne mobile app](https://yakihonne.com/yakihonne-mobile-app) - iOS and Android app
 - [zapddit](https://zapddit.com) ![stars](https://img.shields.io/github/stars/vivganes/zapddit.svg?style=social) - Reddit-style client for nostr where you can follow topics (similar to subreddits), mute certain topics (like #bitcoin), upzap and downzap notes using your hard-earned sats.
 - [Highlighter](https://highlighter.com) - Discover and share curated insights by people you trust. Highlight Books, articles, tweets, anything!
 - [Habla.news](https://github.com/verbiricha/habla.news)![stars](https://img.shields.io/github/stars/verbiricha/habla.news.svg?style=social) Habla allows you to read, write, curate and monetize long form content over Nostr, a censorship-resistant protocol for social media that uses long form nostr content.
@@ -356,7 +356,7 @@ Websites with lists of relays and their performance/health:
 - [nostr GitHub Action](https://github.com/theborakompanioni/nostr-action)![stars](https://img.shields.io/github/stars/theborakompanioni/nostr-action.svg?style=social) - send events from GitHub Actions
 - [nostr registry](https://codeberg.org/rsbondi/nostr-registry) - a database of known relays with their uptime and NIP support tables
 - [NostrReply](https://github.com/gourcetools/nostreply)![stars](https://img.shields.io/github/stars/gourcetools/nostreply.svg?style=social) - Bot that replies to specified text on nostr global feed using NIP50
-- [nostr_simple_publish](https://www.drupal.org/project/nostr_simple_publish/)- Drupal module to publish content to Nostr.
+- [nostr_simple_publish](https://www.drupal.org/project/nostr_simple_publish/) - Drupal module to publish content to Nostr.
 - [nostr-broadcast](https://github.com/leesalminen/nostr-broadcast)![stars](https://img.shields.io/github/stars/leesalminen/nostr-broadcast.svg?style=social) This tool lets you take your events from some relays and broadcast them to another relay. Could be helpful for backing up your notes to a private relay.
 - [nostr-bulk-dms](https://github.com/leesalminen/nostr-bulk-dm)![stars](https://img.shields.io/github/stars/leesalminen/nostr-bulk-dm.svg?style=social) - A tool that allows you to send DMs over nostr to many recipients in bulk.
 - [nostr-cln-events](http://git.jb55.com/nostr-cln-events) - A CLN plugin to push clightning node events to nostr
@@ -496,7 +496,7 @@ Clients (apps using NWC to access a LN wallet)
 - [Lume](https://lume.nu) - Cross-platform desktop app
 - [Nostur](https://nostur.com) - A nostr client for iPhone and macOS
 - [Spring Browser](https://spring.site) - Nostr-focused browser app for Android.
-- [YakiHonne](https://yakihonne.com/yakihonne-mobile-app) – iOS and Android app
+- [YakiHonne](https://yakihonne.com/yakihonne-mobile-app) - iOS and Android app
 
 Endpoints (services or apps that expose a LN wallet via NWC)
 
@@ -588,7 +588,7 @@ Outside of nostr itself, you find the community on:
 
 - [inosta api](https://github.com/johnongit/INOSTA-Nostr-Img-Service)![stars](https://img.shields.io/github/stars/johnongit/INOSTA-Nostr-Img-Service.svg?style=social) - Expensive Image Hosting Service
   - [api.inosta.cc](https://api.inosta.cc) - Backend live instance
-  - [inosta.cc](https://inosta.cc)- Demonstrator live instance
+  - [inosta.cc](https://inosta.cc) - Demonstrator live instance
 - [logseq-nostr-sync](https://github.com/KoalaSat/logseq-nostr-sync)![stars](https://img.shields.io/github/stars/KoalaSat/logseq-nostr-sync.svg?style=social) Logseq plugin to receive new entries as DM.
 - [Media caching server for Nostr](https://media.nostr.band) - caches resized profile pictures and banners to save bandwidth for clients
 - [nostr icons](https://github.com/satscoffee/nostr_icons)![stars](https://img.shields.io/github/stars/satscoffee/nostr_icons.svg?style=social) - Purple, white, and black icons in various formats designed for nostr.
@@ -612,7 +612,7 @@ Outside of nostr itself, you find the community on:
 - [branle](https://github.com/fiatjaf/branle)![stars](https://img.shields.io/github/stars/fiatjaf/branle.svg?style=social) - a Twitter-like client that was discontinued but lives on in its fork "Astral".
 - [Flamingo](https://www.getflamingo.org) - Nostr browser extension with a focus on UX
 - [Listr](https://github.com/sepehr-safari/listr) ![stars](https://img.shields.io/github/stars/sepehr-safari/listr.svg?style=social) - A Nostr Web Client for Making Lists.
-- [expensive relay](https://github.com/fiatjaf/expensive-relay)![stars](https://img.shields.io/github/stars/fiatjaf/expensive-relay.svg?style=social)- a relay that requires payment for registration
+- [expensive relay](https://github.com/fiatjaf/expensive-relay)![stars](https://img.shields.io/github/stars/fiatjaf/expensive-relay.svg?style=social) - a relay that requires payment for registration
 - [nodestr](https://github.com/Dolu89/nodestr-relay)![stars](https://img.shields.io/github/stars/Dolu89/nodestr-relay.svg?style=social) - a Node.js implementation
 - [Nozzle](https://github.com/dluvian/Nozzle)![stars](https://img.shields.io/github/stars/dluvian/Nozzle.svg?style=social) - A lightweight Android client
 - [Hamstr](https://github.com/styppo/hamstr)![stars](https://img.shields.io/github/stars/styppo/hamstr.svg?style=social) - A twitter-style web client built with Vue.js
