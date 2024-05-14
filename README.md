@@ -541,6 +541,10 @@ Endpoints (services or apps that expose a LN wallet via NWC)
 
   Updated list of NIP-96 servers [here](https://github.com/quentintaranpino/NIP96-compatible-servers)
 
+## Adjacent protocols
+
+- [Blossom](https://github.com/hzrd149/blossom) - Blobs stored simply on mediaservers
+
 ## Communities
 
 Outside of nostr itself, you find the community on:
