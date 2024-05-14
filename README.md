@@ -82,6 +82,7 @@ Websites with lists of relays and their performance/health:
 - [relay.nostr.net](wss://relay.nostr.net) - relay run by nostr.net 
 - [nostr.info](https://nostr.info/relays/) - real-time checking of status of some known relays
 - [nostr.watch](https://nostr.watch) - real-time checking of status of some known relays
+- [relays.xport.top](https://relays.xport.top) - relays list sortable by ping, activity etc
 
 ## Clients
 
@@ -319,10 +320,12 @@ Websites with lists of relays and their performance/health:
 
 - [advanced-nostr-search](https://advancednostrsearch.vercel.app/) - A tool to search Nostr notes.
 - [anonroom](https://github.com/vinliao/anonroom)![stars](https://img.shields.io/github/stars/vinliao/anonroom.svg?style=social) - anonymous chat room inside nostr
+- [Bech32 for Nostr](https://nostr.xport.top/bech32-for-nostr/) - bech32 Nostr converter. 
 - [blastr](https://github.com/MutinyWallet/blastr)![stars](https://img.shields.io/github/stars/MutinyWallet/blastr?style=social) - A nostr cloudflare workers proxy relay that publishes to all known relays.
 - [blogsync](https://github.com/canostrical/blogsync)![stars](https://img.shields.io/github/stars/canostrical/blogsync.svg?style=social) - Self-host blog articles from long-form notes e.g. via Caddy server.
 - [cafe-society.news](https://github.com/colealbon/cafe-society)![stars](https://img.shields.io/github/stars/colealbon/cafe-society.svg?style=social) - Self-sovereign machine learning training tool for nostr global feed.  Trained models can be monetized/distributed over nostr private messages.  Your pre-paid model subscribers register via lightning payments.
-- [contact cloud](https://github.com/canostrical/contact_cloud)![stars](https://img.shields.io/github/stars/canostrical/contact_cloud.svg?style=social) - Discover the Nostr contact list graph and your own pubkey in it. 
+- [contact cloud](https://github.com/canostrical/contact_cloud)![stars](https://img.shields.io/github/stars/canostrical/contact_cloud.svg?style=social) - Discover the Nostr contact list graph and your own pubkey in it.
+- [Contact list backup](https://nostr.xport.top/contact-list-backup/) - Backup and restore your contacts
 - [granary](https://github.com/snarfed/granary)![stars](https://img.shields.io/github/stars/snarfed/granary.svg?style=social) - Convert nostr content into atom, html, rss, json, indieweb feed, mastodon, microformats2, activitystreams, activitypub/fediverse, jsonfeed, and bluesky's atproto all with web and rest-api. 
   - [granary.io](https://granary.io/) - live instance 
 - [git-nostr-tools](http://git.jb55.com/git-nostr-tools) - A cli tool for sending code patches over nostr
