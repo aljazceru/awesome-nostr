@@ -127,7 +127,7 @@ Websites with lists of relays and their performance/health:
 - [Formstr](https://github.com/abhay-raizada/nostr-forms)![stars](https://img.shields.io/github/stars/abhay-raizada/nostr-forms.svg?style=social) - A Google Forms alternative built on top of the nostr protocol.
   - [formstr.app](https://formstr.app/) - live instance 
 - [futr](https://github.com/prolic/futr)![stars](https://img.shields.io/github/stars/prolic/futr.svg?style=social) - nostr client desktop app written in Haskell
-- [gitstr](https://github.com/fiatjaf/gitstr)![stars](https://img.shields.io/github/stars/fiatjaf/gitstr.svg?style=social) Send and receive git patches over Nostr, using [NIP-34](https://github.com/nostr-protocol/nips/blob/master/34.md).
+- [gitstr](https://github.com/fiatjaf/gitstr)![stars](https://img.shields.io/github/stars/fiatjaf/gitstr.svg?style=social) - Send and receive git patches over Nostr, using [NIP-34](https://github.com/nostr-protocol/nips/blob/master/34.md).
 - [gnost-deflate-client](https://github.com/barkyq/gnost-deflate-client)![stars](https://img.shields.io/github/stars/barkyq/gnost-deflate-client?style=social) CLI nostr client written in go implementing permessage-deflate websocket compression.
 - [gossip](https://github.com/mikedilger/gossip)![stars](https://img.shields.io/github/stars/mikedilger/gossip.svg?style=social) - A desktop client in rust presented with egui
 - [get-tao.app](https://github.com/smolgrrr/TAO)![stars](https://img.shields.io/github/stars/smolgrrr/TAO.svg?style=social) Anonymous-first client with PoW notes
