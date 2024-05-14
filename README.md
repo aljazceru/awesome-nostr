@@ -405,7 +405,7 @@ Websites with lists of relays and their performance/health:
 - [Replies](https://replies.nostrapps.org) - Nostr micro-app for viewing replies and reactions to events
 - [Chief](https://github.com/0xtrr/chief) - A Strfry write policy plugin that provides blacklists for public keys, event kinds and words/sentences.
 - [nostr-badges](https://github.com/neilck/nostr-badges)![stars](https://img.shields.io/github/stars/neilck/nostr-badges.svg?style=social) - Nostr badge microservice for managing self-awarded badges. Live at [app.akaprofiles.com](https://app.akaprofiles.com)
-- [nostpy-cli](https://github.com/UTXOnly/nostpy-cli) - A Python command line nostr client/tool for relay development
+- [nostpy-cli](https://github.com/UTXOnly/nostpy-cli)![stars](https://img.shields.io/github/stars/UTXOnly/nostpy-cli.svg?style=social) - A Python command line nostr client/tool for relay development
 
 ## NIP-05 identity services
 
@@ -508,7 +508,7 @@ Endpoints (services or apps that expose a LN wallet via NWC)
 - [Wallet of Satoshi](https://www.walletofsatoshi.com/) - Custodial lightning wallet
 - [Zebedee app](https://zebedee.io/app) - Zebedee's wallet/lightning app
 - [ZeusLN](https://github.com/ZeusLN/zeus)![stars](https://img.shields.io/github/stars/ZeusLN/zeus.svg?style=social) - A mobile Bitcoin/Lightning app for LND, Core Lightning, and Eclair node operators
-- [zap_server](https://github.com/UTXOnly/zap_server) - An LNURL server to recieve zaps to tor hosted node and generate kind 9735 zap receipt events
+- [zap_server](https://github.com/UTXOnly/zap_server)![stars](https://img.shields.io/github/stars/UTXOnly/zap_server.svg?style=social) - An LNURL server to recieve zaps to tor hosted node and generate kind 9735 zap receipt events
 
 ## NIP-90 Data vending machines
 - [data-vending-machines.org](https://www.data-vending-machines.org/) - This website provides specs of the different NIP-90 Data Vending Machine kinds
