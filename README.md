@@ -197,6 +197,7 @@ Websites with lists of relays and their performance/health:
 - [Primal](https://primal.net) - Lightning fast web client for Nostr. Features extensive analytics, vanity profiles and more.
 - [Pollstr](https://github.com/mroxso/pollstr)![stars](https://img.shields.io/github/stars/mroxso/pollstr?style=social) - A nostr web client with a focus on polls.
   - [pollstr.online](https://pollstr.online) - live instance
+- [Rabbit](https://github.com/syusui-s/rabbit)![stars](https://img.shields.io/github/stars/syusui-s/rabbit?style=social) - A nostr client like TweetDeck
 - [Satellite](https://github.com/lovvtide/satellite-web)![stars](https://img.shields.io/github/stars/lovvtide/satellite-web.svg?style=social) - Nostr web client with Reddit-style threads
   - [satellite.earth](https://satellite.earth) - live instance
 - [scalastr](https://github.com/benthecarman/scalastr)![stars](https://img.shields.io/github/stars/benthecarman/scalastr.svg?style=social) - A barebones nostr client written in scala
