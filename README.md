@@ -205,6 +205,7 @@ Websites with lists of relays and their performance/health:
 - [Sendstr](https://sendstr.com/) ![stars](https://img.shields.io/github/stars/vilm3r/sendstr-web.svg?style=social) - shared clipboard between devices over nostr
 - [Shipyard](https://shipyard.pub/) - A quiet space for loud ideas: focused writing for Nostr.
 - [shockwallet](https://github.com/shocknet/wallet2)![stars](https://img.shields.io/github/stars/shocknet/wallet2.svg?style=social) - A Lightning wallet that uses nostr and lnurl to connect to nodes
+- [Smoke Signals](https://www.smokesignalsapp.net) - A privacy first WhatsApp type application based on Nostr protocols and utilizing no-storage Nostr relays.
 - [Snort](https://github.com/v0l/snort)![stars](https://img.shields.io/github/stars/v0l/snort.svg?style=social) - Nostr UI written in react
   - [snort.social](https://snort.social)
 - [Spring Browser](https://spring.site) - Nostr-focused browser app for Android.
