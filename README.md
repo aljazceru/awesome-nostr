@@ -300,7 +300,7 @@ Websites with lists of relays and their performance/health:
     * Swift: https://github.com/rust-nostr/nostr-sdk-swift
     * Python: https://pypi.org/project/nostr-sdk
 - [nostr-spring-boot-starter](https://github.com/theborakompanioni/nostr-spring-boot-starter)![stars](https://img.shields.io/github/stars/theborakompanioni/nostr-spring-boot-starter.svg?style=social) - Spring boot starter projects for building Nostr applications.
-
+- [mostro-core](https://github.com/MostroP2P/mostro-core) ![stars](https://img.shields.io/github/stars/MostroP2P/mostro-core.svg?style=social) - common types used by mostro and clients  (WIP)
 
 
 ## Bridges and Gateways
@@ -466,6 +466,11 @@ Websites with lists of relays and their performance/health:
 - [powpub](https://lab.oak-node.net/powpub) - A decentralized protocol to buy Nostr vanity pubkeys or sell hashrate
   - [WebLN demo](https://lab.oak-node.net/powpub/uv/wasm-client/) - Simple web demo where clients can pay with WebLN
 - [rana](https://github.com/grunch/rana)![stars](https://img.shields.io/github/stars/grunch/rana.svg?style=social) - Vanity pubkey miner based on nip13
+
+## Peer-to-peer
+
+- [mostro](https://github.com/MostroP2P/mostro) ![stars](https://img.shields.io/github/stars/MostroP2P/mostro.svg?style=social) -  Daemon for Lightning Network peer-to-peer exchange platform on Nostr (WIP)
+- [mostro-cli](https://github.com/MostroP2P/mostro-cli) ![stars](https://img.shields.io/github/stars/MostroP2P/mostro-cli.svg?style=social) - CLI client to operate with Mostro (WIP)
 
 ## NIP-07 Browser extensions
 
