@@ -611,6 +611,8 @@ Outside of nostr itself, you find the community on:
 - [wellorder nostr datasets](https://wiki.wellorder.net/wiki/nostr-datasets/) - Public standardized nostr datasets for benchmarking, data science, or other analysis.
 - [ostrich.work](https://ostrich.work/) - nostr job board
 - [njump.me](https://njump.me/) - hosted http gateway for browsing profiles, notes and relays
+- [awesome-nostr-japan](https://github.com/nostr-jp/awesome-nostr-japan)![stars](https://img.shields.io/github/stars/nostr-jp/awesome-nostr-japan.svg?style=social) - awesome nostr japan
+- [awesome-nostr-possibilities](https://github.com/orthzar/awesome-nostr-possibilities)![stars](https://img.shields.io/github/stars/orthzar/awesome-nostr-possibilities.svg?style=social) - Nostr will fail if it stays just another social media protocol. This repo lists ideas for non-social-media applications.
 
 
 ## Deprecated
