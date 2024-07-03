@@ -255,6 +255,7 @@ Websites with lists of relays and their performance/health:
 - [dart-nostr](https://github.com/ethicnology/dart-nostr)![stars](https://img.shields.io/github/stars/ethicnology/dart-nostr.svg?style=social) - a Dart library for Flutter
 - [go-nostr](https://github.com/fiatjaf/go-nostr)![stars](https://img.shields.io/github/stars/fiatjaf/go-nostr.svg?style=social) - a Go library that implements relay management, plus event encoding and signing utils
 - [navigatr](https://github.com/coracle-social/navigatr)![stars](https://img.shields.io/github/stars/coracle-social/navigatr.svg?style=social) - A utility for discovering relays and scraping events
+- [NIP-44](https://github.com/paulmillr/nip44)![stars](https://img.shields.io/github/stars/paulmillr/nip44.svg?style=social) - NIP44 spec and implementations of encrypted messages for nostr
 - [nmostr](https://github.com/Gruruya/nmostr)![stars](https://img.shields.io/github/stars/Gruruya/nmostr.svg?style=social) - a Nim library for Nostr
 - [NNostr.Client](https://github.com/Kukks/NNostr)![stars](https://img.shields.io/github/stars/Kukks/NNostr.svg?style=social) - a C# Nostr library for use by clients
 - [nostr_rust](https://github.com/0xtlt/nostr_rust)![stars](https://img.shields.io/github/stars/0xtlt/nostr_rust.svg?style=social) - Functional Rust implementation of the nostr protocol
