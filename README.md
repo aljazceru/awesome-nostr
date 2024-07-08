@@ -41,6 +41,7 @@ of the public instances.
 - [Bostr](https://github.com/Yonle/bostr)![stars](https://img.shields.io/github/stars/Yonle/bostr.svg?style=social) - Nostr bouncer nodejs relay
 - [Bucket](https://github.com/coracle-social/bucket)![stars](https://img.shields.io/github/stars/coracle-social/bucket.svg?style=social) - in-memory-only nodejs relay for testing/hacking on. Stupid simple, <100 LOC.
 - [cagliostr](https://github.com/mattn/cagliostr)![stars](https://img.shields.io/github/stars/mattn/cagliostr.svg?style=social) - Faster Nostr relay in C++ backend by sqlite3.
+- [cfrelay](https://github.com/haorendashu/cfrelay)![stars](https://img.shields.io/github/stars/haorendashu/cfrelay.svg?style=social) - A personal nostr relay base on cloudflare workers.
 - [Denostr](https://github.com/guakamoli/denostr)![stars](https://img.shields.io/github/stars/guakamoli/denostr.svg?style=social) - Deno based, cloud native nostr implemention.
 - [Ditto](https://github.com/soapbox-pub/ditto)![stars](https://img.shields.io/github/stars/soapbox-pub/ditto.svg?style=social) - Mastadon server and Nostr relay in one
 - [Ephemerelay](https://gitlab.com/soapbox-pub/ephemerelay)![stars](https://img.shields.io/gitlab/stars/soapbox-pub/ephemerelay.svg?style=social) - An in-memory Nostr relay that doesn't store data.
@@ -173,6 +174,7 @@ Websites with lists of relays and their performance/health:
 - [nostromat](https://github.com/ekimber/nostromat)![stars](https://img.shields.io/github/stars/ekimber/nostromat.svg?style=social) - A Twitter-style Nostr web client, written in Clojurescript/React
   - [nostrom.at](https://nostrom.at) - live instance
 - [Nostros](https://github.com/KoalaSat/nostros)![stars](https://img.shields.io/github/stars/KoalaSat/nostros.svg?style=social) - A nostr mobile client for Android
+- [Nostrmo](https://github.com/haorendashu/nostrmo)![stars](https://img.shields.io/github/stars/haorendashu/nostrmo.svg?style=social) - A flutter nostr client for Android, IOS, MacOS, Windows, Web and Linux.
 - [Nostree](https://github.com/gzuuus/linktr-nostr)![stars](https://img.shields.io/github/stars/gzuuus/linktr-nostr.svg?style=social) - [nostree.me](https://nostree.me) A Nostr-based application linktree-style to create, manage and discover link lists, show notes and other stuff.
 - [nostr.time](https://github.com/coracle-social/nostrtime)![stars](https://img.shields.io/github/stars/coracle-social/nostrtime.svg?style=social) - A calendar app built on nostr
 - [Nostrtium](https://github.com/pjv/nostrtium)![stars](https://img.shields.io/github/stars/pjv/nostrtium.svg?style=social) - Post to Nostr directly from within WordPress
@@ -403,6 +405,7 @@ Websites with lists of relays and their performance/health:
 - [powrelay.xyz](https://powrelay.xyz) - A proof of work based nostr explorer.
 - [rss.nostr.band](https://rss.nostr.band) - Create custom RSS feeds with posts matching your keywords and consume using your favorite RSS reader.
 - [sb.nostr.band](https://sb.nostr.band) - Search bots that you can create and follow to receive new posts matching a keyword right into your feed.
+- [Sendbox](https://sendbox.nostrmo.com/) - A tool to help clients delayed publish your nostr event.
 - [scoop-nostr](https://github.com/nostorg/scoop-nostr)![stars](https://img.shields.io/github/stars/nostorg/scoop-nostr?style=social) - Scoop bucket for Nostr software.
 - [secret-border](https://github.com/guilhermegps/secret-border)![stars](https://img.shields.io/github/stars/guilhermegps/secret-border.svg?style=social) - A safe Nostr identity generator.
 - [strfry policies](https://gitlab.com/soapbox-pub/strfry-policies)![stars](https://img.shields.io/gitlab/stars/soapbox-pub/strfry-policies.svg?style=social) - A collection of moderation & antispam policies for the strfry relay developed in TypeScript/Deno.
@@ -491,7 +494,6 @@ Allow you to sign Nostr events on web-apps without having to give them your keys
 - [Nostore on GitHub](https://github.com/ursuscamp/nostore)![stars](https://img.shields.io/github/stars/ursuscamp/nostore.svg?style=social) - Nostr Signer Extension for iOS/macOS Safari ([Nostore on Mac App Store](https://apps.apple.com/us/app/nostore/id1666553677))
 - [nostr-keyx](https://github.com/susumuota/nostr-keyx)![stars](https://img.shields.io/github/stars/susumuota/nostr-keyx.svg?style=social) - A NIP-07 browser extension that uses the OS's keychain or YubiKey to protect your private keys.
 - [nostr](https://github.com/jinglescode/nostr-password-manager) - A free, open source, and decentralized password manager, powered by NOSTR
-- [Nostrmo](https://github.com/haorendashu/nostrmo_faq#download) - A nostr client.
 - [OneKey](https://onekey.so)![stars](https://img.shields.io/github/stars/onekeyhq/app-monorepo.svg?style=social) - Open-source crypto wallet with nosrt support.
 - [Signum XT Wallet](https://github.com/signum-network/signum-xt-wallet)![stars](https://img.shields.io/github/stars/signum-network/signum-xt-wallet.svg?style=social) - Metamask-like browser extension for Signum blockchain with full NIP07 support and multi-account management
 - [Spring Browser](https://spring.site) - Nostr-focused browser app for Android.
@@ -506,6 +508,7 @@ Clients (apps using NWC to access a LN wallet)
 - [Amethyst](https://github.com/vitorpamplona/amethyst)![stars](https://img.shields.io/github/stars/vitorpamplona/amethyst.svg?style=social) - Android only app
 - [Lume](https://lume.nu) - Cross-platform desktop app
 - [Nostur](https://nostur.com) - A nostr client for iPhone and macOS
+- [Nostrmo](https://github.com/haorendashu/nostrmo)![stars](https://img.shields.io/github/stars/haorendashu/nostrmo.svg?style=social) - A flutter nostr client for Android, IOS, MacOS, Windows, Web and Linux.
 - [Spring Browser](https://spring.site) - Nostr-focused browser app for Android.
 - [YakiHonne](https://yakihonne.com/yakihonne-mobile-app) - iOS and Android app
 
