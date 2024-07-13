@@ -144,6 +144,7 @@ Websites with lists of relays and their performance/health:
 - [Lightning.Pub](https://github.com/shocknet/Lightning.Pub)![stars](https://img.shields.io/github/stars/shocknet/Lightning.Pub.svg?style=social) - A nostr daemon for Lightning nodes
 - [Listr](https://listr.lol/) - Curate, organize, and discover everything Nostr has to offer. Listr is the best way to create, manage, and browse Nostr lists.
 - [loquaz](https://github.com/emeceve/loquaz)![stars](https://img.shields.io/github/stars/emeceve/loquaz.svg?style=social) - a desktop app written in Rust for direct encrypted chat
+- [LUMINA](https://lumina.rocks)![stars](https://img.shields.io/github/stars/mroxso/lumina-rocks-website.svg?style=social) - View Images and Videos on Nostr! Feels like Instagram, but is cooler!
 - [Member](https://github.com/memberapp/memberapp.github.io)![stars](https://img.shields.io/github/stars/memberapp/memberapp.github.io.svg?style=social) - Progressive Web App Client. Works on desktop and mobile.
   - [member.cash](https://member.cash/) - live instance
 - [Memestr](https://memestr.app/) - The Nostr hub for memes.
