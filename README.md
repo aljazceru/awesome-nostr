@@ -620,6 +620,7 @@ Outside of nostr itself, you find the community on:
 - [Nostr playground](https://github.com/SnowCait/nostr-playground)![stars](https://img.shields.io/github/stars/SnowCait/nostr-playground.svg?style=social) - JSON-based web client written in vanilla JavaScript
 - [nostr playground in Ruby](https://github.com/dtonon/nostr-ruby-playground)![stars](https://img.shields.io/github/stars/dtonon/nostr-ruby-playground.svg?style=social)
 - [nostr-book](https://github.com/adamdecaf/nostr-book)![stars](https://img.shields.io/github/stars/adamdecaf/nostr-book.svg?style=social) - NIPs compiled into a book
+- [nostr-logo](https://github.com/mbarulli/nostr-logo)![stars](https://img.shields.io/github/stars/mbarulli/nostr-logo.svg?style=social) - Logo and icons for the Nostr protocol.
 - [nostr.build](https://nostr.build/) - nostr image uploader
 - [nostrability](https://github.com/nostrability/nostrability)![stars](https://img.shields.io/github/stars/nostrability/nostrability.svg?style=social) - The practical documentation of how various nostr apps play together.
 - [RSS feeds for news on Nostr](https://verityj.github.io/nostr-news-feeds) ![stars](https://img.shields.io/github/stars/verityj/verityj.github.io.svg?style=social) - a curated list of news press channels RSS feeds that we can follow on Nostr
