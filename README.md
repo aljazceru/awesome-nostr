@@ -558,6 +558,9 @@ Endpoints (services or apps that expose a LN wallet via NWC)
 
   Updated list of NIP-96 servers [here](https://github.com/quentintaranpino/NIP96-compatible-servers)
 
+## Nostr Web Services (NWS)
+- [nws](https://github.com/asmogo/nws)![stars](https://img.shields.io/github/stars/asmogo/nws.svg?style=social) - route TCP over Nostr relays
+
 ## Adjacent protocols
 
 - [Blossom](https://github.com/hzrd149/blossom) - Blobs stored simply on mediaservers
