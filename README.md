@@ -16,6 +16,8 @@ nostr.net services [relay.nostr.net](https://relay.nostr.net) ||  [nostr.at](htt
 - [iris.to](https://iris.to/)
 - [primal.net](https://primal.net/)
 - [coracle.social](https://coracle.social/)
+- [YakiHonne](https://yakihonne.com/yakihonne-mobile-app) – iOS and Android app
+
 
 
 ## Protocol
@@ -203,7 +205,7 @@ Websites with lists of relays and their performance/health:
 - [Votestr](https://votestr.com/)![stars](https://img.shields.io/github/stars/vilm3r/votestr.svg?style=social) - Poll web app with nostr authentication and blind signature unlinkability
 - [Written](https://github.com/silencesoft/written)![stars](https://img.shields.io/github/stars/silencesoft/written.svg?style=social) Self hosted blog using nostr long-form content (NIP-23) and it shows only posts by selected authors.
   - [Demo](https://written-weld.vercel.app/)
-- [yakihonne.com](https://yakihonne.com) - YakiHonne is a censorship-resistant content media protocol, which supports free curation, creation, publishing, and reporting by various media.
+- [yakihonne.com](https://yakihonne.com) - YakiHonne is a Nostr-based decentralized content media protocol that supports blogs, flash news, curation, videos, uncensored notes, zaps, and other content types. Join us now and experience the joy of decentralized publishing, review and settlement media networks.
   - [YakiHonne mobile app](https://yakihonne.com/yakihonne-mobile-app) – iOS and Android app
 - [zapddit](https://zapddit.com) ![stars](https://img.shields.io/github/stars/vivganes/zapddit.svg?style=social) - Reddit-style client for nostr where you can follow topics (similar to subreddits), mute certain topics (like #bitcoin), upzap and downzap notes using your hard-earned sats.
 - [Highlighter](https://highlighter.com) - Discover and share curated insights by people you trust. Highlight Books, articles, tweets, anything!
@@ -466,7 +468,7 @@ Clients (apps using NWC to access a LN wallet)
 - [Lume](https://lume.nu) - Cross-platform desktop app
 - [Nostur](https://nostur.com) - A nostr client for iPhone and macOS
 - [Spring Browser](https://spring.site) - Nostr-focused browser app for Android.
-- [YakiHonne](https://yakihonne.com/yakihonne-mobile-app) – iOS and Android app
+- [YakiHonne](https://yakihonne.com/yakihonne-mobile-app) – Desktop, iOS and Android app
 
 Endpoints (services or apps that expose a LN wallet via NWC)
 
@@ -517,6 +519,7 @@ Outside of nostr itself, you find the community on:
 - [Telegram: nostr FR (Francophone/French)](https://t.me/nostrfr) - french telegram group for nostr
 - [Telegram: nostr NL (Dutch, Nederlands)](https://t.me/nostrnederland) - Dutch nostr group
 - [Telegram: nostr RU/UA/BY](https://t.me/nostru_community) - an Eastern European community in telegram group for nostr
+- [Telegram: YakiHonne Daily Featured](https://t.me/YakiHonne_Daily_Featured/) - telegram group for YakiHonne discussions
 
 ## Tutorials
 
