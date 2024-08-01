@@ -38,7 +38,8 @@ of the public instances.
 ### Implementations
 
 - [Astro](https://github.com/Nostrology/astro)![stars](https://img.shields.io/github/stars/Nostrology/astro.svg?style=social) - Elixir based implementation built to be performant and highly distributed.
-- [Bostr](https://github.com/Yonle/bostr)![stars](https://img.shields.io/github/stars/Yonle/bostr.svg?style=social) - Nostr bouncer nodejs relay
+- [Bostr](https://github.com/Yonle/bostr)![stars](https://img.shields.io/github/stars/Yonle/bostr.svg?style=social) - Nostr bouncer relay aggregator proxy written in NodeJS
+- [Bostr2](https://github.com/Yonle/bostr2)![stars](https://img.shields.io/github/stars/Yonle/bostr2.svg?style=social) - Nostr bouncer relay aggregator proxy written in Go
 - [Bucket](https://github.com/coracle-social/bucket)![stars](https://img.shields.io/github/stars/coracle-social/bucket.svg?style=social) - in-memory-only nodejs relay for testing/hacking on. Stupid simple, <100 LOC.
 - [cagliostr](https://github.com/mattn/cagliostr)![stars](https://img.shields.io/github/stars/mattn/cagliostr.svg?style=social) - Faster Nostr relay in C++ backend by sqlite3.
 - [cfrelay](https://github.com/haorendashu/cfrelay)![stars](https://img.shields.io/github/stars/haorendashu/cfrelay.svg?style=social) - A personal nostr relay base on cloudflare workers.
