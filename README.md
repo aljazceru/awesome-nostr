@@ -632,6 +632,7 @@ Outside of nostr itself, you find the community on:
 - [RSS feeds for news on Nostr](https://verityj.github.io/nostr-news-feeds) ![stars](https://img.shields.io/github/stars/verityj/verityj.github.io.svg?style=social) - a curated list of news press channels RSS feeds that we can follow on Nostr
 - [search posts/profiles by keyword](https://nostr.band) - posts from major relays indexed and searchable in real-time
 - [Summaries of all Nostr Improvements Proposals](https://anchor.fm/s/d8e8d5a4/podcast/rss) - ChatGPT generated summaries of all NIPs by k00b
+- [Tracker for Undocumented Nostr Event Kinds](https://undocumented.nostrkinds.info/) - monitors undocumented event kinds in the Nostr network
 - [vanilla-js-nostr](https://github.com/supertestnet/vanilla-js-nostr)![stars](https://img.shields.io/github/stars/supertestnet/vanilla-js-nostr.svg?style=social) - a demo of posting and viewing a feed in nostr using vanilla javascript
 - [Zaplife](https://zaplife.lol) - Real-time feed for nostr zaps. The best tool to shut up the "lightning doesn't work" people.
 - [wellorder nostr datasets](https://wiki.wellorder.net/wiki/nostr-datasets/) - Public standardized nostr datasets for benchmarking, data science, or other analysis.
