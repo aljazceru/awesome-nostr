@@ -550,6 +550,7 @@ Endpoints (services or apps that expose a LN wallet via NWC)
 - [tasktiger.io](https://tasktiger.io/) - another DVM provider
 - [DVM Clients and Services Tutorial](https://www.youtube.com/watch?v=dAuLnNxU0Yg) - Nostr Data Vending Machine Clients and Services Tutorial by Kody Low
 - [NostrDVM](https://github.com/believethehype/nostrdvm)![stars](https://img.shields.io/github/stars/believethehype/nostrdvm.svg?style=social) - NostrDVM: Nostr NIP90 Data Vending Machine Framework in python
+- [DVMDash](https://dvmdash.live/)![stars](https://img.shields.io/github/stars/dtdannen/dvmdash) - monitoring & debugging tool for data vending machines; tracks dvm performance and payments
 
 ## NIP-96 File Storage Servers
 - [nostrcheck.me](https://nostrcheck.me)
