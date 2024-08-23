@@ -137,6 +137,8 @@ Websites with lists of relays and their performance/health:
 - [gnost-deflate-client](https://github.com/barkyq/gnost-deflate-client)![stars](https://img.shields.io/github/stars/barkyq/gnost-deflate-client?style=social) - CLI nostr client written in go implementing permessage-deflate websocket compression.
 - [gossip](https://github.com/mikedilger/gossip)![stars](https://img.shields.io/github/stars/mikedilger/gossip.svg?style=social) - A desktop client in rust presented with egui
 - [get-tao.app](https://github.com/smolgrrr/TAO)![stars](https://img.shields.io/github/stars/smolgrrr/TAO.svg?style=social) Anonymous-first client with PoW notes
+- [HiveTalk](https://github.com/hivetalk/hivetalksfu) - Hivetalk is an open source real time Video and Screensharing platform built on mirotalk that integrates Nostr and Lightning.
+  - [hivetalk.org](https://HiveTalk.org/) -  live instance
 - [iris](https://github.com/irislib/iris-messenger)![stars](https://img.shields.io/github/stars/irislib/iris-messenger.svg?style=social) - A nostr web client
   - [iris.to](https://iris.to) - live instance
   - [Android app](https://play.google.com/store/apps/details?id=to.iris.twa)
