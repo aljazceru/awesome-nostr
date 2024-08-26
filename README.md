@@ -575,6 +575,10 @@ Endpoints (services or apps that expose a LN wallet via NWC)
 
 - [Blossom](https://github.com/hzrd149/blossom) - Blobs stored simply on mediaservers
 
+## Games on Nostr
+
+- [NostrDice](https://github.com/NostrDice/nostrdice)![stars](https://img.shields.io/github/NostrDice/nostrdice/nws.svg?style=social) - NostrDice is a provably fair betting game combining the power of Lightning and Nostr. 
+
 ## Communities
 
 Outside of nostr itself, you find the community on:
