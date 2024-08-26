@@ -490,10 +490,6 @@ Websites with lists of relays and their performance/health:
 - [mostro-web](https://github.com/MostroP2P/mostro-web) ![stars](https://img.shields.io/github/stars/MostroP2P/mostro-web.svg?style=social) - Web client to operate with Mostro (WIP)
 - [n3xB](https://github.com/nobu-maeda/n3xb) ![stars](https://img.shields.io/github/stars/nobu-maeda/n3xb.svg?style=social) - Proposal for a Bitcoin exchange protocol and a globally shared order book on Nostr
 
-## Games on Nostr
-
-- [NostrDice](https://github.com/NostrDice/nostrdice) - NostrDice is a provably fair betting game combining the power of Lightning and Nostr. Follow on Nostr: [npub1nstrdc28zag3wcwwsc5t725t03h3hg9ard4vg425m4dvv7vqnmjsn076qj](nostr:npub1nstrdc28zag3wcwwsc5t725t03h3hg9ard4vg425m4dvv7vqnmjsn076qj). 
-
 ## NIP-07 Browser extensions
 
 Allow you to sign Nostr events on web-apps without having to give them your keys
@@ -578,6 +574,10 @@ Endpoints (services or apps that expose a LN wallet via NWC)
 ## Adjacent protocols
 
 - [Blossom](https://github.com/hzrd149/blossom) - Blobs stored simply on mediaservers
+
+## Games on Nostr
+
+- [NostrDice](https://github.com/NostrDice/nostrdice)![stars](https://img.shields.io/github/NostrDice/nostrdice/nws.svg?style=social) - NostrDice is a provably fair betting game combining the power of Lightning and Nostr. 
 
 ## Communities
 
