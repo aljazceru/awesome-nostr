@@ -615,6 +615,8 @@ Outside of nostr itself, you find the community on:
 - [Nostr Documentary](https://www.youtube.com/watch?v=aA-jiiepOrE) -  Social Media is broken. Can we fix it?
 - [What is Nostr?](https://www.youtube.com/watch?v=MaxXvcr181c) - Uncle Bob explains nostr
 - [Decentralizing Global Markets with Nostr](https://www.youtube.com/watch?v=WtpY_pQ3zcI) - Guy Swann and Pablof7z
+- [FEDSTR: Money-In AI-Out | A Decentralized Marketplace for Federated Learning and LLM Training on the NOSTR Protocol](https://arxiv.org/abs/2404.15834) - written by Konstantinos E. Nikolakakis, George Chantzialexiou, Dionysis Kalogerias.
+- [Exploring the Nostr Ecosystem: A Study of Decentralization and Resilience](https://arxiv.org/abs/2402.05709) -  written by Yiluo Wei, Gareth Tyson.
 
 ## Podcasts 
 - [Nostrovia Podcast](https://nostrovia.org/) - A Nostr podcast covering all the new projects, all the new cool stuff, all the new NIPs
