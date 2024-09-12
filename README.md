@@ -597,7 +597,7 @@ Endpoints (services or apps that expose a LN wallet via NWC)
 Outside of nostr itself, you find the community on:
 
 - [Discord](https://discord.gg/Pxkcgt9sMj) - a discord server for nostr enthusiasts and developers
-- [Marix](https://chat.nostrdev.com) - a matrix server for nostr developers
+- [Matrix: nostrdev](https://chat.nostrdev.com) - a matrix server for nostr developers
 - [Reddit /r/nostr](https://www.reddit.com/r/nostr/) - subreddit for nostr related discussion
 - [Telegram: nostr Protocol](https://t.me/nostr_protocol) - telegram group for nostr protocol discussion
 - [Telegram: nostr CN](https://t.me/nostr_cn) - chinese telegram group for nostr
