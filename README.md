@@ -93,7 +93,7 @@ of the public instances.
 Websites with lists of relays and their performance/health:
 - [relay.nostr.net](wss://relay.nostr.net) - relay run by nostr.net 
 - [nostr.info](https://nostr.info/relays/) - real-time checking of the status of some known relays.
-- [nostr.watch](https://nostr.watch) - real-time checking of the status of some known relays.
+- [nostr.watch](https://nostr.watch)![stars](https://img.shields.io/github/stars/sandwichfarm/nostr-watch.svg?style=social) - real-time checking of the status of some known relays.
 - [relays.xport.top](https://relays.xport.top) - relays list sortable by ping, activity, etc.
 
 ## Clients
