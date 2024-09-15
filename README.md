@@ -267,6 +267,7 @@ Websites with lists of relays and their performance/health:
 - Feature [comparison list of Nostr clients](https://github.com/vishalxl/Nostr-Clients-Features-List)![stars](https://img.shields.io/github/stars/vishalxl/Nostr-Clients-Features-List.svg?style=social)
 - [Feature Matrix for Nostr Clients](https://github.com/nostorg/clients)![stars](https://img.shields.io/github/stars/nostorg/clients.svg?style=social)
   - [Landing page](https://nostorg.github.io/clients/)
+- [NosTracker](https://marcodpt.github.io/nostracker/)![stars](https://img.shields.io/github/stars/marcodpt/nostracker.svg?style=social) - NIPs support info for clients, relays, tools and libraries.
 
 ## Libraries
 
