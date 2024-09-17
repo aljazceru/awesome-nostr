@@ -18,6 +18,8 @@ nostr.net services [relay.nostr.net](https://relay.nostr.net) ||  [nostr.at](htt
 - [coracle.social](https://coracle.social/)
 - [YakiHonne](https://yakihonne.com/yakihonne-mobile-app)
 
+### App store
+- [Zap.Store](https://github.com/zapstore/zapstore)
 
 
 ## Protocol
