@@ -34,6 +34,7 @@ nostr.net services [relay.nostr.net](https://relay.nostr.net) ||  [nostr.at](htt
 - [tinkering with nostr without any client](https://medium.com/@p2w34/tinkering-with-the-nostr-protocol-will-it-take-twitter-over-74c4bf0fea66)
 - [UseNostr](https://usenostr.org) - A small guide for anyone who wants to learn more about how nostr works and what it can do.
 - [persian nostr book](https://github.com/kehiy/persian-nostr-book) - a book written in persian language about nostr, containing nips translation.
+- [NosTracker](https://marcodpt.github.io/nostracker/) [![stars](https://img.shields.io/github/stars/marcodpt/nostracker.svg?style=social)](https://github.com/marcodpt/nostracker) - Information about NIP support for clients, relays, tools and libraries. Like a caniuse but for NIPs.
   
 ## Relays
 
@@ -269,7 +270,6 @@ Websites with lists of relays and their performance/health:
 - Feature [comparison list of Nostr clients](https://github.com/vishalxl/Nostr-Clients-Features-List)![stars](https://img.shields.io/github/stars/vishalxl/Nostr-Clients-Features-List.svg?style=social)
 - [Feature Matrix for Nostr Clients](https://github.com/nostorg/clients)![stars](https://img.shields.io/github/stars/nostorg/clients.svg?style=social)
   - [Landing page](https://nostorg.github.io/clients/)
-- [NosTracker](https://marcodpt.github.io/nostracker/)![stars](https://img.shields.io/github/stars/marcodpt/nostracker.svg?style=social) - NIPs support info for clients, relays, tools and libraries.
 
 ## Libraries
 
