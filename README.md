@@ -111,7 +111,6 @@ Websites with lists of relays and their performance/health:
   - [client.nostr.guide](https://client.nostr.guide/)
 - [Attached](https://github.com/dyegolara/nostr-attached)![stars](https://img.shields.io/github/stars/dyegolara/nostr-attached.svg?style=social) - Open-Source ReactNative Expo app for Nostr (iOS, Android). Currently under app store review
 - [Beagle](https://0xli.github.io/beagle.chat/)![stars](https://img.shields.io/github/stars/0xli/beagle.chat.svg?style=social) - Decentralized real-time Text/Audio/Video chat client for iOS, using nostr relays for users to share information and moments by posts of text, image and video.
-- [Bija](https://github.com/BrightonBTC/bija)![stars](https://img.shields.io/github/stars/BrightonBTC/bija.svg?style=social) - A desktop client written in python. Currently Linux only
 - [BlazeJump](https://github.com/objectwizard/BlazeJump)![stars](https://img.shields.io/github/stars/objectwizard/BlazeJump.svg?style=social) - A fast web client boilerplate written in C# / Blazor, that uses an in-browser SQLite database.
 - [Blockcore Notes](https://github.com/block-core/blockcore-notes) ![stars](https://img.shields.io/github/stars/block-core/blockcore-notes.svg?style=social) - Progressive Web App that can be installed on mobile and desktop, organize following in circles and have both public and private following lists. Dynamic interface for different uses, such as optimized for photograph viewing
   - [notes.blockcore.net](https://notes.blockcore.net/)
@@ -678,6 +677,7 @@ Outside of nostr itself, you find the community on:
 ## Deprecated
 
 - [branle](https://github.com/fiatjaf/branle)![stars](https://img.shields.io/github/stars/fiatjaf/branle.svg?style=social) - a Twitter-like client that was discontinued but lives on in its fork "Astral".
+- [Bija](https://github.com/BrightonBTC/bija)![stars](https://img.shields.io/github/stars/BrightonBTC/bija.svg?style=social) - A desktop client written in python. Currently Linux only
 - [Flamingo](https://www.getflamingo.org) - Nostr browser extension with a focus on UX
 - [Listr](https://github.com/sepehr-safari/listr) ![stars](https://img.shields.io/github/stars/sepehr-safari/listr.svg?style=social) - A Nostr Web Client for Making Lists.
 - [expensive relay](https://github.com/fiatjaf/expensive-relay)![stars](https://img.shields.io/github/stars/fiatjaf/expensive-relay.svg?style=social) - a relay that requires payment for registration
