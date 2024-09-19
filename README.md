@@ -10,6 +10,7 @@ nostr.net services [relay.nostr.net](https://relay.nostr.net) ||  [nostr.at](htt
 - [Amethyst](https://github.com/vitorpamplona/amethyst) - Android-only app
 - [Primal](https://primal.net/downloads) - iOS and Android apps.
 - [YakiHonne](https://yakihonne.com/yakihonne-mobile-app) - iOS and Android app
+- [Wherostr](https://mapboss.co.th/our-products/wherostr) - iOS and Android app
 
 ### Web clients
 - [snort.social](https://snort.social/)
@@ -17,6 +18,7 @@ nostr.net services [relay.nostr.net](https://relay.nostr.net) ||  [nostr.at](htt
 - [primal.net](https://primal.net/)
 - [coracle.social](https://coracle.social/)
 - [YakiHonne](https://yakihonne.com/yakihonne-mobile-app)
+- [Wherostr](https://wherostr.social)
 
 ### App store
 - [Zap.Store](https://github.com/zapstore/zapstore)
