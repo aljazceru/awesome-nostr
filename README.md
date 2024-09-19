@@ -258,6 +258,7 @@ Websites with lists of relays and their performance/health:
 - [zephyr](https://github.com/coracle-social/zephyr)![stars](https://img.shields.io/github/stars/coracle-social/zephyr.svg?style=social) - A meditative nostr feed reader
 - [Voyage](https://github.com/dluvian/voyage)![stars](https://img.shields.io/github/stars/dluvian/voyage.svg?style=social) - Lightweight Android client with a Reddit-like UI
 - [Locus](https://github.com/Myzel394/locus)![stars](https://img.shields.io/github/stars/Myzel394/locus.svg?style=social) - Share your location end-to-end encrypted on decentralized servers using Nostr.
+- [wherostr](https://github.com/mapboss/wherostr_social)![stars](https://img.shields.io/github/mapboss/wherostr_social)/locus.svg?style=social) - geo-social mobile app 
 
 ### Nostr Marketplace clients (NIP-15 & NIP-99)
 
