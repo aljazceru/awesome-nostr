@@ -206,8 +206,6 @@ Websites with lists of relays and their performance/health:
 - [Nostur](https://nostur.com) - Nostr client app for iOS and MacOS. ([Apple Store link](https://apps.apple.com/us/app/nostur/id1672780508))
 - [nostui](https://github.com/akiomik/nostui)![stars](https://img.shields.io/github/stars/akiomik/nostui.svg?style=social) - A TUI client for Nostr
 - [notebin.org](https://notebin.org)![stars](https://img.shields.io/github/stars/nodetec/notebin.svg?style=social) - Nostr UI created with NextJS, support for markdown and code highlighting
-- [Noteon](https://github.com/ShawnCN/cinny_nostsr2/tree/dev)![stars](https://img.shields.io/github/stars/ShawnCN/cinny_nostsr2.svg?style=social) - Yet another nostr client focused on private chat and group chat with a simple, elegant and secure interface.
-  - [nostr.noteon.io](https://nostr.noteon.io/)
 - [Nostr Web](https://github.com/franzos/nostr-ts) - React web client for static hosting
   - [franzos.github.io/nostr-ts](https://franzos.github.io/nostr-ts/) - preview from `master` branch
 - [Nuxstr](https://github.com/sebastix/nuxstr)![stars](https://img.shields.io/github/stars/sebastix/nuxstr.svg?style=social) - Starter template for building a Nostr client with the Nuxt Vue framework and Nostr Dev Kit (NDK).
@@ -558,7 +556,6 @@ Endpoints (services or apps that expose a LN wallet via NWC)
 - [btcpayserver](https://btcpayserver.org/) - btcpayserver has NIP-57 support for LN addresses since 1.9 version
 - [Current](https://app.getcurrent.io/) - nostr client + lightning wallet
 - [LifPay](https://lifpay.me) - Bitcoin Lightning app with personalized features
-- [LightningTipBot](https://github.com/LightningTipBot/LightningTipBot)![stars](https://img.shields.io/github/stars/LightningTipBot/LightningTipBot.svg?style=social) - A tip bot and Bitcoin Lightning wallet on Telegram
 - [LNbits](https://github.com/lnbits/lnbits)![stars](https://img.shields.io/github/stars/lnbits/lnbits.svg?style=social) - Bitcoin Lightning accounting system, zappable LNaddresses
 - [nostdress](https://github.com/believethehype/nostdress)![stars](https://img.shields.io/github/stars/believethehype/nostdress.svg?style=social) - Lightning addresses server based on satdress. Adapted to work with Nostr features (NIP05, NIP57)
 - [Wallet of Satoshi](https://www.walletofsatoshi.com/) - Custodial lightning wallet
