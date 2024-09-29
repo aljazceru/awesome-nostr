@@ -1,4 +1,4 @@
-nostr.net services [relay.nostr.net](https://relay.nostr.net) ||  [nostr.at](https://nostr.at) || [broadcaster.nostr.net](https://broadcaster.nostr.net) 
+nostr.net services [relay.nostr.net](https://relay.nostr.net) ||  [nostr.at](https://nostr.at) || [wot.nostr.net](https://wot.nostr.net) 
 
 "nostr" stands for "**N**otes and **O**ther **S**tuff **T**ransmitted by
 **R**elays" and is an open protocol for censorship-resistant global networks.
