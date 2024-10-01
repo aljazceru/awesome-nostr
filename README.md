@@ -257,7 +257,8 @@ Websites with lists of relays and their performance/health:
 - [zephyr](https://github.com/coracle-social/zephyr)![stars](https://img.shields.io/github/stars/coracle-social/zephyr.svg?style=social) - A meditative nostr feed reader
 - [Voyage](https://github.com/dluvian/voyage)![stars](https://img.shields.io/github/stars/dluvian/voyage.svg?style=social) - Lightweight Android client with a Reddit-like UI
 - [Locus](https://github.com/Myzel394/locus)![stars](https://img.shields.io/github/stars/Myzel394/locus.svg?style=social) - Share your location end-to-end encrypted on decentralized servers using Nostr.
-- [Wherostr](https://github.com/mapboss/wherostr_social)![stars](https://img.shields.io/github/stars/mapboss/wherostr_social.svg?style=social) - A decentralized geo-social for iOS & Android. 
+- [Wherostr](https://github.com/mapboss/wherostr_social)![stars](https://img.shields.io/github/stars/mapboss/wherostr_social.svg?style=social) - A decentralized geo-social for iOS & Android.
+- [Anonostr](https://github.com/Spl0itable/Anonostr)![stars](https://img.shields.io/github/stars/Spl0itable/anonostr.svg?style=social) - Anonostr allows users to send anonymous notes to the Nostr network without revealing their identity. For each note submission, the app generates a new key pair, sends the note through select relays, and then securely burns the key pair. It supports tagging, threading, quoting, and replying to existing notes. 
 
 ### Nostr Marketplace clients (NIP-15 & NIP-99)
 
@@ -353,7 +354,7 @@ Websites with lists of relays and their performance/health:
 - [advanced-nostr-search](https://advancednostrsearch.vercel.app/) - A tool to search Nostr notes.
 - [anonroom](https://github.com/vinliao/anonroom)![stars](https://img.shields.io/github/stars/vinliao/anonroom.svg?style=social) - anonymous chat room inside nostr
 - [Bech32 for Nostr](https://nostr.xport.top/bech32-for-nostr/) - bech32 Nostr converter. 
-- [blastr](https://github.com/MutinyWallet/blastr)![stars](https://img.shields.io/github/stars/MutinyWallet/blastr?style=social) - A nostr cloudflare workers proxy relay that publishes to all known relays.
+- [Nosflare's Send It](https://github.com/Spl0itable/nosflare/blob/main/send-it.js)![stars](https://img.shields.io/github/stars/Spl0itable/nosflare?style=social) - A nostr cloudflare workers proxy relay that publishes to all known relays using nostr.watch API.
 - [blogsync](https://github.com/canostrical/blogsync)![stars](https://img.shields.io/github/stars/canostrical/blogsync.svg?style=social) - Self-host blog articles from long-form notes e.g. via Caddy server.
 - [cafe-society.news](https://github.com/colealbon/cafe-society)![stars](https://img.shields.io/github/stars/colealbon/cafe-society.svg?style=social) - Self-sovereign machine learning training tool for nostr global feed.  Trained models can be monetized/distributed over nostr private messages.  Your pre-paid model subscribers register via lightning payments.
 - [Cloud Seeder](https://github.com/ipv6rslimited/cloudseeder)![stars](https://img.shields.io/github/stars/ipv6rslimited/cloudseeder.svg?style=social) - A 1-click deployment and management tool for nostr-rs-relay and other appliances.
@@ -477,7 +478,7 @@ Websites with lists of relays and their performance/health:
 - [siamstr.com](https://siamstr.com) - A free NIP-05 ID registration service, lightning redirection.
 - [toastr.space](https://toastr.space) - Paid NIP-05 and Reputation Badge service. Verify and link your identity from Twitter or GitHub to your Nostr account, and get a badge to prove it.
 - [Nostrich House](https://nostrich.house) - Paid NIP-05 service with nostr bot interface. Buy your nostr address with DM to nostrich@nostrich.house for 1 sat/hour, anonymous, immediate.
-- [Verified-Nostr.com](https://verified-nostr.com) - Free and Paid Nostr Address (NIP-05) verifier service with premium relay and vanity domains.
+- [NostrAddress.com](https://nostraddress.com) - Free and Paid Nostr Address (NIP-05) identifier service with premium relay and vanity domains.
 
 
 ## Offline signers
@@ -585,6 +586,7 @@ Endpoints (services or apps that expose a LN wallet via NWC)
 - [nostpic](https://nostpic.com)
 - [mockingyou.com](https://mockingyou.com)
 - [nostr.onch.services](https://nostr.onch.services)
+- [NostrMedia.com](https://nostrmedia.com)
 
   Updated list of NIP-96 servers [here](https://github.com/quentintaranpino/NIP96-compatible-servers)
 
