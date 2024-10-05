@@ -553,6 +553,7 @@ Endpoints (services or apps that expose a LN wallet via NWC)
 ## NIP-57 Zaps compatible wallets and solutions
 
 - [Alby](https://getalby.com)![stars](https://img.shields.io/github/stars/getAlby/lightning-browser-extension.svg?style=social) - Bitcoin Lightning app with nostr support
+- [Bipa](https://bipa.app/) - User-friendly Bitcoin wallet for buying and selling bitcoin with lightning and pix support
 - [Blink](https://www.blink.sv/) - Blink (ex Bitcoin Beach Wallet)
 - [btcpayserver](https://btcpayserver.org/) - btcpayserver has NIP-57 support for LN addresses since 1.9 version
 - [Current](https://app.getcurrent.io/) - nostr client + lightning wallet
