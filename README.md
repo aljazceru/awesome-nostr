@@ -382,7 +382,7 @@ Websites with lists of relays and their performance/health:
 - [nos2x - nostr signer extension](https://github.com/fiatjaf/nos2x)![stars](https://img.shields.io/github/stars/fiatjaf/nos2x.svg?style=social) - a browser extension for signing events on 3rd party site without sharing your private keys with them
 - [nostcat](https://github.com/blakejakopovic/nostcat)![stars](https://img.shields.io/github/stars/blakejakopovic/nostcat.svg?style=social) - cat-like nostr client for scripting and debugging written in Rust
 - [nosdump](https://github.com/jiftechnify/nosdump)![stars](https://img.shields.io/github/stars/jiftechnify/nosdump.svg?style=social) - A command line tool which dumps (download) events stored in Nostr relays
-- [nostrame](https://github.com/Anderson-Juhasc/nostrame)![stars](https://img.shields.io/github/stars/Anderson-Juhasc/nostrame.svg?style=social) - Nostr Accounts Managing Extension 
+- [nostrame](https://github.com/Anderson-Juhasc/nostrame)![stars](https://img.shields.io/github/stars/Anderson-Juhasc/nostrame.svg?style=social) - Nostr Signer and Account Management Extension 
 - [NostrAirTracker](https://github.com/gourcetools/NostrAirTracker)![stars](https://img.shields.io/github/stars/gourcetools/NostrAirTracker.svg?style=social) - Elonjet on Nostr
 - [Nostr action](https://github.com/snow-actions/nostr)![stars](https://img.shields.io/github/stars/snow-actions/nostr.svg?style=social) - Send events from GitHub Actions
 - [nostr army knife](https://nak.nostr.com/) - nostr army knife by fiatjaf
@@ -525,6 +525,7 @@ Allow you to sign Nostr events on web-apps without having to give them your keys
 - [nodestr](https://github.com/lightning-digital-entertainment/nodestr) - A nip07 provider and polyfill for NodeJS
 - [nos2x](https://github.com/fiatjaf/nos2x)![stars](https://img.shields.io/github/stars/fiatjaf/nos2x.svg?style=social) - Nostr Signer Extension
 - [nos2x-fox](https://diegogurpegui.com/nos2x-fox/) - A Firefox add-on that lets you manager your Nostr keys in one place, and then sign events in websites without exposing your private key
+- [nostrame](https://github.com/Anderson-Juhasc/nostrame)![stars](https://img.shields.io/github/stars/Anderson-Juhasc/nostrame.svg?style=social) - Nostr Signer and Account Management Extension 
 - [Nostore on GitHub](https://github.com/ursuscamp/nostore)![stars](https://img.shields.io/github/stars/ursuscamp/nostore.svg?style=social) - Nostr Signer Extension for iOS/macOS Safari ([Nostore on Mac App Store](https://apps.apple.com/us/app/nostore/id1666553677))
 - [nostr-keyx](https://github.com/susumuota/nostr-keyx)![stars](https://img.shields.io/github/stars/susumuota/nostr-keyx.svg?style=social) - A NIP-07 browser extension that uses the OS's keychain or YubiKey to protect your private keys.
 - [nostr](https://github.com/jinglescode/nostr-password-manager) - A free, open source, and decentralized password manager, powered by NOSTR
