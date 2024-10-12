@@ -260,7 +260,8 @@ Websites with lists of relays and their performance/health:
 - [Locus](https://github.com/Myzel394/locus)![stars](https://img.shields.io/github/stars/Myzel394/locus.svg?style=social) - Share your location end-to-end encrypted on decentralized servers using Nostr.
 - [Wherostr](https://github.com/mapboss/wherostr_social)![stars](https://img.shields.io/github/stars/mapboss/wherostr_social.svg?style=social) - A decentralized geo-social for iOS & Android.
 - [Anonostr](https://github.com/Spl0itable/Anonostr)![stars](https://img.shields.io/github/stars/Spl0itable/anonostr.svg?style=social) - Anonostr allows users to send anonymous notes to the Nostr network without revealing their identity. For each note submission, the app generates a new key pair, sends the note through select relays, and then securely burns the key pair. It supports tagging, threading, quoting, and replying to existing notes. 
-- [Yana](https://yana.do) - Yana is a nostr client focused on performance in slower devices and modularity of features.
+- [Yana](https://github.com/frnandu/yana)![stars](https://img.shields.io/github/stars/frnandu/yana.svg?style=social) - Yana is a nostr client focused on performance in slower devices and modularity of features.
+  - [yana.do](https://yana.do)
 
 ### Nostr Marketplace clients (NIP-15 & NIP-99)
 
@@ -549,7 +550,8 @@ Clients (apps using NWC to access a LN wallet)
 - [Nostrmo](https://github.com/haorendashu/nostrmo)![stars](https://img.shields.io/github/stars/haorendashu/nostrmo.svg?style=social) - A flutter nostr client for Android, IOS, MacOS, Windows, Web and Linux.
 - [Spring Browser](https://spring.site) - Nostr-focused browser app for Android.
 - [YakiHonne](https://yakihonne.com/yakihonne-mobile-app) - iOS and Android app
-- [Yana](https://yana.do) - Yana is a nostr client focused on performance in slower devices and modularity of features.
+- [Yana](https://github.com/frnandu/yana)![stars](https://img.shields.io/github/stars/frnandu/yana.svg?style=social) - Yana is a nostr client focused on performance in slower devices and modularity of features.
+  - [yana.do](https://yana.do)
 - [Alby Go](https://albygo.com) - A simple lightning mobile wallet interface that works great with Alby Hub.
 
 Endpoints (services or apps that expose a LN wallet via NWC)
