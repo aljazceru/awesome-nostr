@@ -608,8 +608,8 @@ Endpoints (services or apps that expose a LN wallet via NWC)
 
 ## Games on Nostr
 
-- [NostrDice](https://app.nostrdice.com) - NostrDice is a provably fair betting game combining the power of Lightning and Nostr.
-  - Source: [NostrDice](https://github.com/NostrDice/nostrdice)![stars](https://img.shields.io/github/stars/NostrDice/nostrdice)
+- [NostrDice](https://github.com/NostrDice/nostrdice)![stars](https://img.shields.io/github/stars/NostrDice/nostrdice) - NostrDice is a provably fair betting game combining the power of Lightning and Nostr.
+  - Live: [app.nostrdice.com](https://app.nostrdice.com)
 
 ## Communities
 
