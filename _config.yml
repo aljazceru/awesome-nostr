@@ -2,7 +2,7 @@ include: [".well-known"]
 remote_theme: aljazceru/hacker-gh-pages-theme
 plugins:
 - jekyll-remote-theme
-
+- jekyll-feed
 
 #title: Nostr
 #description: “nostr” stands for “Notes and Other Stuff Transmitted by Relays” and is an open protocol for censorship-resistant global networks
