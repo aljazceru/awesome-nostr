@@ -702,7 +702,20 @@ Outside of nostr itself, you find the community on:
 - [nostr-pass](https://github.com/plantimals/nostr-pass)![stars](https://img.shields.io/github/stars/plantimals/nostr-pass.svg?style=social) - experimenting with nostr priv/pub key pairs for replacing passwords
 - [nostrpy](https://github.com/monty888/nostrpy)![stars](https://img.shields.io/github/stars/monty888/nostrpy.svg?style=social) - relay, client, and other tooling in python (No longer being developed.)
 
-Data for this list is contributed by the community and curated by aljaz@nostr.si ( npub1aljazgxlpnpfp7n5sunlk3dvfp72456x6nezjw4sd850q879rxqsthg9jp)
+## Related Resources
+
+To explore other aspects of the Bitcoin and freedom tech ecosystem, check out these additional resource directories:
+
+- [dlc.wiki](https://www.dlc.wiki) - Everything you need to know about Discreet Log Contracts (DLCs), an innovative Bitcoin smart contract technology.
+- [ungovernable.tech](https://ungovernable.tech) - A curated collection of resources on encryption, privacy tools, and decentralized technologies.
+- [pubkey.tech](https://pubkey.tech) - Pubky resources, libraries, tools and applications. Pubky is an open protocol for per-public-key backends for censorship resistant web applications
+- [lightning-network.tech](https://www.lightning-network.tech/)  - A curated collection of essential tools, guides, and communities for Bitcoin Lightning Network node operators.
+- 
+## Contributing
+
+If you'd like to add something to this list, please submit a [Pull Request on GitHub](https://github.com/aljazceru/lightning-network.tech).
+
+This resource guide is maintained by [aljaz](https://nostr.at/npub1aljazgxlpnpfp7n5sunlk3dvfp72456x6nezjw4sd850q879rxqsthg9jp). Your contributions help keep this information up-to-date and valuable for the nostr community.
 
 ## Contributors
 
