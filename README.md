@@ -344,7 +344,6 @@ Websites with lists of relays and their performance/health:
 - [matrix-nostr-bridge](https://github.com/8go/matrix-nostr-bridge)![stars](https://img.shields.io/github/stars/8go/matrix-nostr-bridge.svg?style=social) - a simple Matrix-to-Nostr or Nostr-to-Matrix bridge
 - [Mostr](https://gitlab.com/soapbox-pub/mostr)![stars](https://img.shields.io/gitlab/stars/soapbox-pub/mostr.svg?style=social) - a bridge between Nostr and the Fediverse (Mastodon, ActivityPub, etc.)
 - [nostrss](https://github.com/Asone/nostrss)![stars](https://img.shields.io/github/stars/Asone/nostrss.svg?style=social) - A flexible and lightweight application to broadcast  RSS feeds on Nostr
-- [rsslay](https://github.com/piraces/rsslay)![stars](https://img.shields.io/github/stars/piraces/rsslay.svg?style=social) - fork of the rsslay by @fiatjaf. a bridge that puts RSS feeds into Nostr optimized, more funcionalities and UI improvements. Live at [rsslay.nostr.moe](https://rsslay.nostr.moe/)
 - [smtp nostr gateway ](https://github.com/Cameri/smtp-nostr-gateway)![stars](https://img.shields.io/github/stars/Cameri/smtp-nostr-gateway.svg?style=social) - a bridge that forwards emails to pubkeys as encrypted direct messages
 - [Nostr over LoRa](https://github.com/geoffwhittington/meshtastic-bridge) ![stars](https://img.shields.io/github/stars/geoffwhittington/meshtastic-bridge.svg?style=social) - a gateway that can relay off-grid [Meshtastic](https://meshtastic.org) messages to NoStr.
 - [atomstr](https://git.sr.ht/~psic4t/atomstr) - RSS/Atom gateway to Nostr. Live at [https://atomstr.data.haus](https://atomstr.data.haus)
@@ -701,6 +700,7 @@ Outside of nostr itself, you find the community on:
   - [hamstr.to](https://hamstr.to)
 - [nostr-pass](https://github.com/plantimals/nostr-pass)![stars](https://img.shields.io/github/stars/plantimals/nostr-pass.svg?style=social) - experimenting with nostr priv/pub key pairs for replacing passwords
 - [nostrpy](https://github.com/monty888/nostrpy)![stars](https://img.shields.io/github/stars/monty888/nostrpy.svg?style=social) - relay, client, and other tooling in python (No longer being developed.)
+- [rsslay](https://github.com/piraces/rsslay)![stars](https://img.shields.io/github/stars/piraces/rsslay.svg?style=social) - fork of the rsslay by @fiatjaf. a bridge that puts RSS feeds into Nostr optimized, more funcionalities and UI improvements. Live at [rsslay.nostr.moe](https://rsslay.nostr.moe/)
 
 ## Related Resources
 
