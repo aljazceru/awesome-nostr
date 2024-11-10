@@ -520,11 +520,12 @@ Websites with lists of relays and their performance/health:
 
 Allow you to sign Nostr events on web-apps without having to give them your keys
 
-- [Aka Profile](https://github.com/neilck/aka-extension)![stars](https://img.shields.io/github/stars/neilck/aka-extension.svg?style=social) -  Nostr Signing Extension for Chrome supporting multiple key pairs based on nos2x.
+- [Aka Profiles](https://github.com/neilck/aka-extension)![stars](https://img.shields.io/github/stars/neilck/aka-extension.svg?style=social) -  Nostr Signing Extension for Chrome supporting multiple key pairs based on nos2x.
 - [Alby](https://getalby.com)![stars](https://img.shields.io/github/stars/getAlby/lightning-browser-extension.svg?style=social) - Bitcoin Lightning app with nostr support
 - [Blockcore](https://github.com/block-core/blockcore-wallet)![stars](https://img.shields.io/github/stars/block-core/blockcore-wallet.svg?style=social) - Multi wallet browser extension with nostr support
 - [horse](https://github.com/fiatjaf/horse) - hardware remote nostr event signer with webserial
 - [Keys.Band](https://keys.band) - Multi-key Nostr signing extension for Chrome with a sleak UI/UX. Based on NOS2X.
+- [NIP-07 Signing Extension Tester](https://github.com/neilck/nip07-tester)![stars](https://img.shields.io/github/stars/neilck/nip07-tester.svg?style=social) - This Next.js app tests NIP-07, showing supported functions and raw results for the current signing extension.
 - [nodestr](https://github.com/lightning-digital-entertainment/nodestr) - A nip07 provider and polyfill for NodeJS
 - [nos2x](https://github.com/fiatjaf/nos2x)![stars](https://img.shields.io/github/stars/fiatjaf/nos2x.svg?style=social) - Nostr Signer Extension
 - [nos2x-fox](https://diegogurpegui.com/nos2x-fox/) - A Firefox add-on that lets you manager your Nostr keys in one place, and then sign events in websites without exposing your private key
