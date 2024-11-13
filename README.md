@@ -532,7 +532,8 @@ Allow you to sign Nostr events on web-apps without having to give them your keys
 - [nostrame](https://github.com/Anderson-Juhasc/nostrame)![stars](https://img.shields.io/github/stars/Anderson-Juhasc/nostrame.svg?style=social) - Nostr Signer and Account Management Extension 
 - [Nostore on GitHub](https://github.com/ursuscamp/nostore)![stars](https://img.shields.io/github/stars/ursuscamp/nostore.svg?style=social) - Nostr Signer Extension for iOS/macOS Safari ([Nostore on Mac App Store](https://apps.apple.com/us/app/nostore/id1666553677))
 - [nostr-keyx](https://github.com/susumuota/nostr-keyx)![stars](https://img.shields.io/github/stars/susumuota/nostr-keyx.svg?style=social) - A NIP-07 browser extension that uses the OS's keychain or YubiKey to protect your private keys.
-- [nostr](https://github.com/jinglescode/nostr-password-manager) - A free, open source, and decentralized password manager, powered by NOSTR
+- [nostr](https://github.com/jinglescode/nostr-password-manager)![stars](https://img.shields.io/github/stars/jinglescode/nostr-password-manager.svg?style=social) - A free, open source, and decentralized password manager, powered by NOSTR
+- [nowser](https://github.com/haorendashu/nowser)![stars](https://img.shields.io/github/stars/haorendashu/nowser.svg?style=social) - A secure nostr key management and signing app for iOS and Android that supports NIP-07, NIP-46 and NIP-55
 - [OneKey](https://onekey.so)![stars](https://img.shields.io/github/stars/onekeyhq/app-monorepo.svg?style=social) - Open-source crypto wallet with nosrt support.
 - [Signum XT Wallet](https://github.com/signum-network/signum-xt-wallet)![stars](https://img.shields.io/github/stars/signum-network/signum-xt-wallet.svg?style=social) - Metamask-like browser extension for Signum blockchain with full NIP07 support and multi-account management
 - [Spring Browser](https://spring.site) - Nostr-focused browser app for Android.
