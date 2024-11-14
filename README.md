@@ -19,7 +19,7 @@ nostr.net services [relay.nostr.net](https://relay.nostr.net) ||  [nostr.at](htt
 - [YakiHonne](https://yakihonne.com/yakihonne-mobile-app)
 
 ### App store
-- [Zap.Store](https://github.com/zapstore/zapstore)
+- [Zapstore](https://github.com/zapstore/zapstore)
 
 
 ## Protocol
