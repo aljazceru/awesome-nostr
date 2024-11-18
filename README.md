@@ -549,6 +549,7 @@ Clients (apps using NWC to access a LN wallet)
 - [Lume](https://lume.nu) - Cross-platform desktop app
 - [Nostur](https://nostur.com) - A nostr client for iPhone and macOS
 - [Nostrmo](https://github.com/haorendashu/nostrmo)![stars](https://img.shields.io/github/stars/haorendashu/nostrmo.svg?style=social) - A flutter nostr client for Android, IOS, MacOS, Windows, Web and Linux.
+- [nostter](https://github.com/SnowCait/nostter)![stars](https://img.shields.io/github/stars/SnowCait/nostter.svg?style=social) - Twitter-like web client
 - [Spring Browser](https://spring.site) - Nostr-focused browser app for Android.
 - [YakiHonne](https://yakihonne.com/yakihonne-mobile-app) - iOS and Android app
 - [Yana](https://github.com/frnandu/yana)![stars](https://img.shields.io/github/stars/frnandu/yana.svg?style=social) - Yana is a nostr client focused on performance in slower devices and modularity of features.
