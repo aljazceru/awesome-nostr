@@ -347,7 +347,7 @@ Websites with lists of relays and their performance/health:
 - [smtp nostr gateway ](https://github.com/Cameri/smtp-nostr-gateway)![stars](https://img.shields.io/github/stars/Cameri/smtp-nostr-gateway.svg?style=social) - a bridge that forwards emails to pubkeys as encrypted direct messages
 - [Nostr over LoRa](https://github.com/geoffwhittington/meshtastic-bridge) ![stars](https://img.shields.io/github/stars/geoffwhittington/meshtastic-bridge.svg?style=social) - a gateway that can relay off-grid [Meshtastic](https://meshtastic.org) messages to NoStr.
 - [atomstr](https://git.sr.ht/~psic4t/atomstr) - RSS/Atom gateway to Nostr. Live at [https://atomstr.data.haus](https://atomstr.data.haus)
-- [nostr-to-rss ](https://github.com/gustavonmartins/nostr-to-rss)![stars](https://img.shields.io/github/stars/gustavonmartins/nostr-to-rss.svg?style=social) - A bridge that enables your RSS clients subscribing to Nostr content. A spam-free Nostr experience. Connect your favorite RSS client to Nostr, filter out noise, and focus on quality content. Customizable blocklists, whitelists, and conversation controls. Discover the best of Nostr without the clutter.
+- [nostr-to-rss ](https://github.com/gustavonmartins/nostr-to-rss)![stars](https://img.shields.io/github/stars/gustavonmartins/nostr-to-rss.svg?style=social) - nostr to RSS bridge, enabling you to subscribe to nostr events in RSS clients
   - [nostr-to-rss](https://nostr-to-rss.deno.dev/) - live instance 
 
 
