@@ -349,7 +349,7 @@ Websites with lists of relays and their performance/health:
 - [atomstr](https://git.sr.ht/~psic4t/atomstr) - RSS/Atom gateway to Nostr. Live at [https://atomstr.data.haus](https://atomstr.data.haus)
 - [nostr-to-rss ](https://github.com/gustavonmartins/nostr-to-rss)![stars](https://img.shields.io/github/stars/gustavonmartins/nostr-to-rss.svg?style=social) - nostr to RSS bridge, enabling you to subscribe to nostr events in RSS clients
   - [nostr-to-rss](https://nostr-to-rss.deno.dev/) - live instance 
-
+- [rssnotes](https://github.com/trinidz/rssnotes) ![stars](https://img.shields.io/github/stars/trinidz/rssnotes.svg?style=social) -  RSS/Atom to Nostr relay. Fork of [rsslay](https://github.com/piraces/rsslay).
 
 ## Cache services
 - [Primal](https://github.com/PrimalHQ/primal-caching-service) - Caching service for Nostr connects to the specified set of relays, collects all events in real time, stores them locally, and makes them available to nostr clients through a web socket-based API.
