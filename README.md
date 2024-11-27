@@ -350,7 +350,7 @@ Websites with lists of relays and their performance/health:
 - [nostr-to-rss ](https://github.com/gustavonmartins/nostr-to-rss)![stars](https://img.shields.io/github/stars/gustavonmartins/nostr-to-rss.svg?style=social) - nostr to RSS bridge, enabling you to subscribe to nostr events in RSS clients
   - [nostr-to-rss](https://nostr-to-rss.deno.dev/) - live instance 
 - [rssnotes](https://github.com/trinidz/rssnotes) ![stars](https://img.shields.io/github/stars/trinidz/rssnotes.svg?style=social) -  RSS/Atom to Nostr relay. Fork of [rsslay](https://github.com/piraces/rsslay).
-- [NostrBridge](https://github.com/duozhutuan/NostrBridge/) - NostrBridge provides two core features aimed at facilitating WebSocket connection forwarding and message forwarding under the Nostr protocol. 
+- [NostrBridge](https://github.com/duozhutuan/NostrBridge/)![stars](https://img.shields.io/github/stars/duozhutuan/NostrBridge.svg?style=social) - NostrBridge provides two core features aimed at facilitating WebSocket connection forwarding and message forwarding under the Nostr protocol. 
 ## Cache services
 - [Primal](https://github.com/PrimalHQ/primal-caching-service) - Caching service for Nostr connects to the specified set of relays, collects all events in real time, stores them locally, and makes them available to nostr clients through a web socket-based API.
 
