@@ -459,6 +459,7 @@ Websites with lists of relays and their performance/health:
 - [nostr-badges](https://github.com/neilck/nostr-badges)![stars](https://img.shields.io/github/stars/neilck/nostr-badges.svg?style=social) - Nostr badge microservice for managing self-awarded badges. Live at [app.akaprofiles.com](https://app.akaprofiles.com)
 - [nostpy-cli](https://github.com/UTXOnly/nostpy-cli)![stars](https://img.shields.io/github/stars/UTXOnly/nostpy-cli.svg?style=social) - A Python command line nostr client/tool for relay development
 - [metadata_updater](https://github.com/UTXOnly/metadata_updater)![stars](https://img.shields.io/github/stars/UTXOnly/metadata_updater.svg?style=social) - Scans all known online nostr relays for stale kind 0 metadata notes, rebroadcasts latest verified note
+- [TaskQ5](https://github.com/duozhutuan/Taskq5)![stars](https://img.shields.io/github/stars/duozhutuan/TaskQ5.svg?style=social) - TaskQ5 is a task distribution platform built on nostr where you can post tasks if you need help
 
 ## NIP-05 identity services
 
