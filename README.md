@@ -6,7 +6,6 @@ nostr.net services [relay.nostr.net](https://relay.nostr.net) ||  [nostr.at](htt
 ## Most popular
 ### Mobile clients
 - [Damus](https://damus.io/) - The OG nostr client for iOS
-- [Plebstr](https://plebstr.com/) - Android and iOS app
 - [Amethyst](https://github.com/vitorpamplona/amethyst) - Android-only app
 - [Primal](https://primal.net/downloads) - iOS and Android apps.
 - [YakiHonne](https://yakihonne.com/yakihonne-mobile-app) - iOS and Android app
