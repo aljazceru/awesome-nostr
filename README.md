@@ -89,8 +89,8 @@ of the public instances.
 - [Nosflare](https://github.com/Spl0itable/nosflare)![stars](https://img.shields.io/github/stars/Spl0itable/nosflare.svg?style=social) -  a serverless Nostr relay purpose-built for [Cloudflare Workers](https://workers.cloudflare.com/) and the [Cloudflare KV](https://www.cloudflare.com/products/workers-kv/) store.
 - [NIP-29 Group Chat Relay](https://github.com/max21dev/groups-relay)![stars](https://img.shields.io/github/stars/max21dev/groups-relay.svg?style=social) - NIP-29 Group Chat Relay based on fiatjaf's [Relay29](https://github.com/fiatjaf/relay29) and [Khatru](https://github.com/fiatjaf/khatru).
   - Live instance: [wss://relay.groups.nip29.com](https://relay.groups.nip29.com)
-- [tandem](https://github.com/TheRebelOfBabylon/tandem) - WIP: community focused relay written in Go
-- [WoT relay](https://github.com/bitvora/wot-relay.git) - relay for every note in your web of trust 
+- [tandem](https://github.com/TheRebelOfBabylon/tandem)![stars](https://img.shields.io/github/stars/TheRebelOfBabylon/tandem.svg?style=social)  - WIP: community focused relay written in Go
+- [WoT relay](https://github.com/bitvora/wot-relay.git)![stars](https://img.shields.io/github/stars/bitvora/wot-relay.svg?style=social) - relay for every note in your web of trust 
 
 ### Relay lists 
 Websites with lists of relays and their performance/health:
