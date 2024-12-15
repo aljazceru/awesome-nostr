@@ -82,6 +82,7 @@ of the public instances.
 - [søstr](https://github.com/metasikander/s0str)![stars](https://img.shields.io/github/stars/metasikander/s0str.svg?style=social) - a private Nostr relay written in rust, saves all notes from one pubkey and publish them to anyone that requests them
 - [sovereign-stack](https://www.sovereign-stack.org) - a tool that helps you deploy nostr relays and create self-hosted (bitcoin-only) Value4Value websites.
 - [strfry](https://github.com/hoytech/strfry)![stars](https://img.shields.io/github/stars/hoytech/strfry.svg?style=social) - C++ implementation backed by LMDB with efficient syncing of events using Merkle trees
+- [Transpher](https://github.com/nostriphant/transpher) - experimental PHP implementation, does run in the wild. Memory, file or sqlite storage, configurable limits. Goal is to develop broader support for PHP. 
 - [Notra](https://github.com/lontivero/Nostra)![stars](https://img.shields.io/github/stars/lontivero/nostra.svg?style=social) - F# implementation backed by SQLite database.
 - [Nerostr](https://codeberg.org/pluja/nerostr) - A Nostr expensive relay paid with Monero and written in Go
 - [Nostr client and relay](https://github.com/pedro-vicente/nostr_client_relay)![stars](https://img.shields.io/github/stars/pedro-vicente/nostr_client_relay.svg?style=social) -  C++ engine that allows building Nostr applications for command line, desktop or web.
