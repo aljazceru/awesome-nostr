@@ -338,7 +338,7 @@ Websites with lists of relays and their performance/health:
 - [nostr-spring-boot-starter](https://github.com/theborakompanioni/nostr-spring-boot-starter)![stars](https://img.shields.io/github/stars/theborakompanioni/nostr-spring-boot-starter.svg?style=social) - Spring boot starter projects for building Nostr applications.
 - [mostro-core](https://github.com/MostroP2P/mostro-core) ![stars](https://img.shields.io/github/stars/MostroP2P/mostro-core.svg?style=social) - common types used by mostro and clients  (WIP)
 - [dart NDK](https://github.com/relaystr/ndk) ![stars](https://img.shields.io/github/stars/relaystr/ndk.svg?style=social) - Nostr Development Kit for dart applications
-
+- [nostrclient](https://github.com/duozhutuan/nostrclient)![stars](https://img.shields.io/github/stars/duozhutuan/nostrclient.svg?style=social)- Nostr python client library
 
 ## Bridges and Gateways
 
