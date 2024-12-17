@@ -715,16 +715,18 @@ Outside of nostr itself, you find the community on:
 To explore other aspects of the Bitcoin and freedom tech ecosystem, check out these additional resource directories:
 
 - [dlc.wiki](https://www.dlc.wiki) - Everything you need to know about Discreet Log Contracts (DLCs), an innovative Bitcoin smart contract technology.
-- [ungovernable.tech](https://ungovernable.tech) - A curated collection of resources on encryption, privacy tools, and decentralized technologies.
+- [ungovernable.tech](https://ungovernable.tech) - A collection of resources on encryption, privacy tools, and decentralized technologies.
 - [pubky.tech](https://pubky.tech) - Pubky resources, libraries, tools and applications. Pubky is an open protocol for per-public-key backends for censorship resistant web applications
 - [lightning-network.tech](https://www.lightning-network.tech/)  - A curated collection of essential tools, guides, and communities for Bitcoin Lightning Network node operators.
 - [liquidnetwork.wiki](https://liquidnetwork.wiki) - A curated list of Liquid Network resources, libraries, tools and applications
+- [ark-protocol.com](https://ark-protocol.com) - A directory of Ark protocol resources, libraries, tools and applications
+
 
 ## Contributing
 
-If you'd like to add something to this list, please submit a [Pull Request on GitHub](https://github.com/aljazceru/awesome-nostr).
+If you'd like to add something to this list, please submit a [Pull Request on GitHub](https://github.com/aljazceru/awesome-nostr/).
 
-This resource guide is maintained by [aljaz](https://nostr.at/npub1aljazgxlpnpfp7n5sunlk3dvfp72456x6nezjw4sd850q879rxqsthg9jp). Your contributions help keep this information up-to-date and valuable for the nostr community.
+This directory is maintained by [aljaz](https://disobey.dev/contact/). Your contributions help keep this information up-to-date and valuable.
 
 ## Contributors
 
