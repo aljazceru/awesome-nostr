@@ -340,6 +340,7 @@ Websites with lists of relays and their performance/health:
 - [mostro-core](https://github.com/MostroP2P/mostro-core) ![stars](https://img.shields.io/github/stars/MostroP2P/mostro-core.svg?style=social) - common types used by mostro and clients  (WIP)
 - [dart NDK](https://github.com/relaystr/ndk) ![stars](https://img.shields.io/github/stars/relaystr/ndk.svg?style=social) - Nostr Development Kit for dart applications
 - [nostrclient](https://github.com/duozhutuan/nostrclient)![stars](https://img.shields.io/github/stars/duozhutuan/nostrclient.svg?style=social)- Nostr python client library
+- [sonos](https://github.com/bvcxza/sonos)![stars](https://img.shields.io/github/stars/duozhutuan/nostrclient.svg?style=social)- C++ library and command line tool for Nostr
 
 ## Bridges and Gateways
 
