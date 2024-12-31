@@ -341,6 +341,7 @@ Websites with lists of relays and their performance/health:
     * Python: https://pypi.org/project/nostr-sdk
 - [rx-nostr](https://github.com/penpenpng/rx-nostr)![stars](https://img.shields.io/github/stars/penpenpng/rx-nostr.svg?style=social) - Supports high quality and flexible communication with multiple Nostr relays.
 - [schorr_snap](https://github.com/neeboo/schnorr_snap)![stars](https://img.shields.io/github/stars/neeboo/schnorr_snap.svg?style=social) - A snap plugin for Metamask Flask, supports nostr
+- [sonos](https://github.com/bvcxza/sonos)![stars](https://img.shields.io/github/stars/duozhutuan/nostrclient.svg?style=social)- C++ library and command line tool for Nostr
 
 ## Bridges and Gateways
 
