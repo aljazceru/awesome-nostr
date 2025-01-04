@@ -457,6 +457,8 @@ Websites with lists of relays and their performance/health:
 - [scoop-nostr](https://github.com/nostorg/scoop-nostr)![stars](https://img.shields.io/github/stars/nostorg/scoop-nostr?style=social) - Scoop bucket for Nostr software.
 - [secret-border](https://github.com/guilhermegps/secret-border)![stars](https://img.shields.io/github/stars/guilhermegps/secret-border.svg?style=social) - A safe Nostr identity generator.
 - [Sendbox](https://sendbox.nostrmo.com/) - A tool to help clients delayed publish your nostr event.
+- [SnapNostr](https://github.com/djhemath/snap-nostr)![stars](https://img.shields.io/github/stars/djhemath/snap-nostr.svg?style=social) - Create clean, customizable screenshots of Nostr posts for seamless sharing.
+  - [snapnostr.app](https://snapnostr.app/) - live instance
 - [Spamster](https://github.com/gourcetools/spamster)![stars](https://img.shields.io/github/stars/gourcetools/spamster.svg?style=social) - Spamster is for testing relays and spam filters.
 - [strfry policies](https://gitlab.com/soapbox-pub/strfry-policies)![stars](https://img.shields.io/gitlab/stars/soapbox-pub/strfry-policies.svg?style=social) - A collection of moderation & antispam policies for the strfry relay developed in TypeScript/Deno.
 - [TaskQ5](https://github.com/duozhutuan/Taskq5)![stars](https://img.shields.io/github/stars/duozhutuan/TaskQ5.svg?style=social) - TaskQ5 is a task distribution platform built on nostr where you can post tasks if you need help
