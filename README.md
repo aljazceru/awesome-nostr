@@ -436,6 +436,7 @@ Websites with lists of relays and their performance/health:
 - [nostrends](https://github.com/akiomik/nostrends)![stars](https://img.shields.io/github/stars/akiomik/nostrends?style=social) - Trending on Nostr, like Twitter trends. Live at [nostrends.vercel.app](https://nostrends.vercel.app).
 - [nostreq](https://github.com/blakejakopovic/nostreq)![stars](https://img.shields.io/github/stars/blakejakopovic/nostreq.svg?style=social) - Nostr relay event request generator
 - [NostrFlu](https://heguro.github.io/nostr-following-list-util/)![stars](https://img.shields.io/github/stars/heguro/nostr-following-list-util.svg?style=social) - A tool to collect and resend following lists from relays. You can also check badges.
+- [NostrHTTP](https://github.com/duozhutuan/NostrHTTP)![stars](https://img.shields.io/github/stars/duozhutuan/NostrHTTP.svg?style=social) - Access Nostr Relay content through the HTTP protocol, addressing the issue of search engine indexing and access to Nostr data. 
 - [nostri.chat](https://nostri.chat/) - An embeded chat widget for your website. (seriously simple like copy/paste)
 - [nostrich.fun](https://nostrich.fun)![stars](https://img.shields.io/github/stars/lightningnetworkstores/lightningnetworkstores.github.io.svg?style=social) - A feature-rich directory of nostr projects. A fork of [LightningNetworkStores.com](https://lightningnetworkstores.com)
 - [nostrify](https://github.com/joelklabo/nostrify)![stars](https://img.shields.io/github/stars/joelklabo/nostrify.svg?style=social) - A Core Lightning plugin that sends events (forwards, connect, disconnect, etc.) to nostr.
@@ -467,6 +468,7 @@ Websites with lists of relays and their performance/health:
 - [tostr](https://github.com/slaninas/tostr)![stars](https://img.shields.io/github/stars/slaninas/tostr.svg?style=social) - a twitter to nostr bot
 - [Undelete my Nostr](https://yonle.github.io/undelete-my-nostr)![stars](https://img.shields.io/github/stars/Yonle/undelete-my-nostr.svg?style=social) - Simple tool for restoring deleted nostr account.
 - [Zapper](https://zapper.nostrapps.org) - Nostr micro-app for zapping
+
 
 ## NIP-05 identity services
 
