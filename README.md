@@ -179,8 +179,10 @@ Websites with lists of relays and their performance/health:
 - [Minds](https://www.minds.com/) - open source social network. Supports reading and creating posts using the nostr protocol
 - [more-speech](https://github.com/unclebob/more-speech)![stars](https://img.shields.io/github/stars/unclebob/more-speech.svg?style=social) - desktop client for nostr written in Clojure
 - [moStard](https://mostard.org) - Nostr web client with Monero tips.
+- [narr](https://github.com/fiatjaf/narr)![stars](https://img.shields.io/github/stars/fiatjaf/narr.svg?style=social) - self-hosted Nostr and RSS reader
 - [nblog](https://github.com/jacany/nblog)![stars](https://img.shields.io/github/stars/jacany/nblog.svg?style=social) - a self-host nostr ghost blog
 - [ni.py](https://github.com/0n4t3/nipy)![stars](https://img.shields.io/github/stars/0n4t3/nipy.svg?style=social) - CLI post only client for Nostr, Activity Pub, and the AT Protocol written in Python.
+- [Noflux](https://github.com/fiatjaf/noflux)![stars](https://img.shields.io/github/stars/fiatjaf/noflux.svg?style=social) - minimalist and opinionated feed reader
 - [Nootti](https://nootti.com) - Cross-posting iOS & iPad client app for Bluesky, Mastodon and Nostr
 - [Nos](https://github.com/planetary-social/nos) ![stars](https://img.shields.io/github/stars/planetary-social/nos.svg?style=social) - A UX-focused iOS / MacOS app written in Swift based on [planetary.social](https://planetary.social)
   - [nos.social](https://nos.social)
