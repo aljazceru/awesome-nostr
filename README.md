@@ -463,6 +463,7 @@ Websites with lists of relays and their performance/health:
 - [tostr](https://github.com/slaninas/tostr)![stars](https://img.shields.io/github/stars/slaninas/tostr.svg?style=social) - a twitter to nostr bot
 - [Undelete my Nostr](https://yonle.github.io/undelete-my-nostr)![stars](https://img.shields.io/github/stars/Yonle/undelete-my-nostr.svg?style=social) - Simple tool for restoring deleted nostr account.
 - [Zapper](https://zapper.nostrapps.org) - Nostr micro-app for zapping
+- [NostrHTTP](https://github.com/duozhutuan/NostrHTTP)![stars](https://img.shields.io/github/stars/duozhutuan/NostrHTTP.svg?style=social) - Access Nostr Relay content through the HTTP protocol, addressing the issue of search engine indexing and access to Nostr data.
 
 ## NIP-05 identity services
 
