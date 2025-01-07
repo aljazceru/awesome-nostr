@@ -162,8 +162,10 @@ Websites with lists of relays and their performance/health:
   - [Android app](https://play.google.com/store/apps/details?id=to.iris.twa)
 - [Jester](https://github.com/jesterui/jesterui) ![stars](https://img.shields.io/github/stars/jesterui/jesterui.svg?style=social) - Chess over nostr
   - [Jester instance](https://jesterui.github.io/)
-- [JiYou](https://github.com/TimA314/JiYou) ![stars](https://img.shields.io/github/stars/TimA314/JiYou.svg?style=social) - A nostr PWA client with a highly customizable UI
+- [JiYou](https://github.com/TimA314/JiYou)![stars](https://img.shields.io/github/stars/TimA314/JiYou.svg?style=social) - A nostr PWA client with a highly customizable UI
   - [JiYou.social](https://JiYou.social) - live instance
+- [Jumble](https://github.com/CodyTseng/jumble)![stars](https://img.shields.io/github/stars/CodyTseng/jumble.svg?style=social) - A web client focused on browsing relay feeds
+  - [jumble.social](https://jumble.social/) - live instance
 - [Lightning.Pub](https://github.com/shocknet/Lightning.Pub)![stars](https://img.shields.io/github/stars/shocknet/Lightning.Pub.svg?style=social) - A nostr daemon for Lightning nodes
 - [Listr](https://listr.lol/) - Curate, organize and discover everything Nostr has to offer. Listr is the best way to create, manage, and browse Nostr lists.
 - [Locus](https://github.com/Myzel394/locus)![stars](https://img.shields.io/github/stars/Myzel394/locus.svg?style=social) - Share your location end-to-end encrypted on decentralized servers using Nostr.
