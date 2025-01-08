@@ -219,7 +219,6 @@ Websites with lists of relays and their performance/health:
 - [nostter](https://github.com/SnowCait/nostter)![stars](https://img.shields.io/github/stars/SnowCait/nostter.svg?style=social) - Twitter-like web client
 - [nostui](https://github.com/akiomik/nostui)![stars](https://img.shields.io/github/stars/akiomik/nostui.svg?style=social) - A TUI client for Nostr
 - [Nostur](https://nostur.com) - Nostr client app for iOS and MacOS. ([Apple Store link](https://apps.apple.com/us/app/nostur/id1672780508))
-- [notebin.org](https://notebin.org)![stars](https://img.shields.io/github/stars/nodetec/notebin.svg?style=social) - Nostr UI created with NextJS, support for markdown and code highlighting
 - [notestack.com](https://notestack.com)![stars](https://img.shields.io/github/stars/nodetec/notestack.svg?style=social) - Blogging site for nostr, supports markdown
 - [Nuxstr](https://github.com/sebastix/nuxstr)![stars](https://img.shields.io/github/stars/sebastix/nuxstr.svg?style=social) - Starter template for building a Nostr client with the Nuxt Vue framework and Nostr Dev Kit (NDK).
   - [nuxstr.nostrver.se](https://nuxstr.nostrver.se) - demo
@@ -398,6 +397,7 @@ Websites with lists of relays and their performance/health:
 - [nos2x - nostr signer extension](https://github.com/fiatjaf/nos2x)![stars](https://img.shields.io/github/stars/fiatjaf/nos2x.svg?style=social) - a browser extension for signing events on 3rd party site without sharing your private keys with them
 - [nosdump](https://github.com/jiftechnify/nosdump)![stars](https://img.shields.io/github/stars/jiftechnify/nosdump.svg?style=social) - A command line tool which dumps (download) events stored in Nostr relays
 - [Nosflare's Send It](https://github.com/Spl0itable/nosflare/blob/main/send-it.js)![stars](https://img.shields.io/github/stars/Spl0itable/nosflare?style=social) - A nostr cloudflare workers proxy relay that publishes to all known relays using nostr.watch API.
+- [noshtastic](https://github.com/ksedgwic/noshtastic)(https://github.com/blakejakopovic/nostcat)![stars](https://img.shields.io/github/stars/ksedgwic/noshtastic.svg?style=social) - A Geo-Specific Virtual Nostr Relay for Meshtastic
 - [nostcat](https://github.com/blakejakopovic/nostcat)![stars](https://img.shields.io/github/stars/blakejakopovic/nostcat.svg?style=social) - cat-like nostr client for scripting and debugging written in Rust
 - [nostpy-cli](https://github.com/UTXOnly/nostpy-cli)![stars](https://img.shields.io/github/stars/UTXOnly/nostpy-cli.svg?style=social) - A Python command line nostr client/tool for relay development
 - [Nostr action](https://github.com/snow-actions/nostr)![stars](https://img.shields.io/github/stars/snow-actions/nostr.svg?style=social) - Send events from GitHub Actions
