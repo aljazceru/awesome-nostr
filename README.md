@@ -7,8 +7,9 @@ nostr.net services [relay.nostr.net](https://relay.nostr.net) ||  [nostr.at](htt
 ### Mobile clients
 - [Damus](https://damus.io/) - The OG nostr client for iOS
 - [Amethyst](https://github.com/vitorpamplona/amethyst) - Android-only app
-- [Primal](https://primal.net/downloads) - iOS and Android apps.
+- [Primal](https://primal.net/downloads) - iOS and Android apps
 - [YakiHonne](https://yakihonne.com/yakihonne-mobile-app) - iOS and Android app
+- [Nos](https://nos.social) - iOS-only app
 
 ### Web clients
 - [snort.social](https://snort.social/)
@@ -188,7 +189,7 @@ Websites with lists of relays and their performance/health:
 - [ni.py](https://github.com/0n4t3/nipy)![stars](https://img.shields.io/github/stars/0n4t3/nipy.svg?style=social) - CLI post only client for Nostr, Activity Pub, and the AT Protocol written in Python.
 - [Noflux](https://github.com/fiatjaf/noflux)![stars](https://img.shields.io/github/stars/fiatjaf/noflux.svg?style=social) - minimalist and opinionated feed reader
 - [Nootti](https://nootti.com) - Cross-posting iOS & iPad client app for Bluesky, Mastodon and Nostr
-- [Nos](https://github.com/planetary-social/nos) ![stars](https://img.shields.io/github/stars/planetary-social/nos.svg?style=social) - A UX-focused iOS / MacOS app written in Swift based on [planetary.social](https://planetary.social)
+- [Nos](https://github.com/planetary-social/nos) ![stars](https://img.shields.io/github/stars/planetary-social/nos.svg?style=social) - A UX-focused iOS / MacOS native app focused on a polished new user experience. [planetary.social](https://planetary.social)
   - [nos.social](https://nos.social)
 - [nosbin](https://nosbin.com/)![stars](https://img.shields.io/github/stars/jacany/nosbin.svg?style=social) - pastebin over nostr
 - [noscl](https://github.com/fiatjaf/noscl)![stars](https://img.shields.io/github/stars/fiatjaf/noscl.svg?style=social) - a basic command-line client written in Go
