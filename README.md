@@ -407,6 +407,7 @@ Websites with lists of relays and their performance/health:
 - [nostpy-cli](https://github.com/UTXOnly/nostpy-cli)![stars](https://img.shields.io/github/stars/UTXOnly/nostpy-cli.svg?style=social) - A Python command line nostr client/tool for relay development
 - [Nostr action](https://github.com/snow-actions/nostr)![stars](https://img.shields.io/github/stars/snow-actions/nostr.svg?style=social) - Send events from GitHub Actions
 - [nostr army knife](https://nak.nostr.com/) - nostr army knife by fiatjaf
+- [Nostr Follow Organizer](https://tsukemonogit.github.io/NFO/)![stars](https://img.shields.io/github/stars/tsukemonogit/nfo.svg?style=social) - A tool to organize people you follow
 - [nostr GitHub Action](https://github.com/theborakompanioni/nostr-action)![stars](https://img.shields.io/github/stars/theborakompanioni/nostr-action.svg?style=social) - send events from GitHub Actions
 - [Nostr NIP-36 Image Redirector](https://github.com/ryogrid/NostrNIP36ImageRedirector) - Reverse proxy server which blocks accesses to NIP-36 marked image files from NOT NIP-36 compliant clients.
 - [Nostr profile manager](https://metadata.nostr.com/) - Backup your nostr profile and metadata
