@@ -225,6 +225,7 @@ Websites with lists of relays and their performance/health:
 - [notestack.com](https://notestack.com)![stars](https://img.shields.io/github/stars/nodetec/notestack.svg?style=social) - Blogging site for nostr, supports markdown
 - [Nuxstr](https://github.com/sebastix/nuxstr)![stars](https://img.shields.io/github/stars/sebastix/nuxstr.svg?style=social) - Starter template for building a Nostr client with the Nuxt Vue framework and Nostr Dev Kit (NDK).
   - [nuxstr.nostrver.se](https://nuxstr.nostrver.se) - demo
+- [Olas](https://github.com/pablof7z/olas)![stars](https://img.shields.io/github/stars/pablof7z/olas.svg?style=social) - An instagram-like client
 - [Oracolo](https://github.com/dtonon/oracolo)![stars](https://img.shields.io/github/stars/dtonon/oracolo.svg?style=social) - Oracolo is a minimalist blog, powered by Nostr, that consists of a single html file.
 - [OstrichGram](https://ostrichgram.com) - OstrichGram is a Telegram-style desktop app for Linux and Windows featuring group chats and DMs.
 - [Pinstr](https://github.com/sepehr-safari/pinstr) ![stars](https://img.shields.io/github/stars/sepehr-safari/pinstr?style=social) - Pinstr is a decentralized and open-source social network for curating and sharing your interests with the world.
