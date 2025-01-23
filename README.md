@@ -173,7 +173,7 @@ Websites with lists of relays and their performance/health:
 - [Listr](https://listr.lol/) - Curate, organize and discover everything Nostr has to offer. Listr is the best way to create, manage, and browse Nostr lists.
 - [Locus](https://github.com/Myzel394/locus)![stars](https://img.shields.io/github/stars/Myzel394/locus.svg?style=social) - Share your location end-to-end encrypted on decentralized servers using Nostr.
 - [loquaz](https://github.com/emeceve/loquaz)![stars](https://img.shields.io/github/stars/emeceve/loquaz.svg?style=social) - a desktop app written in Rust for direct encrypted chat
-- [Lumilumi](http://lumilumi.app/)![stars](https://img.shields.io/github/stars/tsukemonogit/lumilumi) - A nostr web client. Lightweight modes are available, such as not displaying icon images, not loading images automatically, etc.
+- [Lumilumi](http://lumilumi.app/)![stars](https://img.shields.io/github/stars/tsukemonogit/lumilumi.svg?style=social) - A nostr web client. Lightweight modes are available, such as not displaying icon images, not loading images automatically, etc.
 - [LUMINA](https://github.com/mroxso/lumina-rocks-website)![stars](https://img.shields.io/github/stars/mroxso/lumina-rocks-website.svg?style=social) - Nostr client for images.
   - [lumina.rocks](https://lumina.rocks/)
 - [mapstr](https://mapstr.xyz/) - Find local businesses which accept BTC and add reviews to those businesses as a customer. Allows ability to receive Zaps for your reviews. You can also add Nostr notes with coordinates which allows them to be mapped to your location.
@@ -390,6 +390,7 @@ Websites with lists of relays and their performance/health:
 - [LikZap](https://github.com/silencesoft/likzap)![stars](https://img.shields.io/github/stars/silencesoft/likzap.svg?style=social) - A nostr bot to zap a note when you like it.
 - [lnpass](https://lnpass.github.io)![stars](https://img.shields.io/github/stars/lnpass/lnpass-web.svg?style=social) - A key manager for Lightning and nostr.
 - [metadata_updater](https://github.com/UTXOnly/metadata_updater)![stars](https://img.shields.io/github/stars/UTXOnly/metadata_updater.svg?style=social) - Scans all known online nostr relays for stale kind 0 metadata notes, rebroadcasts latest verified note
+- [NAKE](https://tsukemonogit.github.io/nake-website/)![stars](https://img.shields.io/github/stars/tsukemonogit/nake.svg?style=social) - a browser extension to easily convert between Nostr hex IDs and NIP-19 entities.
 - [nashboard](https://github.com/vinliao/nashboard)![stars](https://img.shields.io/github/stars/vinliao/nashboard.svg?style=social) - a Nostr network dashboard with network statistics, reachable [here](https://nashboard.space/)
 - [ndxstr](https://github.com/ArcadeCity/ndxstr)![stars](https://img.shields.io/github/stars/ArcadeCity/ndxstr.svg?style=social) - nostr's layer 2 indexing nodes, with more advanced querying capability than currently supported by relays
 - [nip06-cli](https://github.com/jaonoctus/nip06-cli)![stars](https://img.shields.io/github/stars/jaonoctus/nip06-cli.svg?style=social) - a Node.js CLI to generate or restore NIP-06 seed phrases
