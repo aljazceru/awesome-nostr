@@ -47,6 +47,8 @@ body {
     height: 100vh;
     overflow-y: auto;
     transition: transform 0.3s ease;
+    border-right: 1px solid rgba(110, 84, 148, 0.15);
+    box-shadow: 2px 0 8px rgba(0, 0, 0, 0.05);
 }
 
 .sidebar-header {
@@ -105,6 +107,32 @@ body {
     margin-right: 0.5rem;
     width: 20px;
     text-align: center;
+}
+
+/* Custom Scrollbar Styles */
+.sidebar::-webkit-scrollbar {
+    width: 8px;
+}
+
+.sidebar::-webkit-scrollbar-track {
+    background: var(--sidebar-background);
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
+    opacity: 0.5;
+    border-radius: 4px;
+    transition: background 0.2s ease;
+}
+
+.sidebar::-webkit-scrollbar-thumb:hover {
+    background: var(--hover-color);
+}
+
+/* Firefox scrollbar styles */
+.sidebar {
+    scrollbar-width: thin;
+    scrollbar-color: var(--primary-color) var(--sidebar-background);
 }
 
 /* Main Content Styles */
@@ -334,4 +362,86 @@ body {
 [data-theme="dark"] h3,
 [data-theme="dark"] .markdown-content h3 {
     color: #f1c40f;
+}
+
+/* Main content scrollbar styles */
+.main-content::-webkit-scrollbar {
+    width: 8px;
+}
+
+.main-content::-webkit-scrollbar-track {
+    background: var(--background-color);
+}
+
+.main-content::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
+    opacity: 0.5;
+    border-radius: 4px;
+    transition: background 0.2s ease;
+}
+
+.main-content::-webkit-scrollbar-thumb:hover {
+    background: var(--hover-color);
+}
+
+/* Firefox main content scrollbar styles */
+.main-content {
+    scrollbar-width: thin;
+    scrollbar-color: var(--primary-color) var(--background-color);
+}
+
+/* Dark theme scrollbar adjustments */
+[data-theme="dark"] .sidebar::-webkit-scrollbar-track,
+[data-theme="dark"] .main-content::-webkit-scrollbar-track {
+    background: var(--sidebar-background);
+}
+
+[data-theme="dark"] .sidebar::-webkit-scrollbar-thumb,
+[data-theme="dark"] .main-content::-webkit-scrollbar-thumb {
+    background: rgba(110, 84, 148, 0.6);
+}
+
+[data-theme="dark"] .sidebar::-webkit-scrollbar-thumb:hover,
+[data-theme="dark"] .main-content::-webkit-scrollbar-thumb:hover {
+    background: rgba(110, 84, 148, 0.8);
+}
+
+/* Screen reader only class */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+/* Improve link accessibility */
+a:focus {
+    outline: 2px solid var(--primary-color);
+    outline-offset: 2px;
+}
+
+/* Improve button accessibility */
+button:focus {
+    outline: 2px solid var(--primary-color);
+    outline-offset: 2px;
+}
+
+/* Add focus styles for dark mode */
+[data-theme="dark"] a:focus,
+[data-theme="dark"] button:focus {
+    outline-color: var(--link-color);
+}
+
+/* Footer styles */
+.site-footer {
+    background-color: var(--sidebar-background);
+    color: var(--text-color);
+    text-align: center;
+    padding: 1rem;
+    margin-top: auto;
 } 

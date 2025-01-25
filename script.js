@@ -304,32 +304,37 @@ function parseResourceLine(line) {
 function createResourceCard(resource) {
     const card = document.createElement('div');
     card.className = 'resource-card';
-    card.dataset.stars = resource.stars || 0;
-
-    const formattedContent = `
-        <div class="resource-title"><strong>${resource.name}</strong></div>
-        ${resource.link ? `
-            <div class="resource-link">
-                <a href="${resource.link}" target="_blank">
-                    <i class="fas fa-external-link-alt"></i>
-                    ${resource.link}
+    
+    // Add schema.org structured data
+    card.setAttribute('itemscope', '');
+    card.setAttribute('itemtype', 'https://schema.org/SoftwareApplication');
+    
+    card.innerHTML = `
+        <div class="resource-header">
+            <h3 class="resource-title">
+                <a href="${resource.link}" 
+                   target="_blank" 
+                   rel="noopener"
+                   itemprop="name">
+                    ${resource.name}
+                    <i class="fas fa-external-link-alt" aria-hidden="true"></i>
                 </a>
-            </div>
-        ` : ''}
+            </h3>
+            ${resource.stars ? `
+                <div class="resource-stars" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                    <i class="fas fa-star" aria-hidden="true"></i>
+                    <span itemprop="ratingValue">${resource.stars}</span>
+                    <meta itemprop="ratingCount" content="${resource.stars}">
+                </div>
+            ` : ''}
+        </div>
         ${resource.description ? `
-            <div class="resource-description">
+            <div class="resource-description" itemprop="description">
                 ${resource.description}
-            </div>
-        ` : ''}
-        ${resource.stars ? `
-            <div class="resource-stars">
-                <i class="fas fa-star"></i>
-                ${resource.stars}
             </div>
         ` : ''}
     `;
 
-    card.innerHTML = formattedContent;
     return card;
 }
 
@@ -606,23 +611,31 @@ function createResourceCard(resource) {
     const card = document.createElement('div');
     card.className = 'resource-card';
     
+    // Add schema.org structured data
+    card.setAttribute('itemscope', '');
+    card.setAttribute('itemtype', 'https://schema.org/SoftwareApplication');
+    
     card.innerHTML = `
         <div class="resource-header">
             <h3 class="resource-title">
-                <a href="${resource.link}" target="_blank">
+                <a href="${resource.link}" 
+                   target="_blank" 
+                   rel="noopener"
+                   itemprop="name">
                     ${resource.name}
-                    <i class="fas fa-external-link-alt"></i>
+                    <i class="fas fa-external-link-alt" aria-hidden="true"></i>
                 </a>
             </h3>
             ${resource.stars ? `
-                <div class="resource-stars">
-                    <i class="fas fa-star"></i>
-                    ${resource.stars}
+                <div class="resource-stars" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                    <i class="fas fa-star" aria-hidden="true"></i>
+                    <span itemprop="ratingValue">${resource.stars}</span>
+                    <meta itemprop="ratingCount" content="${resource.stars}">
                 </div>
             ` : ''}
         </div>
         ${resource.description ? `
-            <div class="resource-description">
+            <div class="resource-description" itemprop="description">
                 ${resource.description}
             </div>
         ` : ''}

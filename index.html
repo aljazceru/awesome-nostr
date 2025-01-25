@@ -3,20 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Awesome Nostr Resources</title>
+    <meta name="description" content="A comprehensive collection of Nostr resources, tools, clients, and protocols for developers and users.">
+    <meta name="keywords" content="nostr, cryptocurrency, decentralized social, protocols, tools, clients, resources">
+    <meta name="author" content="Your Name">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Social Media Meta Tags -->
+    <meta property="og:title" content="Awesome Nostr Resources">
+    <meta property="og:description" content="A comprehensive collection of Nostr resources, tools, clients, and protocols for developers and users.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://your-domain.com">
+    <meta property="og:image" content="https://your-domain.com/path-to-image.jpg">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Awesome Nostr Resources">
+    <meta name="twitter:description" content="A comprehensive collection of Nostr resources, tools, clients, and protocols for developers and users.">
+    <meta name="twitter:image" content="https://your-domain.com/path-to-image.jpg">
+    
+    <title>Awesome Nostr Resources | Comprehensive Guide to Nostr Protocol</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
     <div class="container">
         <!-- Sidebar Navigation -->
-        <nav class="sidebar">
-            <div class="sidebar-header">
+        <nav class="sidebar" aria-label="Main navigation">
+            <header class="sidebar-header">
                 <h1>Nostr Resources</h1>
-                <button id="menuToggle" class="menu-toggle">
+                <button id="menuToggle" class="menu-toggle" aria-label="Toggle menu">
                     <i class="fas fa-bars"></i>
                 </button>
-            </div>
+            </header>
             <div class="sidebar-content">
                 <div class="search-box">
                     <input type="text" id="search" placeholder="Search resources...">
@@ -29,26 +47,30 @@
         </nav>
 
         <!-- Main Content -->
-        <main class="main-content">
-            <div class="content-header">
+        <main class="main-content" role="main">
+            <header class="content-header">
                 <div class="view-controls">
-                    <button id="darkModeToggle" class="theme-toggle">
+                    <button id="darkModeToggle" class="theme-toggle" aria-label="Toggle dark mode">
                         <i class="fas fa-moon"></i>
                     </button>
                     <div class="sort-controls">
-                        <select id="sortSelect">
+                        <label for="sortSelect" class="sr-only">Sort resources by</label>
+                        <select id="sortSelect" aria-label="Sort resources">
                             <option value="stars">Sort by Stars</option>
                             <option value="name">Sort by Name</option>
                             <option value="recent">Sort by Recent</option>
                         </select>
                     </div>
                 </div>
-            </div>
+            </header>
 
-            <!-- Resource sections will be dynamically populated -->
-            <div id="resources-container"></div>
+            <div id="resources-container" role="region" aria-label="Resource listings"></div>
         </main>
     </div>
+    
+    <footer class="site-footer">
+        <p>&copy; 2024 Awesome Nostr Resources. All rights reserved.</p>
+    </footer>
     <!-- Add marked.js before your script -->
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script src="script.js"></script>
