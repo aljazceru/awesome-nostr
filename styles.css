@@ -36,7 +36,7 @@ body {
 .container {
     display: flex;
     min-height: 100vh;
-    margin-top: 60px; /* Height of top nav */
+    margin-top: 0; /* Remove this as we're using padding-top in main-content */
 }
 
 /* Sidebar Styles */
@@ -50,11 +50,12 @@ body {
     transition: transform 0.3s ease;
     border-right: 1px solid rgba(110, 84, 148, 0.15);
     box-shadow: 2px 0 8px rgba(0, 0, 0, 0.05);
-    top: 60px; /* Start below top nav */
+    top: 60px; /* Align with top nav */
     touch-action: pan-y pinch-zoom;
     will-change: transform;
     -webkit-overflow-scrolling: touch;
     overscroll-behavior: contain;
+    padding-top: 1rem; /* Add some padding at the top */
 }
 
 .sidebar-header {
@@ -158,6 +159,7 @@ body {
 .main-content {
     margin-left: 280px;
     padding: 2rem;
+    padding-top: 80px; /* Increased padding-top to account for fixed nav */
     flex: 1;
     min-height: 100vh;
     overflow: auto;
@@ -275,6 +277,7 @@ body {
 
     .main-content {
         margin-left: 0;
+        padding-top: 100px; /* Increase padding-top for mobile to account for wrapped nav elements */
     }
 
     .menu-toggle {
@@ -288,6 +291,7 @@ body {
     .nav-content {
         flex-wrap: wrap;
         gap: 0.5rem;
+        padding: 0.5rem 3.5rem;
     }
     
     .nav-content h1 {
@@ -301,6 +305,7 @@ body {
         width: 100%;
         max-width: none;
         margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
     }
 
     .nav-links a {
@@ -457,8 +462,13 @@ body {
     color: #f1c40f;
 }
 
+/* Update resource container header styles */
 #resources-container h2 {
     color: var(--primary-color);
+    margin-top: 1rem;    /* Add top margin to push content down */
+    padding-top: 1rem;   /* Add padding to create more space */
+    position: relative;  /* Ensure it's positioned relative to its container */
+    z-index: 1;         /* Keep it above other content but below the nav */
 }
 
 /* Main content scrollbar styles */
@@ -694,6 +704,10 @@ button:focus {
     .theme-select {
         max-width: 90px;
     }
+
+    .main-content {
+        padding-top: 120px; /* Further increase padding-top for very small screens */
+    }
 }
 
 /* Update menu toggle position */
@@ -776,5 +790,22 @@ button:focus {
     .theme-select {
         font-size: 0.8rem;
         padding: 0.3rem 0.6rem;
+    }
+}
+
+/* Adjust responsive spacing */
+@media (max-width: 768px) {
+    .main-content {
+        padding-top: 120px;  /* Increase padding further */
+    }
+    
+    #resources-container h2 {
+        margin-top: 0.5rem;  /* Adjust margin for mobile */
+    }
+}
+
+@media (max-width: 480px) {
+    .main-content {
+        padding-top: 140px;  /* Even more padding for smallest screens */
     }
 }
