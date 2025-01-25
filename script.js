@@ -26,9 +26,9 @@ searchInput.addEventListener('input', (e) => {
     
     if (!searchTerm) {
         // If search is empty, restore current category view
-        const currentCategory = document.querySelector('.nav-links a.active')?.getAttribute('href')?.replace('#', '');
+        const currentCategory = document.querySelector('.nav-links a.active')?.textContent;
         if (currentCategory) {
-            populateResources(currentCategory, window.parsedResources);
+            displaySection(currentCategory, window.parsedResources);
         }
         return;
     }
@@ -36,45 +36,55 @@ searchInput.addEventListener('input', (e) => {
     // Clear current container
     container.innerHTML = '';
     
-    // Search through all categories
-    Object.entries(window.parsedResources).forEach(([category, resources]) => {
-        resources.forEach(resource => {
-            let shouldShow = false;
-            
-            if (resource.type) {
-                // Handle special sections (contributors, contributing)
-                if (resource.type === 'markdown') {
-                    shouldShow = resource.content.toLowerCase().includes(searchTerm);
-                } else if (resource.type === 'github-contributors') {
-                    // Skip contributors section in search
-                    return;
+    // Search through all sections
+    Object.entries(window.parsedResources).forEach(([sectionName, sectionContent]) => {
+        sectionContent.forEach(item => {
+            if (item.type === 'resources') {
+                // Search through resource lists
+                Array.from(item.element.children).forEach(li => {
+                    const resourceName = li.querySelector('a')?.textContent || '';
+                    const resourceLink = li.querySelector('a')?.href || '';
+                    const resourceDescription = li.textContent.split('- ')[1]?.trim() || '';
+                    
+                    const searchableText = [resourceName, resourceDescription, resourceLink]
+                        .join(' ')
+                        .toLowerCase();
+                    
+                    if (searchableText.includes(searchTerm)) {
+                        const card = createResourceCard({
+                            name: resourceName,
+                            link: resourceLink,
+                            description: resourceDescription,
+                            stars: li.querySelector('img[alt="stars"]')
+                                ? parseInt(li.querySelector('img[alt="stars"]').src.match(/stars\/(\d+)/)?.[1]) || 0
+                                : 0
+                        });
+                        
+                        // Add section label to card
+                        const sectionLabel = document.createElement('div');
+                        sectionLabel.className = 'category-label';
+                        sectionLabel.textContent = sectionName;
+                        card.insertBefore(sectionLabel, card.firstChild);
+                        
+                        container.appendChild(card);
+                    }
+                });
+            } else if (item.type === 'content') {
+                // Search through regular content
+                const contentText = item.element.textContent.toLowerCase();
+                if (contentText.includes(searchTerm)) {
+                    const contentDiv = document.createElement('div');
+                    contentDiv.className = 'markdown-content';
+                    contentDiv.innerHTML = item.element.outerHTML;
+                    
+                    // Add section label
+                    const sectionLabel = document.createElement('div');
+                    sectionLabel.className = 'category-label';
+                    sectionLabel.textContent = sectionName;
+                    
+                    container.appendChild(sectionLabel);
+                    container.appendChild(contentDiv);
                 }
-            } else {
-                // Regular resources
-                const searchableText = [
-                    resource.name,
-                    resource.description,
-                    resource.link
-                ].filter(Boolean).join(' ').toLowerCase();
-                
-                shouldShow = searchableText.includes(searchTerm);
-            }
-            
-            if (shouldShow) {
-                let card;
-                if (resource.type) {
-                    card = createSpecialSectionCard(resource);
-                } else {
-                    card = createResourceCard(resource);
-                }
-                
-                // Add category label to card
-                const categoryLabel = document.createElement('div');
-                categoryLabel.className = 'category-label';
-                categoryLabel.textContent = category.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
-                card.insertBefore(categoryLabel, card.firstChild);
-                
-                container.appendChild(card);
             }
         });
     });

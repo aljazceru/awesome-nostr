@@ -5,6 +5,9 @@
     --card-background: #f5f5f5;
     --sidebar-background: #f8f9fa;
     --hover-color: #563d7c;
+    --text-primary: var(--text-color);
+    --link-color: var(--primary-color);
+    --star-color: #f1c40f;
 }
 
 /* Dark theme variables */
@@ -13,6 +16,8 @@
     --text-color: #ffffff;
     --card-background: #2d2d2d;
     --sidebar-background: #252525;
+    --text-primary: var(--text-color);
+    --link-color: #ffa500;
 }
 
 * {
@@ -138,7 +143,7 @@ body {
 .resource-title {
     font-size: 1.2em;
     margin-bottom: 8px;
-    color: var(--text-primary);
+    color: var(--text-color);
 }
 
 .resource-link {
@@ -146,7 +151,7 @@ body {
 }
 
 .resource-link a {
-    color: var(--primary-color);
+    color: var(--link-color);
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -178,7 +183,7 @@ body {
 }
 
 .fa-star {
-    color: #f1c40f;
+    color: var(--star-color);
 }
 
 .fa-external-link-alt {
@@ -211,7 +216,7 @@ body {
 }
 
 .markdown-content a {
-    color: #0366d6;
+    color: var(--link-color);
     text-decoration: none;
 }
 
@@ -275,7 +280,7 @@ body {
 }
 
 .resource-description a {
-    color: var(--primary-color);
+    color: var(--link-color);
     text-decoration: none;
 }
 
@@ -323,4 +328,10 @@ body {
     border-left: 4px solid #ff4444;
     color: #dc3545;
     border-radius: 4px;
+}
+
+/* Add H3 styling for dark mode */
+[data-theme="dark"] h3,
+[data-theme="dark"] .markdown-content h3 {
+    color: #f1c40f;
 } 
