@@ -1,23 +1,23 @@
 :root {
-    --primary-color: #6e5494;
+    --primary-color: #4a314d;
     --background-color: #ffffff;
-    --text-color: #333333;
-    --card-background: #f5f5f5;
-    --sidebar-background: #f8f9fa;
-    --hover-color: #563d7c;
+    --text-color: #1a090d;
+    --card-background: #a8ba9a;
+    --sidebar-background: #6b6570;
+    --hover-color: #ace894;
     --text-primary: var(--text-color);
     --link-color: var(--primary-color);
-    --star-color: #f1c40f;
+    --star-color: #4a314d;
 }
 
 /* Dark theme variables */
 [data-theme="dark"] {
-    --background-color: #1a1a1a;
-    --text-color: #ffffff;
-    --card-background: #2d2d2d;
-    --sidebar-background: #252525;
+    --background-color: #1a090d;
+    --text-color: #ace894;
+    --card-background: #4a314d;
+    --sidebar-background: #6b6570;
     --text-primary: var(--text-color);
-    --link-color: #ffa500;
+    --link-color: #a8ba9a;
 }
 
 * {
@@ -79,7 +79,7 @@ body {
     padding: 0.5rem 2rem 0.5rem 1rem;
     border: none;
     border-radius: 4px;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(226, 194, 198, 0.2);
     color: white;
 }
 
@@ -230,7 +230,7 @@ body {
     line-height: 1.5;
     font-size: 0.95em;
     padding: 8px 12px;
-    background: rgba(110, 84, 148, 0.05);
+    background: rgba(156, 82, 139, 0.05);
     border-radius: 4px;
     border-left: 3px solid var(--primary-color);
 }
@@ -385,7 +385,7 @@ body {
     text-transform: capitalize;
     margin-bottom: 8px;
     padding: 2px 8px;
-    background-color: rgba(110, 84, 148, 0.1);
+    background-color: rgba(156, 82, 139, 0.1);
     border-radius: 4px;
     display: inline-block;
 }
@@ -631,7 +631,7 @@ button:focus {
 }
 
 .menu-toggle:hover {
-    background-color: var(--primary-color-dark);
+    background-color: var(--hover-color);
     transform: scale(1.05);
 }
 
@@ -653,4 +653,48 @@ button:focus {
     }
 
     /* Rest of your mobile styles... */
+}
+
+/* Theme selector styles */
+.theme-controls {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.theme-select {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+    padding: 0.4rem 0.8rem;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.theme-select:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.theme-select:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.3);
+}
+
+.theme-select option {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+    .theme-controls {
+        gap: 0.5rem;
+    }
+    
+    .theme-select {
+        font-size: 0.8rem;
+        padding: 0.3rem 0.6rem;
+    }
 } 

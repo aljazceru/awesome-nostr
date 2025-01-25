@@ -2,6 +2,78 @@
 const darkModeToggle = document.getElementById('darkModeToggle');
 const body = document.body;
 
+// Color theme definitions
+const colorThemes = {
+    default: {
+        light: {
+            primary: '#4a314d',
+            background: '#ffffff',
+            text: '#1a090d',
+            cardBackground: '#a8ba9a',
+            sidebarBackground: '#6b6570',
+            hoverColor: '#ace894'
+        },
+        dark: {
+            background: '#1a090d',
+            text: '#ace894',
+            cardBackground: '#4a314d',
+            sidebarBackground: '#6b6570',
+            linkColor: '#a8ba9a'
+        }
+    },
+    purple: {
+        light: {
+            primary: '#9c528b',
+            background: '#ffffff',
+            text: '#2f0147',
+            cardBackground: '#e2c2c6',
+            sidebarBackground: '#b9929f',
+            hoverColor: '#610f7f'
+        },
+        dark: {
+            background: '#2f0147',
+            text: '#e2c2c6',
+            cardBackground: '#9c528b',
+            sidebarBackground: '#610f7f',
+            linkColor: '#b9929f'
+        }
+    },
+    nature: {
+        light: {
+            primary: '#2c5530',
+            background: '#ffffff',
+            text: '#1a2f1c',
+            cardBackground: '#a7c4aa',
+            sidebarBackground: '#718355',
+            hoverColor: '#90a955'
+        },
+        dark: {
+            background: '#1a2f1c',
+            text: '#90a955',
+            cardBackground: '#2c5530',
+            sidebarBackground: '#718355',
+            linkColor: '#a7c4aa'
+        }
+    },
+    sunset: {
+        light: {
+            primary: '#cf5c36',
+            background: '#ffffff',
+            text: '#1f1f1f',
+            cardBackground: '#eec584',
+            sidebarBackground: '#c8963e',
+            hoverColor: '#f3a953'
+        },
+        dark: {
+            background: '#1f1f1f',
+            text: '#eec584',
+            cardBackground: '#cf5c36',
+            sidebarBackground: '#c8963e',
+            linkColor: '#f3a953'
+        }
+    }
+};
+
 // Initialize theme from localStorage or system preference
 document.addEventListener('DOMContentLoaded', () => {
     const savedTheme = localStorage.getItem('theme');
@@ -18,6 +90,20 @@ document.addEventListener('DOMContentLoaded', () => {
     darkModeToggle.innerHTML = body.dataset.theme === 'dark' 
         ? '<i class="fas fa-sun"></i>' 
         : '<i class="fas fa-moon"></i>';
+
+    const colorThemeSelect = document.getElementById('colorThemeSelect');
+    
+    // Initialize theme from localStorage
+    const savedColorTheme = localStorage.getItem('colorTheme') || 'default';
+    colorThemeSelect.value = savedColorTheme;
+    applyColorTheme(savedColorTheme);
+    
+    // Handle theme changes
+    colorThemeSelect.addEventListener('change', (e) => {
+        const selectedTheme = e.target.value;
+        localStorage.setItem('colorTheme', selectedTheme);
+        applyColorTheme(selectedTheme);
+    });
 });
 
 darkModeToggle.addEventListener('click', () => {
@@ -28,6 +114,10 @@ darkModeToggle.addEventListener('click', () => {
     darkModeToggle.innerHTML = newTheme === 'dark' 
         ? '<i class="fas fa-sun"></i>' 
         : '<i class="fas fa-moon"></i>';
+    
+    // Reapply color theme with new dark/light mode
+    const currentColorTheme = localStorage.getItem('colorTheme') || 'default';
+    applyColorTheme(currentColorTheme);
 });
 
 // Mobile menu toggle
@@ -615,5 +705,17 @@ function displaySection(sectionName, sections) {
                 container.appendChild(card);
             });
         }
+    });
+}
+
+function applyColorTheme(themeName) {
+    const isDark = document.body.dataset.theme === 'dark';
+    const theme = colorThemes[themeName][isDark ? 'dark' : 'light'];
+    
+    // Apply theme colors to CSS variables
+    const root = document.documentElement;
+    Object.entries(theme).forEach(([key, value]) => {
+        const cssVar = `--${key.replace(/([A-Z])/g, '-$1').toLowerCase()}`;
+        root.style.setProperty(cssVar, value);
     });
 }
