@@ -1,6 +1,11 @@
-// Dark mode toggle
+// Move these declarations to the very top of the file
 const darkModeToggle = document.getElementById('darkModeToggle');
+const menuToggle = document.getElementById('menuToggle');
+const sidebar = document.querySelector('.sidebar');
 const body = document.body;
+let touchStartX = 0;
+let touchEndX = 0;
+let touchStartY = 0;
 
 // Color theme definitions
 const colorThemes = {
@@ -142,59 +147,82 @@ const colorThemes = {
     }
 };
 
-// Initialize theme from localStorage or system preference
+// Initialize all UI controls
 document.addEventListener('DOMContentLoaded', () => {
+    // Dark mode initialization
     const savedTheme = localStorage.getItem('theme');
     if (savedTheme) {
         body.dataset.theme = savedTheme;
     } else {
-        // Check system preference if no saved theme
         const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
         body.dataset.theme = prefersDark ? 'dark' : 'light';
         localStorage.setItem('theme', body.dataset.theme);
     }
     
-    // Update toggle button icon
-    darkModeToggle.innerHTML = body.dataset.theme === 'dark' 
-        ? '<i class="fas fa-sun"></i>' 
-        : '<i class="fas fa-moon"></i>';
+    // Update dark mode toggle button icon
+    updateDarkModeIcon();
 
+    // Dark mode toggle event listener
+    darkModeToggle.addEventListener('click', () => {
+        body.dataset.theme = body.dataset.theme === 'dark' ? 'light' : 'dark';
+        localStorage.setItem('theme', body.dataset.theme);
+        updateDarkModeIcon();
+        
+        // Reapply color theme when switching dark/light mode
+        const currentColorTheme = localStorage.getItem('colorTheme') || 'default';
+        applyColorTheme(currentColorTheme);
+    });
+
+    // Color theme initialization
     const colorThemeSelect = document.getElementById('colorThemeSelect');
-    
-    // Initialize theme from localStorage
     const savedColorTheme = localStorage.getItem('colorTheme') || 'default';
     colorThemeSelect.value = savedColorTheme;
     applyColorTheme(savedColorTheme);
     
-    // Handle theme changes
+    // Color theme change event listener
     colorThemeSelect.addEventListener('change', (e) => {
         const selectedTheme = e.target.value;
         localStorage.setItem('colorTheme', selectedTheme);
         applyColorTheme(selectedTheme);
     });
+
+    // Test if marked is loaded
+    if (typeof marked === 'undefined') {
+        console.error('marked.js is not loaded!');
+        document.getElementById('resources-container').innerHTML = `
+            <div class="error-message">
+                Error: marked.js library is not loaded properly.
+            </div>`;
+        return;
+    }
+
+    // If everything is working, proceed with main functionality
+    parseAndDisplayContent()
+        .then(() => console.log('Content successfully parsed and displayed'))
+        .catch(error => {
+            console.error('Error in main content processing:', error);
+            document.getElementById('resources-container').innerHTML = `
+                <div class="error-message">
+                    Error loading content: ${error.message}
+                </div>`;
+        });
 });
 
-darkModeToggle.addEventListener('click', () => {
-    const newTheme = body.dataset.theme === 'dark' ? 'light' : 'dark';
-    body.dataset.theme = newTheme;
-    localStorage.setItem('theme', newTheme);
-    
-    darkModeToggle.innerHTML = newTheme === 'dark' 
+// Helper function to update dark mode icon
+function updateDarkModeIcon() {
+    darkModeToggle.innerHTML = body.dataset.theme === 'dark' 
         ? '<i class="fas fa-sun"></i>' 
         : '<i class="fas fa-moon"></i>';
+}
+
+function handleSwipe() {
+    const swipeThreshold = 100;
+    const swipeDistance = touchStartX - touchEndX;
     
-    // Reapply color theme with new dark/light mode
-    const currentColorTheme = localStorage.getItem('colorTheme') || 'default';
-    applyColorTheme(currentColorTheme);
-});
-
-// Mobile menu toggle
-const menuToggle = document.getElementById('menuToggle');
-const sidebar = document.querySelector('.sidebar');
-
-menuToggle.addEventListener('click', () => {
-    sidebar.classList.toggle('active');
-});
+    if (swipeDistance > swipeThreshold && sidebar.classList.contains('active')) {
+        sidebar.classList.remove('active');
+    }
+}
 
 // Search functionality
 const searchInput = document.getElementById('search');
@@ -655,33 +683,6 @@ function generateNavigation(sectionNames) {
     }
 }
 
-// Remove the old fetch call and replace with this initialization
-document.addEventListener('DOMContentLoaded', () => {
-    // Test if marked is loaded
-    if (typeof marked === 'undefined') {
-        console.error('marked.js is not loaded!');
-        document.getElementById('resources-container').innerHTML = `
-            <div class="error-message">
-                Error: marked.js library is not loaded properly.
-            </div>`;
-        return;
-    }
-
-    // Test marked with a simple markdown string
-    console.log('marked.js test:', marked.parse('# Test\nThis is a *test* of **marked.js**'));
-
-    // If everything is working, proceed with main functionality
-    parseAndDisplayContent()
-        .then(() => console.log('Content successfully parsed and displayed'))
-        .catch(error => {
-            console.error('Error in main content processing:', error);
-            document.getElementById('resources-container').innerHTML = `
-                <div class="error-message">
-                    Error loading content: ${error.message}
-                </div>`;
-        });
-});
-
 async function parseAndDisplayContent() {
     try {
         const response = await fetch('./README.md');
@@ -787,3 +788,27 @@ function applyColorTheme(themeName) {
         root.style.setProperty(cssVar, value);
     });
 }
+
+// Mobile menu toggle functionality
+menuToggle.addEventListener('click', () => {
+    sidebar.classList.toggle('active');
+});
+
+// Optional: Close sidebar when clicking outside
+document.addEventListener('click', (e) => {
+    if (window.innerWidth <= 768) {  // Only on mobile
+        const isClickInsideSidebar = sidebar.contains(e.target);
+        const isClickOnMenuToggle = menuToggle.contains(e.target);
+        
+        if (!isClickInsideSidebar && !isClickOnMenuToggle && sidebar.classList.contains('active')) {
+            sidebar.classList.remove('active');
+        }
+    }
+});
+
+// Optional: Close sidebar when pressing Escape key
+document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && sidebar.classList.contains('active')) {
+        sidebar.classList.remove('active');
+    }
+});

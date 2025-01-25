@@ -51,6 +51,9 @@ body {
     border-right: 1px solid rgba(110, 84, 148, 0.15);
     box-shadow: 2px 0 8px rgba(0, 0, 0, 0.05);
     top: 60px; /* Start below top nav */
+    touch-action: pan-y;
+    will-change: transform;
+    -webkit-overflow-scrolling: touch;
 }
 
 .sidebar-header {
@@ -254,12 +257,17 @@ body {
 /* Responsive Design */
 @media (max-width: 768px) {
     .sidebar {
-        transform: translateX(-100%);
+        transform: translateX(-100%); /* Start off-screen */
+        position: fixed;
         z-index: 1000;
+        touch-action: pan-y pinch-zoom;
+        will-change: transform;
+        transition: transform 0.3s ease;
     }
-
+    
     .sidebar.active {
         transform: translateX(0);
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
     }
 
     .main-content {
@@ -505,11 +513,11 @@ button:focus {
     margin-top: auto;
 }
 
-/* Add top navigation styles */
+/* Update top navigation styles */
 .top-nav {
     background-color: var(--primary-color);
     color: white;
-    padding: 1rem;
+    padding: 0.75rem;
     position: fixed;
     top: 0;
     left: 0;
@@ -571,12 +579,10 @@ button:focus {
 }
 
 .logo-container {
-    height: 50px;
-    width: 200px; /* Adjust this value to your preferred width */
+    height: 40px;
+    width: 160px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    overflow: hidden;
 }
 
 .nav-logo {
@@ -585,61 +591,99 @@ button:focus {
     object-fit: cover; /* This will maintain aspect ratio while fitting within the container */
 }
 
-/* Adjust container size for mobile */
+/* Update responsive styles */
 @media (max-width: 768px) {
+    .nav-content {
+        padding: 0 3.5rem; /* Make space for menu toggle */
+    }
+
+    .menu-toggle {
+        top: 12px; /* Adjust position to align with nav */
+        left: 12px;
+    }
+
+    /* Adjust logo size for mobile */
     .logo-container {
-        height: 40px;
-        width: 160px; /* Proportionally smaller for mobile */
+        height: 32px;
+        width: 120px;
     }
-    
-    .nav-content h1 {
-        width: auto;
-        text-align: left;
+
+    /* Make search more compact on mobile */
+    .search-box {
+        max-width: 160px;
+    }
+
+    .search-box input {
+        padding: 0.4rem 1.8rem 0.4rem 0.8rem;
+        font-size: 0.9rem;
+    }
+
+    /* Adjust theme controls for mobile */
+    .theme-controls {
+        display: flex;
+        gap: 0.5rem;
+    }
+
+    .theme-select {
+        max-width: 100px;
+        font-size: 0.8rem;
+        padding: 0.3rem;
+    }
+
+    .theme-toggle {
+        padding: 0.3rem;
+        font-size: 1rem;
     }
 }
 
-.sidebar h2:first-of-type {
-    margin-top: 80px; /* Increased spacing from top nav */
-    font-weight: 400; /* Reduced from default bold/600 to normal/400 */
-}
+/* Extra small screens */
+@media (max-width: 480px) {
+    .nav-content {
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        padding: 0 3rem;
+    }
 
-/* Adjust for mobile if needed */
-@media (max-width: 768px) {
-    .sidebar h2:first-of-type {
-        margin-top: 70px; /* Slightly less space on mobile */
+    .logo-container {
+        order: 1;
+        height: 28px;
+        width: 100px;
+    }
+
+    .search-box {
+        order: 3;
+        width: 100%;
+        max-width: none;
+        margin-top: 0.3rem;
+    }
+
+    .theme-controls {
+        order: 2;
+    }
+
+    .theme-select {
+        max-width: 90px;
     }
 }
 
-/* Update menu toggle button styles */
+/* Update menu toggle position */
 .menu-toggle {
     display: none;
-    background: none;
-    border: none;
-    color: var(--text-color);
-    font-size: 1.2rem; /* Reduced from 1.5rem */
-    cursor: pointer;
-    padding: 0.4rem 0.6rem; /* Adjusted padding */
     position: fixed;
-    top: 15px; /* Align with top nav content */
-    left: 15px;
+    top: 12px;
+    left: 12px;
     z-index: 1002;
     background-color: var(--primary-color);
-    border-radius: 4px;
     color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 0.4rem 0.6rem;
+    cursor: pointer;
+    font-size: 1.1rem;
     box-shadow: 0 1px 3px rgba(0,0,0,0.2);
     transition: all 0.2s ease;
 }
 
-.menu-toggle:hover {
-    background-color: var(--hover-color);
-    transform: scale(1.05);
-}
-
-.menu-toggle:active {
-    transform: scale(0.95);
-}
-
-/* Update mobile responsive styles */
 @media (max-width: 768px) {
     .menu-toggle {
         display: flex;
@@ -647,12 +691,18 @@ button:focus {
         justify-content: center;
     }
 
-    /* Adjust top nav padding to accommodate menu toggle */
-    .nav-content {
-        padding-left: 3.5rem; /* Make room for menu toggle */
+    .sidebar {
+        transform: translateX(-100%);
     }
 
-    /* Rest of your mobile styles... */
+    .sidebar.active {
+        transform: translateX(0);
+    }
+
+    .main-content {
+        margin-left: 0;
+        width: 100%;
+    }
 }
 
 /* Theme selector styles */
@@ -697,4 +747,4 @@ button:focus {
         font-size: 0.8rem;
         padding: 0.3rem 0.6rem;
     }
-} 
+}
