@@ -588,4 +588,61 @@ button:focus {
         width: auto;
         text-align: left;
     }
+}
+
+.sidebar h2:first-of-type {
+    margin-top: 80px; /* Increased spacing from top nav */
+    font-weight: 400; /* Reduced from default bold/600 to normal/400 */
+}
+
+/* Adjust for mobile if needed */
+@media (max-width: 768px) {
+    .sidebar h2:first-of-type {
+        margin-top: 70px; /* Slightly less space on mobile */
+    }
+}
+
+/* Update menu toggle button styles */
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: var(--text-color);
+    font-size: 1.2rem; /* Reduced from 1.5rem */
+    cursor: pointer;
+    padding: 0.4rem 0.6rem; /* Adjusted padding */
+    position: fixed;
+    top: 15px; /* Align with top nav content */
+    left: 15px;
+    z-index: 1002;
+    background-color: var(--primary-color);
+    border-radius: 4px;
+    color: white;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    transition: all 0.2s ease;
+}
+
+.menu-toggle:hover {
+    background-color: var(--primary-color-dark);
+    transform: scale(1.05);
+}
+
+.menu-toggle:active {
+    transform: scale(0.95);
+}
+
+/* Update mobile responsive styles */
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* Adjust top nav padding to accommodate menu toggle */
+    .nav-content {
+        padding-left: 3.5rem; /* Make room for menu toggle */
+    }
+
+    /* Rest of your mobile styles... */
 } 
