@@ -209,85 +209,126 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>`;
         });
 
-    // Enhanced touch handling for sidebar
-    touchStartX = 0;
-    touchStartY = 0;
-    touchEndX = 0;
-    touchEndY = 0;
-    isSwiping = false;
+    // Ensure we're working with valid elements
+    if (!sidebar || !menuToggle) {
+        console.error('Required elements not found');
+        return;
+    }
 
-    // Track touch movements
-    document.addEventListener('touchstart', (e) => {
+    // Single function to handle sidebar state
+    const toggleSidebar = (show) => {
+        if (show === undefined) {
+            sidebar.classList.toggle('active');
+        } else {
+            sidebar.classList[show ? 'add' : 'remove']('active');
+        }
+        // Update aria-expanded state
+        menuToggle.setAttribute('aria-expanded', sidebar.classList.contains('active'));
+    };
+
+    // Menu toggle click handler
+    menuToggle.addEventListener('click', (e) => {
+        e.stopPropagation();
+        toggleSidebar();
+    });
+
+    // Delegate sidebar link clicks using event delegation
+    document.querySelector('.nav-links').addEventListener('click', (e) => {
+        const link = e.target.closest('a');
+        if (!link) return;
+
+        e.preventDefault();
+
+        // Remove active class from all links
+        document.querySelectorAll('.nav-links a').forEach(l => 
+            l.classList.remove('active')
+        );
+        
+        // Add active class to clicked link
+        link.classList.add('active');
+        
+        // Get section name and display it
+        const section = link.getAttribute('data-section');
+        displaySection(section, window.parsedResources);
+        
+        // Close sidebar on mobile
+        if (window.innerWidth <= 768) {
+            toggleSidebar(false);
+        }
+    });
+
+    // Touch handling
+    let touchStartX = 0;
+    let touchStartY = 0;
+    let touchEndX = 0;
+    let touchEndY = 0;
+    let isSwiping = false;
+
+    const handleTouchStart = (e) => {
         touchStartX = e.touches[0].clientX;
         touchStartY = e.touches[0].clientY;
         isSwiping = true;
-    }, { passive: true });
+    };
 
-    document.addEventListener('touchmove', (e) => {
+    const handleTouchMove = (e) => {
         if (!isSwiping) return;
         
         touchEndX = e.touches[0].clientX;
         touchEndY = e.touches[0].clientY;
 
-        // Calculate vertical and horizontal distance
         const deltaX = touchStartX - touchEndX;
         const deltaY = Math.abs(touchStartY - touchEndY);
 
-        // If vertical scrolling is more prominent, don't handle swipe
         if (deltaY > Math.abs(deltaX)) {
             isSwiping = false;
             return;
         }
 
-        // Prevent default only if horizontal swipe is significant
         if (Math.abs(deltaX) > 10) {
             e.preventDefault();
         }
-    }, { passive: false });
+    };
 
-    document.addEventListener('touchend', () => {
+    const handleTouchEnd = () => {
         if (!isSwiping) return;
         
         const deltaX = touchStartX - touchEndX;
         const deltaY = Math.abs(touchStartY - touchEndY);
         const swipeThreshold = 50;
 
-        // Only handle horizontal swipes
         if (Math.abs(deltaX) > swipeThreshold && deltaY < 100) {
-            if (deltaX > 0) {
-                // Swipe left - close sidebar
-                sidebar.classList.remove('active');
-            } else {
-                // Swipe right - open sidebar
-                sidebar.classList.add('active');
-            }
+            toggleSidebar(deltaX < 0);
         }
         
         isSwiping = false;
-    }, { passive: true });
+    };
 
-    // Update sidebar link click handling
-    document.querySelectorAll('.nav-links a').forEach(link => {
-        link.addEventListener('click', (e) => {
-            e.preventDefault();
-            
-            // Remove active class from all links
-            document.querySelectorAll('.nav-links a').forEach(l => 
-                l.classList.remove('active')
-            );
-            
-            // Add active class to clicked link
-            link.classList.add('active');
-            
-            // Get section name and display it
-            const section = link.getAttribute('data-section');
-            displaySection(section, window.parsedResources);
-            
-            // Close sidebar on mobile
-            if (window.innerWidth <= 768) {
-                sidebar.classList.remove('active');
+    // Add touch event listeners
+    document.addEventListener('touchstart', handleTouchStart, { passive: true });
+    document.addEventListener('touchmove', handleTouchMove, { passive: false });
+    document.addEventListener('touchend', handleTouchEnd, { passive: true });
+
+    // Close sidebar when clicking outside
+    document.addEventListener('click', (e) => {
+        if (window.innerWidth <= 768 && 
+            !sidebar.contains(e.target) && 
+            !menuToggle.contains(e.target) && 
+            sidebar.classList.contains('active')) {
+            toggleSidebar(false);
+        }
+    });
+
+    // Handle window resize
+    let resizeTimer;
+    window.addEventListener('resize', () => {
+        clearTimeout(resizeTimer);
+        resizeTimer = setTimeout(() => {
+            if (window.innerWidth > 768) {
+                toggleSidebar(true);
+            } else {
+                toggleSidebar(false);
             }
-        });
+        }, 250);
     });
 });
 
@@ -871,27 +912,3 @@ function applyColorTheme(themeName) {
         root.style.setProperty(cssVar, value);
     });
 }
-
-// Mobile menu toggle functionality
-menuToggle.addEventListener('click', () => {
-    sidebar.classList.toggle('active');
-});
-
-// Optional: Close sidebar when clicking outside
-document.addEventListener('click', (e) => {
-    if (window.innerWidth <= 768) {  // Only on mobile
-        const isClickInsideSidebar = sidebar.contains(e.target);
-        const isClickOnMenuToggle = menuToggle.contains(e.target);
-        
-        if (!isClickInsideSidebar && !isClickOnMenuToggle && sidebar.classList.contains('active')) {
-            sidebar.classList.remove('active');
-        }
-    }
-});
-
-// Optional: Close sidebar when pressing Escape key
-document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape' && sidebar.classList.contains('active')) {
-        sidebar.classList.remove('active');
-    }
-});
