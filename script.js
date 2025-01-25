@@ -108,27 +108,6 @@ document.querySelectorAll('.nav-links a').forEach(link => {
     });
 });
 
-// Sort functionality
-const sortSelect = document.getElementById('sortSelect');
-
-sortSelect.addEventListener('change', (e) => {
-    const sortBy = e.target.value;
-    const container = document.getElementById('resources-container');
-    const cards = Array.from(container.getElementsByClassName('resource-card'));
-
-    cards.sort((a, b) => {
-        if (sortBy === 'stars') {
-            return parseInt(b.dataset.stars) - parseInt(a.dataset.stars);
-        } else if (sortBy === 'name') {
-            return a.querySelector('h3').textContent.localeCompare(b.querySelector('h3').textContent);
-        }
-        return 0;
-    });
-
-    container.innerHTML = '';
-    cards.forEach(card => container.appendChild(card));
-});
-
 // Add this function to fetch contributors from GitHub API
 async function fetchContributors(owner, repo) {
     try {
