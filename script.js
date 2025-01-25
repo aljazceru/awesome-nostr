@@ -201,6 +201,7 @@ function parseResources(content) {
         if (line.startsWith('## ')) {
             currentMainSection = line.slice(3).trim();
             currentSubSection = '';
+            console.log('Processing section:', currentMainSection); // Debug log
         } else if (currentMainSection.toLowerCase() === 'contributors') {
             const match = line.match(repoRegex);
             if (match) {
@@ -228,9 +229,13 @@ function parseResources(content) {
                     .replace(/[^a-z0-9]+/g, '-')
                     .replace(/(^-|-$)/g, '');
 
+                console.log('Parsed resource:', categoryId, resource); // Debug log
+
                 // Add resource to appropriate category if it exists
                 if (resources[categoryId]) {
                     resources[categoryId].push(resource);
+                } else {
+                    console.warn('Category not found:', categoryId); // Debug log
                 }
             }
         }
@@ -254,29 +259,33 @@ function parseResources(content) {
 
 // Function to parse a single resource line
 function parseResourceLine(line) {
-    // Regular expressions to extract information
+    // Updated regex patterns to better handle various markdown formats
     const nameRegex = /\[(.*?)\]/;
     const linkRegex = /\((.*?)\)/;
     const starsRegex = /!\[stars\].*?stars\/(.*?)\/.*?style=social/;
-    const descriptionRegex = /\) - (.*?)(?=\[|$)/;
+    // Updated description regex to handle descriptions after stars badge
+    const descriptionRegex = /style=social\) - (.*?)(?=(?:\[|\n|$))|(?:\) - )(.*?)(?=(?:\[|\n|$))/;
 
     try {
         const name = nameRegex.exec(line)?.[1];
         const link = linkRegex.exec(line)?.[1];
         const stars = starsRegex.exec(line)?.[1];
-        const description = descriptionRegex.exec(line)?.[1]?.trim();
+        
+        // More robust description extraction
+        const descMatch = descriptionRegex.exec(line);
+        const description = (descMatch?.[1] || descMatch?.[2] || '').trim();
 
-        if (name && (link || description)) {
+        if (name && link) {
             return {
                 name,
                 link,
                 stars: stars || 0,
                 description: description || '',
-                raw: line.trim() // Keep the original markdown line
+                raw: line.trim()
             };
         }
     } catch (error) {
-        console.error('Error parsing resource line:', error);
+        console.error('Error parsing resource line:', error, line);
     }
     return null;
 }
@@ -287,7 +296,6 @@ function createResourceCard(resource) {
     card.className = 'resource-card';
     card.dataset.stars = resource.stars || 0;
 
-    // Create a formatted version of the markdown content
     const formattedContent = `
         <div class="resource-title"><strong>${resource.name}</strong></div>
         ${resource.link ? `
@@ -421,74 +429,194 @@ function getCategoryIcon(category) {
 }
 
 // Function to generate navigation from content
-function generateNavigation(content) {
+function generateNavigation(sectionNames) {
     const navList = document.querySelector('.nav-links');
-    const categories = [];
-    let currentCategory = '';
+    navList.innerHTML = ''; // Clear existing navigation
 
-    // Split content by lines and find all ## headers
-    const lines = content.split('\n');
-    lines.forEach(line => {
-        if (line.startsWith('## ')) {
-            currentCategory = line.slice(3).trim();
-            const categoryId = currentCategory.toLowerCase().replace(/[^a-z0-9]+/g, '-');
-            const icon = getCategoryIcon(currentCategory.toLowerCase());
-            
-            categories.push({
-                id: categoryId,
-                name: currentCategory,
-                icon: icon
-            });
-        }
-    });
+    sectionNames.forEach(section => {
+        // Create URL-friendly ID
+        const sectionId = section
+            .toLowerCase()
+            .replace(/[^a-z0-9]+/g, '-')
+            .replace(/(^-|-$)/g, '');
 
-    // Generate navigation HTML
-    navList.innerHTML = categories.map(category => `
-        <li>
-            <a href="#${category.id}">
-                <i class="fas ${category.icon}"></i>
-                ${category.name}
+        const li = document.createElement('li');
+        li.innerHTML = `
+            <a href="#${sectionId}" data-section="${section}">
+                <i class="fas fa-chevron-right"></i>
+                ${section}
             </a>
-        </li>
-    `).join('');
+        `;
 
-    // Add click event listeners to the new navigation items
-    document.querySelectorAll('.nav-links a').forEach(link => {
-        link.addEventListener('click', (e) => {
+        // Add click handler
+        li.querySelector('a').addEventListener('click', (e) => {
             e.preventDefault();
-            const categoryId = e.target.getAttribute('href').replace('#', '');
-            populateResources(categoryId, window.parsedResources);
+            // Remove active class from all links
+            document.querySelectorAll('.nav-links a').forEach(a => 
+                a.classList.remove('active')
+            );
+            // Add active class to clicked link
+            e.target.classList.add('active');
+            // Display the section
+            displaySection(section, window.parsedResources);
         });
+
+        navList.appendChild(li);
     });
 
-    return categories;
+    // Set first item as active
+    const firstLink = navList.querySelector('a');
+    if (firstLink) {
+        firstLink.classList.add('active');
+    }
 }
 
-// Update the fetch call to generate navigation
-fetch('./README.md')
-    .then(response => {
+// Remove the old fetch call and replace with this initialization
+document.addEventListener('DOMContentLoaded', () => {
+    // Test if marked is loaded
+    if (typeof marked === 'undefined') {
+        console.error('marked.js is not loaded!');
+        document.getElementById('resources-container').innerHTML = `
+            <div class="error-message">
+                Error: marked.js library is not loaded properly.
+            </div>`;
+        return;
+    }
+
+    // Test marked with a simple markdown string
+    console.log('marked.js test:', marked.parse('# Test\nThis is a *test* of **marked.js**'));
+
+    // If everything is working, proceed with main functionality
+    parseAndDisplayContent()
+        .then(() => console.log('Content successfully parsed and displayed'))
+        .catch(error => {
+            console.error('Error in main content processing:', error);
+            document.getElementById('resources-container').innerHTML = `
+                <div class="error-message">
+                    Error loading content: ${error.message}
+                </div>`;
+        });
+});
+
+async function parseAndDisplayContent() {
+    try {
+        const response = await fetch('./README.md');
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
-        return response.text();
-    })
-    .then(content => {
-        console.log('README content loaded:', content.substring(0, 200) + '...');
-        
-        // Generate navigation first
-        const categories = generateNavigation(content);
-        
-        // Then parse and populate resources
-        window.parsedResources = parseResources(content);
-        console.log('Parsed resources:', window.parsedResources);
-        
-        // Load initial category (first one in the list)
-        if (categories.length > 0) {
-            populateResources(categories[0].id, window.parsedResources);
+        const content = await response.text();
+
+        // Parse the markdown into HTML
+        const htmlContent = marked.parse(content);
+
+        // Create a temporary element to parse the HTML
+        const tempDiv = document.createElement('div');
+        tempDiv.innerHTML = htmlContent;
+
+        // Get all sections (h2 headers and their content)
+        const sections = {};
+        let currentSection = null;
+        let currentSectionContent = [];
+
+        Array.from(tempDiv.children).forEach(element => {
+            if (element.tagName === 'H2') {
+                // If we have a previous section, save it
+                if (currentSection) {
+                    sections[currentSection] = currentSectionContent;
+                }
+                // Start new section
+                currentSection = element.textContent.trim();
+                currentSectionContent = [];
+            } else if (currentSection) {
+                currentSectionContent.push({
+                    type: element.tagName === 'UL' ? 'resources' : 'content',
+                    element: element
+                });
+            }
+        });
+
+        // Save the last section
+        if (currentSection) {
+            sections[currentSection] = currentSectionContent;
         }
-    })
-    .catch(error => {
-        console.error('Error loading README:', error);
-        document.getElementById('resources-container').innerHTML = 
-            `<div class="error-message">Error loading resources: ${error.message}</div>`;
+
+        // Store sections globally
+        window.parsedResources = sections;
+
+        // Generate navigation
+        const sectionNames = Object.keys(sections);
+        generateNavigation(sectionNames);
+
+        // Display initial section
+        if (sectionNames.length > 0) {
+            displaySection(sectionNames[0], sections);
+        }
+
+    } catch (error) {
+        console.error('Error processing markdown:', error);
+        throw error; // Re-throw to be caught by the main error handler
+    }
+}
+
+function displaySection(sectionName, sections) {
+    const container = document.getElementById('resources-container');
+    container.innerHTML = '';
+
+    // Add section header
+    const header = document.createElement('h2');
+    header.textContent = sectionName;
+    container.appendChild(header);
+
+    // Display section content
+    sections[sectionName].forEach(item => {
+        if (item.type === 'content') {
+            // Regular markdown content
+            const contentDiv = document.createElement('div');
+            contentDiv.className = 'markdown-content';
+            contentDiv.innerHTML = item.element.outerHTML;
+            container.appendChild(contentDiv);
+        } else if (item.type === 'resources') {
+            // Resource list
+            Array.from(item.element.children).forEach(li => {
+                const card = createResourceCard({
+                    name: li.querySelector('a')?.textContent || '',
+                    link: li.querySelector('a')?.href || '',
+                    description: li.textContent.split('- ')[1]?.trim() || '',
+                    stars: li.querySelector('img[alt="stars"]')
+                        ? parseInt(li.querySelector('img[alt="stars"]').src.match(/stars\/(\d+)/)?.[1]) || 0
+                        : 0
+                });
+                container.appendChild(card);
+            });
+        }
     });
+}
+
+function createResourceCard(resource) {
+    const card = document.createElement('div');
+    card.className = 'resource-card';
+    
+    card.innerHTML = `
+        <div class="resource-header">
+            <h3 class="resource-title">
+                <a href="${resource.link}" target="_blank">
+                    ${resource.name}
+                    <i class="fas fa-external-link-alt"></i>
+                </a>
+            </h3>
+            ${resource.stars ? `
+                <div class="resource-stars">
+                    <i class="fas fa-star"></i>
+                    ${resource.stars}
+                </div>
+            ` : ''}
+        </div>
+        ${resource.description ? `
+            <div class="resource-description">
+                ${resource.description}
+            </div>
+        ` : ''}
+    `;
+
+    return card;
+}
