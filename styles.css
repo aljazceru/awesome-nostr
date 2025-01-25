@@ -564,29 +564,33 @@ button:focus {
 
 .logo-container {
     height: 50px;
-    width: 200px; /* Adjust this value to your preferred width */
+    width: 200px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    overflow: hidden;
+    gap: 4px;
 }
 
 .nav-logo {
     height: 100%;
-    width: 100%;
-    object-fit: cover; /* This will maintain aspect ratio while fitting within the container */
+    width: auto;
+    object-fit: contain;
+}
+
+.logo-text {
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
 }
 
 /* Adjust container size for mobile */
 @media (max-width: 768px) {
     .logo-container {
         height: 40px;
-        width: 160px; /* Proportionally smaller for mobile */
+        width: 160px;
     }
     
-    .nav-content h1 {
-        width: auto;
-        text-align: left;
+    .logo-text {
+        font-size: 1rem;
     }
 }
 
