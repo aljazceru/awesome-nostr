@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome Nostr Resources</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar Navigation -->
+        <nav class="sidebar">
+            <div class="sidebar-header">
+                <h1>Nostr Resources</h1>
+                <button id="menuToggle" class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+            <div class="sidebar-content">
+                <div class="search-box">
+                    <input type="text" id="search" placeholder="Search resources...">
+                    <i class="fas fa-search"></i>
+                </div>
+                <ul class="nav-links">
+                    <!-- Categories will be dynamically populated here -->
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <div class="content-header">
+                <div class="view-controls">
+                    <button id="darkModeToggle" class="theme-toggle">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                    <div class="sort-controls">
+                        <select id="sortSelect">
+                            <option value="stars">Sort by Stars</option>
+                            <option value="name">Sort by Name</option>
+                            <option value="recent">Sort by Recent</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Resource sections will be dynamically populated -->
+            <div id="resources-container"></div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
