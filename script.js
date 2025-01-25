@@ -1,6 +1,13 @@
-// Dark mode toggle
+// Move these declarations to the very top of the file
 const darkModeToggle = document.getElementById('darkModeToggle');
+const menuToggle = document.getElementById('menuToggle');
+const sidebar = document.querySelector('.sidebar');
 const body = document.body;
+let touchStartX = 0;
+let touchEndX = 0;
+let touchStartY = 0;
+let touchEndY = 0;
+let isSwiping = false;
 
 // Color theme definitions
 const colorThemes = {
@@ -142,59 +149,204 @@ const colorThemes = {
     }
 };
 
-// Initialize theme from localStorage or system preference
+// Initialize all UI controls
 document.addEventListener('DOMContentLoaded', () => {
+    // Dark mode initialization
     const savedTheme = localStorage.getItem('theme');
     if (savedTheme) {
         body.dataset.theme = savedTheme;
     } else {
-        // Check system preference if no saved theme
         const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
         body.dataset.theme = prefersDark ? 'dark' : 'light';
         localStorage.setItem('theme', body.dataset.theme);
     }
     
-    // Update toggle button icon
-    darkModeToggle.innerHTML = body.dataset.theme === 'dark' 
-        ? '<i class="fas fa-sun"></i>' 
-        : '<i class="fas fa-moon"></i>';
+    // Update dark mode toggle button icon
+    updateDarkModeIcon();
 
+    // Dark mode toggle event listener
+    darkModeToggle.addEventListener('click', () => {
+        body.dataset.theme = body.dataset.theme === 'dark' ? 'light' : 'dark';
+        localStorage.setItem('theme', body.dataset.theme);
+        updateDarkModeIcon();
+        
+        // Reapply color theme when switching dark/light mode
+        const currentColorTheme = localStorage.getItem('colorTheme') || 'default';
+        applyColorTheme(currentColorTheme);
+    });
+
+    // Color theme initialization
     const colorThemeSelect = document.getElementById('colorThemeSelect');
-    
-    // Initialize theme from localStorage
     const savedColorTheme = localStorage.getItem('colorTheme') || 'default';
     colorThemeSelect.value = savedColorTheme;
     applyColorTheme(savedColorTheme);
     
-    // Handle theme changes
+    // Color theme change event listener
     colorThemeSelect.addEventListener('change', (e) => {
         const selectedTheme = e.target.value;
         localStorage.setItem('colorTheme', selectedTheme);
         applyColorTheme(selectedTheme);
     });
+
+    // Test if marked is loaded
+    if (typeof marked === 'undefined') {
+        console.error('marked.js is not loaded!');
+        document.getElementById('resources-container').innerHTML = `
+            <div class="error-message">
+                Error: marked.js library is not loaded properly.
+            </div>`;
+        return;
+    }
+
+    // If everything is working, proceed with main functionality
+    parseAndDisplayContent()
+        .then(() => console.log('Content successfully parsed and displayed'))
+        .catch(error => {
+            console.error('Error in main content processing:', error);
+            document.getElementById('resources-container').innerHTML = `
+                <div class="error-message">
+                    Error loading content: ${error.message}
+                </div>`;
+        });
+
+    // Ensure we're working with valid elements
+    if (!sidebar || !menuToggle) {
+        console.error('Required elements not found');
+        return;
+    }
+
+    // Single function to handle sidebar state
+    const toggleSidebar = (show) => {
+        if (show === undefined) {
+            sidebar.classList.toggle('active');
+        } else {
+            sidebar.classList[show ? 'add' : 'remove']('active');
+        }
+        // Update aria-expanded state
+        menuToggle.setAttribute('aria-expanded', sidebar.classList.contains('active'));
+    };
+
+    // Menu toggle click handler
+    menuToggle.addEventListener('click', (e) => {
+        e.stopPropagation();
+        toggleSidebar();
+    });
+
+    // Delegate sidebar link clicks using event delegation
+    document.querySelector('.nav-links').addEventListener('click', (e) => {
+        const link = e.target.closest('a');
+        if (!link) return;
+
+        e.preventDefault();
+
+        // Remove active class from all links
+        document.querySelectorAll('.nav-links a').forEach(l => 
+            l.classList.remove('active')
+        );
+        
+        // Add active class to clicked link
+        link.classList.add('active');
+        
+        // Get section name and display it
+        const section = link.getAttribute('data-section');
+        displaySection(section, window.parsedResources);
+        
+        // Close sidebar on mobile
+        if (window.innerWidth <= 768) {
+            toggleSidebar(false);
+        }
+    });
+
+    // Touch handling
+    let touchStartX = 0;
+    let touchStartY = 0;
+    let touchEndX = 0;
+    let touchEndY = 0;
+    let isSwiping = false;
+
+    const handleTouchStart = (e) => {
+        touchStartX = e.touches[0].clientX;
+        touchStartY = e.touches[0].clientY;
+        isSwiping = true;
+    };
+
+    const handleTouchMove = (e) => {
+        if (!isSwiping) return;
+        
+        touchEndX = e.touches[0].clientX;
+        touchEndY = e.touches[0].clientY;
+
+        const deltaX = touchStartX - touchEndX;
+        const deltaY = Math.abs(touchStartY - touchEndY);
+
+        if (deltaY > Math.abs(deltaX)) {
+            isSwiping = false;
+            return;
+        }
+
+        if (Math.abs(deltaX) > 10) {
+            e.preventDefault();
+        }
+    };
+
+    const handleTouchEnd = () => {
+        if (!isSwiping) return;
+        
+        const deltaX = touchStartX - touchEndX;
+        const deltaY = Math.abs(touchStartY - touchEndY);
+        const swipeThreshold = 50;
+
+        if (Math.abs(deltaX) > swipeThreshold && deltaY < 100) {
+            toggleSidebar(deltaX < 0);
+        }
+        
+        isSwiping = false;
+    };
+
+    // Add touch event listeners
+    document.addEventListener('touchstart', handleTouchStart, { passive: true });
+    document.addEventListener('touchmove', handleTouchMove, { passive: false });
+    document.addEventListener('touchend', handleTouchEnd, { passive: true });
+
+    // Close sidebar when clicking outside
+    document.addEventListener('click', (e) => {
+        if (window.innerWidth <= 768 && 
+            !sidebar.contains(e.target) && 
+            !menuToggle.contains(e.target) && 
+            sidebar.classList.contains('active')) {
+            toggleSidebar(false);
+        }
+    });
+
+    // Handle window resize
+    let resizeTimer;
+    window.addEventListener('resize', () => {
+        clearTimeout(resizeTimer);
+        resizeTimer = setTimeout(() => {
+            if (window.innerWidth > 768) {
+                toggleSidebar(true);
+            } else {
+                toggleSidebar(false);
+            }
+        }, 250);
+    });
 });
 
-darkModeToggle.addEventListener('click', () => {
-    const newTheme = body.dataset.theme === 'dark' ? 'light' : 'dark';
-    body.dataset.theme = newTheme;
-    localStorage.setItem('theme', newTheme);
-    
-    darkModeToggle.innerHTML = newTheme === 'dark' 
+// Helper function to update dark mode icon
+function updateDarkModeIcon() {
+    darkModeToggle.innerHTML = body.dataset.theme === 'dark' 
         ? '<i class="fas fa-sun"></i>' 
         : '<i class="fas fa-moon"></i>';
+}
+
+function handleSwipe() {
+    const swipeThreshold = 100;
+    const swipeDistance = touchStartX - touchEndX;
     
-    // Reapply color theme with new dark/light mode
-    const currentColorTheme = localStorage.getItem('colorTheme') || 'default';
-    applyColorTheme(currentColorTheme);
-});
-
-// Mobile menu toggle
-const menuToggle = document.getElementById('menuToggle');
-const sidebar = document.querySelector('.sidebar');
-
-menuToggle.addEventListener('click', () => {
-    sidebar.classList.toggle('active');
-});
+    if (swipeDistance > swipeThreshold && sidebar.classList.contains('active')) {
+        sidebar.classList.remove('active');
+    }
+}
 
 // Search functionality
 const searchInput = document.getElementById('search');
@@ -654,33 +806,6 @@ function generateNavigation(sectionNames) {
         firstLink.classList.add('active');
     }
 }
-
-// Remove the old fetch call and replace with this initialization
-document.addEventListener('DOMContentLoaded', () => {
-    // Test if marked is loaded
-    if (typeof marked === 'undefined') {
-        console.error('marked.js is not loaded!');
-        document.getElementById('resources-container').innerHTML = `
-            <div class="error-message">
-                Error: marked.js library is not loaded properly.
-            </div>`;
-        return;
-    }
-
-    // Test marked with a simple markdown string
-    console.log('marked.js test:', marked.parse('# Test\nThis is a *test* of **marked.js**'));
-
-    // If everything is working, proceed with main functionality
-    parseAndDisplayContent()
-        .then(() => console.log('Content successfully parsed and displayed'))
-        .catch(error => {
-            console.error('Error in main content processing:', error);
-            document.getElementById('resources-container').innerHTML = `
-                <div class="error-message">
-                    Error loading content: ${error.message}
-                </div>`;
-        });
-});
 
 async function parseAndDisplayContent() {
     try {
