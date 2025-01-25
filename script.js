@@ -2,9 +2,30 @@
 const darkModeToggle = document.getElementById('darkModeToggle');
 const body = document.body;
 
-darkModeToggle.addEventListener('click', () => {
-    body.dataset.theme = body.dataset.theme === 'dark' ? 'light' : 'dark';
+// Initialize theme from localStorage or system preference
+document.addEventListener('DOMContentLoaded', () => {
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme) {
+        body.dataset.theme = savedTheme;
+    } else {
+        // Check system preference if no saved theme
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        body.dataset.theme = prefersDark ? 'dark' : 'light';
+        localStorage.setItem('theme', body.dataset.theme);
+    }
+    
+    // Update toggle button icon
     darkModeToggle.innerHTML = body.dataset.theme === 'dark' 
+        ? '<i class="fas fa-sun"></i>' 
+        : '<i class="fas fa-moon"></i>';
+});
+
+darkModeToggle.addEventListener('click', () => {
+    const newTheme = body.dataset.theme === 'dark' ? 'light' : 'dark';
+    body.dataset.theme = newTheme;
+    localStorage.setItem('theme', newTheme);
+    
+    darkModeToggle.innerHTML = newTheme === 'dark' 
         ? '<i class="fas fa-sun"></i>' 
         : '<i class="fas fa-moon"></i>';
 });
