@@ -1,0 +1,700 @@
+:root {
+    --primary-color: #4a314d;
+    --background-color: #ffffff;
+    --text-color: #1a090d;
+    --card-background: #a8ba9a;
+    --sidebar-background: #6b6570;
+    --hover-color: #ace894;
+    --text-primary: var(--text-color);
+    --link-color: var(--primary-color);
+    --star-color: #4a314d;
+}
+
+/* Dark theme variables */
+[data-theme="dark"] {
+    --background-color: #1a090d;
+    --text-color: #ace894;
+    --card-background: #4a314d;
+    --sidebar-background: #6b6570;
+    --text-primary: var(--text-color);
+    --link-color: #a8ba9a;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+    margin-top: 60px; /* Height of top nav */
+}
+
+/* Sidebar Styles */
+.sidebar {
+    width: 280px;
+    background-color: var(--sidebar-background);
+    padding: 1rem;
+    position: fixed;
+    height: calc(100vh - 60px);
+    overflow-y: auto;
+    transition: transform 0.3s ease;
+    border-right: 1px solid rgba(110, 84, 148, 0.15);
+    box-shadow: 2px 0 8px rgba(0, 0, 0, 0.05);
+    top: 60px; /* Start below top nav */
+}
+
+.sidebar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    margin-top: 3rem; /* Increased from 1rem to 2.5rem for more spacing */
+}
+
+.sidebar-header h4 {
+    margin: 0;
+    color: var(--text-color);
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.search-box {
+    position: relative;
+    flex-grow: 1;
+    max-width: 400px;
+}
+
+.search-box input {
+    width: 100%;
+    padding: 0.5rem 2rem 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    background-color: rgba(226, 194, 198, 0.2);
+    color: white;
+}
+
+.search-box input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.search-box i {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    margin-bottom: 0.5rem;
+}
+
+.nav-links a {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    color: var(--text-color);
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+}
+
+.nav-links a:hover {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.nav-links i {
+    margin-right: 0.5rem;
+    width: 20px;
+    text-align: center;
+}
+
+/* Custom Scrollbar Styles */
+.sidebar::-webkit-scrollbar {
+    width: 8px;
+}
+
+.sidebar::-webkit-scrollbar-track {
+    background: var(--sidebar-background);
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
+    opacity: 0.5;
+    border-radius: 4px;
+    transition: background 0.2s ease;
+}
+
+.sidebar::-webkit-scrollbar-thumb:hover {
+    background: var(--hover-color);
+}
+
+/* Firefox scrollbar styles */
+.sidebar {
+    scrollbar-width: thin;
+    scrollbar-color: var(--primary-color) var(--sidebar-background);
+}
+
+/* Main Content Styles */
+.main-content {
+    margin-left: 280px;
+    padding: 2rem;
+    flex: 1;
+    min-height: 100vh;
+    overflow: auto;
+    margin-top: 0;
+}
+
+.content-header {
+    display: none;
+}
+
+.view-controls {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+/* Resource Cards */
+.resource-card {
+    background: var(--card-background);
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    width: 100%;
+    height: auto;
+    overflow: visible;
+}
+
+.resource-title {
+    font-size: 1.2em;
+    margin-bottom: 8px;
+    color: var(--text-color);
+}
+
+.resource-title a {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.resource-title a:hover {
+    color: var(--hover-color);
+}
+
+/* Dark theme adjustment */
+[data-theme="dark"] .resource-title a {
+    color: #a48ec7; /* A lighter shade of purple for dark mode */
+}
+
+[data-theme="dark"] .resource-title a:hover {
+    color: #b9a8d7; /* Even lighter shade for hover in dark mode */
+}
+
+.resource-link {
+    margin-bottom: 12px;
+}
+
+.resource-link a {
+    color: var(--link-color);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.9em;
+}
+
+.resource-link a:hover {
+    text-decoration: underline;
+}
+
+.resource-description {
+    color: var(--text-color);
+    margin: 12px 0;
+    line-height: 1.5;
+    font-size: 0.95em;
+    padding: 8px 12px;
+    background: rgba(156, 82, 139, 0.05);
+    border-radius: 4px;
+    border-left: 3px solid var(--primary-color);
+}
+
+.resource-stars {
+    color: var(--star-color);
+    font-size: 0.9em;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.fa-star {
+    color: var(--star-color);
+}
+
+.fa-external-link-alt {
+    font-size: 0.9em;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .sidebar {
+        transform: translateX(-100%);
+        z-index: 1000;
+    }
+
+    .sidebar.active {
+        transform: translateX(0);
+    }
+
+    .main-content {
+        margin-left: 0;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .top-nav {
+        padding: 0.75rem;
+    }
+    
+    .nav-content {
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+    
+    .nav-content h1 {
+        font-size: 1.25rem;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .search-box {
+        order: 3;
+        width: 100%;
+        max-width: none;
+        margin-top: 0.5rem;
+    }
+}
+
+.markdown-content {
+    padding: 10px;
+    line-height: 1.5;
+}
+
+.markdown-content a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+.markdown-content a:hover {
+    text-decoration: underline;
+}
+
+/* Update contributors grid styles */
+.contributors-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+    gap: 16px;
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    min-height: 100px;
+    justify-items: center;
+    overflow: visible;
+}
+
+.contributors-grid a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 0.8em;
+    text-align: center;
+}
+
+.contributors-grid img {
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+    transition: transform 0.2s;
+    margin-bottom: 8px;
+}
+
+.contributors-grid a:hover {
+    text-decoration: none;
+}
+
+.contributors-grid a:hover img {
+    transform: scale(1.1);
+}
+
+.contributors-grid .loading {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 20px;
+    color: var(--text-color);
+    font-style: italic;
+}
+
+/* Update the resource card for contributors */
+.resource-card.contributors-card {
+    max-width: none;
+    width: 100%;
+    height: auto;
+    min-height: 200px;
+}
+
+.resource-description a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+.resource-description a:hover {
+    text-decoration: underline;
+}
+
+#resources-container {
+    width: 100%;
+    height: auto;
+    min-height: 200px;
+    overflow: visible;
+}
+
+/* Category label styles */
+.category-label {
+    font-size: 0.8em;
+    color: var(--primary-color);
+    text-transform: capitalize;
+    margin-bottom: 8px;
+    padding: 2px 8px;
+    background-color: rgba(156, 82, 139, 0.1);
+    border-radius: 4px;
+    display: inline-block;
+}
+
+/* No results styles */
+.no-results {
+    text-align: center;
+    padding: 2rem;
+    color: var(--text-color);
+    font-style: italic;
+}
+
+/* Active nav link style */
+.nav-links a.active {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.error-message {
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #fff3f3;
+    border-left: 4px solid #ff4444;
+    color: #dc3545;
+    border-radius: 4px;
+}
+
+/* Add H3 styling for dark mode */
+[data-theme="dark"] h3,
+[data-theme="dark"] .markdown-content h3 {
+    color: #f1c40f;
+}
+
+#resources-container h2 {
+    color: var(--primary-color);
+}
+
+/* Main content scrollbar styles */
+.main-content::-webkit-scrollbar {
+    width: 8px;
+}
+
+.main-content::-webkit-scrollbar-track {
+    background: var(--background-color);
+}
+
+.main-content::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
+    opacity: 0.5;
+    border-radius: 4px;
+    transition: background 0.2s ease;
+}
+
+.main-content::-webkit-scrollbar-thumb:hover {
+    background: var(--hover-color);
+}
+
+/* Firefox main content scrollbar styles */
+.main-content {
+    scrollbar-width: thin;
+    scrollbar-color: var(--primary-color) var(--background-color);
+}
+
+/* Dark theme scrollbar adjustments */
+[data-theme="dark"] .sidebar::-webkit-scrollbar-track,
+[data-theme="dark"] .main-content::-webkit-scrollbar-track {
+    background: var(--sidebar-background);
+}
+
+[data-theme="dark"] .sidebar::-webkit-scrollbar-thumb,
+[data-theme="dark"] .main-content::-webkit-scrollbar-thumb {
+    background: rgba(110, 84, 148, 0.6);
+}
+
+[data-theme="dark"] .sidebar::-webkit-scrollbar-thumb:hover,
+[data-theme="dark"] .main-content::-webkit-scrollbar-thumb:hover {
+    background: rgba(110, 84, 148, 0.8);
+}
+
+/* Screen reader only class */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+/* Improve link accessibility */
+a:focus {
+    outline: 2px solid var(--primary-color);
+    outline-offset: 2px;
+}
+
+/* Improve button accessibility */
+button:focus {
+    outline: 2px solid var(--primary-color);
+    outline-offset: 2px;
+}
+
+/* Add focus styles for dark mode */
+[data-theme="dark"] a:focus,
+[data-theme="dark"] button:focus {
+    outline-color: var(--link-color);
+}
+
+/* Footer styles */
+.site-footer {
+    background-color: var(--sidebar-background);
+    color: var(--text-color);
+    text-align: center;
+    padding: 1rem;
+    margin-top: auto;
+}
+
+/* Add top navigation styles */
+.top-nav {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1001;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.nav-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nav-content h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.theme-toggle {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    transition: opacity 0.2s;
+}
+
+.theme-toggle:hover {
+    opacity: 0.8;
+}
+
+/* Remove old view-controls styling if no longer needed */
+.content-header {
+    display: none;
+}
+
+.resource-favicon {
+    width: 32px;
+    height: 32px;
+    margin-right: 8px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.resource-title a {
+    display: flex;
+    align-items: center;
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.logo-container {
+    height: 50px;
+    width: 200px; /* Adjust this value to your preferred width */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.nav-logo {
+    height: 100%;
+    width: 100%;
+    object-fit: cover; /* This will maintain aspect ratio while fitting within the container */
+}
+
+/* Adjust container size for mobile */
+@media (max-width: 768px) {
+    .logo-container {
+        height: 40px;
+        width: 160px; /* Proportionally smaller for mobile */
+    }
+    
+    .nav-content h1 {
+        width: auto;
+        text-align: left;
+    }
+}
+
+.sidebar h2:first-of-type {
+    margin-top: 80px; /* Increased spacing from top nav */
+    font-weight: 400; /* Reduced from default bold/600 to normal/400 */
+}
+
+/* Adjust for mobile if needed */
+@media (max-width: 768px) {
+    .sidebar h2:first-of-type {
+        margin-top: 70px; /* Slightly less space on mobile */
+    }
+}
+
+/* Update menu toggle button styles */
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: var(--text-color);
+    font-size: 1.2rem; /* Reduced from 1.5rem */
+    cursor: pointer;
+    padding: 0.4rem 0.6rem; /* Adjusted padding */
+    position: fixed;
+    top: 15px; /* Align with top nav content */
+    left: 15px;
+    z-index: 1002;
+    background-color: var(--primary-color);
+    border-radius: 4px;
+    color: white;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    transition: all 0.2s ease;
+}
+
+.menu-toggle:hover {
+    background-color: var(--hover-color);
+    transform: scale(1.05);
+}
+
+.menu-toggle:active {
+    transform: scale(0.95);
+}
+
+/* Update mobile responsive styles */
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* Adjust top nav padding to accommodate menu toggle */
+    .nav-content {
+        padding-left: 3.5rem; /* Make room for menu toggle */
+    }
+
+    /* Rest of your mobile styles... */
+}
+
+/* Theme selector styles */
+.theme-controls {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.theme-select {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+    padding: 0.4rem 0.8rem;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.theme-select:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.theme-select:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.3);
+}
+
+.theme-select option {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+    .theme-controls {
+        gap: 0.5rem;
+    }
+    
+    .theme-select {
+        font-size: 0.8rem;
+        padding: 0.3rem 0.6rem;
+    }
+} 

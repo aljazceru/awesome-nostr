@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A comprehensive collection of Nostr resources, tools, clients, and protocols for developers and users.">
+    <meta name="keywords" content="nostr, cryptocurrency, decentralized social, protocols, tools, clients, resources">
+    <meta name="author" content="Your Name">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Social Media Meta Tags -->
+    <meta property="og:title" content="Awesome Nostr Resources">
+    <meta property="og:description" content="A comprehensive collection of Nostr resources, tools, clients, and protocols for developers and users.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://your-domain.com">
+    <meta property="og:image" content="https://your-domain.com/path-to-image.jpg">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Awesome Nostr Resources">
+    <meta name="twitter:description" content="A comprehensive collection of Nostr resources, tools, clients, and protocols for developers and users.">
+    <meta name="twitter:image" content="https://your-domain.com/path-to-image.jpg">
+    
+    <title>Awesome Nostr Resources | Comprehensive Guide to Nostr Protocol</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="top-nav">
+        <div class="nav-content">
+            <h1>
+                <div class="logo-container">
+                    <img src="Logo.png" alt="Nostr Logo" class="nav-logo">
+                    <span class="logo-text">.NET</span>
+                </div>
+            </h1>
+            <div class="search-box">
+                <input type="text" id="search" placeholder="Search resources...">
+                <i class="fas fa-search"></i>
+            </div>
+            <div class="theme-controls">
+                <select id="colorThemeSelect" class="theme-select" aria-label="Select color theme">
+                    <option value="default">Default Theme</option>
+                    <option value="purple">Purple Dream</option>
+                    <option value="nature">Nature's Touch</option>
+                    <option value="sunset">Sunset Vibes</option>
+                    <option value="grape">Grape Fusion</option>
+                    <option value="autumn">Autumn Warmth</option>
+                    <option value="midnight">Midnight Rose</option>
+                    <option value="rosenoir">Rose Noir</option>
+                </select>
+                <button id="darkModeToggle" class="theme-toggle" aria-label="Toggle dark mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Move menu toggle button outside of sidebar -->
+    <button id="menuToggle" class="menu-toggle" aria-label="Toggle menu">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <div class="container">
+        <!-- Remove duplicate menu toggle from sidebar -->
+        <nav class="sidebar" aria-label="Main navigation">
+            <header class="sidebar-header">
+                <h4>Nostr Resources</h4>
+            </header>
+            <div class="sidebar-content">
+                <ul class="nav-links">
+                    <!-- Categories will be dynamically populated here -->
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="main-content" role="main">
+            <header class="content-header">
+                <div class="view-controls">
+                    <!-- Dark mode toggle has been moved to top nav -->
+                </div>
+            </header>
+
+            <div id="resources-container" role="region" aria-label="Resource listings"></div>
+        </main>
+    </div>
+    
+    <footer class="site-footer">
+        <p>&copy; 2024 Awesome Nostr Resources. All rights reserved.</p>
+    </footer>
+    <!-- Add marked.js before your script -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
