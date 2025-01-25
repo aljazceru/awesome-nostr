@@ -579,6 +579,7 @@ Endpoints (services or apps that expose a LN wallet via NWC)
 - [Alby NWC (Umbrel)](https://apps.umbrel.com/app/alby-nostr-wallet-connect) - Umbrel app for exposing your self-custodial Umbrel LN Wallet over NWC
 - [Alby NWC (Web)](https://nwc.getalby.com/) - Web portal for exposing your custodial Alby account over NWC
 - [Mutiny](https://www.mutinywallet.com) - Self-custodial LN wallet that runs in the browser
+- [Rizful](https://rizful.com) - Cloud lightning node with NWC support
 
 ## NIP-57 Zaps compatible wallets and solutions
 
@@ -660,6 +661,7 @@ Outside of nostr itself, you find the community on:
 - [Step-by-Step guide to set up a relay on your server](https://github.com/BlockChainCaffe/Nostr-Relay-Setup-Guide) (AWS, DigitalOcean, RaspBerry... )
 - [strfry personal relay](https://github.com/pjv/strfry_personal_docker)![stars](https://img.shields.io/github/stars/pjv/strfry_personal_docker.svg?style=social) - 10 minute setup of a personal nostr relay on a vanilla Linux VPS. Adds support for NIP-65.
 - [SuperConductor](https://github.com/avlo/superconductor/?tab=readme-ov-file#creating-relay-event-handlers) - Creating Java Nostr-Relay Framework & Web Application event-handlers
+- [Set up a Lightning node and Nostr client](https://rizful.com/get_on_nostr_today) - Run a full lightning node in the cloud and connect it via NWC to the Yakihonne client
 
 ## Recommended reading/watching
 - [Nostr, an introduction](https://wiki.wellorder.net/post/nostr-intro/) - written by scsibug
