@@ -58,6 +58,14 @@ body {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 2rem;
+    margin-top: 3rem; /* Increased from 1rem to 2.5rem for more spacing */
+}
+
+.sidebar-header h4 {
+    margin: 0;
+    color: var(--text-color);
+    font-size: 1.1rem;
+    font-weight: 500;
 }
 
 .search-box {
@@ -564,33 +572,29 @@ button:focus {
 
 .logo-container {
     height: 50px;
-    width: 200px;
+    width: 200px; /* Adjust this value to your preferred width */
     display: flex;
     align-items: center;
-    gap: 4px;
+    justify-content: center;
+    overflow: hidden;
 }
 
 .nav-logo {
     height: 100%;
-    width: auto;
-    object-fit: contain;
-}
-
-.logo-text {
-    color: white;
-    font-weight: bold;
-    font-size: 1.2rem;
+    width: 100%;
+    object-fit: cover; /* This will maintain aspect ratio while fitting within the container */
 }
 
 /* Adjust container size for mobile */
 @media (max-width: 768px) {
     .logo-container {
         height: 40px;
-        width: 160px;
+        width: 160px; /* Proportionally smaller for mobile */
     }
     
-    .logo-text {
-        font-size: 1rem;
+    .nav-content h1 {
+        width: auto;
+        text-align: left;
     }
 }
 
