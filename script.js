@@ -6,6 +6,8 @@ const body = document.body;
 let touchStartX = 0;
 let touchEndX = 0;
 let touchStartY = 0;
+let touchEndY = 0;
+let isSwiping = false;
 
 // Color theme definitions
 const colorThemes = {
@@ -206,6 +208,87 @@ document.addEventListener('DOMContentLoaded', () => {
                     Error loading content: ${error.message}
                 </div>`;
         });
+
+    // Enhanced touch handling for sidebar
+    touchStartX = 0;
+    touchStartY = 0;
+    touchEndX = 0;
+    touchEndY = 0;
+    isSwiping = false;
+
+    // Track touch movements
+    document.addEventListener('touchstart', (e) => {
+        touchStartX = e.touches[0].clientX;
+        touchStartY = e.touches[0].clientY;
+        isSwiping = true;
+    }, { passive: true });
+
+    document.addEventListener('touchmove', (e) => {
+        if (!isSwiping) return;
+        
+        touchEndX = e.touches[0].clientX;
+        touchEndY = e.touches[0].clientY;
+
+        // Calculate vertical and horizontal distance
+        const deltaX = touchStartX - touchEndX;
+        const deltaY = Math.abs(touchStartY - touchEndY);
+
+        // If vertical scrolling is more prominent, don't handle swipe
+        if (deltaY > Math.abs(deltaX)) {
+            isSwiping = false;
+            return;
+        }
+
+        // Prevent default only if horizontal swipe is significant
+        if (Math.abs(deltaX) > 10) {
+            e.preventDefault();
+        }
+    }, { passive: false });
+
+    document.addEventListener('touchend', () => {
+        if (!isSwiping) return;
+        
+        const deltaX = touchStartX - touchEndX;
+        const deltaY = Math.abs(touchStartY - touchEndY);
+        const swipeThreshold = 50;
+
+        // Only handle horizontal swipes
+        if (Math.abs(deltaX) > swipeThreshold && deltaY < 100) {
+            if (deltaX > 0) {
+                // Swipe left - close sidebar
+                sidebar.classList.remove('active');
+            } else {
+                // Swipe right - open sidebar
+                sidebar.classList.add('active');
+            }
+        }
+        
+        isSwiping = false;
+    }, { passive: true });
+
+    // Update sidebar link click handling
+    document.querySelectorAll('.nav-links a').forEach(link => {
+        link.addEventListener('click', (e) => {
+            e.preventDefault();
+            
+            // Remove active class from all links
+            document.querySelectorAll('.nav-links a').forEach(l => 
+                l.classList.remove('active')
+            );
+            
+            // Add active class to clicked link
+            link.classList.add('active');
+            
+            // Get section name and display it
+            const section = link.getAttribute('data-section');
+            displaySection(section, window.parsedResources);
+            
+            // Close sidebar on mobile
+            if (window.innerWidth <= 768) {
+                sidebar.classList.remove('active');
+            }
+        });
+    });
 });
 
 // Helper function to update dark mode icon

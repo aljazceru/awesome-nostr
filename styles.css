@@ -51,9 +51,10 @@ body {
     border-right: 1px solid rgba(110, 84, 148, 0.15);
     box-shadow: 2px 0 8px rgba(0, 0, 0, 0.05);
     top: 60px; /* Start below top nav */
-    touch-action: pan-y;
+    touch-action: pan-y pinch-zoom;
     will-change: transform;
     -webkit-overflow-scrolling: touch;
+    overscroll-behavior: contain;
 }
 
 .sidebar-header {
@@ -161,6 +162,8 @@ body {
     min-height: 100vh;
     overflow: auto;
     margin-top: 0;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior: contain;
 }
 
 .content-header {
@@ -298,6 +301,33 @@ body {
         width: 100%;
         max-width: none;
         margin-top: 0.5rem;
+    }
+
+    .nav-links a {
+        padding: 0.75rem 1rem; /* Larger touch target */
+        min-height: 44px; /* iOS recommended minimum */
+    }
+    
+    .theme-toggle,
+    .menu-toggle {
+        min-width: 44px;
+        min-height: 44px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    /* Improve search input touch target */
+    .search-box input {
+        min-height: 44px;
+    }
+    
+    /* Add active state styles for touch feedback */
+    .nav-links a:active,
+    .theme-toggle:active,
+    .menu-toggle:active {
+        opacity: 0.7;
+        transition: opacity 0.1s;
     }
 }
 
