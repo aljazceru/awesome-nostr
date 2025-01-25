@@ -544,4 +544,20 @@ button:focus {
 /* Remove old view-controls styling if no longer needed */
 .content-header {
     display: none;
+}
+
+.resource-favicon {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.resource-title a {
+    display: flex;
+    align-items: center;
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: color 0.2s ease;
 } 

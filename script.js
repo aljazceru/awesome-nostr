@@ -309,6 +309,16 @@ function createResourceCard(resource) {
     card.setAttribute('itemscope', '');
     card.setAttribute('itemtype', 'https://schema.org/SoftwareApplication');
     
+    // Extract domain for favicon
+    let faviconUrl = '';
+    try {
+        const url = new URL(resource.link);
+        // Using Google's favicon service as a fallback if the direct favicon isn't available
+        faviconUrl = `https://www.google.com/s2/favicons?domain=${url.hostname}&sz=32`;
+    } catch (e) {
+        console.warn('Invalid URL:', resource.link);
+    }
+    
     card.innerHTML = `
         <div class="resource-header">
             <h3 class="resource-title">
@@ -316,6 +326,7 @@ function createResourceCard(resource) {
                    target="_blank" 
                    rel="noopener"
                    itemprop="name">
+                    ${faviconUrl ? `<img src="${faviconUrl}" alt="" class="resource-favicon" />` : ''}
                     ${resource.name}
                     <i class="fas fa-external-link-alt" aria-hidden="true"></i>
                 </a>
@@ -605,41 +616,4 @@ function displaySection(sectionName, sections) {
             });
         }
     });
-}
-
-function createResourceCard(resource) {
-    const card = document.createElement('div');
-    card.className = 'resource-card';
-    
-    // Add schema.org structured data
-    card.setAttribute('itemscope', '');
-    card.setAttribute('itemtype', 'https://schema.org/SoftwareApplication');
-    
-    card.innerHTML = `
-        <div class="resource-header">
-            <h3 class="resource-title">
-                <a href="${resource.link}" 
-                   target="_blank" 
-                   rel="noopener"
-                   itemprop="name">
-                    ${resource.name}
-                    <i class="fas fa-external-link-alt" aria-hidden="true"></i>
-                </a>
-            </h3>
-            ${resource.stars ? `
-                <div class="resource-stars" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                    <i class="fas fa-star" aria-hidden="true"></i>
-                    <span itemprop="ratingValue">${resource.stars}</span>
-                    <meta itemprop="ratingCount" content="${resource.stars}">
-                </div>
-            ` : ''}
-        </div>
-        ${resource.description ? `
-            <div class="resource-description" itemprop="description">
-                ${resource.description}
-            </div>
-        ` : ''}
-    `;
-
-    return card;
 }
