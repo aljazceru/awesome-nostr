@@ -560,4 +560,32 @@ button:focus {
     color: var(--primary-color);
     text-decoration: none;
     transition: color 0.2s ease;
+}
+
+.logo-container {
+    height: 50px;
+    width: 200px; /* Adjust this value to your preferred width */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.nav-logo {
+    height: 100%;
+    width: 100%;
+    object-fit: cover; /* This will maintain aspect ratio while fitting within the container */
+}
+
+/* Adjust container size for mobile */
+@media (max-width: 768px) {
+    .logo-container {
+        height: 40px;
+        width: 160px; /* Proportionally smaller for mobile */
+    }
+    
+    .nav-content h1 {
+        width: auto;
+        text-align: left;
+    }
 } 
