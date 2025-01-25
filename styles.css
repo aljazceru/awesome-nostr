@@ -547,8 +547,8 @@ button:focus {
 }
 
 .resource-favicon {
-    width: 16px;
-    height: 16px;
+    width: 32px;
+    height: 32px;
     margin-right: 8px;
     vertical-align: middle;
     display: inline-block;
