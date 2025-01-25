@@ -36,6 +36,7 @@ body {
 .container {
     display: flex;
     min-height: 100vh;
+    margin-top: 60px; /* Height of top nav */
 }
 
 /* Sidebar Styles */
@@ -44,11 +45,12 @@ body {
     background-color: var(--sidebar-background);
     padding: 1rem;
     position: fixed;
-    height: 100vh;
+    height: calc(100vh - 60px);
     overflow-y: auto;
     transition: transform 0.3s ease;
     border-right: 1px solid rgba(110, 84, 148, 0.15);
     box-shadow: 2px 0 8px rgba(0, 0, 0, 0.05);
+    top: 60px; /* Start below top nav */
 }
 
 .sidebar-header {
@@ -142,12 +144,11 @@ body {
     flex: 1;
     min-height: 100vh;
     overflow: auto;
+    margin-top: 0;
 }
 
 .content-header {
-    display: flex;
-    justify-content: flex-end;
-    margin-bottom: 2rem;
+    display: none;
 }
 
 .view-controls {
@@ -254,6 +255,14 @@ body {
 
     .menu-toggle {
         display: block;
+    }
+
+    .top-nav {
+        padding: 0.75rem;
+    }
+    
+    .top-nav h1 {
+        font-size: 1.25rem;
     }
 }
 
@@ -467,4 +476,53 @@ button:focus {
     text-align: center;
     padding: 1rem;
     margin-top: auto;
+}
+
+/* Add top navigation styles */
+.top-nav {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1001;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.nav-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-content h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.theme-toggle {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    transition: opacity 0.2s;
+}
+
+.theme-toggle:hover {
+    opacity: 0.8;
+}
+
+/* Remove old view-controls styling if no longer needed */
+.content-header {
+    display: none;
 } 

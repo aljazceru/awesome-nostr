@@ -26,6 +26,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
+    <nav class="top-nav">
+        <div class="nav-content">
+            <h1>Awesome Nostr.net</h1>
+            <button id="darkModeToggle" class="theme-toggle" aria-label="Toggle dark mode">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </nav>
     <div class="container">
         <!-- Sidebar Navigation -->
         <nav class="sidebar" aria-label="Main navigation">
@@ -50,9 +58,7 @@
         <main class="main-content" role="main">
             <header class="content-header">
                 <div class="view-controls">
-                    <button id="darkModeToggle" class="theme-toggle" aria-label="Toggle dark mode">
-                        <i class="fas fa-moon"></i>
-                    </button>
+                    <!-- Dark mode toggle has been moved to top nav -->
                 </div>
             </header>
 
