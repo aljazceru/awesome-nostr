@@ -71,6 +71,74 @@ const colorThemes = {
             sidebarBackground: '#c8963e',
             linkColor: '#f3a953'
         }
+    },
+    grape: {
+        light: {
+            primary: '#642ca9',
+            background: '#ffffff',
+            text: '#642ca9',
+            cardBackground: '#ffb8de',
+            sidebarBackground: '#ffdde1',
+            hoverColor: '#ff36ab'
+        },
+        dark: {
+            background: '#642ca9',
+            text: '#ffdde1',
+            cardBackground: '#ff36ab',
+            sidebarBackground: '#ff74d4',
+            linkColor: '#ffb8de'
+        }
+    },
+    autumn: {
+        light: {
+            primary: '#d95d39',
+            background: '#ffffff',
+            text: '#0e1428',
+            cardBackground: '#f0a202',
+            sidebarBackground: '#7b9e89',
+            hoverColor: '#f18805'
+        },
+        dark: {
+            background: '#0e1428',
+            text: '#f0a202',
+            cardBackground: '#d95d39',
+            sidebarBackground: '#7b9e89',
+            linkColor: '#f18805'
+        }
+    },
+    midnight: {
+        light: {
+            primary: '#b91372',
+            background: '#ffffff',
+            text: '#31081f',
+            cardBackground: '#fa198b',
+            sidebarBackground: '#6b0f1a',
+            hoverColor: '#fa198b'
+        },
+        dark: {
+            background: '#0e0004',
+            text: '#fa198b',
+            cardBackground: '#b91372',
+            sidebarBackground: '#31081f',
+            linkColor: '#fa198b'
+        }
+    },
+    rosenoir: {
+        light: {
+            primary: '#792359',
+            background: '#ffffff',
+            text: '#2f2d2e',
+            cardBackground: '#fd3e81',
+            sidebarBackground: '#41292c',
+            hoverColor: '#d72483'
+        },
+        dark: {
+            background: '#2f2d2e',
+            text: '#fd3e81',
+            cardBackground: '#792359',
+            sidebarBackground: '#41292c',
+            linkColor: '#d72483'
+        }
     }
 };
 
