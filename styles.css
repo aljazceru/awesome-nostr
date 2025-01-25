@@ -107,6 +107,8 @@ body {
     margin-left: 280px;
     padding: 2rem;
     flex: 1;
+    min-height: 100vh;
+    overflow: auto;
 }
 
 .content-header {
@@ -123,11 +125,14 @@ body {
 
 /* Resource Cards */
 .resource-card {
-    background: var(--card-bg);
+    background: var(--card-background);
     border-radius: 8px;
     padding: 16px;
     margin-bottom: 16px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    width: 100%;
+    height: auto;
+    overflow: visible;
 }
 
 .resource-title {
@@ -210,4 +215,101 @@ body {
 
 .markdown-content a:hover {
     text-decoration: underline;
+}
+
+/* Update contributors grid styles */
+.contributors-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+    gap: 16px;
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    min-height: 100px;
+    justify-items: center;
+    overflow: visible;
+}
+
+.contributors-grid a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 0.8em;
+    text-align: center;
+}
+
+.contributors-grid img {
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+    transition: transform 0.2s;
+    margin-bottom: 8px;
+}
+
+.contributors-grid a:hover {
+    text-decoration: none;
+}
+
+.contributors-grid a:hover img {
+    transform: scale(1.1);
+}
+
+.contributors-grid .loading {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 20px;
+    color: var(--text-color);
+    font-style: italic;
+}
+
+/* Update the resource card for contributors */
+.resource-card.contributors-card {
+    max-width: none;
+    width: 100%;
+    height: auto;
+    min-height: 200px;
+}
+
+.resource-description a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.resource-description a:hover {
+    text-decoration: underline;
+}
+
+#resources-container {
+    width: 100%;
+    height: auto;
+    min-height: 200px;
+    overflow: visible;
+}
+
+/* Category label styles */
+.category-label {
+    font-size: 0.8em;
+    color: var(--primary-color);
+    text-transform: capitalize;
+    margin-bottom: 8px;
+    padding: 2px 8px;
+    background-color: rgba(110, 84, 148, 0.1);
+    border-radius: 4px;
+    display: inline-block;
+}
+
+/* No results styles */
+.no-results {
+    text-align: center;
+    padding: 2rem;
+    color: var(--text-color);
+    font-style: italic;
+}
+
+/* Active nav link style */
+.nav-links a.active {
+    background-color: var(--primary-color);
+    color: white;
 } 

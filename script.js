@@ -19,13 +19,82 @@ menuToggle.addEventListener('click', () => {
 
 // Search functionality
 const searchInput = document.getElementById('search');
-const resourceCards = document.querySelectorAll('.resource-card');
 
 searchInput.addEventListener('input', (e) => {
     const searchTerm = e.target.value.toLowerCase();
-    resourceCards.forEach(card => {
-        const text = card.textContent.toLowerCase();
-        card.style.display = text.includes(searchTerm) ? 'block' : 'none';
+    const container = document.getElementById('resources-container');
+    
+    if (!searchTerm) {
+        // If search is empty, restore current category view
+        const currentCategory = document.querySelector('.nav-links a.active')?.getAttribute('href')?.replace('#', '');
+        if (currentCategory) {
+            populateResources(currentCategory, window.parsedResources);
+        }
+        return;
+    }
+
+    // Clear current container
+    container.innerHTML = '';
+    
+    // Search through all categories
+    Object.entries(window.parsedResources).forEach(([category, resources]) => {
+        resources.forEach(resource => {
+            let shouldShow = false;
+            
+            if (resource.type) {
+                // Handle special sections (contributors, contributing)
+                if (resource.type === 'markdown') {
+                    shouldShow = resource.content.toLowerCase().includes(searchTerm);
+                } else if (resource.type === 'github-contributors') {
+                    // Skip contributors section in search
+                    return;
+                }
+            } else {
+                // Regular resources
+                const searchableText = [
+                    resource.name,
+                    resource.description,
+                    resource.link
+                ].filter(Boolean).join(' ').toLowerCase();
+                
+                shouldShow = searchableText.includes(searchTerm);
+            }
+            
+            if (shouldShow) {
+                let card;
+                if (resource.type) {
+                    card = createSpecialSectionCard(resource);
+                } else {
+                    card = createResourceCard(resource);
+                }
+                
+                // Add category label to card
+                const categoryLabel = document.createElement('div');
+                categoryLabel.className = 'category-label';
+                categoryLabel.textContent = category.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+                card.insertBefore(categoryLabel, card.firstChild);
+                
+                container.appendChild(card);
+            }
+        });
+    });
+    
+    // Show "no results" message if nothing found
+    if (!container.children.length) {
+        container.innerHTML = `
+            <div class="no-results">
+                No resources found matching "${searchTerm}"
+            </div>
+        `;
+    }
+});
+
+// Add active class handling for navigation
+document.querySelectorAll('.nav-links a').forEach(link => {
+    link.addEventListener('click', () => {
+        document.querySelectorAll('.nav-links a').forEach(l => l.classList.remove('active'));
+        link.classList.add('active');
+        searchInput.value = ''; // Clear search when changing categories
     });
 });
 
@@ -50,7 +119,42 @@ sortSelect.addEventListener('change', (e) => {
     cards.forEach(card => container.appendChild(card));
 });
 
-// Function to parse resources from README content
+// Add this function to fetch contributors from GitHub API
+async function fetchContributors(owner, repo) {
+    try {
+        let page = 1;
+        let allContributors = [];
+        
+        while (true) {
+            const response = await fetch(
+                `https://api.github.com/repos/${owner}/${repo}/contributors?per_page=100&page=${page}`
+            );
+            
+            if (!response.ok) throw new Error('Failed to fetch contributors');
+            
+            const contributors = await response.json();
+            if (contributors.length === 0) break; // No more contributors
+            
+            allContributors = [...allContributors, ...contributors];
+            page++;
+            
+            // Check if we've reached the last page
+            const linkHeader = response.headers.get('Link');
+            if (!linkHeader || !linkHeader.includes('rel="next"')) {
+                break;
+            }
+        }
+        
+        console.log(`Total contributors fetched: ${allContributors.length}`);
+        return allContributors;
+        
+    } catch (error) {
+        console.error('Error fetching contributors:', error);
+        return [];
+    }
+}
+
+// Modify the parseResources function to handle contributors differently
 function parseResources(content) {
     const resources = {
         'most-popular': [],
@@ -84,30 +188,35 @@ function parseResources(content) {
         'contributors': []
     };
 
-    // Split content by lines and process each line
     const lines = content.split('\n');
     let currentMainSection = '';
     let currentSubSection = '';
+    let contributingContent = '';
+
+    // Extract repo info from contributors section
+    let repoInfo = null;
+    const repoRegex = /github\.com\/([\w-]+)\/([\w-]+)\/graphs\/contributors/;
 
     lines.forEach(line => {
-        // Detect main section headers (##)
         if (line.startsWith('## ')) {
             currentMainSection = line.slice(3).trim();
             currentSubSection = '';
+        } else if (currentMainSection.toLowerCase() === 'contributors') {
+            const match = line.match(repoRegex);
+            if (match) {
+                repoInfo = {
+                    owner: match[1],
+                    repo: match[2]
+                };
+            }
+        } else if (currentMainSection.toLowerCase() === 'contributing') {
+            if (line.trim() && !line.startsWith('##')) {
+                contributingContent += line + '\n';
+            }
         }
         // Detect subsection headers (###)
         else if (line.startsWith('### ')) {
             currentSubSection = line.slice(4).trim();
-        }
-        // Special handling for contributors section with HTML content
-        else if (currentMainSection.toLowerCase() === 'contributors' && line.includes('<a')) {
-            const resource = {
-                name: 'Contributors List',
-                description: 'GitHub contributors to the awesome-nostr repository',
-                link: 'https://github.com/aljazceru/awesome-nostr/graphs/contributors',
-                raw: line.trim()
-            };
-            resources['contributors'].push(resource);
         }
         // Parse regular resource lines (starting with '- [')
         else if (line.trim().startsWith('- [')) {
@@ -126,6 +235,17 @@ function parseResources(content) {
             }
         }
     });
+
+    // Add special handling for contributors and contributing sections
+    resources['contributors'] = [{
+        type: 'github-contributors',
+        repoInfo: repoInfo
+    }];
+    
+    resources['contributing'] = [{
+        type: 'markdown',
+        content: contributingContent.trim()
+    }];
 
     // Log the parsed data for debugging
     console.log('Parsed resources:', resources);
@@ -195,15 +315,69 @@ function createResourceCard(resource) {
     return card;
 }
 
-// Function to populate resources container
-function populateResources(categoryId, resources) {
-    const container = document.getElementById('resources-container');
-    container.innerHTML = ''; // Clear existing content
+// Update createSpecialSectionCard to handle GitHub contributors
+async function createSpecialSectionCard(resource) {
+    const card = document.createElement('div');
+    card.className = 'resource-card';
 
-    resources[categoryId]?.forEach(resource => {
-        const card = createResourceCard(resource);
+    if (resource.type === 'github-contributors') {
+        card.className += ' contributors-card';
+        card.innerHTML = `
+            <div class="resource-title">Contributors</div>
+            <div class="contributors-grid">
+                <div class="loading">Loading contributors...</div>
+            </div>
+        `;
+
+        if (resource.repoInfo) {
+            console.log('Fetching contributors for:', resource.repoInfo); // Debug log
+            const contributors = await fetchContributors(resource.repoInfo.owner, resource.repoInfo.repo);
+            console.log('Number of contributors:', contributors.length); // Debug log
+            const contributorsHtml = contributors.map(contributor => `
+                <a href="${contributor.html_url}" target="_blank" title="${contributor.login}">
+                    <img src="${contributor.avatar_url}" alt="${contributor.login}" />
+                    <span>${contributor.login}</span>
+                </a>
+            `).join('');
+
+            const grid = card.querySelector('.contributors-grid');
+            grid.innerHTML = contributorsHtml || 'No contributors found';
+        }
+    } else if (resource.type === 'markdown') {
+        // For contributing section
+        const formattedContent = resource.content
+            .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank">$1</a>');
+        
+        card.innerHTML = `
+            <div class="resource-title">How to Contribute</div>
+            <div class="resource-description">
+                ${formattedContent}
+            </div>
+        `;
+    }
+
+    return card;
+}
+
+// Update populateResources to handle both special and regular resources
+async function populateResources(categoryId, resources) {
+    const container = document.getElementById('resources-container');
+    container.innerHTML = '';
+
+    const categoryResources = resources[categoryId];
+    if (!categoryResources) return;
+
+    for (const resource of categoryResources) {
+        let card;
+        if (resource.type) {
+            // Handle special sections (contributors and contributing)
+            card = await createSpecialSectionCard(resource);
+        } else {
+            // Handle regular resource cards
+            card = createResourceCard(resource);
+        }
         container.appendChild(card);
-    });
+    }
 }
 
 // Function to get icon for category
