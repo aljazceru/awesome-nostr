@@ -418,10 +418,37 @@ body {
 }
 
 #resources-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
     width: 100%;
     height: auto;
     min-height: 200px;
     overflow: visible;
+}
+
+/* Ensure section headers span full width */
+#resources-container > h2 {
+    grid-column: 1 / -1;
+}
+
+/* Update resource card styles for grid layout */
+.resource-card {
+    background: var(--card-background);
+    border-radius: 12px;
+    padding: 16px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    height: 100%; /* This ensures all cards in a row are the same height */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Special handling for contributors card and other full-width elements */
+.resource-card.contributors-card,
+.no-results,
+.error-message,
+.markdown-content {
+    grid-column: 1 / -1;
 }
 
 /* Category label styles */
@@ -463,15 +490,6 @@ body {
 [data-theme="dark"] h3,
 [data-theme="dark"] .markdown-content h3 {
     color: #f1c40f;
-}
-
-/* Update resource container header styles */
-#resources-container h2 {
-    color: var(--primary-color);
-    margin-top: 1rem;    /* Add top margin to push content down */
-    padding-top: 1rem;   /* Add padding to create more space */
-    position: relative;  /* Ensure it's positioned relative to its container */
-    z-index: 1;         /* Keep it above other content but below the nav */
 }
 
 /* Main content scrollbar styles */
@@ -767,5 +785,12 @@ button:focus {
 @media (max-width: 480px) {
     .main-content {
         padding-top: 140px;  /* Even more padding for smallest screens */
+    }
+}
+
+/* Responsive adjustments */
+@media (max-width: 640px) {
+    #resources-container {
+        grid-template-columns: 1fr; /* Single column on small screens */
     }
 }
