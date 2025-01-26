@@ -410,9 +410,13 @@ function searchResourceList(ulElement, container, searchTerm, sectionName) {
         if (li.querySelector(':scope > a')) {
             const resourceName = li.querySelector(':scope > a')?.textContent || '';
             const resourceLink = li.querySelector(':scope > a')?.href || '';
-            const resourceDescription = li.childNodes[0].textContent.split('- ')[1]?.trim() || '';
+            const description = li.textContent
+                .replace(resourceName, '') // Remove the resource name
+                .replace(/^\s*-\s*/, '')  // Remove leading dash
+                .replace(/\s*\[!\[.*?\]\(.*?\)\]\(.*?\)\s*/, '') // Remove GitHub stars badge if present
+                .trim();
             
-            const searchableText = [resourceName, resourceDescription, resourceLink]
+            const searchableText = [resourceName, description, resourceLink]
                 .join(' ')
                 .toLowerCase();
             
@@ -420,7 +424,7 @@ function searchResourceList(ulElement, container, searchTerm, sectionName) {
                 const card = createResourceCard({
                     name: resourceName,
                     link: resourceLink,
-                    description: resourceDescription,
+                    description: description,
                     stars: li.querySelector(':scope > img[alt="stars"]')
                         ? parseInt(li.querySelector(':scope > img[alt="stars"]').src.match(/stars\/(\d+)/)?.[1]) || 0
                         : 0
