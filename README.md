@@ -478,6 +478,7 @@ Websites with lists of relays and their performance/health:
 - [tostr](https://github.com/slaninas/tostr)![stars](https://img.shields.io/github/stars/slaninas/tostr.svg?style=social) - a twitter to nostr bot
 - [Undelete my Nostr](https://yonle.github.io/undelete-my-nostr)![stars](https://img.shields.io/github/stars/Yonle/undelete-my-nostr.svg?style=social) - Simple tool for restoring deleted nostr account.
 - [Zapper](https://zapper.nostrapps.org) - Nostr micro-app for zapping
+- [YEGHRO unFollow Tool](https://unfollow.yeghro.com) - A tool that allows you to unfollow inactive users on nostr.
 
 
 ## NIP-05 identity services
