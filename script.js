@@ -371,35 +371,8 @@ searchInput.addEventListener('input', (e) => {
     Object.entries(window.parsedResources).forEach(([sectionName, sectionContent]) => {
         sectionContent.forEach(item => {
             if (item.type === 'resources') {
-                // Search through resource lists
-                Array.from(item.element.children).forEach(li => {
-                    const resourceName = li.querySelector('a')?.textContent || '';
-                    const resourceLink = li.querySelector('a')?.href || '';
-                    const resourceDescription = li.textContent.split('- ')[1]?.trim() || '';
-                    
-                    const searchableText = [resourceName, resourceDescription, resourceLink]
-                        .join(' ')
-                        .toLowerCase();
-                    
-                    if (searchableText.includes(searchTerm)) {
-                        const card = createResourceCard({
-                            name: resourceName,
-                            link: resourceLink,
-                            description: resourceDescription,
-                            stars: li.querySelector('img[alt="stars"]')
-                                ? parseInt(li.querySelector('img[alt="stars"]').src.match(/stars\/(\d+)/)?.[1]) || 0
-                                : 0
-                        });
-                        
-                        // Add section label to card
-                        const sectionLabel = document.createElement('div');
-                        sectionLabel.className = 'category-label';
-                        sectionLabel.textContent = sectionName;
-                        card.insertBefore(sectionLabel, card.firstChild);
-                        
-                        container.appendChild(card);
-                    }
-                });
+                // Process both top-level and nested items for search
+                searchResourceList(item.element, container, searchTerm, sectionName);
             } else if (item.type === 'content') {
                 // Search through regular content
                 const contentText = item.element.textContent.toLowerCase();
@@ -429,6 +402,47 @@ searchInput.addEventListener('input', (e) => {
         `;
     }
 });
+
+// New helper function to search through resource lists recursively
+function searchResourceList(ulElement, container, searchTerm, sectionName) {
+    Array.from(ulElement.children).forEach(li => {
+        // Search in the main item if it has a link
+        if (li.querySelector(':scope > a')) {
+            const resourceName = li.querySelector(':scope > a')?.textContent || '';
+            const resourceLink = li.querySelector(':scope > a')?.href || '';
+            const resourceDescription = li.childNodes[0].textContent.split('- ')[1]?.trim() || '';
+            
+            const searchableText = [resourceName, resourceDescription, resourceLink]
+                .join(' ')
+                .toLowerCase();
+            
+            if (searchableText.includes(searchTerm)) {
+                const card = createResourceCard({
+                    name: resourceName,
+                    link: resourceLink,
+                    description: resourceDescription,
+                    stars: li.querySelector(':scope > img[alt="stars"]')
+                        ? parseInt(li.querySelector(':scope > img[alt="stars"]').src.match(/stars\/(\d+)/)?.[1]) || 0
+                        : 0
+                });
+                
+                // Add section label to card
+                const sectionLabel = document.createElement('div');
+                sectionLabel.className = 'category-label';
+                sectionLabel.textContent = sectionName;
+                card.insertBefore(sectionLabel, card.firstChild);
+                
+                container.appendChild(card);
+            }
+        }
+
+        // Search in nested items if they exist
+        const nestedUl = li.querySelector(':scope > ul');
+        if (nestedUl) {
+            searchResourceList(nestedUl, container, searchTerm, sectionName);
+        }
+    });
+}
 
 // Add active class handling for navigation
 document.querySelectorAll('.nav-links a').forEach(link => {
@@ -579,11 +593,10 @@ function parseResources(content) {
 
 // Function to parse a single resource line
 function parseResourceLine(line) {
-    // Updated regex patterns to better handle various markdown formats
+    // Same regex patterns as before
     const nameRegex = /\[(.*?)\]/;
     const linkRegex = /\((.*?)\)/;
     const starsRegex = /!\[stars\].*?stars\/(.*?)\/.*?style=social/;
-    // Updated description regex to handle descriptions after stars badge
     const descriptionRegex = /style=social\) - (.*?)(?=(?:\[|\n|$))|(?:\) - )(.*?)(?=(?:\[|\n|$))/;
 
     try {
@@ -591,7 +604,6 @@ function parseResourceLine(line) {
         const link = linkRegex.exec(line)?.[1];
         const stars = starsRegex.exec(line)?.[1];
         
-        // More robust description extraction
         const descMatch = descriptionRegex.exec(line);
         const description = (descMatch?.[1] || descMatch?.[2] || '').trim();
 
@@ -599,7 +611,7 @@ function parseResourceLine(line) {
             return {
                 name,
                 link,
-                stars: stars || 0,
+                stars: stars ? parseInt(stars) : 0,
                 description: description || '',
                 raw: line.trim()
             };
@@ -619,18 +631,59 @@ function createResourceCard(resource) {
     card.setAttribute('itemscope', '');
     card.setAttribute('itemtype', 'https://schema.org/SoftwareApplication');
     
-    // Extract domain for favicon
+    // Extract domain and build multiple fallback favicon URLs
     let faviconUrl = '';
     try {
         const url = new URL(resource.link);
-        faviconUrl = `https://www.google.com/s2/favicons?domain=${url.hostname}&sz=64`;
+        const domain = url.hostname;
+        
+        // Try multiple favicon sources
+        const faviconSources = [
+            `https://www.google.com/s2/favicons?domain=${domain}&sz=64`,
+            `https://${domain}/favicon.ico`,
+            `https://${domain}/favicon.png`,
+            `https://${domain}/apple-touch-icon.png`,
+            `https://${domain}/apple-touch-icon-precomposed.png`
+        ];
+
+        // Create image element with fallback chain
+        const img = document.createElement('img');
+        img.className = 'resource-favicon';
+        img.alt = '';
+        
+        // Set first source as initial
+        img.src = faviconSources[0];
+        
+        // Add error handling to try next source
+        let sourceIndex = 0;
+        img.onerror = () => {
+            sourceIndex++;
+            if (sourceIndex < faviconSources.length) {
+                img.src = faviconSources[sourceIndex];
+            } else {
+                // If all sources fail, use a default icon
+                img.src = 'data:image/svg+xml,' + encodeURIComponent(`
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="32" height="32">
+                        <circle cx="50" cy="50" r="40" fill="#ccc"/>
+                        <text x="50" y="65" font-size="40" text-anchor="middle" fill="#fff">
+                            ${resource.name.charAt(0).toUpperCase()}
+                        </text>
+                    </svg>
+                `);
+                img.onerror = null; // Remove error handler once default is shown
+            }
+        };
+
+        faviconUrl = img.outerHTML;
     } catch (e) {
         console.warn('Invalid URL:', resource.link);
+        // Use default icon for invalid URLs
+        faviconUrl = `<div class="resource-favicon-fallback">${resource.name.charAt(0).toUpperCase()}</div>`;
     }
     
     card.innerHTML = `
         <div class="resource-header">
-            ${faviconUrl ? `<img src="${faviconUrl}" alt="" class="resource-favicon" />` : ''}
+            ${faviconUrl}
             <div class="resource-content">
                 <h3 class="resource-title">
                     <a href="${resource.link}" 
@@ -879,24 +932,37 @@ function displaySection(sectionName, sections) {
     // Display section content
     sections[sectionName].forEach(item => {
         if (item.type === 'content') {
-            // Regular markdown content
             const contentDiv = document.createElement('div');
             contentDiv.className = 'markdown-content';
             contentDiv.innerHTML = item.element.outerHTML;
             container.appendChild(contentDiv);
         } else if (item.type === 'resources') {
-            // Resource list
-            Array.from(item.element.children).forEach(li => {
-                const card = createResourceCard({
-                    name: li.querySelector('a')?.textContent || '',
-                    link: li.querySelector('a')?.href || '',
-                    description: li.textContent.split('- ')[1]?.trim() || '',
-                    stars: li.querySelector('img[alt="stars"]')
-                        ? parseInt(li.querySelector('img[alt="stars"]').src.match(/stars\/(\d+)/)?.[1]) || 0
-                        : 0
-                });
-                container.appendChild(card);
+            // Process both top-level and nested items
+            processResourceList(item.element, container);
+        }
+    });
+}
+
+// New helper function to process resource lists recursively
+function processResourceList(ulElement, container) {
+    Array.from(ulElement.children).forEach(li => {
+        // Process the main item if it has a link
+        if (li.querySelector(':scope > a')) {
+            const card = createResourceCard({
+                name: li.querySelector(':scope > a')?.textContent || '',
+                link: li.querySelector(':scope > a')?.href || '',
+                description: li.childNodes[0].textContent.split('- ')[1]?.trim() || '',
+                stars: li.querySelector(':scope > img[alt="stars"]')
+                    ? parseInt(li.querySelector(':scope > img[alt="stars"]').src.match(/stars\/(\d+)/)?.[1]) || 0
+                    : 0
             });
+            container.appendChild(card);
+        }
+
+        // Process nested items if they exist
+        const nestedUl = li.querySelector(':scope > ul');
+        if (nestedUl) {
+            processResourceList(nestedUl, container);
         }
     });
 }
