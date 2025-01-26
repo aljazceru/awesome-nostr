@@ -623,37 +623,37 @@ function createResourceCard(resource) {
     let faviconUrl = '';
     try {
         const url = new URL(resource.link);
-        // Using Google's favicon service as a fallback if the direct favicon isn't available
-        faviconUrl = `https://www.google.com/s2/favicons?domain=${url.hostname}&sz=32`;
+        faviconUrl = `https://www.google.com/s2/favicons?domain=${url.hostname}&sz=64`;
     } catch (e) {
         console.warn('Invalid URL:', resource.link);
     }
     
     card.innerHTML = `
         <div class="resource-header">
-            <h3 class="resource-title">
-                <a href="${resource.link}" 
-                   target="_blank" 
-                   rel="noopener"
-                   itemprop="name">
-                    ${faviconUrl ? `<img src="${faviconUrl}" alt="" class="resource-favicon" />` : ''}
-                    ${resource.name}
-                    <i class="fas fa-external-link-alt" aria-hidden="true"></i>
-                </a>
-            </h3>
-            ${resource.stars ? `
-                <div class="resource-stars" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                    <i class="fas fa-star" aria-hidden="true"></i>
-                    <span itemprop="ratingValue">${resource.stars}</span>
-                    <meta itemprop="ratingCount" content="${resource.stars}">
-                </div>
-            ` : ''}
-        </div>
-        ${resource.description ? `
-            <div class="resource-description" itemprop="description">
-                ${resource.description}
+            ${faviconUrl ? `<img src="${faviconUrl}" alt="" class="resource-favicon" />` : ''}
+            <div class="resource-content">
+                <h3 class="resource-title">
+                    <a href="${resource.link}" 
+                       target="_blank" 
+                       rel="noopener"
+                       itemprop="name">
+                        ${resource.name}
+                    </a>
+                    ${resource.stars ? `
+                        <div class="resource-stars" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                            <i class="fas fa-star" aria-hidden="true"></i>
+                            <span itemprop="ratingValue">${resource.stars}</span>
+                            <meta itemprop="ratingCount" content="${resource.stars}">
+                        </div>
+                    ` : ''}
+                </h3>
+                ${resource.description ? `
+                    <div class="resource-description" itemprop="description">
+                        ${resource.description}
+                    </div>
+                ` : ''}
             </div>
-        ` : ''}
+        </div>
     `;
 
     return card;
