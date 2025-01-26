@@ -932,37 +932,24 @@ function displaySection(sectionName, sections) {
     // Display section content
     sections[sectionName].forEach(item => {
         if (item.type === 'content') {
+            // Regular markdown content
             const contentDiv = document.createElement('div');
             contentDiv.className = 'markdown-content';
             contentDiv.innerHTML = item.element.outerHTML;
             container.appendChild(contentDiv);
         } else if (item.type === 'resources') {
-            // Process both top-level and nested items
-            processResourceList(item.element, container);
-        }
-    });
-}
-
-// New helper function to process resource lists recursively
-function processResourceList(ulElement, container) {
-    Array.from(ulElement.children).forEach(li => {
-        // Process the main item if it has a link
-        if (li.querySelector(':scope > a')) {
-            const card = createResourceCard({
-                name: li.querySelector(':scope > a')?.textContent || '',
-                link: li.querySelector(':scope > a')?.href || '',
-                description: li.childNodes[0].textContent.split('- ')[1]?.trim() || '',
-                stars: li.querySelector(':scope > img[alt="stars"]')
-                    ? parseInt(li.querySelector(':scope > img[alt="stars"]').src.match(/stars\/(\d+)/)?.[1]) || 0
-                    : 0
+            // Resource list
+            Array.from(item.element.children).forEach(li => {
+                const card = createResourceCard({
+                    name: li.querySelector('a')?.textContent || '',
+                    link: li.querySelector('a')?.href || '',
+                    description: li.textContent.split('- ')[1]?.trim() || '',
+                    stars: li.querySelector('img[alt="stars"]')
+                        ? parseInt(li.querySelector('img[alt="stars"]').src.match(/stars\/(\d+)/)?.[1]) || 0
+                        : 0
+                });
+                container.appendChild(card);
             });
-            container.appendChild(card);
-        }
-
-        // Process nested items if they exist
-        const nestedUl = li.querySelector(':scope > ul');
-        if (nestedUl) {
-            processResourceList(nestedUl, container);
         }
     });
 }
