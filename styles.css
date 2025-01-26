@@ -63,7 +63,7 @@ body {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 2rem;
-    margin-top: 3rem; /* Increased from 1rem to 2.5rem for more spacing */
+    margin-top: 2rem; /* Increased from 1rem to 2.5rem for more spacing */
 }
 
 .sidebar-header h4 {
@@ -71,7 +71,6 @@ body {
     color: var(--text-color);
     font-size: 1.1rem;
     font-weight: 500;
-    margin-top: 2rem;
 }
 
 .search-box {
@@ -274,6 +273,10 @@ body {
     .sidebar.active {
         transform: translateX(0);
         box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .sidebar-header {
+        margin-top: 5em;
     }
 
     .main-content {
