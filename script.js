@@ -597,26 +597,33 @@ function parseResources(content) {
 
 // Function to parse a single resource line
 function parseResourceLine(line) {
-    // Same regex patterns as before
+    // Modified regex patterns to be more lenient
     const nameRegex = /\[(.*?)\]/;
     const linkRegex = /\((.*?)\)/;
     const starsRegex = /!\[stars\].*?stars\/(.*?)\/.*?style=social/;
-    const descriptionRegex = /style=social\) - (.*?)(?=(?:\[|\n|$))|(?:\) - )(.*?)(?=(?:\[|\n|$))/;
+    
+    // Modified description regex to be optional
+    const descriptionRegex = /(?:\) - )(.*?)(?=(?:\[|\n|$))|(?:style=social\) - )(.*?)(?=(?:\[|\n|$))/;
 
     try {
-        const name = nameRegex.exec(line)?.[1];
-        const link = linkRegex.exec(line)?.[1];
-        const stars = starsRegex.exec(line)?.[1];
+        const nameMatch = nameRegex.exec(line);
+        const linkMatch = linkRegex.exec(line);
         
-        const descMatch = descriptionRegex.exec(line);
-        const description = (descMatch?.[1] || descMatch?.[2] || '').trim();
+        // Only require name and link to be present
+        if (nameMatch?.[1] && linkMatch?.[1]) {
+            const name = nameMatch[1].trim();
+            const link = linkMatch[1].trim();
+            const stars = starsRegex.exec(line)?.[1];
+            
+            // Make description optional
+            const descMatch = descriptionRegex.exec(line);
+            const description = (descMatch?.[1] || descMatch?.[2] || '').trim();
 
-        if (name && link) {
             return {
                 name,
                 link,
                 stars: stars ? parseInt(stars) : 0,
-                description: description || '',
+                description, // This might be an empty string now
                 raw: line.trim()
             };
         }
