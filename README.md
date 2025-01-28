@@ -668,6 +668,7 @@ Outside of nostr itself, you find the community on:
 - [strfry personal relay](https://github.com/pjv/strfry_personal_docker)![stars](https://img.shields.io/github/stars/pjv/strfry_personal_docker.svg?style=social) - 10 minute setup of a personal nostr relay on a vanilla Linux VPS. Adds support for NIP-65.
 - [SuperConductor](https://github.com/avlo/superconductor/?tab=readme-ov-file#creating-relay-event-handlers) - Creating Java Nostr-Relay Framework & Web Application event-handlers
 - [Set up a Lightning node and Nostr client](https://rizful.com/get_on_nostr_today) - Run a full lightning node in the cloud and connect it via NWC to the Yakihonne client
+- [Send a Hello World with Nostr](https://hellonostr.dev/) - “Hello Nostr” begginers guide using HTML, CSS, and JavaScript
 
 ## Recommended reading/watching
 - [Nostr, an introduction](https://wiki.wellorder.net/post/nostr-intro/) - written by scsibug
