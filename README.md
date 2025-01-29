@@ -28,7 +28,6 @@ nostr.net services [relay.nostr.net](https://relay.nostr.net) ||  [nostr.at](htt
 - [nostr address book](https://github.com/aitechguy/nostr-address-book) - A directory of X (formerly Twitter)  users accounts and their NOSTR addresses
 - [nostr, a basic tour](https://github.com/rajarshimaitra/rust-nostr/blob/main/VISION.md) - an intro to nostr
 - [Nostr: Solucionando la censura de una vez por todas](https://estudiobitcoin.com/nostr-solucionando-la-censura-de-una-vez-por-todas/)
-- [nostr.guide](https://nostr.guide) - A guide to all things on Nostr
 - [nostr.how](https://nostr.how) - A comprehensive non-technical beginners guide to Nostr. Available in several languages.
 - [nostr](https://github.com/nostr-protocol/nostr)![stars](https://img.shields.io/github/stars/nostr-protocol/nostr.svg?style=social) - overview and FAQ
 - [tinkering with nostr without any client](https://medium.com/@p2w34/tinkering-with-the-nostr-protocol-will-it-take-twitter-over-74c4bf0fea66)
