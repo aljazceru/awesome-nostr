@@ -614,18 +614,12 @@ Endpoints (services or apps that expose a LN wallet via NWC)
 - [vendata.io](https://vendata.io/) - data processing AI marketplace with nostr data vending machines
 
 ## NIP-96 File Storage Servers
-- [mockingyou.com](https://mockingyou.com)
+- [mockingyou.com](https://mockingyou.com) 
 - [nostpic](https://nostpic.com)
 - [nostr.build](https://nostr.build)
-- [nostr.onch.services](https://nostr.onch.services)
-- [nostrage](https://nostrage.com)
 - [nostrcheck.me](https://nostrcheck.me)
 - [NostrMedia.com](https://nostrmedia.com)
 - [sovbit](https://files.sovbit.host)
-- [sove](https://sove.rent)
-- [void.cat](https://void.cat)
-
-  Updated list of NIP-96 servers [here](https://github.com/quentintaranpino/NIP96-compatible-servers)
 
 ## Nostr Web Services (NWS)
 - [nws](https://github.com/asmogo/nws)![stars](https://img.shields.io/github/stars/asmogo/nws.svg?style=social) - route TCP over Nostr relays
