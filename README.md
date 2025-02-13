@@ -71,6 +71,7 @@ of the public instances.
 - [Nosflare](https://github.com/Spl0itable/nosflare)![stars](https://img.shields.io/github/stars/Spl0itable/nosflare.svg?style=social) -  a serverless Nostr relay purpose-built for [Cloudflare Workers](https://workers.cloudflare.com/) and the [Cloudflare KV](https://www.cloudflare.com/products/workers-kv/) store.
 - [Nostpy](https://github.com/UTXOnly/nost-py/tree/main)![stars](https://img.shields.io/github/stars/UTXOnly/nost-py.svg?style=social) - An easy to deploy/audit Python relay for beginner relay operators
 - [Nostr client and relay](https://github.com/pedro-vicente/nostr_client_relay)![stars](https://img.shields.io/github/stars/pedro-vicente/nostr_client_relay.svg?style=social) -  C++ engine that allows building Nostr applications for command line, desktop or web.
+- [Nostrcheck Server](https://github.com/quentintaranpino/nostrcheck-server) ![stars](https://img.shields.io/github/stars/quentintaranpino/nostrcheck-server.svg?style=social) - The community’s Nostr brain: The only server with relay, File Hosting, Nostr Address, Lightning Redirects, NWC, WoT, and much more.
 - [nostr_relay](https://code.pobblelabs.org/fossil/nostr_relay/) - a nostr relay written in python, backed by SQLite
 - [nostr-filter-relay](https://github.com/atrifat/nostr-filter-relay)![stars](https://img.shields.io/github/stars/atrifat/nostr-filter-relay.svg?style=social) - A nostr relay docker image package which filter content based on content type (SFW/NSFW), user type, language, hate speech (toxic comment), sentiment, topic, and various rules.
 - [nostr-relay-nestjs](https://github.com/CodyTseng/nostr-relay-nestjs)![stars](https://img.shields.io/github/stars/CodyTseng/nostr-relay-nestjs.svg?style=social) - A Nostr relay with a clear architecture and high test coverage (PostgreSQL, MeiliSearch, NestJS)
@@ -91,7 +92,7 @@ of the public instances.
 - [SuperConductor](https://github.com/avlo/superconductor)![stars](https://img.shields.io/github/stars/avlo/superconductor.svg?style=social) - Java Nostr-Relay Framework & Web Application. Java 20, Spring WebSocketSession 3.2.2, Spring Boot 3.2.4, atop [nostr-java library](https://github.com/tcheeric/nostr-java). Simple. Clean. OO.
 - [tandem](https://github.com/TheRebelOfBabylon/tandem)![stars](https://img.shields.io/github/stars/TheRebelOfBabylon/tandem.svg?style=social)  - WIP: community focused relay written in Go
 - [Transpher](https://github.com/nostriphant/transpher)![stars](https://img.shields.io/github/stars/nostriphant/transpher.svg?style=social) - experimental PHP implementation with file or sqlite storage, configurable limits
-- [WoT relay](https://github.com/bitvora/wot-relay.git)![stars](https://img.shields.io/github/stars/bitvora/wot-relay.svg?style=social) - relay for every note in your web of trust 
+- [WoT relay](https://github.com/bitvora/wot-relay.git)![stars](https://img.shields.io/github/stars/bitvora/wot-relay.svg?style=social) - relay for every note in your web of trust
 
 
 ### Relay lists 
@@ -572,6 +573,7 @@ Clients (apps using NWC to access a LN wallet)
 - [Amethyst](https://github.com/vitorpamplona/amethyst)![stars](https://img.shields.io/github/stars/vitorpamplona/amethyst.svg?style=social) - Android only app
 - [Damus](https://damus.io/) - The OG nostr client for iOS
 - [Lume](https://lume.nu) - Cross-platform desktop app
+- [Nostrcheck Server](https://github.com/quentintaranpino/nostrcheck-server) ![stars](https://img.shields.io/github/stars/quentintaranpino/nostrcheck-server.svg?style=social) - The community’s Nostr brain: The only server with relay, File Hosting, Nostr Address, Lightning Redirects, NWC, WoT, and much more.
 - [Nostrmo](https://github.com/haorendashu/nostrmo)![stars](https://img.shields.io/github/stars/haorendashu/nostrmo.svg?style=social) - A flutter nostr client for Android, IOS, MacOS, Windows, Web and Linux.
 - [nostter](https://github.com/SnowCait/nostter)![stars](https://img.shields.io/github/stars/SnowCait/nostter.svg?style=social) - Twitter-like web client
 - [Nostur](https://nostur.com) - A nostr client for iPhone and macOS
