@@ -490,23 +490,17 @@ Websites with lists of relays and their performance/health:
 - [iris.to](https://iris.to) - A Nostr client that provides a free NIP-05 ID
 - [lifpay.me](https://lifpay.me) - Lightning wallet with NIP-05 ID registration service.
 - [nanostr](https://github.com/xbol0/nanostr)![stars](https://img.shields.io/github/stars/xbol0/nanostr?style=social) - A NIP-05 name server written in Deno.
-- [nip05.nostr.band](https://nip05.nostr.band) - A NIP-05 ID registration service.
-- [nip05.social](https://nip05.social) - A free and anonymous NIP-05 ID registration service
 - [Nostr-Check.com](https://nostr-check.com) - A free NIP-05 ID registration service.
-- [nostr-relay.org](https://nostr-relay.org) - A NIP-05 ID registration service
 - [NostrAddress.com](https://nostraddress.com) - Free and Paid Nostr Address (NIP-05) identifier service with premium relay and vanity domains.
 - [nostrcheck.me](https://nostrcheck.me/) - A free NIP-05 ID (nostr address) registration service, lightning redirection and media uploads.
 - [Nostrich House](https://nostrich.house) - Paid NIP-05 service with nostr bot interface. Buy your nostr address with DM to nostrich@nostrich.house for 1 sat/hour, anonymous, immediate.
 - [nostrich.love](https://uselessshit.co/nostr/nip-05/) - A Nostr Address registration service.
 - [nostrplebs](https://nostrplebs.com) - A NIP-05 ID registration service.
 - [nostrprotocol.net](https://github.com/KiPSOFT/nostr-nip05-service)![stars](https://img.shields.io/github/stars/KiPSOFT/nostr-nip05-service?style=social) - A free NIP-05 identifier service.
-- [onlyzaps.club](https://onlyzaps.club) - A free, open-source and anonymous NIP-05 ID registration service for all
-- [plebs.place](https://plebs.place) - A NIP-05 ID registration service (in portuguese).
 - [pleroma2nip05](https://code.taurix.net/guy/pleroma2nip05) - A Python based service to link pleroma ID's to nostr keys.
 - [siamstr.com](https://siamstr.com) - A free NIP-05 ID registration service, lightning redirection.
-- [swarmstr.com](https://swarmstr.com/nostr-address) - A free Nostr Address registration service.
-- [toastr.space](https://toastr.space) - Paid NIP-05 and Reputation Badge service. Verify and link your identity from Twitter or GitHub to your Nostr account, and get a badge to prove it.
 - [younostr.com](https://younostr.com) - A NIP-05 ID registration service (in portuguese).
+- [hunos.hu](https://hunos.hu) - Free NIP-05 identity for the Hungarian community.
 - [zaps.lol](https://zaps.lol) ![stars](https://img.shields.io/github/stars/jigglycrumb/nostr-address-provider?style=social) - A free and open source NIP-05 ID registration service. [Run your own](https://github.com/jigglycrumb/nostr-address-provider).
 
 
