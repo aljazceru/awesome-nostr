@@ -466,6 +466,7 @@ Websites with lists of relays and their performance/health:
 - [powrelay.xyz](https://powrelay.xyz) - A proof of work based nostr explorer.
 - [Replies](https://replies.nostrapps.org) - Nostr micro-app for viewing replies and reactions to events
 - [rss.nostr.band](https://rss.nostr.band) - Create custom RSS feeds with posts matching your keywords and consume using your favorite RSS reader.
+- [safebox](https://github.com/trbouma/safebox)![stars](https://img.shields.io/github/stars/trbouma/safebox?style=social) -  private portable safebox on nostr
 - [sb.nostr.band](https://sb.nostr.band) - Search bots that you can create and follow to receive new posts matching a keyword right into your feed.
 - [scoop-nostr](https://github.com/nostorg/scoop-nostr)![stars](https://img.shields.io/github/stars/nostorg/scoop-nostr?style=social) - Scoop bucket for Nostr software.
 - [secret-border](https://github.com/guilhermegps/secret-border)![stars](https://img.shields.io/github/stars/guilhermegps/secret-border.svg?style=social) - A safe Nostr identity generator.
