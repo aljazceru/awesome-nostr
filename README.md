@@ -426,6 +426,7 @@ Websites with lists of relays and their performance/health:
 - [nostr-follow-bundler](https://github.com/leesalminen/nostr-follow-bundler)![stars](https://img.shields.io/github/stars/leesalminen/nostr-follow-bundler.svg?style=social) This tool lets you create lists of profiles that other users can then see and follow themselves.
 - [nostr-fzf](https://github.com/Cameri/nostr-fzf)![stars](https://img.shields.io/github/stars/Cameri/nostr-fzf.svg?style=social) - Nostr Directory; a tool for searching usernames and channels
 - [nostr-launch](https://codeberg.org/rsbondi/nostr-launch) - a tool for launching a bunch of relays and clients locally for development and testing
+- [nostr-notification-server](https://github.com/mmalmi/nostr-notification-server)![stars](https://img.shields.io/github/stars/mmalmi/nostr-notification-server.svg?style=social) - Rust & LMDB server for sending event notifications to web hooks and web push endpoints
 - [nostr-notify](https://github.com/jb55/nostr-notify)![stars](https://img.shields.io/github/stars/jb55/nostr-notify.svg?style=social) - desktop nostr notifications using libnotify
 - [nostr-post-checker](https://github.com/koteitan/nostr-post-checker)![stars](https://img.shields.io/github/stars/koteitan/nostr-post-checker?style=social) - check if event exists on relays
   - [nostr-post-checker](https://koteitan.github.io/nostr-post-checker/) - live instance
