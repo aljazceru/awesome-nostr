@@ -42,7 +42,7 @@ of the public instances.
 
 ### Implementations
 
-- [Alienos](https://github.com/dezh-tech/alienos)![stars](https://img.shields.io/github/stars/dezh-tech/alienos.svg?style=social) - A plugin-able and manageable (NIP-86) nostr stack (relay/blossom/nip-05) designed for self-hosting. Supporting tor hidden service and full running documentation.
+- [Alienos](https://github.com/dezh-tech/alienos)![stars](https://img.shields.io/github/stars/dezh-tech/alienos.svg?style=social) - A plugin-able and manageable (NIP-86) lightweight nostr stack (relay/blossom/nip-05) designed for self-hosting. Supporting tor hidden service and full running documentation.
 - [Astro](https://github.com/Nostrology/astro)![stars](https://img.shields.io/github/stars/Nostrology/astro.svg?style=social) - Elixir-based implementation built to be performant and highly distributed.
 - [Bostr](https://github.com/Yonle/bostr)![stars](https://img.shields.io/github/stars/Yonle/bostr.svg?style=social) - Nostr bouncer relay aggregator proxy written in NodeJS
 - [Bostr2](https://github.com/Yonle/bostr2)![stars](https://img.shields.io/github/stars/Yonle/bostr2.svg?style=social) - Nostr bouncer relay aggregator proxy written in Go
@@ -50,6 +50,9 @@ of the public instances.
 - [cagliostr](https://github.com/mattn/cagliostr)![stars](https://img.shields.io/github/stars/mattn/cagliostr.svg?style=social) - Faster Nostr relay in C++ backend by sqlite3.
 - [cfrelay](https://github.com/haorendashu/cfrelay)![stars](https://img.shields.io/github/stars/haorendashu/cfrelay.svg?style=social) - A personal nostr relay base on cloudflare workers.
 - [Chorus](https://github.com/mikedilger/chorus)![stars](https://img.shields.io/github/stars/mikedilger/chorus.svg?style=social) - Rust based personal or community relay.
+- [DDSR](https://github.com/dezh-tech/ddsr)![stars](https://img.shields.io/github/stars/dezh-tech/ddsr.svg?style=social) - Dezh DSRs (Domain specific relays) is a set of lightweight relays designed to do exactly one thing, better than general relays to enhance UX:
+  - [Zapoli](https://github.com/dezh-tech/ddsr/tree/main/zapoli) - A Specialized Nostr Relay For AppStores. (named after [zapstroe](https://zapstore.dev))
+  - [210Maxi](https://github.com/dezh-tech/ddsr/tree/main/210maxi) - A nostr relay that only accepts 210 character events. (for NIP-B1, tiny notes feed.)
 - [Denostr](https://github.com/guakamoli/denostr)![stars](https://img.shields.io/github/stars/guakamoli/denostr.svg?style=social) - Deno based, cloud native nostr implemention.
 - [Ditto](https://github.com/soapbox-pub/ditto)![stars](https://img.shields.io/github/stars/soapbox-pub/ditto.svg?style=social) - Mastadon server and Nostr relay in one
 - [Ephemerelay](https://gitlab.com/soapbox-pub/ephemerelay)![stars](https://img.shields.io/gitlab/stars/soapbox-pub/ephemerelay.svg?style=social) - An in-memory Nostr relay that doesn't store data.
