@@ -51,30 +51,30 @@ of the public instances.
 - [cfrelay](https://github.com/haorendashu/cfrelay)![stars](https://img.shields.io/github/stars/haorendashu/cfrelay.svg?style=social) - A personal nostr relay base on cloudflare workers.
 - [Chorus](https://github.com/mikedilger/chorus)![stars](https://img.shields.io/github/stars/mikedilger/chorus.svg?style=social) - Rust based personal or community relay.
 - [DDSR](https://github.com/dezh-tech/ddsr)![stars](https://img.shields.io/github/stars/dezh-tech/ddsr.svg?style=social) - Dezh DSRs (Domain specific relays) is a set of lightweight relays designed to do exactly one thing, better than general relays to enhance UX:
-  - [Zapoli](https://github.com/dezh-tech/ddsr/tree/main/zapoli) - A Specialized Nostr Relay For AppStores. (named after [zapstroe](https://zapstore.dev))
-  - [210Maxi](https://github.com/dezh-tech/ddsr/tree/main/210maxi) - A nostr relay that only accepts 210 character events. (for NIP-B1, tiny notes feed.)
+  - [Zapoli](https://github.com/dezh-tech/ddsr/tree/main/zapoli) - A Specialized Nostr Relay For AppStores. 
+  - [210Maxi](https://github.com/dezh-tech/ddsr/tree/main/210maxi) - A nostr relay that only accepts 210 character events (NIP-B1).
 - [Denostr](https://github.com/guakamoli/denostr)![stars](https://img.shields.io/github/stars/guakamoli/denostr.svg?style=social) - Deno based, cloud native nostr implemention.
-- [Ditto](https://github.com/soapbox-pub/ditto)![stars](https://img.shields.io/github/stars/soapbox-pub/ditto.svg?style=social) - Mastadon server and Nostr relay in one
+- [Ditto](https://github.com/soapbox-pub/ditto)![stars](https://img.shields.io/github/stars/soapbox-pub/ditto.svg?style=social) - Mastadon server and Nostr relay in one.
 - [Ephemerelay](https://gitlab.com/soapbox-pub/ephemerelay)![stars](https://img.shields.io/gitlab/stars/soapbox-pub/ephemerelay.svg?style=social) - An in-memory Nostr relay that doesn't store data.
-- [Fenrir-s](https://github.com/rushmi0/Fenrir-s)![stars](https://img.shields.io/github/stars/rushmi0/Fenrir-s.svg?style=social) - a Nostr Relay written in Kotlin with PostgreSQL backend and GraalVM support
+- [Fenrir-s](https://github.com/rushmi0/Fenrir-s)![stars](https://img.shields.io/github/stars/rushmi0/Fenrir-s.svg?style=social) - a Nostr Relay written in Kotlin with PostgreSQL backend and GraalVM support.
 - [gnost-relay](https://github.com/barkyq/gnost-relay) ![stars](https://img.shields.io/github/stars/barkyq/gnost-relay.svg?style=social) - nostr relay written in go backed by PostgreSQL database.
-- [grain](https://github.com/0ceanslim/grain)![stars](https://img.shields.io/github/stars/0ceanslim/grain.svg?style=social) - A highly configurable, multipurpose relay written in Go, Storing Events in a MongoDB
+- [grain](https://github.com/0ceanslim/grain)![stars](https://img.shields.io/github/stars/0ceanslim/grain.svg?style=social) - A highly configurable, multipurpose relay written in Go, Storing Events in a MongoDB.
 - [HAVEN](https://github.com/bitvora/haven)![stars](https://img.shields.io/github/stars/bitvora/haven.svg?style=social) - Four relays in one + Blossom Media Server for a modern, sovereign and personal Nostr experience.
-- [Immortal](https://github.com/dezh-tech/immortal)![stars](https://img.shields.io/github/stars/dezh-tech/immortal.svg?style=social) - A nodern relay designed for scale and high-load. [Supporting most applicable NIPs](https://github.com/dezh-tech/immortal/blob/main/documents/NIPs.md).
+- [Immortal](https://github.com/dezh-tech/immortal)![stars](https://img.shields.io/github/stars/dezh-tech/immortal.svg?style=social) - A relay designed for scale and high-load.
 - [knostr](https://github.com/lpicanco/knostr)![stars](https://img.shields.io/github/stars/lpicanco/knostr.svg?style=social) - a nostr relay implemented in Kotlin with support for Postgres and metrics(micrometer).
-- [me.untethr.nostr-relay](https://github.com/atdixon/me.untethr.nostr-relay)![stars](https://img.shields.io/github/stars/atdixon/me.untethr.nostr-relay.svg?style=social) - a relay written in Clojure
+- [me.untethr.nostr-relay](https://github.com/atdixon/me.untethr.nostr-relay)![stars](https://img.shields.io/github/stars/atdixon/me.untethr.nostr-relay.svg?style=social) - a relay written in Clojure.
 - [Minds Nostr Relay](https://gitlab.com/minds/infrastructure/nostr-relay) - a relay for [Minds](https://www.minds.com), an open-source social network
   - [Minds Engine - Nostr](https://gitlab.com/minds/engine/-/tree/master/Core/Nostr) - relevant Minds API code for reading/writing Minds posts using Nostr
 - [monstr](https://github.com/monty888/monstr)- python code for working with nostr
 - [multiplextr](https://github.com/coracle-social/multiplextr) ![stars](https://img.shields.io/github/stars/coracle-social/multiplextr.svg?style=social) - A custom relay designed to save bandwidth for clients with multiplexer support.
-- [Nerostr](https://codeberg.org/pluja/nerostr) - A Nostr expensive relay paid with Monero and written in Go
+- [Nerostr](https://codeberg.org/pluja/nerostr) - A Nostr expensive relay paid with Monero and written in Go.
 - [netstr](https://github.com/bezysoftware/netstr)![stars](https://img.shields.io/github/stars/bezysoftware/netstr.svg?style=social) - A general purpose Nostr relay written in C# with high test coverage, backed by Postgres DB.
 - [Nex](https://github.com/lebrunel/nex) ![stars](https://img.shields.io/github/stars/lebrunel/nex.svg?style=social) - A powerful and scalable Nostr relay written in Elixir with Postgres DB.
 - [NIP-29 Group Chat Relay](https://github.com/max21dev/groups-relay)![stars](https://img.shields.io/github/stars/max21dev/groups-relay.svg?style=social) - NIP-29 Group Chat Relay based on fiatjaf's [Relay29](https://github.com/fiatjaf/relay29) and [Khatru](https://github.com/fiatjaf/khatru).
   - Live instance: [wss://relay.groups.nip29.com](https://relay.groups.nip29.com)
-- [NNostr](https://github.com/Kukks/NNostr)![stars](https://img.shields.io/github/stars/Kukks/NNostr.svg?style=social) - a C# relay
+- [NNostr](https://github.com/Kukks/NNostr)![stars](https://img.shields.io/github/stars/Kukks/NNostr.svg?style=social) - a C# relay.
 - [Nosflare](https://github.com/Spl0itable/nosflare)![stars](https://img.shields.io/github/stars/Spl0itable/nosflare.svg?style=social) -  a serverless Nostr relay purpose-built for [Cloudflare Workers](https://workers.cloudflare.com/) and the [Cloudflare KV](https://www.cloudflare.com/products/workers-kv/) store.
-- [Nostpy](https://github.com/UTXOnly/nost-py/tree/main)![stars](https://img.shields.io/github/stars/UTXOnly/nost-py.svg?style=social) - An easy to deploy/audit Python relay for beginner relay operators
+- [Nostpy](https://github.com/UTXOnly/nost-py/tree/main)![stars](https://img.shields.io/github/stars/UTXOnly/nost-py.svg?style=social) - An easy to deploy/audit Python relay for beginner relay operators.
 - [Nostr client and relay](https://github.com/pedro-vicente/nostr_client_relay)![stars](https://img.shields.io/github/stars/pedro-vicente/nostr_client_relay.svg?style=social) -  C++ engine that allows building Nostr applications for command line, desktop or web.
 - [nostrcheck-server](https://github.com/quentintaranpino/nostrcheck-server)![stars](https://img.shields.io/github/stars/quentintaranpino/nostrcheck-server.svg?style=social) - A server with relay, File Hosting, Nostr Address, Lightning Redirects, NWC and WoT.
 - [nostr_relay](https://code.pobblelabs.org/fossil/nostr_relay/) - a nostr relay written in Python, backed by SQLite
@@ -82,12 +82,12 @@ of the public instances.
 - [nostr-relay-nestjs](https://github.com/CodyTseng/nostr-relay-nestjs)![stars](https://img.shields.io/github/stars/CodyTseng/nostr-relay-nestjs.svg?style=social) - A Nostr relay with a clear architecture and high test coverage (PostgreSQL, MeiliSearch, NestJS)
 - [nostr-relay](https://github.com/mattn/nostr-relay)![stars](https://img.shields.io/github/stars/mattn/nostr-relay.svg?style=social) - Nostr relay in Go based on relayer. Backend by sqlite3/PostgreSQL/mysql.
 - [nostr-rs-relay](https://sr.ht/~gheartsfield/nostr-rs-relay/) - a minimalistic relay written in Rust that saves data on SQLite
-- [nostream](https://github.com/Cameri/nostream)![stars](https://img.shields.io/github/stars/Cameri/nostream.svg?style=social) - a nostr relay written in Typescript backed by PostgreSQL (renamed from nostr-ts-relay)
+- [nostream](https://github.com/Cameri/nostream)![stars](https://img.shields.io/github/stars/Cameri/nostream.svg?style=social) - a nostr relay written in Typescript backed by PostgreSQL (renamed from nostr-ts-relay).
 - [nostring](https://github.com/xbol0/nostring)![stars](https://img.shields.io/github/stars/xbol0/nostring.svg?style=social) - A Nostr relay written in Deno.
-- [NostrPostr Relay](https://github.com/Giszmo/NostrPostr/tree/master/NostrRelay) - a Kotlin Relay supporting both SQLite and Postgresql
+- [NostrPostr Relay](https://github.com/Giszmo/NostrPostr/tree/master/NostrRelay) - a Kotlin Relay supporting both SQLite and Postgresql.
 - [Notra](https://github.com/lontivero/Nostra)![stars](https://img.shields.io/github/stars/lontivero/nostra.svg?style=social) - F# implementation backed by SQLite database.
 - [PyRelay](https://github.com/johnny423/pyrelay)![stars](https://img.shields.io/github/stars/johnny423/pyrelay.svg?style=social) - a python implementation of a Nostr relay, using asyncio.
-- [QNostr](https://github.com/Aseman-Land/QNostr)![stars](https://img.shields.io/github/stars/Aseman-Land/QNostr.svg?style=social) - A Nostr protocol implementation for clients as a Qt Module in C++ 
+- [QNostr](https://github.com/Aseman-Land/QNostr)![stars](https://img.shields.io/github/stars/Aseman-Land/QNostr.svg?style=social) - A Nostr protocol implementation for clients as a Qt Module in C++
 - [Relayer Basic](https://github.com/fiatjaf/relayer/tree/master/examples/basic) - a simple relay based on _relayer_ backed by Postgres
 - [rnostr](https://github.com/rnostr/rnostr)![stars](https://img.shields.io/github/stars/rnostr/rnostr.svg?style=social) - A high-performance and scalable nostr relay written in Rust.
 - [Servus](https://github.com/ibz/servus)![stars](https://img.shields.io/github/stars/ibz/servus.svg?style=social) - A self-contained, single executable, CMS/blogging engine reminiscent of Jekyll which also acts as a personal Nostr relay for your blog posts. Written in Rust.
@@ -651,7 +651,7 @@ Outside of nostr itself, you find the community on:
 - [Telegram: nostr ES (Español/Spanish)](https://t.me/nostr_es) - Spanish telegram group for nostr
 - [Telegram: nostr FR (Francophone/French)](https://t.me/nostrfr) - french telegram group for nostr
 - [Telegram: nostr NL (Dutch, Nederlands)](https://t.me/nostrnederland) - Dutch nostr group
-- [Telegram: nostr Per/Fa (Iran,Afganistan,Tajikstan)](https://t.me/nostr_ir) Persian/Farsi nsotr gorup
+- [Telegram: nostr Per/Fa (Iran,Afganistan,Tajikstan)](https://t.me/nostr_ir) Persian/Farsi nostr gorup
 - [Telegram: nostr RU/UA/BY](https://t.me/nostru_community) - an Eastern European community in telegram group for nostr
 - [Telegram: YakiHonne Daily Featured](https://t.me/YakiHonne_Daily_Featured/) - telegram group for YakiHonne discussions
 
