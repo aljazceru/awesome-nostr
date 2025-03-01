@@ -16,7 +16,7 @@ nostr.net services [relay.nostr.net](https://relay.nostr.net) ||  [nostr.at](htt
 - [iris.to](https://iris.to/)
 - [primal.net](https://primal.net/)
 - [coracle.social](https://coracle.social/)
-- [YakiHonne](https://yakihonne.com/yakihonne-mobile-app)
+- [YakiHonne](https://yakihonne.com)
 
 ### App store
 - [Zapstore](https://github.com/zapstore/zapstore)
