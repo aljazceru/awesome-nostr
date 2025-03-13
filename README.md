@@ -50,6 +50,7 @@ of the public instances.
 - [cagliostr](https://github.com/mattn/cagliostr)![stars](https://img.shields.io/github/stars/mattn/cagliostr.svg?style=social) - Faster Nostr relay in C++ backend by sqlite3.
 - [cfrelay](https://github.com/haorendashu/cfrelay)![stars](https://img.shields.io/github/stars/haorendashu/cfrelay.svg?style=social) - A personal nostr relay base on cloudflare workers.
 - [Chorus](https://github.com/mikedilger/chorus)![stars](https://img.shields.io/github/stars/mikedilger/chorus.svg?style=social) - Rust based personal or community relay.
+- [Citrine](https://github.com/greenart7c3/Citrine)![stars](https://img.shields.io/github/stars/greenart7c3/Citrine.svg?style=social) - Nostr relay for Android
 - [DDSR](https://github.com/dezh-tech/ddsr)![stars](https://img.shields.io/github/stars/dezh-tech/ddsr.svg?style=social) - Dezh DSRs (Domain specific relays) is a set of lightweight relays designed to do exactly one thing, better than general relays to enhance UX:
   - [Zapoli](https://github.com/dezh-tech/ddsr/tree/main/zapoli) - A Specialized Nostr Relay For AppStores. 
   - [210Maxi](https://github.com/dezh-tech/ddsr/tree/main/210maxi) - A nostr relay that only accepts 210 character events (NIP-B1).
@@ -131,6 +132,8 @@ Websites with lists of relays and their performance/health:
   - [notes.blockcore.net](https://notes.blockcore.net/)
 - [Blowater](https://blowater.deno.dev) - A desktop Web client focusing on chat with delightful UX
 - [bolt.fun](https://makers.bolt.fun/feed) - A bitcoin lightning makers community that supports reading and creating comments using Nostr
+- [connect4](https://github.com/stutxo/connect4xyz)![stars](https://img.shields.io/github/stars/stutxo/connect4xyz.svg?style=social) - connect 4 over nostr
+  - [connect4.xyz](https://connect4.xyz/)
 - [Coracle Chat](https://github.com/coracle-social/legacy-chat)![stars](https://img.shields.io/github/stars/coracle-social/legacy-chat.svg?style=social) - A standalone port of Coracle's old chat functionality
 - [Coracle DMs](https://github.com/coracle-social/legacy-dms)![stars](https://img.shields.io/github/stars/coracle-social/legacy-dms.svg?style=social) - A standalone port of Coracle's old DM functionality
 - [Coracle](https://github.com/coracle-social/coracle)![stars](https://img.shields.io/github/stars/coracle-social/coracle.svg?style=social) - A nostr web client
@@ -208,6 +211,8 @@ Websites with lists of relays and their performance/health:
   - [franzos.github.io/nostr-ts](https://franzos.github.io/nostr-ts/) - preview from `master` branch
 - [nostr-chat-widget-react](https://www.npmjs.com/package/nostr-chat-widget-react?activeTab=readme) - A React component that provides a live-chat widget over nostr that can be embedded into any website.
 - [nostr-relay-tray](https://github.com/CodyTseng/nostr-relay-tray)![stars](https://img.shields.io/github/stars/CodyTseng/nostr-relay-tray.svg?style=social) - a simple nostr relay tray app written in Electron
+- [nostr.cooking](https://github.com/github-tijlxyz/nostr.cooking)![stars](https://img.shields.io/github/stars/github-tijlxyz/nostr.cooking.svg?style=social) - A recipe-sharing client for nostr
+  - [zap.cooking](https://zap.cooking/)
 - [nostr.kiwi](https://nostr.kiwi/) - nostr.kiwi is a progressive web app to share notes and curate content in communities.
 - [nostr.time](https://github.com/coracle-social/nostrtime)![stars](https://img.shields.io/github/stars/coracle-social/nostrtime.svg?style=social) - A calendar app built on nostr
 - [NostrChat.io](https://nostrchat.io/) - NostrChat is a chat app where you can have group chats, DM, threads, and emojis.
