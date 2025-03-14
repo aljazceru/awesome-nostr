@@ -200,7 +200,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // If everything is working, proceed with main functionality
     parseAndDisplayContent()
-        .then(() => console.log('Content successfully parsed and displayed'))
+        .then(() => {
+            console.log("Content successfully parsed and displayed");
+
+            // Show section if page fragment exists
+            if (location.hash) {
+                document.querySelector(`a[href='${location.hash}']`).click();
+            }
+        })
         .catch(error => {
             console.error('Error in main content processing:', error);
             document.getElementById('resources-container').innerHTML = `
