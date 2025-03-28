@@ -497,6 +497,8 @@ Websites with lists of relays and their performance/health:
 - [Zapounty](https://github.com/ZigBalthazar/zapounty)![stars](https://img.shields.io/github/stars/ZigBalthazar/zapounty.svg?style=social) - A GitHub app that let you to put bounties for developers to fix issues on a repo, paid in zaps!
 - [Zapper](https://zapper.nostrapps.org) - Nostr micro-app for zapping
 - [YEGHRO unFollow Tool](https://unfollow.yeghro.com) - A tool that allows you to unfollow inactive users on nostr.
+- [NADAR](https://nadar.tigerville.no/) - A tool to find which relays have a note (`nevent`). Discovers relays with soon deprecated nostr.watch API.
+- [NADAR 2.0](https://nadar.sandwich.farm) - A tool to find which relays have a note (`nevent` or `naddr`). Discovers relays with NIP-66.
 
 
 ## NIP-05 identity services
