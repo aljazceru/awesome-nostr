@@ -6,7 +6,7 @@ nostr.net services [relay.nostr.net](https://relay.nostr.net) ||  [nostr.at](htt
 ## Most popular
 ### Mobile clients
 - [Damus](https://damus.io/) - The OG nostr client for iOS
-- [Amethyst](https://github.com/vitorpamplona/amethyst) - Android-only app
+- [Amethyst](https://www.amethyst.social/) - Android-only app
 - [Primal](https://primal.net/downloads) - iOS and Android apps
 - [YakiHonne](https://yakihonne.com/yakihonne-mobile-app) - iOS and Android app
 - [Nos](https://nos.social) - iOS-only app
@@ -19,7 +19,7 @@ nostr.net services [relay.nostr.net](https://relay.nostr.net) ||  [nostr.at](htt
 - [YakiHonne](https://yakihonne.com)
 
 ### App store
-- [Zapstore](https://github.com/zapstore/zapstore)
+- [Zapstore](https://zapstore.dev/)
 
 
 ## Protocol
