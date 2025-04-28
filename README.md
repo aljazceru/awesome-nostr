@@ -109,9 +109,27 @@ Websites with lists of relays and their performance/health:
 - [relays.xport.top](https://relays.xport.top) - relays list sortable by ping, activity, etc.
 
 ## Clients
+### Long form clients
+- [untype.app](https://untype.app)
+- [Habla.news](https://github.com/verbiricha/habla.news)![stars](https://img.shields.io/github/stars/verbiricha/habla.news.svg?style=social) - Habla allows you to read, write, curate and monetize long-form content over Nostr, a censorship-resistant protocol for social media that uses long-form Nostr content.
+- [Highlighter](https://highlighter.com) - Discover and share curated insights by people you trust. Highlight Books, articles, tweets, anything!
+
+### Video/Audio
+- [HiveTalk](https://github.com/hivetalk/hivetalksfu)![stars](https://img.shields.io/github/stars/hivetalk/hivetalksfu.svg?style=social) - Hivetalk is an open source real-time Video and screensharing platform built on mirotalk that integrates Nostr and Lightning.
+  - [hivetalk.org](https://HiveTalk.org/) -  live instance
+- [Corny Chat](https://github.com/vicariousdrama/cornychat)![stars](https://img.shields.io/github/stars/vicariousdrama/cornychat.svg?style=social) -  Corny Chat is an open source audio space built on Jam that integrates Nostr and Lightning.
+  - [cornychat.com](https://cornychat.com/)
+
+### Mobile
 - [0xchat](https://github.com/0xchat-app)![stars](https://img.shields.io/github/stars/0xchat-app/0xchat-core.svg?style=social) - a telegram/wechat-like nostr client for iOS and Android
   - [0xchat on iOS](https://apps.apple.com/app/0xchat/id1637607169)
   - [0xchat on Android](https://play.google.com/store/apps/details?id=com.oxchat.nostr)
+- [Daisy](https://github.com/neb-b/daisy) - Mobile client for Android and iOS
+  - [testflight + android builds](https://neb.lol/nostr)
+- [damus](https://github.com/damus-io/damus)![stars](https://img.shields.io/github/stars/damus-io/damus.svg?style=social) - a twitter-like nostr client for iOS and MacOS
+  - [damus on testflight](https://testflight.apple.com/join/CLwjLxWl)
+  - [damus on Mac app store](https://apps.apple.com/us/app/damus/id1628663131)
+### Other  
 - [Agora](https://agorasocial.app) ![stars](https://img.shields.io/github/stars/ghobs91/agora.svg?style=social) - Follow your favorite topics in nostr-verse (and even posts from Mastodon, Reddit, Bluesky, and Twitter)
 - [Alexandria](https://github.com/ShadowySupercode/gc-alexandria)![stars](https://img.shields.io/github/stars/ShadowySupercode/gc-alexandria.svg?style=social) - A Knowledge Base and future eReader app. Focuses on the implementation of [NKBIP-01](https://wikifreedia.xyz/nkbip-01)
 - [algia-web](https://github.com/ryogrid/algia-web)![stars](https://img.shields.io/github/stars/ryogrid/algia-web.svg?style=social) - A small resource consumption oriented Nostr web client
@@ -119,12 +137,7 @@ Websites with lists of relays and their performance/health:
 - [alphaama](https://github.com/eskema/alphaama)![stars](https://img.shields.io/github/stars/eskema/alphaama.svg?style=social) - alphaama is just a nostr fucking client
 - [Amethyst](https://github.com/vitorpamplona/amethyst)![stars](https://img.shields.io/github/stars/vitorpamplona/amethyst.svg?style=social) - An Android client for nostr written in Kotlin
 - [Anonostr](https://github.com/Spl0itable/Anonostr)![stars](https://img.shields.io/github/stars/Spl0itable/anonostr.svg?style=social) - Anonostr allows users to send anonymous notes to the Nostr network without revealing their identity. For each note submission, the app generates a new key pair, sends the note through select relays, and then securely burns the key pair. It supports tagging, threading, quoting, and replying to existing notes. 
-- [ArcadeCity](https://github.com/ArcadeCity/arcade)![stars](https://img.shields.io/github/stars/ArcadeCity/arcade.svg?style=social) - Public group chats and P2P services (WIP) over nostr
 - [Asknostr.site](https://asknostr.site) - A Quora/StackOverflow Q&A site using the nostr network and #asknostr content
-- [Astral](https://github.com/monlovesmango/astral)![stars](https://img.shields.io/github/stars/monlovesmango/astral.svg?style=social) - a branle fork with global feed and UI makeover
-  - [Astral on TOR](http://hbn4yzl3qkzi3qpse6nvljbduzcdecaq76tbcfjfzmoaik3q3uryxuad.onion/3bf0c63fcb93463407af97a5e5ee64fa883d107ef9e558472c4eb9aaaefa459d)
-  - [astral.ninja](https://astral.ninja/)
-  - [client.nostr.guide](https://client.nostr.guide/)
 - [Attached](https://github.com/dyegolara/nostr-attached)![stars](https://img.shields.io/github/stars/dyegolara/nostr-attached.svg?style=social) - Open-Source ReactNative Expo app for Nostr (iOS, Android). Currently under app store review
 - [badger](https://github.com/0ceanslim/badger)![stars](https://img.shields.io/github/stars/0ceanslim/badger.svg?style=social) - A NIP58 nostr badge client. Create Badges view Profile Badges and more. 
 - [Beagle](https://0xli.github.io/beagle.chat/)![stars](https://img.shields.io/github/stars/0xli/beagle.chat.svg?style=social) - Decentralized real-time Text/Audio/Video chat client for iOS, using nostr relays for users to share information and moments by posts of text, image and video.
@@ -132,19 +145,11 @@ Websites with lists of relays and their performance/health:
 - [Blockcore Notes](https://github.com/block-core/blockcore-notes) ![stars](https://img.shields.io/github/stars/block-core/blockcore-notes.svg?style=social) - Progressive Web App that can be installed on mobile and desktop, organize following in circles and have both public and private following lists. Dynamic interface for different uses, such as optimized for photograph viewing
   - [notes.blockcore.net](https://notes.blockcore.net/)
 - [Blowater](https://blowater.deno.dev) - A desktop Web client focusing on chat with delightful UX
-- [bolt.fun](https://makers.bolt.fun/feed) - A bitcoin lightning makers community that supports reading and creating comments using Nostr
 - [connect4](https://github.com/stutxo/connect4xyz)![stars](https://img.shields.io/github/stars/stutxo/connect4xyz.svg?style=social) - connect 4 over nostr
   - [connect4.xyz](https://connect4.xyz/)
 - [Coracle Chat](https://github.com/coracle-social/legacy-chat)![stars](https://img.shields.io/github/stars/coracle-social/legacy-chat.svg?style=social) - A standalone port of Coracle's old chat functionality
 - [Coracle DMs](https://github.com/coracle-social/legacy-dms)![stars](https://img.shields.io/github/stars/coracle-social/legacy-dms.svg?style=social) - A standalone port of Coracle's old DM functionality
 - [Coracle](https://github.com/coracle-social/coracle)![stars](https://img.shields.io/github/stars/coracle-social/coracle.svg?style=social) - A nostr web client
-- [Corny Chat](https://github.com/vicariousdrama/cornychat)![stars](https://img.shields.io/github/stars/vicariousdrama/cornychat.svg?style=social) -  Corny Chat is an open source audio space built on Jam that integrates Nostr and Lightning.
-  - [cornychat.com](https://cornychat.com/)
-- [Daisy](https://github.com/neb-b/daisy) - Mobile client for Android and iOS
-  - [testflight + android builds](https://neb.lol/nostr)
-- [damus](https://github.com/damus-io/damus)![stars](https://img.shields.io/github/stars/damus-io/damus.svg?style=social) - a twitter-like nostr client for iOS and MacOS
-  - [damus on testflight](https://testflight.apple.com/join/CLwjLxWl)
-  - [damus on Mac app store](https://apps.apple.com/us/app/damus/id1628663131)
 - [danmakustr](https://github.com/CodyTseng/danmakustr)![stars](https://img.shields.io/github/stars/codytseng/danmakustr.svg?style=social) - a chrome extension allowing users to send special comments (弹幕, danmaku) on YouTube and display them above the video.
 - [Denny](https://github.com/denostr-lab/denny)![stars](https://img.shields.io/github/stars/denostr-lab/denny.svg?style=social) - Secure, private, and decentralized group chat messaging client on Nostr
 - [Disgus](https://github.com/carlitoplatanito/disgus)![stars](https://img.shields.io/github/stars/carlitoplatanito/disgus.svg?style=social) - A comment widget like Disqus, but for Nostr.
@@ -165,10 +170,6 @@ Websites with lists of relays and their performance/health:
 - [gossip](https://github.com/mikedilger/gossip)![stars](https://img.shields.io/github/stars/mikedilger/gossip.svg?style=social) - A desktop client in rust presented with egui
 - [Groups](https://github.com/max21dev/groups)![stars](https://img.shields.io/github/stars/max21dev/groups.svg?style=social) - NIP-29 Group Chat Web Client.
   - Live Instance: [groups.nip29.com](https://groups.nip29.com)
-- [Habla.news](https://github.com/verbiricha/habla.news)![stars](https://img.shields.io/github/stars/verbiricha/habla.news.svg?style=social) - Habla allows you to read, write, curate and monetize long-form content over Nostr, a censorship-resistant protocol for social media that uses long-form Nostr content.
-- [Highlighter](https://highlighter.com) - Discover and share curated insights by people you trust. Highlight Books, articles, tweets, anything!
-- [HiveTalk](https://github.com/hivetalk/hivetalksfu)![stars](https://img.shields.io/github/stars/hivetalk/hivetalksfu.svg?style=social) - Hivetalk is an open source real-time Video and screensharing platform built on mirotalk that integrates Nostr and Lightning.
-  - [hivetalk.org](https://HiveTalk.org/) -  live instance
 - [iris](https://github.com/irislib/iris-messenger)![stars](https://img.shields.io/github/stars/irislib/iris-messenger.svg?style=social) - A nostr web client
   - [iris.to](https://iris.to) - live instance
   - [Android app](https://play.google.com/store/apps/details?id=to.iris.twa)
@@ -243,9 +244,6 @@ Websites with lists of relays and their performance/health:
 - [Pareto](https://pareto.space/read) - The Pareto client is a part of an open-source publishing ecosystem for uncensorable citizen journalism, specialized in writing and reading of long-form Nostr articles.
 - [Pinstr](https://github.com/sepehr-safari/pinstr) ![stars](https://img.shields.io/github/stars/sepehr-safari/pinstr?style=social) - Pinstr is a decentralized and open-source social network for curating and sharing your interests with the world.
   - [Pinstr.app](https://pinstr.app) - live instance
-- [Plebstr](https://plebstr.com) - Nostr client Reimagined, the most beautiful Twitter-like nostr client for iOS & Android.
-  - [Plebstr on Apple App Store](https://apps.apple.com/app/plebstr-nostr-client/id1666230916)
-  - [Plebstr on Google Play Store](https://play.google.com/store/apps/details?id=com.plebstr.client)
 - [Pollerama](https://pollerama.fun/) - A polls implementation on nostr, with features like Proof of Work Filtering, Followset filtering, and more.
   -[Github Repo](https://github.com/abhay-raizada/nostr-polls)![stars](https://img.shields.io/github/stars/abhay-raizada/nostr-polls)
 - [Pollstr](https://github.com/mroxso/pollstr)![stars](https://img.shields.io/github/stars/mroxso/pollstr?style=social) - A nostr web client with a focus on polls.
@@ -718,7 +716,11 @@ Outside of nostr itself, you find the community on:
 
 
 ## Deprecated
-
+- [Astral](https://github.com/monlovesmango/astral)![stars](https://img.shields.io/github/stars/monlovesmango/astral.svg?style=social) - a branle fork with global feed and UI makeover
+  - [Astral on TOR](http://hbn4yzl3qkzi3qpse6nvljbduzcdecaq76tbcfjfzmoaik3q3uryxuad.onion/3bf0c63fcb93463407af97a5e5ee64fa883d107ef9e558472c4eb9aaaefa459d)
+  - [astral.ninja](https://astral.ninja/)
+  - [client.nostr.guide](https://client.nostr.guide/)
+- [ArcadeCity](https://github.com/ArcadeCity/arcade)![stars](https://img.shields.io/github/stars/ArcadeCity/arcade.svg?style=social) - Public group chats and P2P services (WIP) over nostr
 - [Bija](https://github.com/BrightonBTC/bija)![stars](https://img.shields.io/github/stars/BrightonBTC/bija.svg?style=social) - A desktop client written in python. Currently Linux only
 - [branle](https://github.com/fiatjaf/branle)![stars](https://img.shields.io/github/stars/fiatjaf/branle.svg?style=social) - a Twitter-like client that was discontinued but lives on in its fork "Astral".
 - [expensive relay](https://github.com/fiatjaf/expensive-relay)![stars](https://img.shields.io/github/stars/fiatjaf/expensive-relay.svg?style=social) - a relay that requires payment for registration
@@ -730,6 +732,7 @@ Outside of nostr itself, you find the community on:
 - [nostr-pass](https://github.com/plantimals/nostr-pass)![stars](https://img.shields.io/github/stars/plantimals/nostr-pass.svg?style=social) - experimenting with nostr priv/pub key pairs for replacing passwords
 - [nostrpy](https://github.com/monty888/nostrpy)![stars](https://img.shields.io/github/stars/monty888/nostrpy.svg?style=social) - relay, client, and other tooling in python (No longer being developed.)
 - [Nozzle](https://github.com/dluvian/Nozzle)![stars](https://img.shields.io/github/stars/dluvian/Nozzle.svg?style=social) - A lightweight Android client
+- [Plebstr](https://plebstr.com) - Nostr client Reimagined, the most beautiful Twitter-like nostr client for iOS & Android.
 - [rsslay](https://github.com/piraces/rsslay)![stars](https://img.shields.io/github/stars/piraces/rsslay.svg?style=social) - fork of the rsslay by @fiatjaf. a bridge that puts RSS feeds into Nostr optimized, more funcionalities and UI improvements. Live at [rsslay.nostr.moe](https://rsslay.nostr.moe/)
 
 ## Related Resources
