@@ -285,6 +285,7 @@ Websites with lists of relays and their performance/health:
   - [yana.do](https://yana.do)
 - [zapddit](https://zapddit.com) ![stars](https://img.shields.io/github/stars/vivganes/zapddit.svg?style=social) - Reddit-style client for nostr where you can follow topics (similar to subreddits), mute certain topics (like #bitcoin), upzap and downzap notes using your hard-earned sats.
 - [zephyr](https://github.com/coracle-social/zephyr)![stars](https://img.shields.io/github/stars/coracle-social/zephyr.svg?style=social) - A meditative nostr feed reader
+- [Hook Cafe](https://github.com/kuba-04/hook.cafe) - A social app helping people to meet in real life
 
 ### Nostr Marketplace clients (NIP-15 & NIP-99)
 
