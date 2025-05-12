@@ -190,6 +190,7 @@ Websites with lists of relays and their performance/health:
 - [Lumilumi](http://lumilumi.app/)![stars](https://img.shields.io/github/stars/tsukemonogit/lumilumi.svg?style=social) - A nostr web client. Lightweight modes are available, such as not displaying icon images, not loading images automatically, etc.
 - [LUMINA](https://github.com/lumina-rocks/lumina)![stars](https://img.shields.io/github/stars/lumina-rocks/lumina.svg?style=social) - Nostr (Web) client for images (Picture-first feed).
   - [lumina.rocks](https://lumina.rocks/)
+- [keychat](https://github.com/keychat-io/keychat-app)![stars](https://img.shields.io/github/stars/keychat-io/keychat-app.svg?style=social) - Chat app built on nostr with bitcoin and ecash support
 - [mapstr](https://mapstr.xyz/) - Find local businesses which accept BTC and add reviews to those businesses as a customer. Allows ability to receive Zaps for your reviews. You can also add Nostr notes with coordinates which allows them to be mapped to your location.
 - [Member](https://github.com/memberapp/memberapp.github.io)![stars](https://img.shields.io/github/stars/memberapp/memberapp.github.io.svg?style=social) - Progressive Web App Client. Works on desktop and mobile.
   - [member.cash](https://member.cash/) - live instance
