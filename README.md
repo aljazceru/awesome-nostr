@@ -564,13 +564,11 @@ Allow you to sign Nostr events on web-apps without having to give them your keys
 - [nowser](https://github.com/haorendashu/nowser)![stars](https://img.shields.io/github/stars/haorendashu/nowser.svg?style=social) - A secure nostr key management and signing app for iOS and Android that supports NIP-07, NIP-46 and NIP-55
 - [OneKey](https://onekey.so)![stars](https://img.shields.io/github/stars/onekeyhq/app-monorepo.svg?style=social) - Open-source crypto wallet with nosrt support.
 - [Signum XT Wallet](https://github.com/signum-network/signum-xt-wallet)![stars](https://img.shields.io/github/stars/signum-network/signum-xt-wallet.svg?style=social) - Metamask-like browser extension for Signum blockchain with full NIP07 support and multi-account management
+- [Self-Sovereign Browser](https://api-docs-30b126.gitlab.io/index.html) - Firefox-forked browser with NIP-07 support
 - [Spring Browser](https://spring.site) - Nostr-focused browser app for Android.
 - [TokenPocket](https://github.com/TP-Lab/TokenPocket)![stars](https://img.shields.io/github/stars/TP-Lab/TokenPocket.svg?style=social) - Multi wallet browser extension with nostr support. https://tokenpocket.pro
 - [wen](https://github.com/fiatjaf/wen)![stars](https://img.shields.io/github/stars/fiatjaf/wen.svg?style=social) - browser extension for website enhancer with nostr
 
-## NIP-07 Non-web extension implementations
-
-- [Self-Sovereign Browser](https://api-docs-30b126.gitlab.io/index.html) - Firefox-forked browser with NIP-07 support
 
 ## NIP-47 Nostr Wallet Connect (NWC) implementations
 
