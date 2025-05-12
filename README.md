@@ -483,6 +483,7 @@ Websites with lists of relays and their performance/health:
 - [TaskQ5](https://github.com/duozhutuan/Taskq5)![stars](https://img.shields.io/github/stars/duozhutuan/TaskQ5.svg?style=social) - TaskQ5 is a task distribution platform built on nostr where you can post tasks if you need help
 - [tostr](https://github.com/slaninas/tostr)![stars](https://img.shields.io/github/stars/slaninas/tostr.svg?style=social) - a twitter to nostr bot
 - [Undelete my Nostr](https://yonle.github.io/undelete-my-nostr)![stars](https://img.shields.io/github/stars/Yonle/undelete-my-nostr.svg?style=social) - Simple tool for restoring deleted nostr account.
+- [y-nostr](https://github.com/colealbon/y-ndk) ![stars](https://img.shields.io/github/stars/colealbon/y-ndk.svg?style=social) - yjs provider over nostr relays. An almost straight copy/paste rip off of nostr-CRDT but with a way better name and optional parameters for BYO encrypt / decrypt functions.
 - [Zapounty](https://github.com/ZigBalthazar/zapounty)![stars](https://img.shields.io/github/stars/ZigBalthazar/zapounty.svg?style=social) - A GitHub app that let you to put bounties for developers to fix issues on a repo, paid in zaps!
 - [Zapper](https://zapper.nostrapps.org) - Nostr micro-app for zapping
 - [YEGHRO unFollow Tool](https://unfollow.yeghro.com) - A tool that allows you to unfollow inactive users on nostr.
