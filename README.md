@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/aljazceru-awesome-nostr-badge.png)](https://mseep.ai/app/aljazceru-awesome-nostr)
+
 nostr.net services [start.nostr.net](https://start.nostr.net) || [relay.nostr.net](https://relay.nostr.net) ||  [nostr.at](https://nostr.at) || [wot.nostr.net](https://wot.nostr.net) || [delete.nostr.net](https://delete.nostr.net)
 
 "nostr" stands for "**N**otes and **O**ther **S**tuff **T**ransmitted by
