@@ -502,7 +502,7 @@ Websites with lists of relays and their performance/health:
 - [easyNostr](https://easyNostr.com) - NIP-05 ID provider: Use your own domain, or one of ours: nostr.ly, mynostr.io, easyNostr.com.
 - [getalby.com](https://getalby.com/) - Lightning wallet with NIP-05 ID registration service.
 - [iris.to](https://iris.to) - A Nostr client that provides a free NIP-05 ID
-- [Nostr.eco (Jellyfish)](https://jellyfish.land/nip05) - Nostr NIP-05 handles on @nostr.eco domain that are WoT protected.
+- [jellyfish.land](https://jellyfish.land/nip05) - Nostr NIP-05 handles on @nostr.eco domain with WoT protection
 - [lifpay.me](https://lifpay.me) - Lightning wallet with NIP-05 ID registration service.
 - [nanostr](https://github.com/xbol0/nanostr)![stars](https://img.shields.io/github/stars/xbol0/nanostr?style=social) - A NIP-05 name server written in Deno.
 - [Nostr-Check.com](https://nostr-check.com) - A free NIP-05 ID registration service.
