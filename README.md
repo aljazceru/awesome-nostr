@@ -596,8 +596,10 @@ Endpoints (services or apps that expose a LN wallet via NWC)
 
 - [Alby NWC (Umbrel)](https://apps.umbrel.com/app/alby-nostr-wallet-connect) - Umbrel app for exposing your self-custodial Umbrel LN Wallet over NWC
 - [Alby NWC (Web)](https://nwc.getalby.com/) - Web portal for exposing your custodial Alby account over NWC
+- [Flash](https://paywithflash.com/) - Bitcoin payments solution based on NWC
 - [Mutiny](https://www.mutinywallet.com) - Self-custodial LN wallet that runs in the browser
 - [Rizful](https://rizful.com) - Cloud lightning node with NWC support
+
 
 ## NIP-57 Zaps compatible wallets and solutions
 
