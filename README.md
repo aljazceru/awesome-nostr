@@ -493,7 +493,7 @@ Websites with lists of relays and their performance/health:
 - [YEGHRO unFollow Tool](https://unfollow.yeghro.com) - A tool that allows you to unfollow inactive users on nostr.
 - [NADAR](https://nadar.tigerville.no/) - A tool to find which relays have a note (`nevent`). Discovers relays with soon deprecated nostr.watch API.
 - [NADAR 2.0](https://nadar.sandwich.farm) - A tool to find which relays have a note (`nevent` or `naddr`). Discovers relays with NIP-66.
-- [Nostr in Move](https://github.com/rooch-network/rooch/tree/main/examples/nostr) - A tool to help persist Nostr event in Move oriented blockchains, developed by Rooch Network.
+- [Nostr in Move](https://github.com/rooch-network/rooch/tree/main/examples/nostr) - A tool to help persist Nostr event in Move oriented blockchains.
 
 ## NIP-05 identity services
 
