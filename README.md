@@ -288,7 +288,7 @@ Websites with lists of relays and their performance/health:
   - [yana.do](https://yana.do)
 - [zapddit](https://zapddit.com) ![stars](https://img.shields.io/github/stars/vivganes/zapddit.svg?style=social) - Reddit-style client for nostr where you can follow topics (similar to subreddits), mute certain topics (like #bitcoin), upzap and downzap notes using your hard-earned sats.
 - [zephyr](https://github.com/coracle-social/zephyr)![stars](https://img.shields.io/github/stars/coracle-social/zephyr.svg?style=social) - A meditative nostr feed reader
-
+- [pocket-wallet](https://github.com/RetricSu/pocket-wallet)![stars](https://img.shields.io/github/stars/RetricSu/pocket-wallet.svg?style=social) - PocketWallet is a nostr-based wallet on CKB blockchain supportting Nip07 and Nip46.
 
 ### Nostr Marketplace clients (NIP-15 & NIP-99)
 
