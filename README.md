@@ -9,11 +9,9 @@ nostr.net services [start.nostr.net](https://start.nostr.net) || [relay.nostr.ne
 - [Amethyst](https://www.amethyst.social/) - Android-only app
 - [Primal](https://primal.net/downloads) - iOS and Android apps
 - [YakiHonne](https://yakihonne.com/yakihonne-mobile-app) - iOS and Android app
-- [Nos](https://nos.social) - iOS-only app
 
 ### Web clients
 - [snort.social](https://snort.social/)
-- [iris.to](https://iris.to/)
 - [primal.net](https://primal.net/)
 - [coracle.social](https://coracle.social/)
 - [YakiHonne](https://yakihonne.com)
