@@ -3,110 +3,164 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- Add favicon links -->
-    <link rel="icon" type="image/png" href="Logo.png">
-    <link rel="apple-touch-icon" href="Logo.png">
-    
-    <meta name="description" content="A comprehensive collection of Nostr resources, tools, clients, and protocols for developers and users.">
-    <meta name="keywords" content="nostr, cryptocurrency, decentralized social, protocols, tools, clients, resources">
-    <meta name="author" content="Your Name">
-    <meta name="robots" content="index, follow">
-    
-    <!-- Open Graph / Social Media Meta Tags -->
-    <meta property="og:title" content="Awesome Nostr Resources">
-    <meta property="og:description" content="A comprehensive collection of Nostr resources, tools, clients, and protocols for developers and users.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://your-domain.com">
-    <meta property="og:image" content="https://your-domain.com/path-to-image.jpg">
-    
-    <!-- Twitter Card Meta Tags -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Awesome Nostr Resources">
-    <meta name="twitter:description" content="A comprehensive collection of Nostr resources, tools, clients, and protocols for developers and users.">
-    <meta name="twitter:image" content="https://your-domain.com/path-to-image.jpg">
-    
-    <title>Awesome Nostr Resources | Comprehensive Guide to Nostr Protocol</title>
+    <title>nostr.net - Comprehensive Nostr Resources</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
-<body>
-    <nav class="top-nav">
-        <div class="nav-content">
-            <h1>
-                <div class="logo-container">
-                    <img src="Logo.png" alt="Nostr Logo" class="nav-logo">
-                    <span class="logo-text">.NET</span>
-                </div>
-            </h1>
-            <div class="search-box">
-                <input type="text" id="search" placeholder="Search resources...">
-                <i class="fas fa-search"></i>
-            </div>
-            <div class="theme-controls">
-                <select id="colorThemeSelect" class="theme-select" aria-label="Select color theme">
-                    <option value="default">Default Theme</option>
-                    <option value="purple">Purple Dream</option>
-                    <option value="nature">Nature's Touch</option>
-                    <option value="sunset">Sunset Vibes</option>
-                    <option value="grape">Grape Fusion</option>
-                    <option value="autumn">Autumn Warmth</option>
-                    <option value="midnight">Midnight Rose</option>
-                    <option value="rosenoir">Rose Noir</option>
-                </select>
-                <button id="darkModeToggle" class="theme-toggle" aria-label="Toggle dark mode">
-                    <i class="fas fa-moon"></i>
+<body data-theme="default">
+    <div class="nav-container">
+        <div class="container">
+            <nav>
+                <button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Toggle navigation menu">
+                    <i class="fas fa-bars"></i>
                 </button>
-            </div>
+                <ul>
+                    <li>
+                        <strong><a href="#" id="navhome" class="secondary">nostr.net</a></strong>
+                    </li>
+                </ul>
+                <ul id="mainnav">
+                    <li><a href="#" id="nav-profile" class="secondary">MY PROFILE</a></li>
+                    <li><a href="#" id="nav-services" class="secondary">SERVICES</a></li>
+                    <li><a href="#" id="nav-apps" class="secondary">APPS</a></li>
+                    <li class="theme-selector">
+                        <select id="theme-select" aria-label="Select color theme">
+                            <option value="default">Terminal Green</option>
+                            <option value="blue">Deep Blue</option>
+                            <option value="purple">Neon Purple</option>
+                            <option value="amber">Amber Terminal</option>
+                            <option value="monochrome">Monochrome</option>
+                        </select>
+                    </li>
+                </ul>
+            </nav>
         </div>
-    </nav>
-
-    <!-- Move menu toggle button outside of sidebar -->
-    <button id="menuToggle" class="menu-toggle" aria-label="Toggle menu">
-        <i class="fas fa-bars"></i>
-    </button>
+    </div>
 
     <div class="container">
-        <!-- Remove duplicate menu toggle from sidebar -->
-        <nav class="sidebar" aria-label="Main navigation">
-            <header class="sidebar-header">
-                <h4>Nostr Resources</h4>
-            </header>
-            <div class="sidebar-content">
-                <ul class="nav-links">
-                    <!-- Categories will be dynamically populated here -->
-                </ul>
-            </div>
-        </nav>
-
-        <!-- Main Content -->
-        <main class="main-content" role="main">
-            <header class="content-header">
-                <div class="view-controls">
-                    <!-- Dark mode toggle has been moved to top nav -->
+        <!-- Main content starts here -->
+        <div id="main-content">
+            <!-- Home view with highlighted projects -->
+            <div id="home-view" class="view active">
+                <div class="section-card">
+                    <h2>Highlighted projects_</h2>
+                    <div class="highlighted-projects">
+                        <div class="project-card">
+                            <h3>PROJECT 1</h3>
+                            <p>Description of the first highlighted project goes here.</p>
+                            <div class="project-tags">
+                                <span class="tag">client</span>
+                                <span class="tag">open-source</span>
+                            </div>
+                            <a href="#" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                        <div class="project-card">
+                            <h3>PROJECT 2</h3>
+                            <p>Description of the second highlighted project goes here.</p>
+                            <div class="project-tags">
+                                <span class="tag">relay</span>
+                                <span class="tag">tool</span>
+                            </div>
+                            <a href="#" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                        <div class="project-card">
+                            <h3>PROJECT 3</h3>
+                            <p>Description of the third highlighted project goes here.</p>
+                            <div class="project-tags">
+                                <span class="tag">library</span>
+                                <span class="tag">development</span>
+                            </div>
+                            <a href="#" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
                 </div>
-            </header>
+                
+                <div class="section-card search-section">
+                    <div class="search-container">
+                        <input type="text" id="search-input" placeholder="Search projects...">
+                        <button id="search-button"><i class="fas fa-search"></i> SEARCH</button>
+                    </div>
+                </div>
 
-            <div id="resources-container" role="region" aria-label="Resource listings"></div>
-        </main>
+                <div class="resource-grid">
+                    <div class="categories">
+                        <h3>Categories_</h3>
+                        <!-- Regular list for desktop -->
+                        <ul id="category-list">
+                            <!-- Categories will be loaded dynamically -->
+                            <li class="loading">
+                                <p aria-busy="true">Loading categories...</p>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div id="resources-container">
+                        <!-- Resources will be loaded here dynamically -->
+                        <div class="loading">
+                            <p aria-busy="true">Loading resources...</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Category toast for mobile -->
+                <button class="category-toast-button" id="category-toast-button" aria-label="Show categories">
+                    <i class="fas fa-list"></i>
+                </button>
+                
+                <div class="category-toast-container" id="category-toast-container">
+                    <div class="category-toast-header">
+                        <h3>Categories_</h3>
+                        <button class="category-toast-close" id="category-toast-close" aria-label="Close categories">
+                            <i class="fas fa-times"></i>
+                        </button>
+                    </div>
+                    <ul class="category-toast-list" id="category-toast-list">
+                        <!-- Categories will be duplicated here for mobile -->
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Profile manager view -->
+            <div id="profile-view" class="view">
+                <div class="profile-card">
+                    <h2>Profile Manager_</h2>
+                    <div id="PM-container">
+                        <!-- Profile manager content will be loaded here -->
+                        <p aria-busy="true">Loading profile manager...</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Services view -->
+            <div id="services-view" class="view">
+                <div class="section-card">
+                    <h2>Nostr Services_</h2>
+                    <div id="services-container">
+                        <!-- Services will be loaded here dynamically -->
+                        <p aria-busy="true">Loading services...</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Apps view -->
+            <div id="apps-view" class="view">
+                <div class="section-card">
+                    <h2>Nostr Apps_</h2>
+                    <div id="apps-container">
+                        <!-- Apps will be loaded here dynamically -->
+                        <p aria-busy="true">Loading apps...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    
+
     <footer class="site-footer">
-        <p>&copy; 2025 nostr.net All rights reserved.</p>
+        <p>&copy; 2025 nostr.net | <a href="https://github.com/aljazceru/awesome-nostr/">Contribute on GitHub</a></p>
     </footer>
-    <!-- Add marked.js before your script -->
+
+    <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script src="script.js"></script>
-    
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-E6V2R7B0KQ"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-E6V2R7B0KQ');
-</script>
-
 </body>
-</html> 
+</html>
