@@ -18,9 +18,9 @@ nostr.net services [start.nostr.net](https://start.nostr.net) || [relay.nostr.ne
 - [coracle.social](https://coracle.social/)
 - [YakiHonne](https://yakihonne.com)
 
-### App store
-- [Zapstore](https://zapstore.dev/)
-
+### Other
+- [Zapstore](https://zapstore.dev/) - Web of trust based app store 
+- [Hivetalk](https://honey.hivetalk.org/) - Nostr + Lightning Video Conferencing
 
 ## Protocol
 
