@@ -16,16 +16,16 @@ const colorThemes = {
             primary: '#4a314d',
             background: '#ffffff',
             text: '#1a090d',
-            cardBackground: '#a8ba9a',
+            cardBackground: '#f8f9fa',
             sidebarBackground: '#6b6570',
             hoverColor: '#ace894'
         },
         dark: {
-            background: '#1a090d',
-            text: '#ace894',
-            cardBackground: '#4a314d',
-            sidebarBackground: '#6b6570',
-            linkColor: '#a8ba9a'
+            background: '#1a1a1a',
+            text: '#e8e8e8',
+            cardBackground: '#2d2d2d',
+            sidebarBackground: '#333333',
+            linkColor: '#88cc88'
         }
     },
     purple: {
@@ -33,16 +33,16 @@ const colorThemes = {
             primary: '#9c528b',
             background: '#ffffff',
             text: '#2f0147',
-            cardBackground: '#e2c2c6',
+            cardBackground: '#f7f3f7',
             sidebarBackground: '#b9929f',
-            hoverColor: '#610f7f'
+            hoverColor: '#c470a4'
         },
         dark: {
-            background: '#2f0147',
-            text: '#e2c2c6',
-            cardBackground: '#9c528b',
-            sidebarBackground: '#610f7f',
-            linkColor: '#b9929f'
+            background: '#1a0d1a',
+            text: '#e6d6e6',
+            cardBackground: '#301a30',
+            sidebarBackground: '#4a2d4a',
+            linkColor: '#cc88cc'
         }
     },
     nature: {
@@ -50,16 +50,16 @@ const colorThemes = {
             primary: '#2c5530',
             background: '#ffffff',
             text: '#1a2f1c',
-            cardBackground: '#a7c4aa',
+            cardBackground: '#f8faf8',
             sidebarBackground: '#718355',
             hoverColor: '#90a955'
         },
         dark: {
-            background: '#1a2f1c',
-            text: '#90a955',
-            cardBackground: '#2c5530',
-            sidebarBackground: '#718355',
-            linkColor: '#a7c4aa'
+            background: '#0f1a0f',
+            text: '#d4e6d4',
+            cardBackground: '#1a331a',
+            sidebarBackground: '#264d26',
+            linkColor: '#99dd99'
         }
     },
     sunset: {
@@ -67,50 +67,50 @@ const colorThemes = {
             primary: '#cf5c36',
             background: '#ffffff',
             text: '#1f1f1f',
-            cardBackground: '#eec584',
+            cardBackground: '#fdf8f3',
             sidebarBackground: '#c8963e',
             hoverColor: '#f3a953'
         },
         dark: {
-            background: '#1f1f1f',
-            text: '#eec584',
-            cardBackground: '#cf5c36',
-            sidebarBackground: '#c8963e',
-            linkColor: '#f3a953'
+            background: '#1a0f0a',
+            text: '#ffd4a3',
+            cardBackground: '#2d1a0d',
+            sidebarBackground: '#4d2d1a',
+            linkColor: '#ffaa55'
         }
     },
     grape: {
         light: {
             primary: '#642ca9',
             background: '#ffffff',
-            text: '#642ca9',
-            cardBackground: '#ffb8de',
-            sidebarBackground: '#ffdde1',
-            hoverColor: '#ff36ab'
+            text: '#2d1a47',
+            cardBackground: '#faf7fd',
+            sidebarBackground: '#9775cc',
+            hoverColor: '#8855cc'
         },
         dark: {
-            background: '#642ca9',
-            text: '#ffdde1',
-            cardBackground: '#ff36ab',
-            sidebarBackground: '#ff74d4',
-            linkColor: '#ffb8de'
+            background: '#0d0a1a',
+            text: '#e6d4ff',
+            cardBackground: '#1a0d33',
+            sidebarBackground: '#33204d',
+            linkColor: '#bb88ff'
         }
     },
     autumn: {
         light: {
             primary: '#d95d39',
             background: '#ffffff',
-            text: '#0e1428',
-            cardBackground: '#f0a202',
-            sidebarBackground: '#7b9e89',
+            text: '#2d1a0f',
+            cardBackground: '#fdf7f0',
+            sidebarBackground: '#cc8866',
             hoverColor: '#f18805'
         },
         dark: {
-            background: '#0e1428',
-            text: '#f0a202',
-            cardBackground: '#d95d39',
-            sidebarBackground: '#7b9e89',
-            linkColor: '#f18805'
+            background: '#1a0f0a',
+            text: '#ffcc99',
+            cardBackground: '#331a0d',
+            sidebarBackground: '#4d2d1a',
+            linkColor: '#ffaa77'
         }
     },
     midnight: {
@@ -118,35 +118,155 @@ const colorThemes = {
             primary: '#b91372',
             background: '#ffffff',
             text: '#31081f',
-            cardBackground: '#fa198b',
-            sidebarBackground: '#6b0f1a',
-            hoverColor: '#fa198b'
+            cardBackground: '#fdf3f7',
+            sidebarBackground: '#d988aa',
+            hoverColor: '#e6558c'
         },
         dark: {
-            background: '#0e0004',
-            text: '#fa198b',
-            cardBackground: '#b91372',
-            sidebarBackground: '#31081f',
-            linkColor: '#fa198b'
+            background: '#0a0005',
+            text: '#ff99cc',
+            cardBackground: '#260d1a',
+            sidebarBackground: '#4d1a33',
+            linkColor: '#ff77bb'
         }
     },
-    rosenoir: {
+    slate: {
         light: {
-            primary: '#792359',
+            primary: '#475569',
             background: '#ffffff',
-            text: '#2f2d2e',
-            cardBackground: '#fd3e81',
-            sidebarBackground: '#41292c',
-            hoverColor: '#d72483'
+            text: '#1e293b',
+            cardBackground: '#f8fafc',
+            sidebarBackground: '#94a3b8',
+            hoverColor: '#64748b'
         },
         dark: {
-            background: '#2f2d2e',
-            text: '#fd3e81',
-            cardBackground: '#792359',
-            sidebarBackground: '#41292c',
-            linkColor: '#d72483'
+            background: '#0f172a',
+            text: '#cbd5e1',
+            cardBackground: '#1e293b',
+            sidebarBackground: '#334155',
+            linkColor: '#94a3b8'
+        }
+    },
+    forest: {
+        light: {
+            primary: '#16a085',
+            background: '#ffffff',
+            text: '#2c3e50',
+            cardBackground: '#f0fdf4',
+            sidebarBackground: '#52d4a6',
+            hoverColor: '#1abc9c'
+        },
+        dark: {
+            background: '#0a1a12',
+            text: '#a7f3d0',
+            cardBackground: '#064e3b',
+            sidebarBackground: '#047857',
+            linkColor: '#6ee7b7'
+        }
+    },
+    ocean: {
+        light: {
+            primary: '#2563eb',
+            background: '#ffffff',
+            text: '#1e40af',
+            cardBackground: '#eff6ff',
+            sidebarBackground: '#60a5fa',
+            hoverColor: '#3b82f6'
+        },
+        dark: {
+            background: '#0c1429',
+            text: '#bfdbfe',
+            cardBackground: '#1e3a8a',
+            sidebarBackground: '#1d4ed8',
+            linkColor: '#93c5fd'
+        }
+    },
+    cherry: {
+        light: {
+            primary: '#dc2626',
+            background: '#ffffff',
+            text: '#991b1b',
+            cardBackground: '#fef2f2',
+            sidebarBackground: '#f87171',
+            hoverColor: '#ef4444'
+        },
+        dark: {
+            background: '#1a0606',
+            text: '#fecaca',
+            cardBackground: '#7f1d1d',
+            sidebarBackground: '#991b1b',
+            linkColor: '#fb7185'
+        }
+    },
+    cyberpunk: {
+        light: {
+            primary: '#8b5cf6',
+            background: '#fafafa',
+            text: '#171717',
+            cardBackground: '#f5f5f5',
+            sidebarBackground: '#a78bfa',
+            hoverColor: '#7c3aed'
+        },
+        dark: {
+            background: '#0a0a0a',
+            text: '#00ffff',
+            cardBackground: '#1a0a1a',
+            sidebarBackground: '#2a1a2a',
+            linkColor: '#ff0099'
+        }
+    },
+    nord: {
+        light: {
+            primary: '#5e81ac',
+            background: '#eceff4',
+            text: '#2e3440',
+            cardBackground: '#e5e9f0',
+            sidebarBackground: '#81a1c1',
+            hoverColor: '#88c0d0'
+        },
+        dark: {
+            background: '#2e3440',
+            text: '#d8dee9',
+            cardBackground: '#3b4252',
+            sidebarBackground: '#434c5e',
+            linkColor: '#88c0d0'
+        }
+    },
+    warm: {
+        light: {
+            primary: '#f59e0b',
+            background: '#ffffff',
+            text: '#92400e',
+            cardBackground: '#fffbeb',
+            sidebarBackground: '#fbbf24',
+            hoverColor: '#f97316'
+        },
+        dark: {
+            background: '#1c1917',
+            text: '#fed7aa',
+            cardBackground: '#451a03',
+            sidebarBackground: '#78350f',
+            linkColor: '#fb923c'
+        }
+    },
+    dracula: {
+        light: {
+            primary: '#bd93f9',
+            background: '#ffffff',
+            text: '#282a36',
+            cardBackground: '#f8f8f2',
+            sidebarBackground: '#cfc9e3',
+            hoverColor: '#ff79c6'
+        },
+        dark: {
+            background: '#282a36',
+            text: '#f8f8f2',
+            cardBackground: '#44475a',
+            sidebarBackground: '#6272a4',
+            linkColor: '#bd93f9'
         }
     }
+
 };
 
 // Initialize all UI controls
@@ -177,9 +297,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Color theme initialization
     const colorThemeSelect = document.getElementById('colorThemeSelect');
-    const savedColorTheme = localStorage.getItem('colorTheme') || 'default';
-    colorThemeSelect.value = savedColorTheme;
-    applyColorTheme(savedColorTheme);
+    const savedColorTheme = localStorage.getItem('colorTheme');
+    const defaultTheme = 'default';
+
+    // Validate saved theme exists
+    const initialTheme = colorThemes[savedColorTheme] ? savedColorTheme : defaultTheme;
+    colorThemeSelect.value = initialTheme;
+    applyColorTheme(initialTheme);
     
     // Color theme change event listener
     colorThemeSelect.addEventListener('change', (e) => {
@@ -973,8 +1097,20 @@ function displaySection(sectionName, sections) {
 }
 
 function applyColorTheme(themeName) {
+    // Check if theme exists, otherwise fallback to default
+    const themeExists = colorThemes[themeName];
+    if (!themeExists) {
+        console.warn(`Theme "${themeName}" not found, falling back to default theme`);
+        themeName = 'default';
+    }
+
     const isDark = document.body.dataset.theme === 'dark';
     const theme = colorThemes[themeName][isDark ? 'dark' : 'light'];
+    
+    if (!theme) {
+        console.error(`Could not find ${isDark ? 'dark' : 'light'} mode for theme "${themeName}"`);
+        return;
+    }
     
     // Apply theme colors to CSS variables
     const root = document.documentElement;
@@ -982,4 +1118,7 @@ function applyColorTheme(themeName) {
         const cssVar = `--${key.replace(/([A-Z])/g, '-$1').toLowerCase()}`;
         root.style.setProperty(cssVar, value);
     });
+
+    // Store the successfully applied theme
+    localStorage.setItem('colorTheme', themeName);
 }

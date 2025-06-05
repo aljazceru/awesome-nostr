@@ -1,4 +1,6 @@
 :root {
+    @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
+
     --primary-color: #4a314d;
     --background-color: #ffffff;
     --text-color: #1a090d;
@@ -27,7 +29,8 @@
 }
 
 body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    letter-spacing: 0.02em;
     background-color: var(--background-color);
     color: var(--text-color);
     line-height: 1.6;
@@ -179,15 +182,18 @@ body {
 }
 
 /* Resource Cards */
-.resource-card {
+.resource-card{
     background: var(--card-background);
-    border-radius: 12px;
-    padding: 16px;
-    margin-bottom: 16px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    width: 100%;
-    height: auto;
-    overflow: visible;
+    border-radius: 16px;
+    padding: 24px 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 14px rgba(0,0,0,.08);
+    transition: transform .25s cubic-bezier(.4,.2,.2,1),
+                box-shadow .25s cubic-bezier(.4,.2,.2,1);
+}
+.resource-card:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12);
 }
 
 .resource-header {
