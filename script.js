@@ -781,7 +781,7 @@ function createResourceCard(resource) {
         
         // Try multiple favicon sources
         const faviconSources = [
-            `https://www.google.com/s2/favicons?domain=${domain}&sz=64`,
+            `https://www.google.com/s2/favicons?domain=https://${domain}&sz=64`,
             `https://${domain}/favicon.ico`,
             `https://${domain}/favicon.png`,
             `https://${domain}/apple-touch-icon.png`,
