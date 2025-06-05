@@ -1,25 +1,28 @@
 :root {
     @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
 
-    --primary-color: #4a314d;
-    --background-color: #ffffff;
+    --primary-color: #3a0ca3;;
+    --background-color: #c8e7ff;
     --text-color: #1a090d;
-    --card-background: #a8ba9a;
     --sidebar-background: #6b6570;
     --hover-color: #ace894;
     --text-primary: var(--text-color);
-    --link-color: var(--primary-color);
+    --link-color: #f72585;
     --star-color: #4a314d;
+
 }
 
 /* Dark theme variables */
 [data-theme="dark"] {
-    --background-color: #1a090d;
-    --text-color: #ace894;
-    --card-background: #4a314d;
-    --sidebar-background: #6b6570;
+    --primary-color: #3a0ca3;
+    --background-color: #10002b;
+    --text-color: #4cc9f0;
+    --card-background: #3a0ca3;
+    --sidebar-background: #000;
+    --hover-color: #ace894;
     --text-primary: var(--text-color);
-    --link-color: #a8ba9a;
+    --link-color: #f72585;
+    --star-color: #4a314d;
 }
 
 * {
