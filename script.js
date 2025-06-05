@@ -146,7 +146,110 @@ const colorThemes = {
             sidebarBackground: '#41292c',
             linkColor: '#d72483'
         }
+    },
+    materialkit: {
+        light: {
+            primary: '#d4a574',
+            background: '#f8f9fa',
+            text: '#2c2c2c',
+            cardBackground: '#7fb069',
+            sidebarBackground: '#a67c52',
+            hoverColor: '#7fb069'
+        },
+        dark: {
+            background: '#2c2c2c',
+            text: '#f8f9fa',
+            cardBackground: '#a67c52',
+            sidebarBackground: '#3d3d3d',
+            linkColor: '#d4a574'
+        }
+    },
+    cyberpunk: {
+        light: {
+            primary: '#1a1a1a',
+            background: '#121212',
+            text: '#00ffff',
+            cardBackground: '#2a2a2a',
+            sidebarBackground: '#1f1f1f',
+            hoverColor: '#ff0080'
+        },
+        dark: {
+            background: '#0d0d0d',
+            text: '#00ffff',
+            cardBackground: '#1a1a1a',
+            sidebarBackground: '#111111',
+            linkColor: '#ff0080'
+        }
+    },
+    nord: {
+        light: {
+            primary: '#5e81ac',
+            background: '#eceff4',
+            text: '#2e3440',
+            cardBackground: '#d8dee9',
+            sidebarBackground: '#81a1c1',
+            hoverColor: '#88c0d0'
+        },
+        dark: {
+            background: '#2e3440',
+            text: '#d8dee9',
+            cardBackground: '#3b4252',
+            sidebarBackground: '#4c566a',
+            linkColor: '#8fbcbb'
+        }
+    },
+    pastel: {
+        light: {
+            primary: '#ff88a2',
+            background: '#fff9f8',
+            text: '#301934',
+            cardBackground: '#ffd7e0',
+            sidebarBackground: '#ffc7d8',
+            hoverColor: '#ffb3c6'
+        },
+        dark: {
+            background: '#301934',
+            text: '#ffd7e0',
+            cardBackground: '#ff88a2',
+            sidebarBackground: '#592653',
+            linkColor: '#ffc7d8'
+        }
+    },
+    oceanic: {
+        light: {
+            primary: '#0077b6',
+            background: '#f0fbff',
+            text: '#003049',
+            cardBackground: '#cce9f7',
+            sidebarBackground: '#48cae4',
+            hoverColor: '#0096c7'
+        },
+        dark: {
+            background: '#003049',
+            text: '#ade8f4',
+            cardBackground: '#0077b6',
+            sidebarBackground: '#014f86',
+            linkColor: '#48cae4'
+        }
+    },
+    dracula: {
+        light: {           /* keeps light mode usable */
+            primary: '#bd93f9',
+            background: '#ffffff',
+            text: '#282a36',
+            cardBackground: '#eaeaea',
+            sidebarBackground: '#cfc9e3',
+            hoverColor: '#ff79c6'
+        },
+        dark: {
+            background: '#282a36',
+            text: '#f8f8f2',
+            cardBackground: '#44475a',
+            sidebarBackground: '#6272a4',
+            linkColor: '#bd93f9'
+        }
     }
+
 };
 
 // Initialize all UI controls
@@ -177,9 +280,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Color theme initialization
     const colorThemeSelect = document.getElementById('colorThemeSelect');
-    const savedColorTheme = localStorage.getItem('colorTheme') || 'default';
-    colorThemeSelect.value = savedColorTheme;
-    applyColorTheme(savedColorTheme);
+    const savedColorTheme = localStorage.getItem('colorTheme');
+    const defaultTheme = 'default';
+
+    // Validate saved theme exists
+    const initialTheme = colorThemes[savedColorTheme] ? savedColorTheme : defaultTheme;
+    colorThemeSelect.value = initialTheme;
+    applyColorTheme(initialTheme);
     
     // Color theme change event listener
     colorThemeSelect.addEventListener('change', (e) => {
@@ -973,8 +1080,20 @@ function displaySection(sectionName, sections) {
 }
 
 function applyColorTheme(themeName) {
+    // Check if theme exists, otherwise fallback to default
+    const themeExists = colorThemes[themeName];
+    if (!themeExists) {
+        console.warn(`Theme "${themeName}" not found, falling back to default theme`);
+        themeName = 'default';
+    }
+
     const isDark = document.body.dataset.theme === 'dark';
     const theme = colorThemes[themeName][isDark ? 'dark' : 'light'];
+    
+    if (!theme) {
+        console.error(`Could not find ${isDark ? 'dark' : 'light'} mode for theme "${themeName}"`);
+        return;
+    }
     
     // Apply theme colors to CSS variables
     const root = document.documentElement;
@@ -982,4 +1101,7 @@ function applyColorTheme(themeName) {
         const cssVar = `--${key.replace(/([A-Z])/g, '-$1').toLowerCase()}`;
         root.style.setProperty(cssVar, value);
     });
+
+    // Store the successfully applied theme
+    localStorage.setItem('colorTheme', themeName);
 }
