@@ -296,21 +296,27 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // Color theme initialization
-    const colorThemeSelect = document.getElementById('colorThemeSelect');
+    const colorThemeSelect = document.getElementById('colorThemeSelect'); // This will be null since we commented it out
     const savedColorTheme = localStorage.getItem('colorTheme');
     const defaultTheme = 'default';
 
     // Validate saved theme exists
     const initialTheme = colorThemes[savedColorTheme] ? savedColorTheme : defaultTheme;
-    colorThemeSelect.value = initialTheme;
+    // Only set the value if the element exists
+    if (colorThemeSelect) {
+        colorThemeSelect.value = initialTheme;
+    }
     applyColorTheme(initialTheme);
     
     // Color theme change event listener
-    colorThemeSelect.addEventListener('change', (e) => {
-        const selectedTheme = e.target.value;
-        localStorage.setItem('colorTheme', selectedTheme);
-        applyColorTheme(selectedTheme);
-    });
+    // Only add the event listener if the element exists
+    if (colorThemeSelect) {
+        colorThemeSelect.addEventListener('change', (e) => {
+            const selectedTheme = e.target.value;
+            localStorage.setItem('colorTheme', selectedTheme);
+            applyColorTheme(selectedTheme);
+        });
+    }
 
     // Test if marked is loaded
     if (typeof marked === 'undefined') {
