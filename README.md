@@ -170,7 +170,7 @@ Websites with lists of relays and their performance/health:
 - [gossip](https://github.com/mikedilger/gossip)![stars](https://img.shields.io/github/stars/mikedilger/gossip.svg?style=social) - A desktop client in rust presented with egui
 - [Groups](https://github.com/max21dev/groups)![stars](https://img.shields.io/github/stars/max21dev/groups.svg?style=social) - NIP-29 Group Chat Web Client.
   - Live Instance: [groups.nip29.com](https://groups.nip29.com)
-- [Hook Cafe](https://github.com/kuba-04/hook.cafe)![stars](https://img.shields.io/github/starskuba-04/hook.cafe.svg?style=social) - A social app helping people to meet in real life
+- [Hook Cafe](https://github.com/kuba-04/hook.cafe)![stars](https://img.shields.io/github/stars/kuba-04/hook.cafe.svg?style=social) - A social app helping people to meet in real life
   -  [hook.cafe](https://hook.cafe) - live instance
 - [iris](https://github.com/irislib/iris-messenger)![stars](https://img.shields.io/github/stars/irislib/iris-messenger.svg?style=social) - A nostr web client
   - [iris.to](https://iris.to) - live instance
