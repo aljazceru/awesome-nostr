@@ -562,8 +562,7 @@ Allow you to sign Nostr events on web-apps without having to give them your keys
 - [nodestr](https://github.com/lightning-digital-entertainment/nodestr) - A nip07 provider and polyfill for NodeJS
 - [nos2x-fox](https://diegogurpegui.com/nos2x-fox/) - A Firefox add-on that lets you manager your Nostr keys in one place, and then sign events in websites without exposing your private key
 - [nos2x](https://github.com/fiatjaf/nos2x)![stars](https://img.shields.io/github/stars/fiatjaf/nos2x.svg?style=social) - Nostr Signer Extension
-- [nostash](https://github.com/tyiu/nostash)![stars](https://img.shields.io/github/stars/tyiu/nostash.svg?style=social) - Nostash is a Safari browser extension for signing events on 3rd party sites without sharing your private keys with them
-- [nostore](https://github.com/ursuscamp/nostore)![stars](https://img.shields.io/github/stars/ursuscamp/nostore.svg?style=social) - Nostr Signer Extension for iOS/macOS Safari ([Nostore on Mac App Store](https://apps.apple.com/us/app/nostore/id1666553677))
+- [Nostash](https://github.com/tyiu/nostash)![stars](https://img.shields.io/github/stars/tyiu/nostash.svg?style=social) - Nostash is an iOS/iPadOS/macOS Safari browser extension for signing events on 3rd party sites without sharing your private keys with them ([Nostash on App Store](https://apps.apple.com/app/nostash/id6744309333))
 - [nostr-keyx](https://github.com/susumuota/nostr-keyx)![stars](https://img.shields.io/github/stars/susumuota/nostr-keyx.svg?style=social) - A NIP-07 browser extension that uses the OS's keychain or YubiKey to protect your private keys.
 - [nostr](https://github.com/jinglescode/nostr-password-manager)![stars](https://img.shields.io/github/stars/jinglescode/nostr-password-manager.svg?style=social) - A free, open source, and decentralized password manager, powered by NOSTR
 - [nostrame](https://github.com/Anderson-Juhasc/nostrame)![stars](https://img.shields.io/github/stars/Anderson-Juhasc/nostrame.svg?style=social) - Nostr Signer and Account Management Extension 
@@ -742,6 +741,7 @@ Outside of nostr itself, you find the community on:
 - [Listr](https://github.com/sepehr-safari/listr) ![stars](https://img.shields.io/github/stars/sepehr-safari/listr.svg?style=social) - A Nostr Web Client for Making Lists.
 - [nodestr](https://github.com/Dolu89/nodestr-relay)![stars](https://img.shields.io/github/stars/Dolu89/nodestr-relay.svg?style=social) - a Node.js implementation
 - [nostr-pass](https://github.com/plantimals/nostr-pass)![stars](https://img.shields.io/github/stars/plantimals/nostr-pass.svg?style=social) - experimenting with nostr priv/pub key pairs for replacing passwords
+- [nostore](https://github.com/ursuscamp/nostore)![stars](https://img.shields.io/github/stars/ursuscamp/nostore.svg?style=social) - Nostr Signer Extension for iOS/macOS Safari
 - [nostrpy](https://github.com/monty888/nostrpy)![stars](https://img.shields.io/github/stars/monty888/nostrpy.svg?style=social) - relay, client, and other tooling in python (No longer being developed.)
 - [Nozzle](https://github.com/dluvian/Nozzle)![stars](https://img.shields.io/github/stars/dluvian/Nozzle.svg?style=social) - A lightweight Android client
 - [Plebstr](https://plebstr.com) - Nostr client Reimagined, the most beautiful Twitter-like nostr client for iOS & Android.
