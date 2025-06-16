@@ -1085,6 +1085,8 @@ function displaySection(sectionName, sections) {
             });
         }
     });
+
+    window.scrollTo(0, 0);
 }
 
 function applyColorTheme(themeName) {
