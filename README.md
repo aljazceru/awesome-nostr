@@ -210,7 +210,7 @@ Websites with lists of relays and their performance/health:
 - [Nosky](https://github.com/KotlinGeekDev/Nosky)![stars](https://img.shields.io/github/stars/KotlinGeekDev/Nosky.svg?style=social) - A native Android client for Nostr. Still in development
 - [nostr console](https://github.com/vishalxl/nostr_console)![stars](https://img.shields.io/github/stars/vishalxl/nostr_console.svg?style=social) - a nostr command line client written in Dart. Binaries available for Windows, Linux, and macOS
 - [Nostr Nests](https://nostrnests.com/) - Nostr Nests is an audio space for chatting, brainstorming, debating, jamming, micro-conferences and more.
-- [Nostr Read Only Single User Client](https://github.com/delirehberi/nostr-ro-client/tree/master) - Its a simple cloudflare worker to serve a single user's nostr content (kind:1) as web page - preview: nostr.emre.xyz 
+- [Nostr Read Only Client](https://github.com/delirehberi/nostr-ro-client/)![stars](https://img.shields.io/github/stars/delirehberi/nostr-ro-client/.svg?style=social) - simple cloudflare worker to serve a single user's nostr content (kind:1) as web page preview: nostr.emre.xyz 
 - [Nostr Playground](https://github.com/sepehr-safari/nostr-playground) ![stars](https://img.shields.io/github/stars/sepehr-safari/nostr-playground.svg?style=social) - A simple and user-friendly playground for Nostr.
   - [playground.nostr.com](https://playground.nostr.com/) - Live instance.
 - [Nostr Web](https://github.com/franzos/nostr-ts) - React web client for static hosting
