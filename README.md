@@ -147,7 +147,7 @@ Websites with lists of relays and their performance/health:
 - [Beagle](https://0xli.github.io/beagle.chat/)![stars](https://img.shields.io/github/stars/0xli/beagle.chat.svg?style=social) - Decentralized real-time Text/Audio/Video chat client for iOS, using nostr relays for users to share information and moments by posts of text, image and video.
 - [BlazeJump](https://github.com/objectwizard/BlazeJump)![stars](https://img.shields.io/github/stars/objectwizard/BlazeJump.svg?style=social) - A fast web client boilerplate written in C# / Blazor, that uses an in-browser SQLite database.
 - [Bookstr](https://bookstr.xyz/)- Discover, track, and share your reading journey on the decentralized Nostr network. No corporations. No ads. No data tracking. Just books.
-- [Blobbi](https://https://www.blobbi.pet/) - Your Virtual Pet on the Nostr Network. Adopt and care for your own unique digital companion that lives forever on the decentralized web. Each Nostr account can have one special Blobbi pet!
+- [Blobbi](https://blobbi.pet/) - Your Virtual Pet on the Nostr Network. Adopt and care for your own unique digital companion that lives forever on the decentralized web. Each Nostr account can have one special Blobbi pet!
 - [Blockcore Notes](https://github.com/block-core/blockcore-notes) ![stars](https://img.shields.io/github/stars/block-core/blockcore-notes.svg?style=social) - Progressive Web App that can be installed on mobile and desktop, organize following in circles and have both public and private following lists. Dynamic interface for different uses, such as optimized for photograph viewing
   - [notes.blockcore.net](https://notes.blockcore.net/)
 - [Blowater](https://blowater.deno.dev) - A desktop Web client focusing on chat with delightful UX
@@ -368,7 +368,7 @@ Websites with lists of relays and their performance/health:
 - [rust-nostr](https://github.com/rust-nostr/nostr)![stars](https://img.shields.io/github/stars/rust-nostr/nostr.svg?style=social) - Rust implementation of the nostr protocol, high level nostr client library, bindings (Python, C#, Kotlin, Swift, JS and so on) and more!
 - [rx-nostr](https://github.com/penpenpng/rx-nostr)![stars](https://img.shields.io/github/stars/penpenpng/rx-nostr.svg?style=social) - Supports high quality and flexible communication with multiple Nostr relays.
 - [schorr_snap](https://github.com/neeboo/schnorr_snap)![stars](https://img.shields.io/github/stars/neeboo/schnorr_snap.svg?style=social) - A snap plugin for Metamask Flask, supports nostr
-- [Stacks](https://https://getstacks.dev/) - Stacks is a decentralized platform for sharing AI templates on the Nostr network. Find the perfect starter for your next project, or share your own templates with the community. 
+- [Stacks](https://getstacks.dev/) - Stacks is a decentralized platform for sharing AI templates on the Nostr network. Find the perfect starter for your next project, or share your own templates with the community. 
 - [sonos](https://github.com/bvcxza/sonos)![stars](https://img.shields.io/github/stars/duozhutuan/nostrclient.svg?style=social)- C++ library and command line tool for Nostr
 
 ## Bridges and Gateways
