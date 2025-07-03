@@ -27,11 +27,13 @@ nostr.net services [start.nostr.net](https://start.nostr.net) || [relay.nostr.ne
 - [nostr, a basic tour](https://github.com/rajarshimaitra/rust-nostr/blob/main/VISION.md) - an intro to nostr
 - [Nostr: Solucionando la censura de una vez por todas](https://estudiobitcoin.com/nostr-solucionando-la-censura-de-una-vez-por-todas/)
 - [nostr.how](https://nostr.how) - A comprehensive non-technical beginners guide to Nostr. Available in several languages.
+- [NostrHub](https://nostrhub.io) - Your HUB for all things Nostr. Discover NIPs and publish your own Custom NIPs, Community forum, Nostr app directory, Nostr app GitHub repositories, DVMs, and more.
 - [nostr](https://github.com/nostr-protocol/nostr)![stars](https://img.shields.io/github/stars/nostr-protocol/nostr.svg?style=social) - Overview and FAQ
 - [tinkering with nostr without any client](https://medium.com/@p2w34/tinkering-with-the-nostr-protocol-will-it-take-twitter-over-74c4bf0fea66)
 - [UseNostr](https://usenostr.org) - A small guide for anyone who wants to learn more about how nostr works and what it can do.
 - [persian nostr book](https://github.com/kehiy/persian-nostr-book) - a book written in the Persian language about nostr, containing nips translation.
 - [NosTracker](https://marcodpt.github.io/nostracker/) [![stars](https://img.shields.io/github/stars/marcodpt/nostracker.svg?style=social)](https://github.com/marcodpt/nostracker) - Information about NIP support for clients, relays, tools and libraries. Like a caniuse but for NIPs.
+- [Grow Nostr Initiative](https://grownostr.org) - Empowering the future of decentralized social communication through community initiatives, education, and outreach.
   
 ## Relays
 
@@ -115,10 +117,12 @@ Websites with lists of relays and their performance/health:
 - [Highlighter](https://highlighter.com) - Discover and share curated insights by people you trust. Highlight Books, articles, tweets, anything!
 
 ### Video/Audio
+- [Nostr Nests](https://github.com/nostrnests/nests/)![stars](https://img.shields.io/github/stars/nostrnests/nests.svg?style=social) - Nostr Nests is an audio space for chatting, brainstorming, debating, jamming, micro-conferences and more. [NostrNests.com](https://nostrnests.com/)
 - [HiveTalk](https://github.com/hivetalk/hivetalksfu)![stars](https://img.shields.io/github/stars/hivetalk/hivetalksfu.svg?style=social) - Hivetalk is an open source real-time Video and screensharing platform built on mirotalk that integrates Nostr and Lightning.
   - [hivetalk.org](https://HiveTalk.org/) -  live instance
 - [Corny Chat](https://github.com/vicariousdrama/cornychat)![stars](https://img.shields.io/github/stars/vicariousdrama/cornychat.svg?style=social) -  Corny Chat is an open source audio space built on Jam that integrates Nostr and Lightning.
   - [cornychat.com](https://cornychat.com/)
+- [YakBak](https://github.com/fiatjaf/yakbak2/)![stars](https://img.shields.io/github/stars/fiatjaf/yakbak2.svg?style=social) - YakBak is a modern social platform built on the Nostr protocol that allows users to share and interact with voice messages. [YakBak.app](https://yakbak.app/)  
 
 ### Mobile
 - [0xchat](https://github.com/0xchat-app)![stars](https://img.shields.io/github/stars/0xchat-app/0xchat-core.svg?style=social) - a telegram/wechat-like nostr client for iOS and Android
@@ -142,6 +146,8 @@ Websites with lists of relays and their performance/health:
 - [badger](https://github.com/0ceanslim/badger)![stars](https://img.shields.io/github/stars/0ceanslim/badger.svg?style=social) - A NIP58 nostr badge client. Create Badges view Profile Badges and more. 
 - [Beagle](https://0xli.github.io/beagle.chat/)![stars](https://img.shields.io/github/stars/0xli/beagle.chat.svg?style=social) - Decentralized real-time Text/Audio/Video chat client for iOS, using nostr relays for users to share information and moments by posts of text, image and video.
 - [BlazeJump](https://github.com/objectwizard/BlazeJump)![stars](https://img.shields.io/github/stars/objectwizard/BlazeJump.svg?style=social) - A fast web client boilerplate written in C# / Blazor, that uses an in-browser SQLite database.
+- [Bookstr](https://bookstr.xyz/)- Discover, track, and share your reading journey on the decentralized Nostr network. No corporations. No ads. No data tracking. Just books.
+- [Blobbi](https://https://www.blobbi.pet/) - Your Virtual Pet on the Nostr Network. Adopt and care for your own unique digital companion that lives forever on the decentralized web. Each Nostr account can have one special Blobbi pet!
 - [Blockcore Notes](https://github.com/block-core/blockcore-notes) ![stars](https://img.shields.io/github/stars/block-core/blockcore-notes.svg?style=social) - Progressive Web App that can be installed on mobile and desktop, organize following in circles and have both public and private following lists. Dynamic interface for different uses, such as optimized for photograph viewing
   - [notes.blockcore.net](https://notes.blockcore.net/)
 - [Blowater](https://blowater.deno.dev) - A desktop Web client focusing on chat with delightful UX
@@ -209,7 +215,6 @@ Websites with lists of relays and their performance/health:
 - [noscl](https://github.com/fiatjaf/noscl)![stars](https://img.shields.io/github/stars/fiatjaf/noscl.svg?style=social) - a basic command-line client written in Go
 - [Nosky](https://github.com/KotlinGeekDev/Nosky)![stars](https://img.shields.io/github/stars/KotlinGeekDev/Nosky.svg?style=social) - A native Android client for Nostr. Still in development
 - [nostr console](https://github.com/vishalxl/nostr_console)![stars](https://img.shields.io/github/stars/vishalxl/nostr_console.svg?style=social) - a nostr command line client written in Dart. Binaries available for Windows, Linux, and macOS
-- [Nostr Nests](https://nostrnests.com/) - Nostr Nests is an audio space for chatting, brainstorming, debating, jamming, micro-conferences and more.
 - [Nostr Read Only Client](https://github.com/delirehberi/nostr-ro-client/)![stars](https://img.shields.io/github/stars/delirehberi/nostr-ro-client/.svg?style=social) - simple cloudflare worker to serve a single user's nostr content (kind:1) as web page preview: nostr.emre.xyz 
 - [Nostr Playground](https://github.com/sepehr-safari/nostr-playground) ![stars](https://img.shields.io/github/stars/sepehr-safari/nostr-playground.svg?style=social) - A simple and user-friendly playground for Nostr.
   - [playground.nostr.com](https://playground.nostr.com/) - Live instance.
@@ -251,6 +256,7 @@ Websites with lists of relays and their performance/health:
 - [Paz](https://pazstr.codeberg.page) - Paz is a desktop semantic Nostr client that transforms events into linked data (RDF) and makes queries on the events graph.
 - [Pinstr](https://github.com/sepehr-safari/pinstr) ![stars](https://img.shields.io/github/stars/sepehr-safari/pinstr?style=social) - Pinstr is a decentralized and open-source social network for curating and sharing your interests with the world.
   - [Pinstr.app](https://pinstr.app) - live instance
+- [Plektos](https://github.com/derekross/plektos)![stars](https://img.shields.io/github/stars/derekross/plektos.svg?style=social) - Plektos is a decentralized meetup, events, and calendar platform built on Nostr. [Plektos.app](https://plektos.app/)
 - [Pollerama](https://pollerama.fun/) - A polls implementation on nostr, with features like Proof of Work Filtering, Followset filtering, and more.
   -[Github Repo](https://github.com/abhay-raizada/nostr-polls)![stars](https://img.shields.io/github/stars/abhay-raizada/nostr-polls)
 - [Pollstr](https://github.com/mroxso/pollstr)![stars](https://img.shields.io/github/stars/mroxso/pollstr?style=social) - A nostr web client with a focus on polls.
@@ -275,6 +281,7 @@ Websites with lists of relays and their performance/health:
   - [Swarmstr](https://swarmstr.com) - live instance
 - [Tamga](https://github.com/erdaltoprak/tamga)![stars](https://img.shields.io/github/stars/erdaltoprak/tamga.svg?style=social) - An offline first nostr contact & profile manager for iOS!
 - [Tides](https://github.com/arbadacarbayk/tides)![stars](https://img.shields.io/github/stars/arbadacarbayk/tides.svg?style=social) - Chrome Extension Messenger with a hotlink for Noderunners Radio Stream 
+- [Treasures](https://treasures.to/) - Discover HiddenTreasures. Join the decentralized geocaching adventure powered by Nostr. Hide geocaches, find them, and connect with explorers worldwide.
 - [uBlog](https://github.com/nodetec/ublog) ![stars](https://img.shields.io/github/stars/nodetec/ublog.svg?style=social) - A minimalist blog on nostr that allows anyone to easily create their own personal micro-blog.
   - [u-blog.vercel.app](https://u-blog.vercel.app)
 - [Votestr](https://votestr.com/)![stars](https://img.shields.io/github/stars/vilm3r/votestr.svg?style=social) - Poll web app with nostr authentication and blind signature unlinkability
@@ -289,6 +296,8 @@ Websites with lists of relays and their performance/health:
 - [Yana](https://github.com/frnandu/yana)![stars](https://img.shields.io/github/stars/frnandu/yana.svg?style=social) - Yana is a nostr client focused on performance in slower devices and modularity of features.
   - [yana.do](https://yana.do)
 - [zapddit](https://zapddit.com) ![stars](https://img.shields.io/github/stars/vivganes/zapddit.svg?style=social) - Reddit-style client for nostr where you can follow topics (similar to subreddits), mute certain topics (like #bitcoin), upzap and downzap notes using your hard-earned sats.
+- [Zaplytics](https://github.com/derekross/zaplytics)![stars](https://img.shields.io/github/stars/derekross/zaplytics.svg?style=social) - Analytics for your Nostr Zaps, helping creators dive into their Zap earnings. [Zaplytics.app](https://zaplytics.app/)
+- [Zappix](https://github.com/derekross/zappix)![stars](https://img.shields.io/github/stars/derekross/zappix.svg?style=social) - A nostr image sharing application for browsing, sharing, and zapping visual content. [Zappix.app](https://zappix.app/)
 - [zephyr](https://github.com/coracle-social/zephyr)![stars](https://img.shields.io/github/stars/coracle-social/zephyr.svg?style=social) - A meditative nostr feed reader
 - [pocket-wallet](https://github.com/RetricSu/pocket-wallet)![stars](https://img.shields.io/github/stars/RetricSu/pocket-wallet.svg?style=social) - PocketWallet is a nostr-based wallet on CKB blockchain supportting Nip07 and Nip46.
 
@@ -320,6 +329,7 @@ Websites with lists of relays and their performance/health:
 - [NNostr.Client](https://github.com/Kukks/NNostr)![stars](https://img.shields.io/github/stars/Kukks/NNostr.svg?style=social) - a C# Nostr library for use by clients
 - [noscrypt](https://github.com/vnuge/noscrypt)![stars](https://img.shields.io/github/stars/vnuge/noscrypt.svg?style=social) - A C89 library for nostr specific cryptography operations.
 - [nostr_rust](https://github.com/0xtlt/nostr_rust)![stars](https://img.shields.io/github/stars/0xtlt/nostr_rust.svg?style=social) - Functional Rust implementation of the nostr protocol
+- [Nostrbook](https://nostrbook.dev/) - A Comprehensive Registry of Nostr Documentation. Structured, detailed knowledge about Nostr for both humans and AI.
 - [nostr-bot](https://github.com/slaninas/nostr-bot)![stars](https://img.shields.io/github/stars/slaninas/nostr-bot.svg?style=social) - a Rust library for writing bots
 - [nostr-connect](https://github.com/nostr-connect/connect)![stars](https://img.shields.io/github/stars/nostr-connect/connect.svg?style=social) - Nostr Connect SDK for TypeScript is a library that allows you to easily integrate Nostr Connect into your web application
 - [nostr-deno](https://github.com/KiPSOFT/nostr-deno)![stars](https://img.shields.io/github/stars/KiPSOFT/nostr-deno.svg?style=social) - a client library for Deno javascript runtime.
@@ -358,6 +368,7 @@ Websites with lists of relays and their performance/health:
 - [rust-nostr](https://github.com/rust-nostr/nostr)![stars](https://img.shields.io/github/stars/rust-nostr/nostr.svg?style=social) - Rust implementation of the nostr protocol, high level nostr client library, bindings (Python, C#, Kotlin, Swift, JS and so on) and more!
 - [rx-nostr](https://github.com/penpenpng/rx-nostr)![stars](https://img.shields.io/github/stars/penpenpng/rx-nostr.svg?style=social) - Supports high quality and flexible communication with multiple Nostr relays.
 - [schorr_snap](https://github.com/neeboo/schnorr_snap)![stars](https://img.shields.io/github/stars/neeboo/schnorr_snap.svg?style=social) - A snap plugin for Metamask Flask, supports nostr
+- [Stacks](https://https://getstacks.dev/) - Stacks is a decentralized platform for sharing AI templates on the Nostr network. Find the perfect starter for your next project, or share your own templates with the community. 
 - [sonos](https://github.com/bvcxza/sonos)![stars](https://img.shields.io/github/stars/duozhutuan/nostrclient.svg?style=social)- C++ library and command line tool for Nostr
 
 ## Bridges and Gateways
@@ -516,7 +527,7 @@ Websites with lists of relays and their performance/health:
 - [nostrcheck.me](https://nostrcheck.me/) - A free NIP-05 ID (nostr address) registration service, lightning redirection and media uploads.
 - [Nostrich House](https://nostrich.house) - Paid NIP-05 service with nostr bot interface. Buy your nostr address with DM to nostrich@nostrich.house for 1 sat/hour, anonymous, immediate.
 - [nostrich.love](https://uselessshit.co/nostr/nip-05/) - A Nostr Address registration service.
-- [nostrplebs](https://nostrplebs.com) - A NIP-05 ID registration service.
+- [nostrplebs](https://nostrplebs.com) - The oldest and original Nostr address registration and identity management service.
 - [nostrprotocol.net](https://github.com/KiPSOFT/nostr-nip05-service)![stars](https://img.shields.io/github/stars/KiPSOFT/nostr-nip05-service?style=social) - A free NIP-05 identifier service.
 - [pleroma2nip05](https://code.taurix.net/guy/pleroma2nip05) - A Python based service to link pleroma ID's to nostr keys.
 - [siamstr.com](https://siamstr.com) - A free NIP-05 ID registration service, lightning redirection.
