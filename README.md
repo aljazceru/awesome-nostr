@@ -201,6 +201,8 @@ Websites with lists of relays and their performance/health:
 - [Memestr](https://memestr.app/) - nostr hub for memes.
 - [MeShell](https://github.com/BEEBSDONE/MeShell_Nodejs)![stars](https://img.shields.io/github/stars/BEEBSDONE/MeShell_Nodejs.svg?style=social) - Web, iOS, and Android blog type client destined to publish articles and researches for independent journalists.
   - [MeShell.io](https://meshell.io) - Landing page for more information
+- [Meetstr](https://github.com/gillohner/meetstr)![stars](https://img.shields.io/github/stars/gillohner/meetstr.svg?style=social) - Meetstr is a nostr client for discovering, viewing, and managing NIP-52 based calendars for Meetups and community events.
+  - [meetstr.com](https://meetstr.com/) - live instance
 - [Minds](https://www.minds.com/) - open source social network. Supports reading and creating posts using the nostr protocol
 - [more-speech](https://github.com/unclebob/more-speech)![stars](https://img.shields.io/github/stars/unclebob/more-speech.svg?style=social) - desktop client for nostr written in Clojure
 - [moStard](https://mostard.org) - Nostr web client with Monero tips.
