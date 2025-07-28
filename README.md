@@ -92,6 +92,7 @@ of the public instances.
 - [PyRelay](https://github.com/johnny423/pyrelay)![stars](https://img.shields.io/github/stars/johnny423/pyrelay.svg?style=social) - a python implementation of a Nostr relay, using asyncio.
 - [QNostr](https://github.com/Aseman-Land/QNostr)![stars](https://img.shields.io/github/stars/Aseman-Land/QNostr.svg?style=social) - A Nostr protocol implementation for clients as a Qt Module in C++
 - [Relayer Basic](https://github.com/fiatjaf/relayer/tree/master/examples/basic) - a simple relay based on _relayer_ backed by Postgres
+- [rely](https://github.com/pippellia-btc/rely) ![stars] - A golang framework for building super custom nostr relays you can rely on.
 - [rnostr](https://github.com/rnostr/rnostr)![stars](https://img.shields.io/github/stars/rnostr/rnostr.svg?style=social) - A high-performance and scalable nostr relay written in Rust.
 - [Servus](https://github.com/ibz/servus)![stars](https://img.shields.io/github/stars/ibz/servus.svg?style=social) - A self-contained, single executable, CMS/blogging engine reminiscent of Jekyll which also acts as a personal Nostr relay for your blog posts. Written in Rust.
 - [søstr](https://github.com/metasikander/s0str)![stars](https://img.shields.io/github/stars/metasikander/s0str.svg?style=social) - a private Nostr relay written in rust, saves all notes from one pubkey and publish them to anyone that requests them
@@ -247,6 +248,7 @@ Websites with lists of relays and their performance/health:
 - [nostui](https://github.com/akiomik/nostui)![stars](https://img.shields.io/github/stars/akiomik/nostui.svg?style=social) - A TUI client for Nostr
 - [Nostur](https://nostur.com) - Nostr client app for iOS and MacOS. ([Apple Store link](https://apps.apple.com/us/app/nostur/id1672780508))
 - [notestack.com](https://notestack.com)![stars](https://img.shields.io/github/stars/nodetec/notestack.svg?style=social) - Blogging site for nostr, supports markdown
+- [npub.world](https://npub.world/) - A nostr profile search engine
 - [Nuxstr](https://github.com/sebastix/nuxstr)![stars](https://img.shields.io/github/stars/sebastix/nuxstr.svg?style=social) - Starter template for building a Nostr client with the Nuxt Vue framework and Nostr Dev Kit (NDK).
   - [nuxstr.nostrver.se](https://nuxstr.nostrver.se) - demo
 - [n_cord](https://github.com/0n4t3/n_cord)![stars](https://img.shields.io/github/stars/0n4t3/n_cord.svg?style=social) - A Discord inspired chat style client standard Nostr notes, built in static HTML & JavaScript.
@@ -645,6 +647,7 @@ Endpoints (services or apps that expose a LN wallet via NWC)
 - [NostrDVM](https://github.com/believethehype/nostrdvm)![stars](https://img.shields.io/github/stars/believethehype/nostrdvm.svg?style=social) - NostrDVM: Nostr NIP90 Data Vending Machine Framework in python
 - [tasktiger.io](https://tasktiger.io/) - another DVM provider
 - [vendata.io](https://vendata.io/) - data processing AI marketplace with nostr data vending machines
+- [vertexlab.io](https://vertexlab.io/) -  Web of Trust as a Service via DVMs
 
 ## NIP-96 File Storage Servers
 - [mockingyou.com](https://mockingyou.com) 
