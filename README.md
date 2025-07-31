@@ -261,6 +261,7 @@ Websites with lists of relays and their performance/health:
 - [Pinstr](https://github.com/sepehr-safari/pinstr) ![stars](https://img.shields.io/github/stars/sepehr-safari/pinstr?style=social) - Pinstr is a decentralized and open-source social network for curating and sharing your interests with the world.
   - [Pinstr.app](https://pinstr.app) - live instance
 - [Plektos](https://github.com/derekross/plektos)![stars](https://img.shields.io/github/stars/derekross/plektos.svg?style=social) - Plektos is a decentralized meetup, events, and calendar platform built on Nostr. [Plektos.app](https://plektos.app/)
+- [Pokey](https://github.com/KoalaSat/Pokey)![stars](https://img.shields.io/github/stars/KoalaSat/Pokey.svg?style=social) -  Nostr "Pull Notifications" on Android 
 - [Pollerama](https://pollerama.fun/) - A polls implementation on nostr, with features like Proof of Work Filtering, Followset filtering, and more.
   -[Github Repo](https://github.com/abhay-raizada/nostr-polls)![stars](https://img.shields.io/github/stars/abhay-raizada/nostr-polls)
 - [Pollstr](https://github.com/mroxso/pollstr)![stars](https://img.shields.io/github/stars/mroxso/pollstr?style=social) - A nostr web client with a focus on polls.
@@ -268,7 +269,9 @@ Websites with lists of relays and their performance/health:
 - [Postr For Nostr](https://github.com/joel-st/postr-for-nostr)![stars](https://img.shields.io/github/stars/joel-st/postr-for-nostr.svg?style=social) - Post to Nostr directly from within WordPress using NIP-07
 - [Pretty Good Apps](https://github.com/wds4/pretty-good)![stars](https://img.shields.io/github/stars/wds4/pretty-good?style=social) - A desktop Nostr client for Linux, macOS, and windows with a focus on decentralized reputation and web of trust. First application: crowdsourced decentralized list curation.
 - [Primal](https://primal.net) - Lightning-fast web client for Nostr. Features extensive analytics, vanity profiles, and more.
+- [P2P band](https://p2p.band/)![stars](https://img.shields.io/github/stars/KoalaSat/p2pband.svg?style=social) -  P2P Bitcoin exchanges decentralized aggregator 
 - [Rabbit](https://github.com/syusui-s/rabbit)![stars](https://img.shields.io/github/stars/syusui-s/rabbit?style=social) - A nostr client like TweetDeck
+- [Samiz](https://github.com/KoalaSat/Samiz)![stars](https://img.shields.io/github/stars/KoalaSat/Samiz.svg?style=social) -  BLE mesh for nostr notes when the internet is down 
 - [Satellite](https://github.com/lovvtide/satellite-web)![stars](https://img.shields.io/github/stars/lovvtide/satellite-web.svg?style=social) - Nostr web client with Reddit-style threads
   - [satellite.earth](https://satellite.earth) - live instance
 - [scalastr](https://github.com/benthecarman/scalastr)![stars](https://img.shields.io/github/stars/benthecarman/scalastr.svg?style=social) - A barebones nostr client written in scala
