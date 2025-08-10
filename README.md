@@ -15,7 +15,8 @@ nostr.net services [start.nostr.net](https://start.nostr.net) || [relay.nostr.ne
 - [primal.net](https://primal.net/)
 - [coracle.social](https://coracle.social/)
 - [YakiHonne](https://yakihonne.com)
-
+* [MULTIPASS](https://qo-op.com) - A sovereign digital identity packaged as a portable, printable HTML "Zine" that generates your Nostr keys.
+* 
 ### Other
 - [Zapstore](https://zapstore.dev/) - Web of trust based app store 
 - [Hivetalk](https://honey.hivetalk.org/) - Nostr + Lightning Video Conferencing
