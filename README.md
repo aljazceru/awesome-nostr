@@ -172,6 +172,7 @@ Websites with lists of relays and their performance/health:
   - [formstr.app](https://formstr.app/) - live instance 
 - [futr](https://github.com/prolic/futr)![stars](https://img.shields.io/github/stars/prolic/futr.svg?style=social) - nostr client desktop app written in Haskell
 - [getwired.app](https://github.com/smolgrrr/Wired)![stars](https://img.shields.io/github/stars/smolgrrr/Wired.svg?style=social) Anonymous-first client with PoW notes
+- [gitplaza](https://codeberg.org/dluvian/gitplaza) - git stuff client for Desktop
 - [gitstr](https://github.com/fiatjaf/gitstr)![stars](https://img.shields.io/github/stars/fiatjaf/gitstr.svg?style=social) - Send and receive git patches over Nostr, using [NIP-34](https://github.com/nostr-protocol/nips/blob/master/34.md).
 - [gnost-deflate-client](https://github.com/barkyq/gnost-deflate-client)![stars](https://img.shields.io/github/stars/barkyq/gnost-deflate-client?style=social) - CLI nostr client written in go implementing permessage-deflate websocket compression.
 - [gossip](https://github.com/mikedilger/gossip)![stars](https://img.shields.io/github/stars/mikedilger/gossip.svg?style=social) - A desktop client in rust presented with egui
@@ -209,6 +210,7 @@ Websites with lists of relays and their performance/health:
 - [moStard](https://mostard.org) - Nostr web client with Monero tips.
 - [narr](https://github.com/fiatjaf/narr)![stars](https://img.shields.io/github/stars/fiatjaf/narr.svg?style=social) - self-hosted Nostr and RSS reader
 - [nblog](https://github.com/jacany/nblog)![stars](https://img.shields.io/github/stars/jacany/nblog.svg?style=social) - a self-host nostr ghost blog
+- [ngit-cli](https://github.com/DanConwayDev/ngit-cli)![stars](https://img.shields.io/github/stars/DanConwayDev/ngit-cli.svg?style=social) - cli for a nostr based github alternative for FOSS repositories
 - [ni.py](https://github.com/0n4t3/nipy)![stars](https://img.shields.io/github/stars/0n4t3/nipy.svg?style=social) - CLI post only client for Nostr, Activity Pub, and the AT Protocol written in Python.
 - [Noflux](https://github.com/fiatjaf/noflux)![stars](https://img.shields.io/github/stars/fiatjaf/noflux.svg?style=social) - minimalist and opinionated feed reader
 - [Nootti](https://nootti.com) - Cross-posting iOS & iPad client app for Bluesky, Mastodon and Nostr
