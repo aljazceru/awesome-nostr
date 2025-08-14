@@ -554,8 +554,9 @@ Websites with lists of relays and their performance/health:
 ## Vanity pubkey mining
 
 
-- [glasnostr](https://github.com/eyelight/glasnostr) ![stars](https://img.shields.io/github/stars/eyelight/glasnostr.svg?style=social) - CLI tool to mine a vanity prefix for your nostr npub
-- [go-pubmine](https://github.com/tenkoh/go-pubmine) ![stars](https://img.shields.io/github/stars/tenkoh/go-pubmine.svg?style=social) - Multithreading nostr keypair generator which gives pretty (vanity) public keys. Both CLI and web apps are available.
+- [glasnostr](https://github.com/eyelight/glasnostr)![stars](https://img.shields.io/github/stars/eyelight/glasnostr.svg?style=social) - CLI tool to mine a vanity prefix for your nostr npub
+- [go-pubmine](https://github.com/tenkoh/go-pubmine)![stars](https://img.shields.io/github/stars/tenkoh/go-pubmine.svg?style=social) - Multithreading nostr keypair generator which gives pretty (vanity) public keys. Both CLI and web apps are available.
+- [vanity-key](https://github.com/nostr-net/vanity-key/)![stars](https://img.shields.io/github/stars/nostr-net/vanity-key.svg?style=social) - use your face biometrics to generate a deterministic private key
 - [key-generator](https://github.com/TP-Lab/key-generator) ![stars](https://img.shields.io/github/stars/TP-Lab/key-generator.svg?style=social) - A simple tool to generate nostr keypair.
 - [noclvag](https://codeberg.org/alex0jsan/noclvag) - OpenCL cli tool to mine vanity keys on gpu
 - [nostr-pubminer](https://github.com/lacaulac/nostr-pubminer)![stars](https://img.shields.io/github/stars/lacaulac/nostr-pubminer.svg?style=social) - A simple tool to mine nostr vanity pubkeys
