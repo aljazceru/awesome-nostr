@@ -95,6 +95,7 @@ of the public instances.
 - [rely](https://github.com/pippellia-btc/rely) ![stars] - A golang framework for building super custom nostr relays you can rely on.
 - [rnostr](https://github.com/rnostr/rnostr)![stars](https://img.shields.io/github/stars/rnostr/rnostr.svg?style=social) - A high-performance and scalable nostr relay written in Rust.
 - [Servus](https://github.com/ibz/servus)![stars](https://img.shields.io/github/stars/ibz/servus.svg?style=social) - A self-contained, single executable, CMS/blogging engine reminiscent of Jekyll which also acts as a personal Nostr relay for your blog posts. Written in Rust.
+- [Shugur](https://github.com/Shugur-Network/relay)![stars](https://img.shields.io/github/stars/Shugur-Network/relay.svg?style=social) - High performance, enterprise grade, scalable Nostr relay.
 - [søstr](https://github.com/metasikander/s0str)![stars](https://img.shields.io/github/stars/metasikander/s0str.svg?style=social) - a private Nostr relay written in rust, saves all notes from one pubkey and publish them to anyone that requests them
 - [sovereign-stack](https://www.sovereign-stack.org) - a tool that helps you deploy nostr relays and create self-hosted (bitcoin-only) Value4Value websites.
 - [strfry](https://github.com/hoytech/strfry)![stars](https://img.shields.io/github/stars/hoytech/strfry.svg?style=social) - C++ implementation backed by LMDB with efficient syncing of events using Merkle trees
