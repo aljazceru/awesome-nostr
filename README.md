@@ -99,6 +99,7 @@ of the public instances.
 - [sovereign-stack](https://www.sovereign-stack.org) - a tool that helps you deploy nostr relays and create self-hosted (bitcoin-only) Value4Value websites.
 - [strfry](https://github.com/hoytech/strfry)![stars](https://img.shields.io/github/stars/hoytech/strfry.svg?style=social) - C++ implementation backed by LMDB with efficient syncing of events using Merkle trees
 - [SuperConductor](https://github.com/avlo/superconductor)![stars](https://img.shields.io/github/stars/avlo/superconductor.svg?style=social) - Java Nostr-Relay Framework & Web Application. Java 20, Spring WebSocketSession 3.2.2, Spring Boot 3.2.4, atop [nostr-java library](https://github.com/tcheeric/nostr-java). Simple. Clean. OO.
+- [SW2](https://github.com/bitvora/sw2)![stars](https://img.shields.io/github/stars/bitvora/sw2.svg?style=social) - A relay with read and write whitelisting for private uses, small communities, knowledge bases, or dropboxes.
 - [tandem](https://github.com/TheRebelOfBabylon/tandem)![stars](https://img.shields.io/github/stars/TheRebelOfBabylon/tandem.svg?style=social)  - WIP: community focused relay written in Go
 - [Transpher](https://github.com/nostriphant/transpher)![stars](https://img.shields.io/github/stars/nostriphant/transpher.svg?style=social) - experimental PHP implementation with file or sqlite storage, configurable limits
 - [WoT relay](https://github.com/bitvora/wot-relay.git)![stars](https://img.shields.io/github/stars/bitvora/wot-relay.svg?style=social) - relay for every note in your web of trust
@@ -123,6 +124,7 @@ Websites with lists of relays and their performance/health:
   - [hivetalk.org](https://HiveTalk.org/) -  live instance
 - [Corny Chat](https://github.com/vicariousdrama/cornychat)![stars](https://img.shields.io/github/stars/vicariousdrama/cornychat.svg?style=social) -  Corny Chat is an open source audio space built on Jam that integrates Nostr and Lightning.
   - [cornychat.com](https://cornychat.com/)
+- [Shosho](https://github.com/r0d8lsh0p/shosho-releases)![stars](https://img.shields.io/github/stars/r0d8lsh0p/shosho-releases.svg?style=social) - Shosho app lets users stream their phone camera and chat with friends and followers on Nostr livestreams. Streams can be viewed on [Shosho.live](https://shosho.live)
 - [YakBak](https://github.com/fiatjaf/yakbak2/)![stars](https://img.shields.io/github/stars/fiatjaf/yakbak2.svg?style=social) - YakBak is a modern social platform built on the Nostr protocol that allows users to share and interact with voice messages. [YakBak.app](https://yakbak.app/)  
 
 ### Mobile
@@ -487,6 +489,7 @@ Websites with lists of relays and their performance/health:
 - [nostril](https://github.com/jb55/nostril)![stars](https://img.shields.io/github/stars/jb55/nostril.svg?style=social) - C cli tool for creating nostr events
 - [nostrillery](https://github.com/Cameri/nostrillery)![stars](https://img.shields.io/github/stars/Cameri/nostrillery.svg?style=social) - a tool for running performance tests against Nostr relays
 - [nostro](https://github.com/r3drun3/nostro)![stars](https://img.shields.io/github/stars/r3drun3/nostro.svg?style=social) - nostr osint (open source intelligence) tool
+- [Nostrobots](https://github.com/ocknamo/n8n-nodes-nostrobots)![stars](https://img.shields.io/github/stars/ocknamo/n8n-nodes-nostrobots.svg?style=social) - a set of community nodes for using n8n workflow automation with Nostr
 - [NostrP2P](https://github.com/ryogrid/nostrp2p)![stars](https://img.shields.io/github/stars/ryogrid/nostrp2p.svg?style=social) - Pure peer-to-peer distributed microblog system on NAT transparent overlay network implemented in Golang based on idea of Nostr
 - [NostrReply](https://github.com/gourcetools/nostreply)![stars](https://img.shields.io/github/stars/gourcetools/nostreply.svg?style=social) - Bot that replies to specified text on nostr global feed using NIP50
 - [NostrSwap](https://www.nostrswap.com/) - NostrSwap is a fully decentralized exchange built on Nostr Protocol.
@@ -705,6 +708,7 @@ Outside of nostr itself, you find the community on:
 - [SuperConductor](https://github.com/avlo/superconductor/?tab=readme-ov-file#creating-relay-event-handlers) - Creating Java Nostr-Relay Framework & Web Application event-handlers
 - [Set up a Lightning node and Nostr client](https://rizful.com/get_on_nostr_today) - Run a full lightning node in the cloud and connect it via NWC to the Yakihonne client
 - [Send a Hello World with Nostr](https://hellonostr.dev/) - “Hello Nostr” begginers guide using HTML, CSS, and JavaScript
+- [Workflow Automation for Nostr](https://rodbishop.npub.pro/post/4f0baffd/) - Using n8n and Nostrobots
 
 ## Recommended reading/watching
 - [Nostr, an introduction](https://wiki.wellorder.net/post/nostr-intro/) - written by scsibug
