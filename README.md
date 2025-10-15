@@ -158,6 +158,7 @@ Websites with lists of relays and their performance/health:
 - [Blockcore Notes](https://github.com/block-core/blockcore-notes) ![stars](https://img.shields.io/github/stars/block-core/blockcore-notes.svg?style=social) - Progressive Web App that can be installed on mobile and desktop, organize following in circles and have both public and private following lists. Dynamic interface for different uses, such as optimized for photograph viewing
   - [notes.blockcore.net](https://notes.blockcore.net/)
 - [Blowater](https://blowater.deno.dev) - A desktop Web client focusing on chat with delightful UX
+- [+Chorus](https://github.com/andotherstuff/chorus/)![stars] - +chorus is a simple space for communities to gather, share, and support each other.
 - [connect4](https://github.com/stutxo/connect4xyz)![stars](https://img.shields.io/github/stars/stutxo/connect4xyz.svg?style=social) - connect 4 over nostr
   - [connect4.xyz](https://connect4.xyz/)
 - [Coracle Chat](https://github.com/coracle-social/legacy-chat)![stars](https://img.shields.io/github/stars/coracle-social/legacy-chat.svg?style=social) - A standalone port of Coracle's old chat functionality
@@ -319,11 +320,20 @@ Websites with lists of relays and their performance/health:
 - [pocket-wallet](https://github.com/RetricSu/pocket-wallet)![stars](https://img.shields.io/github/stars/RetricSu/pocket-wallet.svg?style=social) - PocketWallet is a nostr-based wallet on CKB blockchain supportting Nip07 and Nip46.
 - [cassette](https://cassette.cafe) - Portable WASM relays with standardized interface/bindings.
 
-### Nostr Marketplace clients (NIP-15 & NIP-99)
+### Nostr Marketplace clients ([NIP-15](https://github.com/nostr-protocol/nips/blob/master/15.md) & [NIP-99](https://github.com/nostr-protocol/nips/blob/master/99.md))
 
 - [LNBits Nostrmarket](https://github.com/lnbits/nostrmarket)![stars](https://img.shields.io/github/stars/lnbits/nostrmarket.svg?style=social) - Nostrmarket extension for LNBits allows you to sell items directly from your LNBits instance
 - [Plebeian Market](https://github.com/PlebeianTech/plebeian-market)![stars](https://img.shields.io/github/stars/PlebeianTech/plebeian-market.svg?style=social) - The Bitcoin-native self-sovereign marketplace built on top of NIP-15 includes fixed-price items and auctions
 - [Shopstr](https://github.com/shopstr-eng/shopstr)![stars](https://img.shields.io/github/stars/shopstr-eng/shopstr.svg?style=social) - The Lightning and Cashu-native self-sovereign marketplace built on top of NIP-99 includes fixed-price items
+
+### Web Bookmarking ([NIP-B0](https://github.com/nostr-protocol/nips/blob/master/B0.md))
+- [Community Curated Nostr Stuff (CCNS)](https://github.com/Sebastix/CCNS)![stars] - CCNS is a Nostr-focused community platform centered around link aggregation and discussion topics.
+- [KUCHIYOSE](https://github.com/nikolat/kuchiyose)![stars] - Nostr events of web bookmark.
+- [Lantern]([https://pinstr.co/](https://gitworkshop.dev/fiatjaf.com/lantern)) - Collaboratively annotate, highlight, and bookmark web pages and PDF documents on Nostr.
+- [MKPinja](https://github.com/sepehr-safari/mkpinja)![stars] - A decentralized bookmarking service built on the Nostr protocol, inspired by Pinboard.in. MKPinja implements NIP-B0 for web bookmarking, giving users complete ownership and control over their bookmark data.
+- [Pinja](https://github.com/sepehr-safari/pinja)![stars] - Pinja is a modern social bookmarking platform built on the Nostr protocol, designed to help users collect, organize, and explore valuable content from across the web.
+- [Pinstr](https://pinstr.co/) - Pinstr is a bookmark manager that uses Nostr to store and sync your bookmarks.
+- [Yumyume](https://gitlab.com/digitalethicsagency/nostr/yumyume) - yumyume is an free open-source, decentralized social bookmarking client powered by the Nostr protocol. Inspired by del.icio.us, yumyume ensures your bookmarks remain accessible without the risk of being shut down by corporate interests.
 
 ### Client reviews and/or comparisons
 
