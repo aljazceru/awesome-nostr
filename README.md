@@ -420,6 +420,7 @@ Websites with lists of relays and their performance/health:
 - [anonroom](https://github.com/vinliao/anonroom)![stars](https://img.shields.io/github/stars/vinliao/anonroom.svg?style=social) - anonymous chat room inside nostr
 - [Bech32 for Nostr](https://nostr.xport.top/bech32-for-nostr/) - bech32 Nostr converter. 
 - [blogsync](https://github.com/canostrical/blogsync)![stars](https://img.shields.io/github/stars/canostrical/blogsync.svg?style=social) - Self-host blog articles from long-form notes e.g. via Caddy server.
+- [Bloom](https://bloomapp.me) - Bloom offers a familiar file‑manager interface that lets users quickly interact with files and blobs stored on Blossom and NIP‑96 servers. You can edit metadata, share items directly from Bloom, create shareable folders, and much more. You can self-host the project by cloning the repo [from Github](https://github.com/Letdown2491/bloom).
 - [Bookmarkstr](https://bookmarkstr.store/) - A browser extension for reading and managing nostr bookmarks
 - [cafe-society.news](https://github.com/colealbon/cafe-society)![stars](https://img.shields.io/github/stars/colealbon/cafe-society.svg?style=social) - Self-sovereign machine learning training tool for nostr global feed.  Trained models can be monetized/distributed over nostr private messages.  Your pre-paid model subscribers register via lightning payments.
 - [Chief](https://github.com/0xtrr/chief) - A Strfry write policy plugin that provides blacklists for public keys, event kinds and words/sentences.
