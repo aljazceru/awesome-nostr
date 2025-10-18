@@ -121,6 +121,8 @@ Websites with lists of relays and their performance/health:
 - [Habla.news](https://github.com/verbiricha/habla.news)![stars](https://img.shields.io/github/stars/verbiricha/habla.news.svg?style=social) - Habla allows you to read, write, curate and monetize long-form content over Nostr, a censorship-resistant protocol for social media that uses long-form Nostr content.
 - [Highlighter](https://highlighter.com) - Discover and share curated insights by people you trust.
 - [Breefly](https://breefly.social) - A low-stimulus environment where you can read articles published on nostr.
+- [Decent Newsroom](https://decentnewsroom.com/) - Explore, publish and create long form articles and magazines on nostr.
+- [readwithboris.com](https://www.readwithboris.com/) - Long form reading and highlighting app.
 
 ### Video/Audio
 - [Nostr Nests](https://github.com/nostrnests/nests/)![stars](https://img.shields.io/github/stars/nostrnests/nests.svg?style=social) - Nostr Nests is an audio space for chatting, brainstorming, debating, jamming, micro-conferences and more. [NostrNests.com](https://nostrnests.com/)
