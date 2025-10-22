@@ -466,6 +466,7 @@ Websites with lists of relays and their performance/health:
 - [nostr GitHub Action](https://github.com/theborakompanioni/nostr-action)![stars](https://img.shields.io/github/stars/theborakompanioni/nostr-action.svg?style=social) - send events from GitHub Actions
 - [Nostr NIP-36 Image Redirector](https://github.com/ryogrid/NostrNIP36ImageRedirector) - Reverse proxy server which blocks accesses to NIP-36 marked image files from NOT NIP-36 compliant clients.
 - [Nostr profile manager](https://metadata.nostr.com/) - Backup your nostr profile and metadata
+- [Nostr Events Monitor](https://github.com/Catrya/Nostr-Events-Monitor)![stars](https://img.shields.io/github/stars/Catrya/Nostr-Events-Monitor.svg?style=social) - Web tool to monitor and filter Nostr events, both live and historical, filter by relay, event kind, author, and other tags. Live at [catrya.github.io/Nostr-Events-Monitor](https://catrya.github.io/Nostr-Events-Monitor).
 - [nostr registry](https://codeberg.org/rsbondi/nostr-registry) - a database of known relays with their uptime and NIP support tables
 - [nostr_simple_publish](https://www.drupal.org/project/nostr_simple_publish/) - Drupal module to publish content to Nostr.
 - [nostr-badges](https://github.com/neilck/nostr-badges)![stars](https://img.shields.io/github/stars/neilck/nostr-badges.svg?style=social) - Nostr badge microservice for managing self-awarded badges. Live at [app.akaprofiles.com](https://app.akaprofiles.com)
