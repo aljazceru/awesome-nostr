@@ -344,13 +344,12 @@ Websites with lists of relays and their performance/health:
   - [Landing page](https://nostorg.github.io/clients/)
 
 ## Libraries
-- [flutter_nostr](https://github.com/anasfik/flutter_nostr)![stars](https://img.shields.io/github/stars/anasfik/flutter_nostr.svg?style=social) - Build scalable/complex Nostr apps effortlessly with Flutter — even as a beginner!
-- [nostr_relay_management](https://github.com/anasfik/nostr_relay_management)![stars](https://img.shields.io/github/stars/anasfik/nostr_relay_management.svg?style=social) - Dart/Flutter support for NIP-86 (Relay Management API) with better developer experience.
 - [amberflutter](https://github.com/sebdeveloper6952/amberflutter)![stars](https://img.shields.io/github/stars/sebdeveloper6952/amberflutter.svg?style=social) - A Flutter wrapper for Amber (Offline Signer).
 - [arduino-nostr](https://github.com/lnbits/arduino-nostr)![stars](https://img.shields.io/github/stars/lnbits/arduino-nostr.svg?style=social) - An Arduino nostr library.
 - [dart NDK](https://github.com/relaystr/ndk) ![stars](https://img.shields.io/github/stars/relaystr/ndk.svg?style=social) - Nostr Development Kit for dart applications
 - [dart_nostr](https://github.com/anasfik/nostr)![stars](https://img.shields.io/github/stars/anasfik/nostr.svg?style=social) - A developer experience Dart library for Nostr
 - [dart-nostr](https://github.com/ethicnology/dart-nostr)![stars](https://img.shields.io/github/stars/ethicnology/dart-nostr.svg?style=social) - a Dart library for Flutter
+- [flutter_nostr](https://github.com/anasfik/flutter_nostr)![stars](https://img.shields.io/github/stars/anasfik/flutter_nostr.svg?style=social) - Build scalable/complex Nostr apps effortlessly with Flutter 
 - [go-nostr](https://github.com/fiatjaf/go-nostr)![stars](https://img.shields.io/github/stars/fiatjaf/go-nostr.svg?style=social) - a Go library that implements relay management, plus event encoding and signing utils
 - [mostro-core](https://github.com/MostroP2P/mostro-core) ![stars](https://img.shields.io/github/stars/MostroP2P/mostro-core.svg?style=social) - common types used by mostro and clients  (WIP)
 - [navigatr](https://github.com/coracle-social/navigatr)![stars](https://img.shields.io/github/stars/coracle-social/navigatr.svg?style=social) - A utility for discovering relays and scraping events
@@ -371,6 +370,8 @@ Websites with lists of relays and their performance/health:
 - [nostr-hooks](https://github.com/ostyjs/nostr-hooks)![stars](https://img.shields.io/github/stars/ostyjs/nostr-hooks.svg?style=social) - React hooks for developing Nostr clients. It's simple and intelligent.
 - [nostr-java](https://github.com/tcheeric/nostr-java)![stars](https://img.shields.io/github/stars/tcheeric/nostr-java.svg?style=social) - A nostr client library, written in java, for generating, signing and publishing events.
 - [nostr-js](https://github.com/jb55/nostr-js)![stars](https://img.shields.io/github/stars/jb55/nostr-js.svg?style=social) - a javascript implementation of the nostr protocol
+- [nostr_relay_management](https://github.com/anasfik/nostr_relay_management)![stars](https://img.shields.io/github/stars/anasfik/nostr_relay_management.svg?style=social) - Dart/Flutter support for NIP-86 (Relay Management) with better developer experience.
+
 - [nostr-one](https://github.com/dolu89/nostr-one)![stars](https://img.shields.io/github/stars/dolu89/nostr-one.svg?style=social) - A reusable web component that provides a simple way to integrate with nostr NIP 98 HTTP Auth.
 - [nostr-php](https://github.com/swentel/nostr-php)![stars](https://img.shields.io/github/stars/swentel/nostr-php.svg?style=social) - a PHP library for nostr
 - [nostr-react](https://github.com/t4t5/nostr-react)![stars](https://img.shields.io/github/stars/t4t5/nostr-react.svg?style=social) - React Hooks for Nostr
