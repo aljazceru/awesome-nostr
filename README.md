@@ -568,6 +568,7 @@ Websites with lists of relays and their performance/health:
 - [siamstr.com](https://siamstr.com) - A free NIP-05 ID registration service, lightning redirection.
 - [younostr.com](https://younostr.com) - A NIP-05 ID registration service (in portuguese).
 - [hunos.hu](https://hunos.hu) - Free NIP-05 identity for the Hungarian community.
+- [zap.club](https://zap.club) - NIP-05 ID service for @zap.club handles.
 - [zaps.lol](https://zaps.lol) ![stars](https://img.shields.io/github/stars/jigglycrumb/nostr-address-provider?style=social) - A free and open source NIP-05 ID registration service. [Run your own](https://github.com/jigglycrumb/nostr-address-provider).
 
 
