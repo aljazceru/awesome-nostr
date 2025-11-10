@@ -569,7 +569,13 @@ Websites with lists of relays and their performance/health:
 - [younostr.com](https://younostr.com) - A NIP-05 ID registration service (in portuguese).
 - [hunos.hu](https://hunos.hu) - Free NIP-05 identity for the Hungarian community.
 - [zap.club](https://zap.club) - NIP-05 ID service for @zap.club handles.
-- [zaps.lol](https://zaps.lol) ![stars](https://img.shields.io/github/stars/jigglycrumb/nostr-address-provider?style=social) - A free and open source NIP-05 ID registration service. [Run your own](https://github.com/jigglycrumb/nostr-address-provider).
+- [zaps.lol](https://zaps.lol)- A free and open source NIP-05 ID registration service. [Run your own](https://github.com/jigglycrumb/nostr-address-provider).
+
+## Databases
+- [eventstore](https://pkg.go.dev/fiatjaf.com/nostr/eventstore) - A collection of reusable database connectors, wrappers and schemas with simple Go interface
+- [nostrdb](https://github.com/damus-io/nostrdb)![stars](https://img.shields.io/github/stars/damus-io/nostrdb?style=social) - fast nostr database backed by lmdb
+- [nostrdb-rs](https://github.com/damus-io/nostrdb-rs)![stars](https://img.shields.io/github/stars/damus-io/nostrdb-rs?style=social) - fast nostr database backed by lmdb, in rust
+- [nostr-sqlite](https://github.com/vertex-lab/nostr-sqlite)![stars](https://img.shields.io/github/stars/vertex-lab/nostr-sqlite?style=social) - Go library providing a performant and highly customizable SQLite store for Nostr events.
 
 
 ## Offline signers
@@ -580,8 +586,7 @@ Websites with lists of relays and their performance/health:
 - [nostrum](https://github.com/nostr-connect/nostrum)![stars](https://img.shields.io/github/stars/nostr-connect/nostrum.svg?style=social) - Nostrum it's a mobile app that allows you to sign transactions and messages with your Nostr keys. Nostrum is the reference implementation for a remote signer app (ie. Wallet) of the Nostr Connect protocol.
 
 ## Vanity pubkey mining
-
-
+offlo
 - [glasnostr](https://github.com/eyelight/glasnostr)![stars](https://img.shields.io/github/stars/eyelight/glasnostr.svg?style=social) - CLI tool to mine a vanity prefix for your nostr npub
 - [go-pubmine](https://github.com/tenkoh/go-pubmine)![stars](https://img.shields.io/github/stars/tenkoh/go-pubmine.svg?style=social) - Multithreading nostr keypair generator which gives pretty (vanity) public keys. Both CLI and web apps are available.
 - [vanity-key](https://github.com/nostr-net/vanity-key/)![stars](https://img.shields.io/github/stars/nostr-net/vanity-key.svg?style=social) - use your face biometrics to generate a deterministic private key
@@ -695,10 +700,8 @@ Endpoints (services or apps that expose a LN wallet via NWC)
 - [nws](https://github.com/asmogo/nws)![stars](https://img.shields.io/github/stars/asmogo/nws.svg?style=social) - route TCP over Nostr relays
 
 ## Blossom
-
 - [Blossom](https://github.com/hzrd149/blossom) - Blobs stored simply on mediaservers
 - [blossom servers](https://blossomservers.com/) - List of blossom servers
-- 
 
 ## Games on Nostr
 
