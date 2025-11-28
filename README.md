@@ -91,6 +91,7 @@ of the public instances.
 - [nostring](https://github.com/xbol0/nostring)![stars](https://img.shields.io/github/stars/xbol0/nostring.svg?style=social) - A Nostr relay written in Deno.
 - [NostrPostr Relay](https://github.com/Giszmo/NostrPostr/tree/master/NostrRelay) - a Kotlin Relay supporting both SQLite and Postgresql.
 - [Notra](https://github.com/lontivero/Nostra)![stars](https://img.shields.io/github/stars/lontivero/nostra.svg?style=social) - F# implementation backed by SQLite database.
+- [ORLY](https://next.orly.dev) - fast relay written in Go, forked from Relayer, using highly optimized message encoders, SIMD enabled hash and hex encoding, built in blossom server, a fully configurable policy based ACL, simple follows ACL for personal relays, and a collection of tools for testing and benchmarking nostr relays, and support for dgraph and neo4j graph databases, and a simple web UI for users to search, backup and delete their events.
 - [PyRelay](https://github.com/johnny423/pyrelay)![stars](https://img.shields.io/github/stars/johnny423/pyrelay.svg?style=social) - a python implementation of a Nostr relay, using asyncio.
 - [QNostr](https://github.com/Aseman-Land/QNostr)![stars](https://img.shields.io/github/stars/Aseman-Land/QNostr.svg?style=social) - A Nostr protocol implementation for clients as a Qt Module in C++
 - [Relayer Basic](https://github.com/fiatjaf/relayer/tree/master/examples/basic) - a simple relay based on _relayer_ backed by Postgres
@@ -352,6 +353,7 @@ Websites with lists of relays and their performance/health:
 - [dart-nostr](https://github.com/ethicnology/dart-nostr)![stars](https://img.shields.io/github/stars/ethicnology/dart-nostr.svg?style=social) - a Dart library for Flutter
 - [flutter_nostr](https://github.com/anasfik/flutter_nostr)![stars](https://img.shields.io/github/stars/anasfik/flutter_nostr.svg?style=social) - Build scalable/complex Nostr apps effortlessly with Flutter 
 - [go-nostr](https://github.com/fiatjaf/go-nostr)![stars](https://img.shields.io/github/stars/fiatjaf/go-nostr.svg?style=social) - a Go library that implements relay management, plus event encoding and signing utils
+- [mleku/nostr](https://git.mleku.dev/mleku/nostr) - a Go library forked from go-nostr with hand-written json codecs for events and filters, support for bitcoin/libsecp256k1 and a fast pure Go signature library refactored from btcec rewritten with 64 bit limbs as automatic fallback, sha256 and hex encoding using AVX SIMD extensions where available.
 - [mostro-core](https://github.com/MostroP2P/mostro-core) ![stars](https://img.shields.io/github/stars/MostroP2P/mostro-core.svg?style=social) - common types used by mostro and clients  (WIP)
 - [navigatr](https://github.com/coracle-social/navigatr)![stars](https://img.shields.io/github/stars/coracle-social/navigatr.svg?style=social) - A utility for discovering relays and scraping events
 - [NIP-44](https://github.com/paulmillr/nip44)![stars](https://img.shields.io/github/stars/paulmillr/nip44.svg?style=social) - NIP44 spec and implementations of encrypted messages for nostr
@@ -759,7 +761,7 @@ Outside of nostr itself, you find the community on:
 - [La Cosa Nostr](https://tunein.com/podcasts/Technology-Podcasts/La-Cosa-Nostr---The-Decentralized-Network-p3709902/?topicId=338397586) - A podcast about the nostr decentralized communications protocol.
 - [No Strings](https://www.fountain.fm/show/jCajOVJfkIXAkAyqvmW6) - freedom tech podcast
 - [Plebchain Radio](https://fountain.fm/show/0N6GGdZuYNNG7ysagCg9) - weekly live audio show made for plebs, by plebs which focuses on the intersection of Nostr protocol and Bitcoin plebs.
- 
+
 ## Other links
 
 - [awesome-nostr-japan](https://github.com/nostr-jp/awesome-nostr-japan)![stars](https://img.shields.io/github/stars/nostr-jp/awesome-nostr-japan.svg?style=social) - awesome nostr japan
