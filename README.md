@@ -667,7 +667,6 @@ Endpoints (services or apps that expose a LN wallet via NWC)
 - [Alby](https://getalby.com)![stars](https://img.shields.io/github/stars/getAlby/lightning-browser-extension.svg?style=social) - Bitcoin Lightning app with nostr support
 - [Bipa](https://bipa.app/) - User-friendly Bitcoin wallet for buying and selling bitcoin with lightning and pix support
 - [Blink](https://www.blink.sv/) - Blink (ex Bitcoin Beach Wallet)
-- [Bold Wallet](https://github.com/BoldBitcoinWallet/BoldWallet)![stars](https://img.shields.io/github/stars/BoldBitcoinWallet/BoldWallet.svg?style=social) - A self-custody Bitcoin wallet using MPC TSS (2-of-2) with Nostr-native decentralized device pairing. Seedless, privacy-first design with resilient multi-device support. 🟠 Cross-platform (mobile & desktop), open-source.
 - [btcpayserver](https://btcpayserver.org/) - btcpayserver has NIP-57 support for LN addresses since 1.9 version
 - [Current](https://app.getcurrent.io/) - nostr client + lightning wallet
 - [LifPay](https://lifpay.me) - Bitcoin Lightning app with personalized features
@@ -677,6 +676,10 @@ Endpoints (services or apps that expose a LN wallet via NWC)
 - [zap_server](https://github.com/UTXOnly/zap_server)![stars](https://img.shields.io/github/stars/UTXOnly/zap_server.svg?style=social) - An LNURL server to recieve zaps to tor hosted node and generate kind 9735 zap receipt events
 - [Zebedee app](https://zebedee.io/app) - Zebedee's wallet/lightning app
 - [ZeusLN](https://github.com/ZeusLN/zeus)![stars](https://img.shields.io/github/stars/ZeusLN/zeus.svg?style=social) - A mobile Bitcoin/Lightning app for LND, Core Lightning, and Eclair node operators
+
+## Nostr-integrated Bitcoin wallets
+
+- [Bold Bitcoin Wallet](https://github.com/BoldBitcoinWallet/BoldWallet)![stars](https://img.shields.io/github/stars/BoldBitcoinWallet/BoldWallet.svg?style=social) - A self-custody Bitcoin wallet implementing MPC TSS over Nostr for decentralized device pairing and transaction signing. Connect devices from anywhere via Nostr relays with NIP-44 encryption - perfect for remote or distributed setups. Supports 2/2 (Basic) and 2/3 (Flexi Mode) configurations. Seedless, hardware-independent, threshold signatures grade security. Flexible transport modes: Local WiFi/Hotspot or Nostr. 🟠 Cross-platform (android, iOS, mac), open-source.
 
 ## NIP-90 Data vending machines
 - [data vending machine example](https://github.com/pablof7z/nostr-data-vending-machine)![stars](https://img.shields.io/github/stars/pablof7z/nostr-data-vending-machine.svg?style=social) -  Nostr data vending machine example  by Pablof7z
