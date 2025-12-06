@@ -667,7 +667,7 @@ Endpoints (services or apps that expose a LN wallet via NWC)
 - [Alby](https://getalby.com)![stars](https://img.shields.io/github/stars/getAlby/lightning-browser-extension.svg?style=social) - Bitcoin Lightning app with nostr support
 - [Bipa](https://bipa.app/) - User-friendly Bitcoin wallet for buying and selling bitcoin with lightning and pix support
 - [Blink](https://www.blink.sv/) - Blink (ex Bitcoin Beach Wallet)
-- [Bold Wallet](https://github.com/your-org/bold-wallet)![stars](https://img.shields.io/github/stars/your-org/bold-wallet.svg?style=social) - A self-custody Bitcoin wallet with Nostr-native device-pairing, privacy-first design, and resilient multi-device support. 🟠 Cross-platform (mobile & desktop), open-source, uses NIP-07 + relay-based sync.
+- [Bold Wallet](https://github.com/BoldBitcoinWallet/BoldWallet)![stars](https://img.shields.io/github/stars/BoldBitcoinWallet/BoldWallet.svg?style=social) - A self-custody Bitcoin wallet using MPC TSS (2-of-2) with Nostr-native decentralized device pairing. Seedless, privacy-first design with resilient multi-device support. 🟠 Cross-platform (mobile & desktop), open-source.
 - [btcpayserver](https://btcpayserver.org/) - btcpayserver has NIP-57 support for LN addresses since 1.9 version
 - [Current](https://app.getcurrent.io/) - nostr client + lightning wallet
 - [LifPay](https://lifpay.me) - Bitcoin Lightning app with personalized features
