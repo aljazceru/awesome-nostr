@@ -677,6 +677,10 @@ Endpoints (services or apps that expose a LN wallet via NWC)
 - [Zebedee app](https://zebedee.io/app) - Zebedee's wallet/lightning app
 - [ZeusLN](https://github.com/ZeusLN/zeus)![stars](https://img.shields.io/github/stars/ZeusLN/zeus.svg?style=social) - A mobile Bitcoin/Lightning app for LND, Core Lightning, and Eclair node operators
 
+## Nostr-integrated Bitcoin wallets
+
+- [Bold Bitcoin Wallet](https://github.com/BoldBitcoinWallet/BoldWallet)![stars](https://img.shields.io/github/stars/BoldBitcoinWallet/BoldWallet.svg?style=social) - A self-custody Bitcoin wallet implementing MPC TSS over Nostr for decentralized device pairing and transaction signing. Connect devices from anywhere via Nostr relays with NIP-44 encryption - perfect for remote or distributed setups. Supports 2/2 (Basic) and 2/3 (Flexi Mode) configurations. Seedless, hardware-independent, threshold signatures grade security. Flexible transport modes: Local WiFi/Hotspot or Nostr. 🟠 Cross-platform (android, iOS, mac), open-source.
+
 ## NIP-90 Data vending machines
 - [data vending machine example](https://github.com/pablof7z/nostr-data-vending-machine)![stars](https://img.shields.io/github/stars/pablof7z/nostr-data-vending-machine.svg?style=social) -  Nostr data vending machine example  by Pablof7z
 - [data-vending-machines.org](https://www.data-vending-machines.org/) - This website provides specs of the different NIP-90 Data Vending Machine kinds
