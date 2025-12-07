@@ -183,6 +183,8 @@ Websites with lists of relays and their performance/health:
 - [getwired.app](https://github.com/smolgrrr/Wired)![stars](https://img.shields.io/github/stars/smolgrrr/Wired.svg?style=social) Anonymous-first client with PoW notes
 - [gitplaza](https://codeberg.org/dluvian/gitplaza) - git stuff client for Desktop
 - [gitstr](https://github.com/fiatjaf/gitstr)![stars](https://img.shields.io/github/stars/fiatjaf/gitstr.svg?style=social) - Send and receive git patches over Nostr, using [NIP-34](https://github.com/nostr-protocol/nips/blob/master/34.md).
+- [gittr](https://github.com/arbadacarbaYK/gittr)![stars](https://img.shields.io/github/stars/arbadacarbaYK/gittr.svg?style=social) - Decentralized Git platform with native zaps, bounties, SSH keys, and decentralized storage. Uses [NIP-34](https://github.com/nostr-protocol/nips/blob/master/34.md) for repositories, PRs, and issues.
+  - [gittr.space](https://gittr.space) - live instance
 - [gnost-deflate-client](https://github.com/barkyq/gnost-deflate-client)![stars](https://img.shields.io/github/stars/barkyq/gnost-deflate-client?style=social) - CLI nostr client written in go implementing permessage-deflate websocket compression.
 - [gossip](https://github.com/mikedilger/gossip)![stars](https://img.shields.io/github/stars/mikedilger/gossip.svg?style=social) - A desktop client in rust presented with egui
 - [Groups](https://github.com/max21dev/groups)![stars](https://img.shields.io/github/stars/max21dev/groups.svg?style=social) - NIP-29 Group Chat Web Client.
@@ -408,6 +410,7 @@ Websites with lists of relays and their performance/health:
 ## Bridges and Gateways
 
 - [atomstr](https://git.sr.ht/~psic4t/atomstr) - RSS/Atom gateway to Nostr. Live at [https://atomstr.data.haus](https://atomstr.data.haus)
+- [gitnostr (gittr fork)](https://github.com/arbadacarbaYK/gitnostr)![stars](https://img.shields.io/github/stars/arbadacarbaYK/gitnostr.svg?style=social) - Git-Nostr bridge service for repository management, SSH keys, and permissions. Enhanced with HTTP API, watch-all mode, and deduplication for [gittr.space](https://gittr.space).
 - [matrix-nostr-bridge](https://github.com/8go/matrix-nostr-bridge)![stars](https://img.shields.io/github/stars/8go/matrix-nostr-bridge.svg?style=social) - a simple Matrix-to-Nostr or Nostr-to-Matrix bridge
 - [Mostr](https://gitlab.com/soapbox-pub/mostr)![stars](https://img.shields.io/gitlab/stars/soapbox-pub/mostr.svg?style=social) - a bridge between Nostr and the Fediverse (Mastodon, ActivityPub, etc.)
 - [Nostr over LoRa](https://github.com/geoffwhittington/meshtastic-bridge) ![stars](https://img.shields.io/github/stars/geoffwhittington/meshtastic-bridge.svg?style=social) - a gateway that can relay off-grid [Meshtastic](https://meshtastic.org) messages to NoStr.
@@ -437,6 +440,7 @@ Websites with lists of relays and their performance/health:
 - [Embed widget](https://embed.nostr.band) - Embed Nostr notes or profiles into any website with just a line of code.
 - [git-nostr-tools](http://git.jb55.com/git-nostr-tools) - A cli tool for sending code patches over nostr
 - [git-nostr](https://github.com/colealbon/git-nostr)![stars](https://img.shields.io/github/stars/colealbon/git-nostr.svg?style=social) - A tool to enhance git cli with nostr communications. Publish patch content, prs, repo name, issues, etc to nostr relay.
+- [gittr-helper-tools](https://github.com/arbadacarbaYK/gittr-helper-tools)![stars](https://img.shields.io/github/stars/arbadacarbaYK/gittr-helper-tools.svg?style=social) - Production code snippets from gittr.space: file fetching, URL normalization, GRASP detection, NIP-46 signer, NIP-25 stars, NIP-51 following, markdown media handling, and NIP-C0 code snippets.
 - [granary](https://github.com/snarfed/granary)![stars](https://img.shields.io/github/stars/snarfed/granary.svg?style=social) - Convert nostr content into atom, html, rss, json, indieweb feed, mastodon, microformats2, activitystreams, activitypub/fediverse, jsonfeed, and bluesky's atproto all with web and rest-api. 
   - [granary.io](https://granary.io/) - live instance 
 - [heyxynip5](https://github.com/bennyhodl/hexynip5)![stars](https://img.shields.io/github/stars/bennyhodl/hexynip5?style=social) - A CLI helper for converting nostr npub/nsec to their hex format for NIP-05 verification.
