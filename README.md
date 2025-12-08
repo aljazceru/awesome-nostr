@@ -158,6 +158,7 @@ Websites with lists of relays and their performance/health:
 - [Beagle](https://0xli.github.io/beagle.chat/)![stars](https://img.shields.io/github/stars/0xli/beagle.chat.svg?style=social) - Decentralized real-time Text/Audio/Video chat client for iOS, using nostr relays for users to share information and moments by posts of text, image and video.
 - [BlazeJump](https://github.com/objectwizard/BlazeJump)![stars](https://img.shields.io/github/stars/objectwizard/BlazeJump.svg?style=social) - A fast web client boilerplate written in C# / Blazor, that uses an in-browser SQLite database.
 - [Bookstr](https://bookstr.xyz/)- Discover, track, and share your reading journey on the decentralized Nostr network. No corporations. No ads. No data tracking. Just books.
+- [Bold Bitcoin Wallet](https://github.com/BoldBitcoinWallet/BoldWallet)![stars](https://img.shields.io/github/stars/BoldBitcoinWallet/BoldWallet.svg?style=social) - A Bitcoin wallet implementing MPC TSS over Nostr for decentralized device pairing and transaction signing. Connect devices from anywhere via Nostr relays with NIP-44 encryption 
 - [Blobbi](https://blobbi.pet/) - Your Virtual Pet on the Nostr Network. Adopt and care for your own unique digital companion that lives forever on the decentralized web. 
 - [Blowater](https://blowater.deno.dev) - A desktop Web client focusing on chat with delightful UX
 - [+Chorus](https://github.com/andotherstuff/chorus/)![stars] - +chorus is a simple space for communities to gather, share, and support each other.
@@ -420,6 +421,7 @@ Websites with lists of relays and their performance/health:
 - [nostrss](https://github.com/Asone/nostrss)![stars](https://img.shields.io/github/stars/Asone/nostrss.svg?style=social) - A flexible and lightweight application to broadcast  RSS feeds on Nostr
 - [rssnotes](https://github.com/trinidz/rssnotes) ![stars](https://img.shields.io/github/stars/trinidz/rssnotes.svg?style=social) -  RSS/Atom to Nostr relay. Fork of [rsslay](https://github.com/piraces/rsslay).
 - [smtp nostr gateway ](https://github.com/Cameri/smtp-nostr-gateway)![stars](https://img.shields.io/github/stars/Cameri/smtp-nostr-gateway.svg?style=social) - a bridge that forwards emails to pubkeys as encrypted direct messages
+
 ## Cache services
 - [Primal](https://github.com/PrimalHQ/primal-caching-service) - Caching service for Nostr connects to the specified set of relays, collects all events in real time, stores them locally, and makes them available to nostr clients through a web socket-based API.
 
@@ -680,7 +682,7 @@ Endpoints (services or apps that expose a LN wallet via NWC)
 - [zap_server](https://github.com/UTXOnly/zap_server)![stars](https://img.shields.io/github/stars/UTXOnly/zap_server.svg?style=social) - An LNURL server to recieve zaps to tor hosted node and generate kind 9735 zap receipt events
 - [Zebedee app](https://zebedee.io/app) - Zebedee's wallet/lightning app
 - [ZeusLN](https://github.com/ZeusLN/zeus)![stars](https://img.shields.io/github/stars/ZeusLN/zeus.svg?style=social) - A mobile Bitcoin/Lightning app for LND, Core Lightning, and Eclair node operators
-
+  
 ## NIP-90 Data vending machines
 - [data vending machine example](https://github.com/pablof7z/nostr-data-vending-machine)![stars](https://img.shields.io/github/stars/pablof7z/nostr-data-vending-machine.svg?style=social) -  Nostr data vending machine example  by Pablof7z
 - [data-vending-machines.org](https://www.data-vending-machines.org/) - This website provides specs of the different NIP-90 Data Vending Machine kinds
