@@ -350,6 +350,7 @@ Websites with lists of relays and their performance/health:
 ## Libraries
 - [amberflutter](https://github.com/sebdeveloper6952/amberflutter)![stars](https://img.shields.io/github/stars/sebdeveloper6952/amberflutter.svg?style=social) - A Flutter wrapper for Amber (Offline Signer).
 - [arduino-nostr](https://github.com/lnbits/arduino-nostr)![stars](https://img.shields.io/github/stars/lnbits/arduino-nostr.svg?style=social) - An Arduino nostr library.
+- [better-auth-nostr](https://github.com/leon-wbr/better-auth-nostr)![stars](https://img.shields.io/github/stars/leon-wbr/better-auth-nostr.svg?style=social) – A plugin for Better Auth to add Nostr sign-in.
 - [dart NDK](https://github.com/relaystr/ndk) ![stars](https://img.shields.io/github/stars/relaystr/ndk.svg?style=social) - Nostr Development Kit for dart applications
 - [dart_nostr](https://github.com/anasfik/nostr)![stars](https://img.shields.io/github/stars/anasfik/nostr.svg?style=social) - A developer experience Dart library for Nostr
 - [dart-nostr](https://github.com/ethicnology/dart-nostr)![stars](https://img.shields.io/github/stars/ethicnology/dart-nostr.svg?style=social) - a Dart library for Flutter
