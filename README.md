@@ -558,6 +558,7 @@ Websites with lists of relays and their performance/health:
 
 ## NIP-05 identity services
 
+- [Anchorman.lol](https://anchorman.lol/) – A free & premium NIP-05 service with managed avatar, relay & blossom hosting.
 - [bitcoiner.chat](https://bitcoiner.chat) - A free NIP-05 ID registration service.
 - [easyNostr-NIP05](https://wordpress.org/plugins/easynostr-nip05/) - WordPress plugin to enable your site as a NIP-05 endpoint for every registered user on your system using your domain.
 - [easyNostr](https://easyNostr.com) - NIP-05 ID provider: Use your own domain, or one of ours: nostr.ly, mynostr.io, easyNostr.com.
