@@ -438,6 +438,7 @@ Websites with lists of relays and their performance/health:
 - [Bloom]( https://github.com/Letdown2491/bloom)![stars](https://img.shields.io/github/stars/letdown2491/bloom.svg?style=social) - A file‑manager interface (edit metadata, share items, create shareable folders) for files and blobs stored on Blossom and NIP‑96 servers.
   - [bloomapp.me](https://bloomapp.me/) - live instance
 - [Bookmarkstr](https://bookmarkstr.store/) - A browser extension for reading and managing nostr bookmarks
+- [BlazeJump.NostrConnect](https://github.com/drmikesamy/BlazeJump.NostrConnect)![stars](https://img.shields.io/github/stars/drmikesamy/BlazeJump.NostrConnect.svg?style=social) - an Android based remote NostrConnect signer and web project using QR codes and Nip44 encryption by default
 - [cafe-society.news](https://github.com/colealbon/cafe-society)![stars](https://img.shields.io/github/stars/colealbon/cafe-society.svg?style=social) - Self-sovereign machine learning training tool for nostr global feed.  Trained models can be monetized/distributed over nostr private messages.  Your pre-paid model subscribers register via lightning payments.
 - [Chief](https://github.com/0xtrr/chief) - A Strfry write policy plugin that provides blacklists for public keys, event kinds and words/sentences.
 - [Cloud Seeder](https://github.com/ipv6rslimited/cloudseeder)![stars](https://img.shields.io/github/stars/ipv6rslimited/cloudseeder.svg?style=social) - A 1-click deployment and management tool for nostr-rs-relay and other appliances.
