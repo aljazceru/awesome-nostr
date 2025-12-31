@@ -139,6 +139,7 @@ Websites with lists of relays and their performance/health:
 - [0xchat](https://github.com/0xchat-app)![stars](https://img.shields.io/github/stars/0xchat-app/0xchat-core.svg?style=social) - a telegram/wechat-like nostr client for iOS and Android
   - [0xchat on iOS](https://apps.apple.com/app/0xchat/id1637607169)
   - [0xchat on Android](https://play.google.com/store/apps/details?id=com.oxchat.nostr)
+- [BlazeJump.NostrConnect](https://github.com/drmikesamy/BlazeJump.NostrConnect)![stars](https://img.shields.io/github/stars/drmikesamy/BlazeJump.NostrConnect.svg?style=social) - an Android based remote NostrConnect signer and web project using QR codes and Nip44 encryption by default
 - [Daisy](https://github.com/neb-b/daisy) - Mobile client for Android and iOS
   - [testflight + android builds](https://neb.lol/nostr)
 - [damus](https://github.com/damus-io/damus)![stars](https://img.shields.io/github/stars/damus-io/damus.svg?style=social) - a twitter-like nostr client for iOS and MacOS
