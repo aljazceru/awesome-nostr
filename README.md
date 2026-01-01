@@ -242,8 +242,6 @@ Websites with lists of relays and their performance/health:
   - [franzos.github.io/nostr-ts](https://franzos.github.io/nostr-ts/) - preview from `master` branch
 - [nostr-chat-widget-react](https://www.npmjs.com/package/nostr-chat-widget-react?activeTab=readme) - A React component that provides a live-chat widget over nostr that can be embedded into any website.
 - [nostr-relay-tray](https://github.com/CodyTseng/nostr-relay-tray)![stars](https://img.shields.io/github/stars/CodyTseng/nostr-relay-tray.svg?style=social) - a simple nostr relay tray app written in Electron
-- [nostr.cooking](https://github.com/github-tijlxyz/nostr.cooking)![stars](https://img.shields.io/github/stars/github-tijlxyz/nostr.cooking.svg?style=social) - A recipe-sharing client for nostr
-  - [zap.cooking](https://zap.cooking/)
 - [nostr.kiwi](https://nostr.kiwi/) - nostr.kiwi is a progressive web app to share notes and curate content in communities.
 - [nostr.time](https://github.com/coracle-social/nostrtime)![stars](https://img.shields.io/github/stars/coracle-social/nostrtime.svg?style=social) - A calendar app built on nostr
 - [NostrChat.io](https://nostrchat.io/) - NostrChat is a chat app where you can have group chats, DM, threads, and emojis.
@@ -320,6 +318,7 @@ Websites with lists of relays and their performance/health:
   - [YakiHonne mobile app](https://yakihonne.com/yakihonne-mobile-app) – iOS and Android app
 - [Yana](https://github.com/frnandu/yana)![stars](https://img.shields.io/github/stars/frnandu/yana.svg?style=social) - Yana is a nostr client focused on performance in slower devices and modularity of features.
   - [yana.do](https://yana.do)
+- [Zap Cooking](https://zap.cooking/)![stars](https://img.shields.io/github/stars/zapcooking/frontend.svg?style=social) - Nostr's only recipe-sharing client. A place where food culture can live openly and grow naturally.
 - [zapddit](https://zapddit.com) ![stars](https://img.shields.io/github/stars/vivganes/zapddit.svg?style=social) - Reddit-style client for nostr where you can follow topics (similar to subreddits), mute certain topics (like #bitcoin), upzap and downzap notes using your hard-earned sats.
 - [Zaplytics](https://github.com/derekross/zaplytics)![stars](https://img.shields.io/github/stars/derekross/zaplytics.svg?style=social) - Analytics for your Nostr Zaps, helping creators dive into their Zap earnings. [Zaplytics.app](https://zaplytics.app/)
 - [Zappix](https://github.com/derekross/zappix)![stars](https://img.shields.io/github/stars/derekross/zappix.svg?style=social) - A nostr image sharing application for browsing, sharing, and zapping visual content. [Zappix.app](https://zappix.app/)
