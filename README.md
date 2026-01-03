@@ -228,9 +228,10 @@ Websites with lists of relays and their performance/health:
 - [Noflux](https://github.com/fiatjaf/noflux)![stars](https://img.shields.io/github/stars/fiatjaf/noflux.svg?style=social) - minimalist and opinionated feed reader
 - [Nootti](https://nootti.com) - Cross-posting iOS & iPad client app for Bluesky, Mastodon and Nostr
 - [Nos](https://github.com/planetary-social/nos) ![stars](https://img.shields.io/github/stars/planetary-social/nos.svg?style=social) - A UX-focused iOS / MacOS native app focused on a polished new user experience. [planetary.social](https://planetary.social)
-  - [nos.social](https://nos.social)
+- [nos.social](https://nos.social)
 - [nosbin](https://nosbin.com/)![stars](https://img.shields.io/github/stars/jacany/nosbin.svg?style=social) - pastebin over nostr
 - [noscl](https://github.com/fiatjaf/noscl)![stars](https://img.shields.io/github/stars/fiatjaf/noscl.svg?style=social) - a basic command-line client written in Go
+- [nospeak](https://github.com/psic4t/nospeak)![stars](https://img.shields.io/github/stars/psic4t/nospeak.svg?style=social) - A NIP-17 compliant chat client for secure, private messaging over Nostr
 - [Nosky](https://github.com/KotlinGeekDev/Nosky)![stars](https://img.shields.io/github/stars/KotlinGeekDev/Nosky.svg?style=social) - A native Android client for Nostr. Still in development
 - [nostr console](https://github.com/vishalxl/nostr_console)![stars](https://img.shields.io/github/stars/vishalxl/nostr_console.svg?style=social) - a nostr command line client written in Dart. Binaries available for Windows, Linux, and macOS
 - [Nostr Read Only Client](https://github.com/delirehberi/nostr-ro-client/)![stars](https://img.shields.io/github/stars/delirehberi/nostr-ro-client.svg?style=social) - simple cloudflare worker to serve a single user's nostr content (kind:1) as web page preview: nostr.emre.xyz
@@ -412,7 +413,7 @@ Websites with lists of relays and their performance/health:
 
 ## Bridges and Gateways
 
-- [atomstr](https://git.sr.ht/~psic4t/atomstr) - RSS/Atom gateway to Nostr. Live at [https://atomstr.data.haus](https://atomstr.data.haus)
+- [atomstr](https://github.com/psic4t/atomstr)![stars](https://img.shields.io/github/stars/psic4t/atomstr.svg?style=social) - RSS/Atom gateway to Nostr. Live at [https://atomstr.data.haus](https://atomstr.data.haus)
 - [gitnostr (gittr fork)](https://github.com/arbadacarbaYK/gitnostr)![stars](https://img.shields.io/github/stars/arbadacarbaYK/gitnostr.svg?style=social) - Git-Nostr bridge service for repository management, SSH keys, and permissions. Enhanced with HTTP API, watch-all mode, and deduplication for [gittr.space](https://gittr.space).
 - [matrix-nostr-bridge](https://github.com/8go/matrix-nostr-bridge)![stars](https://img.shields.io/github/stars/8go/matrix-nostr-bridge.svg?style=social) - a simple Matrix-to-Nostr or Nostr-to-Matrix bridge
 - [Mostr](https://gitlab.com/soapbox-pub/mostr)![stars](https://img.shields.io/gitlab/stars/soapbox-pub/mostr.svg?style=social) - a bridge between Nostr and the Fediverse (Mastodon, ActivityPub, etc.)
