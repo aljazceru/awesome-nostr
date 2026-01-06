@@ -444,6 +444,8 @@ Websites with lists of relays and their performance/health:
 - [contact cloud](https://github.com/canostrical/contact_cloud)![stars](https://img.shields.io/github/stars/canostrical/contact_cloud.svg?style=social) - Discover the Nostr contact list graph and your own pubkey in it.
 - [Contact list backup](https://nostr.xport.top/contact-list-backup/) - Backup and restore your contacts
 - [Embed widget](https://embed.nostr.band) - Embed Nostr notes or profiles into any website with just a line of code.
+- [Ghostr](https://github.com/dmnyc/ghostr)![stars](https://img.shields.io/github/stars/dmnyc/ghostr.svg?style=social) - Dead simple post delegation workflow for Nostr. Writers draft, publishers sign. No scary key sharing required.
+  - [ghostr.org](https://ghostr.org/) - live instance
 - [git-nostr-tools](http://git.jb55.com/git-nostr-tools) - A cli tool for sending code patches over nostr
 - [git-nostr](https://github.com/colealbon/git-nostr)![stars](https://img.shields.io/github/stars/colealbon/git-nostr.svg?style=social) - A tool to enhance git cli with nostr communications. Publish patch content, prs, repo name, issues, etc to nostr relay.
 - [gittr-helper-tools](https://github.com/arbadacarbaYK/gittr-helper-tools)![stars](https://img.shields.io/github/stars/arbadacarbaYK/gittr-helper-tools.svg?style=social) - Production code snippets from gittr.space: file fetching, URL normalization, GRASP detection, NIP-46 signer, NIP-25 stars, NIP-51 following, markdown media handling, and NIP-C0 code snippets.
