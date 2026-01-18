@@ -606,7 +606,7 @@ Websites with lists of relays and their performance/health:
 - [keechain](https://github.com/yukibtc/keechain)![stars](https://img.shields.io/github/stars/yukibtc/keechain.svg?style=social) - Bitcoin application to transform your offline computer in an AirGap Signing Device (aka Hardware Wallet) with support to `NIP-06` and `NIP-26`.
 - [nostr-signing-device](https://github.com/lnbits/nostr-signing-device) - Signing device for Nostr built on ESP32
 - [nostrum](https://github.com/nostr-connect/nostrum)![stars](https://img.shields.io/github/stars/nostr-connect/nostrum.svg?style=social) - Nostrum it's a mobile app that allows you to sign transactions and messages with your Nostr keys. Nostrum is the reference implementation for a remote signer app (ie. Wallet) of the Nostr Connect protocol.
-- [signet](https://github.com/Letdown2491/signet) - NIP-46 remote signer originally forked from nsecbunkerd which runs as a backend daemon with a web UI and Android app as frontends. Allows users to sign events with custom trust level policy, DM kill switch commands, built-in dead man's switch, bunker and nostrconnect support and more. 
+- [signet](https://github.com/Letdown2491/signet) - NIP-46 remote signer with a web UI and Android app. Allows users to sign events with custom trust level policy, DM kill switch commands, built-in dead man's switch, bunker and nostrconnect support. 
 
 ## Vanity pubkey mining
 offlo
