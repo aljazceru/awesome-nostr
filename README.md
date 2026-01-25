@@ -465,7 +465,7 @@ Websites with lists of relays and their performance/health:
   - [liquiditystr.space](https://liquiditystr.space/) - live instance 
 - [lnpass](https://lnpass.github.io)![stars](https://img.shields.io/github/stars/lnpass/lnpass-web.svg?style=social) - A key manager for Lightning and nostr.
 - [metadata_updater](https://github.com/UTXOnly/metadata_updater)![stars](https://img.shields.io/github/stars/UTXOnly/metadata_updater.svg?style=social) - Scans all known online nostr relays for stale kind 0 metadata notes, rebroadcasts latest verified note
-- [Mutable 😶](https://mutable.top) - A tool for managing, backing up, restoring, and sharing Nostr mute lists.
+- [Mutable](https://mutable.top) - A tool for managing, backing up, restoring, and sharing Nostr mute lists.
 - [Mute-o-Scope 🔬](https://www.mutable.top/mute-o-scope) - A standalone feature of Mutable that lets users search any npub to see who is publicly muting them.
 - [NAKE](https://tsukemonogit.github.io/nake-website/)![stars](https://img.shields.io/github/stars/tsukemonogit/nake.svg?style=social) - a browser extension to easily convert between Nostr hex IDs and NIP-19 entities.
 - [nashboard](https://github.com/vinliao/nashboard)![stars](https://img.shields.io/github/stars/vinliao/nashboard.svg?style=social) - a Nostr network dashboard with network statistics, reachable [here](https://nashboard.space/)
@@ -537,12 +537,12 @@ Websites with lists of relays and their performance/health:
 - [NostrSwap](https://www.nostrswap.com/) - NostrSwap is a fully decentralized exchange built on Nostr Protocol.
 - [NostrTool](https://nostrtool.com/) - a tool to play with keys.
 - [nostrview](https://nostrview.com) - A nostr search engine. Search by content, tags, events or pub keys.
-- [Note Nuke ☢️](https://www.mutable.top/note-nuke) - A standalone feature of Mutable that lets users delete an event with maximum relay coverage.
+- [Note Nuke](https://www.mutable.top/note-nuke) - A standalone feature of Mutable that lets users delete an event with maximum relay coverage.
 - [novia](https://github.com/teamnovia/novia)![stars](https://img.shields.io/github/stars/teamnovia/novia.svg?style=social) - Nostr video archive 
 - [nsecbunkerd](https://github.com/kind-0/nsecbunkerd) - Keep your nostr keys in a single place and provide fine-grained access to your team members.
 - [Obsidian Nostr Writer](https://github.com/jamesmagoo/nostr-writer#readme) - A free Obsidian plugin that allows writers to seamlessly publish to Nostr
 - [osint-user-discovery](https://github.com/Inforensics/osint-user-discovery)![stars](https://img.shields.io/github/stars/Inforensics/osint-user-discovery.svg?style=social) - OSINT Discovery is a set of Python scripts designed to search for users or URLs across different social media platforms(nostr, mastodon) and caching services.
-- [Plebs vs. Zombies 🔪🧟‍♂️](https://www.plebsvszombies.cc) - Kill the zombies taking over your Nostr follow list! They're dead, but refuse to die.
+- [Plebs vs. Zombies](https://www.plebsvszombies.cc) - Kill the zombies taking over your Nostr follow list! They're dead, but refuse to die.
 - [powrelay.xyz](https://powrelay.xyz) - A proof of work-based nostr explorer.
 - [publsp](https://github.com/smallworlnd/publsp)![stars](https://img.shields.io/github/stars/smallworlnd/publsp.svg?style=social) A CLI tool for any Lightning Network node or Lightning Service Provider (LSP) to advertise liquidity offers over Nostr.
 - [Replies](https://replies.nostrapps.org) - Nostr micro-app for viewing replies and reactions to events
