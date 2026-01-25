@@ -466,7 +466,7 @@ Websites with lists of relays and their performance/health:
 - [lnpass](https://lnpass.github.io)![stars](https://img.shields.io/github/stars/lnpass/lnpass-web.svg?style=social) - A key manager for Lightning and nostr.
 - [metadata_updater](https://github.com/UTXOnly/metadata_updater)![stars](https://img.shields.io/github/stars/UTXOnly/metadata_updater.svg?style=social) - Scans all known online nostr relays for stale kind 0 metadata notes, rebroadcasts latest verified note
 - [Mutable](https://mutable.top) - A tool for managing, backing up, restoring, and sharing Nostr mute lists.
-- [Mute-o-Scope 🔬](https://www.mutable.top/mute-o-scope) - A standalone feature of Mutable that lets users search any npub to see who is publicly muting them.
+- [Mute-o-Scope](https://www.mutable.top/mute-o-scope) - A standalone feature of Mutable that lets users search any npub to see who is publicly muting them.
 - [NAKE](https://tsukemonogit.github.io/nake-website/)![stars](https://img.shields.io/github/stars/tsukemonogit/nake.svg?style=social) - a browser extension to easily convert between Nostr hex IDs and NIP-19 entities.
 - [nashboard](https://github.com/vinliao/nashboard)![stars](https://img.shields.io/github/stars/vinliao/nashboard.svg?style=social) - a Nostr network dashboard with network statistics, reachable [here](https://nashboard.space/)
 - [ndxstr](https://github.com/ArcadeCity/ndxstr)![stars](https://img.shields.io/github/stars/ArcadeCity/ndxstr.svg?style=social) - nostr's layer 2 indexing nodes, with more advanced querying capability than currently supported by relays
@@ -546,7 +546,7 @@ Websites with lists of relays and their performance/health:
 - [powrelay.xyz](https://powrelay.xyz) - A proof of work-based nostr explorer.
 - [publsp](https://github.com/smallworlnd/publsp)![stars](https://img.shields.io/github/stars/smallworlnd/publsp.svg?style=social) A CLI tool for any Lightning Network node or Lightning Service Provider (LSP) to advertise liquidity offers over Nostr.
 - [Replies](https://replies.nostrapps.org) - Nostr micro-app for viewing replies and reactions to events
-- [The Resurrector! 🧟‍♂️⚡️](https://www.plebsvszombies.cc/resurrector) - A standalone feature of Plebs vs. Zombies that lets users undelete their nostr profiles if they were previously deleted.
+- [The Resurrector](https://www.plebsvszombies.cc/resurrector) - A standalone feature of Plebs vs. Zombies that lets users undelete their nostr profiles if they were previously deleted.
 - [rss.nostr.band](https://rss.nostr.band) - Create custom RSS feeds with posts matching your keywords and consume using your favorite RSS reader.
 - [safebox](https://github.com/trbouma/safebox)![stars](https://img.shields.io/github/stars/trbouma/safebox?style=social) -  private portable safebox on nostr
 - [sb.nostr.band](https://sb.nostr.band) - Search bots that you can create and follow to receive new posts matching a keyword right into your feed.
