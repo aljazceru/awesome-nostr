@@ -542,9 +542,10 @@ Websites with lists of relays and their performance/health:
 - [nsecbunkerd](https://github.com/kind-0/nsecbunkerd) - Keep your nostr keys in a single place and provide fine-grained access to your team members.
 - [Obsidian Nostr Writer](https://github.com/jamesmagoo/nostr-writer#readme) - A free Obsidian plugin that allows writers to seamlessly publish to Nostr
 - [osint-user-discovery](https://github.com/Inforensics/osint-user-discovery)![stars](https://img.shields.io/github/stars/Inforensics/osint-user-discovery.svg?style=social) - OSINT Discovery is a set of Python scripts designed to search for users or URLs across different social media platforms(nostr, mastodon) and caching services.
-- [Plebs vs. Zombies](https://www.plebsvszombies.cc) - Kill the zombies taking over your Nostr follow list! They're dead, but refuse to die.
+- [Plebs vs. Zombies](https://www.plebsvszombies.cc) - Kill the zombies taking over your Nostr follow list! They're dead, but refuse to die. Try Scout Mode without signing in to see how many zombies any Nostr user is following.
 - [powrelay.xyz](https://powrelay.xyz) - A proof of work-based nostr explorer.
 - [publsp](https://github.com/smallworlnd/publsp)![stars](https://img.shields.io/github/stars/smallworlnd/publsp.svg?style=social) A CLI tool for any Lightning Network node or Lightning Service Provider (LSP) to advertise liquidity offers over Nostr.
+- [Purgatory](https://www.mutable.top/purgatory) - A standalone feature of Mutable that finds follows who create hellthreads or use spam apps, and lets you mass mute them.
 - [Replies](https://replies.nostrapps.org) - Nostr micro-app for viewing replies and reactions to events
 - [The Resurrector](https://www.plebsvszombies.cc/resurrector) - A standalone feature of Plebs vs. Zombies that lets users undelete their nostr profiles if they were previously deleted.
 - [rss.nostr.band](https://rss.nostr.band) - Create custom RSS feeds with posts matching your keywords and consume using your favorite RSS reader.
