@@ -71,7 +71,7 @@ of the public instances.
   - [Minds Engine - Nostr](https://gitlab.com/minds/engine/-/tree/master/Core/Nostr) - relevant Minds API code for reading/writing Minds posts using Nostr
 - [monstr](https://github.com/monty888/monstr)- python code for working with nostr
 - [multiplextr](https://github.com/coracle-social/multiplextr) ![stars](https://img.shields.io/github/stars/coracle-social/multiplextr.svg?style=social) - A custom relay designed to save bandwidth for clients with multiplexer support.
-- [n0str](https://github.com/tani/n0str) -  is a modern Nostr relay designed for maximum simplicity without sacrificing power. It's a single-binary solution that brings high-grade relay features to anyone, anywhere.
+- [n0str](https://github.com/tani/n0str) ![stars](https://img.shields.io/github/stars/tani/n0str.svg?style=social) -  is a modern Nostr relay designed for maximum simplicity without sacrificing power. It's a single-binary solution that brings high-grade relay features to anyone, anywhere.
 - [Nerostr](https://codeberg.org/pluja/nerostr) - A Nostr expensive relay paid with Monero and written in Go.
 - [netstr](https://github.com/bezysoftware/netstr)![stars](https://img.shields.io/github/stars/bezysoftware/netstr.svg?style=social) - A general purpose Nostr relay written in C# with high test coverage, backed by Postgres DB.
 - [Nex](https://github.com/lebrunel/nex) ![stars](https://img.shields.io/github/stars/lebrunel/nex.svg?style=social) - A powerful and scalable Nostr relay written in Elixir with Postgres DB.
