@@ -156,6 +156,7 @@ Websites with lists of relays and their performance/health:
 - [Amethyst](https://github.com/vitorpamplona/amethyst)![stars](https://img.shields.io/github/stars/vitorpamplona/amethyst.svg?style=social) - An Android client for nostr written in Kotlin
 - [Anonostr](https://github.com/Spl0itable/Anonostr)![stars](https://img.shields.io/github/stars/Spl0itable/anonostr.svg?style=social) - Anonostr allows users to send anonymous notes to the Nostr network without revealing their identity. For each note submission, the app generates a new key pair, sends the note through select relays, and then securely burns the key pair. It supports tagging, threading, quoting, and replying to existing notes. 
 - [Asknostr.site](https://asknostr.site) - A Quora/StackOverflow Q&A site using the nostr network and #asknostr content
+- [astraea](https://github.com/mouse484/astraea)![stars](https://img.shields.io/github/stars/mouse484/astraea.svg?style=social) - A nostr client
 - [Attached](https://github.com/dyegolara/nostr-attached)![stars](https://img.shields.io/github/stars/dyegolara/nostr-attached.svg?style=social) - Open-Source ReactNative Expo app for Nostr (iOS, Android). Currently under app store review
 - [badger](https://github.com/0ceanslim/badger)![stars](https://img.shields.io/github/stars/0ceanslim/badger.svg?style=social) - A NIP58 nostr badge client. Create Badges view Profile Badges and more. 
 - [Beagle](https://0xli.github.io/beagle.chat/)![stars](https://img.shields.io/github/stars/0xli/beagle.chat.svg?style=social) - Decentralized real-time Text/Audio/Video chat client for iOS, using nostr relays for users to share information and moments by posts of text, image and video.
@@ -686,6 +687,7 @@ Endpoints (services or apps that expose a LN wallet via NWC)
 - [Alby NWC (Umbrel)](https://apps.umbrel.com/app/alby-nostr-wallet-connect) - Umbrel app for exposing your self-custodial Umbrel LN Wallet over NWC
 - [Alby NWC (Web)](https://nwc.getalby.com/) - Web portal for exposing your custodial Alby account over NWC
 - [Flash](https://paywithflash.com/) - Bitcoin payments solution based on NWC
+- [lawalletio/lawallet-nwc](https://github.com/lawalletio/lawallet-nwc)![stars](https://img.shields.io/github/stars/lawalletio/lawallet-nwc.svg?style=social) - LaWallet v2 NWC
 - [Mutiny](https://www.mutinywallet.com) - Self-custodial LN wallet that runs in the browser
 - [Rizful](https://rizful.com) - Cloud lightning node with NWC support
 
