@@ -544,7 +544,7 @@ Websites with lists of relays and their performance/health:
 - [nsecbunkerd](https://github.com/kind-0/nsecbunkerd) - Keep your nostr keys in a single place and provide fine-grained access to your team members.
 - [Obsidian Nostr Writer](https://github.com/jamesmagoo/nostr-writer#readme) - A free Obsidian plugin that allows writers to seamlessly publish to Nostr
 - [osint-user-discovery](https://github.com/Inforensics/osint-user-discovery)![stars](https://img.shields.io/github/stars/Inforensics/osint-user-discovery.svg?style=social) - OSINT Discovery is a set of Python scripts designed to search for users or URLs across different social media platforms(nostr, mastodon) and caching services.
-- [Plebs vs. Zombies](https://www.plebsvszombies.cc) - Kill the zombies taking over your Nostr follow list! They're dead, but refuse to die. 
+- [Plebs vs. Zombies](https://www.plebsvszombies.cc) - Kill the zombies taking over your Nostr follow list! They're dead, but refuse to die. (A Nostr utility for managing dormant follows and cleaning up your follow list.)
 - [powrelay.xyz](https://powrelay.xyz) - A proof of work-based nostr explorer.
 - [publsp](https://github.com/smallworlnd/publsp)![stars](https://img.shields.io/github/stars/smallworlnd/publsp.svg?style=social) A CLI tool for any Lightning Network node or Lightning Service Provider (LSP) to advertise liquidity offers over Nostr.
 - [Purgatory](https://www.mutable.top/purgatory) - A standalone feature of Mutable that finds follows who create hellthreads or use spam apps, and lets you mass mute them.
@@ -558,6 +558,7 @@ Websites with lists of relays and their performance/health:
 - [Sendbox](https://sendbox.nostrmo.com/) - A tool to help clients delayed publish your nostr event.
 - [SnapNostr](https://github.com/djhemath/snap-nostr)![stars](https://img.shields.io/github/stars/djhemath/snap-nostr.svg?style=social) - Create clean, customizable screenshots of Nostr posts for seamless sharing.
   - [snapnostr.app](https://snapnostr.app/) - live instance
+- [Snoopable](https://www.mutable.top/snoopable) - A standalone feature of Mutable that analyzes public NIP-04 DM metadata (no decryption) to show top contacts, activity timing, and shareable summaries for any npub.
 - [Spamster](https://github.com/gourcetools/spamster)![stars](https://img.shields.io/github/stars/gourcetools/spamster.svg?style=social) - Spamster is for testing relays and spam filters.
 - [strfry policies](https://gitlab.com/soapbox-pub/strfry-policies)![stars](https://img.shields.io/gitlab/stars/soapbox-pub/strfry-policies.svg?style=social) - A collection of moderation & antispam policies for the strfry relay developed in TypeScript/Deno.
 - [TaskQ5](https://github.com/duozhutuan/Taskq5)![stars](https://img.shields.io/github/stars/duozhutuan/TaskQ5.svg?style=social) - TaskQ5 is a task distribution platform built on nostr where you can post tasks if you need help
