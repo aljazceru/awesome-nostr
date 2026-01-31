@@ -415,6 +415,7 @@ Websites with lists of relays and their performance/health:
 - [schorr_snap](https://github.com/neeboo/schnorr_snap)![stars](https://img.shields.io/github/stars/neeboo/schnorr_snap.svg?style=social) - A snap plugin for Metamask Flask, supports nostr
 - [Stacks](https://getstacks.dev/) - Stacks is a decentralized platform for sharing AI templates on the Nostr network. Find the perfect starter for your next project, or share your own templates with the community. 
 - [sonos](https://github.com/bvcxza/sonos)![stars](https://img.shields.io/github/stars/duozhutuan/nostrclient.svg?style=social)- C++ library and command line tool for Nostr
+- [swift-nostr-client](https://github.com/yysskk/swift-nostr-client)![stars](https://img.shields.io/github/stars/yysskk/swift-nostr-client.svg?style=social) - A modern Swift library for the Nostr protocol with Swift 6 concurrency support
 
 ## Bridges and Gateways
 
