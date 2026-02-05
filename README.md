@@ -739,8 +739,8 @@ Endpoints (services or apps that expose a LN wallet via NWC)
 
 - [NostrDice](https://github.com/NostrDice/nostrdice)![stars](https://img.shields.io/github/stars/NostrDice/nostrdice) - NostrDice is a provably fair betting game combining the power of Lightning and Nostr.
   - Live: [app.nostrdice.com](https://app.nostrdice.com)
-- [Words with Zaps](https://www.wordswithzaps.top) - A two-player crossword-style word game with bonus features designed around Lightning and Nostr. Challenge friends, build words, and zap your way to victory.
-
+- [Words with Zaps](https://www.wordswithzaps.top) - A two-player crossword-style word game with bonus features designed around Lightning and Nostr.
+  
 ## Communities
 
 Outside of nostr itself, you find the community on:
