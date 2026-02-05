@@ -269,6 +269,7 @@ Websites with lists of relays and their performance/health:
 - [nostter](https://github.com/SnowCait/nostter)![stars](https://img.shields.io/github/stars/SnowCait/nostter.svg?style=social) - Twitter-like web client
 - [nostui](https://github.com/akiomik/nostui)![stars](https://img.shields.io/github/stars/akiomik/nostui.svg?style=social) - A TUI client for Nostr
 - [Nostur](https://nostur.com) - Nostr client app for iOS and MacOS. ([Apple Store link](https://apps.apple.com/us/app/nostur/id1672780508))
+- [Notedeck](https://github.com/damus-io/notedeck)![stars](https://img.shields.io/github/stars/damus-io/notedeck.svg?style=social) - Rust based desktop nostr browser by Damus
 - [notestack.com](https://notestack.com)![stars](https://img.shields.io/github/stars/nodetec/notestack.svg?style=social) - Blogging site for nostr, supports markdown
 - [npub.world](https://npub.world/) - A nostr profile search engine
 - [Nuxstr](https://github.com/sebastix/nuxstr)![stars](https://img.shields.io/github/stars/sebastix/nuxstr.svg?style=social) - Starter template for building a Nostr client with the Nuxt Vue framework and Nostr Dev Kit (NDK).
@@ -732,6 +733,16 @@ Endpoints (services or apps that expose a LN wallet via NWC)
 
 ## Nostr Web Services (NWS)
 - [nws](https://github.com/asmogo/nws)![stars](https://img.shields.io/github/stars/asmogo/nws.svg?style=social) - route TCP over Nostr relays
+
+## Web of Trust (WOT)
+- [grapevine-client](https://github.com/Pretty-Good-Freedom-Tech/grapevine-client)![stars](https://img.shields.io/github/stars/Pretty-Good-Freedom-Tech/grapevine-client.svg?style=social) - A Nostr web client for the My Grapevine web of trust
+- [graperank-nodejs](https://github.com/Pretty-Good-Freedom-Tech/graperank-nodejs)![stars](https://img.shields.io/github/stars/Pretty-Good-Freedom-Tech/graperank-nodejs.svg?style=social) - My Grapevine web of trust recommendation engine
+- [nostr-wot-sdk](https://github.com/nostr-wot/nostr-wot-sdk)![stars](https://img.shields.io/github/stars/nostr-wot/nostr-wot-sdk.svg?style=social) - JavaScript SDK for Nostr Web of Trust — query trust distance, check network membership, compute trust scores
+- [nostr-wot-oracle](https://github.com/nostr-wot/nostr-wot-oracle)![stars](https://img.shields.io/github/stars/nostr-wot/nostr-wot-oracle.svg?style=social) -A global follow-graph indexer that answers pairwise distance queries between any two Nostr pubkeys, returning hop count, path count, and bridging nodes.
+- [relatr](https://github.com/contextvm/relatr)![stars](https://img.shields.io/github/stars/contextvm/relatr.svg?style=social)
+- [WoT relay](https://github.com/bitvora/wot-relay.git)![stars](https://img.shields.io/github/stars/bitvora/wot-relay.svg?style=social) - relay for every note in your web of trust
+
+
 
 ## Blossom
 - [Blossom](https://github.com/hzrd149/blossom) - Blobs stored simply on mediaservers
