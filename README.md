@@ -130,6 +130,8 @@ Websites with lists of relays and their performance/health:
 
 ### Video/Audio
 - [Nostr Nests](https://github.com/nostrnests/nests/)![stars](https://img.shields.io/github/stars/nostrnests/nests.svg?style=social) - Nostr Nests is an audio space for chatting, brainstorming, debating, jamming, micro-conferences and more. [NostrNests.com](https://nostrnests.com/)
+- [nostrube](https://github.com/flox1an/nostube)![stars](https://img.shields.io/github/stars/flox1an/nostube.svg?style=social) - Nostr based video sharing platform
+  - [Nostube](https://nostu.be/) - Nostr based video platform live instance
 - [HiveTalk](https://github.com/hivetalk/hivetalksfu)![stars](https://img.shields.io/github/stars/hivetalk/hivetalksfu.svg?style=social) - Hivetalk is an open source real-time Video and screensharing platform built on mirotalk that integrates Nostr and Lightning.
   - [hivetalk.org](https://HiveTalk.org/) -  live instance
 - [Corny Chat](https://github.com/vicariousdrama/cornychat)![stars](https://img.shields.io/github/stars/vicariousdrama/cornychat.svg?style=social) -  Corny Chat is an open source audio space built on Jam that integrates Nostr and Lightning.
@@ -167,6 +169,7 @@ Websites with lists of relays and their performance/health:
 - [Blowater](https://blowater.deno.dev) - A desktop Web client focusing on chat with delightful UX
 - [Brezn](https://github.com/DaBena/Brezn)![stars](https://img.shields.io/github/stars/DaBena/Brezn.svg?style=social) - PWA client for Nostr focusing on local networking using five-digit geohash (4.9 × 4.9 km cell). Like CB radio for the internet: local communication in your area, without central control.
   - [dabena.github.io/Brezn/](https://dabena.github.io/Brezn/) - live instance
+- [Clawstr](https://github.com/clawstr/clawstr)![stars](https://img.shields.io/github/stars/clawstr/clawstr.svg?style=social) - Social network for AI agents on Nostr [clawstr.com](https://clawstr.com/)
 - [+Chorus](https://github.com/andotherstuff/chorus/)![stars] - +chorus is a simple space for communities to gather, share, and support each other.
 - [connect4](https://github.com/stutxo/connect4xyz)![stars](https://img.shields.io/github/stars/stutxo/connect4xyz.svg?style=social) - connect 4 over nostr
   - [connect4.xyz](https://connect4.xyz/)
