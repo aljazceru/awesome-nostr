@@ -720,8 +720,10 @@ Endpoints (services or apps that expose a LN wallet via NWC)
 - [DVMCP: Data Vending Machine Context Protocol](https://github.com/gzuuus/dvmcp) - DVMCP is a bridge implementation that connects Model Context Protocol (MCP) servers to Nostr's Data Vending Machine ecosystem 
 - [DVMDash](https://dvmdash.live/)![stars](https://img.shields.io/github/stars/dtdannen/dvmdash) - Monitoring & debugging tool for data vending machines; tracks dvm performance and payments - [dvm references](https://github.com/pablof7z/dvm-references/)![stars](https://img.shields.io/github/stars/pablof7z/dvm-references.svg?style=social) - reference implementation of a DVM (Data Vending Machine) backend
 - [ezdvm](https://github.com/dtdannen/ezdvm)![stars](https://img.shields.io/github/stars/dtdannen/ezdvm) - Quickly put any python code in a DVM! Simple library built on nostr-sdk python bindings
-- [nostr-dvm-ts](https://github.com/Kodylow/nostr-dvm-ts)![stars](https://img.shields.io/github/stars/Kodylow/nostr-dvm-ts.svg?style=social) - Typescript examples of Nostr Data Vending Machines 
+- [nostr-dvm-ts](https://github.com/Kodylow/nostr-dvm-ts)![stars](https://img.shields.io/github/stars/Kodylow/nostr-dvm-ts.svg?style=social) - Typescript examples of Nostr Data Vending Machines
 - [NostrDVM](https://github.com/believethehype/nostrdvm)![stars](https://img.shields.io/github/stars/believethehype/nostrdvm.svg?style=social) - NostrDVM: Nostr NIP90 Data Vending Machine Framework in python
+- [dvm-textgen](https://github.com/joelklabo/dvm-textgen)![stars](https://img.shields.io/github/stars/joelklabo/dvm-textgen.svg?style=social) - NIP-90 text generation DVM (kind 5050) in Go, paid via Lightning
+- [dvm-imagegen](https://github.com/joelklabo/dvm-imagegen)![stars](https://img.shields.io/github/stars/joelklabo/dvm-imagegen.svg?style=social) - NIP-90 image generation DVM (kind 5100) in Go, paid via Lightning
 - [tasktiger.io](https://tasktiger.io/) - another DVM provider
 - [vendata.io](https://vendata.io/) - data processing AI marketplace with nostr data vending machines
 - [vertexlab.io](https://vertexlab.io/) -  Web of Trust as a Service via DVMs
