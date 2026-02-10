@@ -746,6 +746,7 @@ Endpoints (services or apps that expose a LN wallet via NWC)
 - [nostr-wot-oracle](https://github.com/nostr-wot/nostr-wot-oracle)![stars](https://img.shields.io/github/stars/nostr-wot/nostr-wot-oracle.svg?style=social) -A global follow-graph indexer that answers pairwise distance queries between any two Nostr pubkeys, returning hop count, path count, and bridging nodes.
 - [relatr](https://github.com/contextvm/relatr)![stars](https://img.shields.io/github/stars/contextvm/relatr.svg?style=social)
 - [WoT relay](https://github.com/bitvora/wot-relay.git)![stars](https://img.shields.io/github/stars/bitvora/wot-relay.svg?style=social) - relay for every note in your web of trust
+- [wot-scoring](https://github.com/joelklabo/wot-scoring)![stars](https://img.shields.io/github/stars/joelklabo/wot-scoring.svg?style=social) - NIP-85 trust scoring engine with 49 API endpoints, PageRank over 51K+ nodes, sybil detection, trust circles, and L402 Lightning paywall. Live at [wot.klabo.world](https://wot.klabo.world)
 
 
 
