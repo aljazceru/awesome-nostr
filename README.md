@@ -34,6 +34,7 @@ nostr.net services [start.nostr.net](https://start.nostr.net) || [relay.nostr.ne
 - [persian nostr book](https://github.com/kehiy/persian-nostr-book) - a book written in the Persian language about nostr, containing nips translation.
 - [NosTracker](https://marcodpt.github.io/nostracker/) [![stars](https://img.shields.io/github/stars/marcodpt/nostracker.svg?style=social)](https://github.com/marcodpt/nostracker) - Information about NIP support for clients, relays, tools and libraries. Like a caniuse but for NIPs.
 - [Grow Nostr Initiative](https://grownostr.org) - Empowering the future of decentralized social communication through community initiatives, education, and outreach.
+- [Marmot Protocol](https://github.com/marmot-protocol/marmot)![stars](https://img.shields.io/github/stars/marmot-protocol/marmot.svg?style=social) - A messaging protocol specification for efficient end-to-end encrypted group messaging using Nostr's decentralized identity & relay network combined with the MLS Protocol.
   
 ## Relays
 
@@ -113,6 +114,7 @@ of the public instances.
 
 ### Relay lists 
 Websites with lists of relays and their performance/health:
+- [georelays](https://github.com/permissionlesstech/georelays)![stars](https://img.shields.io/github/stars/permissionlesstech/georelays.svg?style=social) - A collection of nostr relays and their estimated geographic locations for discovering nearby relays.
 - [relay.nostr.net](wss://relay.nostr.net) - relay run by nostr.net 
 - [nostr.info](https://nostr.info/relays/) - real-time checking of the status of some known relays.
 - [nostr.watch](https://nostr.watch)![stars](https://img.shields.io/github/stars/sandwichfarm/nostr-watch.svg?style=social) - real-time checking of the status of some known relays.
@@ -183,6 +185,8 @@ Websites with lists of relays and their performance/health:
 - [electron-nostr](https://github.com/wds4/electron-react-boilerplate-nostr)![stars](https://img.shields.io/github/stars/wds4/electron-react-boilerplate-nostr?style=social) - A bare-bones desktop nostr client using electron-react-boilerplate. The goal is to be an easy template for people to experiment with different ideas on decentralized ratings, reputation, and web of trust
 - [emon](https://github.com/sebastiaanwouters/emon)![stars](https://img.shields.io/github/stars/sebastiaanwouters/emon.svg?style=social) - Encrypted DMs over nostr with lightning payments integrated (WIP).
   - [emon.chat](https://emon.chat)
+- [Fevela](https://github.com/dtonon/fevela)![stars](https://img.shields.io/github/stars/dtonon/fevela.svg?style=social) - A Nostr social client with an innovative interface that gives you back full control of your attention and time.
+  - [fevela.me](https://fevela.me) - live instance
 - [Flycat](https://github.com/digi-monkey/flycat-web)![stars](https://img.shields.io/github/stars/digi-monkey/flycat-web.svg?style=social) - A 2000s old-school style web client which support blogging on Nostr
 - [Formstr](https://github.com/abhay-raizada/nostr-forms)![stars](https://img.shields.io/github/stars/abhay-raizada/nostr-forms.svg?style=social) - A Google Forms alternative built on top of the nostr protocol.
   - [formstr.app](https://formstr.app/) - live instance 
@@ -610,6 +614,7 @@ Websites with lists of relays and their performance/health:
 
 ## Offline signers
 
+- [Aegis](https://github.com/ZharlieW/Aegis)![stars](https://img.shields.io/github/stars/ZharlieW/Aegis.svg?style=social) - Simple and cross-platform Nostr signer that keeps your keys secure across desktop and mobile devices.
 - [amber](https://github.com/greenart7c3/amber)![stars](https://img.shields.io/github/stars/greenart7c3/amber.svg?style=social) - Amber is a nostr event signer for Android. It allows users to keep their nsec segregated in a single, dedicated app. The goal of Amber is to have your smartphone act as a NIP-46 signing device without any need for servers or additional hardware. "Private keys should be exposed to as few systems as possible as each system adds to the attack surface," as the rationale of said NIP states. In addition to native apps, Amber aims to support all current nostr web applications without requiring any extensions or web servers.
 - [keechain](https://github.com/yukibtc/keechain)![stars](https://img.shields.io/github/stars/yukibtc/keechain.svg?style=social) - Bitcoin application to transform your offline computer in an AirGap Signing Device (aka Hardware Wallet) with support to `NIP-06` and `NIP-26`.
 - [nostr-signing-device](https://github.com/lnbits/nostr-signing-device) - Signing device for Nostr built on ESP32
