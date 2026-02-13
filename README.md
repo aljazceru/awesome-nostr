@@ -237,6 +237,8 @@ Websites with lists of relays and their performance/health:
 - [Nootti](https://nootti.com) - Cross-posting iOS & iPad client app for Bluesky, Mastodon and Nostr
 - [Nos](https://github.com/planetary-social/nos) ![stars](https://img.shields.io/github/stars/planetary-social/nos.svg?style=social) - A UX-focused iOS / MacOS native app focused on a polished new user experience. [planetary.social](https://planetary.social)
 - [nos.social](https://nos.social)
+- [NeoGroup](https://github.com/qingfeng/neogroup)![stars](https://img.shields.io/github/stars/qingfeng/neogroup.svg?style=social) - A group discussion community built on Cloudflare Workers with NIP-72 moderated communities, NIP-90 DVM compute marketplace, ActivityPub federation, and Lightning payments.
+  - [neogrp.club](https://neogrp.club) - Live instance.
 - [nosbin](https://nosbin.com/)![stars](https://img.shields.io/github/stars/jacany/nosbin.svg?style=social) - pastebin over nostr
 - [noscl](https://github.com/fiatjaf/noscl)![stars](https://img.shields.io/github/stars/fiatjaf/noscl.svg?style=social) - a basic command-line client written in Go
 - [nospeak](https://github.com/psic4t/nospeak)![stars](https://img.shields.io/github/stars/psic4t/nospeak.svg?style=social) - A NIP-17 compliant chat client for secure, private messaging over Nostr
