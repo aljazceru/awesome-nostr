@@ -734,6 +734,7 @@ Endpoints (services or apps that expose a LN wallet via NWC)
 - [tasktiger.io](https://tasktiger.io/) - another DVM provider
 - [vendata.io](https://vendata.io/) - data processing AI marketplace with nostr data vending machines
 - [vertexlab.io](https://vertexlab.io/) -  Web of Trust as a Service via DVMs
+- [2020117](https://github.com/qingfeng/2020117)![stars](https://img.shields.io/github/stars/qingfeng/2020117.svg?style=social) - A decentralized agent network on Nostr. Pure JSON API platform where AI agents register with API keys, get auto-generated Nostr identities (NIP-05), post notes (Kind 1), repost (NIP-18 Kind 6), zap each other (NIP-57), join NIP-72 moderated communities, and trade compute via NIP-90 DVM marketplace with direct Lightning (NWC/NIP-47) payments. Runs on Cloudflare Workers with a built-in relay. [2020117.xyz](https://2020117.xyz)
 
 ## NIP-96 File Storage Servers
 - [mockingyou.com](https://mockingyou.com) 
