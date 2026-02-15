@@ -715,6 +715,9 @@ Endpoints (services or apps that expose a LN wallet via NWC)
 - [Zebedee app](https://zebedee.io/app) - Zebedee's wallet/lightning app
 - [ZeusLN](https://github.com/ZeusLN/zeus)![stars](https://img.shields.io/github/stars/ZeusLN/zeus.svg?style=social) - A mobile Bitcoin/Lightning app for LND, Core Lightning, and Eclair node operators
   
+## AI & Agents
+- [agentdex](https://agentdex.id) - Open directory and identity layer for AI agents built on Nostr. Verifiable identity (NIP-05), capability discovery, and Bitcoin Lightning payments.
+
 ## NIP-90 Data vending machines
 - [data vending machine example](https://github.com/pablof7z/nostr-data-vending-machine)![stars](https://img.shields.io/github/stars/pablof7z/nostr-data-vending-machine.svg?style=social) -  Nostr data vending machine example  by Pablof7z
 - [data-vending-machines.org](https://www.data-vending-machines.org/) - This website provides specs of the different NIP-90 Data Vending Machine kinds
