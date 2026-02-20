@@ -3,6 +3,36 @@ nostr.net services [start.nostr.net](https://start.nostr.net) || [relay.nostr.ne
 "nostr" stands for "**N**otes and **O**ther **S**tuff **T**ransmitted by
 **R**elays" and is an open protocol for censorship-resistant global networks.
 
+## Sponsors
+
+Support the maintenance of this resource by becoming a sponsor.
+
+### Gold Sponsors
+<!-- Gold sponsors: $250-500/mo — Logo + description at top -->
+> [Your project here] — Become a Gold Sponsor and get featured placement.
+
+### Silver Sponsors
+<!-- Silver sponsors: $100-250/mo — Listed with logo -->
+*Available*
+
+### Bronze Sponsors
+<!-- Bronze sponsors: $50-100/mo — Name mention -->
+*Available*
+
+---
+
+### Support This Project
+
+If this list helped you discover something useful, consider supporting its maintenance:
+
+- ⭐ Star this repo
+- [GitHub Sponsors](https://github.com/sponsors/aljazceru) — Monthly support
+- Lightning: `aljaz@getalby.com` — One-time or recurring zaps
+
+Interested in sponsoring? Reach out via GitHub or Nostr.
+
+---
+
 ## Most popular
 ### Mobile clients
 - [Damus](https://damus.io/) - The OG nostr client for iOS
