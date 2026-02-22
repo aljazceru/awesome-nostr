@@ -314,6 +314,8 @@ Websites with lists of relays and their performance/health:
   - [snort.social](https://snort.social)
 - [Spring Browser](https://spring.site) - Nostr-focused browser app for Android.
 - [Stackerstan](https://stackerstan.org)![stars](https://img.shields.io/github/stars/stackerstan/mindmachine.svg?style=social) - A decentralized organization built on Bitcoin and Nostr, implemented as a replicated state machine in Golang
+- [Streakstr](https://github.com/theakash04/Streakstr)![stars](https://img.shields.io/github/stars/theakash04/Streakstr.svg?style=social) - A daily activity tracker for Nostr. Post every day to keep your streak alive, monitored automatically by a behind-the-scenes bot.
+  - [streakstr.online](https://streakstr.online/) - live instance
 - [Swarmstr](https://github.com/ptrio42/swarmstr.com)![stars](https://img.shields.io/github/stars/verbiricha/habla.news.svg?style=social)  - Your knowledge hub for curious minds
   - [Swarmstr](https://swarmstr.com) - live instance
 - [Tamga](https://github.com/erdaltoprak/tamga)![stars](https://img.shields.io/github/stars/erdaltoprak/tamga.svg?style=social) - An offline first nostr contact & profile manager for iOS!
