@@ -317,7 +317,8 @@ Websites with lists of relays and their performance/health:
 - [Swarmstr](https://github.com/ptrio42/swarmstr.com)![stars](https://img.shields.io/github/stars/verbiricha/habla.news.svg?style=social)  - Your knowledge hub for curious minds
   - [Swarmstr](https://swarmstr.com) - live instance
 - [Tamga](https://github.com/erdaltoprak/tamga)![stars](https://img.shields.io/github/stars/erdaltoprak/tamga.svg?style=social) - An offline first nostr contact & profile manager for iOS!
-- [Tides](https://github.com/arbadacarbayk/tides)![stars](https://img.shields.io/github/stars/arbadacarbayk/tides.svg?style=social) - Chrome Extension Messenger with a hotlink for Noderunners Radio Stream 
+- [Tides](https://github.com/arbadacarbayk/tides)![stars](https://img.shields.io/github/stars/arbadacarbayk/tides.svg?style=social) - Chrome Extension Messenger with a hotlink for Noderunners Radio Stream
+- [Tollbooth-DPYC](https://github.com/lonniev/dpyc-oracle) - Tollbooth DPYC is a nation state ecosystem for Bitcoin entrepreneurs who monetize their MCP services according the Dont Pester Your Customer [creed](https://github.com/lonniev/dpyc-community/blob/main/CREED.md) All identities are Nostr npub credentials.
 - [Treasures](https://treasures.to/) - Discover HiddenTreasures. Join the decentralized geocaching adventure powered by Nostr. Hide geocaches, find them, and connect with explorers worldwide.
 - [uBlog](https://github.com/nodetec/ublog) ![stars](https://img.shields.io/github/stars/nodetec/ublog.svg?style=social) - A minimalist blog on nostr that allows anyone to easily create their own personal micro-blog.
   - [u-blog.vercel.app](https://u-blog.vercel.app)
