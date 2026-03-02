@@ -508,7 +508,7 @@ Websites with lists of relays and their performance/health:
 - [nkcli](https://github.com/mdzz-club/nkcli)![stars](https://img.shields.io/github/stars/mdzz-club/nkcli.svg?style=social) - A CLI tool for nostr key manage and serve NIP-46.
 - [nosdump](https://github.com/jiftechnify/nosdump)![stars](https://img.shields.io/github/stars/jiftechnify/nosdump.svg?style=social) - A command line tool which dumps (download) events stored in Nostr relays
 - [Nosflare's Send It](https://github.com/Spl0itable/nosflare/blob/main/send-it.js)![stars](https://img.shields.io/github/stars/Spl0itable/nosflare?style=social) - A nostr cloudflare workers proxy relay that publishes to all known relays using nostr.watch API.
-- [noshtastic](https://github.com/ksedgwic/noshtastic)(https://github.com/blakejakopovic/nostcat)![stars](https://img.shields.io/github/stars/ksedgwic/noshtastic.svg?style=social) - A Geo-Specific Virtual Nostr Relay for Meshtastic
+- [noshtastic](https://github.com/ksedgwic/noshtastic)![stars](https://img.shields.io/github/stars/ksedgwic/noshtastic.svg?style=social) - A Geo-Specific Virtual Nostr Relay for Meshtastic
 - [nostcat](https://github.com/blakejakopovic/nostcat)![stars](https://img.shields.io/github/stars/blakejakopovic/nostcat.svg?style=social) - cat-like nostr client for scripting and debugging written in Rust
 - [nostpy-cli](https://github.com/UTXOnly/nostpy-cli)![stars](https://img.shields.io/github/stars/UTXOnly/nostpy-cli.svg?style=social) - A Python command line nostr client/tool for relay development
 - [Nostr action](https://github.com/snow-actions/nostr)![stars](https://img.shields.io/github/stars/snow-actions/nostr.svg?style=social) - Send events from GitHub Actions
@@ -600,8 +600,6 @@ Websites with lists of relays and their performance/health:
 - [NADAR 2.0](https://nadar.sandwich.farm) - A tool to find which relays have a note (`nevent` or `naddr`). Discovers relays with NIP-66.
 - [Nostr in Move](https://github.com/rooch-network/rooch/tree/main/examples/nostr) - A tool to help persist Nostr event in Move oriented blockchains.
 - [Zapit](https://zapit.space) - Create live message boards powered by instant bitcoin lightning payments & nostr. No accounts, no hassle—just real-time engagement for your events and communities.
-- [Replies](https://replies.nostrapps.org) - Nostr micro-app for viewing replies and reactions to events
-- [nostr-badges](https://github.com/neilck/nostr-badges)![stars](https://img.shields.io/github/stars/neilck/nostr-badges.svg?style=social) - Nostr badge microservice for managing self-awarded badges. Live at [app.akaprofiles.com](https://app.akaprofiles.com)
 - [rate](https://github.com/pippellia-btc/rate)![stars](https://img.shields.io/github/stars/pippellia-btc/rate.svg?style=social) - A low-level, highly-concurrent, in-memory, generic token bucket rate limiter, designed for IP-based and pubkey-based rate limiting in Nostr relay and Blossom server contexts.
 - [Undocumented Kinds](https://undocumented.nostrkinds.info/) - lists note kinds that are not documented in the NIPs repo
 
@@ -650,7 +648,6 @@ Websites with lists of relays and their performance/health:
 - [signet](https://github.com/Letdown2491/signet) - NIP-46 remote signer with a web UI and Android app. Allows users to sign events with custom trust level policy, DM kill switch commands, built-in dead man's switch, bunker and nostrconnect support. 
 
 ## Vanity pubkey mining
-offlo
 - [glasnostr](https://github.com/eyelight/glasnostr)![stars](https://img.shields.io/github/stars/eyelight/glasnostr.svg?style=social) - CLI tool to mine a vanity prefix for your nostr npub
 - [go-pubmine](https://github.com/tenkoh/go-pubmine)![stars](https://img.shields.io/github/stars/tenkoh/go-pubmine.svg?style=social) - Multithreading nostr keypair generator which gives pretty (vanity) public keys. Both CLI and web apps are available.
 - [vanity-key](https://github.com/nostr-net/vanity-key/)![stars](https://img.shields.io/github/stars/nostr-net/vanity-key.svg?style=social) - use your face biometrics to generate a deterministic private key
