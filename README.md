@@ -167,6 +167,7 @@ Websites with lists of relays and their performance/health:
 - [Attached](https://github.com/dyegolara/nostr-attached)![stars](https://img.shields.io/github/stars/dyegolara/nostr-attached.svg?style=social) - Open-Source ReactNative Expo app for Nostr (iOS, Android). Currently under app store review
 - [badger](https://github.com/0ceanslim/badger)![stars](https://img.shields.io/github/stars/0ceanslim/badger.svg?style=social) - A NIP58 nostr badge client. Create Badges view Profile Badges and more. 
 - [Beagle](https://0xli.github.io/beagle.chat/)![stars](https://img.shields.io/github/stars/0xli/beagle.chat.svg?style=social) - Decentralized real-time Text/Audio/Video chat client for iOS, using nostr relays for users to share information and moments by posts of text, image and video.
+- [Bikel](https://github.com/Mnpezz/bikel)![stars](https://img.shields.io/github/stars/RetricSu/pocket-wallet.svg?style=social) - Bicycle ride tracking,sharing, and cycling event client app and webpage [www.bikel.ink](https://bikel.ink/)
 - [BlazeJump](https://github.com/objectwizard/BlazeJump)![stars](https://img.shields.io/github/stars/objectwizard/BlazeJump.svg?style=social) - A fast web client boilerplate written in C# / Blazor, that uses an in-browser SQLite database.
 - [Bookstr](https://bookstr.xyz/)- Discover, track, and share your reading journey on the decentralized Nostr network. No corporations. No ads. No data tracking. Just books.
 - [Bold Bitcoin Wallet](https://github.com/BoldBitcoinWallet/BoldWallet)![stars](https://img.shields.io/github/stars/BoldBitcoinWallet/BoldWallet.svg?style=social) - A Bitcoin wallet implementing MPC TSS over Nostr for decentralized device pairing and transaction signing. Connect devices from anywhere via Nostr relays with NIP-44 encryption 
@@ -174,6 +175,7 @@ Websites with lists of relays and their performance/health:
 - [Blowater](https://blowater.deno.dev) - A desktop Web client focusing on chat with delightful UX
 - [Brezn](https://github.com/DaBena/Brezn)![stars](https://img.shields.io/github/stars/DaBena/Brezn.svg?style=social) - PWA client for Nostr focusing on local networking using five-digit geohash (4.9 × 4.9 km cell). Like CB radio for the internet: local communication in your area, without central control.
   - [dabena.github.io/Brezn/](https://dabena.github.io/Brezn/) - live instance
+- [cassette](https://cassette.cafe) - Portable WASM relays with standardized interface/bindings.
 - [Clawstr](https://github.com/clawstr/clawstr)![stars](https://img.shields.io/github/stars/clawstr/clawstr.svg?style=social) - Social network for AI agents on Nostr [clawstr.com](https://clawstr.com/)
 - [+Chorus](https://github.com/andotherstuff/chorus/)![stars] - +chorus is a simple space for communities to gather, share, and support each other.
 - [connect4](https://github.com/stutxo/connect4xyz)![stars](https://img.shields.io/github/stars/stutxo/connect4xyz.svg?style=social) - connect 4 over nostr
@@ -286,6 +288,7 @@ Websites with lists of relays and their performance/health:
 - [Nostur](https://nostur.com) - Nostr client app for iOS and MacOS. ([Apple Store link](https://apps.apple.com/us/app/nostur/id1672780508))
 - [Notedeck](https://github.com/damus-io/notedeck)![stars](https://img.shields.io/github/stars/damus-io/notedeck.svg?style=social) - Rust based desktop nostr browser by Damus
 - [notestack.com](https://notestack.com)![stars](https://img.shields.io/github/stars/nodetec/notestack.svg?style=social) - Blogging site for nostr, supports markdown
+- [NOW - Nostr Outbox for Wordpress](https://github.com/Mnpezz/nostr-outbox-for-wordpress/tree/main)![stars](https://img.shields.io/github/stars/RetricSu/pocket-wallet.svg?style=social) - Send WordPress and WooCommerce notifications via Nostr instead of email. Includes Lightning payments at checkout, Nostr login, NIP-05 verification, and encrypted direct messaging.
 - [npub.world](https://npub.world/) - A nostr profile search engine
 - [Nuxstr](https://github.com/sebastix/nuxstr)![stars](https://img.shields.io/github/stars/sebastix/nuxstr.svg?style=social) - Starter template for building a Nostr client with the Nuxt Vue framework and Nostr Dev Kit (NDK).
   - [nuxstr.nostrver.se](https://nuxstr.nostrver.se) - demo
@@ -299,6 +302,7 @@ Websites with lists of relays and their performance/health:
 - [Pinstr](https://github.com/sepehr-safari/pinstr) ![stars](https://img.shields.io/github/stars/sepehr-safari/pinstr?style=social) - Pinstr is a decentralized and open-source social network for curating and sharing your interests with the world.
   - [Pinstr.app](https://pinstr.app) - live instance
 - [Plektos](https://github.com/derekross/plektos)![stars](https://img.shields.io/github/stars/derekross/plektos.svg?style=social) - Plektos is a decentralized meetup, events, and calendar platform built on Nostr. [Plektos.app](https://plektos.app/)
+- [pocket-wallet](https://github.com/RetricSu/pocket-wallet)![stars](https://img.shields.io/github/stars/RetricSu/pocket-wallet.svg?style=social) - PocketWallet is a nostr-based wallet on CKB blockchain supportting Nip07 and Nip46.
 - [Pokey](https://github.com/KoalaSat/Pokey)![stars](https://img.shields.io/github/stars/KoalaSat/Pokey.svg?style=social) -  Nostr "Pull Notifications" on Android 
 - [Pollerama](https://pollerama.fun/) - A polls implementation on nostr, with features like Proof of Work Filtering, Followset filtering, and more.
   -[Github Repo](https://github.com/abhay-raizada/nostr-polls)![stars](https://img.shields.io/github/stars/abhay-raizada/nostr-polls)
@@ -351,9 +355,9 @@ Websites with lists of relays and their performance/health:
 - [Zaplytics](https://github.com/derekross/zaplytics)![stars](https://img.shields.io/github/stars/derekross/zaplytics.svg?style=social) - Analytics for your Nostr Zaps, helping creators dive into their Zap earnings. [Zaplytics.app](https://zaplytics.app/)
 - [Zappix](https://github.com/derekross/zappix)![stars](https://img.shields.io/github/stars/derekross/zappix.svg?style=social) - A nostr image sharing application for browsing, sharing, and zapping visual content. [Zappix.app](https://zappix.app/)
 - [zephyr](https://github.com/coracle-social/zephyr)![stars](https://img.shields.io/github/stars/coracle-social/zephyr.svg?style=social) - A meditative nostr feed reader
-- [pocket-wallet](https://github.com/RetricSu/pocket-wallet)![stars](https://img.shields.io/github/stars/RetricSu/pocket-wallet.svg?style=social) - PocketWallet is a nostr-based wallet on CKB blockchain supportting Nip07 and Nip46.
-- [cassette](https://cassette.cafe) - Portable WASM relays with standardized interface/bindings.
-- [NOW - Nostr Outbox for Wordpress](https://github.com/Mnpezz/nostr-outbox-for-wordpress/tree/main) - Send WordPress and WooCommerce notifications via Nostr instead of email. Includes Lightning payments at checkout, Nostr login, NIP-05 verification, and encrypted direct messaging.
+
+
+
 
 ### Nostr Marketplace clients ([NIP-15](https://github.com/nostr-protocol/nips/blob/master/15.md) & [NIP-99](https://github.com/nostr-protocol/nips/blob/master/99.md))
 
