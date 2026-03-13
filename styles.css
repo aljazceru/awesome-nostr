@@ -168,10 +168,7 @@ body {
     padding-top: 80px; /* Increased padding-top to account for fixed nav */
     flex: 1;
     min-height: 100vh;
-    overflow: auto;
     margin-top: 0;
-    -webkit-overflow-scrolling: touch;
-    overscroll-behavior: contain;
 }
 
 .content-header {
@@ -505,45 +502,45 @@ body {
     color: #f1c40f;
 }
 
-/* Main content scrollbar styles */
-.main-content::-webkit-scrollbar {
+/* Main content scrollbar styles (targets the document scroll) */
+html::-webkit-scrollbar {
     width: 8px;
 }
 
-.main-content::-webkit-scrollbar-track {
+html::-webkit-scrollbar-track {
     background: var(--background-color);
 }
 
-.main-content::-webkit-scrollbar-thumb {
+html::-webkit-scrollbar-thumb {
     background: var(--primary-color);
     opacity: 0.5;
     border-radius: 4px;
     transition: background 0.2s ease;
 }
 
-.main-content::-webkit-scrollbar-thumb:hover {
+html::-webkit-scrollbar-thumb:hover {
     background: var(--hover-color);
 }
 
 /* Firefox main content scrollbar styles */
-.main-content {
+html {
     scrollbar-width: thin;
     scrollbar-color: var(--primary-color) var(--background-color);
 }
 
 /* Dark theme scrollbar adjustments */
 [data-theme="dark"] .sidebar::-webkit-scrollbar-track,
-[data-theme="dark"] .main-content::-webkit-scrollbar-track {
+[data-theme="dark"] html::-webkit-scrollbar-track {
     background: var(--sidebar-background);
 }
 
 [data-theme="dark"] .sidebar::-webkit-scrollbar-thumb,
-[data-theme="dark"] .main-content::-webkit-scrollbar-thumb {
+[data-theme="dark"] html::-webkit-scrollbar-thumb {
     background: rgba(110, 84, 148, 0.6);
 }
 
 [data-theme="dark"] .sidebar::-webkit-scrollbar-thumb:hover,
-[data-theme="dark"] .main-content::-webkit-scrollbar-thumb:hover {
+[data-theme="dark"] html::-webkit-scrollbar-thumb:hover {
     background: rgba(110, 84, 148, 0.8);
 }
 
