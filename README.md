@@ -210,8 +210,7 @@ Websites with lists of relays and their performance/health:
 - [gossip](https://github.com/mikedilger/gossip)![stars](https://img.shields.io/github/stars/mikedilger/gossip.svg?style=social) - A desktop client in rust presented with egui
 - [Groups](https://github.com/max21dev/groups)![stars](https://img.shields.io/github/stars/max21dev/groups.svg?style=social) - NIP-29 Group Chat Web Client.
   - Live Instance: [groups.nip29.com](https://groups.nip29.com)
-- [gupt](https://github.com/besoeasy/gupt)![stars](https://img.shields.io/github/stars/besoeasy/gupt.svg?style=social) - Instant Nostr chat with zero config — no relays to set up, no upload servers. Supports video calls, audio calls, screen sharing, and private group chats.
-  - [gupt.app](https://gupt.app) - live instance
+- [gupt](https://gupt.app) - Instant Nostr chat with zero config — no relays to set up, no upload servers. Supports video calls, audio calls, screen sharing, and private group chats.
 - [Hook Cafe](https://github.com/kuba-04/hook.cafe)![stars](https://img.shields.io/github/stars/kuba-04/hook.cafe.svg?style=social) - A social app helping people to meet in real life
   -  [hook.cafe](https://hook.cafe) - live instance
 - [get-tao.app](https://github.com/smolgrrr/TAO)![stars](https://img.shields.io/github/stars/smolgrrr/TAO.svg?style=social) Anonymous-first client with PoW notes
