@@ -344,6 +344,8 @@ Websites with lists of relays and their performance/health:
 - [Votestr](https://votestr.com/)![stars](https://img.shields.io/github/stars/vilm3r/votestr.svg?style=social) - Poll web app with nostr authentication and blind signature unlinkability
 - [Voyage](https://github.com/dluvian/voyage)![stars](https://img.shields.io/github/stars/dluvian/voyage.svg?style=social) - Lightweight Android client with a Reddit-like UI
 - [Wherostr](https://github.com/mapboss/wherostr_social)![stars](https://img.shields.io/github/stars/mapboss/wherostr_social.svg?style=social) - A decentralized geo-social for iOS & Android.
+- [White Noise](https://github.com/marmot-protocol/whitenoise)![stars](https://img.shields.io/github/stars/marmot-protocol/whitenoise.svg?style=social) - Secure group messenger using the Marmot Protocol (MLS + Nostr) with forward secrecy. Available for Android, iOS, macOS, Linux, and as a [TUI](https://github.com/marmot-protocol/wn-tui).
+  - [whitenoise.chat](https://whitenoise.chat)
 - [wikistr](https://github.com/fiatjaf/wikistr)![stars](https://img.shields.io/github/stars/fiatjaf/wikistr.svg?style=social) - A "wikipedia" client for nostr
   - [wikistr.com](https://wikistr.com/)
 - [Written](https://github.com/silencesoft/written)![stars](https://img.shields.io/github/stars/silencesoft/written.svg?style=social) - Self hosted blog using nostr long-form content (NIP-23) and it shows only posts by selected authors.
