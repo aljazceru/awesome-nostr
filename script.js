@@ -1086,7 +1086,10 @@ function displaySection(sectionName, sections) {
         }
     });
 
-    window.scrollTo(0, 0);
+    // Scroll document to top (works across all browsers)
+    window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+    document.documentElement.scrollTop = 0;
+    document.body.scrollTop = 0;
 }
 
 function applyColorTheme(themeName) {
