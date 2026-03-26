@@ -20,6 +20,7 @@ nostr.net services [start.nostr.net](https://start.nostr.net) || [relay.nostr.ne
 ### Other
 - [Zapstore](https://zapstore.dev/) - Web of trust based app store 
 - [Hivetalk](https://honey.hivetalk.org/) - Nostr + Lightning Video Conferencing
+- [Z-NOS](https://github.com/zyssglobal-max/z-nos) - Cliente Nostr para dispositivos pc
 
 ## Protocol
 
