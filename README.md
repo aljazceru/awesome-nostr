@@ -9,6 +9,7 @@ nostr.net services [start.nostr.net](https://start.nostr.net) || [relay.nostr.ne
 - [Amethyst](https://www.amethyst.social/) - Android-only app
 - [Primal](https://primal.net/downloads) - iOS and Android apps
 - [YakiHonne](https://yakihonne.com/yakihonne-mobile-app) - iOS and Android app
+- [Ditto](https://ditto.pub) - Android app
 - [Zemzeme](https://github.com/whisperbit-labs/zemzeme-android)![stars](https://img.shields.io/github/stars/whisperbit-labs/zemzeme-android.svg?style=social) - Private, serverless messaging for Android — offline Bluetooth mesh, peer-to-peer, and Nostr relay. No accounts, no internet required
 
 ### Web clients
@@ -16,6 +17,7 @@ nostr.net services [start.nostr.net](https://start.nostr.net) || [relay.nostr.ne
 - [primal.net](https://primal.net/)
 - [coracle.social](https://coracle.social/)
 - [YakiHonne](https://yakihonne.com)
+- [Ditto](https://ditto.pub)
 
 ### Other
 - [Zapstore](https://zapstore.dev/) - Web of trust based app store 
@@ -62,7 +64,6 @@ of the public instances.
   - [Zapoli](https://github.com/dezh-tech/ddsr/tree/main/zapoli) - A Specialized Nostr Relay For AppStores. 
   - [210Maxi](https://github.com/dezh-tech/ddsr/tree/main/210maxi) - A nostr relay that only accepts 210 character events (NIP-B1).
 - [Denostr](https://github.com/guakamoli/denostr)![stars](https://img.shields.io/github/stars/guakamoli/denostr.svg?style=social) - Deno based, cloud native nostr implemention.
-- [Ditto](https://github.com/soapbox-pub/ditto)![stars](https://img.shields.io/github/stars/soapbox-pub/ditto.svg?style=social) - Mastadon server and Nostr relay in one.
 - [Ephemerelay](https://gitlab.com/soapbox-pub/ephemerelay)![stars](https://img.shields.io/gitlab/stars/soapbox-pub/ephemerelay.svg?style=social) - An in-memory Nostr relay that doesn't store data.
 - [Fenrir-s](https://github.com/rushmi0/Fenrir-s)![stars](https://img.shields.io/github/stars/rushmi0/Fenrir-s.svg?style=social) - a Nostr Relay written in Kotlin with PostgreSQL backend and GraalVM support.
 - [gnost-relay](https://github.com/barkyq/gnost-relay) ![stars](https://img.shields.io/github/stars/barkyq/gnost-relay.svg?style=social) - nostr relay written in go backed by PostgreSQL database.
@@ -198,6 +199,8 @@ Websites with lists of relays and their performance/health:
 - [Coracle](https://github.com/coracle-social/coracle)![stars](https://img.shields.io/github/stars/coracle-social/coracle.svg?style=social) - A nostr web client
 - [danmakustr](https://github.com/CodyTseng/danmakustr)![stars](https://img.shields.io/github/stars/codytseng/danmakustr.svg?style=social) - a chrome extension allowing users to send special comments (弹幕, danmaku) on YouTube and display them above the video.
 - [Denny](https://github.com/denostr-lab/denny)![stars](https://img.shields.io/github/stars/denostr-lab/denny.svg?style=social) - Secure, private, and decentralized group chat messaging client on Nostr
+- [Ditto](https://gitlab.com/soapbox-pub/ditto)![stars](https://img.shields.io/gitlab/stars/soapbox-pub/ditto.svg?style=social) - A social platform for people who want to have fun, not feed the Big Tech machine. Open source, decentralized, and entirely yours to customize and build upon.
+  - [ditto.pub](https://ditto.pub) - live instance
 - [Disgus](https://github.com/carlitoplatanito/disgus)![stars](https://img.shields.io/github/stars/carlitoplatanito/disgus.svg?style=social) - A comment widget like Disqus, but for Nostr.
 - [dispute](https://github.com/ethicnology/dispute)![stars](https://img.shields.io/github/stars/ethicnology/dispute.svg?style=social) - A cross-platform (Linux, Android, iOS, macOS, Windows and Web) client for NOSTR
 - [Docstr](https://github.com/sepehr-safari/docstr) - Collaborative Documents (Google Docs Alternative)
