@@ -476,6 +476,7 @@ Websites with lists of relays and their performance/health:
 - [nostr.hs](https://github.com/delirehberi/nostr.hs)![stars](https://img.shields.io/github/stars/delirehberi/nostr.hs.svg?style=social) - Nostr client library for the Haskell ecosystem
 - [nostr-social-graph](https://github.com/mmalmi/nostr-social-graph)![stars](https://img.shields.io/github/stars/mmalmi/nostr-social-graph.svg?style=social) - TypeScript library for building and querying social graphs from Nostr follow events, with efficient binary serialization and pre-crawled datasets
 - [nwcjs](https://github.com/supertestnet/nwcjs)![stars](https://img.shields.io/github/stars/supertestnet/nwcjs.svg?style=social) - A vanilla JavaScript library for working with Nostr Wallet Connect
+- [@bitmacro/relay-connect](https://github.com/bitmacro/relay-connect)![stars](https://img.shields.io/github/stars/bitmacro/relay-connect.svg?style=social) - TypeScript SDK for NIP-46 (Nostr Connect) and NIP-07 browser extension signing. Used with BitMacro Relay Manager and relay-connect-web reference app.
 
 ## Bridges and Gateways
 
@@ -643,6 +644,7 @@ Websites with lists of relays and their performance/health:
 - [rate](https://github.com/pippellia-btc/rate)![stars](https://img.shields.io/github/stars/pippellia-btc/rate.svg?style=social) - A low-level, highly-concurrent, in-memory, generic token bucket rate limiter, designed for IP-based and pubkey-based rate limiting in Nostr relay and Blossom server contexts.
 - [Undocumented Kinds](https://undocumented.nostrkinds.info/) - lists note kinds that are not documented in the NIPs repo
 - [relay-agent](https://github.com/bitmacro/relay-agent)![stars](https://img.shields.io/github/stars/bitmacro/relay-agent.svg?style=social) - REST API agent for Nostr relay management. Wraps strfry CLI into an authenticated HTTP API for events, whitelist, and stats. Pairs with [relay-panel](https://relay-panel.bitmacro.io) for visual management without touching the terminal.
+- [relay-panel](https://github.com/bitmacro/relay-panel)![stars](https://img.shields.io/github/stars/bitmacro/relay-panel.svg?style=social) - Visual web dashboard for Nostr relay operators. Events feed, access control (whitelist/blocklist), LMDB stats, and identity resolution. Pairs with relay-agent. No terminal required.
 - [nostr-vpn](https://github.com/mmalmi/nostr-vpn)![stars](https://img.shields.io/github/stars/mmalmi/nostr-vpn.svg?style=social) - Tailscale-style mesh VPN control plane built on Nostr signaling and userspace WireGuard
 - [nos.today](https://github.com/darashi/nos.today)![stars](https://img.shields.io/github/stars/darashi/nos.today.svg?style=social) - Nostr NIP-50 search web client for searching across Nostr relays
 - [ehagaki](https://github.com/Lokuyow/ehagaki)![stars](https://img.shields.io/github/stars/Lokuyow/ehagaki.svg?style=social) - A lightweight, post-only Nostr client that compresses media on your device for fast, data-efficient uploads
@@ -655,6 +657,7 @@ Websites with lists of relays and their performance/health:
 - [easyNostr-NIP05](https://wordpress.org/plugins/easynostr-nip05/) - WordPress plugin to enable your site as a NIP-05 endpoint for every registered user on your system using your domain.
 - [easyNostr](https://easyNostr.com) - NIP-05 ID provider: Use your own domain, or one of ours: nostr.ly, mynostr.io, easyNostr.com.
 - [getalby.com](https://getalby.com/) - Lightning wallet with NIP-05 ID registration service.
+- [id.bitmacro.io](https://id.bitmacro.io) — Sovereign Nostr identity bundle: NIP-05 + Lightning Address + relay access. Free community tier (@app.bitmacro.io) and premium tier (@bitmacro.io). Non-custodial Lightning proxy.
 - [iris.to](https://iris.to) - A Nostr client that provides a free NIP-05 ID
  - [Iris Meet](https://meet.iris.to) - Videocalls over Nostr webrtc signaling
  - [Iris Docs](https://docs.iris.to) - Collaborative document editing over Nostr & blossom
