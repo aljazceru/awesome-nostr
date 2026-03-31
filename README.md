@@ -476,7 +476,7 @@ Websites with lists of relays and their performance/health:
 - [nostr.hs](https://github.com/delirehberi/nostr.hs)![stars](https://img.shields.io/github/stars/delirehberi/nostr.hs.svg?style=social) - Nostr client library for the Haskell ecosystem
 - [nostr-social-graph](https://github.com/mmalmi/nostr-social-graph)![stars](https://img.shields.io/github/stars/mmalmi/nostr-social-graph.svg?style=social) - TypeScript library for building and querying social graphs from Nostr follow events, with efficient binary serialization and pre-crawled datasets
 - [nwcjs](https://github.com/supertestnet/nwcjs)![stars](https://img.shields.io/github/stars/supertestnet/nwcjs.svg?style=social) - A vanilla JavaScript library for working with Nostr Wallet Connect
-- [@bitmacro/relay-connect](https://github.com/bitmacro/relay-connect)![stars](https://img.shields.io/github/stars/bitmacro/relay-connect.svg?style=social) - TypeScript SDK for NIP-46 (Nostr Connect) and NIP-07 browser extension signing. Used with BitMacro Relay Manager and relay-connect-web reference app.
+- [@bitmacro/relay-connect](https://github.com/bitmacro/relay-connect)![stars](https://img.shields.io/github/stars/bitmacro/relay-connect.svg?style=social) - TypeScript SDK for NIP-46 (Nostr Connect) and NIP-07 browser extension signing.
 
 ## Bridges and Gateways
 
@@ -657,7 +657,7 @@ Websites with lists of relays and their performance/health:
 - [easyNostr-NIP05](https://wordpress.org/plugins/easynostr-nip05/) - WordPress plugin to enable your site as a NIP-05 endpoint for every registered user on your system using your domain.
 - [easyNostr](https://easyNostr.com) - NIP-05 ID provider: Use your own domain, or one of ours: nostr.ly, mynostr.io, easyNostr.com.
 - [getalby.com](https://getalby.com/) - Lightning wallet with NIP-05 ID registration service.
-- [id.bitmacro.io](https://id.bitmacro.io) — Sovereign Nostr identity bundle: NIP-05 + Lightning Address + relay access. Free community tier (@app.bitmacro.io) and premium tier (@bitmacro.io). Non-custodial Lightning proxy.
+- [id.bitmacro.io](https://id.bitmacro.io) — Sovereign Nostr identity bundle: NIP-05 + Lightning Address + relay access. Non-custodial Lightning proxy.
 - [iris.to](https://iris.to) - A Nostr client that provides a free NIP-05 ID
  - [Iris Meet](https://meet.iris.to) - Videocalls over Nostr webrtc signaling
  - [Iris Docs](https://docs.iris.to) - Collaborative document editing over Nostr & blossom
