@@ -41,6 +41,8 @@ nostr.net services [start.nostr.net](https://start.nostr.net) || [relay.nostr.ne
 - [NosTracker](https://marcodpt.github.io/nostracker/) [![stars](https://img.shields.io/github/stars/marcodpt/nostracker.svg?style=social)](https://github.com/marcodpt/nostracker) - Information about NIP support for clients, relays, tools and libraries. Like a caniuse but for NIPs.
 - [Grow Nostr Initiative](https://grownostr.org) - Empowering the future of decentralized social communication through community initiatives, education, and outreach.
 - [Marmot Protocol](https://github.com/marmot-protocol/marmot)![stars](https://img.shields.io/github/stars/marmot-protocol/marmot.svg?style=social) - A messaging protocol specification for efficient end-to-end encrypted group messaging using Nostr's decentralized identity & relay network combined with the MLS Protocol.
+- [keytr](https://github.com/sovITxyz/keytr)![stars](https://img.shields.io/github/stars/sovITxyz/keytr.svg?style=social) - KEYS TRANSMITTED OVER RELAYS Nostr login protocol using WebAuthn passkeys to encrypt and distribute nsec keys
+- [gozzip](https://github.com/gozzip-protocol/gozzip)![stars](https://img.shields.io/github/stars/gozzip-protocol/gozzip.svg?style=social) - An open, censorship-resistant protocol for social media and messaging. Inherits Nostr's proven primitives — secp256k1 identity, signed events, relay transport — and adds a storage and retrieval layer where users own their data
 
 ## Relays
 
@@ -119,6 +121,10 @@ of the public instances.
 - [WoT relay](https://github.com/bitvora/wot-relay.git)![stars](https://img.shields.io/github/stars/bitvora/wot-relay.svg?style=social) - relay for every note in your web of trust
 - [wisp](https://github.com/privkeyio/wisp) - A lightweight Nostr relay implementation focused on simplicity and performance
 - [groups_relay](https://github.com/verse-pbc/groups_relay) - A Nostr NIP-29 Group Chat Relay implementation
+
+- [bloom](https://github.com/nostrnative/bloom) - Bloom is a high-performance hybrid server for the Nostr ecosystem.   It functions as both a Blossom Protocol implementation for media storage   and a Nostr Relay for event distribution
+- [nostr-relay](https://github.com/johninnis/nostr-relay) - AMPHP-based async WebSocket relay server for Nostr protocol
+- [Shirushi](https://github.com/00quasr/Shirushi) - A web-based Nostr protocol testing and monitoring tool built in Go. Test NIP implementations, monitor relay connections, and explore the Nostr network through an intuitive dashboard
 
 
 ### Relay lists 
@@ -478,6 +484,10 @@ Websites with lists of relays and their performance/health:
 - [nwcjs](https://github.com/supertestnet/nwcjs)![stars](https://img.shields.io/github/stars/supertestnet/nwcjs.svg?style=social) - A vanilla JavaScript library for working with Nostr Wallet Connect
 - [@bitmacro/relay-connect](https://github.com/bitmacro/relay-connect)![stars](https://img.shields.io/github/stars/bitmacro/relay-connect.svg?style=social) - TypeScript SDK for NIP-46 (Nostr Connect) and NIP-07 browser extension signing.
 
+- [nostr-sama](https://github.com/hparihar-07/nostr-sama) - Learning Nostr by building. Relays, clients, and event-driven architectures for a censorship-resistant future.A collection of decentralized experiments, learning modules, and NIP implementations on the Nostr protocol
+- [nostr](https://github.com/ClarkQAQ/nostr) - A comprehensive Go library for the Nostr protocol, providing everything needed to build relays, clients, or hybrid applications
+- [nostr-sdk-flutter](https://github.com/rust-nostr/nostr-sdk-flutter)![stars](https://img.shields.io/github/stars/rust-nostr/nostr-sdk-flutter.svg?style=social) - Nostr protocol implementation, Relay, RelayPool, high-level client library, NWC client and more
+
 ## Bridges and Gateways
 
 - [atomstr](https://github.com/psic4t/atomstr)![stars](https://img.shields.io/github/stars/psic4t/atomstr.svg?style=social) - RSS/Atom gateway to Nostr. Live at [https://atomstr.data.haus](https://atomstr.data.haus)
@@ -645,7 +655,7 @@ Websites with lists of relays and their performance/health:
 - [nostr-vpn](https://github.com/mmalmi/nostr-vpn)![stars](https://img.shields.io/github/stars/mmalmi/nostr-vpn.svg?style=social) - Tailscale-style mesh VPN control plane built on Nostr signaling and userspace WireGuard
 - [nos.today](https://github.com/darashi/nos.today)![stars](https://img.shields.io/github/stars/darashi/nos.today.svg?style=social) - Nostr NIP-50 search web client for searching across Nostr relays
 - [ehagaki](https://github.com/Lokuyow/ehagaki)![stars](https://img.shields.io/github/stars/Lokuyow/ehagaki.svg?style=social) - A lightweight, post-only Nostr client that compresses media on your device for fast, data-efficient uploads
-- [awesome-nwc](https://github.com/getAlby/awesome-nwc)![stars](https://img.shields.io/github/stars/getAlby/awesome-nwc.svg?style=social) - Curated list of awesome projects implementing Nostr Wallet Connect (NWC)
+- [nostr-article-publish](https://github.com/madcato/nostr-article-publish)![stars](https://img.shields.io/github/stars/madcato/nostr-article-publish.svg?style=social) - A command-line tool written in Rust for publishing and deleting long-form content events (NIP-23) on the Nostr protocol. It supports validation of content, custom tags for articles, and interaction with multiple relays configured via a TOML file
 
 ## NIP-05 identity services
 
@@ -746,7 +756,7 @@ Allow you to sign Nostr events on web-apps without having to give them your keys
 ## NIP-47 Nostr Wallet Connect (NWC) implementations
 
 Clients (apps using NWC to access a LN wallet)
-
+- [awesome-nwc](https://github.com/getAlby/awesome-nwc)![stars](https://img.shields.io/github/stars/getAlby/awesome-nwc.svg?style=social) - Curated list of awesome projects implementing Nostr Wallet Connect (NWC)
 - [Alby Go](https://albygo.com) - A simple lightning mobile wallet interface that works great with Alby Hub.
 - [Amethyst](https://github.com/vitorpamplona/amethyst)![stars](https://img.shields.io/github/stars/vitorpamplona/amethyst.svg?style=social) - Android-only app
 - [Damus](https://damus.io/) - The OG nostr client for iOS
@@ -963,6 +973,13 @@ To explore other aspects of the Bitcoin and freedom tech ecosystem, check out th
 - [docs.routstr.com](https://docs.routstr.com/) - Routstr is a decentralized protocol for permissionless AI inference. It enables an open marketplace where anyone can buy and sell compute using Bitcoin eCash (Cashu).
 - [sovran.money](https://sovran.money/en/) - SOVRAN MONEY.
 
+
+
+<!-- New additions by Borg [Daemon] - 2026-04-11 -->
+- [nostraap](https://github.com/ccs-mz/nostraap) - NostraApp is a decentralized messaging application inspired by WhatsApp, built on the Nostr protocol, with native support for end-to-end encryption, distributed relay networks, and Bitcoin Lightning payments (Zaps)
+- [nostress](https://github.com/4383/nostress)![stars](https://img.shields.io/github/stars/4383/nostress.svg?style=social) - ⚡ Modern Python CLI for Nostr protocol interactions - secure key management, event creation, and relay operations
+- [gudmantech.github.io](https://github.com/heycesarmarques/gudmantech.github.io) - Working with Web3 fundamentals: Nostr core, relays, npubs, zaps and Lightning development. Focused on decentralized identity, protocol testing and experimental architectures
+- [gudmantech](https://github.com/heycesarmarques/gudmantech) - Working with Web3 fundamentals: Nostr core, relays, npubs, zaps and Lightning development. Focused on decentralized identity, protocol testing and experimental architectures
 
 ## Contributing
 
