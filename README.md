@@ -664,7 +664,7 @@ Websites with lists of relays and their performance/health:
 - [easyNostr-NIP05](https://wordpress.org/plugins/easynostr-nip05/) - WordPress plugin to enable your site as a NIP-05 endpoint for every registered user on your system using your domain.
 - [easyNostr](https://easyNostr.com) - NIP-05 ID provider: Use your own domain, or one of ours: nostr.ly, mynostr.io, easyNostr.com.
 - [getalby.com](https://getalby.com/) - Lightning wallet with NIP-05 ID registration service.
-- [id.bitmacro.io](https://id.bitmacro.io) — Sovereign Nostr identity bundle: NIP-05 + Lightning Address + relay access. Non-custodial Lightning proxy.
+- [id.bitmacro.io](https://id.bitmacro.io) - Sovereign Nostr identity bundle: NIP-05 + Lightning Address + relay access. Non-custodial Lightning proxy.
 - [iris.to](https://iris.to) - A Nostr client that provides a free NIP-05 ID
  - [Iris Meet](https://meet.iris.to) - Videocalls over Nostr webrtc signaling
  - [Iris Docs](https://docs.iris.to) - Collaborative document editing over Nostr & blossom
