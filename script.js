@@ -13,19 +13,22 @@ let isSwiping = false;
 const colorThemes = {
     default: {
         light: {
-            primary: '#4a314d',
-            background: '#ffffff',
-            text: '#1a090d',
-            cardBackground: '#f8f9fa',
-            sidebarBackground: '#6b6570',
-            hoverColor: '#ace894'
+            primary: '#e05297',
+            background: '#fdf8f3',
+            text: '#2d1b3d',
+            cardBackground: '#ffffff',
+            sidebarBackground: '#f6f0f8',
+            hoverColor: '#fef4fb',
+            linkColor: '#7c5cbf'
         },
         dark: {
-            background: '#1a1a1a',
-            text: '#e8e8e8',
-            cardBackground: '#2d2d2d',
-            sidebarBackground: '#333333',
-            linkColor: '#88cc88'
+            primary: '#ff7eb3',
+            background: '#191020',
+            text: '#ede8f5',
+            cardBackground: '#241b2e',
+            sidebarBackground: '#1e1528',
+            hoverColor: 'rgba(255, 126, 179, 0.06)',
+            linkColor: '#c4b5fd'
         }
     },
     purple: {
