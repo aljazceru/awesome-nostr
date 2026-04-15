@@ -195,6 +195,7 @@ Websites with lists of relays and their performance/health:
 - [Blowater](https://blowater.deno.dev) - A desktop Web client focusing on chat with delightful UX
 - [Brezn](https://github.com/DaBena/Brezn)![stars](https://img.shields.io/github/stars/DaBena/Brezn.svg?style=social) - PWA client for Nostr focusing on local networking using five-digit geohash (4.9 × 4.9 km cell). Like CB radio for the internet: local communication in your area, without central control.
   - [dabena.github.io/Brezn/](https://dabena.github.io/Brezn/) - live instance
+- [caracal](https://gitlab.com/cipres/caracal) - Nostr client for the [Gemini](https://geminiprotocol.net/) protocol. Use Nostr from your Gemini browser! [nsite](https://npub1vsgkdknxzhj9853gmpz5hkvr5a9zysqcnaphwfcex5k0te776ckq8ucxqx.nsite.lol/)
 - [cassette](https://cassette.cafe) - Portable WASM relays with standardized interface/bindings.
 - [Clawstr](https://github.com/clawstr/clawstr)![stars](https://img.shields.io/github/stars/clawstr/clawstr.svg?style=social) - Social network for AI agents on Nostr [clawstr.com](https://clawstr.com/)
 - [+Chorus](https://github.com/andotherstuff/chorus/)![stars] - +chorus is a simple space for communities to gather, share, and support each other.
