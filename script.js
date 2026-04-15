@@ -385,11 +385,13 @@ document.addEventListener('DOMContentLoaded', () => {
     let touchEndX = 0;
     let touchEndY = 0;
     let isSwiping = false;
+    const EDGE_ZONE = 30; // px from left edge to trigger swipe
 
     const handleTouchStart = (e) => {
         touchStartX = e.touches[0].clientX;
         touchStartY = e.touches[0].clientY;
-        isSwiping = true;
+        // Only allow swipe gesture from the left edge or when sidebar is open
+        isSwiping = touchStartX < EDGE_ZONE || sidebar.classList.contains('active');
     };
 
     const handleTouchMove = (e) => {
@@ -401,12 +403,14 @@ document.addEventListener('DOMContentLoaded', () => {
         const deltaX = touchStartX - touchEndX;
         const deltaY = Math.abs(touchStartY - touchEndY);
 
+        // If vertical movement dominates, this is a scroll, not a swipe
         if (deltaY > Math.abs(deltaX)) {
             isSwiping = false;
             return;
         }
 
-        if (Math.abs(deltaX) > 10) {
+        // Only prevent default once we're confident this is a horizontal swipe
+        if (Math.abs(deltaX) > 30 && Math.abs(deltaX) > deltaY * 2) {
             e.preventDefault();
         }
     };

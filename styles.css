@@ -1,6 +1,6 @@
-:root {
-    @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
 
+:root {
     --primary-color: #3a0ca3;;
     --background-color: #c8e7ff;
     --text-color: #1a090d;
@@ -37,6 +37,8 @@ body {
     background-color: var(--background-color);
     color: var(--text-color);
     line-height: 1.6;
+    overflow-wrap: break-word;
+    word-break: break-word;
 }
 
 .container {
@@ -167,8 +169,9 @@ body {
     padding: 2rem;
     padding-top: 80px; /* Increased padding-top to account for fixed nav */
     flex: 1;
-    min-height: 100vh;
-    overflow: auto;
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
     margin-top: 0;
     -webkit-overflow-scrolling: touch;
     overscroll-behavior: contain;
@@ -291,6 +294,9 @@ body {
     .main-content {
         margin-left: 0;
         padding-top: 100px; /* Increase padding-top for mobile to account for wrapped nav elements */
+        height: auto;
+        overflow: visible;
+        overscroll-behavior: auto;
     }
 
     .menu-toggle {
@@ -355,6 +361,8 @@ body {
 .markdown-content {
     padding: 10px;
     line-height: 1.5;
+    overflow-wrap: break-word;
+    word-break: break-word;
 }
 
 .markdown-content a {
@@ -364,6 +372,27 @@ body {
 
 .markdown-content a:hover {
     text-decoration: underline;
+}
+
+.markdown-content img {
+    max-width: 100%;
+    height: auto;
+}
+
+.markdown-content pre {
+    overflow-x: auto;
+    max-width: 100%;
+}
+
+.markdown-content code {
+    overflow-wrap: break-word;
+    word-break: break-all;
+}
+
+.markdown-content table {
+    display: block;
+    overflow-x: auto;
+    max-width: 100%;
 }
 
 /* Update contributors grid styles */
@@ -598,6 +627,7 @@ button:focus {
     right: 0;
     z-index: 1001;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    overflow: hidden;
 }
 
 .nav-content {
@@ -660,6 +690,7 @@ button:focus {
         gap: 0.5rem;
         padding: 0.5rem 1rem;
         margin-left: 2.5rem; /* Space for menu toggle */
+        max-width: calc(100% - 2.5rem);
     }
 
     .logo-container {
