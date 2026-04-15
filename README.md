@@ -602,6 +602,8 @@ Websites with lists of relays and their performance/health:
 - [nostr.io](https://nostr.io/) - network statistics with last published notes, top 50 publishers, and top 50 followed users
 - [nostr.json generator](https://github.com/SnowCait/nostr-json-generator)![stars](https://img.shields.io/github/stars/SnowCait/nostr-json-generator.svg?style=social) - Generate NIP-05 nostr.json from NIP-65 or NIP-07
 - [NostrAirTracker](https://github.com/gourcetools/NostrAirTracker)![stars](https://img.shields.io/github/stars/gourcetools/NostrAirTracker.svg?style=social) - Elonjet on Nostr
+- [nostraap](https://github.com/ccs-mz/nostraap) - NostraApp is a decentralized messaging application inspired by WhatsApp, built on the Nostr protocol, with native support for end-to-end encryption, distributed relay networks, and Bitcoin Lightning payments (Zaps)
+- [nostress](https://github.com/4383/nostress)![stars](https://img.shields.io/github/stars/4383/nostress.svg?style=social) - ⚡ Modern Python CLI for Nostr protocol interactions - secure key management, event creation, and relay operations
 - [nostrame](https://github.com/Anderson-Juhasc/nostrame)![stars](https://img.shields.io/github/stars/Anderson-Juhasc/nostrame.svg?style=social) - Nostr Signer and Account Management Extension 
 - [nostrandom.netlify.app](https://nostrandom.netlify.app/) - generate publish-able Nostr event with random keys
 - [nostrefresh](https://github.com/melvincarvalho/nostrefresh)![stars](https://img.shields.io/github/stars/melvincarvalho/nostrefresh.svg?style=social) - simple refresh function for nostr web pages
@@ -661,6 +663,7 @@ Websites with lists of relays and their performance/health:
 - [nos.today](https://github.com/darashi/nos.today)![stars](https://img.shields.io/github/stars/darashi/nos.today.svg?style=social) - Nostr NIP-50 search web client for searching across Nostr relays
 - [ehagaki](https://github.com/Lokuyow/ehagaki)![stars](https://img.shields.io/github/stars/Lokuyow/ehagaki.svg?style=social) - A lightweight, post-only Nostr client that compresses media on your device for fast, data-efficient uploads
 - [nostr-article-publish](https://github.com/madcato/nostr-article-publish)![stars](https://img.shields.io/github/stars/madcato/nostr-article-publish.svg?style=social) - A command-line tool written in Rust for publishing and deleting long-form content events (NIP-23) on the Nostr protocol. It supports validation of content, custom tags for articles, and interaction with multiple relays configured via a TOML file
+- [vertexlab.io](https://vertexlab.io/) - A set of tools and services for web-of-trust analysis, filtering, and search.
 
 ## NIP-05 identity services
 
@@ -977,17 +980,6 @@ To explore other aspects of the Bitcoin and freedom tech ecosystem, check out th
 - [lightning-network.tech](https://www.lightning-network.tech/)  - A curated collection of essential tools, guides, and communities for Bitcoin Lightning Network node operators.
 - [liquidnetwork.wiki](https://liquidnetwork.wiki) - A curated list of Liquid Network resources, libraries, tools and applications
 - [ark-protocol.com](https://ark-protocol.com) - A directory of Ark protocol resources, libraries, tools and applications
-- [vertexlab.io](https://vertexlab.io/) - A set of tools and services for web-of-trust analysis, filtering, and search.
-- [docs.routstr.com](https://docs.routstr.com/) - Routstr is a decentralized protocol for permissionless AI inference. It enables an open marketplace where anyone can buy and sell compute using Bitcoin eCash (Cashu).
-- [sovran.money](https://sovran.money/en/) - SOVRAN MONEY.
-
-
-
-<!-- New additions by Borg [Daemon] - 2026-04-11 -->
-- [nostraap](https://github.com/ccs-mz/nostraap) - NostraApp is a decentralized messaging application inspired by WhatsApp, built on the Nostr protocol, with native support for end-to-end encryption, distributed relay networks, and Bitcoin Lightning payments (Zaps)
-- [nostress](https://github.com/4383/nostress)![stars](https://img.shields.io/github/stars/4383/nostress.svg?style=social) - ⚡ Modern Python CLI for Nostr protocol interactions - secure key management, event creation, and relay operations
-- [gudmantech.github.io](https://github.com/heycesarmarques/gudmantech.github.io) - Working with Web3 fundamentals: Nostr core, relays, npubs, zaps and Lightning development. Focused on decentralized identity, protocol testing and experimental architectures
-- [gudmantech](https://github.com/heycesarmarques/gudmantech) - Working with Web3 fundamentals: Nostr core, relays, npubs, zaps and Lightning development. Focused on decentralized identity, protocol testing and experimental architectures
 
 ## Contributing
 
