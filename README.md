@@ -525,6 +525,7 @@ Websites with lists of relays and their performance/health:
 - [Clonable](https://www.mutable.top/clonable) - A standalone feature of Mutable: Migrate your profile, follows, mutes, and relays from another account to your current keyset. Useful when recovering from a compromised key.
 - [contact cloud](https://github.com/canostrical/contact_cloud)![stars](https://img.shields.io/github/stars/canostrical/contact_cloud.svg?style=social) - Discover the Nostr contact list graph and your own pubkey in it.
 - [Contact list backup](https://nostr.xport.top/contact-list-backup/) - Backup and restore your contacts
+- [FMD (Find my device)](https://gitlab.com/Kalle/fmd-android/-/tree/nostr-marmot?ref_type=heads) - Find your device and control it remotely. Works over Marmot (Nostr), SMS, instant messengers, or FMD Server's web interface. A secure open source alternative to Google's Find Hub. This is a fork of [FMD Android](https://gitlab.com/fmd-foss/fmd-android).
 - [following.space](https://github.com/callebtc/following.space)![stars](https://img.shields.io/github/stars/callebtc/following.space.svg?style=social) - create and explore follow packs for nostr, find lists of users to follow
 - [Ghostr](https://github.com/dmnyc/ghostr)![stars](https://img.shields.io/github/stars/dmnyc/ghostr.svg?style=social) - Dead simple post delegation workflow for Nostr. Writers draft, publishers sign. No scary key sharing required.
   - [ghostr.org](https://ghostr.org/) - live instance
