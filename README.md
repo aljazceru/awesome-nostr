@@ -351,6 +351,7 @@ Websites with lists of relays and their performance/health:
 - [Shipyard](https://shipyard.pub/) - Write, schedule, and boost your notes.
 - [shockwallet](https://github.com/shocknet/wallet2)![stars](https://img.shields.io/github/stars/shocknet/wallet2.svg?style=social) - A Lightning wallet that uses nostr and lnurl to connect to nodes
 - [SIGit](https://sigit.io) - An open-source, self-hostable solution for secure document signing and verification.
+- [Skatting](https://github.com/WimYedema/skatting)![stars](https://img.shields.io/github/stars/WimYedema/skatting.svg?style=social) - Serverless 2D ticket estimation for agile teams. Express effort + certainty by dragging a log-normal blob on a 2D canvas. P2P via WebRTC (Nostr + MQTT signaling) with AES-256-GCM encrypted Nostr relay fallback. No signup, no server.
 - [Snort](https://github.com/v0l/snort)![stars](https://img.shields.io/github/stars/v0l/snort.svg?style=social) - Nostr UI written in react
   - [snort.social](https://snort.social)
 - [Spring Browser](https://spring.site) - Nostr-focused browser app for Android.
