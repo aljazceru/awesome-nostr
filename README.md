@@ -294,6 +294,7 @@ Websites with lists of relays and their performance/health:
   - [nuxstr.nostrver.se](https://nuxstr.nostrver.se) - demo
 - [n_cord](https://github.com/0n4t3/n_cord)![stars](https://img.shields.io/github/stars/0n4t3/n_cord.svg?style=social) - A Discord inspired chat style client standard Nostr notes, built in static HTML & JavaScript.
   - [0n4t3.github.io/n_cord/](https://0n4t3.github.io/n_cord/) - live instance
+- [Obelisk](https://obelisk.ar) [![stars](https://img.shields.io/github/stars/Fabricio333/obelisk.svg?style=social)](https://github.com/Fabricio333/obelisk) - Discord-like group chat app where identity comes from Nostr keypairs. Supports real-time messaging, roles, and voice channels.
 - [Olas](https://github.com/pablof7z/olas)![stars](https://img.shields.io/github/stars/pablof7z/olas.svg?style=social) - An instagram-like client
 - [Oracolo](https://github.com/dtonon/oracolo)![stars](https://img.shields.io/github/stars/dtonon/oracolo.svg?style=social) - Oracolo is a minimalist blog, powered by Nostr, that consists of a single html file.
 - [OstrichGram](https://ostrichgram.com) - OstrichGram is a Telegram-style desktop app for Linux and Windows featuring group chats and DMs.
