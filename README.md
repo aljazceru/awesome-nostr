@@ -17,6 +17,8 @@ nostr.net services [start.nostr.net](https://start.nostr.net) || [relay.nostr.ne
 - [primal.net](https://primal.net/)
 - [coracle.social](https://coracle.social/)
 - [YakiHonne](https://yakihonne.com)
+- [primal-web-app](https://github.com/primalhq/primal-web-app)![stars](https://img.shields.io/github/stars/primalhq/primal-web-app.svg?style=social) - Primal web client
+- [nostr.build](https://github.com/nostrbuild/nostr.build)![stars](https://img.shields.io/github/stars/nostrbuild/nostr.build.svg?style=social) - Nostr media and content builder
 - [Ditto](https://ditto.pub)
 
 ### Other
@@ -43,6 +45,9 @@ nostr.net services [start.nostr.net](https://start.nostr.net) || [relay.nostr.ne
 - [Marmot Protocol](https://github.com/marmot-protocol/marmot)![stars](https://img.shields.io/github/stars/marmot-protocol/marmot.svg?style=social) - A messaging protocol specification for efficient end-to-end encrypted group messaging using Nostr's decentralized identity & relay network combined with the MLS Protocol.
 - [keytr](https://github.com/sovITxyz/keytr)![stars](https://img.shields.io/github/stars/sovITxyz/keytr.svg?style=social) - KEYS TRANSMITTED OVER RELAYS Nostr login protocol using WebAuthn passkeys to encrypt and distribute nsec keys
 - [gozzip](https://github.com/gozzip-protocol/gozzip)![stars](https://img.shields.io/github/stars/gozzip-protocol/gozzip.svg?style=social) - An open, censorship-resistant protocol for social media and messaging. Inherits Nostr's proven primitives — secp256k1 identity, signed events, relay transport — and adds a storage and retrieval layer where users own their data
+- [nostr-tools](https://github.com/nbd-wtf/nostr-tools)![stars](https://img.shields.io/github/stars/nbd-wtf/nostr-tools.svg?style=social) - Tools for nostr protocol development
+- [nak](https://github.com/fiatjaf/nak)![stars](https://img.shields.io/github/stars/fiatjaf/nak.svg?style=social) - Nostr toolkit in JS
+- [nostr](https://github.com/rust-nostr/rust-nostr)![stars](https://img.shields.io/github/stars/rust-nostr/rust-nostr.svg?style=social) - Rust Nostr SDK
 
 ## Relays
 
@@ -199,6 +204,8 @@ Websites with lists of relays and their performance/health:
 - [NosCall](https://github.com/sanah9/noscall)![stars](https://img.shields.io/github/stars/sanah9/noscall.svg?style=social) -  A secure audio and video calling app built on Nostr protocol. Features end-to-end encrypted calls with cross-platform support.
 - [Nymchat](https://github.com/Spl0itable/NYM)![stars](https://img.shields.io/github/stars/Spl0itable/NYM.svg?style=social) -  A like iRC lightweight, yet feature-rich, ephemeral chat client built on Nostr protocol, bridged with Bitchat for anonymous, temporary messaging.
 - [Pika](https://github.com/sledtools/pika)![stars](https://img.shields.io/github/stars/sledtools/pika.svg?style=social) -  End-to-end encrypted messaging for iOS, Android, and Desktop, built on MLS over Nostr.
+- [primal-android-app](https://github.com/primalhq/primal-android-app)![stars](https://img.shields.io/github/stars/primalhq/primal-android-app.svg?style=social) - Primal Android client
+- [primal-ios-app](https://github.com/primalhq/primal-ios-app)![stars](https://img.shields.io/github/stars/primalhq/primal-ios-app.svg?style=social) - Primal iOS client
 
 ### Other  
 - [Agora](https://agorasocial.app) ![stars](https://img.shields.io/github/stars/ghobs91/agora.svg?style=social) - Follow your favorite topics in nostr-verse (and even posts from Mastodon, Reddit, Bluesky, and Twitter)
@@ -662,6 +669,9 @@ Websites with lists of relays and their performance/health:
 - [nostraap](https://github.com/ccs-mz/nostraap) - NostraApp is a decentralized messaging application inspired by WhatsApp, built on the Nostr protocol, with native support for end-to-end encryption, distributed relay networks, and Bitcoin Lightning payments (Zaps)
 - [nostress](https://github.com/4383/nostress)![stars](https://img.shields.io/github/stars/4383/nostress.svg?style=social) - ⚡ Modern Python CLI for Nostr protocol interactions - secure key management, event creation, and relay operations
 - [nostrame](https://github.com/Anderson-Juhasc/nostrame)![stars](https://img.shields.io/github/stars/Anderson-Juhasc/nostrame.svg?style=social) - Nostr Signer and Account Management Extension 
+- [nostrum](https://github.com/kraigie/nostrum)![stars](https://img.shields.io/github/stars/kraigie/nostrum.svg?style=social) - A nostr client for iOS
+- [nostr-client](https://github.com/marfusios/nostr-client)![stars](https://img.shields.io/github/stars/marfusios/nostr-client.svg?style=social) - Nostr client library for Dart/Flutter
+- [topaz](https://github.com/fiatjaf/topaz)![stars](https://img.shields.io/github/stars/fiatjaf/topaz.svg?style=social) - A nostr client for iOS
 - [nostrandom.netlify.app](https://nostrandom.netlify.app/) - generate publish-able Nostr event with random keys
 - [nostrefresh](https://github.com/melvincarvalho/nostrefresh)![stars](https://img.shields.io/github/stars/melvincarvalho/nostrefresh.svg?style=social) - simple refresh function for nostr web pages
 - [nostrends](https://github.com/akiomik/nostrends)![stars](https://img.shields.io/github/stars/akiomik/nostrends?style=social) - Trending on Nostr, like Twitter trends. Live at [nostrends.vercel.app](https://nostrends.vercel.app).
