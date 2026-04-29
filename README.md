@@ -901,7 +901,6 @@ Endpoints (services or apps that expose a LN wallet via NWC)
 - [ZeusLN](https://github.com/ZeusLN/zeus)![stars](https://img.shields.io/github/stars/ZeusLN/zeus.svg?style=social) - A mobile Bitcoin/Lightning app for LND, Core Lightning, and Eclair node operators
 - [CDK](https://cashudevkit.org) - Cashu Development Kit for building ecash wallets and mints.
 - [eNuts](https://enuts.cash) - Cross-platform Cashu ecash wallet with Nostr integration.
-- [Geyser](https://geyser.fund) - Crowdfunding platform with Lightning and Nostr support.
 - [Minibits](https://github.com/minibits-cash/minibits_wallet)![stars](https://img.shields.io/github/stars/minibits-cash/minibits_wallet.svg?style=social) - Mobile Cashu ecash wallet with Lightning and Nostr.
 - [Nutoff](https://github.com/gzuuus/nutoff-wallet)![stars](https://img.shields.io/github/stars/gzuuus/nutoff-wallet.svg?style=social) - Cashu wallet integrated with Nostr.
 - [Nutstash](https://wallet.nutstash.app) - Web-based Cashu ecash wallet with Nostr support.
