@@ -34,6 +34,8 @@ nostr.net services [start.nostr.net](https://start.nostr.net) || [relay.nostr.ne
 - [nostrich.love](https://nostrich.love/) - a normie-friendly introduction and quick start guide.
 - [NostrHub](https://nostrhub.io) - Your HUB for all things Nostr. Discover NIPs and publish your own Custom NIPs, Community forum, Nostr app directory, Nostr app GitHub repositories, DVMs, and more.
 - [nostr](https://github.com/nostr-protocol/nostr)![stars](https://img.shields.io/github/stars/nostr-protocol/nostr.svg?style=social) - Overview and FAQ
+- [data-vending-machines](https://github.com/nostr-protocol/data-vending-machines)![stars](https://img.shields.io/github/stars/nostr-protocol/data-vending-machines.svg?style=social) - DVM documentation and kind registry
+- [registry-of-kinds](https://github.com/nostr-protocol/registry-of-kinds)![stars](https://img.shields.io/github/stars/nostr-protocol/registry-of-kinds.svg?style=social) - Registry of NIP kind definitions
 - [tinkering with nostr without any client](https://medium.com/@p2w34/tinkering-with-the-nostr-protocol-will-it-take-twitter-over-74c4bf0fea66)
 - [UseNostr](https://usenostr.org) - A small guide for anyone who wants to learn more about how nostr works and what it can do.
 - [Building Nostr](https://building-nostr.coracle.social/) - A guide for developers building on Nostr (PDF/EPUB available).
