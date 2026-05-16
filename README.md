@@ -34,6 +34,8 @@ nostr.net services [start.nostr.net](https://start.nostr.net) || [relay.nostr.ne
 - [nostrich.love](https://nostrich.love/) - a normie-friendly introduction and quick start guide.
 - [NostrHub](https://nostrhub.io) - Your HUB for all things Nostr. Discover NIPs and publish your own Custom NIPs, Community forum, Nostr app directory, Nostr app GitHub repositories, DVMs, and more.
 - [nostr](https://github.com/nostr-protocol/nostr)![stars](https://img.shields.io/github/stars/nostr-protocol/nostr.svg?style=social) - Overview and FAQ
+- [data-vending-machines](https://github.com/nostr-protocol/data-vending-machines)![stars](https://img.shields.io/github/stars/nostr-protocol/data-vending-machines.svg?style=social) - DVM documentation and kind registry
+- [registry-of-kinds](https://github.com/nostr-protocol/registry-of-kinds)![stars](https://img.shields.io/github/stars/nostr-protocol/registry-of-kinds.svg?style=social) - Registry of NIP kind definitions
 - [tinkering with nostr without any client](https://medium.com/@p2w34/tinkering-with-the-nostr-protocol-will-it-take-twitter-over-74c4bf0fea66)
 - [UseNostr](https://usenostr.org) - A small guide for anyone who wants to learn more about how nostr works and what it can do.
 - [Building Nostr](https://building-nostr.coracle.social/) - A guide for developers building on Nostr (PDF/EPUB available).
@@ -149,6 +151,7 @@ Websites with lists of relays and their performance/health:
 - [nostr.watch](https://nostr.watch)![stars](https://img.shields.io/github/stars/sandwichfarm/nostr-watch.svg?style=social) - real-time checking of the status of some known relays.
 - [relays.xport.top](https://relays.xport.top) - relays list sortable by ping, activity, etc.
 - [trustedrelays.xyz](https://trustedrelays.xyz) - relays list with trust scores for known relays using Trusted Relay Assertions.
+- [nowhere](https://github.com/5t34k/nowhere)![stars](https://img.shields.io/github/stars/5t34k/nowhere.svg?style=social) - Nowhere encodes an entire website into a URL fragment. The site lives in the link itself and is never stored on a server. Eight tools (forum, event, fundraiser, store, petition, message, drop, art) publish without accounts or platform permission. Orders and messages route through Nostr relays using ephemeral keys. (115★)
 
 ## Clients
 ### Long form clients
@@ -329,6 +332,7 @@ Websites with lists of relays and their performance/health:
 - [Nostrmo](https://github.com/haorendashu/nostrmo)![stars](https://img.shields.io/github/stars/haorendashu/nostrmo.svg?style=social) - A flutter nostr client for Android, IOS, MacOS, Windows, Web and Linux.
 - [nostromat](https://github.com/ekimber/nostromat)![stars](https://img.shields.io/github/stars/ekimber/nostromat.svg?style=social) - A Twitter-style Nostr web client, written in Clojurescript/React
   - [nostrom.at](https://nostrom.at) - live instance
+- [Nostrord](https://github.com/nostrord/nostrord)![stars](https://img.shields.io/github/stars/nostrord/nostrord.svg?style=social) - A cross-platform NIP-29 group chat client built with Kotlin Multiplatform & Compose Multiplatform.
 - [Nostros](https://github.com/KoalaSat/nostros)![stars](https://img.shields.io/github/stars/KoalaSat/nostros.svg?style=social) - A nostr mobile client for Android
 - [Nostrtium](https://github.com/pjv/nostrtium)![stars](https://img.shields.io/github/stars/pjv/nostrtium.svg?style=social) - Post to Nostr directly from within WordPress
 - [noStrudel](https://github.com/hzrd149/nostrudel)![stars](https://img.shields.io/github/stars/hzrd149/nostrudel.svg?style=social) - hzrd149's personal nostr client.
@@ -389,7 +393,8 @@ Websites with lists of relays and their performance/health:
   - [Swarmstr](https://swarmstr.com) - live instance
 - [Tamga](https://github.com/erdaltoprak/tamga)![stars](https://img.shields.io/github/stars/erdaltoprak/tamga.svg?style=social) - An offline first nostr contact & profile manager for iOS!
 - [Tides](https://github.com/arbadacarbayk/tides)![stars](https://img.shields.io/github/stars/arbadacarbayk/tides.svg?style=social) - Chrome Extension Messenger with a hotlink for Noderunners Radio Stream
-- [Tollbooth-DPYC](https://github.com/lonniev/dpyc-oracle) - Tollbooth DPYC is a nation state ecosystem for Bitcoin entrepreneurs who monetize their MCP services according the Dont Pester Your Customer
+- [Tollbooth-DPYC](https://github.com/lonniev/dpyc-oracle) - Tollbooth DPYC is a network state ecosystem for Bitcoin entrepreneurs who monetize their MCP services according to the Don't Pester Your Customer (DPYC) principles. 
+- [Tollbooth Pricing Studio](https://github.com/lonniev/tollbooth-pricing-studio) - An iPadOS studio for pricing MCP tools for the Tollbooth-DPYC ecosystem which includes an integrated multi-npub Nostr chat client allowing users to quickly participate in multiple Nostr relay conversations
 - [torrent-gateway](https://codeberg.org/Enkisu/torrent-gateway) - The BitTorrent Gateway seamlessly integrates with the Nostr network to enable decentralized content discovery and social features.
 - [Treasures](https://treasures.to/) - Discover HiddenTreasures. Join the decentralized geocaching adventure powered by Nostr. Hide geocaches, find them, and connect with explorers worldwide.
 - [uBlog](https://github.com/nodetec/ublog) ![stars](https://img.shields.io/github/stars/nodetec/ublog.svg?style=social) - A minimalist blog on nostr that allows anyone to easily create their own personal micro-blog.
@@ -451,6 +456,8 @@ Websites with lists of relays and their performance/health:
 ### Nostr Marketplace clients ([NIP-15](https://github.com/nostr-protocol/nips/blob/master/15.md) & [NIP-99](https://github.com/nostr-protocol/nips/blob/master/99.md))
 
 - [LNBits Nostrmarket](https://github.com/lnbits/nostrmarket)![stars](https://img.shields.io/github/stars/lnbits/nostrmarket.svg?style=social) - Nostrmarket extension for LNBits allows you to sell items directly from your LNBits instance
+- [Conduit Market](https://shop.conduit.market) - Nostr-native marketplace for browsing merchant listings, carts, checkout, order tracking, and buyer-merchant communication. [Source](https://github.com/Conduit-BTC/conduit-mono)
+- [Conduit Merchant Portal](https://sell.conduit.market) - Seller dashboard for managing Nostr-native product listings, orders, Lightning invoices, and buyer conversations. [Source](https://github.com/Conduit-BTC/conduit-mono)
 - [Plebeian Market](https://github.com/PlebeianTech/plebeian-market)![stars](https://img.shields.io/github/stars/PlebeianTech/plebeian-market.svg?style=social) - The Bitcoin-native self-sovereign marketplace built on top of NIP-15 includes fixed-price items and auctions
 - [Shopstr](https://github.com/shopstr-eng/shopstr)![stars](https://img.shields.io/github/stars/shopstr-eng/shopstr.svg?style=social) - The Lightning and Cashu-native self-sovereign marketplace built on top of NIP-99 includes fixed-price items
 - [Kartapio](https://github.com/vstabile/kartapio)![stars](https://img.shields.io/github/stars/vstabile/kartapio.svg?style=social) - A Nostr-based marketplace.
@@ -819,6 +826,7 @@ Websites with lists of relays and their performance/health:
 - [mostro-web](https://github.com/MostroP2P/mostro-web) ![stars](https://img.shields.io/github/stars/MostroP2P/mostro-web.svg?style=social) - Web client to operate with Mostro (WIP)
 - [mostro](https://github.com/MostroP2P/mostro) ![stars](https://img.shields.io/github/stars/MostroP2P/mostro.svg?style=social) -  Daemon for Lightning Network peer-to-peer exchange platform on Nostr (WIP)
 - [n3xB](https://github.com/nobu-maeda/n3xb) ![stars](https://img.shields.io/github/stars/nobu-maeda/n3xb.svg?style=social) - Proposal for a Bitcoin exchange protocol and a globally shared order book on Nostr
+- [Silicon Road](https://siliconroad.ai) ![stars](https://img.shields.io/github/stars/dodbot21guy/silicon-road-web.svg?style=social) - Bitcoin Lightning task marketplace for AI agents. Post tasks, complete work, earn sats. Built on Nostr identity + HTLC escrow, no custodian. SDK for JS/TS and Python.
 
 ## NIP-07 Browser extensions
 
