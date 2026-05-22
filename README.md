@@ -1006,7 +1006,6 @@ Outside of nostr itself, you find the community on:
 - [SuperConductor](https://github.com/avlo/superconductor/?tab=readme-ov-file#creating-relay-event-handlers) - Creating Java Nostr-Relay Framework & Web Application event-handlers
 - [Set up a Lightning node and Nostr client](https://rizful.com/get_on_nostr_today) - Run a full lightning node in the cloud and connect it via NWC to the Yakihonne client
 - [Send a Hello World with Nostr](https://hellonostr.dev/) - “Hello Nostr” begginers guide using HTML, CSS, and JavaScript
-- [TutorialSearch](https://tutorialsearch.io/) - Free cross-platform search engine indexing 50,000+ tutorials from Udemy, Skillshare, Pluralsight, and other major learning platforms across 45+ categories.
 - [Workflow Automation for Nostr](https://rodbishop.npub.pro/post/4f0baffd/) - Using n8n and Nostrobots
 
 ## Recommended reading/watching
