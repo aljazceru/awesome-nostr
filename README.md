@@ -314,7 +314,6 @@ Websites with lists of relays and their performance/health:
   - [playground.nostr.com](https://playground.nostr.com/) - Live instance.
 - [Nostr Web](https://github.com/franzos/nostr-ts) - React web client for static hosting
   - [franzos.github.io/nostr-ts](https://franzos.github.io/nostr-ts/) - preview from `master` branch
-- [nostrapp.link](https://nostrapp.link/)![stars](https://github.com/nostrband/nostr-app-manager) - Nostr App Manager
 - [Nostr Nests](https://nostrnests.com/) - Nostr Nests is an audio space for chatting, brainstorming, debating, jamming, micro-conferences and more.
 - [nostr-chat-widget-react](https://www.npmjs.com/package/nostr-chat-widget-react?activeTab=readme) - A React component that provides a live-chat widget over nostr that can be embedded into any website.
 - [nostr-relay-tray](https://github.com/CodyTseng/nostr-relay-tray)![stars](https://img.shields.io/github/stars/CodyTseng/nostr-relay-tray.svg?style=social) - a simple nostr relay tray app written in Electron
@@ -571,12 +570,17 @@ Websites with lists of relays and their performance/health:
 
 - [Primal](https://github.com/PrimalHQ/primal-caching-service) - Caching service for Nostr connects to the specified set of relays, collects all events in real time, stores them locally, and makes them available to nostr clients through a web socket-based API.
 
+## Stats
+
+- [Nostr Archives](https://nostrarchives.com/) - stats, trending, and analytics for the network.
+- [Nostr Stats](https://stats.andotherstuff.org/) - active users, retention, zaps, relay distribution, and throughput across the network.
+
 ## Tools
 
 - [advanced-nostr-search](https://advancednostrsearch.vercel.app/) - A tool to search Nostr notes.
 - [Amethyst crawler](https://crawler.amethyst.social/) - Find and broadcast nostr events
 - [anonroom](https://github.com/vinliao/anonroom)![stars](https://img.shields.io/github/stars/vinliao/anonroom.svg?style=social) - anonymous chat room inside nostr
-- [Bech32 for Nostr](https://nostr.xport.top/bech32-for-nostr/) - bech32 Nostr converter. 
+- [Bech32 for Nostr](https://nostr.xport.top/bech32-for-nostr/) - bech32 Nostr converter.
 - [blogsync](https://github.com/canostrical/blogsync)![stars](https://img.shields.io/github/stars/canostrical/blogsync.svg?style=social) - Self-host blog articles from long-form notes e.g. via Caddy server.
 - [Bloom]( https://github.com/Letdown2491/bloom)![stars](https://img.shields.io/github/stars/letdown2491/bloom.svg?style=social) - A file‑manager interface (edit metadata, share items, create shareable folders) for files and blobs stored on Blossom and NIP‑96 servers.
   - [bloomapp.me](https://bloomapp.me/) - live instance
@@ -742,7 +746,6 @@ Websites with lists of relays and their performance/health:
 - [Innpub](https://github.com/futurepaul/innpub)![stars](https://img.shields.io/github/stars/futurepaul/innpub.svg?style=social) - Local pub/community discovery on Nostr.
 - [Mapnolia](https://github.com/zeSchlausKwab/mapnolia)![stars](https://img.shields.io/github/stars/zeSchlausKwab/mapnolia.svg?style=social) - Map-based Nostr client.
 - [NEET](https://github.com/justinmoon/neet-native)![stars](https://img.shields.io/github/stars/justinmoon/neet-native.svg?style=social) - Native Nostr application toolkit.
-- [Nostr.band](https://nostr.band) - Nostr search engine, profile and content discovery service.
 - [Nostrocket](https://github.com/nostrocket/oxygen)![stars](https://img.shields.io/github/stars/nostrocket/oxygen.svg?style=social) - Decentralized project management on Nostr.
 - [Nsite](https://nsite.run) - Static website hosting using Nostr events and Blossom.
 - [Nstart](https://nstart.me) - Onboarding wizard that helps new users create a Nostr identity.
@@ -802,7 +805,6 @@ Websites with lists of relays and their performance/health:
 - [Keydex](https://github.com/mplorentz/keydex)![stars](https://img.shields.io/github/stars/mplorentz/keydex.svg?style=social) - Nostr key management application.
 - [keyNest](https://github.com/gzuuus/keynest)![stars](https://img.shields.io/github/stars/gzuuus/keynest.svg?style=social) - Nostr key management tool.
 - [Keystache](https://github.com/nodetec/keystache)![stars](https://img.shields.io/github/stars/nodetec/keystache.svg?style=social) - Cross-platform Nostr signer.
-- [Nsec App](https://nsec.app) - Browser-based NIP-46 bunker that lets you sign events without exposing your nsec.
 - [OAuth Bunker](https://github.com/flox1an/oauth-bunker)![stars](https://img.shields.io/github/stars/flox1an/oauth-bunker.svg?style=social) - OAuth-style NIP-46 bunker for Nostr.
 
 ## Vanity pubkey mining
@@ -1009,6 +1011,7 @@ Outside of nostr itself, you find the community on:
 - [Workflow Automation for Nostr](https://rodbishop.npub.pro/post/4f0baffd/) - Using n8n and Nostrobots
 
 ## Recommended reading/watching
+
 - [Nostr, an introduction](https://wiki.wellorder.net/post/nostr-intro/) - written by scsibug
 - [Why I'm Betting Big On Nostr](https://hivemind.vc/nostr/) - written by Max Webster, Hivemind VC
 - [Why Nostr Matters](https://blog.lopp.net/why-nostr-matters/) -  written by Jameson Lopp
@@ -1018,14 +1021,20 @@ Outside of nostr itself, you find the community on:
 - [Decentralizing Global Markets with Nostr](https://www.youtube.com/watch?v=WtpY_pQ3zcI) - Guy Swann and Pablof7z
 - [FEDSTR: Money-In AI-Out | A Decentralized Marketplace for Federated Learning and LLM Training on the NOSTR Protocol](https://arxiv.org/abs/2404.15834) - written by Konstantinos E. Nikolakakis, George Chantzialexiou, Dionysis Kalogerias.
 - [Exploring the Nostr Ecosystem: A Study of Decentralization and Resilience](https://arxiv.org/abs/2402.05709) -  written by Yiluo Wei, Gareth Tyson.
-
 ## Podcasts
+
 - [Nostrovia Podcast](https://nostrovia.org/) - A Nostr podcast covering all the new projects, all the new cool stuff, all the new NIPs
 - [Nost talks](https://www.curiousdk.com/podcast) - Nostr related news and interviews
 - [Thank God for Nostr](https://tgfb.com/podcasts/thank-god-for-nostr/) - The Thank God For Nostr podcast explores the ins and outs of Nostr, the decentralized social protocol, through a Christian lens
 - [La Cosa Nostr](https://tunein.com/podcasts/Technology-Podcasts/La-Cosa-Nostr---The-Decentralized-Network-p3709902/?topicId=338397586) - A podcast about the Nostr decentralized communications protocol.
 - [No Strings](https://www.fountain.fm/show/jCajOVJfkIXAkAyqvmW6) - freedom tech podcast
 - [Plebchain Radio](https://fountain.fm/show/0N6GGdZuYNNG7ysagCg9) - weekly live audio show made for plebs, by plebs which focuses on the intersection of Nostr protocol and Bitcoin plebs.
+
+## Funding
+
+- [OpenSats](https://opensats.org/funds/nostr) - funds FOSS nostr projects.
+- [Human Rights Foundation](https://hrf.org/program/micro-grants/) - funds bitcoin and other freedom tech projects.
+- [FUTO](https://futo.tech/grants/fellows) - funds FOSS projects via fellowship.
 
 ## Other links
 
@@ -1053,9 +1062,10 @@ Outside of nostr itself, you find the community on:
 - [wellorder nostr datasets](https://wiki.wellorder.net/wiki/nostr-datasets/) - Public standardized nostr datasets for benchmarking, data science, or other analysis.
 - [Zaplife](https://zaplife.lol) - Real-time feed for nostr zaps. The best tool to shut up the "lightning doesn't work" people.
 - [The Attention Protocol](https://joinnextblock.com/billboard/book) - a love story published on nostr
+- [AndOtherStuff](https://andotherstuff.org/) - a collective that creates and stewards freedom tech, open tools, protocols, and applications.
 
+## Deprecated/Defunct
 
-## Deprecated
 - [Astral](https://github.com/monlovesmango/astral)![stars](https://img.shields.io/github/stars/monlovesmango/astral.svg?style=social) - a branle fork with global feed and UI makeover
   - [Astral on TOR](http://hbn4yzl3qkzi3qpse6nvljbduzcdecaq76tbcfjfzmoaik3q3uryxuad.onion/3bf0c63fcb93463407af97a5e5ee64fa883d107ef9e558472c4eb9aaaefa459d)
   - [astral.ninja](https://astral.ninja/)
@@ -1076,6 +1086,9 @@ Outside of nostr itself, you find the community on:
 - [Nozzle](https://github.com/dluvian/Nozzle)![stars](https://img.shields.io/github/stars/dluvian/Nozzle.svg?style=social) - A lightweight Android client
 - [Plebstr](https://plebstr.com) - Nostr client Reimagined, the most beautiful Twitter-like nostr client for iOS & Android.
 - [rsslay](https://github.com/piraces/rsslay)![stars](https://img.shields.io/github/stars/piraces/rsslay.svg?style=social) - fork of the rsslay by @fiatjaf. a bridge that puts RSS feeds into Nostr optimized, more funcionalities and UI improvements. Live at [rsslay.nostr.moe](https://rsslay.nostr.moe/)
+- [Nsec App](https://nsec.app) - Browser-based NIP-46 bunker that lets you sign events without exposing your nsec.
+- [nostrapp.link](https://nostrapp.link/)![stars](https://github.com/nostrband/nostr-app-manager) - Nostr App Manager
+- [Nostr.band](https://nostr.band) - Nostr search engine, profile and content discovery service.
 
 ## Related Resources
 
