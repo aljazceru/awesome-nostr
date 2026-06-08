@@ -701,6 +701,7 @@ Websites with lists of relays and their performance/health:
 - [powrelay.xyz](https://powrelay.xyz) - A proof of work-based nostr explorer.
 - [publsp](https://github.com/smallworlnd/publsp)![stars](https://img.shields.io/github/stars/smallworlnd/publsp.svg?style=social) A CLI tool for any Lightning Network node or Lightning Service Provider (LSP) to advertise liquidity offers over Nostr.
 - [Purgatory](https://www.mutable.top/purgatory) - A standalone feature of Mutable that finds follows who create hellthreads or use spam apps, and lets you mass mute them.
+- [Relay Kit](https://relayk.it) - Turn a VPS into a sovereign nostr hub. Deploy and manage Nostr relays, Blossom servers, and nsite gateways. Link your domains. From one easy dashboard UI. One script install on any server, then auth via nostr to access.
 - [Replies](https://replies.nostrapps.org) - Nostr micro-app for viewing replies and reactions to events
 - [The Resurrector](https://www.plebsvszombies.cc/resurrector) - A standalone feature of Plebs vs. Zombies that lets users undelete their nostr profiles if they were previously deleted.
 - [safebox](https://github.com/trbouma/safebox)![stars](https://img.shields.io/github/stars/trbouma/safebox?style=social) -  private portable safebox on nostr
