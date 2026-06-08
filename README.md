@@ -617,6 +617,7 @@ Websites with lists of relays and their performance/health:
   - [liquiditystr.space](https://liquiditystr.space/) - live instance 
 - [lnpass](https://lnpass.github.io)![stars](https://img.shields.io/github/stars/lnpass/lnpass-web.svg?style=social) - A key manager for Lightning and nostr.
 - [lightning-memory](https://github.com/singularityjason/lightning-memory)![stars](https://img.shields.io/github/stars/singularityjason/lightning-memory.svg?style=social) - Decentralized agent memory for the Lightning economy. Nostr identity, L402 payments, MCP server.
+- [TWZRD Agent Intel](https://intel.twzrd.xyz) - MCP server for AI agent wallet trust scoring on Solana. Verify agent wallet identity before x402 micropayments and zaps. Free tools: `score_agent(wallet)`, `preflight_check(wallet)`. Config: `{"mcpServers":{"twzrd-agent-intel":{"url":"https://intel.twzrd.xyz/mcp"}}}`
 - [metadata_updater](https://github.com/UTXOnly/metadata_updater)![stars](https://img.shields.io/github/stars/UTXOnly/metadata_updater.svg?style=social) - Scans all known online nostr relays for stale kind 0 metadata notes, rebroadcasts latest verified note
 - [Mutable](https://mutable.top) - A tool for managing, backing up, restoring, and sharing Nostr mute lists.
 - [Mute-o-Scope](https://www.mutable.top/mute-o-scope) - A standalone feature of Mutable that lets users search any npub to see who is publicly muting them.
