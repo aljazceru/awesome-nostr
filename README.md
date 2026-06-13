@@ -121,7 +121,7 @@ of the public instances.
 - [zapstore/server](https://github.com/zapstore/server)![stars](https://img.shields.io/github/stars/zapstore/server.svg?style=social) - A Nostr relay and Blossom server for the Zapstore ecosystem.
 - [zooid](https://github.com/coracle-social/zooid)![stars](https://img.shields.io/github/stars/coracle-social/zooid.svg?style=social) - A multi-tenant Nostr relay designed for communities.
 - [WoT relay](https://github.com/bitvora/wot-relay.git)![stars](https://img.shields.io/github/stars/bitvora/wot-relay.svg?style=social) - relay for every note in your web of trust
-- [wisp](https://github.com/privkeyio/wisp) - A lightweight Nostr relay implementation focused on simplicity and performance
+- [wisp](https://github.com/privkeyio/wisp)![stars](https://img.shields.io/github/stars/privkeyio/wisp.svg?style=social) - A lightweight Nostr relay implementation focused on simplicity and performance
 - [groups_relay](https://github.com/verse-pbc/groups_relay) - A Nostr NIP-29 Group Chat Relay implementation
 
 - [bloom](https://github.com/nostrnative/bloom) - Bloom is a high-performance hybrid server for the Nostr ecosystem.   It functions as both a Blossom Protocol implementation for media storage   and a Nostr Relay for event distribution
@@ -167,6 +167,7 @@ Websites with lists of relays and their performance/health:
 - [MAKIMONO](https://makimono.lumilumi.app) - Long-form writing client by the Lumilumi team.
 - [Manent](https://manent.dtonon.com) - Long-form Nostr reading and writing client.
 - [Samizdat](https://samizdat.press) - Censorship-resistant long-form publishing on Nostr.
+- [readstr](https://github.com/privkeyio/readstr)![stars](https://img.shields.io/github/stars/privkeyio/readstr.svg?style=social) - A Google Reader-style feed aggregator unifying RSS feeds, Nostr long-form content (NIP-23), and video channels in one place.
 
 ### Video/Audio
 - [Corny Chat](https://github.com/vicariousdrama/cornychat)![stars](https://img.shields.io/github/stars/vicariousdrama/cornychat.svg?style=social) -  Corny Chat is an open source audio space built on Jam that integrates Nostr and Lightning.
@@ -487,6 +488,8 @@ Websites with lists of relays and their performance/health:
 - [dart-nostr](https://github.com/ethicnology/dart-nostr)![stars](https://img.shields.io/github/stars/ethicnology/dart-nostr.svg?style=social) - a Dart library for Flutter
 - [flutter_nostr](https://github.com/anasfik/flutter_nostr)![stars](https://img.shields.io/github/stars/anasfik/flutter_nostr.svg?style=social) - Build scalable/complex Nostr apps effortlessly with Flutter 
 - [go-nostr](https://github.com/fiatjaf/go-nostr)![stars](https://img.shields.io/github/stars/fiatjaf/go-nostr.svg?style=social) - a Go library that implements relay management, plus event encoding and signing utils
+- [libnostr-c](https://github.com/privkeyio/libnostr-c)![stars](https://img.shields.io/github/stars/privkeyio/libnostr-c.svg?style=social) - A lightweight C library implementing the Nostr protocol with NIP-44 encryption and Lightning support, optimized for embedded systems like ESP32.
+- [libnostr-z](https://github.com/privkeyio/libnostr-z)![stars](https://img.shields.io/github/stars/privkeyio/libnostr-z.svg?style=social) - A Zig library implementing the Nostr protocol, covering keypair generation, event signing, and relay communication.
 - [mleku/nostr](https://git.mleku.dev/mleku/nostr) - a Go library forked from go-nostr with hand-written json codecs for events and filters, support for bitcoin/libsecp256k1 and a fast pure Go signature library refactored from btcec rewritten with 64 bit limbs as automatic fallback, sha256 and hex encoding using AVX SIMD extensions where available.
 - [mostro-core](https://github.com/MostroP2P/mostro-core) ![stars](https://img.shields.io/github/stars/MostroP2P/mostro-core.svg?style=social) - common types used by mostro and clients  (WIP)
 - [navigatr](https://github.com/coracle-social/navigatr)![stars](https://img.shields.io/github/stars/coracle-social/navigatr.svg?style=social) - A utility for discovering relays and scraping events
@@ -609,6 +612,7 @@ Websites with lists of relays and their performance/health:
 - [homebrew-nostr](https://github.com/nostorg/homebrew-nostr)![stars](https://img.shields.io/github/stars/nostorg/homebrew-nostr?style=social) - Homebrew tap for Nostr software.
 - [hostr](https://github.com/studiokaiji/nostr-webhost)![stars](https://img.shields.io/github/stars/studiokaiji/nostr-webhost.svg?style=social) - nostr-webhost is a tool for hosting SPA on nostr
 - [nowhere](https://github.com/5t34k/nowhere)![stars](https://img.shields.io/github/stars/5t34k/nowhere.svg?style=social) - Encodes an entire website into a URL fragment. The site lives in the link itself and is never stored on a server. Eight tools (forum, event, fundraiser, store, petition, message, drop, art) publish without accounts or platform permission. Orders and messages route through Nostr relays using ephemeral keys.
+- [noz](https://github.com/privkeyio/noz)![stars](https://img.shields.io/github/stars/privkeyio/noz.svg?style=social) - Nostr On Zig, a small, fast Nostr command-line tool built on libnostr-z.
 - [http-nostr-publisher](https://github.com/getAlby/http-nostr-publisher)![stars](https://img.shields.io/github/stars/getAlby/http-nostr-publisher?style=social) - A Cloudflare worker to publish Nostr events to relays through a non-blocking HTTP interface .
 - [keystr-rs](https://github.com/keystr/keystr-rs)![stars](https://img.shields.io/github/stars/keystr/keystr-rs?style=social) - An application for managing Nostr keys. Written in Rust, with simple UI (Iced).
 - [knob](https://github.com/plantimals/knob)![stars](https://img.shields.io/github/stars/plantimals/knob.svg?style=social) - command line tool to post text files to nostr
@@ -644,6 +648,7 @@ Websites with lists of relays and their performance/health:
 - [nostr registry](https://codeberg.org/rsbondi/nostr-registry) - a database of known relays with their uptime and NIP support tables
 - [nostr_simple_publish](https://www.drupal.org/project/nostr_simple_publish/) - Drupal module to publish content to Nostr.
 - [nostr-badges](https://github.com/neilck/nostr-badges)![stars](https://img.shields.io/github/stars/neilck/nostr-badges.svg?style=social) - Nostr badge microservice for managing self-awarded badges. Live at [app.akaprofiles.com](https://app.akaprofiles.com)
+- [nostr-bench](https://github.com/privkeyio/nostr-bench)![stars](https://img.shields.io/github/stars/privkeyio/nostr-bench.svg?style=social) - A benchmarking tool for testing Nostr relay performance and throughput under various load patterns.
 - [nostr-broadcast](https://github.com/leesalminen/nostr-broadcast)![stars](https://img.shields.io/github/stars/leesalminen/nostr-broadcast.svg?style=social) - This tool lets you take your events from some relays and broadcast them to another relay. Could help back up your notes to a private relay.
 - [nostr-bulk-dms](https://github.com/leesalminen/nostr-bulk-dm)![stars](https://img.shields.io/github/stars/leesalminen/nostr-bulk-dm.svg?style=social) - A tool that allows you to send DMs over nostr to many recipients in bulk.
 - [nostr-cln-events](http://git.jb55.com/nostr-cln-events) - A CLN plugin to push clightning node events to nostr
@@ -799,6 +804,9 @@ Websites with lists of relays and their performance/health:
 - [amber](https://github.com/greenart7c3/amber)![stars](https://img.shields.io/github/stars/greenart7c3/amber.svg?style=social) - Amber is a nostr event signer for Android. It allows users to keep their nsec segregated in a single, dedicated app. The goal of Amber is to have your smartphone act as a NIP-46 signing device without any need for servers or additional hardware. "Private keys should be exposed to as few systems as possible as each system adds to the attack surface," as the rationale of said NIP states. In addition to native apps, Amber aims to support all current nostr web applications without requiring any extensions or web servers.
 - [heartwood](https://github.com/forgesworn/heartwood)![stars](https://img.shields.io/github/stars/forgesworn/heartwood.svg?style=social) - Nostr signing appliance for Raspberry Pi. NIP-46 remote signing with nsec-tree hierarchical identity derivation, per-client permissions, Tor hidden service, and web UI. Rust.
 - [keechain](https://github.com/yukibtc/keechain)![stars](https://img.shields.io/github/stars/yukibtc/keechain.svg?style=social) - Bitcoin application to transform your offline computer in an AirGap Signing Device (aka Hardware Wallet) with support to `NIP-06` and `NIP-26`.
+- [Keep](https://github.com/privkeyio/keep)![stars](https://img.shields.io/github/stars/privkeyio/keep.svg?style=social) - Encrypted vault for Nostr and Bitcoin keys with FROST threshold signatures and NIP-46 remote signing, across CLI, desktop, and mobile.
+- [Keep for Android](https://github.com/privkeyio/keep-android)![stars](https://img.shields.io/github/stars/privkeyio/keep-android.svg?style=social) - FROST threshold signer for Android implementing NIP-55 and NIP-46, splitting keys across multiple devices.
+- [Keep ESP32](https://github.com/privkeyio/keep-esp32)![stars](https://img.shields.io/github/stars/privkeyio/keep-esp32.svg?style=social) - Air-gapped ESP32-S3 hardware signer supporting FROST threshold signatures and Bitcoin PSBT signing over USB.
 - [nostr-signing-device](https://github.com/lnbits/nostr-signing-device) - Signing device for Nostr built on ESP32
 - [nostrum](https://github.com/nostr-connect/nostrum)![stars](https://img.shields.io/github/stars/nostr-connect/nostrum.svg?style=social) - Nostrum it's a mobile app that allows you to sign transactions and messages with your Nostr keys. Nostrum is the reference implementation for a remote signer app (ie. Wallet) of the Nostr Connect protocol.
 - [signer.bitmacro.io](https://signer.bitmacro.io) - Managed NIP-46 (Nostr Connect) bunker: encrypted vault, remote signing via relay without exposing nsec in plaintext. Open source, self-hostable.
