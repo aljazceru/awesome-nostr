@@ -461,6 +461,8 @@ Websites with lists of relays and their performance/health:
 - [Kartapio](https://github.com/vstabile/kartapio)![stars](https://img.shields.io/github/stars/vstabile/kartapio.svg?style=social) - A Nostr-based marketplace.
 - [Milk Market](https://milk.market) - A Nostr-native marketplace.
 - [Mostro Mobile](https://github.com/MostroP2P/mobile)![stars](https://img.shields.io/github/stars/MostroP2P/mobile.svg?style=social) - Mobile client for the Mostro P2P exchange platform.
+- [BTC Recharge](https://github.com/i2dor/btcrecharge-nostr-bot)![stars](https://img.shields.io/github/stars/i2dor/btcrecharge-nostr-bot.svg?style=social) - Nostr-native bot for Lightning mobile top-ups across 170+ countries. DM `/menu` to `bot@btcrecharge.com`. No account, no app. [Verify](https://btcrecharge.com/verify)
+- [giftcardshop](https://giftcardshop.org) - Nostr-native bot for Lightning top-ups of financial products - prepaid Visa/Mastercard, PayPal, Skrill, Neteller, Wise, Neosurf, Paysafecard - plus gift cards (Amazon, Apple, Netflix) and game credit (PlayStation, Nintendo, Razer Gold). Codes arrive as a single-view reveal link over DMs. DM `/menu` to `bot@giftcardshop.org`. [Verify](https://giftcardshop.org/verify)
 
 ### Web Bookmarking ([NIP-B0](https://github.com/nostr-protocol/nips/blob/master/B0.md))
 - [Community Curated Nostr Stuff (CCNS)](https://github.com/Sebastix/CCNS)![stars] - CCNS is a Nostr-focused community platform centered around link aggregation and discussion topics.
