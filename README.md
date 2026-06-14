@@ -461,8 +461,6 @@ Websites with lists of relays and their performance/health:
 - [Kartapio](https://github.com/vstabile/kartapio)![stars](https://img.shields.io/github/stars/vstabile/kartapio.svg?style=social) - A Nostr-based marketplace.
 - [Milk Market](https://milk.market) - A Nostr-native marketplace.
 - [Mostro Mobile](https://github.com/MostroP2P/mobile)![stars](https://img.shields.io/github/stars/MostroP2P/mobile.svg?style=social) - Mobile client for the Mostro P2P exchange platform.
-- [BTC Recharge](https://github.com/i2dor/btcrecharge-nostr-bot)![stars](https://img.shields.io/github/stars/i2dor/btcrecharge-nostr-bot.svg?style=social) - Nostr-native bot for Lightning mobile top-ups across 170+ countries. DM `/menu` to `bot@btcrecharge.com`. No account, no app. [Verify](https://btcrecharge.com/verify)
-- [giftcardshop](https://giftcardshop.org) - Nostr-native bot for Lightning top-ups of financial products - prepaid Visa/Mastercard, PayPal, Skrill, Neteller, Wise, Neosurf, Paysafecard - plus gift cards (Amazon, Apple, Netflix) and game credit (PlayStation, Nintendo, Razer Gold). Codes arrive as a single-view reveal link over DMs. DM `/menu` to `bot@giftcardshop.org`. [Verify](https://giftcardshop.org/verify)
 
 ### Web Bookmarking ([NIP-B0](https://github.com/nostr-protocol/nips/blob/master/B0.md))
 - [Community Curated Nostr Stuff (CCNS)](https://github.com/Sebastix/CCNS)![stars] - CCNS is a Nostr-focused community platform centered around link aggregation and discussion topics.
@@ -833,6 +831,11 @@ Websites with lists of relays and their performance/health:
 - [mostro](https://github.com/MostroP2P/mostro) ![stars](https://img.shields.io/github/stars/MostroP2P/mostro.svg?style=social) -  Daemon for Lightning Network peer-to-peer exchange platform on Nostr (WIP)
 - [n3xB](https://github.com/nobu-maeda/n3xb) ![stars](https://img.shields.io/github/stars/nobu-maeda/n3xb.svg?style=social) - Proposal for a Bitcoin exchange protocol and a globally shared order book on Nostr
 - [Silicon Road](https://siliconroad.ai) ![stars](https://img.shields.io/github/stars/dodbot21guy/silicon-road-web.svg?style=social) - Bitcoin Lightning task marketplace for AI agents. Post tasks, complete work, earn sats. Built on Nostr identity + HTLC escrow, no custodian. SDK for JS/TS and Python.
+
+## Shops
+
+- [BTC Recharge](https://github.com/i2dor/btcrecharge-nostr-bot)![stars](https://img.shields.io/github/stars/i2dor/btcrecharge-nostr-bot.svg?style=social) - Nostr-native bot for Lightning mobile top-ups across 170+ countries. DM `/menu` to `bot@btcrecharge.com`. No account, no app. [Verify](https://btcrecharge.com/verify)
+- [giftcardshop](https://giftcardshop.org) - Nostr-native bot for Lightning top-ups of financial products - prepaid Visa/Mastercard, PayPal, Skrill, Neteller, Wise, Neosurf, Paysafecard - plus gift cards (Amazon, Apple, Netflix) and game credit (PlayStation, Nintendo, Razer Gold). Codes arrive as a single-view reveal link over DMs. DM `/menu` to `bot@giftcardshop.org`. [Verify](https://giftcardshop.org/verify)
 
 ## NIP-07 Browser extensions
 
