@@ -832,6 +832,11 @@ Websites with lists of relays and their performance/health:
 - [n3xB](https://github.com/nobu-maeda/n3xb) ![stars](https://img.shields.io/github/stars/nobu-maeda/n3xb.svg?style=social) - Proposal for a Bitcoin exchange protocol and a globally shared order book on Nostr
 - [Silicon Road](https://siliconroad.ai) ![stars](https://img.shields.io/github/stars/dodbot21guy/silicon-road-web.svg?style=social) - Bitcoin Lightning task marketplace for AI agents. Post tasks, complete work, earn sats. Built on Nostr identity + HTLC escrow, no custodian. SDK for JS/TS and Python.
 
+## Shops
+
+- [BTC Recharge](https://github.com/i2dor/btcrecharge-nostr-bot)![stars](https://img.shields.io/github/stars/i2dor/btcrecharge-nostr-bot.svg?style=social) - Nostr-native bot for Lightning mobile top-ups across 170+ countries. DM `/menu` to `bot@btcrecharge.com`. No account, no app. [Verify](https://btcrecharge.com/verify)
+- [giftcardshop](https://giftcardshop.org) - Nostr-native bot for Lightning top-ups of financial products - prepaid Visa/Mastercard, PayPal, Skrill, Neteller, Wise, Neosurf, Paysafecard - plus gift cards (Amazon, Apple, Netflix) and game credit (PlayStation, Nintendo, Razer Gold). Codes arrive as a single-view reveal link over DMs. DM `/menu` to `bot@giftcardshop.org`. [Verify](https://giftcardshop.org/verify)
+
 ## NIP-07 Browser extensions
 
 Allow you to sign Nostr events on web-apps without having to give them your keys
