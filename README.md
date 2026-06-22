@@ -203,6 +203,12 @@ Websites with lists of relays and their performance/health:
 - [Nymchat](https://github.com/Spl0itable/NYM)![stars](https://img.shields.io/github/stars/Spl0itable/NYM.svg?style=social) -  A like iRC lightweight, yet feature-rich, ephemeral chat client built on Nostr protocol, bridged with Bitchat for anonymous, temporary messaging.
 - [Pika](https://github.com/sledtools/pika)![stars](https://img.shields.io/github/stars/sledtools/pika.svg?style=social) -  End-to-end encrypted messaging for iOS, Android, and Desktop, built on MLS over Nostr.
 
+### Browser extension clients
+
+Full Nostr clients running as browser extensions — distinct from [NIP-07 signers](#nip-07-browser-extensions) which only handle key management.
+
+- [Nostru](https://github.com/i2dor/nostru)![stars](https://img.shields.io/github/stars/i2dor/nostru.svg?style=social) - Nostr social client and Bitcoin Silent Payment receiver. Derives BIP-352 SP addresses from any npub; publishes and discovers addresses via NIP-352 (kind:30352); scans for incoming payments locally via native host (scan key never leaves device); NWC zaps; NIP-07 bridge for web dApps.
+
 ### Other  
 - [Agora](https://agorasocial.app) ![stars](https://img.shields.io/github/stars/ghobs91/agora.svg?style=social) - Follow your favorite topics in nostr-verse (and even posts from Mastodon, Reddit, Bluesky, and Twitter)
 - [Alexandria](https://github.com/ShadowySupercode/gc-alexandria)![stars](https://img.shields.io/github/stars/ShadowySupercode/gc-alexandria.svg?style=social) - A Knowledge Base and future eReader app. Focuses on the implementation of [NKBIP-01](https://wikifreedia.xyz/nkbip-01)
