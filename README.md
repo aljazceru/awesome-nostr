@@ -18,6 +18,7 @@ nostr.net services [start.nostr.net](https://start.nostr.net) || [relay.nostr.ne
 - [coracle.social](https://coracle.social/)
 - [YakiHonne](https://yakihonne.com)
 - [Ditto](https://ditto.pub)
+- [LiberMedia](https://media.libernet.app) - decentralized social network (feed, Reels, NIP-17 DMs, Lightning zaps); web (PWA) and Android. [source](https://github.com/lucianocasalunga/libermedia-twa)
 
 ### Other
 - [Zapstore](https://zapstore.dev/) - Web of trust based app store 
