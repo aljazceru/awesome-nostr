@@ -393,7 +393,6 @@ Websites with lists of relays and their performance/health:
 - [Tamga](https://github.com/erdaltoprak/tamga)![stars](https://img.shields.io/github/stars/erdaltoprak/tamga.svg?style=social) - An offline first nostr contact & profile manager for iOS!
 - [Tides](https://github.com/arbadacarbayk/tides)![stars](https://img.shields.io/github/stars/arbadacarbayk/tides.svg?style=social) - Chrome Extension Messenger with a hotlink for Noderunners Radio Stream
 - [Tollbooth-DPYC](https://github.com/lonniev/dpyc-oracle) - Tollbooth DPYC is a network state ecosystem for Bitcoin entrepreneurs who monetize their MCP services according to the Don't Pester Your Customer (DPYC) principles. 
-- [Tollbooth Pricing Studio](https://github.com/lonniev/tollbooth-pricing-studio) - An iPadOS studio for pricing MCP tools for the Tollbooth-DPYC ecosystem which includes an integrated multi-npub Nostr chat client allowing users to quickly participate in multiple Nostr relay conversations
 - [torrent-gateway](https://codeberg.org/Enkisu/torrent-gateway) - The BitTorrent Gateway seamlessly integrates with the Nostr network to enable decentralized content discovery and social features.
 - [Treasures](https://treasures.to/) - Discover HiddenTreasures. Join the decentralized geocaching adventure powered by Nostr. Hide geocaches, find them, and connect with explorers worldwide.
 - [uBlog](https://github.com/nodetec/ublog) ![stars](https://img.shields.io/github/stars/nodetec/ublog.svg?style=social) - A minimalist blog on nostr that allows anyone to easily create their own personal micro-blog.
@@ -840,11 +839,6 @@ Websites with lists of relays and their performance/health:
 - [mostro](https://github.com/MostroP2P/mostro) ![stars](https://img.shields.io/github/stars/MostroP2P/mostro.svg?style=social) -  Daemon for Lightning Network peer-to-peer exchange platform on Nostr (WIP)
 - [n3xB](https://github.com/nobu-maeda/n3xb) ![stars](https://img.shields.io/github/stars/nobu-maeda/n3xb.svg?style=social) - Proposal for a Bitcoin exchange protocol and a globally shared order book on Nostr
 - [Silicon Road](https://siliconroad.ai) ![stars](https://img.shields.io/github/stars/dodbot21guy/silicon-road-web.svg?style=social) - Bitcoin Lightning task marketplace for AI agents. Post tasks, complete work, earn sats. Built on Nostr identity + HTLC escrow, no custodian. SDK for JS/TS and Python.
-
-## Shops
-
-- [BTC Recharge](https://github.com/i2dor/btcrecharge-nostr-bot)![stars](https://img.shields.io/github/stars/i2dor/btcrecharge-nostr-bot.svg?style=social) - Nostr-native bot for Lightning mobile top-ups across 170+ countries. DM `/menu` to `bot@btcrecharge.com`. No account, no app. [Verify](https://btcrecharge.com/verify)
-- [giftcardshop](https://giftcardshop.org) - Nostr-native bot for Lightning top-ups of financial products - prepaid Visa/Mastercard, PayPal, Skrill, Neteller, Wise, Neosurf, Paysafecard - plus gift cards (Amazon, Apple, Netflix) and game credit (PlayStation, Nintendo, Razer Gold). Codes arrive as a single-view reveal link over DMs. DM `/menu` to `bot@giftcardshop.org`. [Verify](https://giftcardshop.org/verify)
 
 ## NIP-07 Browser extensions
 
