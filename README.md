@@ -393,7 +393,6 @@ Websites with lists of relays and their performance/health:
 - [Tamga](https://github.com/erdaltoprak/tamga)![stars](https://img.shields.io/github/stars/erdaltoprak/tamga.svg?style=social) - An offline first nostr contact & profile manager for iOS!
 - [Tides](https://github.com/arbadacarbayk/tides)![stars](https://img.shields.io/github/stars/arbadacarbayk/tides.svg?style=social) - Chrome Extension Messenger with a hotlink for Noderunners Radio Stream
 - [Tollbooth-DPYC](https://github.com/lonniev/dpyc-oracle) - Tollbooth DPYC is a network state ecosystem for Bitcoin entrepreneurs who monetize their MCP services according to the Don't Pester Your Customer (DPYC) principles. 
-- [Tollbooth Pricing Studio](https://github.com/lonniev/tollbooth-pricing-studio) - An iPadOS studio for pricing MCP tools for the Tollbooth-DPYC ecosystem which includes an integrated multi-npub Nostr chat client allowing users to quickly participate in multiple Nostr relay conversations
 - [torrent-gateway](https://codeberg.org/Enkisu/torrent-gateway) - The BitTorrent Gateway seamlessly integrates with the Nostr network to enable decentralized content discovery and social features.
 - [Treasures](https://treasures.to/) - Discover HiddenTreasures. Join the decentralized geocaching adventure powered by Nostr. Hide geocaches, find them, and connect with explorers worldwide.
 - [uBlog](https://github.com/nodetec/ublog) ![stars](https://img.shields.io/github/stars/nodetec/ublog.svg?style=social) - A minimalist blog on nostr that allows anyone to easily create their own personal micro-blog.
@@ -555,7 +554,6 @@ Websites with lists of relays and their performance/health:
 - [nostr](https://github.com/ClarkQAQ/nostr) - A comprehensive Go library for the Nostr protocol, providing everything needed to build relays, clients, or hybrid applications
 - [nostr-sdk-flutter](https://github.com/rust-nostr/nostr-sdk-flutter)![stars](https://img.shields.io/github/stars/rust-nostr/nostr-sdk-flutter.svg?style=social) - Nostr protocol implementation, Relay, RelayPool, high-level client library, NWC client and more
 - [applesauce](https://github.com/hzrd149/applesauce)![stars](https://img.shields.io/github/stars/hzrd149/applesauce.svg?style=social) - Reactive Nostr framework with utilities for building reactive UIs and event stores.
-- [webhtv](https://github.com/fish2018/webhtv)![stars](https://img.shields.io/github/stars/fish2018/webhtv.svg?style=social) - WebHomeTV 基于FongMi二次开发，增强了 WebHome 自定义首页、App Native SDK、网盘链接检测 和 Nostr推荐首页。  这个项目的核心目标是让 CSP 站点首页可以变成一个真正可开发的网页应用：开发者可以使用 HTML/CSS/JavaScript 定制首页，再通过 App 暴露的 Native 能力完成搜索、播放、跨域请求、资源代理、最近观看、网盘检测和状态同步。 (702★)
 
 ## Bridges and Gateways
 
@@ -840,11 +838,6 @@ Websites with lists of relays and their performance/health:
 - [mostro](https://github.com/MostroP2P/mostro) ![stars](https://img.shields.io/github/stars/MostroP2P/mostro.svg?style=social) -  Daemon for Lightning Network peer-to-peer exchange platform on Nostr (WIP)
 - [n3xB](https://github.com/nobu-maeda/n3xb) ![stars](https://img.shields.io/github/stars/nobu-maeda/n3xb.svg?style=social) - Proposal for a Bitcoin exchange protocol and a globally shared order book on Nostr
 - [Silicon Road](https://siliconroad.ai) ![stars](https://img.shields.io/github/stars/dodbot21guy/silicon-road-web.svg?style=social) - Bitcoin Lightning task marketplace for AI agents. Post tasks, complete work, earn sats. Built on Nostr identity + HTLC escrow, no custodian. SDK for JS/TS and Python.
-
-## Shops
-
-- [BTC Recharge](https://github.com/i2dor/btcrecharge-nostr-bot)![stars](https://img.shields.io/github/stars/i2dor/btcrecharge-nostr-bot.svg?style=social) - Nostr-native bot for Lightning mobile top-ups across 170+ countries. DM `/menu` to `bot@btcrecharge.com`. No account, no app. [Verify](https://btcrecharge.com/verify)
-- [giftcardshop](https://giftcardshop.org) - Nostr-native bot for Lightning top-ups of financial products - prepaid Visa/Mastercard, PayPal, Skrill, Neteller, Wise, Neosurf, Paysafecard - plus gift cards (Amazon, Apple, Netflix) and game credit (PlayStation, Nintendo, Razer Gold). Codes arrive as a single-view reveal link over DMs. DM `/menu` to `bot@giftcardshop.org`. [Verify](https://giftcardshop.org/verify)
 
 ## NIP-07 Browser extensions
 
