@@ -283,6 +283,7 @@ Websites with lists of relays and their performance/health:
 - [Lumilumi](http://lumilumi.app/)![stars](https://img.shields.io/github/stars/tsukemonogit/lumilumi.svg?style=social) - A nostr web client. Lightweight modes are available, such as not displaying icon images, not loading images automatically, etc.
 - [LUMINA](https://github.com/lumina-rocks/lumina)![stars](https://img.shields.io/github/stars/lumina-rocks/lumina.svg?style=social) - Nostr (Web) client for images (Picture-first feed).
   - [lumina.rocks](https://lumina.rocks/)
+- [lunar.ninja](https://lunar.ninja/) - A tribute and reboot of the original astral.ninja Nostr web client.
 - [keychat](https://github.com/keychat-io/keychat-app)![stars](https://img.shields.io/github/stars/keychat-io/keychat-app.svg?style=social) - Chat app built on nostr with bitcoin and ecash support
 - [mapstr](https://mapstr.xyz/) - Find local businesses which accept BTC and add reviews to those businesses as a customer. Allows ability to receive Zaps for your reviews. You can also add Nostr notes with coordinates which allows them to be mapped to your location.
 - [Member](https://github.com/memberapp/memberapp.github.io)![stars](https://img.shields.io/github/stars/memberapp/memberapp.github.io.svg?style=social) - Progressive Web App Client. Works on desktop and mobile.
@@ -870,6 +871,8 @@ Allow you to sign Nostr events on web-apps without having to give them your keys
 - [OneKey](https://onekey.so)![stars](https://img.shields.io/github/stars/onekeyhq/app-monorepo.svg?style=social) - Open-source crypto wallet with nosrt support.
 - [Signum XT Wallet](https://github.com/signum-network/signum-xt-wallet)![stars](https://img.shields.io/github/stars/signum-network/signum-xt-wallet.svg?style=social) - Metamask-like browser extension for Signum blockchain with full NIP07 support and multi-account management
 - [Self-Sovereign Browser](https://api-docs-30b126.gitlab.io/index.html) - Firefox-forked browser with NIP-07 support
+- [Sidecar](https://github.com/dmnyc/sidecar)![stars](https://img.shields.io/github/stars/dmnyc/sidecar.svg?style=social) - A multi-account NIP-07 signer with a built-in Lightning wallet (NWC), in your browser's side panel. Chrome.
+  - [Chrome Web Store](https://chromewebstore.google.com/detail/sidecar-a-classy-nostr-si/moimlikilhheabdafocpmneehpblhiln)
 - [TokenPocket](https://github.com/TP-Lab/TokenPocket)![stars](https://img.shields.io/github/stars/TP-Lab/TokenPocket.svg?style=social) - Multi wallet browser extension with nostr support. https://tokenpocket.pro
 - [wen](https://github.com/fiatjaf/wen)![stars](https://img.shields.io/github/stars/fiatjaf/wen.svg?style=social) - browser extension for website enhancer with nostr
 
