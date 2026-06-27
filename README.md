@@ -283,6 +283,7 @@ Websites with lists of relays and their performance/health:
 - [Lumilumi](http://lumilumi.app/)![stars](https://img.shields.io/github/stars/tsukemonogit/lumilumi.svg?style=social) - A nostr web client. Lightweight modes are available, such as not displaying icon images, not loading images automatically, etc.
 - [LUMINA](https://github.com/lumina-rocks/lumina)![stars](https://img.shields.io/github/stars/lumina-rocks/lumina.svg?style=social) - Nostr (Web) client for images (Picture-first feed).
   - [lumina.rocks](https://lumina.rocks/)
+- [lunar.ninja](https://lunar.ninja/) - A tribute and reboot of the original astral.ninja Nostr web client.
 - [keychat](https://github.com/keychat-io/keychat-app)![stars](https://img.shields.io/github/stars/keychat-io/keychat-app.svg?style=social) - Chat app built on nostr with bitcoin and ecash support
 - [mapstr](https://mapstr.xyz/) - Find local businesses which accept BTC and add reviews to those businesses as a customer. Allows ability to receive Zaps for your reviews. You can also add Nostr notes with coordinates which allows them to be mapped to your location.
 - [Member](https://github.com/memberapp/memberapp.github.io)![stars](https://img.shields.io/github/stars/memberapp/memberapp.github.io.svg?style=social) - Progressive Web App Client. Works on desktop and mobile.
@@ -384,7 +385,6 @@ Websites with lists of relays and their performance/health:
 - [Skatting](https://github.com/WimYedema/skatting)![stars](https://img.shields.io/github/stars/WimYedema/skatting.svg?style=social) - Serverless 2D ticket estimation for agile teams. Express effort + certainty by dragging a log-normal blob on a 2D canvas. P2P via WebRTC (Nostr + MQTT signaling) with AES-256-GCM encrypted Nostr relay fallback. No signup, no server.
 - [Snort](https://github.com/v0l/snort)![stars](https://img.shields.io/github/stars/v0l/snort.svg?style=social) - Nostr UI written in react
   - [snort.social](https://snort.social)
-- [Spring Browser](https://spring.site) - Nostr-focused browser app for Android.
 - [Stackerstan](https://stackerstan.org)![stars](https://img.shields.io/github/stars/stackerstan/mindmachine.svg?style=social) - A decentralized organization built on Bitcoin and Nostr, implemented as a replicated state machine in Golang
 - [Streakstr](https://github.com/theakash04/Streakstr)![stars](https://img.shields.io/github/stars/theakash04/Streakstr.svg?style=social) - A daily activity tracker for Nostr. Post every day to keep your streak alive, monitored automatically by a behind-the-scenes bot.
   - [streakstr.online](https://streakstr.online/) - live instance
@@ -500,6 +500,7 @@ Websites with lists of relays and their performance/health:
 - [nostr_rust](https://github.com/0xtlt/nostr_rust)![stars](https://img.shields.io/github/stars/0xtlt/nostr_rust.svg?style=social) - Functional Rust implementation of the nostr protocol
 - [Nostrbook](https://nostrbook.dev/) - A Comprehensive Registry of Nostr Documentation. Structured, detailed knowledge about Nostr for both humans and AI.
 - [nostr-bot](https://github.com/slaninas/nostr-bot)![stars](https://img.shields.io/github/stars/slaninas/nostr-bot.svg?style=social) - a Rust library for writing bots
+- [NostrBotKit](https://codeberg.org/Tuxor/NostrBotKit) - Self-hosted bot framework for Nostr written in Rust. Multi-bot orchestration, NIP-17/NIP-04 encrypted DM commands, YAML config, permission tiers, Docker deployment.
 - [nostr-connect](https://github.com/nostr-connect/connect)![stars](https://img.shields.io/github/stars/nostr-connect/connect.svg?style=social) - Nostr Connect SDK for TypeScript is a library that allows you to easily integrate Nostr Connect into your web application
 - [nostr-deno](https://github.com/KiPSOFT/nostr-deno)![stars](https://img.shields.io/github/stars/KiPSOFT/nostr-deno.svg?style=social) - a client library for Deno javascript runtime.
 - [nostr-development-kit - NDK](https://github.com/nostr-dev-kit/ndk)![stars](https://img.shields.io/github/stars/nostr-dev-kit/ndk.svg?style=social) - NDK is a nostr development kit that makes the experience of building Nostr-related applications, whether they are relays, clients, or anything in between, better, more reliable.
@@ -865,7 +866,8 @@ Allow you to sign Nostr events on web-apps without having to give them your keys
 - [OneKey](https://onekey.so)![stars](https://img.shields.io/github/stars/onekeyhq/app-monorepo.svg?style=social) - Open-source crypto wallet with nosrt support.
 - [Signum XT Wallet](https://github.com/signum-network/signum-xt-wallet)![stars](https://img.shields.io/github/stars/signum-network/signum-xt-wallet.svg?style=social) - Metamask-like browser extension for Signum blockchain with full NIP07 support and multi-account management
 - [Self-Sovereign Browser](https://api-docs-30b126.gitlab.io/index.html) - Firefox-forked browser with NIP-07 support
-- [Spring Browser](https://spring.site) - Nostr-focused browser app for Android.
+- [Sidecar](https://github.com/dmnyc/sidecar)![stars](https://img.shields.io/github/stars/dmnyc/sidecar.svg?style=social) - A multi-account NIP-07 signer with a built-in Lightning wallet (NWC), in your browser's side panel. Chrome.
+  - [Chrome Web Store](https://chromewebstore.google.com/detail/sidecar-a-classy-nostr-si/moimlikilhheabdafocpmneehpblhiln)
 - [TokenPocket](https://github.com/TP-Lab/TokenPocket)![stars](https://img.shields.io/github/stars/TP-Lab/TokenPocket.svg?style=social) - Multi wallet browser extension with nostr support. https://tokenpocket.pro
 - [wen](https://github.com/fiatjaf/wen)![stars](https://img.shields.io/github/stars/fiatjaf/wen.svg?style=social) - browser extension for website enhancer with nostr
 
@@ -882,7 +884,6 @@ Clients (apps using NWC to access a LN wallet)
 - [Nostrmo](https://github.com/haorendashu/nostrmo)![stars](https://img.shields.io/github/stars/haorendashu/nostrmo.svg?style=social) - A flutter nostr client for Android, IOS, MacOS, Windows, Web and Linux.
 - [nostter](https://github.com/SnowCait/nostter)![stars](https://img.shields.io/github/stars/SnowCait/nostter.svg?style=social) - Twitter-like web client
 - [Nostur](https://nostur.com) - A nostr client for iPhone and macOS
-- [Spring Browser](https://spring.site) - Nostr-focused browser app for Android.
 - [YakiHonne](https://yakihonne.com/yakihonne-mobile-app) - iOS and Android app
 - [Yana](https://github.com/frnandu/yana)![stars](https://img.shields.io/github/stars/frnandu/yana.svg?style=social) - Yana is a nostr client focused on performance in slower devices and modularity of features.
   - [yana.do](https://yana.do)
@@ -1064,6 +1065,7 @@ Outside of nostr itself, you find the community on:
 - [nostr-logo](https://github.com/mbarulli/nostr-logo)![stars](https://img.shields.io/github/stars/mbarulli/nostr-logo.svg?style=social) - Logo and icons for the nostr protocol.
 - [nostr.build](https://nostr.build/) - nostr image uploader
 - [nostrability](https://github.com/nostrability/nostrability)![stars](https://img.shields.io/github/stars/nostrability/nostrability.svg?style=social) - The practical documentation of how various nostr apps play together.
+- [O_GITS](https://o-gits.com:8443)![stars](https://img.shields.io/github/stars/SPcitydog/ogits-node.svg?style=social) - a digital life-form that propagates over public Nostr relays: a 100-dimensional tensor organism that evolves, dies and is reborn. [code](https://github.com/SPcitydog/ogits-node)
 - [ostrich.work](https://ostrich.work/) - nostr job board
 - [RSS feeds for news on Nostr](https://verityj.github.io/nostr-news-feeds) ![stars](https://img.shields.io/github/stars/verityj/verityj.github.io.svg?style=social) - a curated list of news press channels RSS feeds that we can follow on Nostr
 - [Summaries of all Nostr Improvements Proposals](https://anchor.fm/s/d8e8d5a4/podcast/rss) - ChatGPT generated summaries of all NIPs by k00b
