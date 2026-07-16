@@ -583,7 +583,6 @@ Websites with lists of relays and their performance/health:
 
 ## Tools
 
-- [advanced-nostr-search](https://advancednostrsearch.vercel.app/) - A tool to search Nostr notes.
 - [Amethyst crawler](https://crawler.amethyst.social/) - Find and broadcast nostr events
 - [anonroom](https://github.com/vinliao/anonroom)![stars](https://img.shields.io/github/stars/vinliao/anonroom.svg?style=social) - anonymous chat room inside nostr
 - [Bech32 for Nostr](https://nostr.xport.top/bech32-for-nostr/) - bech32 Nostr converter.
@@ -602,8 +601,8 @@ Websites with lists of relays and their performance/health:
 - [Contact list backup](https://nostr.xport.top/contact-list-backup/) - Backup and restore your contacts
 - [FMD (Find my device)](https://gitlab.com/Kalle/fmd-android/-/tree/nostr-marmot?ref_type=heads) - Find your device and control it remotely. Works over Marmot (Nostr), SMS, instant messengers, or FMD Server's web interface. A secure open source alternative to Google's Find Hub. This is a fork of [FMD Android](https://gitlab.com/fmd-foss/fmd-android).
 - [following.space](https://github.com/callebtc/following.space)![stars](https://img.shields.io/github/stars/callebtc/following.space.svg?style=social) - create and explore follow packs for nostr, find lists of users to follow
-- [Ghostr](https://github.com/dmnyc/ghostr)![stars](https://img.shields.io/github/stars/dmnyc/ghostr.svg?style=social) - Dead simple post delegation workflow for Nostr. Writers draft, publishers sign. No scary key sharing required.
-  - [ghostr.org](https://ghostr.org/) - live instance
+- [Ghostr](https://ghostr.org/)![stars](https://img.shields.io/github/stars/dmnyc/ghostr.svg?style=social) - Dead simple post delegation workflow for Nostr. Writers draft, publishers sign. No scary key sharing required.
+  - [GitHub](https://github.com/dmnyc/ghostr) - source code
 - [git-nostr-tools](http://git.jb55.com/git-nostr-tools) - A cli tool for sending code patches over nostr
 - [git-nostr](https://github.com/colealbon/git-nostr)![stars](https://img.shields.io/github/stars/colealbon/git-nostr.svg?style=social) - A tool to enhance git cli with nostr communications. Publish patch content, prs, repo name, issues, etc to nostr relay.
 - [gittr-helper-tools](https://github.com/arbadacarbaYK/gittr-helper-tools)![stars](https://img.shields.io/github/stars/arbadacarbaYK/gittr-helper-tools.svg?style=social) - Production code snippets from gittr.space: file fetching, URL normalization, GRASP detection, NIP-46 signer, NIP-25 stars, NIP-51 following, markdown media handling, and NIP-C0 code snippets.
@@ -986,9 +985,11 @@ Endpoints (services or apps that expose a LN wallet via NWC)
 
 ## Games on Nostr
 
+- [Gamestr](https://gamestr.io/) - A decentralized gaming platform built on Nostr, enabling peer-to-peer play without centralized servers.
 - [NostrDice](https://github.com/NostrDice/nostrdice)![stars](https://img.shields.io/github/stars/NostrDice/nostrdice) - NostrDice is a provably fair betting game combining the power of Lightning and Nostr.
   - Live: [app.nostrdice.com](https://app.nostrdice.com)
 - [Nostrian Conquest](https://nostrian-conquest.com) - A turn-based multiplayer space strategy game inspired by classic BBS door games, rebuilt in Rust and powered by Nostr for decentralized play.
+- [word5](https://word5.otherstuff.ai/) - A free daily Wordle-style word-guessing game with Nostr login and sharing, plus Lightning donations.
 - [Words with Zaps](https://www.wordswithzaps.top) - A two-player crossword-style word game with bonus features designed around Lightning and Nostr.
   
 ## Communities
