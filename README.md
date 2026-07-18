@@ -152,7 +152,6 @@ Websites with lists of relays and their performance/health:
 - [relays.xport.top](https://relays.xport.top) - relays list sortable by ping, activity, etc.
 - [trustedrelays.xyz](https://trustedrelays.xyz) - relays list with trust scores for known relays using Trusted Relay Assertions.
 - [nostr](https://github.com/nostrdevkit/nostr)![stars](https://img.shields.io/github/stars/nostrdevkit/nostr.svg?style=social) - Rust implementation of the nostr protocol, high-level client library, Nostr Wallet Connect and more. (652★)
-- [nostr](https://github.com/nostrdevkit/nostr)![stars](https://img.shields.io/github/stars/nostrdevkit/nostr.svg?style=social) - Rust implementation of the nostr protocol, high-level client library, Nostr Wallet Connect and more. (652★)
 
 ## Clients
 ### Long form clients
