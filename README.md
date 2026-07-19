@@ -982,6 +982,7 @@ Endpoints (services or apps that expose a LN wallet via NWC)
 - [blossy](https://github.com/pippellia-btc/blossy)![stars](https://img.shields.io/github/stars/pippellia-btc/blossy.svg?style=social) - A framework for building fully custom Blossom servers, designed for the best developer experience. Supports all Blossom endpoints and allows developers to express custom business logic on top of a protocol-compliant foundation.
 - [blisk](https://github.com/pippellia-btc/blisk)![stars](https://img.shields.io/github/stars/pippellia-btc/blisk.svg?style=social) - An efficient, scalable, and deduplicated local blob storage that maintains metadata in SQLite. Fully compatible with Blossom, it gives developers a reliable database option for building their own Blossom servers.
 - [blossom servers](https://blossomservers.com/) - List of blossom servers
+- [blossom-npub-guard](https://github.com/SapienLearn/blossom-npub-guard)![stars](https://img.shields.io/github/stars/SapienLearn/blossom-npub-guard.svg?style=social) - Dependency-free TypeScript guard for clients: detects when an npub is the *host* of a Blossom npub-subdomain URL (npub1....blossom.band) so it isn't rewritten into a nostr: mention, which breaks the media URL. Ships tests for the full bug class.
 
 ## Games on Nostr
 
