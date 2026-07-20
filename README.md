@@ -1102,9 +1102,6 @@ Outside of nostr itself, you find the community on:
 - [Nozzle](https://github.com/dluvian/Nozzle)![stars](https://img.shields.io/github/stars/dluvian/Nozzle.svg?style=social) - A lightweight Android client
 - [Plebstr](https://plebstr.com) - Nostr client Reimagined, the most beautiful Twitter-like nostr client for iOS & Android.
 - [rsslay](https://github.com/piraces/rsslay)![stars](https://img.shields.io/github/stars/piraces/rsslay.svg?style=social) - fork of the rsslay by @fiatjaf. a bridge that puts RSS feeds into Nostr optimized, more funcionalities and UI improvements. Live at [rsslay.nostr.moe](https://rsslay.nostr.moe/)
-- [Nsec App](https://nsec.app) - Browser-based NIP-46 bunker that lets you sign events without exposing your nsec.
-- [nostrapp.link](https://nostrapp.link/)![stars](https://github.com/nostrband/nostr-app-manager) - Nostr App Manager
-- [Nostr.band](https://nostr.band) - Nostr search engine, profile and content discovery service.
 
 ## Related Resources
 
