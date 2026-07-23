@@ -151,7 +151,6 @@ Websites with lists of relays and their performance/health:
 - [nostr.watch](https://nostr.watch)![stars](https://img.shields.io/github/stars/sandwichfarm/nostr-watch.svg?style=social) - real-time checking of the status of some known relays.
 - [relays.xport.top](https://relays.xport.top) - relays list sortable by ping, activity, etc.
 - [trustedrelays.xyz](https://trustedrelays.xyz) - relays list with trust scores for known relays using Trusted Relay Assertions.
-- [nostr](https://github.com/nostrdevkit/nostr)![stars](https://img.shields.io/github/stars/nostrdevkit/nostr.svg?style=social) - Rust implementation of the nostr protocol, high-level client library, Nostr Wallet Connect and more. (652★)
 
 ## Clients
 ### Long form clients
@@ -501,6 +500,7 @@ Websites with lists of relays and their performance/health:
 - [NNostr.Client](https://github.com/Kukks/NNostr)![stars](https://img.shields.io/github/stars/Kukks/NNostr.svg?style=social) - a C# Nostr library for use by clients
 - [noscrypt](https://github.com/vnuge/noscrypt)![stars](https://img.shields.io/github/stars/vnuge/noscrypt.svg?style=social) - A C89 library for nostr specific cryptography operations.
 - [nostr_rust](https://github.com/0xtlt/nostr_rust)![stars](https://img.shields.io/github/stars/0xtlt/nostr_rust.svg?style=social) - Functional Rust implementation of the nostr protocol
+- [nostr](https://github.com/nostrdevkit/nostr)![stars](https://img.shields.io/github/stars/nostrdevkit/nostr.svg?style=social) - Rust implementation of the nostr protocol, high-level client library, Nostr Wallet Connect and more. (652★)
 - [Nostrbook](https://nostrbook.dev/) - A Comprehensive Registry of Nostr Documentation. Structured, detailed knowledge about Nostr for both humans and AI.
 - [nostr-bot](https://github.com/slaninas/nostr-bot)![stars](https://img.shields.io/github/stars/slaninas/nostr-bot.svg?style=social) - a Rust library for writing bots
 - [NostrBotKit](https://codeberg.org/Tuxor/NostrBotKit) - Self-hosted bot framework for Nostr written in Rust. Multi-bot orchestration, NIP-17/NIP-04 encrypted DM commands, YAML config, permission tiers, Docker deployment.
