@@ -358,6 +358,7 @@ Websites with lists of relays and their performance/health:
 - [Paz](https://pazstr.codeberg.page) - Paz is a desktop semantic Nostr client that transforms events into linked data (RDF) and makes queries on the events graph.
 - [Pinstr](https://github.com/sepehr-safari/pinstr) ![stars](https://img.shields.io/github/stars/sepehr-safari/pinstr?style=social) - Pinstr is a decentralized and open-source social network for curating and sharing your interests with the world.
   - [Pinstr.app](https://pinstr.app) - live instance
+- [Plaza](https://github.com/zig-nostr/plaza)![stars](https://img.shields.io/github/stars/zig-nostr/plaza.svg?style=social) - A fast, local-first Nostr client for macOS, built natively in Zig. Guest-first, with a built-in isolated signer. (In development.)
 - [Plektos](https://github.com/derekross/plektos)![stars](https://img.shields.io/github/stars/derekross/plektos.svg?style=social) - Plektos is a decentralized meetup, events, and calendar platform built on Nostr. [Plektos.app](https://plektos.app/)
 - [pocket-wallet](https://github.com/RetricSu/pocket-wallet)![stars](https://img.shields.io/github/stars/RetricSu/pocket-wallet.svg?style=social) - PocketWallet is a nostr-based wallet on CKB blockchain supportting Nip07 and Nip46.
 - [Pokey](https://github.com/KoalaSat/Pokey)![stars](https://img.shields.io/github/stars/KoalaSat/Pokey.svg?style=social) -  Nostr "Pull Notifications" on Android 
@@ -499,6 +500,7 @@ Websites with lists of relays and their performance/health:
 - [nmostr](https://github.com/Gruruya/nmostr)![stars](https://img.shields.io/github/stars/Gruruya/nmostr.svg?style=social) - a Nim library for Nostr
 - [NNostr.Client](https://github.com/Kukks/NNostr)![stars](https://img.shields.io/github/stars/Kukks/NNostr.svg?style=social) - a C# Nostr library for use by clients
 - [noscrypt](https://github.com/vnuge/noscrypt)![stars](https://img.shields.io/github/stars/vnuge/noscrypt.svg?style=social) - A C89 library for nostr specific cryptography operations.
+- [nostr (zig-nostr)](https://github.com/zig-nostr/nostr)![stars](https://img.shields.io/github/stars/zig-nostr/nostr.svg?style=social) - A fast Nostr protocol library for Zig. Native libsecp256k1 signing and a memory-mapped LMDB store give zero-copy, local-first reads with sub-millisecond feed queries. Covers keys and events, encrypted messaging and remote signing (NIP-44/46/49), and a relay transport.
 - [nostr_rust](https://github.com/0xtlt/nostr_rust)![stars](https://img.shields.io/github/stars/0xtlt/nostr_rust.svg?style=social) - Functional Rust implementation of the nostr protocol
 - [Nostrbook](https://nostrbook.dev/) - A Comprehensive Registry of Nostr Documentation. Structured, detailed knowledge about Nostr for both humans and AI.
 - [nostr-bot](https://github.com/slaninas/nostr-bot)![stars](https://img.shields.io/github/stars/slaninas/nostr-bot.svg?style=social) - a Rust library for writing bots
