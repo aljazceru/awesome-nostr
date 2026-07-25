@@ -18,6 +18,7 @@ nostr.net services [start.nostr.net](https://start.nostr.net) || [relay.nostr.ne
 - [coracle.social](https://coracle.social/)
 - [YakiHonne](https://yakihonne.com)
 - [Ditto](https://ditto.pub)
+- [GUPT](https://gupt.app) - Browser-native, serverless encrypted messenger and privacy suite. E2E encrypted chat, P2P WebRTC calls, password vault, and IPFS media storage. No phone number or account required.
 
 ### Other
 - [Zapstore](https://zapstore.dev/) - Web of trust based app store 
