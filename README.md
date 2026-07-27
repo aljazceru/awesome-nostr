@@ -12,6 +12,7 @@ nostr.net services [start.nostr.net](https://start.nostr.net) || [relay.nostr.ne
 - [Ditto](https://ditto.pub) - Android app
 - [Zemzeme](https://github.com/whisperbit-labs/zemzeme-android)![stars](https://img.shields.io/github/stars/whisperbit-labs/zemzeme-android.svg?style=social) - Private, serverless messaging for Android — offline Bluetooth mesh, peer-to-peer, and Nostr relay. No accounts, no internet required
 - [VaultChat](https://vaultchat.pro) - Encrypted Android messenger built on Nostr. NIP-44 v2, groups, Decoy PIN. No phone number, no email, no server.
+
 ### Web clients
 - [snort.social](https://snort.social/)
 - [primal.net](https://primal.net/)
@@ -123,7 +124,6 @@ of the public instances.
 - [WoT relay](https://github.com/bitvora/wot-relay.git)![stars](https://img.shields.io/github/stars/bitvora/wot-relay.svg?style=social) - relay for every note in your web of trust
 - [wisp](https://github.com/privkeyio/wisp)![stars](https://img.shields.io/github/stars/privkeyio/wisp.svg?style=social) - A lightweight Nostr relay implementation focused on simplicity and performance
 - [groups_relay](https://github.com/verse-pbc/groups_relay) - A Nostr NIP-29 Group Chat Relay implementation
-
 - [bloom](https://github.com/nostrnative/bloom) - Bloom is a high-performance hybrid server for the Nostr ecosystem.   It functions as both a Blossom Protocol implementation for media storage   and a Nostr Relay for event distribution
 - [nostr-relay](https://github.com/johninnis/nostr-relay) - AMPHP-based async WebSocket relay server for Nostr protocol
 - [Shirushi](https://github.com/00quasr/Shirushi) - A web-based Nostr protocol testing and monitoring tool built in Go. Test NIP implementations, monitor relay connections, and explore the Nostr network through an intuitive dashboard
@@ -219,6 +219,7 @@ Websites with lists of relays and their performance/health:
 - [Bikel](https://github.com/Mnpezz/bikel)![stars](https://img.shields.io/github/stars/Mnpezz/bikel.svg?style=social) - Bicycle ride tracking,sharing, and cycling event client app and webpage [www.bikel.ink](https://bikel.ink/)
 - [BlazeJump](https://github.com/objectwizard/BlazeJump)![stars](https://img.shields.io/github/stars/objectwizard/BlazeJump.svg?style=social) - A fast web client boilerplate written in C# / Blazor, that uses an in-browser SQLite database.
 - [Bookstr](https://bookstr.xyz/)- Discover, track, and share your reading journey on the decentralized Nostr network. No corporations. No ads. No data tracking. Just books.
+- [Buzz](https://github.com/block/buzz)![stars](https://img.shields.io/github/stars/block/buzz.svg?style=social) - Workspace where AI agents and humans collaborate on their own relay.
 - [Bold Bitcoin Wallet](https://github.com/BoldBitcoinWallet/BoldWallet)![stars](https://img.shields.io/github/stars/BoldBitcoinWallet/BoldWallet.svg?style=social) - A Bitcoin wallet implementing MPC TSS over Nostr for decentralized device pairing and transaction signing. Connect devices from anywhere via Nostr relays with NIP-44 encryption 
 - [Blobbi](https://blobbi.pet/) - Your Virtual Pet on the Nostr Network. Adopt and care for your own unique digital companion that lives forever on the decentralized web. 
 - [Blowater](https://blowater.deno.dev) - A desktop Web client focusing on chat with delightful UX
@@ -1038,6 +1039,7 @@ Outside of nostr itself, you find the community on:
 - [Decentralizing Global Markets with Nostr](https://www.youtube.com/watch?v=WtpY_pQ3zcI) - Guy Swann and Pablof7z
 - [FEDSTR: Money-In AI-Out | A Decentralized Marketplace for Federated Learning and LLM Training on the NOSTR Protocol](https://arxiv.org/abs/2404.15834) - written by Konstantinos E. Nikolakakis, George Chantzialexiou, Dionysis Kalogerias.
 - [Exploring the Nostr Ecosystem: A Study of Decentralization and Resilience](https://arxiv.org/abs/2402.05709) -  written by Yiluo Wei, Gareth Tyson.
+
 ## Podcasts
 
 - [Nostrovia Podcast](https://nostrovia.org/) - A Nostr podcast covering all the new projects, all the new cool stuff, all the new NIPs
