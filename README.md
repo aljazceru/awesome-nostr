@@ -19,6 +19,7 @@ nostr.net services [start.nostr.net](https://start.nostr.net) || [relay.nostr.ne
 - [coracle.social](https://coracle.social/)
 - [YakiHonne](https://yakihonne.com)
 - [Ditto](https://ditto.pub)
+- [File Blossom](https://qyronx.github.io/fileblossom/)
 
 ### Other
 - [Zapstore](https://zapstore.dev/) - Web of trust based app store 
