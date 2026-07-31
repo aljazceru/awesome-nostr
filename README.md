@@ -593,6 +593,7 @@ Websites with lists of relays and their performance/health:
 - [blogsync](https://github.com/canostrical/blogsync)![stars](https://img.shields.io/github/stars/canostrical/blogsync.svg?style=social) - Self-host blog articles from long-form notes e.g. via Caddy server.
 - [Bloom]( https://github.com/Letdown2491/bloom)![stars](https://img.shields.io/github/stars/letdown2491/bloom.svg?style=social) - A file‑manager interface (edit metadata, share items, create shareable folders) for files and blobs stored on Blossom and NIP‑96 servers.
   - [bloomapp.me](https://bloomapp.me/) - live instance
+- [File Blossom] (https://qyronx.github.io/fileblossom/) - A browser based, serverless, encrypted file sharing site without any limit and privacy suite built on Nostr and Blossom.
 - [bray](https://github.com/forgesworn/bray)![stars](https://img.shields.io/github/stars/forgesworn/bray.svg?style=social) - Trust-aware Nostr MCP server for AI agents. 234 tools across identity, social, trust, dispatch, relay, marketplace, privacy, and encrypted access. Works with Claude, ChatGPT, Gemini, Cursor, or any MCP client.
 - [Bookmarkstr](https://bookmarkstr.store/) - A browser extension for reading and managing nostr bookmarks
 - [BlazeJump.NostrConnect](https://github.com/drmikesamy/BlazeJump.NostrConnect)![stars](https://img.shields.io/github/stars/drmikesamy/BlazeJump.NostrConnect.svg?style=social) - an Android based remote NostrConnect signer and web project using QR codes and Nip44 encryption by default
