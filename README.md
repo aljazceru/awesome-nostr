@@ -822,6 +822,7 @@ Websites with lists of relays and their performance/health:
 - [keyNest](https://github.com/gzuuus/keynest)![stars](https://img.shields.io/github/stars/gzuuus/keynest.svg?style=social) - Nostr key management tool.
 - [Keystache](https://github.com/nodetec/keystache)![stars](https://img.shields.io/github/stars/nodetec/keystache.svg?style=social) - Cross-platform Nostr signer.
 - [OAuth Bunker](https://github.com/flox1an/oauth-bunker)![stars](https://img.shields.io/github/stars/flox1an/oauth-bunker.svg?style=social) - OAuth-style NIP-46 bunker for Nostr.
+- [vador](https://vador.codeberg.page) - Nostr encrypted key vault and bunker (desktop). Based on [keep](https://github.com/privkeyio/keep) and egui.
 
 ## Vanity pubkey mining
 - [glasnostr](https://github.com/eyelight/glasnostr)![stars](https://img.shields.io/github/stars/eyelight/glasnostr.svg?style=social) - CLI tool to mine a vanity prefix for your nostr npub
