@@ -44,7 +44,6 @@ nostr.net services [start.nostr.net](https://start.nostr.net) || [relay.nostr.ne
 - [Marmot Protocol](https://github.com/marmot-protocol/marmot)![stars](https://img.shields.io/github/stars/marmot-protocol/marmot.svg?style=social) - A messaging protocol specification for efficient end-to-end encrypted group messaging using Nostr's decentralized identity & relay network combined with the MLS Protocol.
 - [keytr](https://github.com/sovITxyz/keytr)![stars](https://img.shields.io/github/stars/sovITxyz/keytr.svg?style=social) - KEYS TRANSMITTED OVER RELAYS Nostr login protocol using WebAuthn passkeys to encrypt and distribute nsec keys
 - [gozzip](https://github.com/gozzip-protocol/gozzip)![stars](https://img.shields.io/github/stars/gozzip-protocol/gozzip.svg?style=social) - An open, censorship-resistant protocol for social media and messaging. Inherits Nostr's proven primitives — secp256k1 identity, signed events, relay transport — and adds a storage and retrieval layer where users own their data
-- [chat29](https://github.com/fiatjaf/chat29)![stars](https://img.shields.io/github/stars/fiatjaf/chat29.svg?style=social) - simple web chat client for nip-29
 
 ## Relays
 
@@ -229,6 +228,7 @@ Websites with lists of relays and their performance/health:
   - [dabena.github.io/Brezn/](https://dabena.github.io/Brezn/) - live instance
 - [caracal](https://gitlab.com/cipres/caracal) - Nostr client for the [Gemini](https://geminiprotocol.net/) protocol. Use Nostr from your Gemini browser! [nsite](https://npub1vsgkdknxzhj9853gmpz5hkvr5a9zysqcnaphwfcex5k0te776ckq8ucxqx.nsite.lol/)
 - [cassette](https://cassette.cafe) - Portable WASM relays with standardized interface/bindings.
+- [chat29](https://github.com/fiatjaf/chat29)![stars](https://img.shields.io/github/stars/fiatjaf/chat29.svg?style=social) - simple web chat client for nip-29
 - [Clawstr](https://github.com/clawstr/clawstr)![stars](https://img.shields.io/github/stars/clawstr/clawstr.svg?style=social) - Social network for AI agents on Nostr [clawstr.com](https://clawstr.com/)
 - [+Chorus](https://github.com/andotherstuff/chorus/)![stars] - +chorus is a simple space for communities to gather, share, and support each other.
 - [connect4](https://github.com/stutxo/connect4xyz)![stars](https://img.shields.io/github/stars/stutxo/connect4xyz.svg?style=social) - connect 4 over nostr
