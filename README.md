@@ -44,6 +44,7 @@ nostr.net services [start.nostr.net](https://start.nostr.net) || [relay.nostr.ne
 - [Marmot Protocol](https://github.com/marmot-protocol/marmot)![stars](https://img.shields.io/github/stars/marmot-protocol/marmot.svg?style=social) - A messaging protocol specification for efficient end-to-end encrypted group messaging using Nostr's decentralized identity & relay network combined with the MLS Protocol.
 - [keytr](https://github.com/sovITxyz/keytr)![stars](https://img.shields.io/github/stars/sovITxyz/keytr.svg?style=social) - KEYS TRANSMITTED OVER RELAYS Nostr login protocol using WebAuthn passkeys to encrypt and distribute nsec keys
 - [gozzip](https://github.com/gozzip-protocol/gozzip)![stars](https://img.shields.io/github/stars/gozzip-protocol/gozzip.svg?style=social) - An open, censorship-resistant protocol for social media and messaging. Inherits Nostr's proven primitives — secp256k1 identity, signed events, relay transport — and adds a storage and retrieval layer where users own their data
+- [chat29](https://github.com/fiatjaf/chat29)![stars](https://img.shields.io/github/stars/fiatjaf/chat29.svg?style=social) - simple web chat client for nip-29
 
 ## Relays
 
@@ -768,6 +769,7 @@ Websites with lists of relays and their performance/health:
 - [TENEX](https://github.com/tenex-chat/tenex)![stars](https://img.shields.io/github/stars/tenex-chat/tenex.svg?style=social) - AI agent orchestration platform on Nostr.
 - [TollGate](https://tollgate.me) - Pay-per-use Wi-Fi access using Nostr and Lightning.
 - [Yondar](https://go.yondar.me) - Location-based social discovery on Nostr.
+- [nostr.com](https://github.com/fiatjaf/nostr.com)![stars](https://img.shields.io/github/stars/fiatjaf/nostr.com.svg?style=social) - Nostr twitter client
 
 ## NIP-05 identity services
 
