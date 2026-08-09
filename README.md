@@ -312,6 +312,7 @@ Websites with lists of relays and their performance/health:
 - [nospeak](https://github.com/psic4t/nospeak)![stars](https://img.shields.io/github/stars/psic4t/nospeak.svg?style=social) - A NIP-17 compliant chat client for secure, private messaging over Nostr
 - [Nosky](https://github.com/KotlinGeekDev/Nosky)![stars](https://img.shields.io/github/stars/KotlinGeekDev/Nosky.svg?style=social) - A native Android client for Nostr. Still in development
 - [nostr console](https://github.com/vishalxl/nostr_console)![stars](https://img.shields.io/github/stars/vishalxl/nostr_console.svg?style=social) - a nostr command line client written in Dart. Binaries available for Windows, Linux, and macOS
+- [nostr.com](https://github.com/fiatjaf/nostr.com)![stars](https://img.shields.io/github/stars/fiatjaf/nostr.com.svg?style=social) - Nostr twitter client
 - [Nostr Read Only Client](https://github.com/delirehberi/nostr-ro-client/)![stars](https://img.shields.io/github/stars/delirehberi/nostr-ro-client.svg?style=social) - simple cloudflare worker to serve a single user's nostr content (kind:1) as web page preview: nostr.emre.xyz
 - [Nostria](https://nostria.app) - Web, Desktop, iOS and Android app for Nostr, easy to get started for new users. Multiple feeds with multiple columns, Live Streams, Articles, Media Library, Video recording, Audio recording. 
 - [Hugo2Nostr](https://github.com/delirehberi/hugo2nostr)![stars](https://img.shields.io/github/stars/delirehberi/hugo2nostr.svg?style=social) - Sync your hugo blog with nostr network. The tool have scripts to sync contents. 
@@ -769,7 +770,6 @@ Websites with lists of relays and their performance/health:
 - [TENEX](https://github.com/tenex-chat/tenex)![stars](https://img.shields.io/github/stars/tenex-chat/tenex.svg?style=social) - AI agent orchestration platform on Nostr.
 - [TollGate](https://tollgate.me) - Pay-per-use Wi-Fi access using Nostr and Lightning.
 - [Yondar](https://go.yondar.me) - Location-based social discovery on Nostr.
-- [nostr.com](https://github.com/fiatjaf/nostr.com)![stars](https://img.shields.io/github/stars/fiatjaf/nostr.com.svg?style=social) - Nostr twitter client
 
 ## NIP-05 identity services
 
