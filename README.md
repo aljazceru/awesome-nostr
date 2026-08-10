@@ -203,6 +203,7 @@ Websites with lists of relays and their performance/health:
 - [Zemzeme](https://github.com/whisperbit-labs/zemzeme-android)![stars](https://img.shields.io/github/stars/whisperbit-labs/zemzeme-android.svg?style=social) - Private, serverless messaging for Android — offline Bluetooth mesh, peer-to-peer, and Nostr relay. No accounts, no internet required
 - [VaultChat](https://vaultchat.pro) - Encrypted Android messenger built on Nostr. NIP-44 v2, groups, Decoy PIN. No phone number, no email, no server.
 - [LiberMedia](https://github.com/lucianocasalunga/libermedia-twa)![stars](https://img.shields.io/github/stars/lucianocasalunga/libermedia-twa.svg?style=social) - Social Nostr client for Android with Bitcoin/Lightning zaps, groups and DMs. TWA of the media.libernet.app PWA. MIT licensed.
+- [Makoré](https://github.com/lucianocasalunga/makore-twa)![stars](https://img.shields.io/github/stars/lucianocasalunga/makore-twa.svg?style=social) - End-to-end encrypted Nostr messenger for Android with NIP-17/NIP-44 DMs, E2E groups, ephemeral rooms and Bitcoin/Lightning gifts. TWA of the makore.libernet.app PWA. MIT licensed.
 
 
 ### Other  
