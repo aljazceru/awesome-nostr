@@ -17,6 +17,7 @@ nostr.net services [start.nostr.net](https://start.nostr.net) || [relay.nostr.ne
 - [coracle.social](https://coracle.social/)
 - [YakiHonne](https://yakihonne.com)
 - [Ditto](https://ditto.pub)
+- [inference-provider-api](https://github.com/fiatjaf/inference-provider-api)![stars](https://img.shields.io/github/stars/fiatjaf/inference-provider-api.svg?style=social) - The Inference Provider API (IPA) is a proposed browser standard that allows web applications to request AI inference from a user-approved browser extension without ever accessing API keys.
 
 ### Other
 - [Zapstore](https://zapstore.dev/) - Web of trust based app store 
@@ -149,6 +150,7 @@ Websites with lists of relays and their performance/health:
 - [nostr.watch](https://nostr.watch)![stars](https://img.shields.io/github/stars/sandwichfarm/nostr-watch.svg?style=social) - real-time checking of the status of some known relays.
 - [relays.xport.top](https://relays.xport.top) - relays list sortable by ping, activity, etc.
 - [trustedrelays.xyz](https://trustedrelays.xyz) - relays list with trust scores for known relays using Trusted Relay Assertions.
+- [inference-bridge](https://github.com/fiatjaf/inference-bridge)![stars](https://img.shields.io/github/stars/fiatjaf/inference-bridge.svg?style=social) - Official reference implementation of the Inference Provider API proposal.
 
 ## Clients
 ### Long form clients
