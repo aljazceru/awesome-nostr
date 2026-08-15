@@ -1063,6 +1063,7 @@ Outside of nostr itself, you find the community on:
 
 - [awesome-nostr-japan](https://github.com/nostr-jp/awesome-nostr-japan)![stars](https://img.shields.io/github/stars/nostr-jp/awesome-nostr-japan.svg?style=social) - awesome nostr japan
 - [awesome-nostr-possibilities](https://github.com/orthzar/awesome-nostr-possibilities)![stars](https://img.shields.io/github/stars/orthzar/awesome-nostr-possibilities.svg?style=social) - Nostr will fail if it stays just another social media protocol. This repo lists ideas for non-social-media applications.
+- [Galaxy Mind](https://galaxymind.space/) - Directory of merchants that accept bitcoin, including 46 Nostr-native vendors listed by npub or NIP-05.
 - [inosta api](https://github.com/johnongit/INOSTA-Nostr-Img-Service)![stars](https://img.shields.io/github/stars/johnongit/INOSTA-Nostr-Img-Service.svg?style=social) - Expensive Image Hosting Service
   - [api.inosta.cc](https://api.inosta.cc) - Backend live instance
   - [inosta.cc](https://inosta.cc) - Demonstrator live instance
