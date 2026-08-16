@@ -661,6 +661,7 @@ Websites with lists of relays and their performance/health:
 - [nostr-cln-events](http://git.jb55.com/nostr-cln-events) - A CLN plugin to push clightning node events to nostr
 - [nostr-commander](https://github.com/8go/nostr-commander-rs)![stars](https://img.shields.io/github/stars/8go/nostr-commander-rs.svg?style=social) - simple but convenient CLI-based Nostr app for following users, sending DMs, etc.
 - [nostr-components](https://github.com/saiy2k/nostr-components)![stars](https://img.shields.io/github/stars/saiy2k/nostr-components.svg?style=social) - Nostr Components makes it easy to embed Nostr profiles, posts, follow buttons, Live chat box, comment section, DM buttons in any website
+- [NostrComments](https://github.com/briskness-byte/NostrComments) - Browser extension adding a comment thread to any web page, stored on relays rather than on the site being discussed, so the page owner cannot remove it. Chrome, Firefox and userscript.
 - [nostr-crdt](https://github.com/YousefED/nostr-crdt) ![stars](https://img.shields.io/github/stars/YousefED/nostr-crdt.svg?style=social) - Use Nostr for collaborative, decentralized, local-first applications with nostr-CRDT Yjs provider.
 - [nostr-delete](https://github.com/blakejakopovic/nostr_delete)![stars](https://img.shields.io/github/stars/blakejakopovic/nostr_delete.svg?style=social) - generate delete events requesting relays drop and delete content you've published. Blasts out delete requests to many relays. 
   - [nostr-delete web app](https://nostr-delete.vercel.app/)
