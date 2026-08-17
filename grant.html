@@ -1,0 +1,222 @@
+---
+permalink: /grant/
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grantless · zap the projects building nostr | nostr.net</title>
+    <meta name="description" content="Zap-funded, grantless support for nostr projects. Connect your wallet, pick projects, zap them all — with NIP-57 zap receipts.">
+    <link rel="icon" type="image/png" href="Logo.png">
+    <link rel="apple-touch-icon" href="Logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+
+        :root {
+            --background: #fdf8f3;
+            --card: #ffffff;
+            --text: #2d1b3d;
+            --text-muted: #8b7e97;
+            --border: #ecdfe8;
+            --zap: #f7931a;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --background: #191020;
+                --card: #241b2e;
+                --text: #ede8f5;
+                --text-muted: #8b7e97;
+                --border: #342a40;
+            }
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: "Inter", system-ui, sans-serif;
+            background: var(--background);
+            color: var(--text);
+            line-height: 1.65;
+            -webkit-font-smoothing: antialiased;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 1.5rem;
+            border-bottom: 1px solid var(--border);
+            background: var(--card);
+        }
+
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-weight: 600;
+            text-decoration: none;
+            color: var(--text);
+        }
+
+        .brand img { width: 28px; height: 28px; border-radius: 6px; }
+
+        .back {
+            color: var(--text-muted);
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: color 0.2s;
+        }
+
+        .back:hover { color: var(--zap); }
+
+        main {
+            max-width: 720px;
+            width: 100%;
+            margin: 0 auto;
+            padding: 3rem 1.5rem 4rem;
+            flex: 1;
+        }
+
+        h1 {
+            font-size: 2.2rem;
+            letter-spacing: -0.03em;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        h1 .fa-bolt { color: var(--zap); }
+
+        .tagline {
+            color: var(--text-muted);
+            margin: 0.75rem 0 2rem;
+            font-size: 1.05rem;
+        }
+
+        .status {
+            background: rgba(247, 147, 26, 0.08);
+            border: 1px dashed rgba(247, 147, 26, 0.45);
+            border-radius: 12px;
+            padding: 14px 16px;
+            font-size: 0.92rem;
+            margin-bottom: 2.5rem;
+        }
+
+        h2 {
+            font-size: 1.05rem;
+            letter-spacing: -0.02em;
+            margin: 2rem 0 1rem;
+        }
+
+        .zap-row {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            flex-wrap: wrap;
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 14px;
+            padding: 16px 18px;
+            margin-bottom: 10px;
+            text-decoration: none;
+            color: var(--text);
+            transition: all 0.2s;
+        }
+
+        .zap-row:hover {
+            border-color: var(--zap);
+            transform: translateY(-1px);
+            box-shadow: 0 4px 16px rgba(247, 147, 26, 0.15);
+        }
+
+        .zap-row strong { font-size: 0.98rem; }
+
+        .zap-row .what {
+            color: var(--text-muted);
+            font-size: 0.85rem;
+            flex: 1 1 200px;
+        }
+
+        .zap-row code {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            background: rgba(247, 147, 26, 0.06);
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            padding: 2px 8px;
+        }
+
+        .zap-row .fa-bolt { color: var(--zap); margin-left: auto; }
+
+        pre {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 14px 16px;
+            font-size: 0.82rem;
+            overflow-x: auto;
+            margin: 0.5rem 0 1rem;
+        }
+
+        a.pr-link { color: var(--zap); text-decoration: none; font-weight: 600; }
+        a.pr-link:hover { text-decoration: underline; }
+
+        footer {
+            text-align: center;
+            padding: 1.5rem;
+            color: var(--text-muted);
+            font-size: 0.85rem;
+            border-top: 1px solid var(--border);
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a class="brand" href="/">
+            <img src="Logo.png" alt="nostr.net logo">
+            <span>.NET</span>
+        </a>
+        <a class="back" href="/"><i class="fas fa-arrow-left" aria-hidden="true"></i> back to the list</a>
+    </nav>
+
+    <main>
+        <h1><i class="fas fa-bolt" aria-hidden="true"></i> grantless</h1>
+        <p class="tagline">Zap-funded nostr. No gatekeepers, no grant committees — the list is the funding platform.</p>
+
+        <div class="status">
+            <i class="fas fa-hammer" aria-hidden="true"></i>
+            The batch-zap UI is being built: connect your wallet via NWC (Bitcoin&nbsp;Connect), tick any number of
+            projects, and zap them all in one go — with full NIP-57 zap receipts. It lands on this page soon.
+        </div>
+
+        <h2>Meanwhile, zap directly</h2>
+
+        <a class="zap-row" href="lightning:aljaz@minibits.cash">
+            <strong>nostr.net</strong>
+            <span class="what">curator &amp; host — relay and list maintenance</span>
+            <code>aljaz@minibits.cash</code>
+            <i class="fas fa-bolt" aria-hidden="true"></i>
+        </a>
+
+        <a class="zap-row" href="lightning:bitkarrot@primal.net">
+            <strong>Hivetalk</strong>
+            <span class="what">Nostr + Lightning Video Conferencing</span>
+            <code>bitkarrot@primal.net</code>
+            <i class="fas fa-bolt" aria-hidden="true"></i>
+        </a>
+
+        <h2>Project maintainer?</h2>
+        <p>Add a zap chip to your entry on the list via pull request:</p>
+        <pre>- [Your Project](https://example.com) - What it does [⚡ zap](lightning:you@wallet.com)</pre>
+        <p><a class="pr-link" href="https://github.com/aljazceru/awesome-nostr/">Submit a PR on GitHub →</a></p>
+    </main>
+
+    <footer>&copy; 2025 nostr.net</footer>
+</body>
+</html>

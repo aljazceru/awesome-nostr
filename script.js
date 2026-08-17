@@ -334,6 +334,16 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>`;
         });
 
+    // grantless: banner jumps to the Zappable projects section
+    const fundBanner = document.querySelector('.fund-banner');
+    if (fundBanner) {
+        fundBanner.addEventListener('click', (e) => {
+            e.preventDefault();
+            const link = document.querySelector(`.nav-links a[data-section="${ZAPPABLE_SECTION}"]`);
+            if (link) link.click();
+        });
+    }
+
     // Ensure we're working with valid elements
     if (!sidebar || !menuToggle) {
         console.error('Required elements not found');
@@ -537,34 +547,20 @@ function searchResourceList(ulElement, container, searchTerm, sectionName) {
     Array.from(ulElement.children).forEach(li => {
         // Search in the main item if it has a link
         if (li.querySelector(':scope > a')) {
-            const resourceName = li.querySelector(':scope > a')?.textContent || '';
-            const resourceLink = li.querySelector(':scope > a')?.href || '';
-            const description = li.textContent
-                .replace(resourceName, '') // Remove the resource name
-                .replace(/^\s*-\s*/, '')  // Remove leading dash
-                .replace(/\s*\[!\[.*?\]\(.*?\)\]\(.*?\)\s*/, '') // Remove GitHub stars badge if present
-                .trim();
-            
-            const searchableText = [resourceName, description, resourceLink]
+            const resource = parseListItem(li);
+            const searchableText = [resource.name, resource.description, resource.link]
                 .join(' ')
                 .toLowerCase();
-            
+
             if (searchableText.includes(searchTerm)) {
-                const card = createResourceCard({
-                    name: resourceName,
-                    link: resourceLink,
-                    description: description,
-                    stars: li.querySelector(':scope > img[alt="stars"]')
-                        ? parseInt(li.querySelector(':scope > img[alt="stars"]').src.match(/stars\/(\d+)/)?.[1]) || 0
-                        : 0
-                });
-                
+                const card = createResourceCard(resource);
+
                 // Add section label to card
                 const sectionLabel = document.createElement('div');
                 sectionLabel.className = 'category-label';
                 sectionLabel.textContent = sectionName;
                 card.insertBefore(sectionLabel, card.firstChild);
-                
+
                 container.appendChild(card);
             }
         }
@@ -762,6 +758,86 @@ function parseResourceLine(line) {
     return null;
 }
 
+// ===== grantless: zap/donate chip support =====
+// Reads a rendered markdown <li> and extracts the resource link plus the
+// optional chips from the README convention:
+//   - [Name](https://...) - description [⚡ zap](lightning:addr@host) [donate](https://...)
+const LIGHTNING_SCHEME_RE = /^lightning:/i;
+
+function parseListItem(li) {
+    let name = '';
+    let link = '';
+    let lnAddress = null;
+    let donateUrl = null;
+
+    Array.from(li.querySelectorAll('a')).forEach(a => {
+        const href = a.getAttribute('href') || '';
+        const label = a.textContent.trim().toLowerCase();
+        if (LIGHTNING_SCHEME_RE.test(href)) {
+            if (lnAddress === null) lnAddress = href.replace(LIGHTNING_SCHEME_RE, '');
+        } else if (label === 'donate' && /^https?:/i.test(href)) {
+            if (donateUrl === null) donateUrl = href;
+        } else if (!name) {
+            name = a.textContent.trim();
+            link = href;
+        }
+    });
+
+    // Description = li text minus the name, chips, stars badge and nested lists
+    const clone = li.cloneNode(true);
+    clone.querySelectorAll('ul').forEach(u => u.remove());
+    clone.querySelectorAll('img').forEach(i => i.remove());
+    clone.querySelectorAll('a').forEach(a => {
+        const href = a.getAttribute('href') || '';
+        const label = a.textContent.trim().toLowerCase();
+        if (LIGHTNING_SCHEME_RE.test(href) || label === 'donate') a.remove();
+    });
+    let description = clone.textContent.replace(/\s+/g, ' ').trim();
+    if (name && description.toLowerCase().startsWith(name.toLowerCase())) {
+        description = description.slice(name.length).trim();
+    }
+    description = description.replace(/^[-–—:]\s*/, '').trim();
+
+    const starsImg = li.querySelector('img[alt="stars"]');
+    return {
+        name,
+        link,
+        description,
+        stars: starsImg ? parseInt(starsImg.src.match(/stars\/(\d+)/)?.[1]) || 0 : 0,
+        lnAddress,
+        donateUrl
+    };
+}
+
+// ===== grantless: aggregated "Zappable projects" section =====
+const CURATOR_LN_ADDRESS = 'aljaz@minibits.cash';
+const ZAPPABLE_SECTION = 'Zappable projects';
+
+// Builds a synthetic resource list containing nostr.net (curator, pinned)
+// plus every entry from any section that carries a lightning: chip.
+function buildZappableSection(sections) {
+    const ul = document.createElement('ul');
+
+    // nostr.net itself — curator & host, always first
+    const curator = document.createElement('li');
+    curator.innerHTML = `<a href="https://nostr.net">nostr.net</a> - Curator &amp; host — this list and relay.nostr.net <a href="lightning:${CURATOR_LN_ADDRESS}">⚡ zap</a>`;
+    ul.appendChild(curator);
+
+    // collect zappable entries from all sections, nested lists included
+    const collect = (list) => {
+        Array.from(list.children).forEach(li => {
+            if (parseListItem(li).lnAddress) ul.appendChild(li.cloneNode(true));
+            const nested = li.querySelector(':scope > ul');
+            if (nested) collect(nested);
+        });
+    };
+    Object.values(sections).forEach(content =>
+        content.forEach(item => { if (item.type === 'resources') collect(item.element); })
+    );
+
+    return [{ type: 'resources', element: ul }];
+}
+
 // Modified createResourceCard function to display markdown links in a cleaner format
 function createResourceCard(resource) {
     const card = document.createElement('div');
@@ -845,6 +921,19 @@ function createResourceCard(resource) {
                         ${resource.description}
                     </div>
                 ` : ''}
+                ${(resource.lnAddress || resource.donateUrl) ? `
+                    <div class="resource-chips">
+                        ${resource.lnAddress ? `
+                            <a class="zap-chip" href="lightning:${resource.lnAddress}"
+                               title="Zap ${resource.name} · ${resource.lnAddress}"
+                               data-ln-address="${resource.lnAddress}">
+                                <i class="fas fa-bolt" aria-hidden="true"></i> Zap
+                            </a>` : ''}
+                        ${resource.donateUrl ? `
+                            <a class="donate-chip" href="${resource.donateUrl}" target="_blank" rel="noopener">
+                                <i class="fas fa-heart" aria-hidden="true"></i> Donate
+                            </a>` : ''}
+                    </div>` : ''}
             </div>
         </div>
     `;
@@ -1042,16 +1131,25 @@ async function parseAndDisplayContent() {
             sections[currentSection] = currentSectionContent;
         }
 
+        // grantless: insert the aggregated zappable section after the first section
+        const withZappable = {};
+        const originalEntries = Object.entries(sections);
+        if (originalEntries.length) {
+            withZappable[originalEntries[0][0]] = originalEntries[0][1];
+        }
+        withZappable[ZAPPABLE_SECTION] = buildZappableSection(sections);
+        originalEntries.slice(1).forEach(([name, content]) => { withZappable[name] = content; });
+
         // Store sections globally
-        window.parsedResources = sections;
+        window.parsedResources = withZappable;
 
         // Generate navigation
-        const sectionNames = Object.keys(sections);
+        const sectionNames = Object.keys(withZappable);
         generateNavigation(sectionNames);
 
         // Display initial section
         if (sectionNames.length > 0) {
-            displaySection(sectionNames[0], sections);
+            displaySection(sectionNames[0], withZappable);
         }
 
     } catch (error) {
@@ -1080,14 +1178,7 @@ function displaySection(sectionName, sections) {
         } else if (item.type === 'resources') {
             // Resource list
             Array.from(item.element.children).forEach(li => {
-                const card = createResourceCard({
-                    name: li.querySelector('a')?.textContent || '',
-                    link: li.querySelector('a')?.href || '',
-                    description: li.textContent.split('- ')[1]?.trim() || '',
-                    stars: li.querySelector('img[alt="stars"]')
-                        ? parseInt(li.querySelector('img[alt="stars"]').src.match(/stars\/(\d+)/)?.[1]) || 0
-                        : 0
-                });
+                const card = createResourceCard(parseListItem(li));
                 container.appendChild(card);
             });
         }
