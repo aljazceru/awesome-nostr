@@ -80,7 +80,10 @@
         const bad = (error) => ({ ok: false, error });
         try {
             if (typeof invoice !== 'string') return bad('not a string');
-            const inv = invoice.replace(/^lightning:/i, '').trim().toLowerCase();
+            const stripped = invoice.replace(/^lightning:/i, '').trim();
+            // bech32: all-lower or all-upper only — mixed case is invalid
+            if (/[a-z]/.test(stripped) && /[A-Z]/.test(stripped)) return bad('mixed case');
+            const inv = stripped.toLowerCase();
             const sep = inv.lastIndexOf('1');
             if (sep < 4 || sep === inv.length - 1) return bad('missing separator');
             const hrp = inv.slice(0, sep);
@@ -113,17 +116,22 @@
             // (words includes the trailing 6 bech32 checksum words — excluded here)
             const sigAt = words.length - 6 - 104;
             const timestamp = parseInt(words.slice(0, 7).map(w => w.toString(2).padStart(5, '0')).join('') || '0', 2);
-            let expiry = null, descriptionHash = null;
+            let expiry = null, descriptionHash = null, hasPaymentHash = false;
             let pos = 7;
             while (pos + 3 <= sigAt) {
                 const type = words[pos];
                 const len = words[pos + 1] * 32 + words[pos + 2];
                 if (pos + 3 + len > sigAt) return bad('truncated tag');
                 const value = words.slice(pos + 3, pos + 3 + len);
+                if (type === 1 && len === 52) hasPaymentHash = true;              // 'p' payment_hash (32 bytes)
                 if (type === 23) descriptionHash = wordsToTrimmedHex(value);        // 'h' purpose_commit_hash
                 else if (type === 6) expiry = parseInt(value.map(w => w.toString(2).padStart(5, '0')).join('') || '0', 2); // 'x' expire_time
                 pos += 3 + len;
             }
+            // a receivable BOLT11 invoice must commit to a payment hash —
+            // wallets reject invoice without one, and we must not present
+            // such QRs in recovery either
+            if (!hasPaymentHash) return bad('missing payment hash');
 
             // expiry (default 3600) with a small clock-skew allowance
             const expiryAt = timestamp + (expiry ?? 3600) + 60;
@@ -188,6 +196,23 @@
         };
     }
 
+    // ---------- zap amount policy ----------
+    // The recipient controls minSendable/maxSendable — never let it raise the
+    // amount silently: a hostile "min" above the intended zap must abort, not
+    // auto-pay more (the amount-vs-invoice check can't catch this on its own,
+    // because the invoice would match the inflated request).
+    function resolveZapAmount({ intendedMsat, minSendable, maxSendable }) {
+        const min = Number(minSendable) || 0;
+        const max = Number.isFinite(maxSendable) ? Number(maxSendable) : Infinity;
+        if (min && max && min > max) return { error: 'recipient advertises an invalid amount range' };
+        if (min && intendedMsat < min) {
+            return { error: `recipient requires at least ${Math.ceil(min / 1000)} sats — more than this zap. Open the ⚡ dialog to pay them directly.` };
+        }
+        // clamping *down* is safe (never pays more than intended)
+        if (max && intendedMsat > max) return { msat: Math.floor(max), adjustedDown: true };
+        return { msat: Math.trunc(intendedMsat) };
+    }
+
     // ---------- provider selection ----------
     // "Most recently connected provider wins". Covers: extension webln fails →
     // user reconnects via Bitcoin Connect → fresh bcProvider must be preferred.
@@ -217,7 +242,7 @@
 
     return {
         lnurlpUrl, lnurlEncode, escapeHtml, sha256Hex, decodeBolt11, createProviderSelector,
-        isTransientPaymentError, createZapGuard,
+        isTransientPaymentError, createZapGuard, resolveZapAmount,
         __internals: { CHARSET, bech32Polymod, hrpExpand, convertBits, wordsToTrimmedHex }
     };
 });

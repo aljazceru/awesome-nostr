@@ -7,7 +7,7 @@
 (() => {
     // shared, unit-tested core (zap-core.js must load before this script)
     const { lnurlpUrl, lnurlEncode, escapeHtml, sha256Hex, decodeBolt11, createProviderSelector,
-            isTransientPaymentError, createZapGuard } = zapCore;
+            isTransientPaymentError, createZapGuard, resolveZapAmount } = zapCore;
 
     const ZAP_SATS = 1000;               // default zap amount for chips
     const ZAP_MEMO = 'nostr.net zap';    // so recipients know where it came from
@@ -177,22 +177,27 @@
             msg = `⚡ Sent <strong>${escapeHtml(name)}</strong> ${sats} sats (no zap receipt)`;
         }
         toast(msg, 'success', 6000);
-        // one-time opt-in for attributed zaps — only meaningful when receipts bind
-        if (anon && receiptBound && window.nostr?.signEvent && localStorage.getItem(SIGN_AS_ME_KEY) !== '1') {
-            const t = document.querySelector('.zap-toast');
-            if (t) {
-                const a = document.createElement('a');
-                a.href = '#';
-                a.className = 'zap-as-me';
-                a.textContent = 'zap as me instead';
-                a.addEventListener('click', (ev) => {
-                    ev.preventDefault();
-                    localStorage.setItem(SIGN_AS_ME_KEY, '1');
-                    toast('Zaps will now be signed with your npub ⚡', 'success', 3000);
-                });
-                t.appendChild(document.createTextNode(' · '));
-                t.appendChild(a);
+        // one-time opt-in for attributed zaps — preference handling must never
+        // be able to report a successful payment as failed
+        try {
+            if (anon && receiptBound && window.nostr?.signEvent && localStorage.getItem(SIGN_AS_ME_KEY) !== '1') {
+                const t = document.querySelector('.zap-toast');
+                if (t) {
+                    const a = document.createElement('a');
+                    a.href = '#';
+                    a.className = 'zap-as-me';
+                    a.textContent = 'zap as me instead';
+                    a.addEventListener('click', (ev) => {
+                        ev.preventDefault();
+                        try { localStorage.setItem(SIGN_AS_ME_KEY, '1'); } catch (e) { /* non-fatal */ }
+                        toast('Zaps will now be signed with your npub ⚡', 'success', 3000);
+                    });
+                    t.appendChild(document.createTextNode(' · '));
+                    t.appendChild(a);
+                }
             }
+        } catch (prefErr) {
+            console.warn('post-payment preference handling failed (payment already sent):', prefErr);
         }
     }
 
@@ -242,9 +247,6 @@
             if (chip) { chip.dataset.zapping = '1'; chip.dataset.state = 'zapping'; }
             try {
                 await payInvoice(invoice, provider);
-                el.remove();
-                guard.recoveryCleared();
-                finishZap({ chip, msat, event, anon, name, receiptBound });
             } catch (retryErr) {
                 console.error('retry failed:', retryErr);
                 btn.disabled = false;
@@ -257,6 +259,16 @@
                     closeRecovery();
                     toast(`Couldn\u2019t zap ${escapeHtml(name)}: ${escapeHtml(String(retryErr?.message || retryErr).slice(0, 140))}`, 'error', 7000);
                 }
+                return;
+            }
+            // paid — same rule as the direct path: never report failure now
+            el.remove();
+            guard.recoveryCleared();
+            try {
+                finishZap({ chip, msat, event, anon, name, receiptBound });
+            } catch (uiErr) {
+                console.error('post-payment UI failed (payment WAS sent):', uiErr);
+                toast(`⚡ Payment sent — ${(msat / 1000)} sats to <strong>${escapeHtml(name)}</strong>.`, 'success', 8000);
             }
         });
 
@@ -283,7 +295,7 @@
                 <h3 class="zap-modal-title"><i class="fas fa-bolt" aria-hidden="true"></i> ${Math.round(msat / 1000)} sats → ${escapeHtml(name)}</h3>
                 <div class="zap-qr-box"><div class="zap-qr" aria-hidden="true"></div></div>
                 <p class="zap-modal-hint">${receiptBound
-                    ? 'Scan with any wallet — the zap request is baked into this invoice; paying it publishes the zap receipt. Valid for a few minutes.'
+                    ? 'Scan with any wallet — this invoice is bound to the zap request; payment should publish the receipt via the recipient\u2019s server. Valid for a few minutes.'
                     : 'Scan with any wallet to pay. This provider doesn’t bind zap receipts to invoices, so the zap may not appear in feeds.'}</p>
                 <div class="zap-modal-line">
                     <a class="zap-modal-btn zap-modal-btn-primary">
@@ -325,9 +337,16 @@
             ]);
 
             let msat = ZAP_SATS * 1000;
-            const min = params.minSendable || 1000, max = params.maxSendable || Infinity;
-            const clamped = Math.min(Math.max(msat, min), max);
-            if (clamped !== msat) { msat = clamped; toast(`Amount adjusted to ${msat / 1000} sats (wallet limits)`, 'info'); }
+            // recipient-controlled range: never raise the amount silently —
+            // a hostile minimum above the intended zap aborts (no auto-pay)
+            const amt = resolveZapAmount({
+                intendedMsat: msat,
+                minSendable: params.minSendable,
+                maxSendable: params.maxSendable
+            });
+            if (amt.error) throw new Error(amt.error);
+            msat = amt.msat;
+            if (amt.adjustedDown) toast(`Amount adjusted to ${msat / 1000} sats (recipient's maximum)`, 'info', 4000);
 
             const { event, anon } = await buildZapRequest(params, msat, lnAddress);
             const inv = await fetchInvoice(params, msat, event);
@@ -348,7 +367,15 @@
                 }
                 return;
             }
-            finishZap({ chip, msat, event, anon, name, receiptBound: inv.receiptBound });
+            // payment succeeded — from here on, NO failure path may claim the
+            // zap failed (that invites double-payment); UI hiccups degrade to
+            // a plain success notice
+            try {
+                finishZap({ chip, msat, event, anon, name, receiptBound: inv.receiptBound });
+            } catch (uiErr) {
+                console.error('post-payment UI failed (payment WAS sent):', uiErr);
+                toast(`⚡ Payment sent — ${(msat / 1000)} sats to <strong>${escapeHtml(name)}</strong>.`, 'success', 8000);
+            }
         } catch (err) {
             console.error('zap failed:', err);
             if (chip) { chip.dataset.state = 'error'; delete chip.dataset.zapping; setTimeout(() => { if (chip.dataset.state === 'error') delete chip.dataset.state; }, 2500); }

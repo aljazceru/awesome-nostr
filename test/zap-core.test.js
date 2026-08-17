@@ -21,22 +21,37 @@ function sha256Hex(s) {
 }
 
 // craft a structurally-valid BOLT11 invoice (valid bech32 checksum) with a
-// chosen hrp amount, timestamp, 'h' (23) and 'x' (6) tags, and a zero
-// signature — good enough to exercise our validation-only decoder
-function craftInvoice({ amountHrp = '10u', timestamp = Math.floor(Date.now() / 1000), hHex = null, expiry = null }) {
+// chosen hrp amount, timestamp, 'p' payment_hash (required), 'h' (23) and
+// 'x' (6) tags, and a zero signature. NOTE ON SIGNATURES: the decoder
+// intentionally does not verify the ECDSA signature — for invoices without
+// an 'n' payee tag (the common case), public-key recovery "succeeds" for any
+// input by construction, so it adds no integrity beyond the bech32 checksum;
+// the payee *is* the recovered key. Real integrity before money moves is
+// enforced by (a) our checksum/shape/amount/binding checks here and (b) the
+// paying wallet's full validation — both the NWC payment path and any wallet
+// scanning the recovery QR validate signatures themselves.
+function craftInvoice({ amountHrp = '10u', timestamp = Math.floor(Date.now() / 1000), hHex = null, expiry = null, hashHex = 'ab'.repeat(32) }) {
     const words = [];
     const pushInt = (n, wordCount) => {
         const bin = n.toString(2).padStart(wordCount * 5, '0');
         for (let i = 0; i < wordCount; i++) words.push(parseInt(bin.slice(i * 5, i * 5 + 5), 2));
     };
-    pushInt(timestamp, 7); // timestamp: 7 words
-    if (hHex) {
-        const value = Buffer.from(hHex, 'hex');
-        // bytes → 5-bit words, right-padded
+    const pushBytes = (value) => {
         let acc = 0, bits = 0;
         const vwords = [];
         for (const b of value) { acc = (acc << 8) | b; bits += 8; while (bits >= 5) { bits -= 5; vwords.push((acc >> bits) & 31); } }
         if (bits) vwords.push((acc << (5 - bits)) & 31);
+        return vwords;
+    };
+    pushInt(timestamp, 7); // timestamp: 7 words
+    { // 'p' payment_hash (tag 1): required for a receivable invoice
+        const value = Buffer.from(hashHex, 'hex');
+        const vwords = pushBytes(value);
+        words.push(1); pushInt(vwords.length, 2); words.push(...vwords);
+    }
+    if (hHex) {
+        const value = Buffer.from(hHex, 'hex');
+        const vwords = pushBytes(value);
         words.push(23);            // 'h'
         pushInt(vwords.length, 2); // length in 5-bit words (2 words BE)
         words.push(...vwords);
@@ -145,6 +160,8 @@ test('non-mainnet hrp is rejected', async () => {
     const words = [];
     const pushInt = (n, c) => { const b = n.toString(2).padStart(c * 5, '0'); for (let i = 0; i < c; i++) words.push(parseInt(b.slice(i * 5, i * 5 + 5), 2)); };
     pushInt(Math.floor(Date.now() / 1000), 7);
+    // required payment_hash tag (1 word type + 2 len + 52 words)
+    words.push(1); pushInt(52, 2); for (let i = 0; i < 52; i++) words.push(0);
     for (let i = 0; i < 104; i++) words.push(0);
     const hrp = 'lntb10u';
     const pm = bech32Polymod(hrpExpand(hrp).concat(words, [0, 0, 0, 0, 0, 0])) ^ 1;
@@ -153,6 +170,55 @@ test('non-mainnet hrp is rejected', async () => {
     const r = await core.decodeBolt11(inv);
     assert.strictEqual(r.ok, false);
     assert.match(r.error, /mainnet/);
+});
+
+test('invoice missing the payment hash tag is rejected', async () => {
+    // hand-build an otherwise-valid invoice without tag 'p'
+    const words = [];
+    const pushInt = (n, c) => { const b = n.toString(2).padStart(c * 5, '0'); for (let i = 0; i < c; i++) words.push(parseInt(b.slice(i * 5, i * 5 + 5), 2)); };
+    pushInt(Math.floor(Date.now() / 1000), 7);
+    for (let i = 0; i < 104; i++) words.push(0);
+    const hrp = 'lnbc10u';
+    const pm = bech32Polymod(hrpExpand(hrp).concat(words, [0, 0, 0, 0, 0, 0])) ^ 1;
+    const cs = [...Array(6)].map((_, i) => (pm >> 5 * (5 - i)) & 31);
+    const inv = hrp + '1' + [...words, ...cs].map(d => CHARSET[d]).join('');
+    const r = await core.decodeBolt11(inv);
+    assert.strictEqual(r.ok, false);
+    assert.match(r.error, /payment hash/);
+});
+
+test('mixed-case invoice is rejected', async () => {
+    const inv = craftInvoice({ amountHrp: '10u', hHex: sha256Hex('[]') });
+    // flip one data character to upper — mixed case is invalid bech32
+    const mixed = inv.slice(0, 12) + inv[12].toUpperCase() + inv.slice(13);
+    const r = await core.decodeBolt11(mixed);
+    assert.strictEqual(r.ok, false);
+    assert.match(r.error, /mixed case/);
+});
+
+// ---------- zap amount policy ----------
+
+test('recipient minimum above the intended zap aborts (never auto-raises)', () => {
+    // hostile/hostile-ish endpoint: min 100,000 sats when we intend 1,000
+    const r = core.resolveZapAmount({ intendedMsat: 1000 * 1000, minSendable: 100000 * 1000, maxSendable: 1000000 * 1000 });
+    assert.strictEqual(r.error !== undefined, true);
+    assert.match(r.error, /at least 100000 sats/);
+    assert.strictEqual(r.msat, undefined); // nothing to pay
+});
+
+test('amount within the advertised range passes unchanged', () => {
+    const r = core.resolveZapAmount({ intendedMsat: 1000 * 1000, minSendable: 1000, maxSendable: 10000000 * 1000 });
+    assert.deepStrictEqual(r, { msat: 1000 * 1000 });
+});
+
+test('recipient maximum below the intended zap clamps down', () => {
+    const r = core.resolveZapAmount({ intendedMsat: 1000 * 1000, minSendable: 1000, maxSendable: 500 * 1000 });
+    assert.deepStrictEqual(r, { msat: 500 * 1000, adjustedDown: true });
+});
+
+test('inverted recipient range is rejected', () => {
+    const r = core.resolveZapAmount({ intendedMsat: 1000 * 1000, minSendable: 5000 * 1000, maxSendable: 1000 * 1000 });
+    assert.match(r.error, /invalid amount range/);
 });
 
 // ---------- error classification ----------
