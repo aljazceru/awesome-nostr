@@ -131,7 +131,7 @@
             const pubkey = hex(schnorr.getPublicKey(priv));
             const created_at = Math.floor(Date.now() / 1000);
             const event = { pubkey, created_at, kind: 9734, tags: [...tags, ['anon', '']], content: ZAP_MEMO };
-            const id = await sha256Hex(JSON.stringify([0, pubkey, created_at, 9734, event.tags, '']));
+            const id = await sha256Hex(JSON.stringify([0, pubkey, created_at, 9734, event.tags, event.content]));
             event.id = id;
             event.sig = hex(schnorr.sign(unhex(id), priv));
             return { event, anon: true };
@@ -236,7 +236,17 @@
         } catch (err) {
             console.error('zap failed:', err);
             if (chip) { chip.dataset.state = 'error'; delete chip.dataset.zapping; setTimeout(() => { if (chip.dataset.state === 'error') delete chip.dataset.state; }, 2500); }
-            toast(`Couldn't zap ${escapeHtml(name)}: ${escapeHtml(err.message || 'failed')}`, 'error', 6000);
+            const msg = err?.message || 'failed';
+            let hint;
+            if (/no info event|13194/i.test(msg)) {
+                hint = 'your wallet didn\u2019t answer over NWC — make sure the wallet app is running and connected, then try again';
+            } else if (/Failed to fetch/i.test(msg)) {
+                // CORS-masking: the recipient's server returned an error we can't read
+                hint = 'the recipient\u2019s server rejected the request (often temporary) — try again in a moment';
+            } else {
+                hint = msg;
+            }
+            toast(`Couldn\u2019t zap ${escapeHtml(name)}: ${escapeHtml(hint)}`, 'error', 7000);
         }
     }
 
