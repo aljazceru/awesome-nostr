@@ -6,6 +6,7 @@
 
 (() => {
     const ZAP_SATS = 1000;               // default zap amount for chips
+    const ZAP_MEMO = 'nostr.net zap';    // so recipients know where it came from
     const ZAP_RELAYS = ['wss://relay.nostr.net', 'wss://relay.damus.io', 'wss://nos.lol'];
     const NOBLE_URL = 'https://esm.sh/@noble/curves@1.4.0/secp256k1'; // lazy: only for anon zap receipts
     const CHARSET = 'qpzry9x8gf2tvdw0s3jn54khce6mua7l';
@@ -78,7 +79,12 @@
     async function fetchInvoice(params, msat, zapEvent) {
         const cb = new URL(params.callback);
         cb.searchParams.set('amount', String(msat));
-        if (zapEvent) cb.searchParams.set('nostr', JSON.stringify(zapEvent));
+        if (zapEvent) {
+            cb.searchParams.set('nostr', JSON.stringify(zapEvent));
+        } else if (params.commentAllowed) {
+            // plain payment (no zap support): memo via LNURL comment param
+            cb.searchParams.set('comment', ZAP_MEMO.slice(0, params.commentAllowed));
+        }
         const r = await fetch(cb);
         const j = await r.json();
         if (j.status === 'ERROR') throw new Error(j.reason || 'invoice error');
@@ -110,7 +116,7 @@
                 const pubkey = await window.nostr.getPublicKey();
                 const ev = await window.nostr.signEvent({
                     kind: 9734, pubkey, created_at: Math.floor(Date.now() / 1000),
-                    tags, content: ''
+                    tags, content: ZAP_MEMO
                 });
                 return { event: { ...ev, pubkey: ev.pubkey || pubkey }, anon: false, attributed: true };
             } catch (e) {
@@ -124,7 +130,7 @@
             const priv = hex(crypto.getRandomValues(new Uint8Array(32)));
             const pubkey = hex(schnorr.getPublicKey(priv));
             const created_at = Math.floor(Date.now() / 1000);
-            const event = { pubkey, created_at, kind: 9734, tags: [...tags, ['anon', '']], content: '' };
+            const event = { pubkey, created_at, kind: 9734, tags: [...tags, ['anon', '']], content: ZAP_MEMO };
             const id = await sha256Hex(JSON.stringify([0, pubkey, created_at, 9734, event.tags, '']));
             event.id = id;
             event.sig = hex(schnorr.sign(unhex(id), priv));
@@ -136,24 +142,36 @@
     }
 
     // ---------- payment ----------
-    const weblnReady = () => !!(window.webln && typeof window.webln.sendPayment === 'function');
+    // Provider sources: ① window.webln (extension) ② Bitcoin Connect's
+    // connected provider (NWC / LNC / LNbits) — handed to us via onConnected(),
+    // it is NOT set on window.webln.
+    let bcProvider = null;
 
-    // enable() once per session, started as early as possible (prompt shows
-    // immediately on click instead of after the lnurlp/invoice round trips)
+    const getProvider = () => {
+        if (window.webln && typeof window.webln.sendPayment === 'function') return window.webln;
+        if (bcProvider && typeof bcProvider.sendPayment === 'function') return bcProvider;
+        return null;
+    };
+    const weblnReady = () => !!getProvider();
+
+    // enable() once per provider+session, started as early as possible (prompt
+    // shows immediately on click instead of after the lnurlp/invoice round trips)
     let enablePromise = null;
-    const ensureEnabled = () => {
+    let enabledFor = null;
+    const ensureEnabled = (provider) => {
+        if (enabledFor !== provider) { enablePromise = null; enabledFor = provider; }
         if (!enablePromise) {
             enablePromise = (async () => {
-                if (window.webln?.enable) { try { await window.webln.enable(); } catch (e) { /* already enabled */ } }
+                if (provider?.enable) { try { await provider.enable(); } catch (e) { /* already enabled */ } }
             })();
         }
         return enablePromise;
     };
 
-    async function payInvoice(pr) {
-        if (!weblnReady()) throw new Error('wallet not connected');
-        await ensureEnabled();
-        return window.webln.sendPayment(pr);
+    async function payInvoice(pr, provider) {
+        if (!provider?.sendPayment) throw new Error('wallet not connected');
+        await ensureEnabled(provider);
+        return provider.sendPayment(pr);
     }
 
     // ---------- lnurlp params (cached + prefetched on hover) ----------
@@ -172,11 +190,13 @@
 
         try {
             toast(`⚡ Zapping <strong>${escapeHtml(name)}</strong>…`, 'info', 9000);
+            const provider = getProvider();
+            if (!provider) throw new Error('wallet not connected');
             // kick off wallet permission + lnurlp in parallel — the wallet's
             // approval prompt (if any) shows right away, not after the fetches
             const [params] = await Promise.all([
                 fetchLnurlParamsCached(lnAddress),
-                weblnReady() ? ensureEnabled() : Promise.resolve()
+                ensureEnabled(provider)
             ]);
 
             let msat = ZAP_SATS * 1000;
@@ -186,7 +206,7 @@
 
             const { event, anon } = await buildZapRequest(params, msat, lnAddress);
             const inv = await fetchInvoice(params, msat, event);
-            await payInvoice(inv.pr);
+            await payInvoice(inv.pr, provider);
 
             if (chip) { chip.dataset.state = 'zapped'; delete chip.dataset.zapping; }
             const sats = msat / 1000;
@@ -224,6 +244,12 @@
 
     // ---------- connect-modal path ----------
     function openConnectModal() {
+        // preferred: the library's own API (module sets window.bitcoinConnect)
+        if (typeof window.bitcoinConnect?.launchModal === 'function') {
+            window.bitcoinConnect.launchModal();
+            return true;
+        }
+        // fallback: click the real button inside the shadow root
         const btn = document.querySelector('bc-button');
         if (!btn) return false;
         const inner = btn.shadowRoot?.querySelector('bci-button');
@@ -231,6 +257,8 @@
         return true;
     }
 
+    // polls for extension-provided window.webln (Bitcoin Connect's NWC path
+    // is handled by the onConnected subscription instead)
     function watchForConnection() {
         clearInterval(pollTimer);
         pollTimer = setInterval(() => {
@@ -356,6 +384,49 @@
     markReady();
     setTimeout(markReady, 1500);
     window.addEventListener('bc:onpaid', markReady);
+
+    // ---------- Bitcoin Connect wiring (NWC / LNC / LNbits) ----------
+    // BC never sets window.webln — the connected provider arrives via
+    // onConnected(provider). The module (loaded as type=module, after this
+    // classic script) exposes window.bitcoinConnect, so retry until it lands.
+    let bcSubscribed = false;
+    function trySubscribeBc() {
+        if (bcSubscribed) return;
+        const api = window.bitcoinConnect;
+        if (!api || typeof api.onConnected !== 'function') return;
+        bcSubscribed = true;
+        try {
+            // fires immediately if a wallet is already connected (page reload),
+            // and again on every new connection
+            api.onConnected(provider => {
+                if (provider && typeof provider.sendPayment === 'function') {
+                    bcProvider = provider;
+                    enabledFor = null; // re-enable for the new provider
+                    document.body.classList.add('webln-ready');
+                    toast('Wallet connected ⚡', 'success', 2500);
+                    if (pendingZap) {
+                        const p = pendingZap; pendingZap = null;
+                        setTimeout(() => zap(p.lnAddress, p.name, p.chip), 200);
+                    }
+                }
+            });
+            if (typeof api.onDisconnected === 'function') {
+                api.onDisconnected(() => {
+                    bcProvider = null;
+                    enabledFor = null;
+                    document.body.classList.remove('webln-ready');
+                });
+            }
+        } catch (e) {
+            console.warn('Bitcoin Connect subscription failed', e);
+            bcSubscribed = false;
+        }
+    }
+    let bcTries = 0;
+    const bcWatch = setInterval(() => {
+        trySubscribeBc();
+        if (bcSubscribed || ++bcTries > 80) clearInterval(bcWatch); // ~20s max
+    }, 250);
 
     // ---------- warm the caches so first zap / first dialog are instant ----------
     const warmup = () => {

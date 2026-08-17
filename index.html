@@ -116,7 +116,8 @@
     </footer>
     <!-- Add marked.js before your script -->
     <script type="module">
-        import 'https://esm.sh/@getalby/bitcoin-connect@3.12.3';
+        import * as bitcoinConnect from 'https://esm.sh/@getalby/bitcoin-connect@3.12.3';
+        window.bitcoinConnect = bitcoinConnect;
     </script>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script src="script.js"></script>
