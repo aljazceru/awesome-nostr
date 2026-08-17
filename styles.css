@@ -941,3 +941,349 @@ button:focus-visible {
         font-size: 1.3rem;
     }
 }
+
+/* ===== Grantless: zap & donate chips ===== */
+.resource-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.zap-chip,
+.donate-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 4px 12px;
+    border-radius: 999px;
+    font-size: 0.78rem;
+    font-weight: 600;
+    text-decoration: none;
+    border: 1px solid rgba(247, 147, 26, 0.35);
+    transition: all var(--transition);
+    white-space: nowrap;
+}
+
+.zap-chip {
+    color: #f7931a;
+    background: rgba(247, 147, 26, 0.1);
+}
+
+.zap-chip:hover {
+    background: #f7931a;
+    color: #fff;
+    border-color: #f7931a;
+    transform: translateY(-1px);
+    text-decoration: none;
+}
+
+.donate-chip {
+    color: var(--link-color);
+    background: var(--input-background);
+    border-color: var(--border-color);
+}
+
+.donate-chip:hover {
+    border-color: var(--link-color);
+    transform: translateY(-1px);
+    text-decoration: none;
+}
+
+/* Nav "Fund nostr.net" zap button */
+.fund-toggle {
+    background: rgba(247, 147, 26, 0.12);
+    border: 1px solid rgba(247, 147, 26, 0.4);
+    color: #f7931a;
+    cursor: pointer;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: var(--radius-sm);
+    transition: all var(--transition);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    text-decoration: none;
+}
+
+.fund-toggle:hover {
+    background: #f7931a;
+    border-color: #f7931a;
+    color: #fff;
+    box-shadow: 0 0 16px rgba(247, 147, 26, 0.35);
+}
+
+/* Homepage banner linking to the Grant page */
+.fund-banner {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+    background: linear-gradient(135deg, rgba(247, 147, 26, 0.08), rgba(247, 147, 26, 0.02));
+    border: 1px dashed rgba(247, 147, 26, 0.45);
+    border-radius: var(--radius-md);
+    padding: 12px 16px;
+    margin-bottom: 1.25rem;
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 0.88rem;
+    line-height: 1.4;
+    transition: all var(--transition);
+}
+
+.fund-banner:hover {
+    border-style: solid;
+    box-shadow: var(--shadow-md);
+    transform: translateY(-1px);
+}
+
+.fund-banner > .fa-bolt {
+    color: #f7931a;
+    font-size: 1.05rem;
+    flex-shrink: 0;
+}
+
+.fund-banner-cta {
+    margin-left: auto;
+    color: #f7931a;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+@media (max-width: 640px) {
+    .fund-banner-cta {
+        margin-left: 0;
+    }
+}
+
+/* ===== In-page zapping (Bitcoin Connect) ===== */
+.theme-controls bc-button {
+    margin-right: 2px;
+    flex-shrink: 0;
+}
+
+/* zap chip interaction states */
+.zap-chip { position: relative; }
+.zap-chip[data-state="zapping"] {
+    opacity: 0.75;
+    pointer-events: none;
+}
+.zap-chip[data-state="zapping"] .fa-bolt::before {
+    content: "\f1ce"; /* fa-spinner */
+    display: inline-block;
+    animation: zap-spin 0.9s linear infinite;
+}
+.zap-chip[data-state="zapped"] {
+    background: #2e7d32;
+    border-color: #2e7d32;
+    color: #fff;
+    pointer-events: none;
+}
+.zap-chip[data-state="zapped"] .fa-bolt::before { content: "\f00c"; /* fa-check */ }
+.zap-chip[data-state="error"] {
+    background: #c62828;
+    border-color: #c62828;
+    color: #fff;
+}
+
+@keyframes zap-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+/* hint that in-page zapping is available once a wallet is connected */
+body.webln-ready .zap-chip {
+    box-shadow: 0 0 0 1px rgba(247, 147, 26, 0.35);
+}
+
+/* toasts */
+.zap-toast {
+    position: fixed;
+    bottom: 24px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 3000;
+    max-width: min(92vw, 480px);
+    padding: 12px 20px;
+    border-radius: 12px;
+    font-size: 0.9rem;
+    line-height: 1.45;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
+    animation: zap-toast-in 0.25s ease;
+    background: var(--card-background, #fff);
+    color: var(--text-color, #2d1b3d);
+    border: 1px solid var(--border-color, #ecdfe8);
+}
+.zap-toast a { color: #f7931a; }
+.zap-toast-success { border-color: #2e7d32; }
+.zap-toast-success::before { content: "✓ "; color: #2e7d32; font-weight: 700; }
+.zap-toast-error { border-color: #c62828; }
+.zap-toast-error::before { content: "✕ "; color: #c62828; font-weight: 700; }
+
+@keyframes zap-toast-in {
+    from { opacity: 0; transform: translateX(-50%) translateY(12px); }
+    to { opacity: 1; transform: translateX(-50%) translateY(0); }
+}
+
+/* ===== Zap fallback dialog (QR + lightning: link, no wallet needed) ===== */
+.zap-modal-backdrop {
+    position: fixed;
+    inset: 0;
+    z-index: 2500;
+    background: rgba(20, 12, 28, 0.55);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    animation: zap-toast-in 0.2s ease;
+}
+
+.zap-modal {
+    position: relative;
+    background: var(--card-background, #fff);
+    color: var(--text-color, #2d1b3d);
+    border: 1px solid var(--border-color, #ecdfe8);
+    border-radius: var(--radius-lg, 20px);
+    box-shadow: var(--shadow-lg, 0 8px 30px rgba(0,0,0,0.3));
+    padding: 22px 18px 14px;
+    width: 100%;
+    max-width: 380px;
+    text-align: center;
+}
+
+.zap-modal-close {
+    position: absolute;
+    top: 10px;
+    right: 12px;
+    background: none;
+    border: none;
+    color: var(--text-muted, #8b7e97);
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 4px 8px;
+    border-radius: 6px;
+}
+.zap-modal-close:hover { color: var(--text-color, #2d1b3d); background: var(--hover-color, #f6f0f8); }
+
+.zap-modal-title {
+    margin: 0 0 12px;
+    font-size: 1rem;
+    letter-spacing: -0.02em;
+}
+.zap-modal-title .fa-bolt { color: #f7931a; margin-right: 4px; }
+
+.zap-qr-box {
+    display: inline-block;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 12px;
+    border: 1px solid var(--border-color, #ecdfe8);
+    margin-bottom: 10px;
+}
+.zap-qr svg {
+    display: block;
+    width: 160px;
+    height: 160px;
+}
+
+.zap-modal-hint {
+    font-size: 0.78rem;
+    color: var(--text-muted, #8b7e97);
+    margin: 0 0 10px;
+}
+
+/* single compact line: address + copy + open-wallet */
+.zap-modal-line {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 12px;
+}
+
+.zap-modal-addr {
+    flex: 1;
+    min-width: 0;
+    display: block;
+    font-size: 0.78rem;
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: left;
+    background: var(--input-background, rgba(45,27,61,0.04));
+    border: 1px solid var(--border-color, #ecdfe8);
+    border-radius: 8px;
+    padding: 8px 10px;
+}
+
+.zap-modal-copy {
+    flex-shrink: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 34px;
+    height: 34px;
+    background: var(--input-background, rgba(45,27,61,0.04));
+    color: var(--text-muted, #8b7e97);
+    border: 1px solid var(--border-color, #ecdfe8);
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    transition: all var(--transition, 0.25s);
+}
+.zap-modal-copy:hover {
+    color: var(--primary-color, #e05297);
+    border-color: var(--primary-color, #e05297);
+}
+.zap-modal-copy.copied {
+    color: #2e7d32;
+    border-color: #2e7d32;
+}
+
+.zap-modal-btn-primary {
+    background: #f7931a;
+    color: #fff;
+    border-color: #f7931a;
+}
+.zap-modal-btn-primary:hover { background: #e5840d; color: #fff; text-decoration: none; }
+
+.zap-modal-connect {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    background: none;
+    border: none;
+    border-top: 1px dashed var(--border-color, #ecdfe8);
+    padding: 10px 0 2px;
+    font-size: 0.8rem;
+    color: var(--link-color, #7c5cbf);
+    cursor: pointer;
+    font-family: inherit;
+}
+.zap-modal-connect:hover { text-decoration: underline; }
+
+@media (max-width: 480px) {
+    .zap-qr svg { width: 160px; height: 160px; }
+}
+
+/* shared compact button base for the zap dialog */
+.zap-modal-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 12px;
+    border-radius: 10px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all var(--transition, 0.25s);
+    border: 1px solid transparent;
+    font-family: inherit;
+    white-space: nowrap;
+    flex-shrink: 0;
+}

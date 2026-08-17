@@ -61,6 +61,12 @@
                     <option value="dracula">Dracula</option>  
                 </select>
                 -->
+                <bc-button id="bcConnect"></bc-button>
+                <a id="fundButton" class="fund-toggle" href="lightning:aljaz@minibits.cash"
+                   title="Fund nostr.net ⚡ aljaz@minibits.cash"
+                   aria-label="Fund nostr.net with a Lightning zap">
+                    <i class="fas fa-bolt"></i>
+                </a>
                 <button id="darkModeToggle" class="theme-toggle" aria-label="Toggle dark mode">
                     <i class="fas fa-moon"></i>
                 </button>
@@ -89,6 +95,11 @@
 
         <!-- Main Content -->
         <main class="main-content" role="main">
+            <a class="fund-banner" href="#zappable-projects">
+                <i class="fas fa-bolt" aria-hidden="true"></i>
+                <span class="fund-banner-text"><strong>grantless</strong> — zap the projects building nostr. Every project with a ⚡ chip is zappable, right here on the list.</span>
+                <span class="fund-banner-cta">Zappable projects <i class="fas fa-arrow-right" aria-hidden="true"></i></span>
+            </a>
             <header class="content-header">
                 <div class="view-controls">
                     <!-- Dark mode toggle has been moved to top nav -->
@@ -103,8 +114,12 @@
         <p>&copy; 2025 nostr.net All rights reserved.</p>
     </footer>
     <!-- Add marked.js before your script -->
+    <script type="module">
+        import 'https://esm.sh/@getalby/bitcoin-connect@3.12.3';
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script src="script.js"></script>
+    <script src="zap.js"></script>
     
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-E6V2R7B0KQ"></script>
