@@ -87,6 +87,13 @@
     }
 
     // ---------- NIP-57 zap request ----------
+    // Anonymous by default (fast: no extension signing prompt per zap).
+    // Users can opt in to attributed zaps via the "zap as me" link — remembered.
+    const SIGN_AS_ME_KEY = 'grantless:signAsMe';
+    const signAsMe = () =>
+        localStorage.getItem(SIGN_AS_ME_KEY) === '1' &&
+        !!(window.nostr?.signEvent && window.nostr?.getPublicKey);
+
     async function buildZapRequest(params, msat, address) {
         if (!params.allowsNostr || !params.nostrPubkey) return { event: null, anon: false };
 
@@ -97,15 +104,15 @@
             ['lnurl', lnurlEncode(lnurlpUrl(address))]
         ];
 
-        // Prefer the user's real identity via NIP-07…
-        if (window.nostr?.signEvent && window.nostr?.getPublicKey) {
+        // Attributed zap — only when the user opted in (avoids a signer prompt per zap)
+        if (signAsMe()) {
             try {
                 const pubkey = await window.nostr.getPublicKey();
                 const ev = await window.nostr.signEvent({
                     kind: 9734, pubkey, created_at: Math.floor(Date.now() / 1000),
                     tags, content: ''
                 });
-                return { event: { ...ev, pubkey: ev.pubkey || pubkey }, anon: false };
+                return { event: { ...ev, pubkey: ev.pubkey || pubkey }, anon: false, attributed: true };
             } catch (e) {
                 console.warn('NIP-07 signing failed, falling back to anon zap', e);
             }
@@ -131,10 +138,31 @@
     // ---------- payment ----------
     const weblnReady = () => !!(window.webln && typeof window.webln.sendPayment === 'function');
 
+    // enable() once per session, started as early as possible (prompt shows
+    // immediately on click instead of after the lnurlp/invoice round trips)
+    let enablePromise = null;
+    const ensureEnabled = () => {
+        if (!enablePromise) {
+            enablePromise = (async () => {
+                if (window.webln?.enable) { try { await window.webln.enable(); } catch (e) { /* already enabled */ } }
+            })();
+        }
+        return enablePromise;
+    };
+
     async function payInvoice(pr) {
         if (!weblnReady()) throw new Error('wallet not connected');
-        if (window.webln.enable) { try { await window.webln.enable(); } catch (e) { /* already enabled */ } }
+        await ensureEnabled();
         return window.webln.sendPayment(pr);
+    }
+
+    // ---------- lnurlp params (cached + prefetched on hover) ----------
+    const lnurlCache = new Map(); // address → Promise<params>
+    function fetchLnurlParamsCached(address) {
+        if (!lnurlCache.has(address)) {
+            lnurlCache.set(address, fetchLnurlParams(address).catch(e => { lnurlCache.delete(address); throw e; }));
+        }
+        return lnurlCache.get(address);
     }
 
     // ---------- main zap flow ----------
@@ -144,7 +172,12 @@
 
         try {
             toast(`⚡ Zapping <strong>${escapeHtml(name)}</strong>…`, 'info', 9000);
-            const params = await fetchLnurlParams(lnAddress);
+            // kick off wallet permission + lnurlp in parallel — the wallet's
+            // approval prompt (if any) shows right away, not after the fetches
+            const [params] = await Promise.all([
+                fetchLnurlParamsCached(lnAddress),
+                weblnReady() ? ensureEnabled() : Promise.resolve()
+            ]);
 
             let msat = ZAP_SATS * 1000;
             const min = params.minSendable || 1000, max = params.maxSendable || Infinity;
@@ -163,6 +196,23 @@
                     : `⚡ Sent <strong>${escapeHtml(name)}</strong> ${sats} sats (no zap receipt)`,
                 'success', 6000
             );
+            // one-time opt-in for attributed zaps (NIP-07 available but not enabled)
+            if (anon && window.nostr?.signEvent && localStorage.getItem(SIGN_AS_ME_KEY) !== '1') {
+                const t = document.querySelector('.zap-toast');
+                if (t) {
+                    const a = document.createElement('a');
+                    a.href = '#';
+                    a.className = 'zap-as-me';
+                    a.textContent = 'zap as me instead';
+                    a.addEventListener('click', (ev) => {
+                        ev.preventDefault();
+                        localStorage.setItem(SIGN_AS_ME_KEY, '1');
+                        toast('Zaps will now be signed with your npub ⚡', 'success', 3000);
+                    });
+                    t.appendChild(document.createTextNode(' · '));
+                    t.appendChild(a);
+                }
+            }
         } catch (err) {
             console.error('zap failed:', err);
             if (chip) { chip.dataset.state = 'error'; delete chip.dataset.zapping; setTimeout(() => { if (chip.dataset.state === 'error') delete chip.dataset.state; }, 2500); }
@@ -198,9 +248,21 @@
 
     // ---------- QR fallback dialog (no wallet connection required) ----------
     let qrLibPromise = null;
+    const qrCache = new Map(); // address → svg string
     async function loadQr() {
         if (!qrLibPromise) qrLibPromise = import('https://esm.sh/qrcode-generator@1.4.4').then(m => m.default || m);
         return qrLibPromise;
+    }
+
+    async function qrSvgFor(address) {
+        if (qrCache.has(address)) return qrCache.get(address);
+        const q = await loadQr();
+        const qr = q(0, 'M');
+        qr.addData('lightning:' + lnurlEncode(lnurlpUrl(address)).toUpperCase(), 'Byte');
+        qr.make();
+        const svg = qr.createSvgTag({ cellSize: 4, margin: 0 });
+        qrCache.set(address, svg);
+        return svg;
     }
 
     const closeZapModal = () => document.querySelector('.zap-modal-backdrop')?.remove();
@@ -230,17 +292,10 @@
             </div>`;
         document.body.appendChild(backdrop);
 
-        // QR: LNURL-pay encoded as lightning: URI (static, zero network)
-        try {
-            const q = await loadQr();
-            const qr = q(0, 'M');
-            qr.addData('lightning:' + lnurlEncode(lnurlpUrl(lnAddress)).toUpperCase(), 'Byte');
-            qr.make();
-            backdrop.querySelector('.zap-qr').innerHTML = qr.createSvgTag({ cellSize: 4, margin: 0 });
-        } catch (e) {
-            console.warn('QR generation failed', e);
-            backdrop.querySelector('.zap-qr-box')?.remove();
-        }
+        // QR: LNURL-pay encoded as lightning: URI (static, zero network, cached per address)
+        qrSvgFor(lnAddress)
+            .then(svg => { const box = backdrop.querySelector('.zap-qr'); if (box) box.innerHTML = svg; })
+            .catch(e => { console.warn('QR generation failed', e); backdrop.querySelector('.zap-qr-box')?.remove(); });
 
         // wiring
         backdrop.querySelector('.zap-modal-close').addEventListener('click', closeZapModal);
@@ -301,4 +356,21 @@
     markReady();
     setTimeout(markReady, 1500);
     window.addEventListener('bc:onpaid', markReady);
+
+    // ---------- warm the caches so first zap / first dialog are instant ----------
+    const warmup = () => {
+        loadQr().catch(() => {});            // QR generator (tiny)
+        import(NOBLE_URL).catch(() => {});  // schnorr signer for anon receipts
+    };
+    warmup(); // immediately — modules are tiny and this keeps the first click instant
+
+    // prefetch lnurlp params on hover so the invoice request starts instantly on click
+    document.addEventListener('pointerover', (e) => {
+        const chip = e.target.closest?.('a.zap-chip, #fundButton');
+        if (!chip) return;
+        const href = chip.getAttribute('href') || '';
+        if (!href.startsWith('lightning:')) return;
+        const addr = chip.dataset.lnAddress || href.replace(/^lightning:/i, '');
+        if (addr.includes('@')) fetchLnurlParamsCached(addr).catch(() => {});
+    }, { passive: true });
 })();

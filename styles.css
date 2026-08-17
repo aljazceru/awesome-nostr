@@ -1287,3 +1287,6 @@ body.webln-ready .zap-chip {
     white-space: nowrap;
     flex-shrink: 0;
 }
+
+.zap-as-me { color: var(--link-color, #7c5cbf); font-weight: 500; }
+.zap-as-me:hover { text-decoration: underline; }
