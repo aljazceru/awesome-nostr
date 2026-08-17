@@ -1290,3 +1290,72 @@ body.webln-ready .zap-chip {
 
 .zap-as-me { color: var(--link-color, #7c5cbf); font-weight: 500; }
 .zap-as-me:hover { text-decoration: underline; }
+
+/* payment-recovery panel (wallet failed, invoice still valid).
+   Deliberately not a .zap-toast — toast() removes those, and this panel
+   must survive reconnect notifications. */
+.zap-recovery {
+    position: fixed;
+    bottom: 24px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 3000;
+    max-width: min(92vw, 520px);
+    padding: 14px 20px;
+    border-radius: 12px;
+    font-size: 0.9rem;
+    line-height: 1.45;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
+    animation: zap-toast-in 0.25s ease;
+    background: var(--card-background, #fff);
+    color: var(--text-color, #2d1b3d);
+    border: 1px solid #c62828;
+}
+.zap-recovery-msg {
+    font-size: 0.85rem;
+    line-height: 1.5;
+}
+.zap-toast-actions {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+.zap-toast-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 7px 14px;
+    border-radius: 10px;
+    font-size: 0.82rem;
+    font-weight: 600;
+    cursor: pointer;
+    background: var(--input-background, rgba(45,27,61,0.04));
+    color: var(--text-color, #2d1b3d);
+    border: 1px solid var(--border-color, #ecdfe8);
+    font-family: inherit;
+    transition: all var(--transition, 0.25s);
+}
+.zap-toast-btn:hover { border-color: var(--primary-color, #e05297); }
+.zap-toast-btn:disabled { opacity: 0.55; cursor: wait; }
+.zap-toast-btn-primary {
+    background: #f7931a;
+    color: #fff;
+    border-color: #f7931a;
+}
+.zap-toast-btn-primary:hover { background: #e5840d; border-color: #e5840d; }
+
+.zap-recovery-close {
+    position: absolute;
+    top: 6px;
+    right: 8px;
+    background: none;
+    border: none;
+    color: var(--text-muted, #8b7e97);
+    cursor: pointer;
+    font-size: 0.85rem;
+    padding: 4px 8px;
+    border-radius: 6px;
+}
+.zap-recovery-close:hover { color: var(--text-color, #2d1b3d); background: var(--hover-color, #f6f0f8); }
