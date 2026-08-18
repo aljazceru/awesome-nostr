@@ -152,7 +152,6 @@ Websites with lists of relays and their performance/health:
 
 ## Clients
 ### Long form clients
-- [FSociety](https://github.com/non-npc/FSociety)![stars](https://img.shields.io/github/stars/non-npc/FSociety.svg?style=social) - Portable  desktop messenger offering encrypted private chats, communities, and file sharing over Nostr and Blossom. (windows/linux)
 - [untype.app](https://untype.app)
 - [Habla.news](https://github.com/verbiricha/habla.news)![stars](https://img.shields.io/github/stars/verbiricha/habla.news.svg?style=social) - Habla allows you to read, write, curate and monetize long-form content over Nostr, a censorship-resistant protocol for social media that uses long-form Nostr content.
 - [Highlighter](https://highlighter.com) - Discover and share curated insights by people you trust.
@@ -252,6 +251,7 @@ Websites with lists of relays and their performance/health:
 - [Fevela](https://github.com/dtonon/fevela)![stars](https://img.shields.io/github/stars/dtonon/fevela.svg?style=social) - A Nostr social client with an innovative interface that gives you back full control of your attention and time.
   - [fevela.me](https://fevela.me) - live instance
 - [Flycat](https://github.com/digi-monkey/flycat-web)![stars](https://img.shields.io/github/stars/digi-monkey/flycat-web.svg?style=social) - A 2000s old-school style web client which support blogging on Nostr
+- [FSociety](https://github.com/non-npc/FSociety)![stars](https://img.shields.io/github/stars/non-npc/FSociety.svg?style=social) - Portable  desktop messenger offering encrypted private chats, communities, and file sharing. (windows/linux)
 - [Formstr](https://github.com/abhay-raizada/nostr-forms)![stars](https://img.shields.io/github/stars/abhay-raizada/nostr-forms.svg?style=social) - A Google Forms alternative built on top of the nostr protocol.
   - [formstr.app](https://formstr.app/) - live instance
 - [futr](https://github.com/prolic/futr)![stars](https://img.shields.io/github/stars/prolic/futr.svg?style=social) - nostr client desktop app written in Haskell
