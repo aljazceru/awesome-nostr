@@ -183,6 +183,8 @@ Websites with lists of relays and their performance/health:
 - [zap.stream](https://github.com/v0l/zap-stream-core)![stars](https://img.shields.io/github/stars/v0l/zap-stream-core.svg?style=social) - zap.stream is an interactive livestreaming service for content spanning gaming, entertainment, sports, music, and more.
 - [Slidestr](https://slidestr.net) - Image and slideshow viewer for Nostr.
 - [Stemstr](https://stemstr.app) - A music collaboration platform built on Nostr.
+- [Lightning FM](https://github.com/maml/lightning-fm-desktop)![stars](https://img.shields.io/github/stars/maml/lightning-fm-desktop.svg?style=social) - Music platform on Lightning and Nostr: streaming is free, purchases pay the artist's own wallet directly, and the catalog is artist-signed kind 31337 events on an open-read relay.
+  - [lightning.fm](https://lightning.fm/) - live instance
 - [Swae](https://github.com/suhailsaqan/swae)![stars](https://img.shields.io/github/stars/suhailsaqan/swae.svg?style=social) - A short-form video client for Nostr.
 - [Unfiltered](https://github.com/dmcarrington/unfiltered)![stars](https://img.shields.io/github/stars/dmcarrington/unfiltered.svg?style=social) - A Nostr video sharing platform.
 - [Flora](https://github.com/shawnyeager/flora-extension)![stars](https://img.shields.io/github/stars/shawnyeager/flora-extension.svg?style=social) - Browser extension for Nostr media discovery.
@@ -204,7 +206,8 @@ Websites with lists of relays and their performance/health:
 - [Pika](https://github.com/sledtools/pika)![stars](https://img.shields.io/github/stars/sledtools/pika.svg?style=social) -  End-to-end encrypted messaging for iOS, Android, and Desktop, built on MLS over Nostr.
 - [Zemzeme](https://github.com/whisperbit-labs/zemzeme-android)![stars](https://img.shields.io/github/stars/whisperbit-labs/zemzeme-android.svg?style=social) - Private, serverless messaging for Android — offline Bluetooth mesh, peer-to-peer, and Nostr relay. No accounts, no internet required
 - [VaultChat](https://vaultchat.pro) - Encrypted Android messenger built on Nostr. NIP-44 v2, groups, Decoy PIN. No phone number, no email, no server.
-
+- [LiberMedia](https://github.com/lucianocasalunga/libermedia-twa)![stars](https://img.shields.io/github/stars/lucianocasalunga/libermedia-twa.svg?style=social) - Social Nostr client for Android with Bitcoin/Lightning zaps, groups and DMs. 
+- [Makoré](https://github.com/lucianocasalunga/makore-twa)![stars](https://img.shields.io/github/stars/lucianocasalunga/makore-twa.svg?style=social) - End-to-end encrypted Nostr messenger for Android with NIP-17/NIP-44 DMs, E2E groups, ephemeral rooms and Bitcoin/Lightning gifts.
 
 ### Other  
 - [Agora](https://agorasocial.app) ![stars](https://img.shields.io/github/stars/ghobs91/agora.svg?style=social) - Follow your favorite topics in nostr-verse (and even posts from Mastodon, Reddit, Bluesky, and Twitter)
@@ -253,6 +256,7 @@ Websites with lists of relays and their performance/health:
 - [Fevela](https://github.com/dtonon/fevela)![stars](https://img.shields.io/github/stars/dtonon/fevela.svg?style=social) - A Nostr social client with an innovative interface that gives you back full control of your attention and time.
   - [fevela.me](https://fevela.me) - live instance
 - [Flycat](https://github.com/digi-monkey/flycat-web)![stars](https://img.shields.io/github/stars/digi-monkey/flycat-web.svg?style=social) - A 2000s old-school style web client which support blogging on Nostr
+- [FSociety](https://github.com/non-npc/FSociety)![stars](https://img.shields.io/github/stars/non-npc/FSociety.svg?style=social) - Portable  desktop messenger offering encrypted private chats, communities, and file sharing. (windows/linux)
 - [Formstr](https://github.com/abhay-raizada/nostr-forms)![stars](https://img.shields.io/github/stars/abhay-raizada/nostr-forms.svg?style=social) - A Google Forms alternative built on top of the nostr protocol.
   - [formstr.app](https://formstr.app/) - live instance
 - [futr](https://github.com/prolic/futr)![stars](https://img.shields.io/github/stars/prolic/futr.svg?style=social) - nostr client desktop app written in Haskell
@@ -518,6 +522,7 @@ Websites with lists of relays and their performance/health:
 - [nostr-hooks](https://github.com/ostyjs/nostr-hooks)![stars](https://img.shields.io/github/stars/ostyjs/nostr-hooks.svg?style=social) - React hooks for developing Nostr clients. It's simple and intelligent. [⚡ zap](https://nostr.net/grant/?zap=sepehr@getalby.com)
 - [nostr-java](https://github.com/tcheeric/nostr-java)![stars](https://img.shields.io/github/stars/tcheeric/nostr-java.svg?style=social) - A nostr client library, written in java, for generating, signing and publishing events.
 - [nostr-js](https://github.com/jb55/nostr-js)![stars](https://img.shields.io/github/stars/jb55/nostr-js.svg?style=social) - a javascript implementation of the nostr protocol
+- [nostr_lib](https://github.com/economic-agent/nostrkit)![stars](https://img.shields.io/github/stars/economic-agent/nostrkit.svg?style=social) - Pure-Python nostr toolkit: BIP340 Schnorr signing, NIP-01 events, NIP-04/NIP-44 encryption, and a raw relay WebSocket client. Zero dependencies, stdlib only, vector-verified.
 - [nostr_relay_management](https://github.com/anasfik/nostr_relay_management)![stars](https://img.shields.io/github/stars/anasfik/nostr_relay_management.svg?style=social) - Dart/Flutter support for NIP-86 (Relay Management) with better developer experience.
 
 - [nostr-one](https://github.com/dolu89/nostr-one)![stars](https://img.shields.io/github/stars/dolu89/nostr-one.svg?style=social) - A reusable web component that provides a simple way to integrate with nostr NIP 98 HTTP Auth.
@@ -590,6 +595,7 @@ Websites with lists of relays and their performance/health:
 
 ## Tools
 
+- [Aeon](https://github.com/aeonfun/aeon)![stars](https://img.shields.io/github/stars/aeonfun/aeon.svg?style=social) - Autonomous AI agent framework that publishes signed notes to Nostr relays as an outbound channel.
 - [Amethyst crawler](https://crawler.amethyst.social/) - Find and broadcast nostr events
 - [anonroom](https://github.com/vinliao/anonroom)![stars](https://img.shields.io/github/stars/vinliao/anonroom.svg?style=social) - anonymous chat room inside nostr
 - [Bech32 for Nostr](https://nostr.xport.top/bech32-for-nostr/) - bech32 Nostr converter.
