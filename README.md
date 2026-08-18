@@ -520,6 +520,7 @@ Websites with lists of relays and their performance/health:
 - [nostr-hooks](https://github.com/ostyjs/nostr-hooks)![stars](https://img.shields.io/github/stars/ostyjs/nostr-hooks.svg?style=social) - React hooks for developing Nostr clients. It's simple and intelligent. [⚡ zap](lightning:sepehr@getalby.com)
 - [nostr-java](https://github.com/tcheeric/nostr-java)![stars](https://img.shields.io/github/stars/tcheeric/nostr-java.svg?style=social) - A nostr client library, written in java, for generating, signing and publishing events.
 - [nostr-js](https://github.com/jb55/nostr-js)![stars](https://img.shields.io/github/stars/jb55/nostr-js.svg?style=social) - a javascript implementation of the nostr protocol
+- [nostr_lib](https://github.com/economic-agent/nostrkit)![stars](https://img.shields.io/github/stars/economic-agent/nostrkit.svg?style=social) - Pure-Python nostr toolkit: BIP340 Schnorr signing, NIP-01 events, NIP-04/NIP-44 encryption, and a raw relay WebSocket client. Zero dependencies, stdlib only, vector-verified.
 - [nostr_relay_management](https://github.com/anasfik/nostr_relay_management)![stars](https://img.shields.io/github/stars/anasfik/nostr_relay_management.svg?style=social) - Dart/Flutter support for NIP-86 (Relay Management) with better developer experience.
 
 - [nostr-one](https://github.com/dolu89/nostr-one)![stars](https://img.shields.io/github/stars/dolu89/nostr-one.svg?style=social) - A reusable web component that provides a simple way to integrate with nostr NIP 98 HTTP Auth.
