@@ -183,6 +183,8 @@ Websites with lists of relays and their performance/health:
 - [zap.stream](https://github.com/v0l/zap-stream-core)![stars](https://img.shields.io/github/stars/v0l/zap-stream-core.svg?style=social) - zap.stream is an interactive livestreaming service for content spanning gaming, entertainment, sports, music, and more.
 - [Slidestr](https://slidestr.net) - Image and slideshow viewer for Nostr.
 - [Stemstr](https://stemstr.app) - A music collaboration platform built on Nostr.
+- [Lightning FM](https://github.com/maml/lightning-fm-desktop)![stars](https://img.shields.io/github/stars/maml/lightning-fm-desktop.svg?style=social) - Music platform on Lightning and Nostr: streaming is free, purchases pay the artist's own wallet directly, and the catalog is artist-signed kind 31337 events on an open-read relay.
+  - [lightning.fm](https://lightning.fm/) - live instance
 - [Swae](https://github.com/suhailsaqan/swae)![stars](https://img.shields.io/github/stars/suhailsaqan/swae.svg?style=social) - A short-form video client for Nostr.
 - [Unfiltered](https://github.com/dmcarrington/unfiltered)![stars](https://img.shields.io/github/stars/dmcarrington/unfiltered.svg?style=social) - A Nostr video sharing platform.
 - [Flora](https://github.com/shawnyeager/flora-extension)![stars](https://img.shields.io/github/stars/shawnyeager/flora-extension.svg?style=social) - Browser extension for Nostr media discovery.
