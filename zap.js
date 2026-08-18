@@ -604,4 +604,19 @@
         const addr = chip.dataset.lnAddress || href.replace(/^lightning:/i, '');
         if (addr.includes('@')) fetchLnurlParamsCached(addr).catch(() => {});
     }, { passive: true });
+
+    // ---------- grant page: ?zap=addr@host → open the zap dialog ----------
+    // GitHub-facing chips link to https://nostr.net/grant/?zap=… — on arrival,
+    // show the full zap dialog (QR / open wallet / connect) immediately
+    if (/\/grant\/?$|grant\.html$/.test(location.pathname)) {
+        const m = location.href.match(/[?&]zap=([A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+)/);
+        if (m) {
+            const addr = decodeURIComponent(m[1]);
+            const name = addr.split('@')[0];
+            setTimeout(() => {
+                if (weblnReady()) zap(addr, name, null);
+                else showZapModal({ lnAddress: addr, name, chip: null });
+            }, 700);
+        }
+    }
 })();

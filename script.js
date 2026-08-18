@@ -761,8 +761,26 @@ function parseResourceLine(line) {
 // ===== grantless: zap/donate chip support =====
 // Reads a rendered markdown <li> and extracts the resource link plus the
 // optional chips from the README convention:
-//   - [Name](https://...) - description [⚡ zap](lightning:addr@host) [donate](https://...)
+//   - [Name](https://...) - description [⚡ zap](https://nostr.net/grant/?zap=addr@host) [donate](https://...)
+// GitHub's sanitizer strips lightning: links entirely (verified via the
+// GitHub markdown API), so chips carry an https link to our own grant page,
+// which opens the zap dialog (QR / open-wallet / in-page zap). Plain
+// lightning: chips are still recognized for back-compat.
 const LIGHTNING_SCHEME_RE = /^lightning:/i;
+const ZAP_LABEL_RE = /^\s*⚡\s*zap\s*$/i;
+// chip host: our own grant page carries the address in the query string
+const GRANT_CHIP_RE = /^https:\/\/nostr\.net\/grant\/\?zap=([A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+)(&|$)/i;
+
+// chip href + anchor label → lightning address, or null
+function lnAddressFromChip(href, label) {
+    href = href || '';
+    if (LIGHTNING_SCHEME_RE.test(href)) return href.replace(LIGHTNING_SCHEME_RE, '');
+    if (ZAP_LABEL_RE.test(label || '')) {
+        const m = href.match(GRANT_CHIP_RE);
+        if (m) return decodeURIComponent(m[1]);
+    }
+    return null;
+}
 
 function parseListItem(li) {
     let name = '';
@@ -772,13 +790,14 @@ function parseListItem(li) {
 
     Array.from(li.querySelectorAll('a')).forEach(a => {
         const href = a.getAttribute('href') || '';
-        const label = a.textContent.trim().toLowerCase();
-        if (LIGHTNING_SCHEME_RE.test(href)) {
-            if (lnAddress === null) lnAddress = href.replace(LIGHTNING_SCHEME_RE, '');
-        } else if (label === 'donate' && /^https?:/i.test(href)) {
+        const label = a.textContent.trim();
+        const chipAddr = lnAddressFromChip(href, label);
+        if (chipAddr) {
+            if (lnAddress === null) lnAddress = chipAddr;
+        } else if (label.toLowerCase() === 'donate' && /^https?:/i.test(href)) {
             if (donateUrl === null) donateUrl = href;
         } else if (!name) {
-            name = a.textContent.trim();
+            name = label;
             link = href;
         }
     });
@@ -789,8 +808,8 @@ function parseListItem(li) {
     clone.querySelectorAll('img').forEach(i => i.remove());
     clone.querySelectorAll('a').forEach(a => {
         const href = a.getAttribute('href') || '';
-        const label = a.textContent.trim().toLowerCase();
-        if (LIGHTNING_SCHEME_RE.test(href) || label === 'donate') a.remove();
+        const label = a.textContent.trim();
+        if (lnAddressFromChip(href, label) || label.toLowerCase() === 'donate') a.remove();
     });
     let description = clone.textContent.replace(/\s+/g, ' ').trim();
     if (name && description.toLowerCase().startsWith(name.toLowerCase())) {

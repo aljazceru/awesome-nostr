@@ -189,8 +189,10 @@ test('invoice missing the payment hash tag is rejected', async () => {
 
 test('mixed-case invoice is rejected', async () => {
     const inv = craftInvoice({ amountHrp: '10u', hHex: sha256Hex('[]') });
-    // flip one data character to upper — mixed case is invalid bech32
-    const mixed = inv.slice(0, 12) + inv[12].toUpperCase() + inv.slice(13);
+    // flip the first data character whose case actually changes
+    const i = inv.slice(8).split('').findIndex(c => c !== c.toUpperCase() && /[a-z]/.test(c));
+    const mixed = inv.slice(0, 8 + i) + inv[8 + i].toUpperCase() + inv.slice(8 + i + 1);
+    assert.notStrictEqual(mixed, inv, 'fixture must actually change case');
     const r = await core.decodeBolt11(mixed);
     assert.strictEqual(r.ok, false);
     assert.match(r.error, /mixed case/);
@@ -330,6 +332,20 @@ test('lnurlEncode round-trips to the lnurlp endpoint', () => {
     const words = [...ln.slice(pos + 1)].map(c => CHARSET.indexOf(c.toLowerCase()));
     assert.strictEqual(bech32Polymod(hrpExpand(hrp).concat(words)), 1, 'checksum');
     assert.ok(url.startsWith('https://sendsats.lol/.well-known/lnurlp/damus'));
+});
+
+test('lnurlDecode round-trips encode and rejects tampering', () => {
+    const url = 'https://primal.net/.well-known/lnurlp/bitkarrot';
+    const ln = core.lnurlEncode(url).toUpperCase();
+    assert.strictEqual(core.lnurlDecode(ln), url);
+    assert.strictEqual(core.lnurlDecode(ln.toLowerCase()), url, 'lowercase form also valid');
+    // swap two chars in the data part → checksum must fail
+    const tampered = ln.slice(0, 20) + (ln[20] === 'Q' ? 'P' : 'Q') + ln.slice(21);
+    assert.strictEqual(core.lnurlDecode(tampered), null);
+    assert.strictEqual(core.lnurlDecode('lnurl1' + 'q'.repeat(40)), null, 'garbage data');
+    assert.strictEqual(core.lnurlDecode('notlnurl1abcdef'), null, 'wrong hrp');
+    assert.strictEqual(core.lnurlDecode(''), null);
+    assert.strictEqual(core.lnurlDecode(null), null);
 });
 
 test('escapeHtml neutralizes markup', () => {

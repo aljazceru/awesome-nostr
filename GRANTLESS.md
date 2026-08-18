@@ -17,13 +17,13 @@ The insight: the list **is** the funding platform. Turn entries into zappable en
 Keep the existing format, add optional standardized chips at the end of an entry:
 
 ```markdown
-- [Amethyst](https://www.amethyst.social/) - Android-only app [⚡ zap](lightning:vitor@amethyst.social) [donate](https://geyser.fund/project/xyz)
-- [Damus](https://damus.io/) - The OG nostr client for iOS [⚡ zap](lightning:jb55@damus.io)
+- [Amethyst](https://www.amethyst.social/) - Android-only app [⚡ zap](https://nostr.net/grant/?zap=vitor@amethyst.social) [donate](https://geyser.fund/project/xyz)
+- [Damus](https://damus.io/) - The OG nostr client for iOS [⚡ zap](https://nostr.net/grant/?zap=jb55@damus.io)
 ```
 
 Rules:
 
-- **`[⚡ zap](lightning:...)`** — a `lightning:` URI holding an LN address (or LNURL). This is what makes an entry *zappable*. Parsed with `/\[⚡\s*zap\]\(lightning:([^)\s]+)\)/i`.
+- **`[⚡ zap](https://nostr.net/grant/?zap=jb55@damus.io)`** — an https redirect helper carrying the bech32-encoded LNURL-pay endpoint of the project's lightning address. GitHub's sanitizer **strips raw `lightning:` links entirely** (verified via the GitHub markdown render API), so chips must use this https form to stay clickable on GitHub — clicking offers to open the user's wallet (or shows a QR). On nostr.net the chip is decoded **locally** (`zapCore.lnurlDecode`) back into the address and zapped in-page; the helper is never in the zap path itself. Raw `lightning:` chips are still recognized by the parser for back-compat.
 - **`[donate](https://...)`** — optional external funding link (Geyser, OpenSats, Patreon, whatever). Rendered as a second chip. No one-size-fits-all: the project picks.
 - Everything else about entries stays exactly as it is. GitHub renders the chips as normal links, so the README stays perfectly readable on GitHub too.
 - Adding/changing a zap address happens via PR — same review flow as today. That's the "grantless" model: anyone can walk in, but the curator merges.

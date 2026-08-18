@@ -49,6 +49,35 @@
         return 'lnurl' + '1' + [...data, ...cs].map(d => CHARSET[d]).join('');
     }
 
+    // decode a bech32 LNURL back to its URL (checksum-verified); null on any
+    // malformation — used to turn GitHub-safe getalby chip links back into
+    // lightning addresses without a third-party round trip
+    function lnurlDecode(lnurl) {
+        try {
+            const s = String(lnurl).trim();
+            const pos = s.lastIndexOf('1');
+            if (pos < 1) return null;
+            const hrp = s.slice(0, pos).toLowerCase();
+            if (hrp !== 'lnurl') return null;
+            const chars = s.slice(pos + 1);
+            if (/[a-z]/.test(chars) && /[A-Z]/.test(chars)) return null; // mixed case invalid
+            const words = [...chars.toLowerCase()].map(c => CHARSET.indexOf(c));
+            if (words.length < 7 || words.some(w => w < 0)) return null;
+            if (bech32Polymod(hrpExpand(hrp).concat(words)) !== 1) return null;
+            const d5 = words.slice(0, -6);
+            let acc = 0, bits = 0;
+            const bytes = [];
+            for (const w of d5) {
+                acc = (acc << 5) | w; bits += 5;
+                while (bits >= 8) { bits -= 8; bytes.push((acc >> bits) & 255); }
+            }
+            if (bits >= 5 || ((acc << (8 - bits)) & 255)) return null; // non-zero padding
+            return new TextDecoder().decode(new Uint8Array(bytes));
+        } catch (e) {
+            return null;
+        }
+    }
+
     // ---------- misc ----------
     const escapeHtml = (s) => String(s).replace(/[&<>"']/g, c =>
         ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -241,7 +270,7 @@
     }
 
     return {
-        lnurlpUrl, lnurlEncode, escapeHtml, sha256Hex, decodeBolt11, createProviderSelector,
+        lnurlpUrl, lnurlEncode, lnurlDecode, escapeHtml, sha256Hex, decodeBolt11, createProviderSelector,
         isTransientPaymentError, createZapGuard, resolveZapAmount,
         __internals: { CHARSET, bech32Polymod, hrpExpand, convertBits, wordsToTrimmedHex }
     };
