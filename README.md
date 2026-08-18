@@ -152,7 +152,7 @@ Websites with lists of relays and their performance/health:
 
 ## Clients
 ### Long form clients
-- [FSociety](https://github.com/non-npc/FSociety) Portable decentralized, cyberpunk desktop messenger offering encrypted private chats, communities, and file sharing over Nostr and Blossom. (windows/linux)
+- [FSociety](https://github.com/non-npc/FSociety)![stars](https://img.shields.io/github/stars/non-npc/FSociety.svg?style=social) - Portable  desktop messenger offering encrypted private chats, communities, and file sharing over Nostr and Blossom. (windows/linux)
 - [untype.app](https://untype.app)
 - [Habla.news](https://github.com/verbiricha/habla.news)![stars](https://img.shields.io/github/stars/verbiricha/habla.news.svg?style=social) - Habla allows you to read, write, curate and monetize long-form content over Nostr, a censorship-resistant protocol for social media that uses long-form Nostr content.
 - [Highlighter](https://highlighter.com) - Discover and share curated insights by people you trust.
