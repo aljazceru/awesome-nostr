@@ -329,6 +329,8 @@ Websites with lists of relays and their performance/health:
 - [nostr-relay-tray](https://github.com/CodyTseng/nostr-relay-tray)![stars](https://img.shields.io/github/stars/CodyTseng/nostr-relay-tray.svg?style=social) - a simple nostr relay tray app written in Electron
 - [nostr.kiwi](https://nostr.kiwi/) - nostr.kiwi is a progressive web app to share notes and curate content in communities.
 - [nostr.time](https://github.com/coracle-social/nostrtime)![stars](https://img.shields.io/github/stars/coracle-social/nostrtime.svg?style=social) - A calendar app built on nostr
+- [NOSTRAS](https://nostras.app) - A Nostr PWA client backed by its own self-hosted relay + AI-DVM compute (NIP-90 summarize/translate/ask, NIP-50 search, NWC zaps) — no app store, install straight from the browser.
+  - [app.nostras.app](https://app.nostras.app) - live instance
 - [NostrChat.io](https://nostrchat.io/) - NostrChat is a chat app where you can have group chats, DM, threads, and emojis.
 - [Nostree](https://github.com/gzuuus/linktr-nostr)![stars](https://img.shields.io/github/stars/gzuuus/linktr-nostr.svg?style=social) - [nostree.me](https://nostree.me) A Nostr-based application linktree-style to create, manage and discover link lists, show notes and other stuff.
 - [NostrEmitter](https://github.com/cmdruid/nostr-emitter)![stars](https://img.shields.io/github/stars/cmdruid/nostr-emitter.svg?style=social) - Simple E2E encrypted client and EventEmitter object
