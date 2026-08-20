@@ -147,6 +147,7 @@ of the public instances.
 Websites with lists of relays and their performance/health:
 - [georelays](https://github.com/permissionlesstech/georelays)![stars](https://img.shields.io/github/stars/permissionlesstech/georelays.svg?style=social) - A collection of nostr relays and their estimated geographic locations for discovering nearby relays.
 - [relay.nostr.net](wss://relay.nostr.net) - relay run by nostr.net 
+- [relay.libernet.app](wss://relay.libernet.app) - open public Nostr relay by LiberNet, operated from Israel [⚡ zap](https://nostr.net/grant/?zap=barak@blink.sv)
 - [nostr.info](https://nostr.info/relays/) - real-time checking of the status of some known relays.
 - [nostr.watch](https://nostr.watch)![stars](https://img.shields.io/github/stars/sandwichfarm/nostr-watch.svg?style=social) - real-time checking of the status of some known relays.
 - [relays.xport.top](https://relays.xport.top) - relays list sortable by ping, activity, etc.
