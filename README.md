@@ -792,6 +792,7 @@ Websites with lists of relays and their performance/health:
  - [Iris Video](https://video.iris.to) - Videos over Nostr & blossom
  - [Iris Files](https://files.iris.to) - Blossom based filesystem and explorer
 - [jellyfish.land](https://jellyfish.land/nip05) - Nostr NIP-05 handles on @nostr.eco domain with WoT protection
+- [LiberMedia](https://media.libernet.app/editar-perfil) - Free NIP-05 ID included with every account on the LiberMedia social network. [⚡ zap](https://nostr.net/grant/?zap=barak@blink.sv)
 - [lifpay.me](https://lifpay.me) - Lightning wallet with NIP-05 ID registration service.
 - [nanostr](https://github.com/xbol0/nanostr)![stars](https://img.shields.io/github/stars/xbol0/nanostr?style=social) - A NIP-05 name server written in Deno.
 - [Nostr-Check.com](https://nostr-check.com) - A free NIP-05 ID registration service.
