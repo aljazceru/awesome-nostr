@@ -777,6 +777,7 @@ Websites with lists of relays and their performance/health:
 - [TENEX](https://github.com/tenex-chat/tenex)![stars](https://img.shields.io/github/stars/tenex-chat/tenex.svg?style=social) - AI agent orchestration platform on Nostr.
 - [TollGate](https://tollgate.me) - Pay-per-use Wi-Fi access using Nostr and Lightning.
 - [Yondar](https://go.yondar.me) - Location-based social discovery on Nostr.
+- [josephsquares](https://github.com/fiatjaf/josephsquares)![stars](https://img.shields.io/github/stars/fiatjaf/josephsquares.svg?style=social) - a game for playing with pen and paper
 
 ## NIP-05 identity services
 
