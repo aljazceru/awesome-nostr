@@ -777,7 +777,6 @@ Websites with lists of relays and their performance/health:
 - [TENEX](https://github.com/tenex-chat/tenex)![stars](https://img.shields.io/github/stars/tenex-chat/tenex.svg?style=social) - AI agent orchestration platform on Nostr.
 - [TollGate](https://tollgate.me) - Pay-per-use Wi-Fi access using Nostr and Lightning.
 - [Yondar](https://go.yondar.me) - Location-based social discovery on Nostr.
-- [josephsquares](https://github.com/fiatjaf/josephsquares)![stars](https://img.shields.io/github/stars/fiatjaf/josephsquares.svg?style=social) - a game for playing with pen and paper
 
 ## NIP-05 identity services
 
@@ -1004,6 +1003,7 @@ Endpoints (services or apps that expose a LN wallet via NWC)
 ## Games on Nostr
 
 - [Gamestr](https://gamestr.io/) - A decentralized gaming platform built on Nostr, enabling peer-to-peer play without centralized servers.
+- [josephsquares](https://github.com/fiatjaf/josephsquares)![stars](https://img.shields.io/github/stars/fiatjaf/josephsquares.svg?style=social) - a game for playing with pen and paper
 - [NostrDice](https://github.com/NostrDice/nostrdice)![stars](https://img.shields.io/github/stars/NostrDice/nostrdice) - NostrDice is a provably fair betting game combining the power of Lightning and Nostr.
   - Live: [app.nostrdice.com](https://app.nostrdice.com)
 - [Nostrian Conquest](https://nostrian-conquest.com) - A turn-based multiplayer space strategy game inspired by classic BBS door games, rebuilt in Rust and powered by Nostr for decentralized play.
