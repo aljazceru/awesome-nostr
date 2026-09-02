@@ -62,7 +62,7 @@ ITEM_RE = re.compile(r"( *)- (.*)")
 MD_LINK_RE = re.compile(r"\[([^\]]*)\]\(\s*([^)\s]+)[^)]*\)")
 NESTED_BADGE_RE = re.compile(r"\[!\[stars\]\([^)]*\)\]\([^)]*\)")
 BADGE_RE = re.compile(r"!\[stars\]\([^)]*\)")
-ZAP_LINK_RE = re.compile(r"\[\? zap\]\(([^)]*)\)")
+ZAP_LINK_RE = re.compile(r"\[[?⚡] ?zap\]\(([^)]*)\)")
 BADGE_URL_RE = re.compile(
     r"shields\.io/(github|gitlab)/stars/([^/\s)\]]+)/([^?\s)\]]+)"
 )
@@ -401,13 +401,18 @@ def compute_sort_key(item: dict, strategy: str, cfg: dict, now: datetime):
     return (1, active, stars)
 
 
-def sort_strategy_for(section: Section, cfg: dict) -> str:
-    override = cfg["sections"].get(section.title, {})
+def sort_strategy_for(section: Section, cfg: dict, parent_title: str | None = None) -> str:
+    """Subsections inherit a pinned strategy from their parent category."""
+    override = cfg["sections"].get(section.title)
+    if override is None and parent_title is not None:
+        override = cfg["sections"].get(parent_title)
+    if override is None:
+        return cfg["strategy"]
     return override.get("strategy", cfg["strategy"])
 
 
-def sort_blocks(section: Section, cfg: dict, now: datetime) -> None:
-    strategy = sort_strategy_for(section, cfg)
+def sort_blocks(section: Section, cfg: dict, now: datetime, parent_title: str | None = None) -> None:
+    strategy = sort_strategy_for(section, cfg, parent_title)
     section.strategy = strategy
     if strategy == "manual":
         return
@@ -587,8 +592,9 @@ def main(argv=None) -> int:
 
     now = datetime.now(timezone.utc)
     for section in doc["sections"]:
-        for owner in section.all_blocks():
-            sort_blocks(owner, cfg, now)
+        sort_blocks(section, cfg, now)
+        for sub in section.subsections:
+            sort_blocks(sub, cfg, now, parent_title=section.title)
 
     updated = render_readme(doc)
     if updated != original:

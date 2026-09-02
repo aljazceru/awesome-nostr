@@ -53,14 +53,15 @@ class ParseItemLineTest(unittest.TestCase):
         self.assertEqual(item["indent"], 0)
 
     def test_zap_link_extracted_and_removed(self):
-        line = (
-            "- [Damus](https://damus.io/) - iOS, Android and Desktop client"
-            " [? zap](https://nostr.net/grant/?zap=damus@sendsats.lol)"
-        )
-        item = aw.parse_item_line(line)
-        self.assertEqual(item["description"], "iOS, Android and Desktop client")
-        self.assertEqual(item["zap"], "https://nostr.net/grant/?zap=damus@sendsats.lol")
-        self.assertIsNone(item["repo"])
+        for label in ("[? zap]", "[⚡ zap]"):
+            line = (
+                "- [Damus](https://damus.io/) - iOS, Android and Desktop client"
+                f" {label}(https://nostr.net/grant/?zap=damus@sendsats.lol)"
+            )
+            item = aw.parse_item_line(line)
+            self.assertEqual(item["description"], "iOS, Android and Desktop client")
+            self.assertEqual(item["zap"], "https://nostr.net/grant/?zap=damus@sendsats.lol")
+            self.assertIsNone(item["repo"])
 
     def test_nested_badge_repo_wins_over_non_repo_url(self):
         line = (
@@ -232,6 +233,18 @@ class SortTest(unittest.TestCase):
     def test_section_override(self):
         cfg = dict(CFG, sections={"Test": {"strategy": "stars"}})
         self.assertEqual(aw.sort_strategy_for(aw.Section("Test", "## Test"), cfg), "stars")
+
+    def test_subsection_inherits_pinned_parent_strategy(self):
+        parent = aw.Section("Most popular", "## Most popular")
+        sub = aw.Section("Apps", "### Apps")
+        parent.subsections.append(sub)
+        cfg = dict(CFG, sections={"Most popular": {"strategy": "manual"}})
+        self.assertEqual(aw.sort_strategy_for(parent, cfg), "manual")
+        self.assertEqual(aw.sort_strategy_for(sub, cfg, parent_title="Most popular"), "manual")
+        # a same-named override on the subsection itself still wins
+        cfg2 = dict(CFG, sections={"Most popular": {"strategy": "manual"},
+                                   "Apps": {"strategy": "stars"}})
+        self.assertEqual(aw.sort_strategy_for(sub, cfg2, parent_title="Most popular"), "stars")
 
 
 class RepoExtractionTest(unittest.TestCase):

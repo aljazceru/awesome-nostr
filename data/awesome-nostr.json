@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "generated_at": "2026-09-02T10:19:33Z",
+  "generated_at": "2026-09-02T11:42:44Z",
   "source": "README.md",
   "sort_strategy": "hybrid",
   "counts": {
@@ -17,96 +17,109 @@
    "subcategories": [
     {
      "name": "Apps",
-     "sort_strategy": "hybrid",
+     "sort_strategy": "manual",
      "items": [
       {
        "name": "Zapstore",
        "url": "https://zapstore.dev/",
-       "description": "A truly open app store [⚡ zap](https://nostr.net/grant/?zap=zapstore@rizful.com)",
+       "description": "A truly open app store",
+       "zap": "https://nostr.net/grant/?zap=zapstore@rizful.com",
        "sort_strategy": "manual"
       },
       {
        "name": "Hivetalk",
        "url": "https://honey.hivetalk.org/",
-       "description": "Nostr + Lightning Video Conferencing [⚡ zap](https://nostr.net/grant/?zap=bitkarrot@primal.net)",
+       "description": "Nostr + Lightning Video Conferencing",
+       "zap": "https://nostr.net/grant/?zap=bitkarrot@primal.net",
        "sort_strategy": "manual"
       }
      ]
     },
     {
      "name": "Mobile clients",
-     "sort_strategy": "hybrid",
+     "sort_strategy": "manual",
      "items": [
       {
        "name": "Damus",
        "url": "https://damus.io/",
-       "description": "iOS, Android and Desktop client [⚡ zap](https://nostr.net/grant/?zap=damus@sendsats.lol)",
+       "description": "iOS, Android and Desktop client",
+       "zap": "https://nostr.net/grant/?zap=damus@sendsats.lol",
        "sort_strategy": "manual"
       },
       {
        "name": "Wisp",
        "url": "https://wisp.mobile/",
-       "description": "Android-only app [⚡ zap](https://nostr.net/grant/?zap=utxo@rizful.com)",
+       "description": "Android-only app",
+       "zap": "https://nostr.net/grant/?zap=utxo@rizful.com",
        "sort_strategy": "manual"
       },
       {
        "name": "Amethyst",
        "url": "https://www.amethyst.social/",
-       "description": "Android-only app [⚡ zap](https://nostr.net/grant/?zap=vitor@vitorpamplona.com)",
+       "description": "Android-only app",
+       "zap": "https://nostr.net/grant/?zap=vitor@vitorpamplona.com",
        "sort_strategy": "manual"
       },
       {
        "name": "Primal",
        "url": "https://primal.net/downloads",
-       "description": "iOS and Android apps [⚡ zap](https://nostr.net/grant/?zap=miljan@primal.net)",
+       "description": "iOS and Android apps",
+       "zap": "https://nostr.net/grant/?zap=miljan@primal.net",
        "sort_strategy": "manual"
       },
       {
        "name": "YakiHonne",
        "url": "https://yakihonne.com/yakihonne-mobile-app",
-       "description": "iOS and Android app [⚡ zap](https://nostr.net/grant/?zap=yakihonne@getalby.com)",
+       "description": "iOS and Android app",
+       "zap": "https://nostr.net/grant/?zap=yakihonne@getalby.com",
        "sort_strategy": "manual"
       }
      ]
     },
     {
      "name": "Web clients",
-     "sort_strategy": "hybrid",
+     "sort_strategy": "manual",
      "items": [
       {
        "name": "primal.net",
        "url": "https://primal.net/",
-       "description": "[⚡ zap](https://nostr.net/grant/?zap=miljan@primal.net)",
+       "description": "",
+       "zap": "https://nostr.net/grant/?zap=miljan@primal.net",
        "sort_strategy": "manual"
       },
       {
        "name": "nostria",
        "url": "https://nostria.app/",
-       "description": "[⚡ zap](https://nostr.net/grant/?zap=sondreb@rizful.com)",
+       "description": "",
+       "zap": "https://nostr.net/grant/?zap=sondreb@rizful.com",
        "sort_strategy": "manual"
       },
       {
        "name": "coracle.social",
        "url": "https://coracle.social/",
-       "description": "[⚡ zap](https://nostr.net/grant/?zap=hodlbod@getalby.com)",
+       "description": "",
+       "zap": "https://nostr.net/grant/?zap=hodlbod@getalby.com",
        "sort_strategy": "manual"
       },
       {
        "name": "YakiHonne",
        "url": "https://yakihonne.com",
-       "description": "[⚡ zap](https://nostr.net/grant/?zap=yakihonne@getalby.com)",
+       "description": "",
+       "zap": "https://nostr.net/grant/?zap=yakihonne@getalby.com",
        "sort_strategy": "manual"
       },
       {
        "name": "Ditto",
        "url": "https://ditto.pub",
-       "description": "[⚡ zap](https://nostr.net/grant/?zap=alex@alexgleason.me)",
+       "description": "",
+       "zap": "https://nostr.net/grant/?zap=alex@alexgleason.me",
        "sort_strategy": "manual"
       },
       {
        "name": "Jumble@Imwald",
        "url": "https://jumble.imwald.eu/",
-       "description": "[⚡ zap](https://nostr.net/grant/?zap=stellainforest@cake.cash)",
+       "description": "",
+       "zap": "https://nostr.net/grant/?zap=stellainforest@cake.cash",
        "sort_strategy": "manual"
       }
      ]
@@ -190,11 +203,12 @@
     {
      "name": "persian nostr book",
      "url": "https://github.com/kehiy/persian-nostr-book",
-     "description": "a book written in the Persian language about nostr, containing nips translation. [⚡ zap](https://nostr.net/grant/?zap=kehiy@walletofsatoshi.com)",
+     "description": "a book written in the Persian language about nostr, containing nips translation.",
      "repo": "kehiy/persian-nostr-book",
      "forge": "github",
      "stars": 12,
      "last_active": "2025-05-16T12:57:45Z",
+     "zap": "https://nostr.net/grant/?zap=kehiy@walletofsatoshi.com",
      "sort_strategy": "hybrid"
     },
     {
@@ -248,7 +262,8 @@
     {
      "name": "nostrich.love",
      "url": "https://nostrich.love/",
-     "description": "a normie-friendly introduction and quick start guide. [⚡ zap](https://nostr.net/grant/?zap=nostrich@wallet.yakihonne.com)",
+     "description": "a normie-friendly introduction and quick start guide.",
+     "zap": "https://nostr.net/grant/?zap=nostrich@wallet.yakihonne.com",
      "sort_strategy": "hybrid"
     },
     {
@@ -313,6 +328,16 @@
        "sort_strategy": "hybrid"
       },
       {
+       "name": "bcr-relay",
+       "url": "https://github.com/BitcreditProtocol/bcr-relay",
+       "description": "Specialized relay for the Bitcredit protocol.",
+       "repo": "BitcreditProtocol/bcr-relay",
+       "forge": "github",
+       "stars": 2,
+       "last_active": "2026-09-02T11:06:46Z",
+       "sort_strategy": "hybrid"
+      },
+      {
        "name": "nostr-relay",
        "url": "https://github.com/mattn/nostr-relay",
        "description": "Nostr relay in Go based on relayer. Backend by sqlite3/PostgreSQL/mysql.",
@@ -320,16 +345,6 @@
        "forge": "github",
        "stars": 63,
        "last_active": "2026-09-02T08:26:37Z",
-       "sort_strategy": "hybrid"
-      },
-      {
-       "name": "bcr-relay",
-       "url": "https://github.com/BitcreditProtocol/bcr-relay",
-       "description": "Specialized relay for the Bitcredit protocol.",
-       "repo": "BitcreditProtocol/bcr-relay",
-       "forge": "github",
-       "stars": 2,
-       "last_active": "2026-09-01T10:36:34Z",
        "sort_strategy": "hybrid"
       },
       {
@@ -345,11 +360,12 @@
       {
        "name": "Fenrir-s",
        "url": "https://github.com/rushmi0/Fenrir-s",
-       "description": "a Nostr Relay written in Kotlin with PostgreSQL backend and GraalVM support. [⚡ zap](https://nostr.net/grant/?zap=parkinghot99@walletofsatoshi.com)",
+       "description": "a Nostr Relay written in Kotlin with PostgreSQL backend and GraalVM support.",
        "repo": "rushmi0/Fenrir-s",
        "forge": "github",
        "stars": 14,
        "last_active": "2026-08-30T09:34:14Z",
+       "zap": "https://nostr.net/grant/?zap=parkinghot99@walletofsatoshi.com",
        "sort_strategy": "hybrid"
       },
       {
@@ -933,11 +949,12 @@
       {
        "name": "nostr-filter-relay",
        "url": "https://github.com/atrifat/nostr-filter-relay",
-       "description": "A nostr relay docker image package which filter content based on content type (SFW/NSFW), user type, language, hate speech (toxic comment), sentiment, topic, and various rules. [⚡ zap](https://nostr.net/grant/?zap=rifat@getalby.com)",
+       "description": "A nostr relay docker image package which filter content based on content type (SFW/NSFW), user type, language, hate speech (toxic comment), sentiment, topic, and various rules.",
        "repo": "atrifat/nostr-filter-relay",
        "forge": "github",
        "stars": 29,
        "last_active": "2024-09-12T01:47:39Z",
+       "zap": "https://nostr.net/grant/?zap=rifat@getalby.com",
        "sort_strategy": "hybrid"
       },
       {
@@ -1164,7 +1181,7 @@
        "repo": "permissionlesstech/georelays",
        "forge": "github",
        "stars": 130,
-       "last_active": "2026-09-01T11:58:44Z",
+       "last_active": "2026-09-02T11:32:59Z",
        "sort_strategy": "hybrid"
       },
       {
@@ -1285,7 +1302,8 @@
       {
        "name": "Decent Newsroom",
        "url": "https://decentnewsroom.com/",
-       "description": "Explore, publish and create long form articles and magazines on nostr. [⚡ zap](https://nostr.net/grant/?zap=decentnewsroom@rizful.com)",
+       "description": "Explore, publish and create long form articles and magazines on nostr.",
+       "zap": "https://nostr.net/grant/?zap=decentnewsroom@rizful.com",
        "sort_strategy": "hybrid"
       },
       {
@@ -1331,7 +1349,7 @@
        "repo": "divinevideo/divine-mobile",
        "forge": "github",
        "stars": 264,
-       "last_active": "2026-09-02T10:01:53Z",
+       "last_active": "2026-09-02T11:31:12Z",
        "sort_strategy": "hybrid"
       },
       {
@@ -1555,21 +1573,23 @@
       {
        "name": "LiberMedia",
        "url": "https://media.libernet.app",
-       "description": "Android + Web client with zaps, DMs, media and groups. [⚡ zap](https://nostr.net/grant/?zap=barak@blink.sv)",
+       "description": "Android + Web client with zaps, DMs, media and groups.",
        "repo": "lucianocasalunga/libermedia-twa",
        "forge": "github",
        "stars": 0,
        "last_active": "2026-08-09T15:10:23Z",
+       "zap": "https://nostr.net/grant/?zap=barak@blink.sv",
        "sort_strategy": "hybrid"
       },
       {
        "name": "Makoré",
        "url": "https://makore.libernet.app",
-       "description": "End-to-end encrypted messenger with NIP-17/NIP-44 DMs, group chats and zaps. Android + Web. [⚡ zap](https://nostr.net/grant/?zap=barak@blink.sv)",
+       "description": "End-to-end encrypted messenger with NIP-17/NIP-44 DMs, group chats and zaps. Android + Web.",
        "repo": "lucianocasalunga/makore-twa",
        "forge": "github",
        "stars": 0,
        "last_active": "2026-07-31T18:29:58Z",
+       "zap": "https://nostr.net/grant/?zap=barak@blink.sv",
        "sort_strategy": "hybrid"
       },
       {
@@ -1649,8 +1669,8 @@
        "description": "Workspace where AI agents and humans collaborate on their own relay.",
        "repo": "block/buzz",
        "forge": "github",
-       "stars": 31910,
-       "last_active": "2026-09-02T08:17:10Z",
+       "stars": 31915,
+       "last_active": "2026-09-02T11:31:54Z",
        "sort_strategy": "hybrid"
       },
       {
@@ -1659,8 +1679,8 @@
        "description": "Group chat client by Block.",
        "repo": "block/sprout",
        "forge": "github",
-       "stars": 31910,
-       "last_active": "2026-09-02T08:17:10Z",
+       "stars": 31915,
+       "last_active": "2026-09-02T11:31:54Z",
        "sort_strategy": "hybrid"
       },
       {
@@ -1722,7 +1742,7 @@
        "repo": "SnowCait/nostter",
        "forge": "github",
        "stars": 180,
-       "last_active": "2026-09-02T08:16:43Z",
+       "last_active": "2026-09-02T11:21:25Z",
        "sort_strategy": "hybrid"
       },
       {
@@ -1732,7 +1752,17 @@
        "repo": "DavidGershony/openChat",
        "forge": "github",
        "stars": 3,
-       "last_active": "2026-09-02T07:01:26Z",
+       "last_active": "2026-09-02T11:06:36Z",
+       "sort_strategy": "hybrid"
+      },
+      {
+       "name": "Plaza",
+       "url": "https://github.com/zig-nostr/plaza",
+       "description": "A fast, local-first Nostr client for macOS, built natively in Zig. Guest-first, with a built-in isolated signer. (In development.)",
+       "repo": "zig-nostr/plaza",
+       "forge": "github",
+       "stars": 8,
+       "last_active": "2026-09-02T11:04:20Z",
        "sort_strategy": "hybrid"
       },
       {
@@ -1795,11 +1825,12 @@
       {
        "name": "Vega",
        "url": "https://github.com/hoornet/vega",
-       "description": "A client for Linux, Windows and macOS (Tauri + React), with long-form writing and reading (NIP-23), V4V podcast streaming, WoT filtering and an optional built-in relay. [⚡ zap](https://nostr.net/grant/?zap=jure@getalby.com)",
+       "description": "A client for Linux, Windows and macOS (Tauri + React), with long-form writing and reading (NIP-23), V4V podcast streaming, WoT filtering and an optional built-in relay.",
        "repo": "hoornet/vega",
        "forge": "github",
        "stars": 10,
        "last_active": "2026-09-01T21:02:54Z",
+       "zap": "https://nostr.net/grant/?zap=jure@getalby.com",
        "children": [
         {
          "name": "veganostr.com",
@@ -1807,16 +1838,6 @@
          "description": ""
         }
        ],
-       "sort_strategy": "hybrid"
-      },
-      {
-       "name": "Plaza",
-       "url": "https://github.com/zig-nostr/plaza",
-       "description": "A fast, local-first Nostr client for macOS, built natively in Zig. Guest-first, with a built-in isolated signer. (In development.)",
-       "repo": "zig-nostr/plaza",
-       "forge": "github",
-       "stars": 8,
-       "last_active": "2026-09-01T20:40:57Z",
        "sort_strategy": "hybrid"
       },
       {
@@ -1872,11 +1893,12 @@
       {
        "name": "Zap Cooking",
        "url": "https://zap.cooking/",
-       "description": "Nostr's only recipe-sharing client. A place where food culture can live openly and grow naturally. [⚡ zap](https://nostr.net/grant/?zap=zapcooking@sats.zap.cooking)",
+       "description": "Nostr's only recipe-sharing client. A place where food culture can live openly and grow naturally.",
        "repo": "zapcooking/frontend",
        "forge": "github",
        "stars": 10,
        "last_active": "2026-08-31T22:06:35Z",
+       "zap": "https://nostr.net/grant/?zap=zapcooking@sats.zap.cooking",
        "sort_strategy": "hybrid"
       },
       {
@@ -1946,11 +1968,12 @@
       {
        "name": "Jumble",
        "url": "https://github.com/CodyTseng/jumble",
-       "description": "A web client focused on browsing relay feeds [⚡ zap](https://nostr.net/grant/?zap=codytseng@getalby.com)",
+       "description": "A web client focused on browsing relay feeds",
        "repo": "CodyTseng/jumble",
        "forge": "github",
        "stars": 217,
        "last_active": "2026-08-31T13:58:35Z",
+       "zap": "https://nostr.net/grant/?zap=codytseng@getalby.com",
        "children": [
         {
          "name": "jumble.social",
@@ -2032,11 +2055,12 @@
       {
        "name": "noStrudel",
        "url": "https://github.com/hzrd149/nostrudel",
-       "description": "hzrd149's personal nostr client. [⚡ zap](https://nostr.net/grant/?zap=nostrudel@npub.cash)",
+       "description": "hzrd149's personal nostr client.",
        "repo": "hzrd149/nostrudel",
        "forge": "github",
        "stars": 220,
        "last_active": "2026-08-29T15:59:13Z",
+       "zap": "https://nostr.net/grant/?zap=nostrudel@npub.cash",
        "children": [
         {
          "name": "nostrudel.ninja",
@@ -2183,11 +2207,12 @@
       {
        "name": "Nuxstr",
        "url": "https://github.com/sebastix/nuxstr",
-       "description": "Starter template for building a Nostr client with the Nuxt Vue framework and Nostr Dev Kit (NDK). [⚡ zap](https://nostr.net/grant/?zap=sebastian@lnd.sebastix.com)",
+       "description": "Starter template for building a Nostr client with the Nuxt Vue framework and Nostr Dev Kit (NDK).",
        "repo": "sebastix/nuxstr",
        "forge": "github",
        "stars": 18,
        "last_active": "2026-08-13T10:45:50Z",
+       "zap": "https://nostr.net/grant/?zap=sebastian@lnd.sebastix.com",
        "children": [
         {
          "name": "nuxstr.nostrver.se",
@@ -2813,11 +2838,12 @@
       {
        "name": "Nos",
        "url": "https://github.com/planetary-social/nos",
-       "description": "A UX-focused iOS / MacOS native app focused on a polished new user experience. [planetary.social](https://planetary.social) [⚡ zap](https://nostr.net/grant/?zap=strongsnail1@primal.net)",
+       "description": "A UX-focused iOS / MacOS native app focused on a polished new user experience. [planetary.social](https://planetary.social)",
        "repo": "planetary-social/nos",
        "forge": "github",
        "stars": 149,
        "last_active": "2025-07-24T22:55:35Z",
+       "zap": "https://nostr.net/grant/?zap=strongsnail1@primal.net",
        "sort_strategy": "hybrid"
       },
       {
@@ -3702,7 +3728,8 @@
       {
        "name": "Nostur",
        "url": "https://nostur.com",
-       "description": "Nostr client app for iOS and MacOS. ([Apple Store link](https://apps.apple.com/us/app/nostur/id1672780508)) [⚡ zap](https://nostr.net/grant/?zap=weathereddarkness25@getalby.com)",
+       "description": "Nostr client app for iOS and MacOS. ([Apple Store link](https://apps.apple.com/us/app/nostur/id1672780508))",
+       "zap": "https://nostr.net/grant/?zap=weathereddarkness25@getalby.com",
        "sort_strategy": "hybrid"
       },
       {
@@ -3859,11 +3886,12 @@
       {
        "name": "Mostro Mobile",
        "url": "https://github.com/MostroP2P/mobile",
-       "description": "Mobile client for the Mostro P2P exchange platform. [⚡ zap](https://nostr.net/grant/?zap=mostro_p2p@sats.mobi)",
+       "description": "Mobile client for the Mostro P2P exchange platform.",
        "repo": "MostroP2P/mobile",
        "forge": "github",
        "stars": 75,
        "last_active": "2026-09-02T03:26:39Z",
+       "zap": "https://nostr.net/grant/?zap=mostro_p2p@sats.mobi",
        "sort_strategy": "hybrid"
       },
       {
@@ -4070,7 +4098,17 @@
      "repo": "relaystr/ndk",
      "forge": "github",
      "stars": 27,
-     "last_active": "2026-09-02T09:25:13Z",
+     "last_active": "2026-09-02T11:36:21Z",
+     "sort_strategy": "hybrid"
+    },
+    {
+     "name": "nostr",
+     "url": "https://github.com/ClarkQAQ/nostr",
+     "description": "A comprehensive Go library for the Nostr protocol, providing everything needed to build relays, clients, or hybrid applications",
+     "repo": "ClarkQAQ/nostr",
+     "forge": "github",
+     "stars": 1,
+     "last_active": "2026-09-02T10:51:18Z",
      "sort_strategy": "hybrid"
     },
     {
@@ -4304,16 +4342,6 @@
      "sort_strategy": "hybrid"
     },
     {
-     "name": "nostr",
-     "url": "https://github.com/ClarkQAQ/nostr",
-     "description": "A comprehensive Go library for the Nostr protocol, providing everything needed to build relays, clients, or hybrid applications",
-     "repo": "ClarkQAQ/nostr",
-     "forge": "github",
-     "stars": 1,
-     "last_active": "2026-08-05T19:58:27Z",
-     "sort_strategy": "hybrid"
-    },
-    {
      "name": "libnostr-c",
      "url": "https://github.com/privkeyio/libnostr-c",
      "description": "A lightweight C library implementing the Nostr protocol with NIP-44 encryption and Lightning support, optimized for embedded systems like ESP32.",
@@ -4356,11 +4384,12 @@
     {
      "name": "noscrypt",
      "url": "https://github.com/vnuge/noscrypt",
-     "description": "A C89 library for nostr specific cryptography operations. [⚡ zap](https://nostr.net/grant/?zap=chiptuner@coinos.io)",
+     "description": "A C89 library for nostr specific cryptography operations.",
      "repo": "vnuge/noscrypt",
      "forge": "github",
      "stars": 16,
      "last_active": "2026-06-29T17:54:09Z",
+     "zap": "https://nostr.net/grant/?zap=chiptuner@coinos.io",
      "sort_strategy": "hybrid"
     },
     {
@@ -4558,11 +4587,12 @@
     {
      "name": "nostr-hooks",
      "url": "https://github.com/ostyjs/nostr-hooks",
-     "description": "React hooks for developing Nostr clients. It's simple and intelligent. [⚡ zap](https://nostr.net/grant/?zap=sepehr@getalby.com)",
+     "description": "React hooks for developing Nostr clients. It's simple and intelligent.",
      "repo": "ostyjs/nostr-hooks",
      "forge": "github",
      "stars": 56,
      "last_active": "2025-03-06T12:23:48Z",
+     "zap": "https://nostr.net/grant/?zap=sepehr@getalby.com",
      "sort_strategy": "hybrid"
     },
     {
@@ -4953,7 +4983,7 @@
      "repo": "spacecowboy/Feeder",
      "forge": "github",
      "stars": 3001,
-     "last_active": "2026-08-30T05:50:38Z",
+     "last_active": "2026-09-02T11:41:55Z",
      "sort_strategy": "hybrid"
     },
     {
@@ -4982,7 +5012,7 @@
      "description": "A programmable AI agent runtime that federates peers over Nostr relays (as a fallback P2P transport for LAN, Bluetooth and WebRTC).",
      "repo": "steve02081504/fount",
      "forge": "github",
-     "stars": 705,
+     "stars": 704,
      "last_active": "2026-09-02T05:36:40Z",
      "sort_strategy": "hybrid"
     },
@@ -5004,13 +5034,24 @@
      "sort_strategy": "hybrid"
     },
     {
+     "name": "nostr-components",
+     "url": "https://github.com/saiy2k/nostr-components",
+     "description": "Nostr Components makes it easy to embed Nostr profiles, posts, follow buttons, Live chat box, comment section, DM buttons in any website",
+     "repo": "saiy2k/nostr-components",
+     "forge": "github",
+     "stars": 26,
+     "last_active": "2026-09-02T11:25:56Z",
+     "sort_strategy": "hybrid"
+    },
+    {
      "name": "toll-booth",
      "url": "https://github.com/forgesworn/toll-booth",
-     "description": "HTTP 402 payment middleware with NWC backend and Cashu support. Companion tools: toll-booth-announce (kind 31402 service discovery), toll-booth-dvm (NIP-90 DVM bridge), 402-mcp (AI agent L402 client). [⚡ zap](https://nostr.net/grant/?zap=profusemeat89@walletofsatoshi.com)",
+     "description": "HTTP 402 payment middleware with NWC backend and Cashu support. Companion tools: toll-booth-announce (kind 31402 service discovery), toll-booth-dvm (NIP-90 DVM bridge), 402-mcp (AI agent L402 client).",
      "repo": "forgesworn/toll-booth",
      "forge": "github",
      "stars": 2,
      "last_active": "2026-09-02T10:02:25Z",
+     "zap": "https://nostr.net/grant/?zap=profusemeat89@walletofsatoshi.com",
      "sort_strategy": "hybrid"
     },
     {
@@ -5116,11 +5157,12 @@
     {
      "name": "NostrComments",
      "url": "https://github.com/briskness-byte/NostrComments",
-     "description": "Browser extension adding a comment thread to any web page, stored on relays rather than on the site being discussed, so the page owner cannot remove it. Chrome, Firefox and userscript. [⚡ zap](https://nostr.net/grant/?zap=slurpnc@coinos.io)",
+     "description": "Browser extension adding a comment thread to any web page, stored on relays rather than on the site being discussed, so the page owner cannot remove it. Chrome, Firefox and userscript.",
      "repo": "briskness-byte/NostrComments",
      "forge": "github",
      "stars": 1,
      "last_active": "2026-08-19T07:54:52Z",
+     "zap": "https://nostr.net/grant/?zap=slurpnc@coinos.io",
      "sort_strategy": "hybrid"
     },
     {
@@ -5141,16 +5183,6 @@
      "forge": "github",
      "stars": 2,
      "last_active": "2026-08-18T01:53:25Z",
-     "sort_strategy": "hybrid"
-    },
-    {
-     "name": "nostr-components",
-     "url": "https://github.com/saiy2k/nostr-components",
-     "description": "Nostr Components makes it easy to embed Nostr profiles, posts, follow buttons, Live chat box, comment section, DM buttons in any website",
-     "repo": "saiy2k/nostr-components",
-     "forge": "github",
-     "stars": 26,
-     "last_active": "2026-08-14T20:41:06Z",
      "sort_strategy": "hybrid"
     },
     {
@@ -5458,11 +5490,12 @@
     {
      "name": "nostress",
      "url": "https://github.com/4383/nostress",
-     "description": "⚡ Modern Python CLI for Nostr protocol interactions - secure key management, event creation, and relay operations [⚡ zap](https://nostr.net/grant/?zap=hberaud@nostrcheck.me)",
+     "description": "⚡ Modern Python CLI for Nostr protocol interactions - secure key management, event creation, and relay operations",
      "repo": "4383/nostress",
      "forge": "github",
      "stars": 4,
      "last_active": "2026-01-27T16:45:56Z",
+     "zap": "https://nostr.net/grant/?zap=hberaud@nostrcheck.me",
      "sort_strategy": "hybrid"
     },
     {
@@ -5568,11 +5601,12 @@
     {
      "name": "Obsidian Nostr Writer",
      "url": "https://github.com/jamesmagoo/nostr-writer#readme",
-     "description": "A free Obsidian plugin that allows writers to seamlessly publish to Nostr [⚡ zap](https://nostr.net/grant/?zap=magoo@getalby.com)",
+     "description": "A free Obsidian plugin that allows writers to seamlessly publish to Nostr",
      "repo": "jamesmagoo/nostr-writer",
      "forge": "github",
      "stars": 92,
      "last_active": "2025-08-07T21:42:24Z",
+     "zap": "https://nostr.net/grant/?zap=magoo@getalby.com",
      "sort_strategy": "hybrid"
     },
     {
@@ -5982,11 +6016,12 @@
     {
      "name": "cafe-society.news",
      "url": "https://github.com/colealbon/cafe-society",
-     "description": "Self-sovereign machine learning training tool for nostr global feed. Trained models can be monetized/distributed over nostr private messages. Your pre-paid model subscribers register via lightning payments. [⚡ zap](https://nostr.net/grant/?zap=cafe@getalby.com)",
+     "description": "Self-sovereign machine learning training tool for nostr global feed. Trained models can be monetized/distributed over nostr private messages. Your pre-paid model subscribers register via lightning payments.",
      "repo": "colealbon/cafe-society",
      "forge": "github",
      "stars": 2,
      "last_active": "2023-10-10T16:55:13Z",
+     "zap": "https://nostr.net/grant/?zap=cafe@getalby.com",
      "sort_strategy": "hybrid"
     },
     {
@@ -6339,7 +6374,8 @@
     {
      "name": "NIP-99 Listing Preflight",
      "url": "https://softpeanut.github.io/shopstr-listing-benchmark/",
-     "description": "Checks classified-listing JSON locally for common metadata and accidental contact or location exposure. [⚡ zap](https://nostr.net/grant/?zap=softpeanut@stacker.news)",
+     "description": "Checks classified-listing JSON locally for common metadata and accidental contact or location exposure.",
+     "zap": "https://nostr.net/grant/?zap=softpeanut@stacker.news",
      "sort_strategy": "hybrid"
     },
     {
@@ -6687,7 +6723,8 @@
     {
      "name": "nostrcheck.me",
      "url": "https://nostrcheck.me/",
-     "description": "A free NIP-05 ID (nostr address) registration service, lightning redirection and media uploads. [⚡ zap](https://nostr.net/grant/?zap=public@nostrcheck.me)",
+     "description": "A free NIP-05 ID (nostr address) registration service, lightning redirection and media uploads.",
+     "zap": "https://nostr.net/grant/?zap=public@nostrcheck.me",
      "sort_strategy": "hybrid"
     },
     {
@@ -6729,7 +6766,8 @@
     {
      "name": "hunos.hu",
      "url": "https://hunos.hu",
-     "description": "Free NIP-05 identity for the Hungarian community. [⚡ zap](https://nostr.net/grant/?zap=hunosrelay@minibits.cash)",
+     "description": "Free NIP-05 identity for the Hungarian community.",
+     "zap": "https://nostr.net/grant/?zap=hunosrelay@minibits.cash",
      "sort_strategy": "hybrid"
     },
     {
@@ -7144,7 +7182,7 @@
      "repo": "onekeyhq/app-monorepo",
      "forge": "github",
      "stars": 2432,
-     "last_active": "2026-09-02T10:13:28Z",
+     "last_active": "2026-09-02T11:38:45Z",
      "sort_strategy": "hybrid"
     },
     {
@@ -7397,7 +7435,7 @@
      "repo": "SnowCait/nostter",
      "forge": "github",
      "stars": 180,
-     "last_active": "2026-09-02T08:16:43Z",
+     "last_active": "2026-09-02T11:21:25Z",
      "sort_strategy": "hybrid"
     },
     {
@@ -7602,11 +7640,12 @@
     {
      "name": "ZeusLN",
      "url": "https://github.com/ZeusLN/zeus",
-     "description": "A mobile Bitcoin/Lightning app for LND, Core Lightning, and Eclair node operators [⚡ zap](https://nostr.net/grant/?zap=tips@pay.zeusln.app)",
+     "description": "A mobile Bitcoin/Lightning app for LND, Core Lightning, and Eclair node operators",
      "repo": "ZeusLN/zeus",
      "forge": "github",
      "stars": 1399,
-     "last_active": "2026-09-02T03:12:30Z",
+     "last_active": "2026-09-02T11:06:07Z",
+     "zap": "https://nostr.net/grant/?zap=tips@pay.zeusln.app",
      "sort_strategy": "hybrid"
     },
     {
@@ -7935,7 +7974,8 @@
     {
      "name": "nostr.build",
      "url": "https://nostr.build",
-     "description": "[⚡ zap](https://nostr.net/grant/?zap=nostrbob@primal.net)",
+     "description": "",
+     "zap": "https://nostr.net/grant/?zap=nostrbob@primal.net",
      "sort_strategy": "hybrid"
     },
     {
@@ -7953,7 +7993,8 @@
     {
      "name": "NostrMedia.com",
      "url": "https://nostrmedia.com",
-     "description": "[⚡ zap](https://nostr.net/grant/?zap=b0cc79@wallet.yakihonne.com)",
+     "description": "",
+     "zap": "https://nostr.net/grant/?zap=b0cc79@wallet.yakihonne.com",
      "sort_strategy": "hybrid"
     },
     {
@@ -8672,7 +8713,8 @@
     {
      "name": "Zaplife",
      "url": "https://zaplife.lol",
-     "description": "Real-time feed for nostr zaps. The best tool to shut up the \"lightning doesn't work\" people. [⚡ zap](https://nostr.net/grant/?zap=pablof7z@primal.net)",
+     "description": "Real-time feed for nostr zaps. The best tool to shut up the \"lightning doesn't work\" people.",
+     "zap": "https://nostr.net/grant/?zap=pablof7z@primal.net",
      "sort_strategy": "hybrid"
     },
     {
@@ -8856,7 +8898,8 @@
     {
      "name": "Plebstr",
      "url": "https://plebstr.com",
-     "description": "Nostr client Reimagined, the most beautiful Twitter-like nostr client for iOS & Android. [⚡ zap](https://nostr.net/grant/?zap=passivebit94@walletofsatoshi.com)",
+     "description": "Nostr client Reimagined, the most beautiful Twitter-like nostr client for iOS & Android.",
+     "zap": "https://nostr.net/grant/?zap=passivebit94@walletofsatoshi.com",
      "sort_strategy": "manual"
     },
     {
