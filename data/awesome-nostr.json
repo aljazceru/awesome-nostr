@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "generated_at": "2026-09-02T12:02:59Z",
+  "generated_at": "2026-09-02T12:12:41Z",
   "source": "README.md",
   "sort_strategy": "hybrid",
   "counts": {
@@ -382,7 +382,7 @@
        "name": "Notra",
        "url": "https://github.com/lontivero/Nostra",
        "description": "F# implementation backed by SQLite database.",
-       "repo": "lontivero/nostra",
+       "repo": "lontivero/Nostra",
        "forge": "github",
        "stars": 23,
        "last_active": "2026-08-26T17:43:16Z",
@@ -1142,10 +1142,10 @@
          "name": "keychat-relay-ext",
          "url": "https://github.com/keychat-io/keychat-relay-ext",
          "description": "Enable cashu ecash payments per message by grpc authorization server",
-         "repo": "keychat-io/keychat-relay-ex",
+         "repo": "keychat-io/keychat-relay-ext",
          "forge": "github",
-         "stars": null,
-         "last_active": null
+         "stars": 2,
+         "last_active": "2025-12-30T03:57:17Z"
         }
        ],
        "sort_strategy": "hybrid"
@@ -1349,7 +1349,7 @@
        "repo": "divinevideo/divine-mobile",
        "forge": "github",
        "stars": 264,
-       "last_active": "2026-09-02T11:31:12Z",
+       "last_active": "2026-09-02T11:58:08Z",
        "sort_strategy": "hybrid"
       },
       {
@@ -1669,8 +1669,8 @@
        "description": "Workspace where AI agents and humans collaborate on their own relay.",
        "repo": "block/buzz",
        "forge": "github",
-       "stars": 31915,
-       "last_active": "2026-09-02T11:31:54Z",
+       "stars": 31919,
+       "last_active": "2026-09-02T11:48:09Z",
        "sort_strategy": "hybrid"
       },
       {
@@ -1679,8 +1679,8 @@
        "description": "Group chat client by Block.",
        "repo": "block/sprout",
        "forge": "github",
-       "stars": 31915,
-       "last_active": "2026-09-02T11:31:54Z",
+       "stars": 31919,
+       "last_active": "2026-09-02T11:48:09Z",
        "sort_strategy": "hybrid"
       },
       {
@@ -1742,7 +1742,7 @@
        "repo": "SnowCait/nostter",
        "forge": "github",
        "stars": 180,
-       "last_active": "2026-09-02T11:21:25Z",
+       "last_active": "2026-09-02T11:56:27Z",
        "sort_strategy": "hybrid"
       },
       {
@@ -2504,7 +2504,7 @@
        "name": "danmakustr",
        "url": "https://github.com/CodyTseng/danmakustr",
        "description": "a chrome extension allowing users to send special comments (弹幕, danmaku) on YouTube and display them above the video.",
-       "repo": "codytseng/danmakustr",
+       "repo": "CodyTseng/danmakustr",
        "forge": "github",
        "stars": 48,
        "last_active": "2026-04-30T10:29:02Z",
@@ -2847,23 +2847,6 @@
        "sort_strategy": "hybrid"
       },
       {
-       "name": "Swarmstr",
-       "url": "https://github.com/ptrio42/swarmstr.com",
-       "description": "Your knowledge hub for curious minds",
-       "repo": "verbiricha/habla.news",
-       "forge": "github",
-       "stars": 61,
-       "last_active": "2025-07-17T18:39:05Z",
-       "children": [
-        {
-         "name": "Swarmstr",
-         "url": "https://swarmstr.com",
-         "description": "live instance"
-        }
-       ],
-       "sort_strategy": "hybrid"
-      },
-      {
        "name": "Pokey",
        "url": "https://github.com/KoalaSat/Pokey",
        "description": "Nostr \"Pull Notifications\" on Android",
@@ -2958,7 +2941,7 @@
        "name": "Anonostr",
        "url": "https://github.com/Spl0itable/Anonostr",
        "description": "Anonostr allows users to send anonymous notes to the Nostr network without revealing their identity. For each note submission, the app generates a new key pair, sends the note through select relays, and then securely burns the key pair. It supports tagging, threading, quoting, and replying to existing notes.",
-       "repo": "Spl0itable/anonostr",
+       "repo": "Spl0itable/Anonostr",
        "forge": "github",
        "stars": 19,
        "last_active": "2025-04-27T04:45:31Z",
@@ -3083,6 +3066,23 @@
         {
          "name": "member.cash",
          "url": "https://member.cash/",
+         "description": "live instance"
+        }
+       ],
+       "sort_strategy": "hybrid"
+      },
+      {
+       "name": "Swarmstr",
+       "url": "https://github.com/ptrio42/swarmstr.com",
+       "description": "Your knowledge hub for curious minds",
+       "repo": "ptrio42/swarmstr.com",
+       "forge": "github",
+       "stars": 14,
+       "last_active": "2024-08-28T01:28:00Z",
+       "children": [
+        {
+         "name": "Swarmstr",
+         "url": "https://swarmstr.com",
          "description": "live instance"
         }
        ],
@@ -4235,7 +4235,7 @@
      "name": "Nostra",
      "url": "https://github.com/lontivero/Nostra",
      "description": "a F# library, available as a NuGet package, for interacting with relays. Nostra relay is built on top of it too.",
-     "repo": "lontivero/nostra",
+     "repo": "lontivero/Nostra",
      "forge": "github",
      "stars": 23,
      "last_active": "2026-08-26T17:43:16Z",
@@ -4403,6 +4403,16 @@
      "sort_strategy": "hybrid"
     },
     {
+     "name": "sonos",
+     "url": "https://github.com/bvcxza/sonos",
+     "description": "C++ library and command line tool for Nostr",
+     "repo": "bvcxza/sonos",
+     "forge": "github",
+     "stars": 1,
+     "last_active": "2026-05-18T18:04:51Z",
+     "sort_strategy": "hybrid"
+    },
+    {
      "name": "nostr-development-kit - NDK",
      "url": "https://github.com/nostr-dev-kit/ndk",
      "description": "NDK is a nostr development kit that makes the experience of building Nostr-related applications, whether they are relays, clients, or anything in between, better, more reliable.",
@@ -4546,16 +4556,6 @@
      "name": "nostrclient",
      "url": "https://github.com/duozhutuan/nostrclient",
      "description": "Nostr python client library",
-     "repo": "duozhutuan/nostrclient",
-     "forge": "github",
-     "stars": 4,
-     "last_active": "2025-05-23T05:35:08Z",
-     "sort_strategy": "hybrid"
-    },
-    {
-     "name": "sonos",
-     "url": "https://github.com/bvcxza/sonos",
-     "description": "C++ library and command line tool for Nostr",
      "repo": "duozhutuan/nostrclient",
      "forge": "github",
      "stars": 4,
@@ -5522,7 +5522,7 @@
      "name": "Bloom",
      "url": "https://github.com/Letdown2491/bloom",
      "description": "A file‑manager interface (edit metadata, share items, create shareable folders) for files and blobs stored on Blossom and NIP‑96 servers.",
-     "repo": "letdown2491/bloom",
+     "repo": "Letdown2491/bloom",
      "forge": "github",
      "stars": 14,
      "last_active": "2025-12-30T08:17:50Z",
@@ -5770,7 +5770,7 @@
      "name": "TaskQ5",
      "url": "https://github.com/duozhutuan/Taskq5",
      "description": "TaskQ5 is a task distribution platform built on nostr where you can post tasks if you need help",
-     "repo": "duozhutuan/TaskQ5",
+     "repo": "duozhutuan/Taskq5",
      "forge": "github",
      "stars": 2,
      "last_active": "2024-12-08T09:31:56Z",
@@ -7110,23 +7110,23 @@
    "sort_strategy": "hybrid",
    "items": [
     {
-     "name": "mostro",
-     "url": "https://github.com/MostroP2P/mostro",
-     "description": "Daemon for Lightning Network peer-to-peer exchange platform on Nostr (WIP)",
-     "repo": "MostroP2P/mostro",
-     "forge": "github",
-     "stars": 326,
-     "last_active": "2026-09-02T05:22:24Z",
-     "sort_strategy": "hybrid"
-    },
-    {
      "name": "mostro-cli",
      "url": "https://github.com/MostroP2P/mostro-cli",
      "description": "CLI client to operate with Mostro (WIP)",
      "repo": "MostroP2P/mostro-cli",
      "forge": "github",
      "stars": 37,
-     "last_active": "2026-09-02T04:10:03Z",
+     "last_active": "2026-09-02T12:08:21Z",
+     "sort_strategy": "hybrid"
+    },
+    {
+     "name": "mostro",
+     "url": "https://github.com/MostroP2P/mostro",
+     "description": "Daemon for Lightning Network peer-to-peer exchange platform on Nostr (WIP)",
+     "repo": "MostroP2P/mostro",
+     "forge": "github",
+     "stars": 326,
+     "last_active": "2026-09-02T12:07:34Z",
      "sort_strategy": "hybrid"
     },
     {
@@ -7182,7 +7182,7 @@
      "repo": "onekeyhq/app-monorepo",
      "forge": "github",
      "stars": 2432,
-     "last_active": "2026-09-02T11:38:45Z",
+     "last_active": "2026-09-02T12:12:09Z",
      "sort_strategy": "hybrid"
     },
     {
@@ -7435,7 +7435,7 @@
      "repo": "SnowCait/nostter",
      "forge": "github",
      "stars": 180,
-     "last_active": "2026-09-02T11:21:25Z",
+     "last_active": "2026-09-02T11:56:27Z",
      "sort_strategy": "hybrid"
     },
     {

@@ -183,9 +183,13 @@ def parse_item_line(line: str) -> dict | None:
     description = LEADING_DASH_RE.sub("", description.strip(), count=1).strip()
     description = re.sub(r"\s{2,}", " ", description)
 
-    repo, forge = extract_repo_from_badge(badge_url or "")
+    # the entry's own repo: the primary link is authoritative when it already
+    # points at a forge repo (badges are sometimes truncated/stale, e.g.
+    # keychat-relay-ex vs keychat-relay-ext); fall back to the badge for
+    # entries whose primary link is a website
+    repo, forge = extract_repo_from_url(url)
     if not repo:
-        repo, forge = extract_repo_from_url(url)
+        repo, forge = extract_repo_from_badge(badge_url or "")
 
     return {
         "indent": len(m.group(1)),
@@ -552,6 +556,25 @@ def attach_children(doc: dict) -> None:
                         block.item["children"].append(child)
 
 
+def collect_repos(doc: dict) -> dict:
+    """Map ``forge:repo`` keys to (repo, forge) for every resolvable entry.
+
+    Children are collected even when their parent has no repository (e.g. a
+    sr.ht parent with a GitHub sub-entry).
+    """
+    pending: dict = {}
+    for section in doc["sections"]:
+        for owner in section.all_blocks():
+            for block in owner.blocks:
+                if block.item is None:
+                    continue
+                for item in [block.item, *block.item["children"]]:
+                    if not item["repo"] or not item["forge"]:
+                        continue
+                    pending[f"{item['forge']}:{item['repo']}"] = (item["repo"], item["forge"])
+    return pending
+
+
 def main(argv=None) -> int:
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     parser.add_argument("--readme", default="README.md")
@@ -563,7 +586,8 @@ def main(argv=None) -> int:
     parser.add_argument("--check", action="store_true", help="exit 1 if README is stale")
     args = parser.parse_args(argv)
 
-    repo_root = Path(args.readme).resolve().parent
+    readme_path = Path(args.readme).resolve()
+    repo_root = readme_path.parent
     cfg = load_config(repo_root / args.config)
     if args.strategy:
         cfg["strategy"] = args.strategy
@@ -572,7 +596,6 @@ def main(argv=None) -> int:
             f"unknown strategy {cfg['strategy']!r}; valid: {', '.join(sorted(VALID_STRATEGIES))}"
         )
 
-    readme_path = repo_root / args.readme
     original = readme_path.read_text(encoding="utf-8")
     doc = parse_readme(original)
     attach_children(doc)
@@ -584,18 +607,7 @@ def main(argv=None) -> int:
         cache.setdefault("repos", {})
 
     if not args.no_fetch and not args.check:
-        pending = {}
-        for section in doc["sections"]:
-            for owner in section.all_blocks():
-                for block in owner.blocks:
-                    if block.item is None or not block.item["repo"]:
-                        continue
-                    for item in [block.item, *block.item["children"]]:
-                        if not item["repo"]:
-                            continue
-                        key = f"{item['forge']}:{item['repo']}"
-                        pending[key] = (item["repo"], item["forge"])
-        pending = {k: v for k, v in pending.items() if v[0] and v[1]}
+        pending = collect_repos(doc)
         known = {k for k in pending if k in cache["repos"]}
         print(f"fetching metadata for {len(pending)} repos "
               f"({len(pending) - len(known)} new, {len(known)} cached)")

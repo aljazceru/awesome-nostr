@@ -1,492 +1,507 @@
 {
  "repos": {
   "codeberg:Enkisu/torrent-gateway": {
-   "fetched_at": "2026-09-02T11:42:13Z",
+   "fetched_at": "2026-09-02T12:11:57Z",
    "last_active": "2026-01-05T06:12:13+01:00",
    "stars": 1
   },
   "codeberg:Tuxor/NostrBotKit": {
-   "fetched_at": "2026-09-02T11:42:21Z",
+   "fetched_at": "2026-09-02T12:12:08Z",
    "last_active": "2026-08-27T03:11:07+02:00",
    "stars": 0
   },
   "codeberg:Zsub/rebased": {
-   "fetched_at": "2026-09-02T11:42:13Z",
+   "fetched_at": "2026-09-02T12:11:56Z",
    "last_active": "2026-01-24T02:04:11+01:00",
    "stars": 4
   },
   "codeberg:alex0jsan/noclvag": {
-   "fetched_at": "2026-09-02T11:42:37Z",
+   "fetched_at": "2026-09-02T12:12:32Z",
    "last_active": "2025-10-01T11:43:36+02:00",
    "stars": 1
   },
   "codeberg:dluvian/gitplaza": {
-   "fetched_at": "2026-09-02T11:42:13Z",
+   "fetched_at": "2026-09-02T12:11:55Z",
    "last_active": "2026-02-18T05:00:50+01:00",
    "stars": 12
   },
   "codeberg:pluja/nerostr": {
-   "fetched_at": "2026-09-02T11:42:03Z",
+   "fetched_at": "2026-09-02T12:11:42Z",
    "last_active": "2024-12-03T05:33:26+01:00",
    "stars": 14
   },
   "codeberg:rsbondi/nostr-launch": {
-   "fetched_at": "2026-09-02T11:42:31Z",
+   "fetched_at": "2026-09-02T12:12:24Z",
    "last_active": "2024-12-03T05:12:50+01:00",
    "stars": 0
   },
   "codeberg:rsbondi/nostr-registry": {
-   "fetched_at": "2026-09-02T11:42:31Z",
+   "fetched_at": "2026-09-02T12:12:23Z",
    "last_active": "2024-12-03T05:12:52+01:00",
    "stars": 2
   },
   "codeberg:zofie-archive/archive": {
-   "fetched_at": "2026-09-02T11:42:14Z",
+   "fetched_at": "2026-09-02T12:11:57Z",
    "last_active": "2025-12-11T21:49:01+01:00",
    "stars": 2
   },
   "github:00quasr/Shirushi": {
-   "fetched_at": "2026-09-02T11:42:01Z",
+   "fetched_at": "2026-09-02T12:11:40Z",
    "last_active": "2026-01-29T09:26:56Z",
    "stars": 0
   },
   "github:0ceanslim/badger": {
-   "fetched_at": "2026-09-02T11:42:16Z",
+   "fetched_at": "2026-09-02T12:11:59Z",
    "last_active": "2024-09-20T20:15:42Z",
    "stars": 0
   },
   "github:0ceanslim/grain": {
-   "fetched_at": "2026-09-02T11:42:00Z",
+   "fetched_at": "2026-09-02T12:11:39Z",
    "last_active": "2026-06-18T22:39:57Z",
    "stars": 51
   },
   "github:0n4t3/n_cord": {
-   "fetched_at": "2026-09-02T11:42:11Z",
+   "fetched_at": "2026-09-02T12:11:53Z",
    "last_active": "2026-07-13T17:20:13Z",
    "stars": 6
   },
   "github:0n4t3/nipy": {
-   "fetched_at": "2026-09-02T11:42:17Z",
+   "fetched_at": "2026-09-02T12:12:00Z",
    "last_active": "2024-05-06T01:15:25Z",
    "stars": 3
   },
   "github:0xchat-app/0xchat-core": {
-   "fetched_at": "2026-09-02T11:42:06Z",
+   "fetched_at": "2026-09-02T12:11:47Z",
    "last_active": "2026-03-03T08:46:08Z",
    "stars": 62
   },
   "github:0xli/beagle.chat": {
-   "fetched_at": "2026-09-02T11:42:11Z",
+   "fetched_at": "2026-09-02T12:11:53Z",
    "last_active": "2026-06-28T20:02:27Z",
    "stars": 30
   },
   "github:0xtlt/nostr_rust": {
-   "fetched_at": "2026-09-02T11:42:24Z",
+   "fetched_at": "2026-09-02T12:12:17Z",
    "last_active": "2023-02-15T16:30:29Z",
    "stars": 62
   },
   "github:0xtrr/chief": {
-   "fetched_at": "2026-09-02T11:42:31Z",
+   "fetched_at": "2026-09-02T12:12:24Z",
    "last_active": "2024-09-17T19:30:27Z",
    "stars": 17
   },
   "github:0xtrr/nostr-tool": {
-   "fetched_at": "2026-09-02T11:42:31Z",
+   "fetched_at": "2026-09-02T12:12:24Z",
    "last_active": "2024-09-22T17:07:08Z",
    "stars": 77
   },
   "github:4383/nostress": {
-   "fetched_at": "2026-09-02T11:42:28Z",
+   "fetched_at": "2026-09-02T12:12:21Z",
    "last_active": "2026-01-27T16:45:56Z",
    "stars": 4
   },
   "github:5t34k/nowhere": {
-   "fetched_at": "2026-09-02T11:42:28Z",
+   "fetched_at": "2026-09-02T12:12:18Z",
    "last_active": "2026-07-10T08:00:38Z",
    "stars": 127
   },
   "github:8go/matrix-nostr-bridge": {
-   "fetched_at": "2026-09-02T11:42:26Z",
+   "fetched_at": "2026-09-02T12:12:17Z",
    "last_active": "2022-12-15T12:58:28Z",
    "stars": 48
   },
   "github:8go/nostr-commander-rs": {
-   "fetched_at": "2026-09-02T11:42:31Z",
+   "fetched_at": "2026-09-02T12:12:24Z",
    "last_active": "2024-10-01T11:10:05Z",
    "stars": 79
   },
   "github:Anderson-Juhasc/nostrame": {
-   "fetched_at": "2026-09-02T11:42:28Z",
+   "fetched_at": "2026-09-02T12:12:19Z",
    "last_active": "2026-06-02T22:57:21Z",
    "stars": 17
   },
   "github:ArcadeCity/arcade": {
-   "fetched_at": "2026-09-02T11:42:43Z",
+   "fetched_at": "2026-09-02T12:12:41Z",
    "last_active": "2022-08-17T20:36:57Z",
    "stars": 20
   },
   "github:ArcadeCity/ndxstr": {
-   "fetched_at": "2026-09-02T11:42:34Z",
+   "fetched_at": "2026-09-02T12:12:28Z",
    "last_active": "2023-01-29T16:41:01Z",
    "stars": 22
   },
   "github:Aseman-Land/QNostr": {
-   "fetched_at": "2026-09-02T11:42:04Z",
+   "fetched_at": "2026-09-02T12:11:44Z",
    "last_active": "2023-07-24T13:48:25Z",
    "stars": 10
   },
   "github:Asone/nostrss": {
-   "fetched_at": "2026-09-02T11:42:26Z",
+   "fetched_at": "2026-09-02T12:12:17Z",
    "last_active": "2026-04-23T00:55:52Z",
    "stars": 37
   },
   "github:BEEBSDONE/MeShell_Nodejs": {
-   "fetched_at": "2026-09-02T11:42:16Z",
+   "fetched_at": "2026-09-02T12:11:59Z",
    "last_active": "2024-05-27T19:20:33Z",
    "stars": 6
   },
   "github:BitcreditProtocol/bcr-relay": {
-   "fetched_at": "2026-09-02T11:41:58Z",
+   "fetched_at": "2026-09-02T12:11:37Z",
    "last_active": "2026-09-02T11:06:46Z",
    "stars": 2
   },
   "github:BlockChainCaffe/Nostr-Relay-Setup-Guide": {
-   "fetched_at": "2026-09-02T11:42:43Z",
+   "fetched_at": "2026-09-02T12:12:41Z",
    "last_active": "2023-03-03T08:19:00Z",
    "stars": 113
   },
   "github:BoldBitcoinWallet/BoldWallet": {
-   "fetched_at": "2026-09-02T11:42:08Z",
+   "fetched_at": "2026-09-02T12:11:50Z",
    "last_active": "2026-08-31T19:57:29Z",
    "stars": 23
   },
   "github:BrightonBTC/bija": {
-   "fetched_at": "2026-09-02T11:42:43Z",
+   "fetched_at": "2026-09-02T12:12:41Z",
    "last_active": "2023-08-27T12:43:33Z",
    "stars": 67
   },
   "github:Cameri/nostr-fzf": {
-   "fetched_at": "2026-09-02T11:42:29Z",
+   "fetched_at": "2026-09-02T12:12:21Z",
    "last_active": "2025-10-26T20:35:08Z",
    "stars": 16
   },
   "github:Cameri/nostream": {
-   "fetched_at": "2026-09-02T11:41:58Z",
+   "fetched_at": "2026-09-02T12:11:37Z",
    "last_active": "2026-09-01T13:33:05Z",
    "stars": 825
   },
   "github:Cameri/nostrillery": {
-   "fetched_at": "2026-09-02T11:42:34Z",
+   "fetched_at": "2026-09-02T12:12:28Z",
    "last_active": "2022-09-16T03:34:31Z",
    "stars": 8
   },
   "github:Cameri/smtp-nostr-gateway": {
-   "fetched_at": "2026-09-02T11:42:26Z",
+   "fetched_at": "2026-09-02T12:12:17Z",
    "last_active": "2024-06-19T17:31:44Z",
    "stars": 40
   },
   "github:Catrya/Nostr-Events-Monitor": {
-   "fetched_at": "2026-09-02T11:42:28Z",
+   "fetched_at": "2026-09-02T12:12:19Z",
    "last_active": "2026-05-20T06:41:33Z",
    "stars": 4
   },
   "github:ClarkQAQ/nostr": {
-   "fetched_at": "2026-09-02T11:42:21Z",
+   "fetched_at": "2026-09-02T12:12:06Z",
    "last_active": "2026-09-02T10:51:18Z",
    "stars": 1
   },
+  "github:CodyTseng/danmakustr": {
+   "fetched_at": "2026-09-02T12:11:54Z",
+   "last_active": "2026-04-30T10:29:02Z",
+   "stars": 48
+  },
   "github:CodyTseng/jumble": {
-   "fetched_at": "2026-09-02T11:42:08Z",
+   "fetched_at": "2026-09-02T12:11:50Z",
    "last_active": "2026-08-31T13:58:35Z",
    "stars": 217
   },
   "github:CodyTseng/nostr-relay": {
-   "fetched_at": "2026-09-02T11:42:20Z",
+   "fetched_at": "2026-09-02T12:12:08Z",
    "last_active": "2026-08-30T08:03:39Z",
    "stars": 18
   },
   "github:CodyTseng/nostr-relay-nestjs": {
-   "fetched_at": "2026-09-02T11:42:02Z",
+   "fetched_at": "2026-09-02T12:11:42Z",
    "last_active": "2025-01-05T14:50:24Z",
    "stars": 56
   },
   "github:CodyTseng/nostr-relay-tray": {
-   "fetched_at": "2026-09-02T11:42:09Z",
+   "fetched_at": "2026-09-02T12:11:50Z",
    "last_active": "2026-08-30T07:58:41Z",
    "stars": 108
   },
   "github:DaBena/Brezn": {
-   "fetched_at": "2026-09-02T11:42:09Z",
+   "fetched_at": "2026-09-02T12:11:50Z",
    "last_active": "2026-08-29T19:18:06Z",
    "stars": 3
   },
   "github:DanConwayDev/gitworkshop": {
-   "fetched_at": "2026-09-02T11:42:11Z",
+   "fetched_at": "2026-09-02T12:11:53Z",
    "last_active": "2026-07-28T07:05:33Z",
    "stars": 17
   },
   "github:DanConwayDev/ngit-cli": {
-   "fetched_at": "2026-09-02T11:42:08Z",
+   "fetched_at": "2026-09-02T12:11:50Z",
    "last_active": "2026-09-01T10:29:09Z",
    "stars": 67
   },
   "github:DavidGershony/openChat": {
-   "fetched_at": "2026-09-02T11:42:07Z",
+   "fetched_at": "2026-09-02T12:11:49Z",
    "last_active": "2026-09-02T11:06:36Z",
    "stars": 3
   },
   "github:Dolu89/nodestr-relay": {
-   "fetched_at": "2026-09-02T11:42:43Z",
+   "fetched_at": "2026-09-02T12:12:41Z",
    "last_active": "2022-12-19T14:17:28Z",
    "stars": 35
   },
   "github:EthnTuttle/purser": {
-   "fetched_at": "2026-09-02T11:42:41Z",
+   "fetched_at": "2026-09-02T12:12:38Z",
    "last_active": "2026-05-07T01:49:41Z",
    "stars": 0
   },
   "github:Fabricio333/obelisk": {
-   "fetched_at": "2026-09-02T11:42:09Z",
+   "fetched_at": "2026-09-02T12:11:50Z",
    "last_active": "2026-08-31T02:06:41Z",
    "stars": 30
   },
   "github:Galaxoid-Labs/Seer": {
-   "fetched_at": "2026-09-02T11:42:15Z",
+   "fetched_at": "2026-09-02T12:11:58Z",
    "last_active": "2025-03-14T17:29:53Z",
    "stars": 9
   },
   "github:Giszmo/NostrPostr": {
-   "fetched_at": "2026-09-02T11:42:04Z",
+   "fetched_at": "2026-09-02T12:11:44Z",
    "last_active": "2023-10-13T18:26:45Z",
    "stars": 44
   },
   "github:Gruruya/nmostr": {
-   "fetched_at": "2026-09-02T11:42:24Z",
+   "fetched_at": "2026-09-02T12:12:17Z",
    "last_active": "2024-04-04T02:12:22Z",
    "stars": 13
   },
   "github:HORNET-Storage/HORNETS-Nostr-Relay": {
-   "fetched_at": "2026-09-02T11:41:59Z",
+   "fetched_at": "2026-09-02T12:11:38Z",
    "last_active": "2026-08-07T09:16:37Z",
    "stars": 39
   },
   "github:HiveTalk/swarm": {
-   "fetched_at": "2026-09-02T11:41:59Z",
+   "fetched_at": "2026-09-02T12:11:38Z",
    "last_active": "2026-08-06T20:09:22Z",
    "stars": 4
   },
   "github:Inforensics/osint-user-discovery": {
-   "fetched_at": "2026-09-02T11:42:31Z",
+   "fetched_at": "2026-09-02T12:12:24Z",
    "last_active": "2024-07-07T16:38:03Z",
    "stars": 15
   },
   "github:KiPSOFT/nostr-deno": {
-   "fetched_at": "2026-09-02T11:42:24Z",
+   "fetched_at": "2026-09-02T12:12:17Z",
    "last_active": "2023-02-05T02:57:21Z",
    "stars": 23
   },
   "github:KiPSOFT/nostr-nip05-service": {
-   "fetched_at": "2026-09-02T11:42:36Z",
+   "fetched_at": "2026-09-02T12:12:30Z",
    "last_active": "2023-12-23T21:35:03Z",
    "stars": 11
   },
   "github:KoalaSat/Pokey": {
-   "fetched_at": "2026-09-02T11:42:14Z",
+   "fetched_at": "2026-09-02T12:11:57Z",
    "last_active": "2025-07-08T14:09:25Z",
    "stars": 57
   },
   "github:KoalaSat/Samiz": {
-   "fetched_at": "2026-09-02T11:42:14Z",
+   "fetched_at": "2026-09-02T12:11:57Z",
    "last_active": "2025-08-11T15:25:20Z",
    "stars": 78
   },
   "github:KoalaSat/logseq-nostr-sync": {
-   "fetched_at": "2026-09-02T11:42:43Z",
+   "fetched_at": "2026-09-02T12:12:41Z",
    "last_active": "2025-07-30T14:23:35Z",
    "stars": 12
   },
   "github:KoalaSat/nostros": {
-   "fetched_at": "2026-09-02T11:42:15Z",
+   "fetched_at": "2026-09-02T12:11:58Z",
    "last_active": "2025-02-02T10:53:19Z",
    "stars": 410
   },
   "github:KoalaSat/p2pband": {
-   "fetched_at": "2026-09-02T11:42:13Z",
+   "fetched_at": "2026-09-02T12:11:55Z",
    "last_active": "2026-02-01T20:33:38Z",
    "stars": 16
   },
   "github:Kodylow/nostr-dvm-ts": {
-   "fetched_at": "2026-09-02T11:42:41Z",
+   "fetched_at": "2026-09-02T12:12:38Z",
    "last_active": "2023-07-28T19:18:00Z",
    "stars": 2
   },
   "github:KotlinGeekDev/Nosky": {
-   "fetched_at": "2026-09-02T11:42:15Z",
+   "fetched_at": "2026-09-02T12:11:58Z",
    "last_active": "2024-11-05T20:28:00Z",
    "stars": 88
   },
   "github:Kukks/NNostr": {
-   "fetched_at": "2026-09-02T11:41:59Z",
+   "fetched_at": "2026-09-02T12:11:38Z",
    "last_active": "2026-08-18T17:27:10Z",
    "stars": 133
   },
+  "github:Letdown2491/bloom": {
+   "fetched_at": "2026-09-02T12:12:21Z",
+   "last_active": "2025-12-30T08:17:50Z",
+   "stars": 14
+  },
   "github:Letdown2491/signet": {
-   "fetched_at": "2026-09-02T11:42:36Z",
+   "fetched_at": "2026-09-02T12:12:30Z",
    "last_active": "2026-06-29T04:24:22Z",
    "stars": 28
   },
   "github:LibertyFarmer/hamstr": {
-   "fetched_at": "2026-09-02T11:42:26Z",
+   "fetched_at": "2026-09-02T12:12:17Z",
    "last_active": "2026-08-31T23:27:26Z",
    "stars": 52
   },
   "github:LightningK0ala/nostr-wtf": {
-   "fetched_at": "2026-09-02T11:42:32Z",
+   "fetched_at": "2026-09-02T12:12:26Z",
    "last_active": "2023-06-06T02:31:26Z",
    "stars": 5
   },
   "github:Lokuyow/ehagaki": {
-   "fetched_at": "2026-09-02T11:42:26Z",
+   "fetched_at": "2026-09-02T12:12:17Z",
    "last_active": "2026-09-01T05:28:46Z",
    "stars": 14
   },
   "github:Mnpezz/bikel": {
-   "fetched_at": "2026-09-02T11:42:12Z",
+   "fetched_at": "2026-09-02T12:11:54Z",
    "last_active": "2026-04-05T18:10:27Z",
    "stars": 4
   },
   "github:Mnpezz/nostr-outbox-for-wordpress": {
-   "fetched_at": "2026-09-02T11:42:13Z",
+   "fetched_at": "2026-09-02T12:11:57Z",
    "last_active": "2026-01-05T03:25:18Z",
    "stars": 0
   },
   "github:MostroP2P/mobile": {
-   "fetched_at": "2026-09-02T11:42:18Z",
+   "fetched_at": "2026-09-02T12:12:03Z",
    "last_active": "2026-09-02T03:26:39Z",
    "stars": 75
   },
   "github:MostroP2P/mostro": {
-   "fetched_at": "2026-09-02T11:42:37Z",
-   "last_active": "2026-09-02T05:22:24Z",
+   "fetched_at": "2026-09-02T12:12:32Z",
+   "last_active": "2026-09-02T12:07:34Z",
    "stars": 326
   },
   "github:MostroP2P/mostro-cli": {
-   "fetched_at": "2026-09-02T11:42:37Z",
-   "last_active": "2026-09-02T04:10:03Z",
+   "fetched_at": "2026-09-02T12:12:32Z",
+   "last_active": "2026-09-02T12:08:21Z",
    "stars": 37
   },
   "github:MostroP2P/mostro-core": {
-   "fetched_at": "2026-09-02T11:42:20Z",
+   "fetched_at": "2026-09-02T12:12:07Z",
    "last_active": "2026-09-01T23:43:21Z",
    "stars": 10
   },
   "github:MutinyWallet/blastr": {
-   "fetched_at": "2026-09-02T11:42:04Z",
+   "fetched_at": "2026-09-02T12:11:43Z",
    "last_active": "2024-01-26T00:09:56Z",
    "stars": 155
   },
   "github:MutinyWallet/mutiny-node": {
-   "fetched_at": "2026-09-02T11:42:39Z",
+   "fetched_at": "2026-09-02T12:12:35Z",
    "last_active": "2024-08-31T18:22:16Z",
    "stars": 190
   },
   "github:Myzel394/locus": {
-   "fetched_at": "2026-09-02T11:42:16Z",
+   "fetched_at": "2026-09-02T12:11:59Z",
    "last_active": "2024-09-11T18:06:30Z",
    "stars": 223
   },
   "github:NostrDice/nostrdice": {
-   "fetched_at": "2026-09-02T11:42:43Z",
+   "fetched_at": "2026-09-02T12:12:41Z",
    "last_active": "2025-01-22T10:38:44Z",
    "stars": 12
   },
   "github:Nostrology/astro": {
-   "fetched_at": "2026-09-02T11:42:04Z",
+   "fetched_at": "2026-09-02T12:11:44Z",
    "last_active": "2023-02-21T11:37:01Z",
    "stars": 30
   },
   "github:PlebOne/Nostr-Feedz": {
-   "fetched_at": "2026-09-02T11:42:13Z",
+   "fetched_at": "2026-09-02T12:11:55Z",
    "last_active": "2026-01-28T19:42:24Z",
    "stars": 1
   },
   "github:PlebeianTech/plebeian-market": {
-   "fetched_at": "2026-09-02T11:42:19Z",
+   "fetched_at": "2026-09-02T12:12:05Z",
    "last_active": "2024-03-30T21:24:18Z",
    "stars": 88
   },
   "github:Pretty-Good-Freedom-Tech/graperank-nodejs": {
-   "fetched_at": "2026-09-02T11:42:41Z",
+   "fetched_at": "2026-09-02T12:12:38Z",
    "last_active": "2025-04-18T15:05:13Z",
    "stars": 11
   },
   "github:Pretty-Good-Freedom-Tech/grapevine-client": {
-   "fetched_at": "2026-09-02T11:42:41Z",
+   "fetched_at": "2026-09-02T12:12:38Z",
    "last_active": "2025-04-08T15:02:21Z",
    "stars": 1
   },
   "github:PrimalHQ/primal-caching-service": {
-   "fetched_at": "2026-09-02T11:42:26Z",
+   "fetched_at": "2026-09-02T12:12:17Z",
    "last_active": "2024-07-16T13:59:34Z",
    "stars": 84
   },
   "github:Quizzicarol/bro-app": {
-   "fetched_at": "2026-09-02T11:42:10Z",
+   "fetched_at": "2026-09-02T12:11:52Z",
    "last_active": "2026-08-12T13:52:13Z",
    "stars": 19
   },
   "github:RetricSu/pocket-wallet": {
-   "fetched_at": "2026-09-02T11:42:13Z",
+   "fetched_at": "2026-09-02T12:11:56Z",
    "last_active": "2026-01-20T23:17:44Z",
    "stars": 4
   },
   "github:SPcitydog/ogits-node": {
-   "fetched_at": "2026-09-02T11:42:43Z",
+   "fetched_at": "2026-09-02T12:12:41Z",
    "last_active": "2026-06-21T13:39:48Z",
    "stars": 0
   },
   "github:Sebastix/CCNS": {
-   "fetched_at": "2026-09-02T11:42:19Z",
+   "fetched_at": "2026-09-02T12:12:05Z",
    "last_active": "2026-07-10T12:33:16Z",
    "stars": 7
   },
   "github:ShadowySupercode/gc-alexandria": {
-   "fetched_at": "2026-09-02T11:42:11Z",
+   "fetched_at": "2026-09-02T12:11:53Z",
    "last_active": "2026-07-16T14:32:18Z",
    "stars": 15
   },
   "github:Shugur-Network/relay": {
-   "fetched_at": "2026-09-02T11:42:01Z",
+   "fetched_at": "2026-09-02T12:11:40Z",
    "last_active": "2026-02-02T09:50:06Z",
    "stars": 28
   },
   "github:SnowCait/nostr-json-generator": {
-   "fetched_at": "2026-09-02T11:42:32Z",
+   "fetched_at": "2026-09-02T12:12:26Z",
    "last_active": "2023-10-05T21:53:42Z",
    "stars": 4
   },
   "github:SnowCait/nostr-playground": {
-   "fetched_at": "2026-09-02T11:42:43Z",
+   "fetched_at": "2026-09-02T12:12:41Z",
    "last_active": "2026-04-25T11:00:48Z",
    "stars": 9
   },
   "github:SnowCait/nostter": {
-   "fetched_at": "2026-09-02T11:42:07Z",
-   "last_active": "2026-09-02T11:21:25Z",
+   "fetched_at": "2026-09-02T12:11:49Z",
+   "last_active": "2026-09-02T11:56:27Z",
    "stars": 180
   },
   "github:SnowCait/snowflare": {
-   "fetched_at": "2026-09-02T11:42:00Z",
+   "fetched_at": "2026-09-02T12:11:39Z",
    "last_active": "2026-06-20T02:44:16Z",
    "stars": 21
   },
   "github:SovrynMatt/Nostr-Website-Button-Design": {
-   "fetched_at": "2026-09-02T11:42:43Z",
+   "fetched_at": "2026-09-02T12:12:41Z",
    "last_active": "2023-11-25T04:54:56Z",
    "stars": 91
   },
+  "github:Spl0itable/Anonostr": {
+   "fetched_at": "2026-09-02T12:11:58Z",
+   "last_active": "2025-04-27T04:45:31Z",
+   "stars": 19
+  },
   "github:Spl0itable/NYM": {
-   "fetched_at": "2026-09-02T11:42:06Z",
+   "fetched_at": "2026-09-02T12:11:46Z",
    "last_active": "2026-09-02T05:21:35Z",
    "stars": 71
   },
@@ -496,407 +511,412 @@
    "stars": 19
   },
   "github:Spl0itable/nosflare": {
-   "fetched_at": "2026-09-02T11:42:00Z",
+   "fetched_at": "2026-09-02T12:11:39Z",
    "last_active": "2026-06-18T09:03:46Z",
    "stars": 110
   },
   "github:Spl0itable/plebs-app": {
-   "fetched_at": "2026-09-02T11:42:12Z",
+   "fetched_at": "2026-09-02T12:11:54Z",
    "last_active": "2026-04-09T06:05:22Z",
    "stars": 16
   },
   "github:TP-Lab/TokenPocket": {
-   "fetched_at": "2026-09-02T11:42:39Z",
+   "fetched_at": "2026-09-02T12:12:34Z",
    "last_active": "2018-08-26T05:26:02Z",
    "stars": 8
   },
   "github:TP-Lab/key-generator": {
-   "fetched_at": "2026-09-02T11:42:36Z",
+   "fetched_at": "2026-09-02T12:12:30Z",
    "last_active": "2026-08-13T03:16:18Z",
    "stars": 82
   },
   "github:TheRebelOfBabylon/tandem": {
-   "fetched_at": "2026-09-02T11:42:02Z",
+   "fetched_at": "2026-09-02T12:11:42Z",
    "last_active": "2024-12-08T23:49:53Z",
    "stars": 1
   },
   "github:TimA314/JiYou": {
-   "fetched_at": "2026-09-02T11:42:17Z",
+   "fetched_at": "2026-09-02T12:12:00Z",
    "last_active": "2024-03-25T00:53:22Z",
    "stars": 11
   },
   "github:Trustroots/nostroots": {
-   "fetched_at": "2026-09-02T11:42:10Z",
+   "fetched_at": "2026-09-02T12:11:52Z",
    "last_active": "2026-08-09T15:39:11Z",
    "stars": 47
   },
   "github:UTXOnly/metadata_updater": {
-   "fetched_at": "2026-09-02T11:42:31Z",
+   "fetched_at": "2026-09-02T12:12:24Z",
    "last_active": "2024-11-18T00:55:56Z",
    "stars": 7
   },
   "github:UTXOnly/nost-py": {
-   "fetched_at": "2026-09-02T11:42:02Z",
+   "fetched_at": "2026-09-02T12:11:42Z",
    "last_active": "2025-05-26T11:34:50Z",
    "stars": 25
   },
   "github:UTXOnly/nostpy-cli": {
-   "fetched_at": "2026-09-02T11:42:29Z",
+   "fetched_at": "2026-09-02T12:12:22Z",
    "last_active": "2025-07-19T18:32:32Z",
    "stars": 4
   },
   "github:UTXOnly/nostpy-relay": {
-   "fetched_at": "2026-09-02T11:42:02Z",
+   "fetched_at": "2026-09-02T12:11:42Z",
    "last_active": "2025-05-26T11:34:50Z",
    "stars": 25
   },
   "github:UTXOnly/zap_server": {
-   "fetched_at": "2026-09-02T11:42:41Z",
+   "fetched_at": "2026-09-02T12:12:38Z",
    "last_active": "2024-04-06T20:52:26Z",
    "stars": 2
   },
   "github:UwUDev/ygege": {
-   "fetched_at": "2026-09-02T11:42:07Z",
+   "fetched_at": "2026-09-02T12:11:49Z",
    "last_active": "2026-08-29T20:17:30Z",
    "stars": 514
   },
   "github:VectorPrivacy/Vector": {
-   "fetched_at": "2026-09-02T11:42:08Z",
+   "fetched_at": "2026-09-02T12:11:50Z",
    "last_active": "2026-08-31T20:33:33Z",
    "stars": 231
   },
   "github:WimYedema/skatting": {
-   "fetched_at": "2026-09-02T11:42:11Z",
+   "fetched_at": "2026-09-02T12:11:53Z",
    "last_active": "2026-07-31T04:34:48Z",
    "stars": 3
   },
   "github:Yonle/bostr": {
-   "fetched_at": "2026-09-02T11:42:01Z",
+   "fetched_at": "2026-09-02T12:11:42Z",
    "last_active": "2025-09-14T02:40:44Z",
    "stars": 104
   },
   "github:Yonle/bostr2": {
-   "fetched_at": "2026-09-02T11:42:01Z",
+   "fetched_at": "2026-09-02T12:11:40Z",
    "last_active": "2026-04-11T01:02:53Z",
    "stars": 20
   },
   "github:Yonle/undelete-my-nostr": {
-   "fetched_at": "2026-09-02T11:42:31Z",
+   "fetched_at": "2026-09-02T12:12:24Z",
    "last_active": "2024-01-09T15:41:12Z",
    "stars": 2
   },
   "github:YousefED/nostr-crdt": {
-   "fetched_at": "2026-09-02T11:42:33Z",
+   "fetched_at": "2026-09-02T12:12:27Z",
    "last_active": "2023-03-27T18:19:24Z",
    "stars": 79
   },
   "github:ZeusLN/zeus": {
-   "fetched_at": "2026-09-02T11:42:41Z",
+   "fetched_at": "2026-09-02T12:12:38Z",
    "last_active": "2026-09-02T11:06:07Z",
    "stars": 1399
   },
   "github:ZharlieW/Aegis": {
-   "fetched_at": "2026-09-02T11:42:36Z",
+   "fetched_at": "2026-09-02T12:12:30Z",
    "last_active": "2026-05-17T14:46:00Z",
    "stars": 61
   },
   "github:ZigBalthazar/zapounty": {
-   "fetched_at": "2026-09-02T11:42:30Z",
+   "fetched_at": "2026-09-02T12:12:22Z",
    "last_active": "2025-05-26T17:00:31Z",
    "stars": 1
   },
   "github:aaronrussell/nex": {
-   "fetched_at": "2026-09-02T11:42:04Z",
+   "fetched_at": "2026-09-02T12:11:45Z",
    "last_active": "2023-02-14T22:19:14Z",
    "stars": 29
   },
   "github:abhay-raizada/nostr-forms": {
-   "fetched_at": "2026-09-02T11:42:10Z",
+   "fetched_at": "2026-09-02T12:11:52Z",
    "last_active": "2026-08-17T10:27:34Z",
    "stars": 81
   },
   "github:adamdecaf/nostr-book": {
-   "fetched_at": "2026-09-02T11:42:43Z",
+   "fetched_at": "2026-09-02T12:12:41Z",
    "last_active": "2026-09-01T22:43:18Z",
    "stars": 9
   },
   "github:adamritter/nostr-relaypool-ts": {
-   "fetched_at": "2026-09-02T11:42:21Z",
+   "fetched_at": "2026-09-02T12:12:10Z",
    "last_active": "2026-08-02T03:06:21Z",
    "stars": 57
   },
   "github:aeonfun/aeon": {
-   "fetched_at": "2026-09-02T11:42:26Z",
+   "fetched_at": "2026-09-02T12:12:17Z",
    "last_active": "2026-09-01T19:31:20Z",
    "stars": 713
   },
   "github:aitechguy/nostr-address-book": {
-   "fetched_at": "2026-09-02T11:41:58Z",
+   "fetched_at": "2026-09-02T12:11:37Z",
    "last_active": "2024-07-06T03:54:48Z",
    "stars": 34
   },
   "github:akiomik/nostrends": {
-   "fetched_at": "2026-09-02T11:42:29Z",
+   "fetched_at": "2026-09-02T12:12:21Z",
    "last_active": "2025-11-21T06:35:15Z",
    "stars": 25
   },
   "github:akiomik/nostui": {
-   "fetched_at": "2026-09-02T11:42:08Z",
+   "fetched_at": "2026-09-02T12:11:50Z",
    "last_active": "2026-08-31T16:27:32Z",
    "stars": 69
   },
   "github:akiomik/zod-nostr": {
-   "fetched_at": "2026-09-02T11:42:20Z",
+   "fetched_at": "2026-09-02T12:12:06Z",
    "last_active": "2026-09-02T06:07:37Z",
    "stars": 3
   },
   "github:anasfik/flutter_nostr": {
-   "fetched_at": "2026-09-02T11:42:23Z",
+   "fetched_at": "2026-09-02T12:12:14Z",
    "last_active": "2025-11-07T21:02:57Z",
    "stars": 11
   },
   "github:anasfik/nostr": {
-   "fetched_at": "2026-09-02T11:42:21Z",
+   "fetched_at": "2026-09-02T12:12:08Z",
    "last_active": "2026-08-26T12:20:47Z",
    "stars": 51
   },
   "github:anasfik/nostr_relay_management": {
-   "fetched_at": "2026-09-02T11:42:23Z",
+   "fetched_at": "2026-09-02T12:12:14Z",
    "last_active": "2025-10-10T16:00:40Z",
    "stars": 1
   },
   "github:andotherstuff/chorus": {
-   "fetched_at": "2026-09-02T11:42:14Z",
+   "fetched_at": "2026-09-02T12:11:57Z",
    "last_active": "2025-07-08T02:00:35Z",
    "stars": 43
   },
   "github:arbadacarbaYK/gitnostr": {
-   "fetched_at": "2026-09-02T11:42:26Z",
+   "fetched_at": "2026-09-02T12:12:17Z",
    "last_active": "2026-08-31T13:35:00Z",
    "stars": 1
   },
   "github:arbadacarbaYK/gittr": {
-   "fetched_at": "2026-09-02T11:42:08Z",
+   "fetched_at": "2026-09-02T12:11:50Z",
    "last_active": "2026-08-31T17:17:51Z",
    "stars": 16
   },
   "github:arbadacarbaYK/gittr-helper-tools": {
-   "fetched_at": "2026-09-02T11:42:26Z",
+   "fetched_at": "2026-09-02T12:12:17Z",
    "last_active": "2026-08-30T20:05:21Z",
    "stars": 0
   },
   "github:arbadacarbayk/tides": {
-   "fetched_at": "2026-09-02T11:42:10Z",
+   "fetched_at": "2026-09-02T12:11:52Z",
    "last_active": "2026-08-12T20:44:38Z",
    "stars": 5
   },
   "github:arkin0x/cyberspace": {
-   "fetched_at": "2026-09-02T11:42:07Z",
+   "fetched_at": "2026-09-02T12:11:49Z",
    "last_active": "2026-09-02T01:18:08Z",
    "stars": 67
   },
   "github:asmogo/nws": {
-   "fetched_at": "2026-09-02T11:42:41Z",
+   "fetched_at": "2026-09-02T12:12:38Z",
    "last_active": "2025-10-01T09:49:18Z",
    "stars": 95
   },
   "github:atdixon/me.untethr.nostr-relay": {
-   "fetched_at": "2026-09-02T11:42:04Z",
+   "fetched_at": "2026-09-02T12:11:43Z",
    "last_active": "2024-08-18T12:08:54Z",
    "stars": 49
   },
   "github:atrifat/nostr-filter-relay": {
-   "fetched_at": "2026-09-02T11:42:04Z",
+   "fetched_at": "2026-09-02T12:11:43Z",
    "last_active": "2024-09-12T01:47:39Z",
    "stars": 29
   },
   "github:avlo/superconductor": {
-   "fetched_at": "2026-09-02T11:41:59Z",
+   "fetched_at": "2026-09-02T12:11:37Z",
    "last_active": "2026-08-28T00:07:49Z",
    "stars": 14
   },
   "github:barkyq/gnost-deflate-client": {
-   "fetched_at": "2026-09-02T11:42:18Z",
+   "fetched_at": "2026-09-02T12:12:03Z",
    "last_active": "2023-02-22T03:49:58Z",
    "stars": 9
   },
   "github:barkyq/gnost-relay": {
-   "fetched_at": "2026-09-02T11:42:04Z",
+   "fetched_at": "2026-09-02T12:11:44Z",
    "last_active": "2023-09-06T00:48:25Z",
    "stars": 45
   },
   "github:believethehype/nostdress": {
-   "fetched_at": "2026-09-02T11:42:41Z",
+   "fetched_at": "2026-09-02T12:12:38Z",
    "last_active": "2025-05-02T14:09:39Z",
    "stars": 54
   },
   "github:believethehype/nostrdvm": {
-   "fetched_at": "2026-09-02T11:42:41Z",
+   "fetched_at": "2026-09-02T12:12:38Z",
    "last_active": "2025-08-28T20:20:46Z",
    "stars": 55
   },
   "github:bennyhodl/hexynip5": {
-   "fetched_at": "2026-09-02T11:42:33Z",
+   "fetched_at": "2026-09-02T12:12:27Z",
    "last_active": "2023-02-10T16:53:16Z",
    "stars": 4
   },
   "github:benthecarman/scalastr": {
-   "fetched_at": "2026-09-02T11:42:09Z",
+   "fetched_at": "2026-09-02T12:11:51Z",
    "last_active": "2026-08-22T08:05:01Z",
    "stars": 13
   },
   "github:besoeasy/gupt": {
-   "fetched_at": "2026-09-02T11:42:09Z",
+   "fetched_at": "2026-09-02T12:11:50Z",
    "last_active": "2026-08-30T16:52:25Z",
    "stars": 26
   },
   "github:bezysoftware/netstr": {
-   "fetched_at": "2026-09-02T11:42:02Z",
+   "fetched_at": "2026-09-02T12:11:42Z",
    "last_active": "2024-12-04T14:45:38Z",
    "stars": 12
   },
   "github:bitmacro/relay-agent": {
-   "fetched_at": "2026-09-02T11:42:28Z",
+   "fetched_at": "2026-09-02T12:12:19Z",
    "last_active": "2026-05-07T14:44:52Z",
    "stars": 1
   },
   "github:bitmacro/relay-connect": {
-   "fetched_at": "2026-09-02T11:42:22Z",
+   "fetched_at": "2026-09-02T12:12:10Z",
    "last_active": "2026-04-10T14:11:02Z",
    "stars": 1
   },
   "github:bitmacro/relay-panel": {
-   "fetched_at": "2026-09-02T11:42:28Z",
+   "fetched_at": "2026-09-02T12:12:20Z",
    "last_active": "2026-05-07T13:44:51Z",
    "stars": 2
   },
   "github:bitvora/algo-relay": {
-   "fetched_at": "2026-09-02T11:42:02Z",
+   "fetched_at": "2026-09-02T12:11:42Z",
    "last_active": "2025-03-01T00:50:43Z",
    "stars": 55
   },
   "github:bitvora/haven": {
-   "fetched_at": "2026-09-02T11:41:59Z",
+   "fetched_at": "2026-09-02T12:11:38Z",
    "last_active": "2026-08-26T15:50:27Z",
    "stars": 197
   },
   "github:bitvora/sw2": {
-   "fetched_at": "2026-09-02T11:41:59Z",
+   "fetched_at": "2026-09-02T12:11:37Z",
    "last_active": "2026-08-31T00:15:01Z",
    "stars": 11
   },
   "github:bitvora/wot-relay": {
-   "fetched_at": "2026-09-02T11:42:01Z",
+   "fetched_at": "2026-09-02T12:11:40Z",
    "last_active": "2026-04-22T15:22:43Z",
    "stars": 86
   },
   "github:blakejakopovic/nostcat": {
-   "fetched_at": "2026-09-02T11:42:32Z",
+   "fetched_at": "2026-09-02T12:12:25Z",
    "last_active": "2023-11-24T12:57:24Z",
    "stars": 97
   },
   "github:blakejakopovic/nostr-spam-detection": {
-   "fetched_at": "2026-09-02T11:42:33Z",
+   "fetched_at": "2026-09-02T12:12:27Z",
    "last_active": "2023-02-25T21:49:01Z",
    "stars": 24
   },
   "github:blakejakopovic/nostr_delete": {
-   "fetched_at": "2026-09-02T11:42:31Z",
+   "fetched_at": "2026-09-02T12:12:24Z",
    "last_active": "2024-02-11T14:31:05Z",
    "stars": 30
   },
   "github:blakejakopovic/nostreq": {
-   "fetched_at": "2026-09-02T11:42:33Z",
+   "fetched_at": "2026-09-02T12:12:26Z",
    "last_active": "2023-05-19T10:19:02Z",
    "stars": 28
   },
   "github:block-core/blockcore-notes": {
-   "fetched_at": "2026-09-02T11:42:43Z",
+   "fetched_at": "2026-09-02T12:12:41Z",
    "last_active": "2025-04-20T16:45:36Z",
    "stars": 69
   },
   "github:block-core/blockcore-wallet": {
-   "fetched_at": "2026-09-02T11:42:39Z",
+   "fetched_at": "2026-09-02T12:12:34Z",
    "last_active": "2026-02-14T09:13:58Z",
    "stars": 49
   },
   "github:block/buzz": {
-   "fetched_at": "2026-09-02T11:42:06Z",
-   "last_active": "2026-09-02T11:31:54Z",
-   "stars": 31915
+   "fetched_at": "2026-09-02T12:11:47Z",
+   "last_active": "2026-09-02T11:48:09Z",
+   "stars": 31919
   },
   "github:block/sprout": {
-   "fetched_at": "2026-09-02T11:42:07Z",
-   "last_active": "2026-09-02T11:31:54Z",
-   "stars": 31915
+   "fetched_at": "2026-09-02T12:11:48Z",
+   "last_active": "2026-09-02T11:48:09Z",
+   "stars": 31919
   },
   "github:briskness-byte/NostrComments": {
-   "fetched_at": "2026-09-02T11:42:26Z",
+   "fetched_at": "2026-09-02T12:12:17Z",
    "last_active": "2026-08-19T07:54:52Z",
    "stars": 1
   },
+  "github:bvcxza/sonos": {
+   "fetched_at": "2026-09-02T12:12:14Z",
+   "last_active": "2026-05-18T18:04:51Z",
+   "stars": 1
+  },
   "github:callebtc/following.space": {
-   "fetched_at": "2026-09-02T11:42:29Z",
+   "fetched_at": "2026-09-02T12:12:22Z",
    "last_active": "2025-07-29T07:18:01Z",
    "stars": 30
   },
   "github:camelus-hq/camelus": {
-   "fetched_at": "2026-09-02T11:42:11Z",
+   "fetched_at": "2026-09-02T12:11:53Z",
    "last_active": "2026-07-27T02:57:54Z",
    "stars": 80
   },
   "github:canostrical/blogsync": {
-   "fetched_at": "2026-09-02T11:42:33Z",
+   "fetched_at": "2026-09-02T12:12:27Z",
    "last_active": "2023-03-10T17:36:47Z",
    "stars": 17
   },
   "github:canostrical/contact_cloud": {
-   "fetched_at": "2026-09-02T11:42:32Z",
+   "fetched_at": "2026-09-02T12:12:25Z",
    "last_active": "2023-11-08T21:52:10Z",
    "stars": 6
   },
   "github:carlitoplatanito/disgus": {
-   "fetched_at": "2026-09-02T11:42:07Z",
+   "fetched_at": "2026-09-02T12:11:49Z",
    "last_active": "2026-09-01T18:10:32Z",
    "stars": 53
   },
   "github:cashubtc/npubcash-server": {
-   "fetched_at": "2026-09-02T11:42:39Z",
+   "fetched_at": "2026-09-02T12:12:34Z",
    "last_active": "2026-09-01T11:37:16Z",
    "stars": 51
   },
   "github:ccs-mz/nostraap": {
-   "fetched_at": "2026-09-02T11:42:28Z",
+   "fetched_at": "2026-09-02T12:12:19Z",
    "last_active": "2026-06-13T23:42:35Z",
    "stars": 0
   },
   "github:chawyehsu/nostr-vanity-address-generator": {
-   "fetched_at": "2026-09-02T11:42:37Z",
+   "fetched_at": "2026-09-02T12:12:32Z",
    "last_active": "2024-09-08T12:28:05Z",
    "stars": 27
   },
   "github:clawstr/clawstr": {
-   "fetched_at": "2026-09-02T11:42:13Z",
+   "fetched_at": "2026-09-02T12:11:55Z",
    "last_active": "2026-02-09T04:54:25Z",
    "stars": 53
   },
   "github:cmdruid/nostr-emitter": {
-   "fetched_at": "2026-09-02T11:42:18Z",
+   "fetched_at": "2026-09-02T12:12:03Z",
    "last_active": "2023-02-05T00:54:51Z",
    "stars": 46
   },
   "github:cmdruid/nostr-terminal": {
-   "fetched_at": "2026-09-02T11:42:33Z",
+   "fetched_at": "2026-09-02T12:12:27Z",
    "last_active": "2023-02-05T02:14:53Z",
    "stars": 32
   },
   "github:cnixbtc/NostrKit": {
-   "fetched_at": "2026-09-02T11:42:24Z",
+   "fetched_at": "2026-09-02T12:12:17Z",
    "last_active": "2024-01-25T13:49:45Z",
    "stars": 17
   },
   "github:codonaft/broadcastr": {
-   "fetched_at": "2026-09-02T11:42:00Z",
+   "fetched_at": "2026-09-02T12:11:39Z",
    "last_active": "2026-07-24T15:05:48Z",
    "stars": 8
   },
@@ -906,277 +926,277 @@
    "stars": 48
   },
   "github:colealbon/cafe-society": {
-   "fetched_at": "2026-09-02T11:42:32Z",
+   "fetched_at": "2026-09-02T12:12:26Z",
    "last_active": "2023-10-10T16:55:13Z",
    "stars": 2
   },
   "github:colealbon/git-nostr": {
-   "fetched_at": "2026-09-02T11:42:32Z",
+   "fetched_at": "2026-09-02T12:12:25Z",
    "last_active": "2023-10-10T18:10:45Z",
    "stars": 32
   },
   "github:colealbon/y-ndk": {
-   "fetched_at": "2026-09-02T11:42:30Z",
+   "fetched_at": "2026-09-02T12:12:22Z",
    "last_active": "2025-05-03T22:28:58Z",
    "stars": 1
   },
   "github:contextvm/relatr": {
-   "fetched_at": "2026-09-02T11:42:41Z",
+   "fetched_at": "2026-09-02T12:12:38Z",
    "last_active": "2026-05-26T10:35:24Z",
    "stars": 12
   },
   "github:coracle-social/bucket": {
-   "fetched_at": "2026-09-02T11:42:01Z",
+   "fetched_at": "2026-09-02T12:11:41Z",
    "last_active": "2026-01-28T18:09:36Z",
    "stars": 30
   },
   "github:coracle-social/coracle": {
-   "fetched_at": "2026-09-02T11:42:07Z",
+   "fetched_at": "2026-09-02T12:11:49Z",
    "last_active": "2026-09-01T18:06:28Z",
    "stars": 366
   },
   "github:coracle-social/legacy-chat": {
-   "fetched_at": "2026-09-02T11:42:17Z",
+   "fetched_at": "2026-09-02T12:12:01Z",
    "last_active": "2023-09-25T20:00:28Z",
    "stars": 1
   },
   "github:coracle-social/legacy-dms": {
-   "fetched_at": "2026-09-02T11:42:17Z",
+   "fetched_at": "2026-09-02T12:12:01Z",
    "last_active": "2023-12-13T21:19:40Z",
    "stars": 1
   },
   "github:coracle-social/multiplextr": {
-   "fetched_at": "2026-09-02T11:42:04Z",
+   "fetched_at": "2026-09-02T12:11:44Z",
    "last_active": "2023-12-13T17:32:52Z",
    "stars": 21
   },
   "github:coracle-social/navigatr": {
-   "fetched_at": "2026-09-02T11:42:24Z",
+   "fetched_at": "2026-09-02T12:12:17Z",
    "last_active": "2023-12-19T00:56:20Z",
    "stars": 4
   },
   "github:coracle-social/nostrtime": {
-   "fetched_at": "2026-09-02T11:42:17Z",
+   "fetched_at": "2026-09-02T12:12:01Z",
    "last_active": "2023-09-13T23:23:58Z",
    "stars": 9
   },
   "github:coracle-social/paravel": {
-   "fetched_at": "2026-09-02T11:42:20Z",
+   "fetched_at": "2026-09-02T12:12:07Z",
    "last_active": "2026-09-02T00:17:26Z",
    "stars": 27
   },
   "github:coracle-social/zephyr": {
-   "fetched_at": "2026-09-02T11:42:17Z",
+   "fetched_at": "2026-09-02T12:12:01Z",
    "last_active": "2023-10-09T16:56:06Z",
    "stars": 4
   },
   "github:coracle-social/zooid": {
-   "fetched_at": "2026-09-02T11:42:01Z",
+   "fetched_at": "2026-09-02T12:11:40Z",
    "last_active": "2026-04-13T19:11:35Z",
    "stars": 19
   },
   "github:cynsar-foundation/second.exchange": {
-   "fetched_at": "2026-09-02T11:42:17Z",
+   "fetched_at": "2026-09-02T12:12:00Z",
    "last_active": "2024-04-01T13:48:57Z",
    "stars": 15
   },
   "github:damus-io/damus": {
-   "fetched_at": "2026-09-02T11:42:05Z",
+   "fetched_at": "2026-09-02T12:11:46Z",
    "last_active": "2026-08-31T16:00:12Z",
    "stars": 2136
   },
   "github:damus-io/nostrdb": {
-   "fetched_at": "2026-09-02T11:42:36Z",
+   "fetched_at": "2026-09-02T12:12:30Z",
    "last_active": "2026-08-20T20:18:51Z",
    "stars": 137
   },
   "github:damus-io/nostrdb-rs": {
-   "fetched_at": "2026-09-02T11:42:36Z",
+   "fetched_at": "2026-09-02T12:12:30Z",
    "last_active": "2026-08-18T00:59:31Z",
    "stars": 30
   },
   "github:damus-io/notedeck": {
-   "fetched_at": "2026-09-02T11:42:09Z",
+   "fetched_at": "2026-09-02T12:11:51Z",
    "last_active": "2026-08-27T19:02:37Z",
    "stars": 312
   },
   "github:darashi/nos.today": {
-   "fetched_at": "2026-09-02T11:42:26Z",
+   "fetched_at": "2026-09-02T12:12:17Z",
    "last_active": "2026-08-21T06:28:39Z",
    "stars": 22
   },
   "github:daywalker90/cln-nip47": {
-   "fetched_at": "2026-09-02T11:42:39Z",
+   "fetched_at": "2026-09-02T12:12:34Z",
    "last_active": "2026-08-31T06:16:16Z",
    "stars": 9
   },
   "github:delirehberi/hugo2nostr": {
-   "fetched_at": "2026-09-02T11:42:09Z",
+   "fetched_at": "2026-09-02T12:11:51Z",
    "last_active": "2026-08-24T13:44:31Z",
    "stars": 18
   },
   "github:delirehberi/nostr-ro-client": {
-   "fetched_at": "2026-09-02T11:42:09Z",
+   "fetched_at": "2026-09-02T12:11:51Z",
    "last_active": "2026-08-27T10:52:00Z",
    "stars": 4
   },
   "github:delirehberi/nostr.hs": {
-   "fetched_at": "2026-09-02T11:42:20Z",
+   "fetched_at": "2026-09-02T12:12:08Z",
    "last_active": "2026-08-28T12:30:19Z",
    "stars": 11
   },
   "github:denostr-lab/denny": {
-   "fetched_at": "2026-09-02T11:42:17Z",
+   "fetched_at": "2026-09-02T12:12:01Z",
    "last_active": "2024-01-16T10:49:55Z",
    "stars": 24
   },
   "github:derekross/plektos": {
-   "fetched_at": "2026-09-02T11:42:10Z",
+   "fetched_at": "2026-09-02T12:11:52Z",
    "last_active": "2026-08-11T20:24:55Z",
    "stars": 12
   },
   "github:derekross/zaplytics": {
-   "fetched_at": "2026-09-02T11:42:10Z",
+   "fetched_at": "2026-09-02T12:11:52Z",
    "last_active": "2026-08-11T20:29:39Z",
    "stars": 0
   },
   "github:derekross/zappix": {
-   "fetched_at": "2026-09-02T11:42:10Z",
+   "fetched_at": "2026-09-02T12:11:52Z",
    "last_active": "2026-08-11T20:25:02Z",
    "stars": 9
   },
   "github:dergigi/ants": {
-   "fetched_at": "2026-09-02T11:42:26Z",
+   "fetched_at": "2026-09-02T12:12:17Z",
    "last_active": "2026-08-28T12:14:05Z",
    "stars": 20
   },
   "github:dergigi/boris": {
-   "fetched_at": "2026-09-02T11:42:04Z",
+   "fetched_at": "2026-09-02T12:11:45Z",
    "last_active": "2026-08-18T19:57:10Z",
    "stars": 14
   },
   "github:dezh-tech/alienos": {
-   "fetched_at": "2026-09-02T11:42:02Z",
+   "fetched_at": "2026-09-02T12:11:42Z",
    "last_active": "2025-08-16T15:35:22Z",
    "stars": 20
   },
   "github:dezh-tech/ddsr": {
-   "fetched_at": "2026-09-02T11:42:01Z",
+   "fetched_at": "2026-09-02T12:11:42Z",
    "last_active": "2025-08-26T08:27:35Z",
    "stars": 19
   },
   "github:dezh-tech/immortal": {
-   "fetched_at": "2026-09-02T11:42:01Z",
+   "fetched_at": "2026-09-02T12:11:41Z",
    "last_active": "2025-11-23T17:41:31Z",
    "stars": 39
   },
   "github:digi-monkey/flycat-web": {
-   "fetched_at": "2026-09-02T11:42:17Z",
+   "fetched_at": "2026-09-02T12:12:00Z",
    "last_active": "2024-02-27T08:37:51Z",
    "stars": 71
   },
   "github:divinevideo/divine-mobile": {
-   "fetched_at": "2026-09-02T11:42:05Z",
-   "last_active": "2026-09-02T11:31:12Z",
+   "fetched_at": "2026-09-02T12:11:45Z",
+   "last_active": "2026-09-02T11:58:08Z",
    "stars": 264
   },
   "github:djhemath/snap-nostr": {
-   "fetched_at": "2026-09-02T11:42:28Z",
+   "fetched_at": "2026-09-02T12:12:20Z",
    "last_active": "2026-03-31T01:37:43Z",
    "stars": 13
   },
   "github:dluvian/Nozzle": {
-   "fetched_at": "2026-09-02T11:42:43Z",
+   "fetched_at": "2026-09-02T12:12:41Z",
    "last_active": "2024-04-14T07:30:33Z",
    "stars": 34
   },
   "github:dluvian/voyage": {
-   "fetched_at": "2026-09-02T11:42:14Z",
+   "fetched_at": "2026-09-02T12:11:57Z",
    "last_active": "2025-09-21T02:37:34Z",
    "stars": 59
   },
   "github:dmcarrington/unfiltered": {
-   "fetched_at": "2026-09-02T11:42:05Z",
+   "fetched_at": "2026-09-02T12:11:46Z",
    "last_active": "2026-06-19T12:45:13Z",
    "stars": 2
   },
   "github:dmnyc/ghostr": {
-   "fetched_at": "2026-09-02T11:42:27Z",
+   "fetched_at": "2026-09-02T12:12:18Z",
    "last_active": "2026-07-17T04:16:26Z",
    "stars": 2
   },
   "github:dmnyc/sidecar": {
-   "fetched_at": "2026-09-02T11:42:39Z",
+   "fetched_at": "2026-09-02T12:12:34Z",
    "last_active": "2026-09-01T20:40:34Z",
    "stars": 9
   },
   "github:dolu89/nostr-one": {
-   "fetched_at": "2026-09-02T11:42:24Z",
+   "fetched_at": "2026-09-02T12:12:17Z",
    "last_active": "2023-07-18T17:08:27Z",
    "stars": 12
   },
   "github:dolu89/nostr-proxy": {
-   "fetched_at": "2026-09-02T11:42:31Z",
+   "fetched_at": "2026-09-02T12:12:24Z",
    "last_active": "2024-06-01T10:22:11Z",
    "stars": 57
   },
   "github:drmikesamy/BlazeJump.NostrConnect": {
-   "fetched_at": "2026-09-02T11:42:28Z",
+   "fetched_at": "2026-09-02T12:12:21Z",
    "last_active": "2026-01-16T22:43:01Z",
    "stars": 4
   },
   "github:dsbaars/bunker46-extension": {
-   "fetched_at": "2026-09-02T11:42:39Z",
+   "fetched_at": "2026-09-02T12:12:34Z",
    "last_active": "2026-07-30T17:32:24Z",
    "stars": 10
   },
   "github:dskvr/nostr-relay-inspector": {
-   "fetched_at": "2026-09-02T11:42:24Z",
+   "fetched_at": "2026-09-02T12:12:17Z",
    "last_active": "2024-07-22T02:56:06Z",
    "stars": 10
   },
   "github:dtdannen/dvmdash": {
-   "fetched_at": "2026-09-02T11:42:41Z",
+   "fetched_at": "2026-09-02T12:12:38Z",
    "last_active": "2025-11-25T22:20:34Z",
    "stars": 25
   },
   "github:dtdannen/ezdvm": {
-   "fetched_at": "2026-09-02T11:42:41Z",
+   "fetched_at": "2026-09-02T12:12:38Z",
    "last_active": "2025-05-14T23:29:03Z",
    "stars": 5
   },
   "github:dtonon/chronicle": {
-   "fetched_at": "2026-09-02T11:42:00Z",
+   "fetched_at": "2026-09-02T12:11:39Z",
    "last_active": "2026-04-30T08:53:24Z",
    "stars": 36
   },
   "github:dtonon/fevela": {
-   "fetched_at": "2026-09-02T11:42:10Z",
+   "fetched_at": "2026-09-02T12:11:52Z",
    "last_active": "2026-08-11T20:58:13Z",
    "stars": 47
   },
   "github:dtonon/nostr-ruby": {
-   "fetched_at": "2026-09-02T11:42:21Z",
+   "fetched_at": "2026-09-02T12:12:10Z",
    "last_active": "2026-08-10T14:28:24Z",
    "stars": 47
   },
   "github:dtonon/nostr-ruby-playground": {
-   "fetched_at": "2026-09-02T11:42:43Z",
+   "fetched_at": "2026-09-02T12:12:41Z",
    "last_active": "2022-12-18T20:56:27Z",
    "stars": 19
   },
   "github:dtonon/oracolo": {
-   "fetched_at": "2026-09-02T11:42:10Z",
+   "fetched_at": "2026-09-02T12:11:52Z",
    "last_active": "2026-08-11T13:12:05Z",
    "stars": 193
   },
   "github:duozhutuan/NostrBridge": {
-   "fetched_at": "2026-09-02T11:42:26Z",
+   "fetched_at": "2026-09-02T12:12:17Z",
    "last_active": "2025-01-16T05:58:20Z",
    "stars": 7
   },
   "github:duozhutuan/NostrHTTP": {
-   "fetched_at": "2026-09-02T11:42:30Z",
+   "fetched_at": "2026-09-02T12:12:23Z",
    "last_active": "2025-04-11T06:10:02Z",
    "stars": 1
   },
@@ -1185,608 +1205,618 @@
    "last_active": "2024-12-08T09:31:56Z",
    "stars": 2
   },
+  "github:duozhutuan/Taskq5": {
+   "fetched_at": "2026-09-02T12:12:23Z",
+   "last_active": "2024-12-08T09:31:56Z",
+   "stars": 2
+  },
   "github:duozhutuan/nostrclient": {
-   "fetched_at": "2026-09-02T11:42:23Z",
+   "fetched_at": "2026-09-02T12:12:14Z",
    "last_active": "2025-05-23T05:35:08Z",
    "stars": 4
   },
   "github:dyegolara/nostr-attached": {
-   "fetched_at": "2026-09-02T11:42:18Z",
+   "fetched_at": "2026-09-02T12:12:03Z",
    "last_active": "2023-01-07T21:15:08Z",
    "stars": 26
   },
   "github:ekimber/nostromat": {
-   "fetched_at": "2026-09-02T11:42:18Z",
+   "fetched_at": "2026-09-02T12:12:03Z",
    "last_active": "2023-02-02T04:36:56Z",
    "stars": 8
   },
   "github:elisymlabs/elisym": {
-   "fetched_at": "2026-09-02T11:42:41Z",
+   "fetched_at": "2026-09-02T12:12:38Z",
    "last_active": "2026-08-25T22:18:56Z",
    "stars": 15
   },
   "github:emeceve/loquaz": {
-   "fetched_at": "2026-09-02T11:42:18Z",
+   "fetched_at": "2026-09-02T12:12:03Z",
    "last_active": "2022-06-16T20:08:45Z",
    "stars": 36
   },
   "github:erdaltoprak/tamga": {
-   "fetched_at": "2026-09-02T11:42:18Z",
+   "fetched_at": "2026-09-02T12:12:02Z",
    "last_active": "2023-03-10T21:19:27Z",
    "stars": 24
   },
   "github:eskema/alphaama": {
-   "fetched_at": "2026-09-02T11:42:09Z",
+   "fetched_at": "2026-09-02T12:11:51Z",
    "last_active": "2026-08-23T12:39:15Z",
    "stars": 32
   },
   "github:ethicnology/dart-nostr": {
-   "fetched_at": "2026-09-02T11:42:21Z",
+   "fetched_at": "2026-09-02T12:12:10Z",
    "last_active": "2026-08-10T03:27:58Z",
    "stars": 70
   },
   "github:ethicnology/dispute": {
-   "fetched_at": "2026-09-02T11:42:11Z",
+   "fetched_at": "2026-09-02T12:11:54Z",
    "last_active": "2026-04-21T15:00:12Z",
    "stars": 46
   },
   "github:eyelight/glasnostr": {
-   "fetched_at": "2026-09-02T11:42:37Z",
+   "fetched_at": "2026-09-02T12:12:32Z",
    "last_active": "2023-06-04T22:13:32Z",
    "stars": 18
   },
   "github:fiatjaf/branle": {
-   "fetched_at": "2026-09-02T11:42:43Z",
+   "fetched_at": "2026-09-02T12:12:41Z",
    "last_active": "2023-02-08T20:56:26Z",
    "stars": 109
   },
   "github:fiatjaf/expensive-relay": {
-   "fetched_at": "2026-09-02T11:42:43Z",
+   "fetched_at": "2026-09-02T12:12:41Z",
    "last_active": "2022-08-20T23:12:23Z",
    "stars": 8
   },
   "github:fiatjaf/gitstr": {
-   "fetched_at": "2026-09-02T11:42:14Z",
+   "fetched_at": "2026-09-02T12:11:57Z",
    "last_active": "2025-11-21T15:42:21Z",
    "stars": 121
   },
   "github:fiatjaf/go-nostr": {
-   "fetched_at": "2026-09-02T11:42:23Z",
+   "fetched_at": "2026-09-02T12:12:14Z",
    "last_active": "2025-11-15T12:40:35Z",
    "stars": 409
   },
   "github:fiatjaf/horse": {
-   "fetched_at": "2026-09-02T11:42:39Z",
+   "fetched_at": "2026-09-02T12:12:34Z",
    "last_active": "2025-01-05T15:56:59Z",
    "stars": 40
   },
   "github:fiatjaf/jingle": {
-   "fetched_at": "2026-09-02T11:42:03Z",
+   "fetched_at": "2026-09-02T12:11:43Z",
    "last_active": "2024-09-22T22:50:06Z",
    "stars": 32
   },
   "github:fiatjaf/khatru": {
-   "fetched_at": "2026-09-02T11:42:01Z",
+   "fetched_at": "2026-09-02T12:11:41Z",
    "last_active": "2025-09-22T19:56:10Z",
    "stars": 139
   },
   "github:fiatjaf/narr": {
-   "fetched_at": "2026-09-02T11:42:15Z",
+   "fetched_at": "2026-09-02T12:11:58Z",
    "last_active": "2025-04-27T12:31:14Z",
    "stars": 64
   },
   "github:fiatjaf/njump": {
-   "fetched_at": "2026-09-02T11:42:27Z",
+   "fetched_at": "2026-09-02T12:12:18Z",
    "last_active": "2026-07-30T21:22:03Z",
    "stars": 161
   },
   "github:fiatjaf/noflux": {
-   "fetched_at": "2026-09-02T11:42:15Z",
+   "fetched_at": "2026-09-02T12:11:58Z",
    "last_active": "2025-01-25T03:24:53Z",
    "stars": 11
   },
   "github:fiatjaf/nos2x": {
-   "fetched_at": "2026-09-02T11:42:39Z",
+   "fetched_at": "2026-09-02T12:12:34Z",
    "last_active": "2026-03-21T23:20:09Z",
    "stars": 391
   },
   "github:fiatjaf/noscl": {
-   "fetched_at": "2026-09-02T11:42:17Z",
+   "fetched_at": "2026-09-02T12:12:01Z",
    "last_active": "2024-01-27T11:09:08Z",
    "stars": 277
   },
   "github:fiatjaf/nostr-tools": {
-   "fetched_at": "2026-09-02T11:42:19Z",
+   "fetched_at": "2026-09-02T12:12:05Z",
    "last_active": "2026-09-01T16:39:08Z",
    "stars": 852
   },
   "github:fiatjaf/relayer": {
-   "fetched_at": "2026-09-02T11:41:59Z",
+   "fetched_at": "2026-09-02T12:11:38Z",
    "last_active": "2026-08-06T06:22:37Z",
    "stars": 344
   },
   "github:fiatjaf/wen": {
-   "fetched_at": "2026-09-02T11:42:39Z",
+   "fetched_at": "2026-09-02T12:12:34Z",
    "last_active": "2022-07-20T17:17:38Z",
    "stars": 22
   },
   "github:fiatjaf/wikistr": {
-   "fetched_at": "2026-09-02T11:42:15Z",
+   "fetched_at": "2026-09-02T12:11:58Z",
    "last_active": "2025-05-01T15:45:06Z",
    "stars": 17
   },
   "github:fiatjaf/yakbak2": {
-   "fetched_at": "2026-09-02T11:42:05Z",
+   "fetched_at": "2026-09-02T12:11:46Z",
    "last_active": "2025-08-11T17:20:17Z",
    "stars": 3
   },
   "github:flox1an/nostube": {
-   "fetched_at": "2026-09-02T11:42:05Z",
+   "fetched_at": "2026-09-02T12:11:46Z",
    "last_active": "2026-08-28T10:35:04Z",
    "stars": 32
   },
   "github:flox1an/oauth-bunker": {
-   "fetched_at": "2026-09-02T11:42:36Z",
+   "fetched_at": "2026-09-02T12:12:30Z",
    "last_active": "2026-03-06T11:51:03Z",
    "stars": 10
   },
   "github:forgesworn/bark": {
-   "fetched_at": "2026-09-02T11:42:39Z",
+   "fetched_at": "2026-09-02T12:12:34Z",
    "last_active": "2026-09-01T09:52:20Z",
    "stars": 0
   },
   "github:forgesworn/bray": {
-   "fetched_at": "2026-09-02T11:42:26Z",
+   "fetched_at": "2026-09-02T12:12:17Z",
    "last_active": "2026-08-24T17:56:02Z",
    "stars": 1
   },
   "github:forgesworn/heartwood": {
-   "fetched_at": "2026-09-02T11:42:36Z",
+   "fetched_at": "2026-09-02T12:12:30Z",
    "last_active": "2026-08-27T04:22:47Z",
    "stars": 1
   },
   "github:forgesworn/toll-booth": {
-   "fetched_at": "2026-09-02T11:42:26Z",
+   "fetched_at": "2026-09-02T12:12:17Z",
    "last_active": "2026-09-02T10:02:25Z",
    "stars": 2
   },
   "github:franzos/nostr-ts": {
-   "fetched_at": "2026-09-02T11:42:12Z",
+   "fetched_at": "2026-09-02T12:11:54Z",
    "last_active": "2026-04-02T21:30:25Z",
    "stars": 28
   },
   "github:frnandu/yana": {
-   "fetched_at": "2026-09-02T11:42:14Z",
+   "fetched_at": "2026-09-02T12:11:57Z",
    "last_active": "2025-11-06T20:31:55Z",
    "stars": 85
   },
   "github:futurepaul/hypernote": {
-   "fetched_at": "2026-09-02T11:42:30Z",
+   "fetched_at": "2026-09-02T12:12:23Z",
    "last_active": "2025-01-22T17:59:24Z",
    "stars": 25
   },
   "github:futurepaul/innpub": {
-   "fetched_at": "2026-09-02T11:42:29Z",
+   "fetched_at": "2026-09-02T12:12:21Z",
    "last_active": "2025-11-12T14:40:49Z",
    "stars": 3
   },
   "github:geoffwhittington/meshtastic-bridge": {
-   "fetched_at": "2026-09-02T11:42:26Z",
+   "fetched_at": "2026-09-02T12:12:17Z",
    "last_active": "2024-09-24T14:54:50Z",
    "stars": 52
   },
   "github:getAlby/ZapPlanner": {
-   "fetched_at": "2026-09-02T11:42:39Z",
+   "fetched_at": "2026-09-02T12:12:35Z",
    "last_active": "2026-02-14T12:31:32Z",
    "stars": 18
   },
   "github:getAlby/awesome-nwc": {
-   "fetched_at": "2026-09-02T11:42:39Z",
+   "fetched_at": "2026-09-02T12:12:35Z",
    "last_active": "2026-08-06T22:48:22Z",
    "stars": 93
   },
   "github:getAlby/bitcoin-connect": {
-   "fetched_at": "2026-09-02T11:42:39Z",
+   "fetched_at": "2026-09-02T12:12:35Z",
    "last_active": "2026-08-13T13:49:21Z",
    "stars": 152
   },
   "github:getAlby/http-nostr-publisher": {
-   "fetched_at": "2026-09-02T11:42:33Z",
+   "fetched_at": "2026-09-02T12:12:27Z",
    "last_active": "2023-05-16T08:13:10Z",
    "stars": 17
   },
   "github:getAlby/js-sdk": {
-   "fetched_at": "2026-09-02T11:42:21Z",
+   "fetched_at": "2026-09-02T12:12:08Z",
    "last_active": "2026-08-21T07:31:26Z",
    "stars": 89
   },
   "github:getAlby/lightning-browser-extension": {
-   "fetched_at": "2026-09-02T11:42:39Z",
+   "fetched_at": "2026-09-02T12:12:34Z",
    "last_active": "2026-08-31T20:54:09Z",
    "stars": 585
   },
   "github:ghobs91/agora": {
-   "fetched_at": "2026-09-02T11:42:15Z",
+   "fetched_at": "2026-09-02T12:11:59Z",
    "last_active": "2024-10-30T08:48:03Z",
    "stars": 19
   },
   "github:gillohner/meetstr": {
-   "fetched_at": "2026-09-02T11:42:13Z",
+   "fetched_at": "2026-09-02T12:11:57Z",
    "last_active": "2025-12-16T21:23:42Z",
    "stars": 7
   },
   "github:github-tijlxyz/khatru-pyramid": {
-   "fetched_at": "2026-09-02T11:42:02Z",
+   "fetched_at": "2026-09-02T12:11:42Z",
    "last_active": "2025-04-26T01:04:27Z",
    "stars": 33
   },
   "github:gourcetools/NostrAirTracker": {
-   "fetched_at": "2026-09-02T11:42:33Z",
+   "fetched_at": "2026-09-02T12:12:26Z",
    "last_active": "2023-05-19T16:26:23Z",
    "stars": 17
   },
   "github:gourcetools/nostreply": {
-   "fetched_at": "2026-09-02T11:42:33Z",
+   "fetched_at": "2026-09-02T12:12:27Z",
    "last_active": "2023-04-05T13:09:56Z",
    "stars": 10
   },
   "github:gourcetools/spamster": {
-   "fetched_at": "2026-09-02T11:42:33Z",
+   "fetched_at": "2026-09-02T12:12:26Z",
    "last_active": "2023-05-17T20:48:57Z",
    "stars": 33
   },
   "github:gozzip-protocol/gozzip": {
-   "fetched_at": "2026-09-02T11:41:58Z",
+   "fetched_at": "2026-09-02T12:11:36Z",
    "last_active": "2026-07-29T03:56:50Z",
    "stars": 4
   },
   "github:greenart7c3/Citrine": {
-   "fetched_at": "2026-09-02T11:41:59Z",
+   "fetched_at": "2026-09-02T12:11:38Z",
    "last_active": "2026-08-14T12:28:33Z",
    "stars": 134
   },
   "github:greenart7c3/amber": {
-   "fetched_at": "2026-09-02T11:42:36Z",
+   "fetched_at": "2026-09-02T12:12:30Z",
    "last_active": "2026-08-31T11:06:02Z",
    "stars": 346
   },
   "github:grunch/rana": {
-   "fetched_at": "2026-09-02T11:42:37Z",
+   "fetched_at": "2026-09-02T12:12:32Z",
    "last_active": "2024-11-15T19:08:34Z",
    "stars": 295
   },
   "github:guakamoli/denostr": {
-   "fetched_at": "2026-09-02T11:42:04Z",
+   "fetched_at": "2026-09-02T12:11:44Z",
    "last_active": "2024-01-24T06:15:36Z",
    "stars": 57
   },
   "github:guilhermegps/secret-border": {
-   "fetched_at": "2026-09-02T11:42:30Z",
+   "fetched_at": "2026-09-02T12:12:23Z",
    "last_active": "2025-02-28T12:52:30Z",
    "stars": 14
   },
   "github:gustavonmartins/nostr-to-rss": {
-   "fetched_at": "2026-09-02T11:42:26Z",
+   "fetched_at": "2026-09-02T12:12:17Z",
    "last_active": "2025-06-23T14:58:10Z",
    "stars": 6
   },
   "github:gzuuus/dvmcp": {
-   "fetched_at": "2026-09-02T11:42:41Z",
+   "fetched_at": "2026-09-02T12:12:38Z",
    "last_active": "2025-07-21T16:35:14Z",
    "stars": 27
   },
   "github:gzuuus/keynest": {
-   "fetched_at": "2026-09-02T11:42:36Z",
+   "fetched_at": "2026-09-02T12:12:30Z",
    "last_active": "2024-03-07T10:22:59Z",
    "stars": 5
   },
   "github:gzuuus/linktr-nostr": {
-   "fetched_at": "2026-09-02T11:42:13Z",
+   "fetched_at": "2026-09-02T12:11:57Z",
    "last_active": "2025-12-31T19:13:54Z",
    "stars": 54
   },
   "github:gzuuus/mimoty": {
-   "fetched_at": "2026-09-02T11:42:03Z",
+   "fetched_at": "2026-09-02T12:11:43Z",
    "last_active": "2024-10-26T16:30:33Z",
    "stars": 2
   },
   "github:gzuuus/note-mixer-relay": {
-   "fetched_at": "2026-09-02T11:42:03Z",
+   "fetched_at": "2026-09-02T12:11:43Z",
    "last_active": "2024-10-04T16:41:50Z",
    "stars": 5
   },
   "github:gzuuus/nutoff-wallet": {
-   "fetched_at": "2026-09-02T11:42:41Z",
+   "fetched_at": "2026-09-02T12:12:38Z",
    "last_active": "2025-10-09T11:32:54Z",
    "stars": 10
   },
   "github:haorendashu/cfrelay": {
-   "fetched_at": "2026-09-02T11:42:01Z",
+   "fetched_at": "2026-09-02T12:11:41Z",
    "last_active": "2025-09-25T08:07:48Z",
    "stars": 23
   },
   "github:haorendashu/nostrmo": {
-   "fetched_at": "2026-09-02T11:42:11Z",
+   "fetched_at": "2026-09-02T12:11:54Z",
    "last_active": "2026-05-27T06:18:25Z",
    "stars": 119
   },
   "github:haorendashu/nowser": {
-   "fetched_at": "2026-09-02T11:42:39Z",
+   "fetched_at": "2026-09-02T12:12:34Z",
    "last_active": "2025-12-12T10:58:45Z",
    "stars": 43
   },
   "github:heguro/nostr-following-list-util": {
-   "fetched_at": "2026-09-02T11:42:31Z",
+   "fetched_at": "2026-09-02T12:12:24Z",
    "last_active": "2024-04-08T12:14:58Z",
    "stars": 15
   },
   "github:hivetalk/hivetalksfu": {
-   "fetched_at": "2026-09-02T11:42:05Z",
+   "fetched_at": "2026-09-02T12:11:46Z",
    "last_active": "2026-08-15T03:31:57Z",
    "stars": 60
   },
   "github:holgern/pynostr": {
-   "fetched_at": "2026-09-02T11:42:23Z",
+   "fetched_at": "2026-09-02T12:12:14Z",
    "last_active": "2025-08-07T05:56:41Z",
    "stars": 78
   },
   "github:hoornet/vega": {
-   "fetched_at": "2026-09-02T11:42:07Z",
+   "fetched_at": "2026-09-02T12:11:49Z",
    "last_active": "2026-09-01T21:02:54Z",
    "stars": 10
   },
   "github:hoytech/strfry": {
-   "fetched_at": "2026-09-02T11:41:58Z",
+   "fetched_at": "2026-09-02T12:11:37Z",
    "last_active": "2026-08-28T17:07:22Z",
    "stars": 719
   },
   "github:hparihar-07/nostr-sama": {
-   "fetched_at": "2026-09-02T11:42:22Z",
+   "fetched_at": "2026-09-02T12:12:10Z",
    "last_active": "2026-03-27T13:58:50Z",
    "stars": 0
   },
   "github:hzrd149/applesauce": {
-   "fetched_at": "2026-09-02T11:42:20Z",
+   "fetched_at": "2026-09-02T12:12:07Z",
    "last_active": "2026-09-01T22:49:17Z",
    "stars": 50
   },
   "github:hzrd149/blossom": {
-   "fetched_at": "2026-09-02T11:42:41Z",
+   "fetched_at": "2026-09-02T12:12:38Z",
    "last_active": "2026-06-25T16:57:55Z",
    "stars": 317
   },
   "github:hzrd149/blossom-drive": {
-   "fetched_at": "2026-09-02T11:42:29Z",
+   "fetched_at": "2026-09-02T12:12:22Z",
    "last_active": "2025-06-22T16:14:06Z",
    "stars": 24
   },
   "github:hzrd149/nostrudel": {
-   "fetched_at": "2026-09-02T11:42:09Z",
+   "fetched_at": "2026-09-02T12:11:50Z",
    "last_active": "2026-08-29T15:59:13Z",
    "stars": 220
   },
   "github:ibz/servus": {
-   "fetched_at": "2026-09-02T11:42:01Z",
+   "fetched_at": "2026-09-02T12:11:41Z",
    "last_active": "2026-01-11T18:20:39Z",
    "stars": 102
   },
   "github:imksoo/nostr-filter": {
-   "fetched_at": "2026-09-02T11:41:59Z",
+   "fetched_at": "2026-09-02T12:11:38Z",
    "last_active": "2026-08-14T13:16:13Z",
    "stars": 21
   },
   "github:ipv6rslimited/cloudseeder": {
-   "fetched_at": "2026-09-02T11:42:29Z",
+   "fetched_at": "2026-09-02T12:12:22Z",
    "last_active": "2025-06-10T03:25:37Z",
    "stars": 198
   },
   "github:irislib/iris-messenger": {
-   "fetched_at": "2026-09-02T11:42:07Z",
+   "fetched_at": "2026-09-02T12:11:48Z",
    "last_active": "2024-10-19T08:37:03Z",
    "stars": 737
   },
   "github:jacany/nblog": {
-   "fetched_at": "2026-09-02T11:42:17Z",
+   "fetched_at": "2026-09-02T12:12:01Z",
    "last_active": "2023-11-02T16:25:27Z",
    "stars": 68
   },
   "github:jacany/nosbin": {
-   "fetched_at": "2026-09-02T11:42:17Z",
+   "fetched_at": "2026-09-02T12:12:00Z",
    "last_active": "2024-02-07T22:19:29Z",
    "stars": 46
   },
   "github:jamesmagoo/nostr-writer": {
-   "fetched_at": "2026-09-02T11:42:29Z",
+   "fetched_at": "2026-09-02T12:12:22Z",
    "last_active": "2025-08-07T21:42:24Z",
    "stars": 92
   },
   "github:jaonoctus/nip06-cli": {
-   "fetched_at": "2026-09-02T11:42:31Z",
+   "fetched_at": "2026-09-02T12:12:24Z",
    "last_active": "2024-05-12T02:32:13Z",
    "stars": 19
   },
   "github:jaonoctus/nip06-web": {
-   "fetched_at": "2026-09-02T11:42:26Z",
+   "fetched_at": "2026-09-02T12:12:18Z",
    "last_active": "2026-08-10T17:11:23Z",
    "stars": 13
   },
   "github:jb55/nostr-js": {
-   "fetched_at": "2026-09-02T11:42:22Z",
+   "fetched_at": "2026-09-02T12:12:10Z",
    "last_active": "2026-03-03T20:11:32Z",
    "stars": 78
   },
   "github:jb55/nostr-notify": {
-   "fetched_at": "2026-09-02T11:42:34Z",
+   "fetched_at": "2026-09-02T12:12:28Z",
    "last_active": "2022-11-27T17:27:26Z",
    "stars": 15
   },
   "github:jb55/nostril": {
-   "fetched_at": "2026-09-02T11:42:29Z",
+   "fetched_at": "2026-09-02T12:12:21Z",
    "last_active": "2025-12-14T13:54:29Z",
    "stars": 114
   },
   "github:jeffthibault/python-nostr": {
-   "fetched_at": "2026-09-02T11:42:23Z",
+   "fetched_at": "2026-09-02T12:12:17Z",
    "last_active": "2024-08-14T20:57:37Z",
    "stars": 282
   },
   "github:jesterui/jesterui": {
-   "fetched_at": "2026-09-02T11:42:16Z",
+   "fetched_at": "2026-09-02T12:11:59Z",
    "last_active": "2024-05-24T10:30:38Z",
    "stars": 62
   },
   "github:jiftechnify/nosdump": {
-   "fetched_at": "2026-09-02T11:42:26Z",
+   "fetched_at": "2026-09-02T12:12:17Z",
    "last_active": "2026-08-29T14:16:09Z",
    "stars": 20
   },
   "github:jiftechnify/nostr-fetch": {
-   "fetched_at": "2026-09-02T11:42:23Z",
+   "fetched_at": "2026-09-02T12:12:17Z",
    "last_active": "2025-01-06T05:01:26Z",
    "stars": 53
   },
   "github:jinglescode/nostr-password-manager": {
-   "fetched_at": "2026-09-02T11:42:39Z",
+   "fetched_at": "2026-09-02T12:12:34Z",
    "last_active": "2023-09-16T05:02:33Z",
    "stars": 52
   },
   "github:joel-st/postr-for-nostr": {
-   "fetched_at": "2026-09-02T11:42:13Z",
+   "fetched_at": "2026-09-02T12:11:56Z",
    "last_active": "2026-01-12T13:30:15Z",
    "stars": 5
   },
   "github:joelklabo/dvm-imagegen": {
-   "fetched_at": "2026-09-02T11:42:41Z",
+   "fetched_at": "2026-09-02T12:12:38Z",
    "last_active": "2026-02-08T23:51:26Z",
    "stars": 0
   },
   "github:joelklabo/dvm-textgen": {
-   "fetched_at": "2026-09-02T11:42:41Z",
+   "fetched_at": "2026-09-02T12:12:38Z",
    "last_active": "2026-02-09T15:28:18Z",
    "stars": 0
   },
   "github:joelklabo/nostrify": {
-   "fetched_at": "2026-09-02T11:42:28Z",
+   "fetched_at": "2026-09-02T12:12:20Z",
    "last_active": "2026-03-02T23:28:35Z",
    "stars": 14
   },
   "github:joelklabo/wot-scoring": {
-   "fetched_at": "2026-09-02T11:42:41Z",
+   "fetched_at": "2026-09-02T12:12:38Z",
    "last_active": "2026-02-11T05:14:43Z",
    "stars": 2
   },
   "github:johninnis/nostr-relay": {
-   "fetched_at": "2026-09-02T11:41:59Z",
+   "fetched_at": "2026-09-02T12:11:38Z",
    "last_active": "2026-08-20T10:42:11Z",
    "stars": 0
   },
   "github:johnny423/pyrelay": {
-   "fetched_at": "2026-09-02T11:42:04Z",
+   "fetched_at": "2026-09-02T12:11:44Z",
    "last_active": "2023-04-08T17:52:11Z",
    "stars": 44
   },
   "github:johnongit/INOSTA-Nostr-Img-Service": {
-   "fetched_at": "2026-09-02T11:42:43Z",
+   "fetched_at": "2026-09-02T12:12:41Z",
    "last_active": "2023-02-01T11:34:02Z",
    "stars": 10
   },
   "github:jooray/roadstr": {
-   "fetched_at": "2026-09-02T11:42:11Z",
+   "fetched_at": "2026-09-02T12:11:53Z",
    "last_active": "2026-06-24T19:56:46Z",
    "stars": 44
   },
   "github:justinmoon/neet-native": {
-   "fetched_at": "2026-09-02T11:42:29Z",
+   "fetched_at": "2026-09-02T12:12:21Z",
    "last_active": "2025-09-27T13:38:07Z",
    "stars": 0
   },
   "github:k0sti/spotstr": {
-   "fetched_at": "2026-09-02T11:42:28Z",
+   "fetched_at": "2026-09-02T12:12:20Z",
    "last_active": "2026-04-09T11:32:58Z",
    "stars": 5
   },
   "github:keep-starknet-strange/joyboy": {
-   "fetched_at": "2026-09-02T11:42:16Z",
+   "fetched_at": "2026-09-02T12:11:59Z",
    "last_active": "2024-08-18T13:23:45Z",
    "stars": 87
   },
   "github:kehiy/persian-nostr-book": {
-   "fetched_at": "2026-09-02T11:41:58Z",
+   "fetched_at": "2026-09-02T12:11:36Z",
    "last_active": "2025-05-16T12:57:45Z",
    "stars": 12
   },
   "github:keychat-io/keychat-app": {
-   "fetched_at": "2026-09-02T11:42:11Z",
+   "fetched_at": "2026-09-02T12:11:53Z",
    "last_active": "2026-07-23T04:23:13Z",
    "stars": 97
   },
+  "github:keychat-io/keychat-relay-ext": {
+   "fetched_at": "2026-09-02T12:11:45Z",
+   "last_active": "2025-12-30T03:57:17Z",
+   "stars": 2
+  },
   "github:keystr/keystr-rs": {
-   "fetched_at": "2026-09-02T11:42:32Z",
+   "fetched_at": "2026-09-02T12:12:26Z",
    "last_active": "2023-06-15T20:49:22Z",
    "stars": 42
   },
   "github:kind-0/nsecbunkerd": {
-   "fetched_at": "2026-09-02T11:42:28Z",
+   "fetched_at": "2026-09-02T12:12:19Z",
    "last_active": "2026-06-02T16:50:48Z",
    "stars": 143
   },
   "github:koteitan/nostr-post-checker": {
-   "fetched_at": "2026-09-02T11:42:28Z",
+   "fetched_at": "2026-09-02T12:12:19Z",
    "last_active": "2026-06-24T20:53:11Z",
    "stars": 12
   },
   "github:kphrx/noxir": {
-   "fetched_at": "2026-09-02T11:42:02Z",
+   "fetched_at": "2026-09-02T12:11:42Z",
    "last_active": "2025-03-10T15:40:33Z",
    "stars": 12
   },
   "github:ksedgwic/noshtastic": {
-   "fetched_at": "2026-09-02T11:42:30Z",
+   "fetched_at": "2026-09-02T12:12:22Z",
    "last_active": "2025-06-02T22:59:52Z",
    "stars": 44
   },
   "github:kuba-04/hook.cafe": {
-   "fetched_at": "2026-09-02T11:42:15Z",
+   "fetched_at": "2026-09-02T12:11:58Z",
    "last_active": "2025-05-02T10:08:52Z",
    "stars": 2
   },
   "github:lacaulac/nostr-pubminer": {
-   "fetched_at": "2026-09-02T11:42:37Z",
+   "fetched_at": "2026-09-02T12:12:32Z",
    "last_active": "2023-01-30T12:59:43Z",
    "stars": 9
   },
   "github:lapulpeta/Nostrid": {
-   "fetched_at": "2026-09-02T11:42:17Z",
+   "fetched_at": "2026-09-02T12:12:01Z",
    "last_active": "2023-06-22T16:39:59Z",
    "stars": 89
   },
   "github:lawalletio/lawallet-nwc": {
-   "fetched_at": "2026-09-02T11:42:39Z",
+   "fetched_at": "2026-09-02T12:12:35Z",
    "last_active": "2026-08-26T05:29:14Z",
    "stars": 3
   },
   "github:lebrunel/nex": {
-   "fetched_at": "2026-09-02T11:42:04Z",
+   "fetched_at": "2026-09-02T12:11:45Z",
    "last_active": "2023-02-14T22:19:14Z",
    "stars": 29
   },
   "github:leesalminen/nostr-broadcast": {
-   "fetched_at": "2026-09-02T11:42:31Z",
+   "fetched_at": "2026-09-02T12:12:24Z",
    "last_active": "2024-06-10T15:13:41Z",
    "stars": 30
   },
   "github:leesalminen/nostr-bulk-dm": {
-   "fetched_at": "2026-09-02T11:42:32Z",
+   "fetched_at": "2026-09-02T12:12:26Z",
    "last_active": "2023-07-21T23:41:20Z",
    "stars": 1
   },
   "github:leesalminen/nostr-follow-bundler": {
-   "fetched_at": "2026-09-02T11:42:33Z",
+   "fetched_at": "2026-09-02T12:12:27Z",
    "last_active": "2023-02-06T03:31:32Z",
    "stars": 4
   },
   "github:leon-wbr/better-auth-nostr": {
-   "fetched_at": "2026-09-02T11:42:21Z",
+   "fetched_at": "2026-09-02T12:12:08Z",
    "last_active": "2026-08-25T12:19:27Z",
    "stars": 5
   },
@@ -1796,44 +1826,49 @@
    "stars": 14
   },
   "github:lightning-digital-entertainment/nodestr": {
-   "fetched_at": "2026-09-02T11:42:39Z",
+   "fetched_at": "2026-09-02T12:12:34Z",
    "last_active": "2023-10-19T12:26:54Z",
    "stars": 2
   },
   "github:lightningnetworkstores/lightningnetworkstores.github.io": {
-   "fetched_at": "2026-09-02T11:42:33Z",
+   "fetched_at": "2026-09-02T12:12:27Z",
    "last_active": "2023-03-07T22:43:40Z",
    "stars": 47
   },
   "github:lnbits/arduino-nostr": {
-   "fetched_at": "2026-09-02T11:42:24Z",
+   "fetched_at": "2026-09-02T12:12:17Z",
    "last_active": "2024-07-15T11:31:02Z",
    "stars": 56
   },
   "github:lnbits/lnbits": {
-   "fetched_at": "2026-09-02T11:42:41Z",
+   "fetched_at": "2026-09-02T12:12:38Z",
    "last_active": "2026-09-01T20:44:38Z",
    "stars": 1233
   },
   "github:lnbits/nostr-signing-device": {
-   "fetched_at": "2026-09-02T11:42:36Z",
+   "fetched_at": "2026-09-02T12:12:30Z",
    "last_active": "2025-10-15T08:15:01Z",
    "stars": 147
   },
   "github:lnbits/nostrmarket": {
-   "fetched_at": "2026-09-02T11:42:18Z",
+   "fetched_at": "2026-09-02T12:12:03Z",
    "last_active": "2026-02-16T14:22:15Z",
    "stars": 145
   },
   "github:lnpass/lnpass-web": {
-   "fetched_at": "2026-09-02T11:42:30Z",
+   "fetched_at": "2026-09-02T12:12:23Z",
    "last_active": "2025-03-29T17:47:53Z",
    "stars": 7
   },
   "github:lonniev/dpyc-oracle": {
-   "fetched_at": "2026-09-02T11:42:09Z",
+   "fetched_at": "2026-09-02T12:11:50Z",
    "last_active": "2026-08-30T16:17:50Z",
    "stars": 0
+  },
+  "github:lontivero/Nostra": {
+   "fetched_at": "2026-09-02T12:11:37Z",
+   "last_active": "2026-08-26T17:43:16Z",
+   "stars": 23
   },
   "github:lontivero/nostra": {
    "fetched_at": "2026-09-02T11:41:59Z",
@@ -1841,1222 +1876,1227 @@
    "stars": 23
   },
   "github:lovvtide/satellite-web": {
-   "fetched_at": "2026-09-02T11:42:17Z",
+   "fetched_at": "2026-09-02T12:12:00Z",
    "last_active": "2024-02-05T20:36:17Z",
    "stars": 116
   },
   "github:lpicanco/knostr": {
-   "fetched_at": "2026-09-02T11:42:04Z",
+   "fetched_at": "2026-09-02T12:11:44Z",
    "last_active": "2023-03-08T17:12:51Z",
    "stars": 28
   },
   "github:lucianocasalunga/libermedia-twa": {
-   "fetched_at": "2026-09-02T11:42:06Z",
+   "fetched_at": "2026-09-02T12:11:47Z",
    "last_active": "2026-08-09T15:10:23Z",
    "stars": 0
   },
   "github:lucianocasalunga/makore-twa": {
-   "fetched_at": "2026-09-02T11:42:06Z",
+   "fetched_at": "2026-09-02T12:11:47Z",
    "last_active": "2026-07-31T18:29:58Z",
    "stars": 0
   },
   "github:lumehq/coop": {
-   "fetched_at": "2026-09-02T11:42:13Z",
+   "fetched_at": "2026-09-02T12:11:57Z",
    "last_active": "2026-01-11T10:36:02Z",
    "stars": 202
   },
   "github:lumina-rocks/lumina": {
-   "fetched_at": "2026-09-02T11:42:13Z",
+   "fetched_at": "2026-09-02T12:11:57Z",
    "last_active": "2025-12-13T14:02:07Z",
    "stars": 8
   },
   "github:madcato/nostr-article-publish": {
-   "fetched_at": "2026-09-02T11:42:29Z",
+   "fetched_at": "2026-09-02T12:12:21Z",
    "last_active": "2026-01-08T20:28:18Z",
    "stars": 2
   },
   "github:maml/lightning-fm-desktop": {
-   "fetched_at": "2026-09-02T11:42:05Z",
+   "fetched_at": "2026-09-02T12:11:46Z",
    "last_active": "2026-09-01T03:44:43Z",
    "stars": 0
   },
   "github:mapboss/wherostr_social": {
-   "fetched_at": "2026-09-02T11:42:15Z",
+   "fetched_at": "2026-09-02T12:11:58Z",
    "last_active": "2025-01-02T10:50:26Z",
    "stars": 10
   },
   "github:marcodpt/nostracker": {
-   "fetched_at": "2026-09-02T11:41:58Z",
+   "fetched_at": "2026-09-02T12:11:36Z",
    "last_active": "2025-08-31T20:55:08Z",
    "stars": 11
   },
   "github:marmot-protocol/marmot": {
-   "fetched_at": "2026-09-02T11:41:58Z",
+   "fetched_at": "2026-09-02T12:11:36Z",
    "last_active": "2026-09-01T03:10:43Z",
    "stars": 138
   },
   "github:marmot-protocol/whitenoise": {
-   "fetched_at": "2026-09-02T11:42:11Z",
+   "fetched_at": "2026-09-02T12:11:53Z",
    "last_active": "2026-08-05T17:37:22Z",
    "stars": 94
   },
   "github:mattn/algia": {
-   "fetched_at": "2026-09-02T11:42:11Z",
+   "fetched_at": "2026-09-02T12:11:53Z",
    "last_active": "2026-07-31T15:45:09Z",
    "stars": 228
   },
   "github:mattn/cagliostr": {
-   "fetched_at": "2026-09-02T11:42:00Z",
+   "fetched_at": "2026-09-02T12:11:39Z",
    "last_active": "2026-07-16T08:42:48Z",
    "stars": 39
   },
   "github:mattn/nostr-relay": {
-   "fetched_at": "2026-09-02T11:41:58Z",
+   "fetched_at": "2026-09-02T12:11:37Z",
    "last_active": "2026-09-02T08:26:37Z",
    "stars": 63
   },
   "github:max21dev/groups": {
-   "fetched_at": "2026-09-02T11:42:11Z",
+   "fetched_at": "2026-09-02T12:11:53Z",
    "last_active": "2026-08-07T22:22:35Z",
    "stars": 33
   },
   "github:max21dev/groups-relay": {
-   "fetched_at": "2026-09-02T11:42:01Z",
+   "fetched_at": "2026-09-02T12:11:42Z",
    "last_active": "2025-09-17T18:36:12Z",
    "stars": 8
   },
   "github:mbarulli/nostr-logo": {
-   "fetched_at": "2026-09-02T11:42:43Z",
+   "fetched_at": "2026-09-02T12:12:41Z",
    "last_active": "2025-03-14T14:06:56Z",
    "stars": 63
   },
   "github:mdzz-club/nkcli": {
-   "fetched_at": "2026-09-02T11:42:33Z",
+   "fetched_at": "2026-09-02T12:12:27Z",
    "last_active": "2023-04-11T08:00:09Z",
    "stars": 7
   },
   "github:melvincarvalho/nostrefresh": {
-   "fetched_at": "2026-09-02T11:42:31Z",
+   "fetched_at": "2026-09-02T12:12:24Z",
    "last_active": "2024-05-28T19:01:39Z",
    "stars": 2
   },
   "github:memberapp/memberapp.github.io": {
-   "fetched_at": "2026-09-02T11:42:16Z",
+   "fetched_at": "2026-09-02T12:11:59Z",
    "last_active": "2024-09-04T09:08:59Z",
    "stars": 48
   },
   "github:metasikander/s0str": {
-   "fetched_at": "2026-09-02T11:42:04Z",
+   "fetched_at": "2026-09-02T12:11:45Z",
    "last_active": "2023-01-02T08:40:21Z",
    "stars": 92
   },
   "github:mikedilger/chorus": {
-   "fetched_at": "2026-09-02T11:42:00Z",
+   "fetched_at": "2026-09-02T12:11:39Z",
    "last_active": "2026-04-29T17:21:09Z",
    "stars": 84
   },
   "github:mikedilger/gossip": {
-   "fetched_at": "2026-09-02T11:42:07Z",
+   "fetched_at": "2026-09-02T12:11:48Z",
    "last_active": "2026-06-19T19:38:16Z",
    "stars": 884
   },
   "github:mikedilger/nostr-types": {
-   "fetched_at": "2026-09-02T11:42:21Z",
+   "fetched_at": "2026-09-02T12:12:10Z",
    "last_active": "2026-06-14T20:28:32Z",
    "stars": 37
   },
   "github:minibits-cash/minibits_wallet": {
-   "fetched_at": "2026-09-02T11:42:41Z",
+   "fetched_at": "2026-09-02T12:12:38Z",
    "last_active": "2026-08-11T12:25:53Z",
    "stars": 120
   },
   "github:mmalmi/nostr-double-ratchet": {
-   "fetched_at": "2026-09-02T11:42:21Z",
+   "fetched_at": "2026-09-02T12:12:10Z",
    "last_active": "2026-08-10T20:58:06Z",
    "stars": 24
   },
   "github:mmalmi/nostr-notification-server": {
-   "fetched_at": "2026-09-02T11:42:26Z",
+   "fetched_at": "2026-09-02T12:12:17Z",
    "last_active": "2026-08-19T07:11:24Z",
    "stars": 11
   },
   "github:mmalmi/nostr-social-graph": {
-   "fetched_at": "2026-09-02T11:42:21Z",
+   "fetched_at": "2026-09-02T12:12:10Z",
    "last_active": "2026-07-16T10:41:25Z",
    "stars": 16
   },
   "github:mmalmi/nostr-vpn": {
-   "fetched_at": "2026-09-02T11:42:26Z",
+   "fetched_at": "2026-09-02T12:12:17Z",
    "last_active": "2026-09-01T11:31:05Z",
    "stars": 1154
   },
   "github:monlovesmango/astral": {
-   "fetched_at": "2026-09-02T11:42:43Z",
+   "fetched_at": "2026-09-02T12:12:41Z",
    "last_active": "2023-02-20T02:59:31Z",
    "stars": 100
   },
   "github:monty888/monstr": {
-   "fetched_at": "2026-09-02T11:42:04Z",
+   "fetched_at": "2026-09-02T12:11:43Z",
    "last_active": "2024-07-16T18:22:44Z",
    "stars": 49
   },
   "github:monty888/nostrpy": {
-   "fetched_at": "2026-09-02T11:42:43Z",
+   "fetched_at": "2026-09-02T12:12:41Z",
    "last_active": "2023-01-25T12:14:54Z",
    "stars": 56
   },
   "github:moogmodular/earthly": {
-   "fetched_at": "2026-09-02T11:42:08Z",
+   "fetched_at": "2026-09-02T12:11:50Z",
    "last_active": "2026-09-01T10:50:41Z",
    "stars": 13
   },
   "github:mouse484/astraea": {
-   "fetched_at": "2026-09-02T11:42:07Z",
+   "fetched_at": "2026-09-02T12:11:49Z",
    "last_active": "2026-09-02T03:34:58Z",
    "stars": 17
   },
   "github:mplorentz/keydex": {
-   "fetched_at": "2026-09-02T11:42:36Z",
+   "fetched_at": "2026-09-02T12:12:30Z",
    "last_active": "2026-08-26T19:07:36Z",
    "stars": 21
   },
   "github:mroxso/pollstr": {
-   "fetched_at": "2026-09-02T11:42:17Z",
+   "fetched_at": "2026-09-02T12:12:01Z",
    "last_active": "2023-06-16T20:30:16Z",
    "stars": 3
   },
   "github:murakmii/bbs-on-nostr": {
-   "fetched_at": "2026-09-02T11:42:18Z",
+   "fetched_at": "2026-09-02T12:12:03Z",
    "last_active": "2023-02-12T06:07:01Z",
    "stars": 31
   },
   "github:murakmii/garnet": {
-   "fetched_at": "2026-09-02T11:42:17Z",
+   "fetched_at": "2026-09-02T12:12:02Z",
    "last_active": "2023-03-21T21:48:05Z",
    "stars": 23
   },
   "github:neb-b/daisy": {
-   "fetched_at": "2026-09-02T11:42:06Z",
+   "fetched_at": "2026-09-02T12:11:47Z",
    "last_active": "2023-02-07T04:12:38Z",
    "stars": 42
   },
   "github:neeboo/schnorr_snap": {
-   "fetched_at": "2026-09-02T11:42:24Z",
+   "fetched_at": "2026-09-02T12:12:17Z",
    "last_active": "2022-12-21T03:54:13Z",
    "stars": 7
   },
   "github:neilck/aka-extension": {
-   "fetched_at": "2026-09-02T11:42:39Z",
+   "fetched_at": "2026-09-02T12:12:34Z",
    "last_active": "2025-05-17T17:37:58Z",
    "stars": 35
   },
   "github:neilck/nip07-tester": {
-   "fetched_at": "2026-09-02T11:42:39Z",
+   "fetched_at": "2026-09-02T12:12:34Z",
    "last_active": "2024-11-09T09:42:39Z",
    "stars": 1
   },
   "github:neilck/nostr-badges": {
-   "fetched_at": "2026-09-02T11:42:31Z",
+   "fetched_at": "2026-09-02T12:12:24Z",
    "last_active": "2024-08-29T21:06:29Z",
    "stars": 5
   },
   "github:nextdebug/nipf": {
-   "fetched_at": "2026-09-02T11:42:32Z",
+   "fetched_at": "2026-09-02T12:12:25Z",
    "last_active": "2023-12-31T12:22:35Z",
    "stars": 2
   },
   "github:nikolat/kuchiyose": {
-   "fetched_at": "2026-09-02T11:42:19Z",
+   "fetched_at": "2026-09-02T12:12:05Z",
    "last_active": "2026-08-28T10:32:34Z",
    "stars": 6
   },
   "github:nobu-maeda/crusty-n3xb": {
-   "fetched_at": "2026-09-02T11:42:37Z",
+   "fetched_at": "2026-09-02T12:12:32Z",
    "last_active": "2024-07-23T02:32:43Z",
    "stars": 2
   },
   "github:nobu-maeda/n3xb": {
-   "fetched_at": "2026-09-02T11:42:37Z",
+   "fetched_at": "2026-09-02T12:12:32Z",
    "last_active": "2024-07-23T02:41:06Z",
    "stars": 68
   },
   "github:nodetec/captains-log": {
-   "fetched_at": "2026-09-02T11:42:05Z",
+   "fetched_at": "2026-09-02T12:11:45Z",
    "last_active": "2026-04-21T01:57:14Z",
    "stars": 71
   },
   "github:nodetec/keystache": {
-   "fetched_at": "2026-09-02T11:42:36Z",
+   "fetched_at": "2026-09-02T12:12:30Z",
    "last_active": "2024-10-13T23:30:47Z",
    "stars": 18
   },
   "github:nodetec/notestack": {
-   "fetched_at": "2026-09-02T11:42:13Z",
+   "fetched_at": "2026-09-02T12:11:54Z",
    "last_active": "2026-03-01T04:17:20Z",
    "stars": 99
   },
   "github:nodetec/ublog": {
-   "fetched_at": "2026-09-02T11:42:17Z",
+   "fetched_at": "2026-09-02T12:12:00Z",
    "last_active": "2024-03-10T14:56:17Z",
    "stars": 32
   },
   "github:nogringo/nostr-mail-client": {
-   "fetched_at": "2026-09-02T11:42:06Z",
+   "fetched_at": "2026-09-02T12:11:47Z",
    "last_active": "2026-08-26T16:21:25Z",
    "stars": 80
   },
   "github:non-npc/FSociety": {
-   "fetched_at": "2026-09-02T11:42:10Z",
+   "fetched_at": "2026-09-02T12:11:52Z",
    "last_active": "2026-08-13T14:11:24Z",
    "stars": 6
   },
   "github:nostorg/clients": {
-   "fetched_at": "2026-09-02T11:42:19Z",
+   "fetched_at": "2026-09-02T12:12:05Z",
    "last_active": "2024-05-23T18:44:08Z",
    "stars": 19
   },
   "github:nostorg/homebrew-nostr": {
-   "fetched_at": "2026-09-02T11:42:26Z",
+   "fetched_at": "2026-09-02T12:12:17Z",
    "last_active": "2026-08-30T20:36:59Z",
    "stars": 11
   },
   "github:nostorg/scoop-nostr": {
-   "fetched_at": "2026-09-02T11:42:26Z",
+   "fetched_at": "2026-09-02T12:12:18Z",
    "last_active": "2026-08-18T01:53:25Z",
    "stars": 2
   },
   "github:nostr-connect/connect": {
-   "fetched_at": "2026-09-02T11:42:24Z",
+   "fetched_at": "2026-09-02T12:12:17Z",
    "last_active": "2023-12-17T02:22:42Z",
    "stars": 57
   },
   "github:nostr-connect/nostrum": {
-   "fetched_at": "2026-09-02T11:42:36Z",
+   "fetched_at": "2026-09-02T12:12:30Z",
    "last_active": "2023-12-06T22:35:09Z",
    "stars": 65
   },
   "github:nostr-dev-kit/ndk": {
-   "fetched_at": "2026-09-02T11:42:22Z",
+   "fetched_at": "2026-09-02T12:12:10Z",
    "last_active": "2026-04-16T11:59:17Z",
    "stars": 452
   },
   "github:nostr-jp/awesome-nostr-japan": {
-   "fetched_at": "2026-09-02T11:42:43Z",
+   "fetched_at": "2026-09-02T12:12:41Z",
    "last_active": "2026-07-26T01:18:11Z",
    "stars": 156
   },
   "github:nostr-net/vanity-key": {
-   "fetched_at": "2026-09-02T11:42:37Z",
+   "fetched_at": "2026-09-02T12:12:32Z",
    "last_active": "2025-08-21T15:24:20Z",
    "stars": 0
   },
   "github:nostr-protocol/data-vending-machines": {
-   "fetched_at": "2026-09-02T11:41:58Z",
+   "fetched_at": "2026-09-02T12:11:37Z",
    "last_active": "2025-05-15T20:04:44Z",
    "stars": 61
   },
   "github:nostr-protocol/nips": {
-   "fetched_at": "2026-09-02T11:41:58Z",
+   "fetched_at": "2026-09-02T12:11:36Z",
    "last_active": "2026-09-01T17:12:32Z",
    "stars": 3094
   },
   "github:nostr-protocol/nostr": {
-   "fetched_at": "2026-09-02T11:41:58Z",
+   "fetched_at": "2026-09-02T12:11:36Z",
    "last_active": "2025-06-27T20:23:51Z",
    "stars": 12017
   },
   "github:nostr-protocol/registry-of-kinds": {
-   "fetched_at": "2026-09-02T11:41:58Z",
+   "fetched_at": "2026-09-02T12:11:36Z",
    "last_active": "2026-08-29T23:41:10Z",
    "stars": 21
   },
   "github:nostr-sdk/nostr-sdk-ios": {
-   "fetched_at": "2026-09-02T11:42:22Z",
+   "fetched_at": "2026-09-02T12:12:11Z",
    "last_active": "2026-01-10T20:26:09Z",
    "stars": 51
   },
   "github:nostr-wot/nostr-wot-extension": {
-   "fetched_at": "2026-09-02T11:42:41Z",
+   "fetched_at": "2026-09-02T12:12:38Z",
    "last_active": "2026-08-27T10:34:18Z",
    "stars": 8
   },
   "github:nostr-wot/nostr-wot-oracle": {
-   "fetched_at": "2026-09-02T11:42:41Z",
+   "fetched_at": "2026-09-02T12:12:38Z",
    "last_active": "2026-06-04T15:05:44Z",
    "stars": 6
   },
   "github:nostr-wot/nostr-wot-sdk": {
-   "fetched_at": "2026-09-02T11:42:41Z",
+   "fetched_at": "2026-09-02T12:12:38Z",
    "last_active": "2026-08-17T19:24:12Z",
    "stars": 5
   },
   "github:nostrability/nostrability": {
-   "fetched_at": "2026-09-02T11:42:43Z",
+   "fetched_at": "2026-09-02T12:12:41Z",
    "last_active": "2026-04-02T07:46:02Z",
    "stars": 82
   },
   "github:nostriphant/transpher": {
-   "fetched_at": "2026-09-02T11:41:59Z",
+   "fetched_at": "2026-09-02T12:11:38Z",
    "last_active": "2026-08-25T13:19:16Z",
    "stars": 10
   },
   "github:nostrnative/bloom": {
-   "fetched_at": "2026-09-02T11:42:01Z",
+   "fetched_at": "2026-09-02T12:11:40Z",
    "last_active": "2026-04-09T09:15:39Z",
    "stars": 5
   },
   "github:nostrnests/nests": {
-   "fetched_at": "2026-09-02T11:42:05Z",
+   "fetched_at": "2026-09-02T12:11:46Z",
    "last_active": "2026-06-11T22:09:13Z",
    "stars": 37
   },
   "github:nostrocket/oxygen": {
-   "fetched_at": "2026-09-02T11:42:31Z",
+   "fetched_at": "2026-09-02T12:12:24Z",
    "last_active": "2024-08-22T09:02:10Z",
    "stars": 5
   },
   "github:nostrord/nostrord": {
-   "fetched_at": "2026-09-02T11:42:08Z",
+   "fetched_at": "2026-09-02T12:11:50Z",
    "last_active": "2026-08-31T21:39:03Z",
    "stars": 41
   },
   "github:objectwizard/BlazeJump": {
-   "fetched_at": "2026-09-02T11:42:14Z",
+   "fetched_at": "2026-09-02T12:11:57Z",
    "last_active": "2025-11-09T15:15:05Z",
    "stars": 5
   },
   "github:ocknamo/n8n-nodes-nostrobots": {
-   "fetched_at": "2026-09-02T11:42:28Z",
+   "fetched_at": "2026-09-02T12:12:18Z",
    "last_active": "2026-07-11T02:50:40Z",
    "stars": 27
   },
   "github:onekeyhq/app-monorepo": {
-   "fetched_at": "2026-09-02T11:42:39Z",
-   "last_active": "2026-09-02T11:38:45Z",
+   "fetched_at": "2026-09-02T12:12:34Z",
+   "last_active": "2026-09-02T12:12:09Z",
    "stars": 2432
   },
   "github:orthzar/awesome-nostr-possibilities": {
-   "fetched_at": "2026-09-02T11:42:43Z",
+   "fetched_at": "2026-09-02T12:12:41Z",
    "last_active": "2023-11-09T04:36:18Z",
    "stars": 6
   },
   "github:ostermayer/deepmarks-public": {
-   "fetched_at": "2026-09-02T11:42:19Z",
+   "fetched_at": "2026-09-02T12:12:05Z",
    "last_active": "2026-08-24T16:07:23Z",
    "stars": 3
   },
   "github:ostyjs/create-osty": {
-   "fetched_at": "2026-09-02T11:42:23Z",
+   "fetched_at": "2026-09-02T12:12:14Z",
    "last_active": "2025-05-07T13:25:23Z",
    "stars": 47
   },
   "github:ostyjs/nostr-hooks": {
-   "fetched_at": "2026-09-02T11:42:23Z",
+   "fetched_at": "2026-09-02T12:12:14Z",
    "last_active": "2025-03-06T12:23:48Z",
    "stars": 56
   },
   "github:pablof7z/mcp-money": {
-   "fetched_at": "2026-09-02T11:42:39Z",
+   "fetched_at": "2026-09-02T12:12:35Z",
    "last_active": "2025-06-05T22:52:29Z",
    "stars": 17
   },
   "github:pablof7z/nostr-data-vending-machine": {
-   "fetched_at": "2026-09-02T11:42:41Z",
+   "fetched_at": "2026-09-02T12:12:38Z",
    "last_active": "2023-08-30T15:19:45Z",
    "stars": 26
   },
   "github:pablof7z/olas": {
-   "fetched_at": "2026-09-02T11:42:14Z",
+   "fetched_at": "2026-09-02T12:11:57Z",
    "last_active": "2025-07-26T14:14:29Z",
    "stars": 68
   },
   "github:paulmillr/nip44": {
-   "fetched_at": "2026-09-02T11:42:23Z",
+   "fetched_at": "2026-09-02T12:12:17Z",
    "last_active": "2024-12-04T19:17:19Z",
    "stars": 36
   },
   "github:pedro-vicente/nostr_client_relay": {
-   "fetched_at": "2026-09-02T11:42:01Z",
+   "fetched_at": "2026-09-02T12:11:41Z",
    "last_active": "2025-11-04T22:54:40Z",
    "stars": 26
   },
   "github:penpenpng/nip07-awaiter": {
-   "fetched_at": "2026-09-02T11:42:23Z",
+   "fetched_at": "2026-09-02T12:12:17Z",
    "last_active": "2025-02-12T11:07:22Z",
    "stars": 10
   },
   "github:penpenpng/nostr-typedef": {
-   "fetched_at": "2026-09-02T11:42:22Z",
+   "fetched_at": "2026-09-02T12:12:11Z",
    "last_active": "2026-01-27T05:53:29Z",
    "stars": 12
   },
   "github:penpenpng/rx-nostr": {
-   "fetched_at": "2026-09-02T11:42:20Z",
+   "fetched_at": "2026-09-02T12:12:08Z",
    "last_active": "2026-08-31T03:22:31Z",
    "stars": 57
   },
   "github:permissionlesstech/georelays": {
-   "fetched_at": "2026-09-02T11:42:04Z",
+   "fetched_at": "2026-09-02T12:11:45Z",
    "last_active": "2026-09-02T11:32:59Z",
    "stars": 130
   },
   "github:pippellia-btc/blisk": {
-   "fetched_at": "2026-09-02T11:42:41Z",
+   "fetched_at": "2026-09-02T12:12:39Z",
    "last_active": "2026-01-30T11:48:13Z",
    "stars": 0
   },
   "github:pippellia-btc/blossy": {
-   "fetched_at": "2026-09-02T11:42:41Z",
+   "fetched_at": "2026-09-02T12:12:38Z",
    "last_active": "2026-04-02T15:14:17Z",
    "stars": 5
   },
   "github:pippellia-btc/rate": {
-   "fetched_at": "2026-09-02T11:42:28Z",
+   "fetched_at": "2026-09-02T12:12:20Z",
    "last_active": "2026-02-05T15:30:54Z",
    "stars": 0
   },
   "github:pippellia-btc/rely": {
-   "fetched_at": "2026-09-02T11:42:00Z",
+   "fetched_at": "2026-09-02T12:11:39Z",
    "last_active": "2026-05-20T10:10:09Z",
    "stars": 26
   },
   "github:piraces/rsslay": {
-   "fetched_at": "2026-09-02T11:42:44Z",
+   "fetched_at": "2026-09-02T12:12:41Z",
    "last_active": "2023-12-15T00:28:15Z",
    "stars": 40
   },
   "github:pjv/nostrtium": {
-   "fetched_at": "2026-09-02T11:42:17Z",
+   "fetched_at": "2026-09-02T12:12:01Z",
    "last_active": "2023-10-20T11:08:52Z",
    "stars": 21
   },
   "github:pjv/strfry_personal_docker": {
-   "fetched_at": "2026-09-02T11:42:43Z",
+   "fetched_at": "2026-09-02T12:12:41Z",
    "last_active": "2023-10-20T11:03:35Z",
    "stars": 11
   },
   "github:planetary-social/nos": {
-   "fetched_at": "2026-09-02T11:42:14Z",
+   "fetched_at": "2026-09-02T12:11:57Z",
    "last_active": "2025-07-24T22:55:35Z",
    "stars": 149
   },
   "github:plantimals/knob": {
-   "fetched_at": "2026-09-02T11:42:32Z",
+   "fetched_at": "2026-09-02T12:12:26Z",
    "last_active": "2023-07-31T17:02:54Z",
    "stars": 4
   },
   "github:plantimals/nostr-pass": {
-   "fetched_at": "2026-09-02T11:42:43Z",
+   "fetched_at": "2026-09-02T12:12:41Z",
    "last_active": "2022-08-21T17:44:55Z",
    "stars": 1
   },
   "github:pluja/blogo": {
-   "fetched_at": "2026-09-02T11:42:05Z",
+   "fetched_at": "2026-09-02T12:11:45Z",
    "last_active": "2026-02-16T04:22:22Z",
    "stars": 186
   },
   "github:privkeyio/keep": {
-   "fetched_at": "2026-09-02T11:42:36Z",
+   "fetched_at": "2026-09-02T12:12:30Z",
    "last_active": "2026-08-30T20:29:35Z",
    "stars": 15
   },
   "github:privkeyio/keep-android": {
-   "fetched_at": "2026-09-02T11:42:36Z",
+   "fetched_at": "2026-09-02T12:12:30Z",
    "last_active": "2026-09-02T04:34:45Z",
    "stars": 9
   },
   "github:privkeyio/keep-esp32": {
-   "fetched_at": "2026-09-02T11:42:36Z",
+   "fetched_at": "2026-09-02T12:12:30Z",
    "last_active": "2026-08-29T20:32:25Z",
    "stars": 5
   },
   "github:privkeyio/libnostr-c": {
-   "fetched_at": "2026-09-02T11:42:21Z",
+   "fetched_at": "2026-09-02T12:12:10Z",
    "last_active": "2026-08-03T21:36:42Z",
    "stars": 12
   },
   "github:privkeyio/libnostr-z": {
-   "fetched_at": "2026-09-02T11:42:21Z",
+   "fetched_at": "2026-09-02T12:12:08Z",
    "last_active": "2026-08-11T03:05:15Z",
    "stars": 15
   },
   "github:privkeyio/nostr-bench": {
-   "fetched_at": "2026-09-02T11:42:28Z",
+   "fetched_at": "2026-09-02T12:12:19Z",
    "last_active": "2026-06-14T18:59:05Z",
    "stars": 0
   },
   "github:privkeyio/noz": {
-   "fetched_at": "2026-09-02T11:42:28Z",
+   "fetched_at": "2026-09-02T12:12:19Z",
    "last_active": "2026-06-28T16:49:41Z",
    "stars": 0
   },
   "github:privkeyio/readstr": {
-   "fetched_at": "2026-09-02T11:42:04Z",
+   "fetched_at": "2026-09-02T12:11:45Z",
    "last_active": "2026-07-11T23:35:28Z",
    "stars": 2
   },
   "github:privkeyio/wisp": {
-   "fetched_at": "2026-09-02T11:41:59Z",
+   "fetched_at": "2026-09-02T12:11:38Z",
    "last_active": "2026-08-22T09:23:25Z",
    "stars": 17
   },
   "github:prolic/futr": {
-   "fetched_at": "2026-09-02T11:42:14Z",
+   "fetched_at": "2026-09-02T12:11:57Z",
    "last_active": "2025-10-27T09:48:37Z",
    "stars": 65
   },
   "github:pseudozach/nostr.directory": {
-   "fetched_at": "2026-09-02T11:42:32Z",
+   "fetched_at": "2026-09-02T12:12:25Z",
    "last_active": "2023-10-20T05:45:24Z",
    "stars": 146
   },
   "github:psic4t/atomstr": {
-   "fetched_at": "2026-09-02T11:42:26Z",
+   "fetched_at": "2026-09-02T12:12:17Z",
    "last_active": "2026-03-13T22:44:33Z",
    "stars": 5
   },
   "github:psic4t/nospeak": {
-   "fetched_at": "2026-09-02T11:42:06Z",
+   "fetched_at": "2026-09-02T12:11:47Z",
    "last_active": "2026-06-07T13:30:01Z",
    "stars": 55
   },
+  "github:ptrio42/swarmstr.com": {
+   "fetched_at": "2026-09-02T12:11:57Z",
+   "last_active": "2024-08-28T01:28:00Z",
+   "stars": 14
+  },
   "github:purrgrammer/chachi": {
-   "fetched_at": "2026-09-02T11:42:13Z",
+   "fetched_at": "2026-09-02T12:11:54Z",
    "last_active": "2026-03-31T07:06:31Z",
    "stars": 26
   },
   "github:purrgrammer/grimoire": {
-   "fetched_at": "2026-09-02T11:42:08Z",
+   "fetched_at": "2026-09-02T12:11:49Z",
    "last_active": "2026-09-01T15:13:16Z",
    "stars": 40
   },
   "github:qingfeng/2020117": {
-   "fetched_at": "2026-09-02T11:42:41Z",
+   "fetched_at": "2026-09-02T12:12:38Z",
    "last_active": "2026-04-16T14:47:48Z",
    "stars": 5
   },
   "github:quentintaranpino/nostrcheck-server": {
-   "fetched_at": "2026-09-02T11:42:00Z",
+   "fetched_at": "2026-09-02T12:11:38Z",
    "last_active": "2026-08-02T18:06:45Z",
    "stars": 157
   },
   "github:r0d8lsh0p/shosho-releases": {
-   "fetched_at": "2026-09-02T11:42:05Z",
+   "fetched_at": "2026-09-02T12:11:46Z",
    "last_active": "2026-09-01T00:58:25Z",
    "stars": 22
   },
   "github:r3drun3/nostro": {
-   "fetched_at": "2026-09-02T11:42:32Z",
+   "fetched_at": "2026-09-02T12:12:25Z",
    "last_active": "2023-12-11T08:30:09Z",
    "stars": 25
   },
   "github:rajarshimaitra/rust-nostr": {
-   "fetched_at": "2026-09-02T11:41:58Z",
+   "fetched_at": "2026-09-02T12:11:37Z",
    "last_active": "2022-12-26T22:53:06Z",
    "stars": 130
   },
   "github:relaystr/ndk": {
-   "fetched_at": "2026-09-02T11:42:20Z",
+   "fetched_at": "2026-09-02T12:12:06Z",
    "last_active": "2026-09-02T11:36:21Z",
    "stars": 27
   },
   "github:rnostr/rnostr": {
-   "fetched_at": "2026-09-02T11:42:00Z",
+   "fetched_at": "2026-09-02T12:11:39Z",
    "last_active": "2026-06-06T03:37:43Z",
    "stars": 118
   },
   "github:rooch-network/rooch": {
-   "fetched_at": "2026-09-02T11:42:27Z",
+   "fetched_at": "2026-09-02T12:12:18Z",
    "last_active": "2026-07-20T05:17:02Z",
    "stars": 188
   },
   "github:rushmi0/Fenrir-s": {
-   "fetched_at": "2026-09-02T11:41:59Z",
+   "fetched_at": "2026-09-02T12:11:37Z",
    "last_active": "2026-08-30T09:34:14Z",
    "stars": 14
   },
   "github:rust-nostr/nostr": {
-   "fetched_at": "2026-09-02T11:42:20Z",
+   "fetched_at": "2026-09-02T12:12:06Z",
    "last_active": "2026-09-01T08:42:24Z",
    "stars": 671
   },
   "github:rust-nostr/nostr-sdk-ffi": {
-   "fetched_at": "2026-09-02T11:42:20Z",
+   "fetched_at": "2026-09-02T12:12:08Z",
    "last_active": "2026-09-01T06:16:45Z",
    "stars": 17
   },
   "github:rust-nostr/nostr-sdk-flutter": {
-   "fetched_at": "2026-09-02T11:42:22Z",
+   "fetched_at": "2026-09-02T12:12:11Z",
    "last_active": "2026-01-29T11:25:02Z",
    "stars": 7
   },
   "github:ryogrid/NostrNIP36ImageRedirector": {
-   "fetched_at": "2026-09-02T11:42:32Z",
+   "fetched_at": "2026-09-02T12:12:26Z",
    "last_active": "2023-08-26T11:10:03Z",
    "stars": 4
   },
   "github:ryogrid/algia-web": {
-   "fetched_at": "2026-09-02T11:42:17Z",
+   "fetched_at": "2026-09-02T12:12:01Z",
    "last_active": "2023-10-26T02:02:13Z",
    "stars": 11
   },
   "github:ryogrid/nostrp2p": {
-   "fetched_at": "2026-09-02T11:42:29Z",
+   "fetched_at": "2026-09-02T12:12:21Z",
    "last_active": "2025-12-17T12:53:34Z",
    "stars": 45
   },
   "github:saiy2k/nostr-components": {
-   "fetched_at": "2026-09-02T11:42:26Z",
+   "fetched_at": "2026-09-02T12:12:17Z",
    "last_active": "2026-09-02T11:25:56Z",
    "stars": 26
   },
   "github:sanah9/noscall": {
-   "fetched_at": "2026-09-02T11:42:06Z",
+   "fetched_at": "2026-09-02T12:11:46Z",
    "last_active": "2026-09-02T10:09:55Z",
    "stars": 29
   },
   "github:sandwichfarm/nostr-geotags": {
-   "fetched_at": "2026-09-02T11:42:23Z",
+   "fetched_at": "2026-09-02T12:12:17Z",
    "last_active": "2025-01-14T03:20:46Z",
    "stars": 7
   },
   "github:sandwichfarm/nostr-watch": {
-   "fetched_at": "2026-09-02T11:42:04Z",
+   "fetched_at": "2026-09-02T12:11:45Z",
    "last_active": "2026-08-01T07:56:02Z",
    "stars": 196
   },
   "github:sandwichfarm/notemine": {
-   "fetched_at": "2026-09-02T11:42:22Z",
+   "fetched_at": "2026-09-02T12:12:11Z",
    "last_active": "2025-11-17T16:33:29Z",
    "stars": 7
   },
   "github:satscoffee/nostr_icons": {
-   "fetched_at": "2026-09-02T11:42:43Z",
+   "fetched_at": "2026-09-02T12:12:41Z",
    "last_active": "2026-06-02T23:08:54Z",
    "stars": 48
   },
   "github:sebastiaanwouters/emon": {
-   "fetched_at": "2026-09-02T11:42:18Z",
+   "fetched_at": "2026-09-02T12:12:03Z",
    "last_active": "2023-02-03T16:25:33Z",
    "stars": 27
   },
   "github:sebastix/nuxstr": {
-   "fetched_at": "2026-09-02T11:42:10Z",
+   "fetched_at": "2026-09-02T12:11:52Z",
    "last_active": "2026-08-13T10:45:50Z",
    "stars": 18
   },
   "github:sebdeveloper6952/amberflutter": {
-   "fetched_at": "2026-09-02T11:42:24Z",
+   "fetched_at": "2026-09-02T12:12:17Z",
    "last_active": "2024-01-01T16:11:50Z",
    "stars": 9
   },
   "github:sepehr-safari/docstr": {
-   "fetched_at": "2026-09-02T11:42:16Z",
+   "fetched_at": "2026-09-02T12:11:59Z",
    "last_active": "2024-07-04T13:44:07Z",
    "stars": 10
   },
   "github:sepehr-safari/listr": {
-   "fetched_at": "2026-09-02T11:42:43Z",
+   "fetched_at": "2026-09-02T12:12:41Z",
    "last_active": "2024-01-01T09:11:58Z",
    "stars": 9
   },
   "github:sepehr-safari/mkpinja": {
-   "fetched_at": "2026-09-02T11:42:19Z",
+   "fetched_at": "2026-09-02T12:12:05Z",
    "last_active": "2025-06-08T11:57:55Z",
    "stars": 2
   },
   "github:sepehr-safari/nostr-playground": {
-   "fetched_at": "2026-09-02T11:42:17Z",
+   "fetched_at": "2026-09-02T12:12:01Z",
    "last_active": "2023-11-25T12:31:22Z",
    "stars": 12
   },
   "github:sepehr-safari/nostribe-web-client": {
-   "fetched_at": "2026-09-02T11:42:15Z",
+   "fetched_at": "2026-09-02T12:11:58Z",
    "last_active": "2025-05-06T22:19:40Z",
    "stars": 33
   },
   "github:sepehr-safari/pinja": {
-   "fetched_at": "2026-09-02T11:42:19Z",
+   "fetched_at": "2026-09-02T12:12:05Z",
    "last_active": "2025-04-20T00:55:00Z",
    "stars": 6
   },
   "github:sepehr-safari/pinstr": {
-   "fetched_at": "2026-09-02T11:42:16Z",
+   "fetched_at": "2026-09-02T12:11:59Z",
    "last_active": "2024-06-21T12:11:53Z",
    "stars": 71
   },
   "github:sevenlabsxyz/evento-client": {
-   "fetched_at": "2026-09-02T11:42:10Z",
+   "fetched_at": "2026-09-02T12:11:52Z",
    "last_active": "2026-08-12T23:42:39Z",
    "stars": 6
   },
   "github:shawnyeager/flora-extension": {
-   "fetched_at": "2026-09-02T11:42:05Z",
+   "fetched_at": "2026-09-02T12:11:46Z",
    "last_active": "2026-08-24T14:49:12Z",
    "stars": 6
   },
   "github:shocknet/Lightning.Pub": {
-   "fetched_at": "2026-09-02T11:42:07Z",
+   "fetched_at": "2026-09-02T12:11:49Z",
    "last_active": "2026-09-02T05:50:26Z",
    "stars": 94
   },
   "github:shocknet/wallet2": {
-   "fetched_at": "2026-09-02T11:42:09Z",
+   "fetched_at": "2026-09-02T12:11:51Z",
    "last_active": "2026-08-28T15:52:40Z",
    "stars": 44
   },
   "github:shopstr-eng/shopstr": {
-   "fetched_at": "2026-09-02T11:42:18Z",
+   "fetched_at": "2026-09-02T12:12:03Z",
    "last_active": "2026-09-01T09:09:17Z",
    "stars": 101
   },
   "github:signum-network/signum-xt-wallet": {
-   "fetched_at": "2026-09-02T11:42:39Z",
+   "fetched_at": "2026-09-02T12:12:34Z",
    "last_active": "2024-07-21T18:21:19Z",
    "stars": 15
   },
   "github:silencesoft/likzap": {
-   "fetched_at": "2026-09-02T11:42:32Z",
+   "fetched_at": "2026-09-02T12:12:26Z",
    "last_active": "2023-07-23T04:16:57Z",
    "stars": 6
   },
   "github:silencesoft/written": {
-   "fetched_at": "2026-09-02T11:42:17Z",
+   "fetched_at": "2026-09-02T12:12:01Z",
    "last_active": "2023-07-05T04:33:59Z",
    "stars": 17
   },
   "github:singularityjason/lightning-memory": {
-   "fetched_at": "2026-09-02T11:42:28Z",
+   "fetched_at": "2026-09-02T12:12:20Z",
    "last_active": "2026-03-25T02:36:23Z",
    "stars": 9
   },
   "github:slaninas/nostr-bot": {
-   "fetched_at": "2026-09-02T11:42:24Z",
+   "fetched_at": "2026-09-02T12:12:17Z",
    "last_active": "2023-06-03T20:50:05Z",
    "stars": 49
   },
   "github:slaninas/tostr": {
-   "fetched_at": "2026-09-02T11:42:32Z",
+   "fetched_at": "2026-09-02T12:12:26Z",
    "last_active": "2023-07-06T14:22:46Z",
    "stars": 23
   },
   "github:sledtools/pika": {
-   "fetched_at": "2026-09-02T11:42:06Z",
+   "fetched_at": "2026-09-02T12:11:47Z",
    "last_active": "2026-04-27T16:43:45Z",
    "stars": 46
   },
   "github:smallworlnd/liquiditystr": {
-   "fetched_at": "2026-09-02T11:42:29Z",
+   "fetched_at": "2026-09-02T12:12:22Z",
    "last_active": "2025-06-24T17:22:53Z",
    "stars": 6
   },
   "github:smallworlnd/publsp": {
-   "fetched_at": "2026-09-02T11:42:29Z",
+   "fetched_at": "2026-09-02T12:12:22Z",
    "last_active": "2025-07-18T19:21:43Z",
    "stars": 23
   },
   "github:smolgrrr/TAO": {
-   "fetched_at": "2026-09-02T11:42:11Z",
+   "fetched_at": "2026-09-02T12:11:53Z",
    "last_active": "2026-08-08T09:02:53Z",
    "stars": 29
   },
   "github:smolgrrr/Wired": {
-   "fetched_at": "2026-09-02T11:42:10Z",
+   "fetched_at": "2026-09-02T12:11:52Z",
    "last_active": "2026-08-08T09:02:53Z",
    "stars": 29
   },
   "github:snarfed/granary": {
-   "fetched_at": "2026-09-02T11:42:26Z",
+   "fetched_at": "2026-09-02T12:12:17Z",
    "last_active": "2026-09-01T04:00:48Z",
    "stars": 517
   },
   "github:snow-actions/nostr": {
-   "fetched_at": "2026-09-02T11:42:26Z",
+   "fetched_at": "2026-09-02T12:12:17Z",
    "last_active": "2026-09-01T08:18:46Z",
    "stars": 20
   },
   "github:sovITxyz/keytr": {
-   "fetched_at": "2026-09-02T11:41:58Z",
+   "fetched_at": "2026-09-02T12:11:36Z",
    "last_active": "2026-07-04T14:56:41Z",
    "stars": 3
   },
   "github:spacecowboy/Feeder": {
-   "fetched_at": "2026-09-02T11:42:26Z",
+   "fetched_at": "2026-09-02T12:12:17Z",
    "last_active": "2026-09-02T11:41:55Z",
    "stars": 3001
   },
   "github:stackernews/booger": {
-   "fetched_at": "2026-09-02T11:42:04Z",
+   "fetched_at": "2026-09-02T12:11:44Z",
    "last_active": "2023-08-09T17:32:53Z",
    "stars": 42
   },
   "github:stackerstan/mindmachine": {
-   "fetched_at": "2026-09-02T11:42:18Z",
+   "fetched_at": "2026-09-02T12:12:03Z",
    "last_active": "2023-03-08T20:20:46Z",
    "stars": 12
   },
   "github:steve02081504/fount": {
-   "fetched_at": "2026-09-02T11:42:26Z",
+   "fetched_at": "2026-09-02T12:12:17Z",
    "last_active": "2026-09-02T05:36:40Z",
    "stars": 704
   },
   "github:steveja42/discerned": {
-   "fetched_at": "2026-09-02T11:42:07Z",
+   "fetched_at": "2026-09-02T12:11:49Z",
    "last_active": "2026-09-01T23:28:57Z",
    "stars": 0
   },
   "github:studiokaiji/nostr-webhost": {
-   "fetched_at": "2026-09-02T11:42:29Z",
+   "fetched_at": "2026-09-02T12:12:21Z",
    "last_active": "2025-12-03T13:38:01Z",
    "stars": 97
   },
   "github:stutxo/connect4xyz": {
-   "fetched_at": "2026-09-02T11:42:15Z",
+   "fetched_at": "2026-09-02T12:11:58Z",
    "last_active": "2025-01-24T04:26:08Z",
    "stars": 5
   },
   "github:styppo/hamstr": {
-   "fetched_at": "2026-09-02T11:42:43Z",
+   "fetched_at": "2026-09-02T12:12:41Z",
    "last_active": "2023-07-28T17:46:43Z",
    "stars": 63
   },
   "github:suhailsaqan/swae": {
-   "fetched_at": "2026-09-02T11:42:05Z",
+   "fetched_at": "2026-09-02T12:11:46Z",
    "last_active": "2026-04-09T04:48:15Z",
    "stars": 12
   },
   "github:supertestnet/nwcjs": {
-   "fetched_at": "2026-09-02T11:42:21Z",
+   "fetched_at": "2026-09-02T12:12:10Z",
    "last_active": "2026-07-14T01:12:21Z",
    "stars": 12
   },
   "github:supertestnet/vanilla-js-nostr": {
-   "fetched_at": "2026-09-02T11:42:43Z",
+   "fetched_at": "2026-09-02T12:12:41Z",
    "last_active": "2026-05-09T21:10:26Z",
    "stars": 29
   },
   "github:susumuota/nostr-keyx": {
-   "fetched_at": "2026-09-02T11:42:39Z",
+   "fetched_at": "2026-09-02T12:12:34Z",
    "last_active": "2023-04-23T12:10:49Z",
    "stars": 81
   },
   "github:swentel/nostr-php": {
-   "fetched_at": "2026-09-02T11:42:22Z",
+   "fetched_at": "2026-09-02T12:12:11Z",
    "last_active": "2026-02-03T11:14:19Z",
    "stars": 69
   },
   "github:syusui-s/rabbit": {
-   "fetched_at": "2026-09-02T11:42:10Z",
+   "fetched_at": "2026-09-02T12:11:51Z",
    "last_active": "2026-08-18T12:56:12Z",
    "stars": 86
   },
   "github:t4t5/nostr-react": {
-   "fetched_at": "2026-09-02T11:42:24Z",
+   "fetched_at": "2026-09-02T12:12:17Z",
    "last_active": "2024-02-20T22:13:24Z",
    "stars": 86
   },
   "github:tani/n0str": {
-   "fetched_at": "2026-09-02T11:42:01Z",
+   "fetched_at": "2026-09-02T12:11:40Z",
    "last_active": "2026-02-01T02:18:47Z",
    "stars": 9
   },
   "github:tcheeric/nostr-java": {
-   "fetched_at": "2026-09-02T11:42:20Z",
+   "fetched_at": "2026-09-02T12:12:08Z",
    "last_active": "2026-08-31T21:17:49Z",
    "stars": 89
   },
   "github:teamnovia/novia": {
-   "fetched_at": "2026-09-02T11:42:30Z",
+   "fetched_at": "2026-09-02T12:12:23Z",
    "last_active": "2024-12-06T09:45:43Z",
    "stars": 18
   },
   "github:tenex-chat/tenex": {
-   "fetched_at": "2026-09-02T11:42:28Z",
+   "fetched_at": "2026-09-02T12:12:19Z",
    "last_active": "2026-05-31T17:42:53Z",
    "stars": 37
   },
   "github:tenkoh/go-pubmine": {
-   "fetched_at": "2026-09-02T11:42:37Z",
+   "fetched_at": "2026-09-02T12:12:32Z",
    "last_active": "2023-02-24T21:53:20Z",
    "stars": 3
   },
   "github:theakash04/Streakstr": {
-   "fetched_at": "2026-09-02T11:42:13Z",
+   "fetched_at": "2026-09-02T12:11:54Z",
    "last_active": "2026-02-24T06:58:27Z",
    "stars": 0
   },
   "github:theborakompanioni/nostr-action": {
-   "fetched_at": "2026-09-02T11:42:30Z",
+   "fetched_at": "2026-09-02T12:12:22Z",
    "last_active": "2025-06-06T10:44:55Z",
    "stars": 11
   },
   "github:theborakompanioni/nostr-spring-boot-starter": {
-   "fetched_at": "2026-09-02T11:42:20Z",
+   "fetched_at": "2026-09-02T12:12:07Z",
    "last_active": "2026-09-01T19:42:40Z",
    "stars": 7
   },
   "github:tonyinit/nostrogen": {
-   "fetched_at": "2026-09-02T11:42:37Z",
+   "fetched_at": "2026-09-02T12:12:32Z",
    "last_active": "2024-03-17T00:29:20Z",
    "stars": 45
   },
   "github:trbouma/safebox": {
-   "fetched_at": "2026-09-02T11:42:26Z",
+   "fetched_at": "2026-09-02T12:12:18Z",
    "last_active": "2026-08-09T18:59:43Z",
    "stars": 54
   },
   "github:trinidz/rssnotes": {
-   "fetched_at": "2026-09-02T11:42:26Z",
+   "fetched_at": "2026-09-02T12:12:17Z",
    "last_active": "2026-08-25T22:49:52Z",
    "stars": 4
   },
   "github:tsukemonogit/lumilumi": {
-   "fetched_at": "2026-09-02T11:42:09Z",
+   "fetched_at": "2026-09-02T12:11:51Z",
    "last_active": "2026-08-21T02:32:33Z",
    "stars": 45
   },
   "github:tsukemonogit/nake": {
-   "fetched_at": "2026-09-02T11:42:26Z",
+   "fetched_at": "2026-09-02T12:12:17Z",
    "last_active": "2026-08-22T22:02:13Z",
    "stars": 11
   },
   "github:tsukemonogit/nfo": {
-   "fetched_at": "2026-09-02T11:42:28Z",
+   "fetched_at": "2026-09-02T12:12:19Z",
    "last_active": "2026-06-02T10:23:12Z",
    "stars": 3
   },
   "github:tsukemonogit/nostr-share-component": {
-   "fetched_at": "2026-09-02T11:42:28Z",
+   "fetched_at": "2026-09-02T12:12:19Z",
    "last_active": "2026-07-10T00:00:26Z",
    "stars": 5
   },
   "github:tyiu/nostash": {
-   "fetched_at": "2026-09-02T11:42:39Z",
+   "fetched_at": "2026-09-02T12:12:34Z",
    "last_active": "2025-06-24T00:51:55Z",
    "stars": 24
   },
   "github:unclebob/more-speech": {
-   "fetched_at": "2026-09-02T11:42:17Z",
+   "fetched_at": "2026-09-02T12:12:00Z",
    "last_active": "2024-02-06T18:18:06Z",
    "stars": 311
   },
   "github:ursuscamp/nostore": {
-   "fetched_at": "2026-09-02T11:42:43Z",
+   "fetched_at": "2026-09-02T12:12:41Z",
    "last_active": "2025-02-11T13:44:27Z",
    "stars": 67
   },
   "github:v0l/dtan": {
-   "fetched_at": "2026-09-02T11:42:11Z",
+   "fetched_at": "2026-09-02T12:11:53Z",
    "last_active": "2026-08-07T10:22:58Z",
    "stars": 30
   },
   "github:v0l/route96": {
-   "fetched_at": "2026-09-02T11:42:41Z",
+   "fetched_at": "2026-09-02T12:12:38Z",
    "last_active": "2026-07-30T16:28:47Z",
    "stars": 28
   },
   "github:v0l/snort": {
-   "fetched_at": "2026-09-02T11:42:09Z",
+   "fetched_at": "2026-09-02T12:11:51Z",
    "last_active": "2026-08-24T16:11:45Z",
    "stars": 346
   },
   "github:v0l/zap-stream-core": {
-   "fetched_at": "2026-09-02T11:42:05Z",
+   "fetched_at": "2026-09-02T12:11:46Z",
    "last_active": "2026-08-24T15:32:42Z",
    "stars": 26
   },
   "github:vdo/nostr-rs-relay-compose": {
-   "fetched_at": "2026-09-02T11:42:33Z",
+   "fetched_at": "2026-09-02T12:12:28Z",
    "last_active": "2023-02-03T08:24:16Z",
    "stars": 14
   },
   "github:verbiricha/habla.news": {
-   "fetched_at": "2026-09-02T11:42:05Z",
+   "fetched_at": "2026-09-02T12:11:45Z",
    "last_active": "2025-07-17T18:39:05Z",
    "stars": 61
   },
   "github:verityj/verityj.github.io": {
-   "fetched_at": "2026-09-02T11:42:43Z",
+   "fetched_at": "2026-09-02T12:12:41Z",
    "last_active": "2026-08-11T13:09:30Z",
    "stars": 5
   },
   "github:verse-pbc/groups_relay": {
-   "fetched_at": "2026-09-02T11:42:01Z",
+   "fetched_at": "2026-09-02T12:11:40Z",
    "last_active": "2026-02-12T01:33:56Z",
    "stars": 10
   },
   "github:vertex-lab/nostr-sqlite": {
-   "fetched_at": "2026-09-02T11:42:36Z",
+   "fetched_at": "2026-09-02T12:12:30Z",
    "last_active": "2026-05-05T10:06:22Z",
    "stars": 6
   },
   "github:vicariousdrama/cornychat": {
-   "fetched_at": "2026-09-02T11:42:05Z",
+   "fetched_at": "2026-09-02T12:11:46Z",
    "last_active": "2026-06-01T01:58:53Z",
    "stars": 35
   },
   "github:vilm3r/sendstr-web": {
-   "fetched_at": "2026-09-02T11:42:18Z",
+   "fetched_at": "2026-09-02T12:12:03Z",
    "last_active": "2023-01-12T01:59:33Z",
    "stars": 120
   },
   "github:vilm3r/votestr": {
-   "fetched_at": "2026-09-02T11:42:17Z",
+   "fetched_at": "2026-09-02T12:12:02Z",
    "last_active": "2023-03-11T05:07:35Z",
    "stars": 8
   },
   "github:vinliao/anonroom": {
-   "fetched_at": "2026-09-02T11:42:34Z",
+   "fetched_at": "2026-09-02T12:12:28Z",
    "last_active": "2022-03-05T16:37:41Z",
    "stars": 8
   },
   "github:vinliao/nashboard": {
-   "fetched_at": "2026-09-02T11:42:32Z",
+   "fetched_at": "2026-09-02T12:12:26Z",
    "last_active": "2023-08-14T01:50:51Z",
    "stars": 45
   },
   "github:vishalxl/Nostr-Clients-Features-List": {
-   "fetched_at": "2026-09-02T11:42:19Z",
+   "fetched_at": "2026-09-02T12:12:05Z",
    "last_active": "2026-04-11T14:34:14Z",
    "stars": 176
   },
   "github:vishalxl/nostr_console": {
-   "fetched_at": "2026-09-02T11:42:13Z",
+   "fetched_at": "2026-09-02T12:11:55Z",
    "last_active": "2026-02-01T13:01:41Z",
    "stars": 447
   },
   "github:vitorpamplona/amethyst": {
-   "fetched_at": "2026-09-02T11:42:07Z",
+   "fetched_at": "2026-09-02T12:11:48Z",
    "last_active": "2026-09-02T01:39:44Z",
    "stars": 1595
   },
   "github:vivganes/zapddit": {
-   "fetched_at": "2026-09-02T11:42:14Z",
+   "fetched_at": "2026-09-02T12:11:57Z",
    "last_active": "2025-07-06T04:45:48Z",
    "stars": 42
   },
   "github:vnuge/noscrypt": {
-   "fetched_at": "2026-09-02T11:42:21Z",
+   "fetched_at": "2026-09-02T12:12:10Z",
    "last_active": "2026-06-29T17:54:09Z",
    "stars": 16
   },
   "github:vstabile/kartapio": {
-   "fetched_at": "2026-09-02T11:42:18Z",
+   "fetched_at": "2026-09-02T12:12:04Z",
    "last_active": "2025-02-27T10:55:13Z",
    "stars": 1
   },
   "github:wds4/electron-react-boilerplate-nostr": {
-   "fetched_at": "2026-09-02T11:42:17Z",
+   "fetched_at": "2026-09-02T12:12:01Z",
    "last_active": "2023-06-07T00:18:31Z",
    "stars": 12
   },
   "github:wds4/pretty-good": {
-   "fetched_at": "2026-09-02T11:42:17Z",
+   "fetched_at": "2026-09-02T12:12:00Z",
    "last_active": "2024-01-29T23:28:30Z",
    "stars": 26
   },
   "github:whisperbit-labs/zemzeme-android": {
-   "fetched_at": "2026-09-02T11:42:06Z",
+   "fetched_at": "2026-09-02T12:11:47Z",
    "last_active": "2026-08-30T11:40:44Z",
    "stars": 236
   },
   "github:wilsonsilva/nostr": {
-   "fetched_at": "2026-09-02T11:42:23Z",
+   "fetched_at": "2026-09-02T12:12:17Z",
    "last_active": "2025-02-27T07:55:28Z",
    "stars": 27
   },
   "github:xbol0/nanostr": {
-   "fetched_at": "2026-09-02T11:42:36Z",
+   "fetched_at": "2026-09-02T12:12:30Z",
    "last_active": "2023-02-08T10:47:04Z",
    "stars": 6
   },
   "github:xbol0/nostring": {
-   "fetched_at": "2026-09-02T11:42:04Z",
+   "fetched_at": "2026-09-02T12:11:44Z",
    "last_active": "2023-04-06T05:18:01Z",
    "stars": 7
   },
   "github:yukibtc/keechain": {
-   "fetched_at": "2026-09-02T11:42:36Z",
+   "fetched_at": "2026-09-02T12:12:30Z",
    "last_active": "2024-11-15T19:25:58Z",
    "stars": 27
   },
   "github:yysskk/swift-nostr-client": {
-   "fetched_at": "2026-09-02T11:42:21Z",
+   "fetched_at": "2026-09-02T12:12:08Z",
    "last_active": "2026-08-13T22:01:59Z",
    "stars": 7
   },
   "github:zapcooking/frontend": {
-   "fetched_at": "2026-09-02T11:42:08Z",
+   "fetched_at": "2026-09-02T12:11:50Z",
    "last_active": "2026-08-31T22:06:35Z",
    "stars": 10
   },
   "github:zapstore/server": {
-   "fetched_at": "2026-09-02T11:42:00Z",
+   "fetched_at": "2026-09-02T12:11:39Z",
    "last_active": "2026-07-28T15:33:44Z",
    "stars": 11
   },
   "github:zeSchlausKwab/mapnolia": {
-   "fetched_at": "2026-09-02T11:42:28Z",
+   "fetched_at": "2026-09-02T12:12:20Z",
    "last_active": "2026-02-15T17:53:07Z",
    "stars": 3
   },
   "github:zig-nostr/nostr": {
-   "fetched_at": "2026-09-02T11:42:20Z",
+   "fetched_at": "2026-09-02T12:12:08Z",
    "last_active": "2026-08-28T13:09:56Z",
    "stars": 8
   },
   "github:zig-nostr/plaza": {
-   "fetched_at": "2026-09-02T11:42:07Z",
+   "fetched_at": "2026-09-02T12:11:49Z",
    "last_active": "2026-09-02T11:04:20Z",
    "stars": 8
   },
   "github:zmeyer44/flockstr": {
-   "fetched_at": "2026-09-02T11:42:15Z",
+   "fetched_at": "2026-09-02T12:11:59Z",
    "last_active": "2024-10-11T16:09:04Z",
    "stars": 26
   },
   "gitlab:Kalle/fmd-android": {
-   "fetched_at": "2026-09-02T11:42:28Z",
+   "fetched_at": "2026-09-02T12:12:19Z",
    "last_active": "2026-05-13T09:42:50.138Z",
    "stars": 0
   },
   "gitlab:cipres/caracal": {
-   "fetched_at": "2026-09-02T11:42:09Z",
+   "fetched_at": "2026-09-02T12:11:50Z",
    "last_active": "2026-08-29T09:22:59.188Z",
    "stars": 1
   },
   "gitlab:digitalethicsagency/nostr/yumyume": {
-   "fetched_at": "2026-09-02T11:42:19Z",
+   "fetched_at": "2026-09-02T12:12:05Z",
    "last_active": "2025-09-30T09:02:32.268Z",
    "stars": 1
   },
   "gitlab:minds/engine": {
-   "fetched_at": "2026-09-02T11:42:03Z",
+   "fetched_at": "2026-09-02T12:11:43Z",
    "last_active": "2026-08-28T00:44:28.039Z",
    "stars": 39
   },
   "gitlab:minds/infrastructure/nostr-relay": {
-   "fetched_at": "2026-09-02T11:42:03Z",
+   "fetched_at": "2026-09-02T12:11:43Z",
    "last_active": "2024-11-12T17:33:07.201Z",
    "stars": 3
   },
   "gitlab:soapbox-pub/ditto": {
-   "fetched_at": "2026-09-02T11:42:07Z",
+   "fetched_at": "2026-09-02T12:11:49Z",
    "last_active": "2026-09-01T21:32:44.889Z",
    "stars": 9
   },
   "gitlab:soapbox-pub/ephemerelay": {
-   "fetched_at": "2026-09-02T11:42:04Z",
+   "fetched_at": "2026-09-02T12:11:44Z",
    "last_active": "2023-07-28T06:14:22.938Z",
    "stars": 4
   },
   "gitlab:soapbox-pub/mostr": {
-   "fetched_at": "2026-09-02T11:42:26Z",
+   "fetched_at": "2026-09-02T12:12:17Z",
    "last_active": "2026-08-24T14:21:49.642Z",
    "stars": 44
   },
   "gitlab:soapbox-pub/strfry-policies": {
-   "fetched_at": "2026-09-02T11:42:30Z",
+   "fetched_at": "2026-09-02T12:12:23Z",
    "last_active": "2025-02-12T18:01:50.238Z",
    "stars": 0
   }

@@ -137,6 +137,15 @@ class ParseItemLineTest(unittest.TestCase):
             self.assertEqual(item["repo"], repo)
             self.assertEqual(item["description"], "some description")
 
+    def test_primary_github_link_beats_truncated_badge(self):
+        line = (
+            "- [keychat-relay-ext](https://github.com/keychat-io/keychat-relay-ext)![stars]"
+            "(https://img.shields.io/github/stars/keychat-io/keychat-relay-ex.svg?style=social)"
+            " - Enable cashu ecash payments"
+        )
+        item = aw.parse_item_line(line)
+        self.assertEqual(item["repo"], "keychat-io/keychat-relay-ext")
+
     def test_indented_child(self):
         item = aw.parse_item_line("  - [Zapoli](https://github.com/dezh-tech/ddsr/tree/main/zapoli) - sub")
         self.assertEqual(item["indent"], 2)
@@ -318,6 +327,18 @@ class RepoExtractionTest(unittest.TestCase):
         )
         self.assertEqual(repo, "atdixon/me.untethr.nostr-relay")
         self.assertEqual(forge, "github")
+
+    def test_collect_repos_includes_children_of_repoless_parents(self):
+        doc = aw.parse_readme(
+            "## Relays\n"
+            "- [nostr-rs-relay](https://sr.ht/~gheartsfield/nostr-rs-relay/) - minimal relay\n"
+            "  - [keychat-relay-ext](https://github.com/keychat-io/keychat-relay-ext)![stars]"
+            "(https://img.shields.io/github/stars/keychat-io/keychat-relay-ex.svg?style=social)"
+            " - cashu payments\n"
+        )
+        aw.attach_children(doc)
+        pending = aw.collect_repos(doc)
+        self.assertEqual(pending, {"github:keychat-io/keychat-relay-ext": ("keychat-io/keychat-relay-ext", "github")})
 
 
 class DaysSinceTest(unittest.TestCase):
