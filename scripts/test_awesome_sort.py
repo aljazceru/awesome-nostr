@@ -154,6 +154,21 @@ class ParseReadmeTest(unittest.TestCase):
     def test_render_roundtrip_identity(self):
         self.assertEqual(aw.render_readme(self.doc), self.FIXTURE)
 
+    def test_fenced_code_blocks_are_not_items(self):
+        text = (
+            "## Contributing\n"
+            "text before\n"
+            "```\n"
+            "- [Fake Project](https://example.com) - placeholder [? zap](https://nostr.net/grant/?zap=x@y.com)\n"
+            "```\n"
+            "- [Real](https://github.com/r/r)![stars](https://img.shields.io/github/stars/r/r.svg?style=social) - real\n"
+        )
+        doc = aw.parse_readme(text)
+        aw.attach_children(doc)
+        items = [b.item for b in doc["sections"][0].blocks if b.item]
+        self.assertEqual([i["name"] for i in items], ["Real"])
+        self.assertEqual(aw.render_readme(doc), text)
+
 
 class SortTest(unittest.TestCase):
     def _section(self, items):
@@ -245,6 +260,24 @@ class SortTest(unittest.TestCase):
         cfg2 = dict(CFG, sections={"Most popular": {"strategy": "manual"},
                                    "Apps": {"strategy": "stars"}})
         self.assertEqual(aw.sort_strategy_for(sub, cfg2, parent_title="Most popular"), "stars")
+
+    def test_json_items_report_their_own_subsection_strategy(self):
+        doc = aw.parse_readme(
+            "## Cat\n"
+            "- [A](https://github.com/a/a)![stars](https://img.shields.io/github/stars/a/a.svg?style=social) - a\n"
+            "### Sub\n"
+            "- [B](https://github.com/b/b)![stars](https://img.shields.io/github/stars/b/b.svg?style=social) - b\n"
+        )
+        aw.attach_children(doc)
+        cfg = dict(CFG, sections={"Sub": {"strategy": "stars"}})
+        for section in doc["sections"]:
+            aw.sort_blocks(section, cfg, NOW)
+            for sub in section.subsections:
+                aw.sort_blocks(sub, cfg, NOW, parent_title=section.title)
+        snap = aw.build_json(doc, "hybrid", NOW)
+        cat = snap["categories"][0]
+        self.assertEqual(cat["items"][0]["sort_strategy"], "hybrid")
+        self.assertEqual(cat["subcategories"][0]["items"][0]["sort_strategy"], "stars")
 
 
 class RepoExtractionTest(unittest.TestCase):

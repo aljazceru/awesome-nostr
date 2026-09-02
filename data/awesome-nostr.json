@@ -1,11 +1,11 @@
 {
  "_meta": {
-  "generated_at": "2026-09-02T11:42:44Z",
+  "generated_at": "2026-09-02T11:54:50Z",
   "source": "README.md",
   "sort_strategy": "hybrid",
   "counts": {
    "categories": 32,
-   "items": 1000,
+   "items": 999,
    "tracked_repos": 642
   }
  },
@@ -8935,15 +8935,7 @@
   {
    "name": "Contributing",
    "sort_strategy": "manual",
-   "items": [
-    {
-     "name": "Your Project",
-     "url": "https://example.com",
-     "description": "What it does [donate](https://geyser.fund/project/xyz)",
-     "zap": "https://nostr.net/grant/?zap=you@wallet.com",
-     "sort_strategy": "manual"
-    }
-   ]
+   "items": []
   },
   {
    "name": "Contributors",

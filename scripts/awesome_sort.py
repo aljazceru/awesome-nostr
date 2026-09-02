@@ -228,6 +228,7 @@ def parse_readme(text: str):
     section = None
     subsection = None
     target = None  # where blocks are currently appended
+    in_fence = False
 
     def new_section(title, title_line):
         nonlocal section, subsection, target
@@ -237,6 +238,19 @@ def parse_readme(text: str):
         target = section.blocks
 
     for line in lines:
+        stripped = line.lstrip()
+        if stripped.startswith("```"):
+            in_fence = not in_fence
+            fenced = True
+        else:
+            fenced = in_fence
+        if fenced:
+            # fenced code blocks are verbatim content, never items or headings
+            if section is None:
+                doc["preamble"].append(line)
+            else:
+                target.append(Block([line]))
+            continue
         h2 = H2_RE.match(line)
         h3 = H3_RE.match(line)
         if h2:
@@ -487,7 +501,7 @@ def build_json(doc: dict, cfg_strategy: str, now: datetime) -> dict:
         category = {"name": section.title, "sort_strategy": strategy, "items": blocks_to_items(section.blocks, strategy)}
         subs = []
         for sub in section.subsections:
-            sub_items = blocks_to_items(sub.blocks, strategy)
+            sub_items = blocks_to_items(sub.blocks, sub.strategy or strategy)
             if sub_items:
                 subs.append({"name": sub.title, "sort_strategy": sub.strategy or strategy, "items": sub_items})
         if subs:
