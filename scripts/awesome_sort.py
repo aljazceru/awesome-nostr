@@ -61,7 +61,7 @@ H3_RE = re.compile(r"^### (.+?)\s*$")
 ITEM_RE = re.compile(r"( *)- (.*)")
 MD_LINK_RE = re.compile(r"\[([^\]]*)\]\(\s*([^)\s]+)[^)]*\)")
 NESTED_BADGE_RE = re.compile(r"\[!\[stars\]\([^)]*\)\]\([^)]*\)")
-BADGE_RE = re.compile(r"!\[stars\]\([^)]*\)")
+BADGE_RE = re.compile(r"!\[(?:stars|starts)\](?:\([^)]*\)|(?!\())")
 ZAP_LINK_RE = re.compile(r"\[[?⚡] ?zap\]\(([^)]*)\)")
 BADGE_URL_RE = re.compile(
     r"shields\.io/(github|gitlab)/stars/([^/\s)\]]+)/([^?\s)\]]+)"
@@ -131,17 +131,21 @@ def parse_item_line(line: str) -> dict | None:
         return None
     raw = m.group(2)
 
-    nested = NESTED_BADGE_RE.search(raw)
+    # collect every star badge (nested [![stars](..)](..) or plain ![stars](..));
+    # the first one by position describes the entry's own repo
+    badge_matches = list(NESTED_BADGE_RE.finditer(raw))
+    badge_matches.sort(key=lambda mm: mm.start())
     badge_url = None
-    badge_match = None
-    if nested:
-        badge_match = nested
-        inner = re.search(r"!\[stars\]\(([^)]*)\)", nested.group(0))
+    if badge_matches:
+        inner = re.search(r"!\[stars\]\(([^)]*)\)", badge_matches[0].group(0))
         badge_url = inner.group(1) if inner else None
-    else:
-        badge_match = BADGE_RE.search(raw)
-        if badge_match:
-            inner = re.search(r"\(([^)]*)\)", badge_match.group(0))
+    for plain in BADGE_RE.finditer(raw):
+        if any(n.start() <= plain.start() < n.end() for n in badge_matches):
+            continue
+        badge_matches.append(plain)
+        badge_matches.sort(key=lambda mm: mm.start())
+        if badge_url is None and badge_matches[0] is plain:
+            inner = re.search(r"\(([^)]*)\)", plain.group(0))
             badge_url = inner.group(1) if inner else None
 
     zap_match = ZAP_LINK_RE.search(raw)
@@ -150,7 +154,7 @@ def parse_item_line(line: str) -> dict | None:
     for link in MD_LINK_RE.finditer(raw):
         span = link.span()
         # skip spans that belong to badge markup already removed conceptually
-        if badge_match and (badge_match.start() <= span[0] < badge_match.end()):
+        if any(mm.start() <= span[0] < mm.end() for mm in badge_matches):
             continue
         name, url, first_span = link.group(1).strip(), link.group(2).strip(), span
         break
@@ -159,7 +163,7 @@ def parse_item_line(line: str) -> dict | None:
         return None
 
     # description = raw minus badge, zap, and primary-link spans (merge overlaps)
-    spans = sorted(m.span() for m in (badge_match, zap_match) if m)
+    spans = sorted(mm.span() for mm in (*badge_matches, zap_match) if mm)
     if first_span not in spans:
         spans.append(first_span)
         spans.sort()

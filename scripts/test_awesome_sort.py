@@ -106,6 +106,37 @@ class ParseItemLineTest(unittest.TestCase):
         )
         self.assertIn("[Minds](https://www.minds.com)", item["description"])
 
+    def test_multiple_badges_all_removed_from_description(self):
+        line = (
+            "- [DVMDash](https://dvmdash.live/)![stars]"
+            "(https://img.shields.io/github/stars/dtdannen/dvmdash)"
+            " - Monitoring & debugging tool for data vending machines;"
+            " [dvm references](https://github.com/pablof7z/dvm-references/)![stars]"
+            "(https://img.shields.io/github/stars/pablof7z/dvm-references.svg?style=social)"
+            " - reference implementation of a DVM backend"
+        )
+        item = aw.parse_item_line(line)
+        self.assertEqual(item["repo"], "dtdannen/dvmdash")
+        self.assertNotIn("shields.io", item["description"])
+        self.assertNotIn("![stars]", item["description"])
+        self.assertIn("[dvm references](https://github.com/pablof7z/dvm-references/)", item["description"])
+        self.assertEqual(
+            item["description"],
+            "Monitoring & debugging tool for data vending machines;"
+            " [dvm references](https://github.com/pablof7z/dvm-references/)"
+            " - reference implementation of a DVM backend",
+        )
+
+    def test_malformed_badge_variants_removed(self):
+        for badge, repo in (
+            ("![stars]", "andotherstuff/chorus"),       # missing (url) entirely
+            ("![starts](https://img.shields.io/github/stars/CodyTseng/nostr-relay.svg?style=social)", "CodyTseng/nostr-relay"),  # typo'd label
+        ):
+            line = f"- [X](https://github.com/{repo}){badge} - some description"
+            item = aw.parse_item_line(line)
+            self.assertEqual(item["repo"], repo)
+            self.assertEqual(item["description"], "some description")
+
     def test_indented_child(self):
         item = aw.parse_item_line("  - [Zapoli](https://github.com/dezh-tech/ddsr/tree/main/zapoli) - sub")
         self.assertEqual(item["indent"], 2)

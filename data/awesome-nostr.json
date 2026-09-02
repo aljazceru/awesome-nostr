@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "generated_at": "2026-09-02T11:54:50Z",
+  "generated_at": "2026-09-02T12:02:59Z",
   "source": "README.md",
   "sort_strategy": "hybrid",
   "counts": {
@@ -2876,7 +2876,7 @@
       {
        "name": "+Chorus",
        "url": "https://github.com/andotherstuff/chorus/",
-       "description": "![stars] - +chorus is a simple space for communities to gather, share, and support each other.",
+       "description": "+chorus is a simple space for communities to gather, share, and support each other.",
        "repo": "andotherstuff/chorus",
        "forge": "github",
        "stars": 43,
@@ -3961,7 +3961,7 @@
       {
        "name": "KUCHIYOSE",
        "url": "https://github.com/nikolat/kuchiyose",
-       "description": "![stars] - Nostr events of web bookmark.",
+       "description": "Nostr events of web bookmark.",
        "repo": "nikolat/kuchiyose",
        "forge": "github",
        "stars": 6,
@@ -3981,7 +3981,7 @@
       {
        "name": "Community Curated Nostr Stuff (CCNS)",
        "url": "https://github.com/Sebastix/CCNS",
-       "description": "![stars] - CCNS is a Nostr-focused community platform centered around link aggregation and discussion topics.",
+       "description": "CCNS is a Nostr-focused community platform centered around link aggregation and discussion topics.",
        "repo": "Sebastix/CCNS",
        "forge": "github",
        "stars": 7,
@@ -4001,7 +4001,7 @@
       {
        "name": "MKPinja",
        "url": "https://github.com/sepehr-safari/mkpinja",
-       "description": "![stars] - A decentralized bookmarking service built on the Nostr protocol, inspired by Pinboard.in. MKPinja implements NIP-B0 for web bookmarking, giving users complete ownership and control over their bookmark data.",
+       "description": "A decentralized bookmarking service built on the Nostr protocol, inspired by Pinboard.in. MKPinja implements NIP-B0 for web bookmarking, giving users complete ownership and control over their bookmark data.",
        "repo": "sepehr-safari/mkpinja",
        "forge": "github",
        "stars": 2,
@@ -4011,7 +4011,7 @@
       {
        "name": "Pinja",
        "url": "https://github.com/sepehr-safari/pinja",
-       "description": "![stars] - Pinja is a modern social bookmarking platform built on the Nostr protocol, designed to help users collect, organize, and explore valuable content from across the web.",
+       "description": "Pinja is a modern social bookmarking platform built on the Nostr protocol, designed to help users collect, organize, and explore valuable content from across the web.",
        "repo": "sepehr-safari/pinja",
        "forge": "github",
        "stars": 6,
@@ -4194,7 +4194,7 @@
     {
      "name": "nostr-relay",
      "url": "https://github.com/CodyTseng/nostr-relay",
-     "description": "![starts](https://img.shields.io/github/stars/CodyTseng/nostr-relay.svg?style=social) - A typescript library that helps you easily build your customized Nostr relay.",
+     "description": "A typescript library that helps you easily build your customized Nostr relay.",
      "repo": "CodyTseng/nostr-relay",
      "forge": "github",
      "stars": 18,
@@ -7844,7 +7844,7 @@
     {
      "name": "DVMDash",
      "url": "https://dvmdash.live/",
-     "description": "Monitoring & debugging tool for data vending machines; tracks dvm performance and payments - [dvm references](https://github.com/pablof7z/dvm-references/)![stars](https://img.shields.io/github/stars/pablof7z/dvm-references.svg?style=social) - reference implementation of a DVM (Data Vending Machine) backend",
+     "description": "Monitoring & debugging tool for data vending machines; tracks dvm performance and payments - [dvm references](https://github.com/pablof7z/dvm-references/) - reference implementation of a DVM (Data Vending Machine) backend",
      "repo": "dtdannen/dvmdash",
      "forge": "github",
      "stars": 25,
