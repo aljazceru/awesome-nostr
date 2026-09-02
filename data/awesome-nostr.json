@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "generated_at": "2026-09-02T12:12:41Z",
+  "generated_at": "2026-09-02T12:42:51Z",
   "source": "README.md",
   "sort_strategy": "hybrid",
   "counts": {
@@ -1669,8 +1669,8 @@
        "description": "Workspace where AI agents and humans collaborate on their own relay.",
        "repo": "block/buzz",
        "forge": "github",
-       "stars": 31919,
-       "last_active": "2026-09-02T11:48:09Z",
+       "stars": 31922,
+       "last_active": "2026-09-02T12:22:50Z",
        "sort_strategy": "hybrid"
       },
       {
@@ -1679,8 +1679,8 @@
        "description": "Group chat client by Block.",
        "repo": "block/sprout",
        "forge": "github",
-       "stars": 31919,
-       "last_active": "2026-09-02T11:48:09Z",
+       "stars": 31922,
+       "last_active": "2026-09-02T12:22:50Z",
        "sort_strategy": "hybrid"
       },
       {
@@ -1736,6 +1736,16 @@
        "sort_strategy": "hybrid"
       },
       {
+       "name": "OpenChat",
+       "url": "https://github.com/DavidGershony/openChat",
+       "description": "Open-source Nostr chat client.",
+       "repo": "DavidGershony/openChat",
+       "forge": "github",
+       "stars": 3,
+       "last_active": "2026-09-02T12:33:27Z",
+       "sort_strategy": "hybrid"
+      },
+      {
        "name": "nostter",
        "url": "https://github.com/SnowCait/nostter",
        "description": "Twitter-like web client",
@@ -1743,16 +1753,6 @@
        "forge": "github",
        "stars": 180,
        "last_active": "2026-09-02T11:56:27Z",
-       "sort_strategy": "hybrid"
-      },
-      {
-       "name": "OpenChat",
-       "url": "https://github.com/DavidGershony/openChat",
-       "description": "Open-source Nostr chat client.",
-       "repo": "DavidGershony/openChat",
-       "forge": "github",
-       "stars": 3,
-       "last_active": "2026-09-02T11:06:36Z",
        "sort_strategy": "hybrid"
       },
       {
@@ -7110,6 +7110,16 @@
    "sort_strategy": "hybrid",
    "items": [
     {
+     "name": "mostro",
+     "url": "https://github.com/MostroP2P/mostro",
+     "description": "Daemon for Lightning Network peer-to-peer exchange platform on Nostr (WIP)",
+     "repo": "MostroP2P/mostro",
+     "forge": "github",
+     "stars": 326,
+     "last_active": "2026-09-02T12:35:02Z",
+     "sort_strategy": "hybrid"
+    },
+    {
      "name": "mostro-cli",
      "url": "https://github.com/MostroP2P/mostro-cli",
      "description": "CLI client to operate with Mostro (WIP)",
@@ -7117,16 +7127,6 @@
      "forge": "github",
      "stars": 37,
      "last_active": "2026-09-02T12:08:21Z",
-     "sort_strategy": "hybrid"
-    },
-    {
-     "name": "mostro",
-     "url": "https://github.com/MostroP2P/mostro",
-     "description": "Daemon for Lightning Network peer-to-peer exchange platform on Nostr (WIP)",
-     "repo": "MostroP2P/mostro",
-     "forge": "github",
-     "stars": 326,
-     "last_active": "2026-09-02T12:07:34Z",
      "sort_strategy": "hybrid"
     },
     {
@@ -7182,7 +7182,7 @@
      "repo": "onekeyhq/app-monorepo",
      "forge": "github",
      "stars": 2432,
-     "last_active": "2026-09-02T12:12:09Z",
+     "last_active": "2026-09-02T12:32:37Z",
      "sort_strategy": "hybrid"
     },
     {
@@ -7439,46 +7439,6 @@
      "sort_strategy": "hybrid"
     },
     {
-     "name": "Npub.cash",
-     "url": "https://github.com/cashubtc/npubcash-server",
-     "description": "Lightning Address service backed by Cashu, accessible via your npub.",
-     "repo": "cashubtc/npubcash-server",
-     "forge": "github",
-     "stars": 51,
-     "last_active": "2026-09-01T11:37:16Z",
-     "sort_strategy": "hybrid"
-    },
-    {
-     "name": "cln-nip47",
-     "url": "https://github.com/daywalker90/cln-nip47",
-     "description": "Core Lightning (CLN) plugin to connect wallets via Nostr Wallet Connect (NWC)",
-     "repo": "daywalker90/cln-nip47",
-     "forge": "github",
-     "stars": 9,
-     "last_active": "2026-08-31T06:16:16Z",
-     "sort_strategy": "hybrid"
-    },
-    {
-     "name": "lawalletio/lawallet-nwc",
-     "url": "https://github.com/lawalletio/lawallet-nwc",
-     "description": "LaWallet v2 NWC",
-     "repo": "lawalletio/lawallet-nwc",
-     "forge": "github",
-     "stars": 3,
-     "last_active": "2026-08-26T05:29:14Z",
-     "sort_strategy": "hybrid"
-    },
-    {
-     "name": "Bitcoin Connect",
-     "url": "https://github.com/getAlby/bitcoin-connect",
-     "description": "Drop-in connect button for web apps to use NWC-compatible wallets.",
-     "repo": "getAlby/bitcoin-connect",
-     "forge": "github",
-     "stars": 152,
-     "last_active": "2026-08-13T13:49:21Z",
-     "sort_strategy": "hybrid"
-    },
-    {
      "name": "awesome-nwc",
      "url": "https://github.com/getAlby/awesome-nwc",
      "description": "Curated list of awesome projects implementing Nostr Wallet Connect (NWC)",
@@ -7536,26 +7496,6 @@
      "sort_strategy": "hybrid"
     },
     {
-     "name": "mcp-money",
-     "url": "https://github.com/pablof7z/mcp-money",
-     "description": "MCP server that exposes a Lightning wallet over NWC to AI agents.",
-     "repo": "pablof7z/mcp-money",
-     "forge": "github",
-     "stars": 17,
-     "last_active": "2025-06-05T22:52:29Z",
-     "sort_strategy": "hybrid"
-    },
-    {
-     "name": "mutiny-node",
-     "url": "https://github.com/MutinyWallet/mutiny-node",
-     "description": "Lightning node implementation that powers the Mutiny wallet, with NWC support.",
-     "repo": "MutinyWallet/mutiny-node",
-     "forge": "github",
-     "stars": 190,
-     "last_active": "2024-08-31T18:22:16Z",
-     "sort_strategy": "hybrid"
-    },
-    {
      "name": "Alby Go",
      "url": "https://albygo.com",
      "description": "A simple lightning mobile wallet interface that works great with Alby Hub.",
@@ -7583,6 +7523,66 @@
      "name": "YakiHonne",
      "url": "https://yakihonne.com/yakihonne-mobile-app",
      "description": "iOS and Android app",
+     "sort_strategy": "hybrid"
+    },
+    {
+     "name": "Npub.cash",
+     "url": "https://github.com/cashubtc/npubcash-server",
+     "description": "Lightning Address service backed by Cashu, accessible via your npub.",
+     "repo": "cashubtc/npubcash-server",
+     "forge": "github",
+     "stars": 51,
+     "last_active": "2026-09-01T11:37:16Z",
+     "sort_strategy": "hybrid"
+    },
+    {
+     "name": "cln-nip47",
+     "url": "https://github.com/daywalker90/cln-nip47",
+     "description": "Core Lightning (CLN) plugin to connect wallets via Nostr Wallet Connect (NWC)",
+     "repo": "daywalker90/cln-nip47",
+     "forge": "github",
+     "stars": 9,
+     "last_active": "2026-08-31T06:16:16Z",
+     "sort_strategy": "hybrid"
+    },
+    {
+     "name": "lawalletio/lawallet-nwc",
+     "url": "https://github.com/lawalletio/lawallet-nwc",
+     "description": "LaWallet v2 NWC",
+     "repo": "lawalletio/lawallet-nwc",
+     "forge": "github",
+     "stars": 3,
+     "last_active": "2026-08-26T05:29:14Z",
+     "sort_strategy": "hybrid"
+    },
+    {
+     "name": "Bitcoin Connect",
+     "url": "https://github.com/getAlby/bitcoin-connect",
+     "description": "Drop-in connect button for web apps to use NWC-compatible wallets.",
+     "repo": "getAlby/bitcoin-connect",
+     "forge": "github",
+     "stars": 152,
+     "last_active": "2026-08-13T13:49:21Z",
+     "sort_strategy": "hybrid"
+    },
+    {
+     "name": "mcp-money",
+     "url": "https://github.com/pablof7z/mcp-money",
+     "description": "MCP server that exposes a Lightning wallet over NWC to AI agents.",
+     "repo": "pablof7z/mcp-money",
+     "forge": "github",
+     "stars": 17,
+     "last_active": "2025-06-05T22:52:29Z",
+     "sort_strategy": "hybrid"
+    },
+    {
+     "name": "mutiny-node",
+     "url": "https://github.com/MutinyWallet/mutiny-node",
+     "description": "Lightning node implementation that powers the Mutiny wallet, with NWC support.",
+     "repo": "MutinyWallet/mutiny-node",
+     "forge": "github",
+     "stars": 190,
+     "last_active": "2024-08-31T18:22:16Z",
      "sort_strategy": "hybrid"
     },
     {
@@ -7644,7 +7644,7 @@
      "repo": "ZeusLN/zeus",
      "forge": "github",
      "stars": 1399,
-     "last_active": "2026-09-02T11:06:07Z",
+     "last_active": "2026-09-02T12:30:58Z",
      "zap": "https://nostr.net/grant/?zap=tips@pay.zeusln.app",
      "sort_strategy": "hybrid"
     },
@@ -8523,7 +8523,7 @@
      "repo": "adamdecaf/nostr-book",
      "forge": "github",
      "stars": 9,
-     "last_active": "2026-09-01T22:43:18Z",
+     "last_active": "2026-09-02T12:14:49Z",
      "sort_strategy": "hybrid"
     },
     {

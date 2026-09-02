@@ -218,8 +218,8 @@ Websites with lists of relays and their performance/health:
   - [iris.to](https://iris.to) - live instance
   - [Android app](https://play.google.com/store/apps/details?id=to.iris.twa)
 - [ygege](https://github.com/UwUDev/ygege)![stars](https://img.shields.io/github/stars/UwUDev/ygege.svg?style=social) -  Support Tor High-performance torrents indexer for services using the U2P system written in Rust.
-- [nostter](https://github.com/SnowCait/nostter)![stars](https://img.shields.io/github/stars/SnowCait/nostter.svg?style=social) - Twitter-like web client
 - [OpenChat](https://github.com/DavidGershony/openChat)![stars](https://img.shields.io/github/stars/DavidGershony/openChat.svg?style=social) - Open-source Nostr chat client.
+- [nostter](https://github.com/SnowCait/nostter)![stars](https://img.shields.io/github/stars/SnowCait/nostter.svg?style=social) - Twitter-like web client
 - [Plaza](https://github.com/zig-nostr/plaza)![stars](https://img.shields.io/github/stars/zig-nostr/plaza.svg?style=social) - A fast, local-first Nostr client for macOS, built natively in Zig. Guest-first, with a built-in isolated signer. (In development.)
 - [Lightning.Pub](https://github.com/shocknet/Lightning.Pub)![stars](https://img.shields.io/github/stars/shocknet/Lightning.Pub.svg?style=social) - A nostr daemon for Lightning nodes
 - [astraea](https://github.com/mouse484/astraea)![stars](https://img.shields.io/github/stars/mouse484/astraea.svg?style=social) - A nostr client
@@ -857,8 +857,8 @@ Websites with lists of relays and their performance/health:
 
 ## Peer-to-peer markets
 
-- [mostro-cli](https://github.com/MostroP2P/mostro-cli) ![stars](https://img.shields.io/github/stars/MostroP2P/mostro-cli.svg?style=social) - CLI client to operate with Mostro (WIP)
 - [mostro](https://github.com/MostroP2P/mostro) ![stars](https://img.shields.io/github/stars/MostroP2P/mostro.svg?style=social) -  Daemon for Lightning Network peer-to-peer exchange platform on Nostr (WIP)
+- [mostro-cli](https://github.com/MostroP2P/mostro-cli) ![stars](https://img.shields.io/github/stars/MostroP2P/mostro-cli.svg?style=social) - CLI client to operate with Mostro (WIP)
 - [n3xB](https://github.com/nobu-maeda/n3xb) ![stars](https://img.shields.io/github/stars/nobu-maeda/n3xb.svg?style=social) - Proposal for a Bitcoin exchange protocol and a globally shared order book on Nostr
 - [crusty-n3xb](https://github.com/nobu-maeda/crusty-n3xb) ![stars](https://img.shields.io/github/stars/nobu-maeda/crusty-n3xb.svg?style=social) - Rust library implementing the n3xB Bitcoin exchange protocol
 - [mostro-web](https://github.com/MostroP2P/mostro-web) ![stars](https://img.shields.io/github/stars/MostroP2P/mostro-web.svg?style=social) - Web client to operate with Mostro (WIP)
@@ -899,28 +899,29 @@ Allow you to sign Nostr events on web-apps without having to give them your keys
 ## NIP-47 Nostr Wallet Connect (NWC) implementations
 
 Clients (apps using NWC to access a LN wallet)
+
 - [Amethyst](https://github.com/vitorpamplona/amethyst)![stars](https://img.shields.io/github/stars/vitorpamplona/amethyst.svg?style=social) - Android-only app
 - [nostter](https://github.com/SnowCait/nostter)![stars](https://img.shields.io/github/stars/SnowCait/nostter.svg?style=social) - Twitter-like web client
-- [Npub.cash](https://github.com/cashubtc/npubcash-server)![stars](https://img.shields.io/github/stars/cashubtc/npubcash-server.svg?style=social) - Lightning Address service backed by Cashu, accessible via your npub.
-- [cln-nip47](https://github.com/daywalker90/cln-nip47)![stars](https://img.shields.io/github/stars/daywalker90/cln-nip47.svg?style=social) - Core Lightning (CLN) plugin to connect wallets via Nostr Wallet Connect (NWC)
-- [lawalletio/lawallet-nwc](https://github.com/lawalletio/lawallet-nwc)![stars](https://img.shields.io/github/stars/lawalletio/lawallet-nwc.svg?style=social) - LaWallet v2 NWC
-- [Bitcoin Connect](https://github.com/getAlby/bitcoin-connect)![stars](https://img.shields.io/github/stars/getAlby/bitcoin-connect.svg?style=social) - Drop-in connect button for web apps to use NWC-compatible wallets.
 - [awesome-nwc](https://github.com/getAlby/awesome-nwc)![stars](https://img.shields.io/github/stars/getAlby/awesome-nwc.svg?style=social) - Curated list of awesome projects implementing Nostr Wallet Connect (NWC)
 - [nostrcheck-server](https://github.com/quentintaranpino/nostrcheck-server)![stars](https://img.shields.io/github/stars/quentintaranpino/nostrcheck-server.svg?style=social) - server with relay, File Hosting, Nostr Address, Lightning Redirects, NWC and WoT.
 - [Nostrmo](https://github.com/haorendashu/nostrmo)![stars](https://img.shields.io/github/stars/haorendashu/nostrmo.svg?style=social) - A flutter nostr client for Android, IOS, MacOS, Windows, Web and Linux.
 - [ZapPlanner](https://github.com/getAlby/ZapPlanner)![stars](https://img.shields.io/github/stars/getAlby/ZapPlanner.svg?style=social) - Scheduled recurring lightning payments powered by Nostr Wallet Connect (NWC), enabling lightning subscriptions and bitcoin recurring payments
 - [Yana](https://github.com/frnandu/yana)![stars](https://img.shields.io/github/stars/frnandu/yana.svg?style=social) - Yana is a nostr client focused on performance in slower devices and modularity of features.
   - [yana.do](https://yana.do)
-- [mcp-money](https://github.com/pablof7z/mcp-money)![stars](https://img.shields.io/github/stars/pablof7z/mcp-money.svg?style=social) - MCP server that exposes a Lightning wallet over NWC to AI agents.
-
-Endpoints (services or apps that expose a LN wallet via NWC)
-
-- [mutiny-node](https://github.com/MutinyWallet/mutiny-node)![stars](https://img.shields.io/github/stars/MutinyWallet/mutiny-node.svg?style=social) - Lightning node implementation that powers the Mutiny wallet, with NWC support.
 - [Alby Go](https://albygo.com) - A simple lightning mobile wallet interface that works great with Alby Hub.
 - [Damus](https://damus.io/) - The OG nostr client for iOS
 - [Lume](https://lume.nu) - Cross-platform desktop app
 - [Nostur](https://nostur.com) - A nostr client for iPhone and macOS
 - [YakiHonne](https://yakihonne.com/yakihonne-mobile-app) - iOS and Android app
+
+Endpoints (services or apps that expose a LN wallet via NWC)
+
+- [Npub.cash](https://github.com/cashubtc/npubcash-server)![stars](https://img.shields.io/github/stars/cashubtc/npubcash-server.svg?style=social) - Lightning Address service backed by Cashu, accessible via your npub.
+- [cln-nip47](https://github.com/daywalker90/cln-nip47)![stars](https://img.shields.io/github/stars/daywalker90/cln-nip47.svg?style=social) - Core Lightning (CLN) plugin to connect wallets via Nostr Wallet Connect (NWC)
+- [lawalletio/lawallet-nwc](https://github.com/lawalletio/lawallet-nwc)![stars](https://img.shields.io/github/stars/lawalletio/lawallet-nwc.svg?style=social) - LaWallet v2 NWC
+- [Bitcoin Connect](https://github.com/getAlby/bitcoin-connect)![stars](https://img.shields.io/github/stars/getAlby/bitcoin-connect.svg?style=social) - Drop-in connect button for web apps to use NWC-compatible wallets.
+- [mcp-money](https://github.com/pablof7z/mcp-money)![stars](https://img.shields.io/github/stars/pablof7z/mcp-money.svg?style=social) - MCP server that exposes a Lightning wallet over NWC to AI agents.
+- [mutiny-node](https://github.com/MutinyWallet/mutiny-node)![stars](https://img.shields.io/github/stars/MutinyWallet/mutiny-node.svg?style=social) - Lightning node implementation that powers the Mutiny wallet, with NWC support.
 - [Alby NWC (Umbrel)](https://apps.umbrel.com/app/alby-nostr-wallet-connect) - Umbrel app for exposing your self-custodial Umbrel LN Wallet over NWC
 - [Alby NWC (Web)](https://nwc.getalby.com/) - Web portal for exposing your custodial Alby account over NWC
 - [Flash](https://paywithflash.com/) - Bitcoin payments solution based on NWC
@@ -928,7 +929,6 @@ Endpoints (services or apps that expose a LN wallet via NWC)
 - [Rizful](https://rizful.com) - Cloud lightning node with NWC support
 - [Alby Hub](https://albyhub.com) - Self-hosted Lightning node bundle exposing wallets via NWC.
 - [Wally](https://github.com/ArcadeCity/wally)![stars](https://img.shields.io/github/stars/ArcadeCity/wally.svg?style=social) - Lightning wallet with NWC support by ArcadeCity.
-
 
 ## NIP-57 Zaps compatible wallets and solutions
 

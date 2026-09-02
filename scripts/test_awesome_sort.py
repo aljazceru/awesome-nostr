@@ -194,6 +194,12 @@ class ParseReadmeTest(unittest.TestCase):
     def test_render_roundtrip_identity(self):
         self.assertEqual(aw.render_readme(self.doc), self.FIXTURE)
 
+    def test_render_roundtrip_preserves_crlf(self):
+        text = self.FIXTURE.replace("\n", "\r\n")
+        doc = aw.parse_readme(text)
+        aw.attach_children(doc)
+        self.assertEqual(aw.render_readme(doc), text)
+
     def test_fenced_code_blocks_are_not_items(self):
         text = (
             "## Contributing\n"
@@ -284,6 +290,67 @@ class SortTest(unittest.TestCase):
         cfg = dict(CFG, sections={"Test": {"strategy": "manual"}})
         aw.sort_blocks(section, cfg, NOW)
         self.assertEqual([b.item["name"] for b in section.blocks], ["A", "B"])
+
+    def test_text_labels_split_sort_groups(self):
+        text = (
+            "## NWC\n"
+            "- [OldClient](https://github.com/o/oc)![stars](https://img.shields.io/github/stars/o/oc.svg?style=social) - c1\n"
+            "- [NewClient](https://github.com/n/nc)![stars](https://img.shields.io/github/stars/n/nc.svg?style=social) - c2\n"
+            "Clients (apps using NWC)\n"
+            "- [OldEndpoint](https://github.com/o/oe)![stars](https://img.shields.io/github/stars/o/oe.svg?style=social) - e1\n"
+            "- [NewEndpoint](https://github.com/n/ne)![stars](https://img.shields.io/github/stars/n/ne.svg?style=social) - e2\n"
+            "Endpoints (services exposing a wallet)\n"
+            "- [Solo](https://github.com/s/so)![stars](https://img.shields.io/github/stars/s/so.svg?style=social) - s\n"
+        )
+        doc = aw.parse_readme(text)
+        aw.attach_children(doc)
+        cache = {
+            "repos": {
+                "github:o/oc": {"stars": 1, "last_active": "2020-01-01T00:00:00Z"},
+                "github:n/nc": {"stars": 1, "last_active": "2026-08-01T00:00:00Z"},
+                "github:o/oe": {"stars": 1, "last_active": "2020-01-01T00:00:00Z"},
+                "github:n/ne": {"stars": 1, "last_active": "2026-08-01T00:00:00Z"},
+                "github:s/so": {"stars": 1, "last_active": "2020-01-01T00:00:00Z"},
+            }
+        }
+        aw.apply_meta_to_doc(doc, cache)
+        aw.sort_blocks(doc["sections"][0], CFG, NOW)
+        rendered = aw.render_readme(doc)
+        # each side of the text labels sorts within its own group
+        before = rendered.split("Clients (apps using NWC)")[0]
+        between = rendered.split("Clients (apps using NWC)")[1].split("Endpoints (services exposing a wallet)")[0]
+        after = rendered.split("Endpoints (services exposing a wallet)")[1]
+        before_items = [l for l in before.split("\n") if l.startswith("- [")]
+        between_items = [l for l in between.split("\n") if l.startswith("- [")]
+        after_items = [l for l in after.split("\n") if l.startswith("- [")]
+        self.assertEqual([l.split("]")[0] for l in before_items], ["- [NewClient", "- [OldClient"])
+        self.assertEqual([l.split("]")[0] for l in between_items], ["- [NewEndpoint", "- [OldEndpoint"])
+        self.assertEqual([l.split("]")[0] for l in after_items], ["- [Solo"])
+        self.assertEqual(
+            [l for l in rendered.split("\n") if l.startswith("Clients") or l.startswith("Endpoints")],
+            ["Clients (apps using NWC)", "Endpoints (services exposing a wallet)"],
+        )
+
+    def test_empty_lines_do_not_split_groups(self):
+        text = (
+            "## Sec\n"
+            "- [Old](https://github.com/o/old)![stars](https://img.shields.io/github/stars/o/old.svg?style=social) - a\n"
+            "\n"
+            "- [New](https://github.com/n/new)![stars](https://img.shields.io/github/stars/n/new.svg?style=social) - b\n"
+        )
+        doc = aw.parse_readme(text)
+        aw.attach_children(doc)
+        cache = {
+            "repos": {
+                "github:o/old": {"stars": 1, "last_active": "2020-01-01T00:00:00Z"},
+                "github:n/new": {"stars": 1, "last_active": "2026-08-01T00:00:00Z"},
+            }
+        }
+        aw.apply_meta_to_doc(doc, cache)
+        aw.sort_blocks(doc["sections"][0], CFG, NOW)
+        rendered = aw.render_readme(doc)
+        self.assertTrue(rendered.index("- [New]") < rendered.index("- [Old]"))
+        self.assertIn("\n\n", rendered)  # blank line kept between entries
 
     def test_section_override(self):
         cfg = dict(CFG, sections={"Test": {"strategy": "stars"}})

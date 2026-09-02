@@ -438,18 +438,31 @@ def sort_blocks(section: Section, cfg: dict, now: datetime, parent_title: str | 
     section.strategy = strategy
     if strategy == "manual":
         return
-    items = [b for b in section.blocks if b.item is not None]
-    if len(items) < 2:
-        return
-    ordered = sorted(
-        items,
-        key=lambda b: compute_sort_key(b.item, strategy, cfg, now),
-        reverse=True,
-    )
-    iter_ordered = iter(ordered)
-    section.blocks = [
-        next(iter_ordered) if b.item is not None else b for b in section.blocks
-    ]
+    # split into contiguous runs of item blocks: non-empty text blocks act as
+    # group separators (e.g. inline "Clients (...)"/"Endpoints (...) labels),
+    # so entries never migrate across them; empty lines do not break a run
+    runs: list[list[int]] = []
+    current: list[int] = []
+    for i, block in enumerate(section.blocks):
+        if block.item is not None:
+            current.append(i)
+        elif any(line.strip() for line in block.lines):
+            if current:
+                runs.append(current)
+                current = []
+    if current:
+        runs.append(current)
+    for indices in runs:
+        if len(indices) < 2:
+            continue
+        run = [section.blocks[i] for i in indices]
+        ordered = sorted(
+            run,
+            key=lambda b: compute_sort_key(b.item, strategy, cfg, now),
+            reverse=True,
+        )
+        for idx, new_block in zip(indices, ordered):
+            section.blocks[idx] = new_block
 
 
 # ---------------------------------------------------------------------------
@@ -596,7 +609,7 @@ def main(argv=None) -> int:
             f"unknown strategy {cfg['strategy']!r}; valid: {', '.join(sorted(VALID_STRATEGIES))}"
         )
 
-    original = readme_path.read_text(encoding="utf-8")
+    original = readme_path.open(encoding="utf-8", newline="").read()
     doc = parse_readme(original)
     attach_children(doc)
 
@@ -631,7 +644,9 @@ def main(argv=None) -> int:
         if args.check:
             print("README.md is stale: entries not in configured sort order", file=sys.stderr)
             return 1
-        readme_path.write_text(updated, encoding="utf-8")
+        # newline='' keeps the README's original line endings byte-for-byte
+        with readme_path.open("w", encoding="utf-8", newline="") as fh:
+            fh.write(updated)
         print("README.md updated")
     else:
         print("README.md already up to date")
