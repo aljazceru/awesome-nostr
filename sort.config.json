@@ -1,0 +1,16 @@
+{
+  "strategy": "hybrid",
+  "star_threshold": 500,
+  "half_life_days": 180,
+  "fetch": {
+    "concurrency": 8,
+    "timeout_seconds": 20,
+    "retries": 1
+  },
+  "sections": {
+    "Most popular": { "strategy": "manual" },
+    "Deprecated/Defunct": { "strategy": "manual" },
+    "Contributing": { "strategy": "manual" },
+    "Contributors": { "strategy": "manual" }
+  }
+}

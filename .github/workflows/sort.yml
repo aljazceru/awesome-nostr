@@ -1,0 +1,82 @@
+name: Sort & sync
+
+on:
+  schedule:
+    - cron: "0 6 * * 1" # every Monday 06:00 UTC
+  workflow_dispatch:
+    inputs:
+      strategy:
+        description: "Sort strategy override (hybrid, last-active, stars, stars-weighted). Empty = repo default (sort.config.json, or vars.SORT_STRATEGY)."
+        required: false
+        default: ""
+      dry_run:
+        description: "Run the sorter but do not commit changes"
+        type: boolean
+        required: false
+        default: false
+  push:
+    branches: [main]
+    paths:
+      - "data/awesome-nostr.json"
+      - "data/repo-meta.json"
+      - "sort.config.json"
+      - "scripts/awesome_sort.py"
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: sort-and-sync
+  cancel-in-progress: false
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Unit tests
+        run: python -m unittest discover -s scripts -p "test_*.py" -v
+
+  sort:
+    needs: test
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Resolve strategy
+        id: strategy
+        env:
+          INPUT_STRATEGY: ${{ inputs.strategy }}
+          REPO_VARIABLE: ${{ vars.SORT_STRATEGY }}
+        run: |
+          args=()
+          strategy="${INPUT_STRATEGY:-${REPO_VARIABLE:-}}"
+          if [ -n "$strategy" ]; then
+            args+=(--strategy "$strategy")
+          fi
+          echo "args=${args[*]}" >> "$GITHUB_OUTPUT"
+      - name: Sort lists and refresh JSON data
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python scripts/awesome_sort.py ${{ steps.strategy.outputs.args }}
+      - name: Commit and push
+        if: inputs.dry_run != true
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain)" ]; then
+            git add -A
+            git commit -m "Re-sort lists and refresh machine-readable data ([skip ci])"
+            git push
+          else
+            echo "Nothing to update"
+          fi
