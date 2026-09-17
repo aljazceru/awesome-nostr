@@ -284,8 +284,6 @@ Websites with lists of relays and their performance/health:
   - [Android app](https://play.google.com/store/apps/details?id=to.iris.twa)
 - [Jester](https://github.com/jesterui/jesterui) ![stars](https://img.shields.io/github/stars/jesterui/jesterui.svg?style=social) - Chess over nostr
   - [Jester instance](https://jesterui.github.io/)
-- [JiYou](https://github.com/TimA314/JiYou)![stars](https://img.shields.io/github/stars/TimA314/JiYou.svg?style=social) - A nostr PWA client with a highly customizable UI
-  - [JiYou.social](https://JiYou.social) - live instance
 - [Jumble](https://github.com/CodyTseng/jumble)![stars](https://img.shields.io/github/stars/CodyTseng/jumble.svg?style=social) - A web client focused on browsing relay feeds [⚡ zap](https://nostr.net/grant/?zap=codytseng@getalby.com)
   - [jumble.social](https://jumble.social/) - live instance
 - [Lightning.Pub](https://github.com/shocknet/Lightning.Pub)![stars](https://img.shields.io/github/stars/shocknet/Lightning.Pub.svg?style=social) - A nostr daemon for Lightning nodes
@@ -528,7 +526,6 @@ Websites with lists of relays and their performance/health:
 - [nostr-hooks](https://github.com/ostyjs/nostr-hooks)![stars](https://img.shields.io/github/stars/ostyjs/nostr-hooks.svg?style=social) - React hooks for developing Nostr clients. It's simple and intelligent. [⚡ zap](https://nostr.net/grant/?zap=sepehr@getalby.com)
 - [nostr-java](https://github.com/tcheeric/nostr-java)![stars](https://img.shields.io/github/stars/tcheeric/nostr-java.svg?style=social) - A nostr client library, written in java, for generating, signing and publishing events.
 - [nostr-js](https://github.com/jb55/nostr-js)![stars](https://img.shields.io/github/stars/jb55/nostr-js.svg?style=social) - a javascript implementation of the nostr protocol
-- [nostr_lib](https://github.com/economic-agent/nostrkit)![stars](https://img.shields.io/github/stars/economic-agent/nostrkit.svg?style=social) - Pure-Python nostr toolkit: BIP340 Schnorr signing, NIP-01 events, NIP-04/NIP-44 encryption, and a raw relay WebSocket client. Zero dependencies, stdlib only, vector-verified.
 - [nostr_relay_management](https://github.com/anasfik/nostr_relay_management)![stars](https://img.shields.io/github/stars/anasfik/nostr_relay_management.svg?style=social) - Dart/Flutter support for NIP-86 (Relay Management) with better developer experience.
 
 - [nostr-one](https://github.com/dolu89/nostr-one)![stars](https://img.shields.io/github/stars/dolu89/nostr-one.svg?style=social) - A reusable web component that provides a simple way to integrate with nostr NIP 98 HTTP Auth.
@@ -629,7 +626,6 @@ Websites with lists of relays and their performance/health:
 - [gittr-helper-tools](https://github.com/arbadacarbaYK/gittr-helper-tools)![stars](https://img.shields.io/github/stars/arbadacarbaYK/gittr-helper-tools.svg?style=social) - Production code snippets from gittr.space: file fetching, URL normalization, GRASP detection, NIP-46 signer, NIP-25 stars, NIP-51 following, markdown media handling, and NIP-C0 code snippets.
 - [granary](https://github.com/snarfed/granary)![stars](https://img.shields.io/github/stars/snarfed/granary.svg?style=social) - Convert nostr content into atom, html, rss, json, indieweb feed, mastodon, microformats2, activitystreams, activitypub/fediverse, jsonfeed, and bluesky's atproto all with web and rest-api. 
   - [granary.io](https://granary.io/) - live instance 
-- [Gravity Swarm MCP](https://github.com/antoinedelorme/gravity-swarm-mcp)![stars](https://img.shields.io/github/stars/antoinedelorme/gravity-swarm-mcp.svg?style=social) - MCP server for an agent reputation network using Nostr BIP-340 signing.
 - [heyxynip5](https://github.com/bennyhodl/hexynip5)![stars](https://img.shields.io/github/stars/bennyhodl/hexynip5?style=social) - A CLI helper for converting nostr npub/nsec to their hex format for NIP-05 verification.
 - [homebrew-nostr](https://github.com/nostorg/homebrew-nostr)![stars](https://img.shields.io/github/stars/nostorg/homebrew-nostr?style=social) - Homebrew tap for Nostr software.
 - [hostr](https://github.com/studiokaiji/nostr-webhost)![stars](https://img.shields.io/github/stars/studiokaiji/nostr-webhost.svg?style=social) - nostr-webhost is a tool for hosting SPA on nostr
@@ -1006,7 +1002,6 @@ Endpoints (services or apps that expose a LN wallet via NWC)
 - [blossy](https://github.com/pippellia-btc/blossy)![stars](https://img.shields.io/github/stars/pippellia-btc/blossy.svg?style=social) - A framework for building fully custom Blossom servers, designed for the best developer experience. Supports all Blossom endpoints and allows developers to express custom business logic on top of a protocol-compliant foundation.
 - [blisk](https://github.com/pippellia-btc/blisk)![stars](https://img.shields.io/github/stars/pippellia-btc/blisk.svg?style=social) - An efficient, scalable, and deduplicated local blob storage that maintains metadata in SQLite. Fully compatible with Blossom, it gives developers a reliable database option for building their own Blossom servers.
 - [blossom servers](https://blossomservers.com/) - List of blossom servers
-- [blossom-npub-guard](https://github.com/SapienLearn/blossom-npub-guard)![stars](https://img.shields.io/github/stars/SapienLearn/blossom-npub-guard.svg?style=social) - Dependency-free TypeScript guard for clients: detects when an npub is the *host* of a Blossom npub-subdomain URL (npub1....blossom.band) so it isn't rewritten into a nostr: mention, which breaks the media URL. Ships tests for the full bug class.
 
 ## Games on Nostr
 
