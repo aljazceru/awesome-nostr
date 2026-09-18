@@ -269,6 +269,8 @@ Websites with lists of relays and their performance/health:
   - [gittr.space](https://gittr.space) - live instance
 - [Gitworkshop](https://github.com/DanConwayDev/gitworkshop)![stars](https://img.shields.io/github/stars/DanConwayDev/gitworkshop.svg?style=social) - Git is a Nostr and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
 - [gnost-deflate-client](https://github.com/barkyq/gnost-deflate-client)![stars](https://img.shields.io/github/stars/barkyq/gnost-deflate-client?style=social) - CLI nostr client written in go implementing permessage-deflate websocket compression.
+- [Goop](https://github.com/dergigi/goop)![stars](https://img.shields.io/github/stars/dergigi/goop.svg?style=social) - A native NIP-17 chat client for macOS, Windows, and Linux, with encrypted draft sync using NIP-37.
+  - [goop.dergigi.com](https://goop.dergigi.com) - Downloads and documentation.
 - [gossip](https://github.com/mikedilger/gossip)![stars](https://img.shields.io/github/stars/mikedilger/gossip.svg?style=social) - A desktop client in rust presented with egui
 - [Groups](https://github.com/max21dev/groups)![stars](https://img.shields.io/github/stars/max21dev/groups.svg?style=social) - NIP-29 Group Chat Web Client.
   - Live Instance: [groups.nip29.com](https://groups.nip29.com)
