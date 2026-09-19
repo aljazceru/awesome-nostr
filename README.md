@@ -47,6 +47,8 @@ nostr.net services [start.nostr.net](https://start.nostr.net) || [relay.nostr.ne
 - [Marmot Protocol](https://github.com/marmot-protocol/marmot)![stars](https://img.shields.io/github/stars/marmot-protocol/marmot.svg?style=social) - A messaging protocol specification for efficient end-to-end encrypted group messaging using Nostr's decentralized identity & relay network combined with the MLS Protocol.
 - [keytr](https://github.com/sovITxyz/keytr)![stars](https://img.shields.io/github/stars/sovITxyz/keytr.svg?style=social) - KEYS TRANSMITTED OVER RELAYS Nostr login protocol using WebAuthn passkeys to encrypt and distribute nsec keys
 - [gozzip](https://github.com/gozzip-protocol/gozzip)![stars](https://img.shields.io/github/stars/gozzip-protocol/gozzip.svg?style=social) - An open, censorship-resistant protocol for social media and messaging. Inherits Nostr's proven primitives — secp256k1 identity, signed events, relay transport — and adds a storage and retrieval layer where users own their data
+- [einundzwanzig-group](https://github.com/HolgerHatGarKeineNode/einundzwanzig-group)![stars](https://img.shields.io/github/stars/HolgerHatGarKeineNode/einundzwanzig-group.svg?style=social) - Nostr-Community-Client für EINUNDZWANZIG (Spaces, Räume, Directory, Chat, NIP-29) — Laravel · Livewire · Flux · welshman
+- [CypherGuide](https://github.com/greenweaveglobal/CypherGuide)![stars](https://img.shields.io/github/stars/greenweaveglobal/CypherGuide.svg?style=social) - Sovereign P2P lodging protocol — Nostr identity, Lightning/Cashu payments, no KYC, no gatekeeper.
 
 ## Relays
 
@@ -152,6 +154,7 @@ Websites with lists of relays and their performance/health:
 - [nostr.watch](https://nostr.watch)![stars](https://img.shields.io/github/stars/sandwichfarm/nostr-watch.svg?style=social) - real-time checking of the status of some known relays.
 - [relays.xport.top](https://relays.xport.top) - relays list sortable by ping, activity, etc.
 - [trustedrelays.xyz](https://trustedrelays.xyz) - relays list with trust scores for known relays using Trusted Relay Assertions.
+- [codedeck-plus](https://github.com/deymosh/codedeck-plus)![stars](https://img.shields.io/github/stars/deymosh/codedeck-plus.svg?style=social) - Self-hosted mobile control for Claude Code over end-to-end encrypted Nostr, with Tor/SOCKS5 and NIP-42 relay support.
 
 ## Clients
 ### Long form clients
@@ -575,6 +578,8 @@ Websites with lists of relays and their performance/health:
 - [nostr-sdk-flutter](https://github.com/rust-nostr/nostr-sdk-flutter)![stars](https://img.shields.io/github/stars/rust-nostr/nostr-sdk-flutter.svg?style=social) - Nostr protocol implementation, Relay, RelayPool, high-level client library, NWC client and more
 - [applesauce](https://github.com/hzrd149/applesauce)![stars](https://img.shields.io/github/stars/hzrd149/applesauce.svg?style=social) - Reactive Nostr framework with utilities for building reactive UIs and event stores.
 - [zod-nostr](https://github.com/akiomik/zod-nostr)![stars](https://img.shields.io/github/stars/akiomik/zod-nostr.svg?style=social) - Zod schemas and codecs for Nostr protocol events, identifiers, and relay messages, built on Zod v4 with optional signature verification.
+- [website](https://github.com/zig-nostr/website)![stars](https://img.shields.io/github/stars/zig-nostr/website.svg?style=social) - Documentation and showcase site for zig-nostr — the Nostr protocol library for Zig.
+- [xcode-nostr-sdk](https://github.com/RandyMcMillan/xcode-nostr-sdk)![stars](https://img.shields.io/github/stars/RandyMcMillan/xcode-nostr-sdk.svg?style=social) - xcode-nostr-sdk
 
 ## Bridges and Gateways
 
@@ -785,6 +790,8 @@ Websites with lists of relays and their performance/health:
 - [TENEX](https://github.com/tenex-chat/tenex)![stars](https://img.shields.io/github/stars/tenex-chat/tenex.svg?style=social) - AI agent orchestration platform on Nostr.
 - [TollGate](https://tollgate.me) - Pay-per-use Wi-Fi access using Nostr and Lightning.
 - [Yondar](https://go.yondar.me) - Location-based social discovery on Nostr.
+- [nostr-event-dom](https://github.com/Nostr-org-tr/nostr-event-dom)![stars](https://img.shields.io/github/stars/Nostr-org-tr/nostr-event-dom.svg?style=social) - A lightweight, zero-config Web Component (<nostr-event>) to embed and render Nostr events across any website or application.
+- [attest](https://github.com/briskness-byte/attest)![stars](https://img.shields.io/github/stars/briskness-byte/attest.svg?style=social) - A Nostr signer for Firefox that asks first
 
 ## NIP-05 identity services
 
