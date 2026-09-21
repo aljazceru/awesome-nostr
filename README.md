@@ -454,7 +454,7 @@ Websites with lists of relays and their performance/health:
 - [ONOSENDAI](https://github.com/arkin0x/cyberspace)![stars](https://img.shields.io/github/stars/arkin0x/cyberspace.svg?style=social) - Cyberspace metaverse client built on Nostr.
 - [Openvibe](https://openvibe.social) - Cross-protocol social client supporting Nostr, Mastodon and Bluesky.
 - [Phoenix](https://phoenix.social) - A Nostr social client.
-- [Roadstr](https://github.com/jooray/roadstr)![stars](https://img.shields.io/github/stars/jooray/roadstr.svg?style=social) - Bikers and motorists community client on Nostr.
+- [Roadstr](https://github.com/jooray/roadstr)![stars](https://img.shields.io/github/stars/jooray/roadstr.svg?style=social) - Bikers and motorists community client on Nostr. [⚡ zap](https://nostr.net/grant/?zap=juraj-bzzz@pay.cypherpunk.today)
 - [Seer](https://github.com/Galaxoid-Labs/Seer)![stars](https://img.shields.io/github/stars/Galaxoid-Labs/Seer.svg?style=social) - macOS Nostr client.
 - [Chachi](https://github.com/purrgrammer/chachi)![stars](https://img.shields.io/github/stars/purrgrammer/chachi.svg?style=social) - Group chat client for Nostr.
 - [Coolr](https://coolr.chat) - Nostr-based group chat application.
@@ -677,6 +677,7 @@ Websites with lists of relays and their performance/health:
 - [nostr-crdt](https://github.com/YousefED/nostr-crdt) ![stars](https://img.shields.io/github/stars/YousefED/nostr-crdt.svg?style=social) - Use Nostr for collaborative, decentralized, local-first applications with nostr-CRDT Yjs provider.
 - [nostr-delete](https://github.com/blakejakopovic/nostr_delete)![stars](https://img.shields.io/github/stars/blakejakopovic/nostr_delete.svg?style=social) - generate delete events requesting relays drop and delete content you've published. Blasts out delete requests to many relays. 
   - [nostr-delete web app](https://nostr-delete.vercel.app/)
+- [nostr-emanator](https://github.com/jooray/nostr-emanator)![stars](https://img.shields.io/github/stars/jooray/nostr-emanator.svg?style=social) - Post scheduling platform: pair accounts over NIP-46/Amber, then draft, schedule and publish posts and reposts. [⚡ zap](https://nostr.net/grant/?zap=juraj-bzzz@pay.cypherpunk.today)
 - [nostr-follow-bundler](https://github.com/leesalminen/nostr-follow-bundler)![stars](https://img.shields.io/github/stars/leesalminen/nostr-follow-bundler.svg?style=social) This tool lets you create lists of profiles that other users can then see and follow themselves.
 - [nostr-fzf](https://github.com/Cameri/nostr-fzf)![stars](https://img.shields.io/github/stars/Cameri/nostr-fzf.svg?style=social) - Nostr Directory; a tool for searching usernames and channels
 - [nostr-launch](https://codeberg.org/rsbondi/nostr-launch) - a tool for launching a bunch of relays and clients locally for development and testing
@@ -775,6 +776,7 @@ Websites with lists of relays and their performance/health:
 - [NEET](https://github.com/justinmoon/neet-native)![stars](https://img.shields.io/github/stars/justinmoon/neet-native.svg?style=social) - Native Nostr application toolkit.
 - [Nostrocket](https://github.com/nostrocket/oxygen)![stars](https://img.shields.io/github/stars/nostrocket/oxygen.svg?style=social) - Decentralized project management on Nostr.
 - [Nsite](https://nsite.run) - Static website hosting using Nostr events and Blossom.
+- [nsite-clay](https://github.com/jooray/nsite-clay)![stars](https://img.shields.io/github/stars/jooray/nsite-clay.svg?style=social) - A self-editable nsite: one HTML file that edits and republishes itself, hosted on Nostr. [⚡ zap](https://nostr.net/grant/?zap=juraj-bzzz@pay.cypherpunk.today)
 - [Nstart](https://nstart.me) - Onboarding wizard that helps new users create a Nostr identity.
 - [Routstr](https://routstr.com) - Decentralized routing/inference marketplace on Nostr.
 - [Spotstr](https://github.com/k0sti/spotstr)![stars](https://img.shields.io/github/stars/k0sti/spotstr.svg?style=social) - Location sharing client on Nostr.
