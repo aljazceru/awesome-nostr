@@ -163,7 +163,7 @@ Websites with lists of relays and their performance/health:
 - [readwithboris.com](https://www.readwithboris.com/) - Long form reading and highlighting app.
 - [blogo](https://github.com/pluja/blogo)![stars](https://img.shields.io/github/stars/pluja/blogo.svg?style=social) - A simple, fast and clean blog platform powered by Nostr.
 - [blogstack.io](https://blogstack.io) - Long-form publishing platform on Nostr.
-- [Boris](https://github.com/dergigi/boris)![stars](https://img.shields.io/github/stars/dergigi/boris.svg?style=social) - A Nostr long-form reading client.
+- [Boris](https://github.com/dergigi/boris)![stars](https://img.shields.io/github/stars/dergigi/boris.svg?style=social)[⚡ zap](https://nostr.net/grant/?zap=dergigi@primal.net) - A Nostr long-form reading client.
 - [Captain's Log](https://github.com/nodetec/captains-log)![stars](https://img.shields.io/github/stars/nodetec/captains-log.svg?style=social) - A Nostr-powered long-form journal application.
 - [MAKIMONO](https://makimono.lumilumi.app) - Long-form writing client by the Lumilumi team.
 - [Manent](https://manent.dtonon.com) - Long-form Nostr reading and writing client.
@@ -269,6 +269,8 @@ Websites with lists of relays and their performance/health:
   - [gittr.space](https://gittr.space) - live instance
 - [Gitworkshop](https://github.com/DanConwayDev/gitworkshop)![stars](https://img.shields.io/github/stars/DanConwayDev/gitworkshop.svg?style=social) - Git is a Nostr and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
 - [gnost-deflate-client](https://github.com/barkyq/gnost-deflate-client)![stars](https://img.shields.io/github/stars/barkyq/gnost-deflate-client?style=social) - CLI nostr client written in go implementing permessage-deflate websocket compression.
+- [Goop](https://github.com/dergigi/goop)![stars](https://img.shields.io/github/stars/dergigi/goop.svg?style=social)[⚡ zap](https://nostr.net/grant/?zap=dergigi@primal.net) - A native NIP-17 chat client for macOS, Windows, and Linux, with encrypted draft sync using NIP-37.
+  - [goop.dergigi.com](https://goop.dergigi.com) - Downloads and documentation.
 - [gossip](https://github.com/mikedilger/gossip)![stars](https://img.shields.io/github/stars/mikedilger/gossip.svg?style=social) - A desktop client in rust presented with egui
 - [Groups](https://github.com/max21dev/groups)![stars](https://img.shields.io/github/stars/max21dev/groups.svg?style=social) - NIP-29 Group Chat Web Client.
   - Live Instance: [groups.nip29.com](https://groups.nip29.com)
@@ -764,7 +766,7 @@ Websites with lists of relays and their performance/health:
 - [nostr-article-publish](https://github.com/madcato/nostr-article-publish)![stars](https://img.shields.io/github/stars/madcato/nostr-article-publish.svg?style=social) - A command-line tool written in Rust for publishing and deleting long-form content events (NIP-23) on the Nostr protocol. It supports validation of content, custom tags for articles, and interaction with multiple relays configured via a TOML file
 - [vertexlab.io](https://vertexlab.io/) - A set of tools and services for web-of-trust analysis, filtering, and search.
 - [Angor](https://angor.io) - Decentralized crowdfunding platform built on Bitcoin and Nostr.
-- [ants](https://github.com/dergigi/ants)![stars](https://img.shields.io/github/stars/dergigi/ants.svg?style=social) - Search and discovery utilities for Nostr.
+- [ants](https://github.com/dergigi/ants)![stars](https://img.shields.io/github/stars/dergigi/ants.svg?style=social)[⚡ zap](https://nostr.net/grant/?zap=dergigi@primal.net) - Search and discovery utilities for Nostr.
 - [Bitcredit E-Bills](https://www.bit.cr/) - Decentralized bills of exchange protocol with Nostr identity.
 - [Blossom Drive](https://github.com/hzrd149/blossom-drive)![stars](https://img.shields.io/github/stars/hzrd149/blossom-drive.svg?style=social) - File-sharing client built on top of Blossom and Nostr.
 - [Bouquet](https://bouquet.slidestr.net) - Blossom server browser and management tool.
