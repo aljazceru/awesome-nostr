@@ -462,6 +462,7 @@ Websites with lists of relays and their performance/health:
 - [garnet](https://github.com/murakmii/garnet)![stars](https://img.shields.io/github/stars/murakmii/garnet.svg?style=social) - Nostr messaging client.
 - [Marmota](https://groups.privdm.com) - MLS-based group chat on Nostr.
 - [OpenChat](https://github.com/DavidGershony/openChat)![stars](https://img.shields.io/github/stars/DavidGershony/openChat.svg?style=social) - Open-source Nostr chat client.
+- [Sanki](https://sanki.app) - Chess, ōgi and xiongqi playing each other on one 8×8 board; no sign-up, games are signed events (custom kinds 3418-3441, NIPs at [sashite/nostr](https://github.com/sashite/nostr))
 - [Sprout](https://github.com/block/sprout)![stars](https://img.shields.io/github/stars/block/sprout.svg?style=social) - Group chat client by Block.
 
 
