@@ -359,6 +359,7 @@ Websites with lists of relays and their performance/health:
 - [notestack.com](https://notestack.com)![stars](https://img.shields.io/github/stars/nodetec/notestack.svg?style=social) - Blogging site for nostr, supports markdown
 - [NOW - Nostr Outbox for Wordpress](https://github.com/Mnpezz/nostr-outbox-for-wordpress/tree/main)![stars](https://img.shields.io/github/stars/Mnpezz/nostr-outbox-for-wordpress.svg?style=social) - Send WordPress and WooCommerce notifications via Nostr instead of email. Includes Lightning payments at checkout, Nostr login, NIP-05 verification, and encrypted direct messaging.
 - [npub.world](https://npub.world/) - A nostr profile search engine
+- [nRreadr](https://gitworkshop.dev/npub1nreadrm474vljnnj42f4766a7fkg8jagrwa5438hdxecrpvr4zjq9pz28m/relay.ngit.dev/nreadr) - KOReader plugin that publishes ebook highlights to Nostr (NIP-84).
 - [Nuxstr](https://github.com/sebastix/nuxstr)![stars](https://img.shields.io/github/stars/sebastix/nuxstr.svg?style=social) - Starter template for building a Nostr client with the Nuxt Vue framework and Nostr Dev Kit (NDK). [⚡ zap](https://nostr.net/grant/?zap=sebastian@lnd.sebastix.com)
   - [nuxstr.nostrver.se](https://nuxstr.nostrver.se) - demo
 - [n_cord](https://github.com/0n4t3/n_cord)![stars](https://img.shields.io/github/stars/0n4t3/n_cord.svg?style=social) - A Discord inspired chat style client standard Nostr notes, built in static HTML & JavaScript.
