@@ -206,7 +206,8 @@ Websites with lists of relays and their performance/health:
 - [Pika](https://github.com/sledtools/pika)![stars](https://img.shields.io/github/stars/sledtools/pika.svg?style=social) -  End-to-end encrypted messaging for iOS, Android, and Desktop, built on MLS over Nostr.
 - [Zemzeme](https://github.com/whisperbit-labs/zemzeme-android)![stars](https://img.shields.io/github/stars/whisperbit-labs/zemzeme-android.svg?style=social) - Private, serverless messaging for Android — offline Bluetooth mesh, peer-to-peer, and Nostr relay. No accounts, no internet required
 - [VaultChat](https://vaultchat.pro) - Encrypted Android messenger built on Nostr. NIP-44 v2, groups, Decoy PIN. No phone number, no email, no server.
-- [LiberMedia](https://media.libernet.app)![stars](https://img.shields.io/github/stars/lucianocasalunga/libermedia-twa.svg?style=social) - Android + Web client with zaps, DMs, media and groups. [⚡ zap](https://nostr.net/grant/?zap=barak@blink.sv) [Google Play](https://play.google.com/store/apps/details?id=app.libernet.media)
+- [LiberMedia](https://media.libernet.app)![stars](https://img.shields.io/github/stars/lucianocasalunga/libermedia-twa.svg?style=social) - Web PWA client with zaps, DMs, media and groups. [⚡ zap](https://nostr.net/grant/?zap=barak@blink.sv)
+- [LiberMedia Android](https://play.google.com/store/apps/details?id=app.libernet.media)![stars](https://img.shields.io/github/stars/lucianocasalunga/libermedia-twa.svg?style=social) - Android client with zaps, DMs, media and groups. [⚡ zap](https://nostr.net/grant/?zap=barak@blink.sv) [Google Play](https://play.google.com/store/apps/details?id=app.libernet.media)
 - [Makoré](https://makore.libernet.app)![stars](https://img.shields.io/github/stars/lucianocasalunga/makore-twa.svg?style=social) - End-to-end encrypted messenger with NIP-17/NIP-44 DMs, group chats and zaps. Android + Web. [⚡ zap](https://nostr.net/grant/?zap=barak@blink.sv)
 
 ### Other  
