@@ -283,6 +283,9 @@ Websites with lists of relays and their performance/health:
 - [iris](https://github.com/irislib/iris-messenger)![stars](https://img.shields.io/github/stars/irislib/iris-messenger.svg?style=social) - A nostr web client
   - [iris.to](https://iris.to) - live instance
   - [Android app](https://play.google.com/store/apps/details?id=to.iris.twa)
+- [Iris Chat](https://github.com/irislib/iris-chat)![stars](https://img.shields.io/github/stars/irislib/iris-chat.svg?style=social) - Decentralized end-to-end encrypted messenger using the double-ratchet protocol, with no email or phone registration
+  - [chat.iris.to](https://chat.iris.to) - web app
+  - [Native apps and CLI](https://github.com/irislib/iris-chat-rs) - includes a command-line client for scripts and agents
 - [Jester](https://github.com/jesterui/jesterui) ![stars](https://img.shields.io/github/stars/jesterui/jesterui.svg?style=social) - Chess over nostr
   - [Jester instance](https://jesterui.github.io/)
 - [Jumble](https://github.com/CodyTseng/jumble)![stars](https://img.shields.io/github/stars/CodyTseng/jumble.svg?style=social) - A web client focused on browsing relay feeds [⚡ zap](https://nostr.net/grant/?zap=codytseng@getalby.com)
@@ -757,7 +760,7 @@ Websites with lists of relays and their performance/health:
 - [Undocumented Kinds](https://undocumented.nostrkinds.info/) - lists note kinds that are not documented in the NIPs repo
 - [relay-agent](https://bitmacro.io/relay-manager)![stars](https://img.shields.io/github/stars/bitmacro/relay-agent.svg?style=social) - REST API agent for Nostr relay management. Wraps strfry CLI into an authenticated HTTP API for events, whitelist, and stats. Pairs with [relay-panel](https://relay-panel.bitmacro.io) for visual management without touching the terminal.
 - [relay-panel](https://relay-panel.bitmacro.io)![stars](https://img.shields.io/github/stars/bitmacro/relay-panel.svg?style=social) - Visual web dashboard for Nostr relay operators. Events feed, access control (whitelist/blocklist), LMDB stats, and identity resolution. Pairs with relay-agent. No terminal required.
-- [nostr-vpn](https://github.com/mmalmi/nostr-vpn)![stars](https://img.shields.io/github/stars/mmalmi/nostr-vpn.svg?style=social) - Tailscale-style mesh VPN control plane built on Nostr signaling and userspace WireGuard
+- [nostr-vpn](https://github.com/mmalmi/nostr-vpn)![stars](https://img.shields.io/github/stars/mmalmi/nostr-vpn.svg?style=social) - Tailscale-style private mesh VPN with Nostr identities and signed enrollment rosters, a FIPS data plane, subnet routes, and exit nodes
 - [nos.today](https://github.com/darashi/nos.today)![stars](https://img.shields.io/github/stars/darashi/nos.today.svg?style=social) - Nostr NIP-50 search web client for searching across Nostr relays
 - [ehagaki](https://github.com/Lokuyow/ehagaki)![stars](https://img.shields.io/github/stars/Lokuyow/ehagaki.svg?style=social) - A lightweight, post-only Nostr client that compresses media on your device for fast, data-efficient uploads
 - [nostr-article-publish](https://github.com/madcato/nostr-article-publish)![stars](https://img.shields.io/github/stars/madcato/nostr-article-publish.svg?style=social) - A command-line tool written in Rust for publishing and deleting long-form content events (NIP-23) on the Nostr protocol. It supports validation of content, custom tags for articles, and interaction with multiple relays configured via a TOML file
@@ -1006,6 +1009,10 @@ Endpoints (services or apps that expose a LN wallet via NWC)
 - [blossy](https://github.com/pippellia-btc/blossy)![stars](https://img.shields.io/github/stars/pippellia-btc/blossy.svg?style=social) - A framework for building fully custom Blossom servers, designed for the best developer experience. Supports all Blossom endpoints and allows developers to express custom business logic on top of a protocol-compliant foundation.
 - [blisk](https://github.com/pippellia-btc/blisk)![stars](https://img.shields.io/github/stars/pippellia-btc/blisk.svg?style=social) - An efficient, scalable, and deduplicated local blob storage that maintains metadata in SQLite. Fully compatible with Blossom, it gives developers a reliable database option for building their own Blossom servers.
 - [blossom servers](https://blossomservers.com/) - List of blossom servers
+- [hashtree](https://github.com/mmalmi/hashtree)![stars](https://img.shields.io/github/stars/mmalmi/hashtree.svg?style=social) - Content-addressed storage for files and Git, with encrypted data on Blossom servers or peers and mutable Nostr names
+  - [hashtree.cc](https://hashtree.cc) - introduction and documentation
+  - [git.iris.to](https://git.iris.to) - web interface for Git repositories
+  - [git-remote-htree](https://github.com/mmalmi/hashtree/tree/master/rust/crates/git-remote-htree) - Git remote helper for cloning, pushing, and pulling repositories over Nostr and hashtree
 
 ## Games on Nostr
 
