@@ -496,7 +496,9 @@ searchInput.addEventListener('input', (e) => {
     
     if (!searchTerm) {
         // If search is empty, restore current category view
-        const currentCategory = document.querySelector('.nav-links a.active')?.textContent;
+        // (the nav link's textContent carries the icon markup's whitespace,
+        // so it must be trimmed to match the keys in window.parsedResources)
+        const currentCategory = document.querySelector('.nav-links a.active')?.textContent.trim();
         if (currentCategory) {
             displaySection(currentCategory, window.parsedResources);
         }
