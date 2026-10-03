@@ -213,7 +213,7 @@ Websites with lists of relays and their performance/health:
 - [Makoré](https://makore.libernet.app)![stars](https://img.shields.io/github/stars/lucianocasalunga/makore-twa.svg?style=social) - End-to-end encrypted messenger with NIP-17/NIP-44 DMs, group chats and zaps. Android + Web. [⚡ zap](https://nostr.net/grant/?zap=barak@blink.sv)
 
 ### Other  
-- [Agora](https://agorasocial.app) ![stars](https://img.shields.io/github/stars/ghobs91/agora.svg?style=social) - Follow your favorite topics in nostr-verse (and even posts from Mastodon, Reddit, Bluesky, and Twitter)
+- [Agora](https://github.com/ghobs91/Agora) ![stars](https://img.shields.io/github/stars/ghobs91/agora.svg?style=social) - Follow your favorite topics in nostr-verse (and even posts from Mastodon, Reddit, Bluesky, and Twitter)
 - [Alexandria](https://github.com/ShadowySupercode/gc-alexandria)![stars](https://img.shields.io/github/stars/ShadowySupercode/gc-alexandria.svg?style=social) - A Knowledge Base and future eReader app. Focuses on the implementation of [NKBIP-01](https://wikifreedia.xyz/nkbip-01)
 - [algia-web](https://github.com/ryogrid/algia-web)![stars](https://img.shields.io/github/stars/ryogrid/algia-web.svg?style=social) - A small resource consumption oriented Nostr web client
 - [algia](https://github.com/mattn/algia)![stars](https://img.shields.io/github/stars/mattn/algia.svg?style=social) - A cli application for nostr.
@@ -309,7 +309,6 @@ Websites with lists of relays and their performance/health:
 - [MeShell](https://github.com/BEEBSDONE/MeShell_Nodejs)![stars](https://img.shields.io/github/stars/BEEBSDONE/MeShell_Nodejs.svg?style=social) - Web, iOS, and Android blog type client destined to publish articles and researches for independent journalists.
   - [MeShell.io](https://meshell.io) - Landing page for more information
 - [Meetstr](https://github.com/gillohner/meetstr)![stars](https://img.shields.io/github/stars/gillohner/meetstr.svg?style=social) - Meetstr is a nostr client for discovering, viewing, and managing NIP-52 based calendars for Meetups and community events.
-  - [meetstr.com](https://meetstr.com/) - live instance
 - [Minds](https://www.minds.com/) - open source social network. Supports reading and creating posts using the nostr protocol
 - [more-speech](https://github.com/unclebob/more-speech)![stars](https://img.shields.io/github/stars/unclebob/more-speech.svg?style=social) - desktop client for nostr written in Clojure
 - [moStard](https://mostard.org) - Nostr web client with Monero tips.
@@ -344,7 +343,6 @@ Websites with lists of relays and their performance/health:
 - [Nostree](https://github.com/gzuuus/linktr-nostr)![stars](https://img.shields.io/github/stars/gzuuus/linktr-nostr.svg?style=social) - [nostree.me](https://nostree.me) A Nostr-based application linktree-style to create, manage and discover link lists, show notes and other stuff.
 - [NostrEmitter](https://github.com/cmdruid/nostr-emitter)![stars](https://img.shields.io/github/stars/cmdruid/nostr-emitter.svg?style=social) - Simple E2E encrypted client and EventEmitter object
 - [Nostribe.com](https://github.com/sepehr-safari/nostribe-web-client) ![stars](https://img.shields.io/github/stars/sepehr-safari/nostribe-web-client.svg?style=social) - Nostr client web app built with Next.js 13 and TypeScript.
-  - [Nostribe.com](https://nostribe.com/) - Live instance.
 - [AllSocial.me](https://allsocial.me/) - Linktree-like application for social media links based on nostr.
 - [Nostrid](https://github.com/lapulpeta/Nostrid)![stars](https://img.shields.io/github/stars/lapulpeta/Nostrid.svg?style=social) - Multi-platform client currently offering binaries for Android, Windows, MacOS and Linux.
   - [Nostrid.Web](https://web.nostrid.app/) - Web version running completely on the browser. It can be installed locally as PWA.
@@ -422,7 +420,7 @@ Websites with lists of relays and their performance/health:
   - [vectorapp.io](https://vectorapp.io)
 - [Vega](https://github.com/hoornet/vega)![stars](https://img.shields.io/github/stars/hoornet/vega.svg?style=social) - A client for Linux, Windows and macOS (Tauri + React), with long-form writing and reading (NIP-23), V4V podcast streaming, WoT filtering and an optional built-in relay. [⚡ zap](https://nostr.net/grant/?zap=jure@getalby.com)
   - [veganostr.com](https://veganostr.com/)
-- [Votestr](https://votestr.com/)![stars](https://img.shields.io/github/stars/vilm3r/votestr.svg?style=social) - Poll web app with nostr authentication and blind signature unlinkability
+- [Votestr](https://github.com/vilm3r/votestr)![stars](https://img.shields.io/github/stars/vilm3r/votestr.svg?style=social) - Poll web app with nostr authentication and blind signature unlinkability
 - [Voyage](https://github.com/dluvian/voyage)![stars](https://img.shields.io/github/stars/dluvian/voyage.svg?style=social) - Lightweight Android client with a Reddit-like UI
 - [Wherostr](https://github.com/mapboss/wherostr_social)![stars](https://img.shields.io/github/stars/mapboss/wherostr_social.svg?style=social) - A decentralized geo-social for iOS & Android.
 - [White Noise](https://github.com/marmot-protocol/whitenoise)![stars](https://img.shields.io/github/stars/marmot-protocol/whitenoise.svg?style=social) - Secure group messenger using the Marmot Protocol (MLS + Nostr) with forward secrecy. Available for Android, iOS, macOS, Linux, and as a [TUI](https://github.com/marmot-protocol/wn-tui).
@@ -493,7 +491,7 @@ Websites with lists of relays and their performance/health:
 - [Lantern]([https://pinstr.co/](https://gitworkshop.dev/fiatjaf.com/lantern)) - Collaboratively annotate, highlight, and bookmark web pages and PDF documents on Nostr.
 - [MKPinja](https://github.com/sepehr-safari/mkpinja)![stars] - A decentralized bookmarking service built on the Nostr protocol, inspired by Pinboard.in. MKPinja implements NIP-B0 for web bookmarking, giving users complete ownership and control over their bookmark data.
 - [Pinja](https://github.com/sepehr-safari/pinja)![stars] - Pinja is a modern social bookmarking platform built on the Nostr protocol, designed to help users collect, organize, and explore valuable content from across the web.
-- [Pinstr](https://pinstr.co/) - Pinstr is a bookmark manager that uses Nostr to store and sync your bookmarks.
+- [Pinstr](https://github.com/zeroxbob/pinstr) - Pinstr is a bookmark manager that uses Nostr to store and sync your bookmarks.
 - [Yumyume](https://gitlab.com/digitalethicsagency/nostr/yumyume) - yumyume is an free open-source, decentralized social bookmarking client powered by the Nostr protocol. Inspired by del.icio.us, yumyume ensures your bookmarks remain accessible without the risk of being shut down by corporate interests.
 
 ### Client reviews and/or comparisons
@@ -964,7 +962,6 @@ Endpoints (services or apps that expose a LN wallet via NWC)
 ## NIP-90 Data vending machines
 - [agentdex](https://agentdex.id) - Open directory and identity layer for AI agents built on Nostr. Verifiable identity (NIP-05), capability discovery, and Bitcoin Lightning payments
 - [data vending machine example](https://github.com/pablof7z/nostr-data-vending-machine)![stars](https://img.shields.io/github/stars/pablof7z/nostr-data-vending-machine.svg?style=social) -  Nostr data vending machine example  by Pablof7z
-- [data-vending-machines.org](https://www.data-vending-machines.org/) - This website provides specs of the different NIP-90 Data Vending Machine kinds
 - [DVM Clients and Services Tutorial](https://www.youtube.com/watch?v=dAuLnNxU0Yg) - Nostr Data Vending Machine Clients and Services Tutorial by Kody Low
 - [DVMCP: Data Vending Machine Context Protocol](https://github.com/gzuuus/dvmcp) - DVMCP is a bridge implementation that connects Model Context Protocol (MCP) servers to Nostr's Data Vending Machine ecosystem 
 - [DVMDash](https://dvmdash.live/)![stars](https://img.shields.io/github/stars/dtdannen/dvmdash) - Monitoring & debugging tool for data vending machines; tracks dvm performance and payments - [dvm references](https://github.com/pablof7z/dvm-references/)![stars](https://img.shields.io/github/stars/pablof7z/dvm-references.svg?style=social) - reference implementation of a DVM (Data Vending Machine) backend
@@ -977,7 +974,7 @@ Endpoints (services or apps that expose a LN wallet via NWC)
 - [dvm-textgen](https://github.com/joelklabo/dvm-textgen)![stars](https://img.shields.io/github/stars/joelklabo/dvm-textgen.svg?style=social) - NIP-90 text generation DVM (kind 5050) in Go, paid via Lightning
 - [dvm-imagegen](https://github.com/joelklabo/dvm-imagegen)![stars](https://img.shields.io/github/stars/joelklabo/dvm-imagegen.svg?style=social) - NIP-90 image generation DVM (kind 5100) in Go, paid via Lightning
 - [tasktiger.io](https://tasktiger.io/) - another DVM provider
-- [vendata.io](https://vendata.io/) - data processing AI marketplace with nostr data vending machines
+- [vendata.io](https://github.com/pablof7z/vendata.io) - data processing AI marketplace with nostr data vending machines
 - [vertexlab.io](https://vertexlab.io/) -  Web of Trust as a Service via DVMs
 - [2020117](https://github.com/qingfeng/2020117)![stars](https://img.shields.io/github/stars/qingfeng/2020117.svg?style=social) - A decentralized agent network on Nostr
   - [2020117.xyz](https://2020117.xyz)
