@@ -15,6 +15,7 @@ nostr.net services [start.nostr.net](https://start.nostr.net) || [relay.nostr.ne
 - [Amethyst](https://www.amethyst.social/) - Android-only app [⚡ zap](https://nostr.net/grant/?zap=vitor@vitorpamplona.com)
 - [Primal](https://primal.net/downloads) - iOS and Android apps [⚡ zap](https://nostr.net/grant/?zap=miljan@primal.net)
 - [YakiHonne](https://yakihonne.com/yakihonne-mobile-app) - iOS and Android app [⚡ zap](https://nostr.net/grant/?zap=yakihonne@getalby.com)
+- [statim](https://github.com/alaibe/statim)![stars](https://img.shields.io/github/stars/alaibe/statim.svg?style=social) - Self-custodial messenger. Your account is twelve words on your device: encrypted chats over XMTP, Nostr and Waku, Telegram and Matrix in the same inbox, and a wallet in the conversation. iOS, macOS, Windows, Linux, Android.
 
 ### Web clients
 - [primal.net](https://primal.net/) [⚡ zap](https://nostr.net/grant/?zap=miljan@primal.net)
@@ -47,6 +48,7 @@ nostr.net services [start.nostr.net](https://start.nostr.net) || [relay.nostr.ne
 - [Marmot Protocol](https://github.com/marmot-protocol/marmot)![stars](https://img.shields.io/github/stars/marmot-protocol/marmot.svg?style=social) - A messaging protocol specification for efficient end-to-end encrypted group messaging using Nostr's decentralized identity & relay network combined with the MLS Protocol.
 - [keytr](https://github.com/sovITxyz/keytr)![stars](https://img.shields.io/github/stars/sovITxyz/keytr.svg?style=social) - KEYS TRANSMITTED OVER RELAYS Nostr login protocol using WebAuthn passkeys to encrypt and distribute nsec keys
 - [gozzip](https://github.com/gozzip-protocol/gozzip)![stars](https://img.shields.io/github/stars/gozzip-protocol/gozzip.svg?style=social) - An open, censorship-resistant protocol for social media and messaging. Inherits Nostr's proven primitives — secp256k1 identity, signed events, relay transport — and adds a storage and retrieval layer where users own their data
+- [opal](https://github.com/derekross/opal)![stars](https://img.shields.io/github/stars/derekross/opal.svg?style=social) - Nostr in your Omarchy bar: NIP-46 signer (bunker) with your nsec in the keyring, notifications, and NIP-38 now-playing/status
 
 ## Relays
 
@@ -153,6 +155,7 @@ Websites with lists of relays and their performance/health:
 - [nostr.watch](https://nostr.watch)![stars](https://img.shields.io/github/stars/sandwichfarm/nostr-watch.svg?style=social) - real-time checking of the status of some known relays.
 - [relays.xport.top](https://relays.xport.top) - relays list sortable by ping, activity, etc.
 - [trustedrelays.xyz](https://trustedrelays.xyz) - relays list with trust scores for known relays using Trusted Relay Assertions.
+- [styx](https://github.com/styx-secure/styx)![stars](https://img.shields.io/github/stars/styx-secure/styx.svg?style=social) - Experimental secure application substrate for sensitive workflows: self-custodied identity, E2EE collaboration, verifiable state, offline operation, and untrusted relay infrastructure. Building toward Themis,   privacy-preserving case management.
 
 ## Clients
 ### Long form clients
@@ -579,6 +582,7 @@ Websites with lists of relays and their performance/health:
 - [nostr-sdk-flutter](https://github.com/rust-nostr/nostr-sdk-flutter)![stars](https://img.shields.io/github/stars/rust-nostr/nostr-sdk-flutter.svg?style=social) - Nostr protocol implementation, Relay, RelayPool, high-level client library, NWC client and more
 - [applesauce](https://github.com/hzrd149/applesauce)![stars](https://img.shields.io/github/stars/hzrd149/applesauce.svg?style=social) - Reactive Nostr framework with utilities for building reactive UIs and event stores.
 - [zod-nostr](https://github.com/akiomik/zod-nostr)![stars](https://img.shields.io/github/stars/akiomik/zod-nostr.svg?style=social) - Zod schemas and codecs for Nostr protocol events, identifiers, and relay messages, built on Zod v4 with optional signature verification.
+- [sidestr-rs](https://github.com/DreamLab-AI/sidestr-rs)![stars](https://img.shields.io/github/stars/DreamLab-AI/sidestr-rs.svg?style=social) - sidestr-rs — Rust port of Melvin Carvalho's sidestr sidechains, AGPL-3.0-only: the economic engine for did:nostr agents. A did:nostr key is a sidechain wallet.
 
 ## Bridges and Gateways
 
@@ -791,6 +795,8 @@ Websites with lists of relays and their performance/health:
 - [TENEX](https://github.com/tenex-chat/tenex)![stars](https://img.shields.io/github/stars/tenex-chat/tenex.svg?style=social) - AI agent orchestration platform on Nostr.
 - [TollGate](https://tollgate.me) - Pay-per-use Wi-Fi access using Nostr and Lightning.
 - [Yondar](https://go.yondar.me) - Location-based social discovery on Nostr.
+- [blaze](https://github.com/fiatjaf/blaze)![stars](https://img.shields.io/github/stars/fiatjaf/blaze.svg?style=social) - Full Text Search Engine - built for Hackers not Hyperscalers
+- [maple-shim](https://github.com/SovereignTechnology/maple-shim)![stars](https://img.shields.io/github/stars/SovereignTechnology/maple-shim.svg?style=social) - Mirror of nostr://npub1s0vtechh66tx7vrwdud8zfyheu9zca7swwfrzd4qu2a4f93mxs6qvn9adx/git.sovit.xyz/maple-shim — the SovTech Maple access layer: key broker, Max/Pro quota failover, and the patched maple-proxy.
 
 ## NIP-05 identity services
 
