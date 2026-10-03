@@ -15,7 +15,7 @@ nostr.net services [start.nostr.net](https://start.nostr.net) || [relay.nostr.ne
 - [Amethyst](https://www.amethyst.social/) - Android-only app [⚡ zap](https://nostr.net/grant/?zap=vitor@vitorpamplona.com)
 - [Primal](https://primal.net/downloads) - iOS and Android apps [⚡ zap](https://nostr.net/grant/?zap=miljan@primal.net)
 - [YakiHonne](https://yakihonne.com/yakihonne-mobile-app) - iOS and Android app [⚡ zap](https://nostr.net/grant/?zap=yakihonne@getalby.com)
-- [statim](https://github.com/alaibe/statim)![stars](https://img.shields.io/github/stars/alaibe/statim.svg?style=social) - Self-custodial messenger. Your account is twelve words on your device: encrypted chats over XMTP, Nostr and Waku, Telegram and Matrix in the same inbox, and a wallet in the conversation. iOS, macOS, Windows, Linux, Android.
+
 
 ### Web clients
 - [primal.net](https://primal.net/) [⚡ zap](https://nostr.net/grant/?zap=miljan@primal.net)
@@ -155,6 +155,9 @@ Websites with lists of relays and their performance/health:
 - [nostr.watch](https://nostr.watch)![stars](https://img.shields.io/github/stars/sandwichfarm/nostr-watch.svg?style=social) - real-time checking of the status of some known relays.
 - [relays.xport.top](https://relays.xport.top) - relays list sortable by ping, activity, etc.
 - [trustedrelays.xyz](https://trustedrelays.xyz) - relays list with trust scores for known relays using Trusted Relay Assertions.
+- [nostrich-client](https://github.com/nostrichOS/nostrich-client)![stars](https://img.shields.io/github/stars/nostrichOS/nostrich-client.svg?style=social) - Nostrich is a free and open-source Nostr client. Notes, profiles and media live on Nostr relays and are not hosted by Nostrich. Your keys are your account, your notes live on relays anyone can run.
+- [nostr-no-su](https://github.com/neverclear86/nostr-no-su)![stars](https://img.shields.io/github/stars/neverclear86/nostr-no-su.svg?style=social) - Nostr bunker (NIP-46) and utility server in Gleam/BEAM
+- [watchtower](https://github.com/fiatjaf/watchtower)![stars](https://img.shields.io/github/stars/fiatjaf/watchtower.svg?style=social) - An admin panel for relays that speak NIP-86, the relay management API.
 - [styx](https://github.com/styx-secure/styx)![stars](https://img.shields.io/github/stars/styx-secure/styx.svg?style=social) - Experimental secure application substrate for sensitive workflows: self-custodied identity, E2EE collaboration, verifiable state, offline operation, and untrusted relay infrastructure. Building toward Themis,   privacy-preserving case management.
 
 ## Clients
@@ -470,6 +473,9 @@ Websites with lists of relays and their performance/health:
 - [OpenChat](https://github.com/DavidGershony/openChat)![stars](https://img.shields.io/github/stars/DavidGershony/openChat.svg?style=social) - Open-source Nostr chat client.
 - [Sanki](https://sanki.app) - Chess, ōgi and xiongqi playing each other on one 8×8 board; no sign-up, games are signed events (custom kinds 3418-3441, NIPs at [sashite/nostr](https://github.com/sashite/nostr))
 - [Sprout](https://github.com/block/sprout)![stars](https://img.shields.io/github/stars/block/sprout.svg?style=social) - Group chat client by Block.
+- [verdana](https://github.com/fiatjaf/verdana)![stars](https://img.shields.io/github/stars/fiatjaf/verdana.svg?style=social) - napp runner for desktop and android
+- [statim](https://github.com/alaibe/statim)![stars](https://img.shields.io/github/stars/alaibe/statim.svg?style=social) - Self-custodial messenger. Your account is twelve words on your device: encrypted chats over XMTP, Nostr and Waku, Telegram and Matrix in the same inbox, and a wallet in the conversation. iOS, macOS, Windows, Linux, Android.
+
 
 
 
@@ -792,6 +798,8 @@ Websites with lists of relays and their performance/health:
 - [TENEX](https://github.com/tenex-chat/tenex)![stars](https://img.shields.io/github/stars/tenex-chat/tenex.svg?style=social) - AI agent orchestration platform on Nostr.
 - [TollGate](https://tollgate.me) - Pay-per-use Wi-Fi access using Nostr and Lightning.
 - [Yondar](https://go.yondar.me) - Location-based social discovery on Nostr.
+- [kithmoot](https://github.com/forgesworn/kithmoot)![stars](https://img.shields.io/github/stars/forgesworn/kithmoot.svg?style=social) - Multi-device conference rooms over Nostr: a town hall nobody owns
+- [cambium](https://github.com/forgesworn/cambium)![stars](https://img.shields.io/github/stars/forgesworn/cambium.svg?style=social) - Android NIP-55 signer that holds no keys: every request is proxied to a Heartwood hardware signer over NIP-46
 
 ## NIP-05 identity services
 
