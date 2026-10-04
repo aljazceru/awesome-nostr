@@ -514,6 +514,7 @@ Websites with lists of relays and their performance/health:
 - [dart_nostr](https://github.com/anasfik/nostr)![stars](https://img.shields.io/github/stars/anasfik/nostr.svg?style=social) - A developer experience Dart library for Nostr
 - [dart-nostr](https://github.com/ethicnology/dart-nostr)![stars](https://img.shields.io/github/stars/ethicnology/dart-nostr.svg?style=social) - a Dart library for Flutter
 - [flutter_nostr](https://github.com/anasfik/flutter_nostr)![stars](https://img.shields.io/github/stars/anasfik/flutter_nostr.svg?style=social) - Build scalable/complex Nostr apps effortlessly with Flutter 
+- [geohash-kit](https://github.com/forgesworn/geohash-kit)![stars](https://img.shields.io/github/stars/forgesworn/geohash-kit.svg?style=social) - Zero-dependency geohash toolkit: encode, decode, polygon coverage, and Nostr `g`-tag filter generation. TypeScript.
 - [go-nostr](https://github.com/fiatjaf/go-nostr)![stars](https://img.shields.io/github/stars/fiatjaf/go-nostr.svg?style=social) - a Go library that implements relay management, plus event encoding and signing utils
 - [libnostr-c](https://github.com/privkeyio/libnostr-c)![stars](https://img.shields.io/github/stars/privkeyio/libnostr-c.svg?style=social) - A lightweight C library implementing the Nostr protocol with NIP-44 encryption and Lightning support, optimized for embedded systems like ESP32.
 - [libnostr-z](https://github.com/privkeyio/libnostr-z)![stars](https://img.shields.io/github/stars/privkeyio/libnostr-z.svg?style=social) - A Zig library implementing the Nostr protocol, covering keypair generation, event signing, and relay communication.
@@ -528,6 +529,7 @@ Websites with lists of relays and their performance/health:
 - [nostr (zig-nostr)](https://github.com/zig-nostr/nostr)![stars](https://img.shields.io/github/stars/zig-nostr/nostr.svg?style=social) - A fast Nostr protocol library for Zig. Native libsecp256k1 signing and a memory-mapped LMDB store give zero-copy, local-first reads with sub-millisecond feed queries. Covers keys and events, encrypted messaging and remote signing (NIP-44/46/49), and a relay transport.
 - [nostr_rust](https://github.com/0xtlt/nostr_rust)![stars](https://img.shields.io/github/stars/0xtlt/nostr_rust.svg?style=social) - Functional Rust implementation of the nostr protocol
 - [Nostrbook](https://nostrbook.dev/) - A Comprehensive Registry of Nostr Documentation. Structured, detailed knowledge about Nostr for both humans and AI.
+- [nostr-attestations](https://github.com/forgesworn/nostr-attestations)![stars](https://img.shields.io/github/stars/forgesworn/nostr-attestations.svg?style=social) - One parameterised replaceable event kind (31000) for credentials, endorsements, vouches, provenance and licensing. Build, parse and validate attestation events. TypeScript.
 - [nostr-bot](https://github.com/slaninas/nostr-bot)![stars](https://img.shields.io/github/stars/slaninas/nostr-bot.svg?style=social) - a Rust library for writing bots
 - [NostrBotKit](https://codeberg.org/Tuxor/NostrBotKit) - Self-hosted bot framework for Nostr written in Rust. Multi-bot orchestration, NIP-17/NIP-04 encrypted DM commands, YAML config, permission tiers, Docker deployment.
 - [nostr-connect](https://github.com/nostr-connect/connect)![stars](https://img.shields.io/github/stars/nostr-connect/connect.svg?style=social) - Nostr Connect SDK for TypeScript is a library that allows you to easily integrate Nostr Connect into your web application
@@ -559,6 +561,7 @@ Websites with lists of relays and their performance/health:
 - [NostrKit](https://github.com/cnixbtc/NostrKit)![stars](https://img.shields.io/github/stars/cnixbtc/NostrKit.svg?style=social) - a Swift library for interacting with relays
 - [NostrPostr](https://github.com/Giszmo/NostrPostr)![stars](https://img.shields.io/github/stars/Giszmo/NostrPostr.svg?style=social) - a Kotlin Nostr library for clients or relays
 - [notemine](https://github.com/sandwichfarm/notemine) [demo](https://sandwichfarm.github.io/notemine) - A wasm note miner written in rust
+- [nsec-tree](https://github.com/forgesworn/nsec-tree)![stars](https://img.shields.io/github/stars/forgesworn/nsec-tree.svg?style=social) - Deterministic sub-identity derivation: one master secret, unlimited unlinkable Nostr identities, with optional proofs of common ownership. TypeScript, with a Python port in [nsec-tree-py](https://github.com/forgesworn/nsec-tree-py).
 - [Osty](https://github.com/ostyjs/create-osty)![stars](https://img.shields.io/github/stars/ostyjs/create-osty.svg?style=social)
   - [npm create osty@latest](https://www.npmjs.com/package/create-osty) - Osty on NPM
   - [osty.dev](https://osty.dev) - Landing Website of Osty
@@ -566,6 +569,7 @@ Websites with lists of relays and their performance/health:
 - [pynostr](https://github.com/holgern/pynostr)![stars](https://img.shields.io/github/stars/holgern/pynostr.svg?style=social) - a python library for nostr
 - [python-nostr](https://github.com/jeffthibault/python-nostr)![stars](https://img.shields.io/github/stars/jeffthibault/python-nostr.svg?style=social) - a python library for making clients
 - [relayer](https://github.com/fiatjaf/relayer)![stars](https://img.shields.io/github/stars/fiatjaf/relayer.svg?style=social) - a server framework for writing custom relays
+- [ring-sig](https://github.com/forgesworn/ring-sig)![stars](https://img.shields.io/github/stars/forgesworn/ring-sig.svg?style=social) - SAG and LSAG ring signatures on secp256k1 for proving group membership without revealing which key signed. TypeScript.
 - [rust-nostr](https://github.com/rust-nostr/nostr)![stars](https://img.shields.io/github/stars/rust-nostr/nostr.svg?style=social) - Rust implementation of the nostr protocol, high level nostr client library, bindings (Python, C#, Kotlin, Swift, JS and so on) and more!
 - [rx-nostr](https://github.com/penpenpng/rx-nostr)![stars](https://img.shields.io/github/stars/penpenpng/rx-nostr.svg?style=social) - Supports high quality and flexible communication with multiple Nostr relays.
 - [schorr_snap](https://github.com/neeboo/schnorr_snap)![stars](https://img.shields.io/github/stars/neeboo/schnorr_snap.svg?style=social) - A snap plugin for Metamask Flask, supports nostr
@@ -611,6 +615,8 @@ Websites with lists of relays and their performance/health:
 
 ## Tools
 
+- [402-announce](https://github.com/forgesworn/402-announce)![stars](https://img.shields.io/github/stars/forgesworn/402-announce.svg?style=social) - Announce HTTP 402 (L402/x402) paid APIs on Nostr as kind 31402 events, for decentralised service discovery.
+- [402-mcp](https://github.com/forgesworn/402-mcp)![stars](https://img.shields.io/github/stars/forgesworn/402-mcp.svg?style=social) - MCP server that lets AI agents discover, pay for and consume L402 and x402 APIs, using kind 31402 announcements for discovery.
 - [Aeon](https://github.com/aeonfun/aeon)![stars](https://img.shields.io/github/stars/aeonfun/aeon.svg?style=social) - Autonomous AI agent framework that publishes signed notes to Nostr relays as an outbound channel.
 - [Amethyst crawler](https://crawler.amethyst.social/) - Find and broadcast nostr events
 - [anonroom](https://github.com/vinliao/anonroom)![stars](https://img.shields.io/github/stars/vinliao/anonroom.svg?style=social) - anonymous chat room inside nostr
