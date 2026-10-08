@@ -379,7 +379,6 @@ Websites with lists of relays and their performance/health:
 - [Pareto](https://pareto.space/read) - The Pareto client is a part of an open-source publishing ecosystem for uncensorable citizen journalism, specialized in writing and reading of long-form Nostr articles.
 - [Paz](https://pazstr.codeberg.page) - Paz is a desktop semantic Nostr client that transforms events into linked data (RDF) and makes queries on the events graph.
 - [Pinstr](https://github.com/sepehr-safari/pinstr) ![stars](https://img.shields.io/github/stars/sepehr-safari/pinstr?style=social) - Pinstr is a decentralized and open-source social network for curating and sharing your interests with the world.
-  - [Pinstr.app](https://pinstr.app) - live instance
 - [Plaza](https://github.com/zig-nostr/plaza)![stars](https://img.shields.io/github/stars/zig-nostr/plaza.svg?style=social) - A fast, local-first Nostr client for macOS and Linux, built natively in Zig. Reads without an account; the feed renders from a local store, and the key stays in NIP-46 signer
 - [Plektos](https://github.com/derekross/plektos)![stars](https://img.shields.io/github/stars/derekross/plektos.svg?style=social) - Plektos is a decentralized meetup, events, and calendar platform built on Nostr. [Plektos.app](https://plektos.app/) [⚡ zap](https://nostr.net/grant/?zap=pay@derekross.me)
 - [pocket-wallet](https://github.com/RetricSu/pocket-wallet)![stars](https://img.shields.io/github/stars/RetricSu/pocket-wallet.svg?style=social) - PocketWallet is a nostr-based wallet on CKB blockchain supportting Nip07 and Nip46.
@@ -495,7 +494,7 @@ Websites with lists of relays and their performance/health:
 - [Community Curated Nostr Stuff (CCNS)](https://github.com/Sebastix/CCNS)![stars] - CCNS is a Nostr-focused community platform centered around link aggregation and discussion topics.
 - [Deepmarks](https://deepmarks.org)![stars](https://img.shields.io/github/stars/ostermayer/deepmarks-public.svg?style=social) - Nostr-native social bookmarking with public NIP-B0 bookmarks, encrypted private bookmarks, imports/exports, zaps, and long-tail page archives.
 - [KUCHIYOSE](https://github.com/nikolat/kuchiyose)![stars] - Nostr events of web bookmark.
-- [Lantern]([https://pinstr.co/](https://gitworkshop.dev/fiatjaf.com/lantern)) - Collaboratively annotate, highlight, and bookmark web pages and PDF documents on Nostr.
+- [Lantern](https://gitworkshop.dev/fiatjaf.com/lantern) - Collaboratively annotate, highlight, and bookmark web pages and PDF documents on Nostr.
 - [MKPinja](https://github.com/sepehr-safari/mkpinja)![stars] - A decentralized bookmarking service built on the Nostr protocol, inspired by Pinboard.in. MKPinja implements NIP-B0 for web bookmarking, giving users complete ownership and control over their bookmark data.
 - [Pinja](https://github.com/sepehr-safari/pinja)![stars] - Pinja is a modern social bookmarking platform built on the Nostr protocol, designed to help users collect, organize, and explore valuable content from across the web.
 - [Pinstr](https://github.com/zeroxbob/pinstr) - Pinstr is a bookmark manager that uses Nostr to store and sync your bookmarks.
