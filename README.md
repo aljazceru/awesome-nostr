@@ -1033,6 +1033,8 @@ Endpoints (services or apps that expose a LN wallet via NWC)
 - [NostrDice](https://github.com/NostrDice/nostrdice)![stars](https://img.shields.io/github/stars/NostrDice/nostrdice) - NostrDice is a provably fair betting game combining the power of Lightning and Nostr.
   - Live: [app.nostrdice.com](https://app.nostrdice.com)
 - [Nostrian Conquest](https://nostrian-conquest.com) - A turn-based multiplayer space strategy game inspired by classic BBS door games, rebuilt in Rust and powered by Nostr for decentralized play.
+- [Parlour](https://github.com/braedonsaunders/parlour)![stars](https://img.shields.io/github/stars/braedonsaunders/parlour) - Classic card games (Hearts, Euchre, Spades, Cribbage and more) played with friends over a room code. Nostr relays carry the room announcements and WebRTC signaling, so there are no accounts and no game server.
+  - Live: [parlour.cards](https://parlour.cards)
 - [word5](https://word5.otherstuff.ai/) - A free daily Wordle-style word-guessing game with Nostr login and sharing, plus Lightning donations.
 - [Words with Zaps](https://www.wordswithzaps.top) - A two-player crossword-style word game with bonus features designed around Lightning and Nostr.
   
