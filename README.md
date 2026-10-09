@@ -11,7 +11,7 @@ nostr.net services [start.nostr.net](https://start.nostr.net) || [relay.nostr.ne
 
 ### Mobile clients
 - [Damus](https://damus.io/) - iOS, Android and Desktop client [⚡ zap](https://nostr.net/grant/?zap=damus@sendsats.lol)
-- [Wisp](https://wisp.mobile/) - Android-only app [⚡ zap](https://nostr.net/grant/?zap=utxo@rizful.com)
+- [Wisp](https://wisp.mobile/) - Android-only nostr client with chat rooms, live streams, and a built-in wallet [⚡ zap](https://nostr.net/grant/?zap=utxo@rizful.com)
 - [Amethyst](https://www.amethyst.social/) - Android-only app [⚡ zap](https://nostr.net/grant/?zap=vitor@vitorpamplona.com)
 - [Primal](https://primal.net/downloads) - iOS and Android apps [⚡ zap](https://nostr.net/grant/?zap=miljan@primal.net)
 - [YakiHonne](https://yakihonne.com/yakihonne-mobile-app) - iOS and Android app [⚡ zap](https://nostr.net/grant/?zap=yakihonne@getalby.com)
@@ -156,7 +156,6 @@ Websites with lists of relays and their performance/health:
 - [nostr.watch](https://nostr.watch)![stars](https://img.shields.io/github/stars/sandwichfarm/nostr-watch.svg?style=social) - real-time checking of the status of some known relays.
 - [relays.xport.top](https://relays.xport.top) - relays list sortable by ping, activity, etc.
 - [trustedrelays.xyz](https://trustedrelays.xyz) - relays list with trust scores for known relays using Trusted Relay Assertions.
-- [nostrich-client](https://github.com/nostrichOS/nostrich-client)![stars](https://img.shields.io/github/stars/nostrichOS/nostrich-client.svg?style=social) - Nostrich is a free and open-source Nostr client. Notes, profiles and media live on Nostr relays and are not hosted by Nostrich. Your keys are your account, your notes live on relays anyone can run.
 - [nostr-no-su](https://github.com/neverclear86/nostr-no-su)![stars](https://img.shields.io/github/stars/neverclear86/nostr-no-su.svg?style=social) - Nostr bunker (NIP-46) and utility server in Gleam/BEAM
 - [watchtower](https://github.com/fiatjaf/watchtower)![stars](https://img.shields.io/github/stars/fiatjaf/watchtower.svg?style=social) - An admin panel for relays that speak NIP-86, the relay management API.
 - [styx](https://github.com/styx-secure/styx)![stars](https://img.shields.io/github/stars/styx-secure/styx.svg?style=social) - Experimental secure application substrate for sensitive workflows: self-custodied identity, E2EE collaboration, verifiable state, offline operation, and untrusted relay infrastructure. Building toward Themis,   privacy-preserving case management.
@@ -206,11 +205,14 @@ Websites with lists of relays and their performance/health:
 - [damus](https://github.com/damus-io/damus)![stars](https://img.shields.io/github/stars/damus-io/damus.svg?style=social) - a twitter-like nostr client for iOS and MacOS
   - [damus on testflight](https://testflight.apple.com/join/CLwjLxWl)
   - [damus on Mac app store](https://apps.apple.com/us/app/damus/id1628663131)
+- [Dark Wisp](https://zapstore.dev/apps/com.darkwisp.app) - A lightning-fast, feature-rich Android nostr client: live streams, chat rooms, trending and hashtag feeds, advanced search, and AI-powered spam detection. Distributed via Zapstore.
 - [nospeak](https://github.com/psic4t/nospeak)![stars](https://img.shields.io/github/stars/psic4t/nospeak.svg?style=social) - A nospeak is a modern F-Droid Nostr chat client.
 - [Nmail](https://github.com/nogringo/nostr-mail-client)![stars](https://img.shields.io/github/stars/nogringo/nostr-mail-client.svg?style=social) -  Flutter email client for Nostr - send and receive encrypted emails using the Nostr protocol.
 - [NosCall](https://github.com/sanah9/noscall)![stars](https://img.shields.io/github/stars/sanah9/noscall.svg?style=social) -  A secure audio and video calling app built on Nostr protocol. Features end-to-end encrypted calls with cross-platform support.
 - [Nymchat](https://github.com/Spl0itable/NYM)![stars](https://img.shields.io/github/stars/Spl0itable/NYM.svg?style=social) -  A like iRC lightweight, yet feature-rich, ephemeral chat client built on Nostr protocol, bridged with Bitchat for anonymous, temporary messaging.
 - [Pika](https://github.com/sledtools/pika)![stars](https://img.shields.io/github/stars/sledtools/pika.svg?style=social) -  End-to-end encrypted messaging for iOS, Android, and Desktop, built on MLS over Nostr.
+- [Wisp](https://wisp.mobile/) - A polished Android nostr client: chronological feeds, public and private chat rooms, live streams with tipping, NIP-17 encrypted DMs, custom feeds, and a built-in Lightning wallet. [⚡ zap](https://nostr.net/grant/?zap=utxo@rizful.com)
+  - [Zapstore](https://zapstore.dev/apps/com.wisp.app) - Android install
 - [Zemzeme](https://github.com/whisperbit-labs/zemzeme-android)![stars](https://img.shields.io/github/stars/whisperbit-labs/zemzeme-android.svg?style=social) - Private, serverless messaging for Android — offline Bluetooth mesh, peer-to-peer, and Nostr relay. No accounts, no internet required
 - [VaultChat](https://vaultchat.pro) - Encrypted Android messenger built on Nostr. NIP-44 v2, groups, Decoy PIN. No phone number, no email, no server.
 - [LiberMedia](https://github.com/lucianocasalunga/libermedia-twa)![stars](https://img.shields.io/github/stars/lucianocasalunga/libermedia-twa.svg?style=social) - Web client and PWA for iOS and Android, with zaps, encrypted DMs, Reels, group chats and media hosting. ![LiberMediaweb](https://media.libernet.app) ![Google Play](https://play.google.com/store/apps/details?id=app.libernet.media) [⚡ zap](https://nostr.net/grant/?zap=barak@blink.sv)
@@ -331,6 +333,11 @@ Websites with lists of relays and their performance/health:
 - [nostr console](https://github.com/vishalxl/nostr_console)![stars](https://img.shields.io/github/stars/vishalxl/nostr_console.svg?style=social) - a nostr command line client written in Dart. Binaries available for Windows, Linux, and macOS
 - [Nostr Read Only Client](https://github.com/delirehberi/nostr-ro-client/)![stars](https://img.shields.io/github/stars/delirehberi/nostr-ro-client.svg?style=social) - simple cloudflare worker to serve a single user's nostr content (kind:1) as web page preview: nostr.emre.xyz
 - [Nostria](https://nostria.app) - Web, Desktop, iOS and Android app for Nostr, easy to get started for new users. Multiple feeds with multiple columns, Live Streams, Articles, Media Library, Video recording, Audio recording. 
+- [nostrich-client](https://github.com/nostrichOS/nostrich-client)![stars](https://img.shields.io/github/stars/nostrichOS/nostrich-client.svg?style=social) - Nostrich is a free and open-source Nostr client for web, iOS, Android, and macOS. Notes, profiles and media live on Nostr relays and are not hosted by Nostrich. Your keys are your account, your notes live on relays anyone can run.
+  - [nostrich.org](https://nostrich.org/) - live web client
+  - [App Store](https://apps.apple.com/app/nostrich-nostr-client/id6807898323) - iOS and macOS (Apple silicon)
+  - [Google Play](https://play.google.com/store/apps/details?id=org.nostrich.app) - Android
+  - [Zapstore](https://zapstore.dev/apps/org.nostrich.app) - Android
 - [Hugo2Nostr](https://github.com/delirehberi/hugo2nostr)![stars](https://img.shields.io/github/stars/delirehberi/hugo2nostr.svg?style=social) - Sync your hugo blog with nostr network. The tool have scripts to sync contents. 
 - [Nostr Playground](https://github.com/sepehr-safari/nostr-playground) ![stars](https://img.shields.io/github/stars/sepehr-safari/nostr-playground.svg?style=social) - A simple and user-friendly playground for Nostr.
   - [playground.nostr.com](https://playground.nostr.com/) - Live instance.
@@ -437,7 +444,8 @@ Websites with lists of relays and their performance/health:
 - [Yana](https://github.com/frnandu/yana)![stars](https://img.shields.io/github/stars/frnandu/yana.svg?style=social) - Yana is a nostr client focused on performance in slower devices and modularity of features.
   - [yana.do](https://yana.do)
 - [ygege](https://github.com/UwUDev/ygege)![stars](https://img.shields.io/github/stars/UwUDev/ygege.svg?style=social) -  Support Tor High-performance torrents indexer for services using the U2P system written in Rust.
-- [Zap Cooking](https://zap.cooking/)![stars](https://img.shields.io/github/stars/zapcooking/frontend.svg?style=social) - Nostr's only recipe-sharing client. A place where food culture can live openly and grow naturally. [⚡ zap](https://nostr.net/grant/?zap=zapcooking@sats.zap.cooking)
+- [Zap Cooking](https://zap.cooking/)![stars](https://img.shields.io/github/stars/zapcooking/frontend.svg?style=social) - Nostr's only recipe-sharing client: browse the OnlyFood feed, publish recipes, join polls and the recipe market, plan meals with grocery lists and nutrition insights, and zap cooks to support them. [⚡ zap](https://nostr.net/grant/?zap=zapcooking@sats.zap.cooking)
+  - [Zapstore](https://zapstore.dev/apps/cooking.zap.app) - Android app with group cooking, encrypted DMs, and a built-in Spark or NWC wallet
 - [zapddit](https://zapddit.com) ![stars](https://img.shields.io/github/stars/vivganes/zapddit.svg?style=social) - Reddit-style client for nostr where you can follow topics (similar to subreddits), mute certain topics (like #bitcoin), upzap and downzap notes using your hard-earned sats.
 - [Zaplytics](https://github.com/derekross/zaplytics)![stars](https://img.shields.io/github/stars/derekross/zaplytics.svg?style=social) - Analytics for your Nostr Zaps, helping creators dive into their Zap earnings. [Zaplytics.app](https://zaplytics.app/) [⚡ zap](https://nostr.net/grant/?zap=pay@derekross.me)
 - [Zappix](https://github.com/derekross/zappix)![stars](https://img.shields.io/github/stars/derekross/zappix.svg?style=social) - A nostr image sharing application for browsing, sharing, and zapping visual content. [Zappix.app](https://zappix.app/) [⚡ zap](https://nostr.net/grant/?zap=pay@derekross.me)
@@ -626,7 +634,6 @@ Websites with lists of relays and their performance/health:
 - [CSV Importer](https://csv-importer.coracle.social/) - Publish Nostr events in bulk from CSV files.
 - [Chief](https://github.com/0xtrr/chief) - A Strfry write policy plugin that provides blacklists for public keys, event kinds and words/sentences.
 - [Cloud Seeder](https://github.com/ipv6rslimited/cloudseeder)![stars](https://img.shields.io/github/stars/ipv6rslimited/cloudseeder.svg?style=social) - A 1-click deployment and management tool for nostr-rs-relay and other appliances.
-- [Clonable](https://www.mutable.top/clonable) - A standalone feature of Mutable: Migrate your profile, follows, mutes, and relays from another account to your current keyset. Useful when recovering from a compromised key.
 - [contact cloud](https://github.com/canostrical/contact_cloud)![stars](https://img.shields.io/github/stars/canostrical/contact_cloud.svg?style=social) - Discover the Nostr contact list graph and your own pubkey in it.
 - [Contact list backup](https://nostr.xport.top/contact-list-backup/) - Backup and restore your contacts
 - [deed](https://github.com/zig-nostr/deed)![stars](https://img.shields.io/github/stars/zig-nostr/deed.svg?style=social) - A nostr command line in Zig: keys, signing and verifying, NIP-19, NIP-44, relay queries and publishing, with a local event store.
@@ -654,8 +661,15 @@ Websites with lists of relays and their performance/health:
 - [lnpass](https://lnpass.github.io)![stars](https://img.shields.io/github/stars/lnpass/lnpass-web.svg?style=social) - A key manager for Lightning and nostr.
 - [lightning-memory](https://github.com/singularityjason/lightning-memory)![stars](https://img.shields.io/github/stars/singularityjason/lightning-memory.svg?style=social) - Decentralized agent memory for the Lightning economy. Nostr identity, L402 payments, MCP server.
 - [metadata_updater](https://github.com/UTXOnly/metadata_updater)![stars](https://img.shields.io/github/stars/UTXOnly/metadata_updater.svg?style=social) - Scans all known online nostr relays for stale kind 0 metadata notes, rebroadcasts latest verified note
-- [Mutable](https://mutable.top) - A tool for managing, backing up, restoring, and sharing Nostr mute lists.
-- [Mute-o-Scope](https://www.mutable.top/mute-o-scope) - A standalone feature of Mutable that lets users search any npub to see who is publicly muting them.
+- [Mutable](https://mutable.top) - A tool for managing, backing up, restoring, and sharing Nostr mute lists, plus standalone companion tools:
+  - [Clonable](https://www.mutable.top/clonable) - Migrate your profile, follows, mutes, and relays from another account to your current keyset. Useful when recovering from a compromised key.
+  - [Draftable](https://www.mutable.top/draftable) - Browse and create one-click follow packs, built on [following.space](https://following.space) with improvements and clearer rules for how users are added: drafted in without consent or notification, removable only by the pack's author.
+  - [Mute-o-Scope](https://www.mutable.top/mute-o-scope) - Search any npub to see who is publicly muting them.
+  - [Note Nuke](https://www.mutable.top/note-nuke) - Delete an event with maximum relay coverage.
+  - [Purgatory](https://www.mutable.top/purgatory) - Find follows who create hellthreads or use spam apps, and mass mute them.
+  - [Redactable](https://www.mutable.top/redactable) - See which posts users are asking relays to delete: live feed of NIP-09 deletion requests or any pubkey's deletion history.
+  - [Reportable](https://www.mutable.top/reportable) - Browse public NIP-56 reports (kind:1984): a pubkey's report history or the live feed, no sign-in required.
+  - [Snoopable](https://www.mutable.top/snoopable) - Analyzes public NIP-04 DM metadata to show top contacts, activity timing, and shareable summaries for any npub.
 - [NAKE](https://tsukemonogit.github.io/nake-website/)![stars](https://img.shields.io/github/stars/tsukemonogit/nake.svg?style=social) - a browser extension to easily convert between Nostr hex IDs and NIP-19 entities.
 - [nashboard](https://github.com/vinliao/nashboard)![stars](https://img.shields.io/github/stars/vinliao/nashboard.svg?style=social) - a Nostr network dashboard with network statistics, reachable [here](https://nashboard.space/)
 - [ndxstr](https://github.com/ArcadeCity/ndxstr)![stars](https://img.shields.io/github/stars/ArcadeCity/ndxstr.svg?style=social) - nostr's layer 2 indexing nodes, with more advanced querying capability than currently supported by relays
@@ -724,6 +738,7 @@ Websites with lists of relays and their performance/health:
 - [nostri.chat](https://nostri.chat/) - An embedded chat widget for your website. (seriously simple like copy/paste)
 - [nostrich.fun](https://nostrich.fun)![stars](https://img.shields.io/github/stars/lightningnetworkstores/lightningnetworkstores.github.io.svg?style=social) - A feature-rich directory of nostr projects. A fork of [LightningNetworkStores.com](https://lightningnetworkstores.com)
 - [nostrify](https://github.com/joelklabo/nostrify)![stars](https://img.shields.io/github/stars/joelklabo/nostrify.svg?style=social) - A Core Lightning plugin that sends events (forwards, connect, disconnect, etc.) to nostr.
+- [Nostr Build Shack](https://apps.apple.com/us/app/nostr-build-shack/id6752591477) - nostr.build's all-in-one iOS toolkit for creators: fast video compression, on-device Nostr key signing with optional iCloud backup, a Safari extension for managing key permissions, and custom key icons. iPhone, iPad, Mac, and Apple Vision.
 - [nostril](https://github.com/jb55/nostril)![stars](https://img.shields.io/github/stars/jb55/nostril.svg?style=social) - C cli tool for creating nostr events
 - [nostrillery](https://github.com/Cameri/nostrillery)![stars](https://img.shields.io/github/stars/Cameri/nostrillery.svg?style=social) - a tool for running performance tests against Nostr relays
 - [nostro](https://github.com/r3drun3/nostro)![stars](https://img.shields.io/github/stars/r3drun3/nostro.svg?style=social) - nostr osint (open source intelligence) tool
@@ -733,7 +748,6 @@ Websites with lists of relays and their performance/health:
 - [NostrSwap](https://www.nostrswap.com/) - NostrSwap is a fully decentralized exchange built on Nostr Protocol.
 - [NostrTool](https://nostrtool.com/) - a tool to play with keys.
 - [nostrview](https://nostrview.com) - A nostr search engine. Search by content, tags, events or pub keys.
-- [Note Nuke](https://www.mutable.top/note-nuke) - A standalone feature of Mutable that lets users delete an event with maximum relay coverage.
 - [novia](https://github.com/teamnovia/novia)![stars](https://img.shields.io/github/stars/teamnovia/novia.svg?style=social) - Nostr video archive 
 - [nsecbunkerd](https://github.com/kind-0/nsecbunkerd) - Keep your nostr keys in a single place and provide fine-grained access to your team members.
 - [Obsidian Nostr Writer](https://github.com/jamesmagoo/nostr-writer#readme) - A free Obsidian plugin that allows writers to seamlessly publish to Nostr [⚡ zap](https://nostr.net/grant/?zap=magoo@getalby.com)
@@ -741,7 +755,6 @@ Websites with lists of relays and their performance/health:
 - [Plebs vs. Zombies](https://www.plebsvszombies.cc) - A Nostr utility for managing dormant follows and cleaning up your follow list.
 - [powrelay.xyz](https://powrelay.xyz) - A proof of work-based nostr explorer.
 - [publsp](https://github.com/smallworlnd/publsp)![stars](https://img.shields.io/github/stars/smallworlnd/publsp.svg?style=social) A CLI tool for any Lightning Network node or Lightning Service Provider (LSP) to advertise liquidity offers over Nostr.
-- [Purgatory](https://www.mutable.top/purgatory) - A standalone feature of Mutable that finds follows who create hellthreads or use spam apps, and lets you mass mute them.
 - [Relay Kit](https://relayk.it) - Turn a VPS into a sovereign nostr hub. Deploy and manage Nostr relays, Blossom servers, and nsite gateways. Link your domains. From one easy dashboard UI. One script install on any server, then auth via nostr to access.
 - [Replies](https://replies.nostrapps.org) - Nostr micro-app for viewing replies and reactions to events
 - [The Resurrector](https://www.plebsvszombies.cc/resurrector) - A standalone feature of Plebs vs. Zombies that lets users undelete their nostr profiles if they were previously deleted.
@@ -751,7 +764,6 @@ Websites with lists of relays and their performance/health:
 - [Sendbox](https://sendbox.nostrmo.com/) - A tool to help clients delayed publish your nostr event.
 - [SnapNostr](https://github.com/djhemath/snap-nostr)![stars](https://img.shields.io/github/stars/djhemath/snap-nostr.svg?style=social) - Create clean, customizable screenshots of Nostr posts for seamless sharing.
   - [snapnostr.app](https://snapnostr.app/) - live instance
-- [Snoopable](https://www.mutable.top/snoopable) - analyzes public NIP-04 DM metadata to show top contacts, activity timing, and shareable summaries for any npub.
 - [Spamster](https://github.com/gourcetools/spamster)![stars](https://img.shields.io/github/stars/gourcetools/spamster.svg?style=social) - Spamster is for testing relays and spam filters.
 - [strfry policies](https://gitlab.com/soapbox-pub/strfry-policies)![stars](https://img.shields.io/gitlab/stars/soapbox-pub/strfry-policies.svg?style=social) - A collection of moderation & antispam policies for the strfry relay developed in TypeScript/Deno.
 - [TaskQ5](https://github.com/duozhutuan/Taskq5)![stars](https://img.shields.io/github/stars/duozhutuan/TaskQ5.svg?style=social) - TaskQ5 is a task distribution platform built on nostr where you can post tasks if you need help
@@ -842,6 +854,9 @@ Websites with lists of relays and their performance/health:
 - [Aegis](https://github.com/ZharlieW/Aegis)![stars](https://img.shields.io/github/stars/ZharlieW/Aegis.svg?style=social) - Simple and cross-platform Nostr signer that keeps your keys secure across desktop and mobile devices.
 - [amber](https://github.com/greenart7c3/amber)![stars](https://img.shields.io/github/stars/greenart7c3/amber.svg?style=social) - Amber is a nostr event signer for Android. It allows users to keep their nsec segregated in a single, dedicated app. The goal of Amber is to have your smartphone act as a NIP-46 signing device without any need for servers or additional hardware. "Private keys should be exposed to as few systems as possible as each system adds to the attack surface," as the rationale of said NIP states. In addition to native apps, Amber aims to support all current nostr web applications without requiring any extensions or web servers.
 - [heartwood](https://github.com/forgesworn/heartwood)![stars](https://img.shields.io/github/stars/forgesworn/heartwood.svg?style=social) - Nostr signing appliance for Raspberry Pi. NIP-46 remote signing with nsec-tree hierarchical identity derivation, per-client permissions, Tor hidden service, and web UI. Rust.
+- [Clave](https://github.com/DocNR/clave)![stars](https://img.shields.io/github/stars/DocNR/clave.svg?style=social) - NIP-46 remote signer for iOS. Keys are created and kept in the iPhone Keychain, with per-app trust levels, an activity log, multiple identities, and background signing over end-to-end encrypted relays.
+  - [clave.casa](https://clave.casa) - website
+  - [App Store](https://apps.apple.com/us/app/clave-nostr-signer/id6762104155) - iOS app
 - [keechain](https://github.com/yukibtc/keechain)![stars](https://img.shields.io/github/stars/yukibtc/keechain.svg?style=social) - Bitcoin application to transform your offline computer in an AirGap Signing Device (aka Hardware Wallet) with support to `NIP-06` and `NIP-26`.
 - [Keep](https://github.com/privkeyio/keep)![stars](https://img.shields.io/github/stars/privkeyio/keep.svg?style=social) - Encrypted vault for Nostr and Bitcoin keys with FROST threshold signatures and NIP-46 remote signing, across CLI, desktop, and mobile.
 - [Keep for Android](https://github.com/privkeyio/keep-android)![stars](https://img.shields.io/github/stars/privkeyio/keep-android.svg?style=social) - FROST threshold signer for Android implementing NIP-55 and NIP-46, splitting keys across multiple devices.
@@ -908,8 +923,9 @@ Allow you to sign Nostr events on web-apps without having to give them your keys
 - [OneKey](https://onekey.so)![stars](https://img.shields.io/github/stars/onekeyhq/app-monorepo.svg?style=social) - Open-source crypto wallet with nosrt support.
 - [Signum XT Wallet](https://github.com/signum-network/signum-xt-wallet)![stars](https://img.shields.io/github/stars/signum-network/signum-xt-wallet.svg?style=social) - Metamask-like browser extension for Signum blockchain with full NIP07 support and multi-account management
 - [Self-Sovereign Browser](https://api-docs-30b126.gitlab.io/index.html) - Firefox-forked browser with NIP-07 support
-- [Sidecar](https://sidecar.top)![stars](https://img.shields.io/github/stars/dmnyc/sidecar.svg?style=social) - A multi-account NIP-07 signer with a built-in Lightning wallet (NWC), in your browser's side panel. Chrome.
+- [Sidecar](https://sidecar.top)![stars](https://img.shields.io/github/stars/dmnyc/sidecar.svg?style=social) - A multi-account NIP-07 signer and note composer with a built-in Lightning wallet (NWC), WebLN, notifications, and podcasting 2.0 boosts, in your browser's side panel. Chrome and Firefox.
   - [Chrome Web Store](https://chromewebstore.google.com/detail/sidecar-a-classy-nostr-si/moimlikilhheabdafocpmneehpblhiln)
+  - [Firefox Add-ons](https://addons.mozilla.org/firefox/addon/sidecar-a-classy-nostr-signer/)
 - [TokenPocket](https://github.com/TP-Lab/TokenPocket)![stars](https://img.shields.io/github/stars/TP-Lab/TokenPocket.svg?style=social) - Multi wallet browser extension with nostr support. https://tokenpocket.pro
 - [wen](https://github.com/fiatjaf/wen)![stars](https://img.shields.io/github/stars/fiatjaf/wen.svg?style=social) - browser extension for website enhancer with nostr
 
