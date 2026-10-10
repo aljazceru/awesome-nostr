@@ -15,6 +15,7 @@ nostr.net services [start.nostr.net](https://start.nostr.net) || [relay.nostr.ne
 - [Amethyst](https://www.amethyst.social/) - Android-only app [⚡ zap](https://nostr.net/grant/?zap=vitor@vitorpamplona.com)
 - [Primal](https://primal.net/downloads) - iOS and Android apps [⚡ zap](https://nostr.net/grant/?zap=miljan@primal.net)
 - [YakiHonne](https://yakihonne.com/yakihonne-mobile-app) - iOS and Android app [⚡ zap](https://nostr.net/grant/?zap=yakihonne@getalby.com)
+- [submarine](https://github.com/nogringo/submarine)![stars](https://img.shields.io/github/stars/nogringo/submarine.svg?style=social) - A password manager built on Nostr. Your passwords, encrypted and synced, with no account needed. For Android, iOS, macOS, Windows, Linux, the web and the command line.
 
 
 ### Web clients
@@ -50,6 +51,9 @@ nostr.net services [start.nostr.net](https://start.nostr.net) || [relay.nostr.ne
 - [gozzip](https://github.com/gozzip-protocol/gozzip)![stars](https://img.shields.io/github/stars/gozzip-protocol/gozzip.svg?style=social) - An open, censorship-resistant protocol for social media and messaging. Inherits Nostr's proven primitives — secp256k1 identity, signed events, relay transport — and adds a storage and retrieval layer where users own their data
 - [opal](https://github.com/derekross/opal)![stars](https://img.shields.io/github/stars/derekross/opal.svg?style=social) - Nostr in your Omarchy bar: NIP-46 signer (bunker) with your nsec in the keyring, notifications, and NIP-38 now-playing/status [⚡ zap](https://nostr.net/grant/?zap=pay@derekross.me)
 - [Lazarus](https://github.com/dmnyc/lazarus)![stars](https://img.shields.io/github/stars/dmnyc/lazarus.svg?style=social) - A protocol for recovering follow lists, mute lists, profiles and other replaceable events that a client overwrote, from the old versions relays still hold. Restores happen only on an explicit click, with the user's own signer.
+- [quill](https://github.com/rzazo24/quill)![stars](https://img.shields.io/github/stars/rzazo24/quill.svg?style=social) - Small text-first Nostr client that tells you why it hides things. No images, no backend, signs through Clave (NIP-46), installable PWA.
+- [infinitemarkets](https://github.com/bitkarrot/infinitemarkets)![stars](https://img.shields.io/github/stars/bitkarrot/infinitemarkets.svg?style=social) - A NIP-99 compliant open markets extension for LNBits
+- [nostcard](https://github.com/tompatulpan/nostcard)![stars](https://img.shields.io/github/stars/tompatulpan/nostcard.svg?style=social) - Decentrilized, Zero-knowledge, client-side encrypted contact card (vCard) sharing via the Nostr protocol.
 
 ## Relays
 
@@ -160,6 +164,8 @@ Websites with lists of relays and their performance/health:
 - [nostr-no-su](https://github.com/neverclear86/nostr-no-su)![stars](https://img.shields.io/github/stars/neverclear86/nostr-no-su.svg?style=social) - Nostr bunker (NIP-46) and utility server in Gleam/BEAM
 - [watchtower](https://github.com/fiatjaf/watchtower)![stars](https://img.shields.io/github/stars/fiatjaf/watchtower.svg?style=social) - An admin panel for relays that speak NIP-86, the relay management API.
 - [styx](https://github.com/styx-secure/styx)![stars](https://img.shields.io/github/stars/styx-secure/styx.svg?style=social) - Experimental secure application substrate for sensitive workflows: self-custodied identity, E2EE collaboration, verifiable state, offline operation, and untrusted relay infrastructure. Building toward Themis,   privacy-preserving case management.
+- [nostrclaw](https://github.com/rzazo24/nostrclaw)![stars](https://img.shields.io/github/stars/rzazo24/nostrclaw.svg?style=social) - MCP server that lets Claude analyse a Nostr relay (read-only) and, optionally, publish through a NIP-46 remote signer with human confirmation.
+- [nostr](https://github.com/qntx/nostr)![stars](https://img.shields.io/github/stars/qntx/nostr.svg?style=social) - Nostr protocol implementation and SDK in TypeScript and Rust
 
 ## Clients
 ### Long form clients
@@ -800,6 +806,10 @@ Websites with lists of relays and their performance/health:
 - [Yondar](https://go.yondar.me) - Location-based social discovery on Nostr.
 - [kithmoot](https://github.com/forgesworn/kithmoot)![stars](https://img.shields.io/github/stars/forgesworn/kithmoot.svg?style=social) - Multi-device conference rooms over Nostr: a town hall nobody owns
 - [cambium](https://github.com/forgesworn/cambium)![stars](https://img.shields.io/github/stars/forgesworn/cambium.svg?style=social) - Android NIP-55 signer that holds no keys: every request is proxied to a Heartwood hardware signer over NIP-46
+- [wildbloom-node](https://github.com/forgesworn/wildbloom-node)![stars](https://img.shields.io/github/stars/forgesworn/wildbloom-node.svg?style=social) - Cross-platform Blossom storage and peer-replication node
+- [wildbloom](https://github.com/forgesworn/wildbloom)![stars](https://img.shields.io/github/stars/forgesworn/wildbloom.svg?style=social) - Wildbloom: local-first Nostr, Blossom and BitTorrent storage client
+- [NostrCall](https://github.com/zoardgodor/NostrCall)![stars](https://img.shields.io/github/stars/zoardgodor/NostrCall.svg?style=social) - NostrCall
+- [krivostr](https://github.com/sagar-shirwalkar/krivostr)![stars](https://img.shields.io/github/stars/sagar-shirwalkar/krivostr.svg?style=social) - Blazing-fast Nostr engine and bridge based on a Haskell core. Has an offline-capable archive, a multiplexing bridge, and a headless CLI. Built for researchers, bots, and people who follow way too many people.
 
 ## NIP-05 identity services
 
