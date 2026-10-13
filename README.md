@@ -89,12 +89,12 @@ of the public instances.
 - [n0str](https://github.com/tani/n0str)![stars](https://img.shields.io/github/stars/tani/n0str.svg?style=social) - Nostr relay designed for maximum simplicity without sacrificing power
 - [Nerostr](https://codeberg.org/pluja/nerostr) - A Nostr expensive relay paid with Monero and written in Go.
 - [netstr](https://github.com/bezysoftware/netstr)![stars](https://img.shields.io/github/stars/bezysoftware/netstr.svg?style=social) - A general purpose Nostr relay written in C# with high test coverage, backed by Postgres DB.
-- [Nex](https://github.com/lebrunel/nex) ![stars](https://img.shields.io/github/stars/lebrunel/nex.svg?style=social) - A powerful and scalable Nostr relay written in Elixir with Postgres DB.
+- [Nex](https://github.com/aaronrussell/nex) ![stars](https://img.shields.io/github/stars/aaronrussell/nex.svg?style=social) - A powerful and scalable Nostr relay written in Elixir with Postgres DB.
 - [NIP-29 Group Chat Relay](https://github.com/max21dev/groups-relay)![stars](https://img.shields.io/github/stars/max21dev/groups-relay.svg?style=social) - NIP-29 Group Chat Relay based on fiatjaf's [Relay29](https://github.com/fiatjaf/relay29) and [Khatru](https://github.com/fiatjaf/khatru).
   - Live instance: [wss://relay.groups.nip29.com](https://relay.groups.nip29.com)
 - [NNostr](https://github.com/Kukks/NNostr)![stars](https://img.shields.io/github/stars/Kukks/NNostr.svg?style=social) - a C# relay.
 - [Nosflare](https://github.com/Spl0itable/nosflare)![stars](https://img.shields.io/github/stars/Spl0itable/nosflare.svg?style=social) -  a serverless Nostr relay purpose-built for [Cloudflare Workers](https://workers.cloudflare.com/) and the [Cloudflare KV](https://www.cloudflare.com/products/workers-kv/) store.
-- [Nostpy](https://github.com/UTXOnly/nost-py/tree/main)![stars](https://img.shields.io/github/stars/UTXOnly/nost-py.svg?style=social) - An easy to deploy/audit Python relay for beginner relay operators.
+- [Nostpy](https://github.com/UTXOnly/nostpy-relay)![stars](https://img.shields.io/github/stars/UTXOnly/nostpy-relay.svg?style=social) - An easy to deploy/audit Python relay for beginner relay operators.
 - [Nostr client and relay](https://github.com/pedro-vicente/nostr_client_relay)![stars](https://img.shields.io/github/stars/pedro-vicente/nostr_client_relay.svg?style=social) -  C++ engine that allows building Nostr applications for command line, desktop or web.
 - [nostrcheck-server](https://github.com/quentintaranpino/nostrcheck-server)![stars](https://img.shields.io/github/stars/quentintaranpino/nostrcheck-server.svg?style=social) - A server with relay, File Hosting, Nostr Address, Lightning Redirects, NWC and WoT.
 - [nostrfy](https://github.com/iqbqioza/nostrfy)![stars](https://img.shields.io/github/stars/iqbqioza/nostrfy.svg?style=social) - High-performance Nostr relay engine written in Rust. Fast, memory-efficient, all-in-one NIPs relay & built-in Blossom server, and built for modern relays.
@@ -139,8 +139,6 @@ of the public instances.
 - [HORNET Storage](https://github.com/HORNET-Storage/HORNETS-Nostr-Relay)![stars](https://img.shields.io/github/stars/HORNET-Storage/HORNETS-Nostr-Relay.svg?style=social) - A multimedia-focused Nostr relay with built-in support for storing larger media files.
 - [jingle](https://github.com/fiatjaf/jingle)![stars](https://img.shields.io/github/stars/fiatjaf/jingle.svg?style=social) - A simple Nostr relay framework.
 - [mimoty](https://github.com/gzuuus/mimoty)![stars](https://img.shields.io/github/stars/gzuuus/mimoty.svg?style=social) - A Nostr relay implementation.
-- [nex](https://github.com/aaronrussell/nex)![stars](https://img.shields.io/github/stars/aaronrussell/nex.svg?style=social) - A Nostr relay implementation.
-- [nostpy-relay](https://github.com/UTXOnly/nostpy-relay)![stars](https://img.shields.io/github/stars/UTXOnly/nostpy-relay.svg?style=social) - A Python Nostr relay.
 - [nostr-filter](https://github.com/imksoo/nostr-filter)![stars](https://img.shields.io/github/stars/imksoo/nostr-filter.svg?style=social) - A filter proxy for Nostr relays.
 - [Nostrify](https://nostrify.dev) - Nostr framework for Deno and web — relay, client, and shared utilities by the Soapbox team.
 - [note-mixer-relay](https://github.com/gzuuus/note-mixer-relay)![stars](https://img.shields.io/github/stars/gzuuus/note-mixer-relay.svg?style=social) - A relay that mixes notes between users for privacy.
@@ -286,7 +284,6 @@ Websites with lists of relays and their performance/health:
   - [Flatpak](https://flathub.org/en/apps/com.besoeasy.gupt) - Linux desktop app
 - [Hook Cafe](https://github.com/kuba-04/hook.cafe)![stars](https://img.shields.io/github/stars/kuba-04/hook.cafe.svg?style=social) - A social app helping people to meet in real life
   -  [hook.cafe](https://hook.cafe) - live instance
-- [get-tao.app](https://github.com/smolgrrr/TAO)![stars](https://img.shields.io/github/stars/smolgrrr/TAO.svg?style=social) Anonymous-first client with PoW notes
 - [Heya.fund](https://heya.fund/)![stars](https://github.com/verbiricha/goalz) - Fund causes and goals with lightning
 - [iris](https://github.com/irislib/iris-messenger)![stars](https://img.shields.io/github/stars/irislib/iris-messenger.svg?style=social) - A nostr web client
   - [iris.to](https://iris.to) - live instance
@@ -481,7 +478,6 @@ Websites with lists of relays and their performance/health:
 - [Marmota](https://groups.privdm.com) - MLS-based group chat on Nostr.
 - [OpenChat](https://github.com/DavidGershony/openChat)![stars](https://img.shields.io/github/stars/DavidGershony/openChat.svg?style=social) - Open-source Nostr chat client.
 - [Sanki](https://sanki.app) - Chess, ōgi and xiongqi playing each other on one 8×8 board; no sign-up, games are signed events (custom kinds 3418-3441, NIPs at [sashite/nostr](https://github.com/sashite/nostr))
-- [Sprout](https://github.com/block/sprout)![stars](https://img.shields.io/github/stars/block/sprout.svg?style=social) - Group chat client by Block.
 - [verdana](https://github.com/fiatjaf/verdana)![stars](https://img.shields.io/github/stars/fiatjaf/verdana.svg?style=social) - napp runner for desktop and android
 - [statim](https://github.com/alaibe/statim)![stars](https://img.shields.io/github/stars/alaibe/statim.svg?style=social) - Self-custodial messenger. Your account is twelve words on your device: encrypted chats over XMTP, Nostr and Waku, Telegram and Matrix in the same inbox, and a wallet in the conversation. iOS, macOS, Windows, Linux, Android.
 
