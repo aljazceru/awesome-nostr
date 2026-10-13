@@ -252,7 +252,6 @@ Websites with lists of relays and their performance/health:
 - [Ditto](https://gitlab.com/soapbox-pub/ditto)![stars](https://img.shields.io/gitlab/stars/soapbox-pub/ditto.svg?style=social) - A social platform for people who want to have fun, not feed the Big Tech machine. Open source, decentralized, and entirely yours to customize and build upon.
   - [ditto.pub](https://ditto.pub) - live instance
 - [Disgus](https://github.com/carlitoplatanito/disgus)![stars](https://img.shields.io/github/stars/carlitoplatanito/disgus.svg?style=social) - A comment widget like Disqus, but for Nostr.
-- [Discerned](https://github.com/steveja42/discerned)![stars](https://img.shields.io/github/stars/steveja42/discerned.svg?style=social) - Browser extension that lets you clip a page with its original layout intact, rate it on a five-level signal scale, and publish your evaluation to Nostr; private clips stay in your browser and publishing is always opt-in.
 - [dispute](https://github.com/ethicnology/dispute)![stars](https://img.shields.io/github/stars/ethicnology/dispute.svg?style=social) - A cross-platform (Linux, Android, iOS, macOS, Windows and Web) client for NOSTR
 - [Docstr](https://github.com/sepehr-safari/docstr) - Collaborative Documents (Google Docs Alternative)
   - [docstr.app](https://docstr.app) - live instance
@@ -430,6 +429,8 @@ Websites with lists of relays and their performance/health:
   - [whitenoise.chat](https://whitenoise.chat)
 - [wikistr](https://github.com/fiatjaf/wikistr)![stars](https://img.shields.io/github/stars/fiatjaf/wikistr.svg?style=social) - A "wikipedia" client for nostr
   - [wikistr.com](https://wikistr.com/)
+- [Wirthy](https://wirthy.app) - Browser extension that lets you clip a page with its original layout intact, rate it on a five-level signal scale, and publish your evaluation to Nostr; private clips stay in your browser and publishing is always opt-in.
+  - [github.com/steveja42/wirthy](https://github.com/steveja42/wirthy)![stars](https://img.shields.io/github/stars/steveja42/wirthy.svg?style=social) - source
 - [Written](https://github.com/silencesoft/written)![stars](https://img.shields.io/github/stars/silencesoft/written.svg?style=social) - Self hosted blog using nostr long-form content (NIP-23) and it shows only posts by selected authors.
   - [Demo](https://written-weld.vercel.app/)
 - [yakihonne.com](https://yakihonne.com) - YakiHonne is a Nostr-based decentralized content media protocol that supports blogs, flash news, curation, videos, uncensored notes, zaps, and other content types. Join us now and experience the joy of decentralized publishing, review, and settlement media networks.
