@@ -50,7 +50,6 @@ nostr.net services [start.nostr.net](https://start.nostr.net) || [relay.nostr.ne
 - [gozzip](https://github.com/gozzip-protocol/gozzip)![stars](https://img.shields.io/github/stars/gozzip-protocol/gozzip.svg?style=social) - An open, censorship-resistant protocol for social media and messaging. Inherits Nostr's proven primitives — secp256k1 identity, signed events, relay transport — and adds a storage and retrieval layer where users own their data
 - [opal](https://github.com/derekross/opal)![stars](https://img.shields.io/github/stars/derekross/opal.svg?style=social) - Nostr in your Omarchy bar: NIP-46 signer (bunker) with your nsec in the keyring, notifications, and NIP-38 now-playing/status [⚡ zap](https://nostr.net/grant/?zap=pay@derekross.me)
 - [Lazarus](https://github.com/dmnyc/lazarus)![stars](https://img.shields.io/github/stars/dmnyc/lazarus.svg?style=social) - A protocol for recovering follow lists, mute lists, profiles and other replaceable events that a client overwrote, from the old versions relays still hold. Restores happen only on an explicit click, with the user's own signer.
-- [nostcard](https://github.com/tompatulpan/nostcard)![stars](https://img.shields.io/github/stars/tompatulpan/nostcard.svg?style=social) - Zero-knowledge, client-side encrypted contact card (vCard) sharing over Nostr.
 
 ## Relays
 
@@ -805,6 +804,7 @@ Websites with lists of relays and their performance/health:
 - [cambium](https://github.com/forgesworn/cambium)![stars](https://img.shields.io/github/stars/forgesworn/cambium.svg?style=social) - Android NIP-55 signer that holds no keys: every request is proxied to a Heartwood hardware signer over NIP-46
 - [nostrclaw](https://github.com/rzazo24/nostrclaw)![stars](https://img.shields.io/github/stars/rzazo24/nostrclaw.svg?style=social) - MCP server for read-only Nostr relay analysis, with optional publishing via a NIP-46 signer.
 - [submarine](https://github.com/nogringo/submarine)![stars](https://img.shields.io/github/stars/nogringo/submarine.svg?style=social) - Password manager built on Nostr: encrypted, synced passwords, no account needed.
+- [nostcard](https://tompatulpan.github.io/nostcard/) - Zero-knowledge, client-side encrypted contact card (vCard) sharing over Nostr.
 
 ## NIP-05 identity services
 
