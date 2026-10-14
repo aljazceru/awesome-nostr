@@ -494,6 +494,7 @@ Websites with lists of relays and their performance/health:
 - [Kartapio](https://github.com/vstabile/kartapio)![stars](https://img.shields.io/github/stars/vstabile/kartapio.svg?style=social) - A Nostr-based marketplace.
 - [Milk Market](https://milk.market) - A Nostr-native marketplace.
 - [Mostro Mobile](https://github.com/MostroP2P/mobile)![stars](https://img.shields.io/github/stars/MostroP2P/mobile.svg?style=social) - Mobile client for the Mostro P2P exchange platform. [⚡ zap](https://nostr.net/grant/?zap=mostro_p2p@sats.mobi)
+- [infinitemarkets](https://github.com/bitkarrot/infinitemarkets)![stars](https://img.shields.io/github/stars/bitkarrot/infinitemarkets.svg?style=social) - A NIP-99 compliant open markets extension for LNBits
 
 ### Web Bookmarking ([NIP-B0](https://github.com/nostr-protocol/nips/blob/master/B0.md))
 - [Community Curated Nostr Stuff (CCNS)](https://github.com/Sebastix/CCNS)![stars](https://img.shields.io/github/stars/Sebastix/CCNS.svg?style=social) - CCNS is a Nostr-focused community platform centered around link aggregation and discussion topics.
@@ -590,6 +591,7 @@ Websites with lists of relays and their performance/health:
 - [applesauce](https://github.com/hzrd149/applesauce)![stars](https://img.shields.io/github/stars/hzrd149/applesauce.svg?style=social) - Reactive Nostr framework with utilities for building reactive UIs and event stores.
 - [zod-nostr](https://github.com/akiomik/zod-nostr)![stars](https://img.shields.io/github/stars/akiomik/zod-nostr.svg?style=social) - Zod schemas and codecs for Nostr protocol events, identifiers, and relay messages, built on Zod v4 with optional signature verification.
 - [sidestr-rs](https://github.com/DreamLab-AI/sidestr-rs)![stars](https://img.shields.io/github/stars/DreamLab-AI/sidestr-rs.svg?style=social) - sidestr-rs — Rust port of Melvin Carvalho's sidestr sidechains, AGPL-3.0-only: the economic engine for did:nostr agents. A did:nostr key is a sidechain wallet.
+- [nostr](https://github.com/qntx/nostr)![stars](https://img.shields.io/github/stars/qntx/nostr.svg?style=social) - Nostr protocol implementation and SDK in TypeScript and Rust
 
 ## Bridges and Gateways
 
@@ -809,6 +811,9 @@ Websites with lists of relays and their performance/health:
 - [Yondar](https://go.yondar.me) - Location-based social discovery on Nostr.
 - [kithmoot](https://github.com/forgesworn/kithmoot)![stars](https://img.shields.io/github/stars/forgesworn/kithmoot.svg?style=social) - Multi-device conference rooms over Nostr: a town hall nobody owns
 - [cambium](https://github.com/forgesworn/cambium)![stars](https://img.shields.io/github/stars/forgesworn/cambium.svg?style=social) - Android NIP-55 signer that holds no keys: every request is proxied to a Heartwood hardware signer over NIP-46
+- [nostrclaw](https://github.com/rzazo24/nostrclaw)![stars](https://img.shields.io/github/stars/rzazo24/nostrclaw.svg?style=social) - MCP server for read-only Nostr relay analysis, with optional publishing via a NIP-46 signer.
+- [submarine](https://github.com/nogringo/submarine)![stars](https://img.shields.io/github/stars/nogringo/submarine.svg?style=social) - Password manager built on Nostr: encrypted, synced passwords, no account needed.
+- [nostcard](https://tompatulpan.github.io/nostcard/) - Zero-knowledge, client-side encrypted contact card (vCard) sharing over Nostr.
 
 ## NIP-05 identity services
 
