@@ -1,7 +1,15 @@
 nostr.net services [start.nostr.net](https://start.nostr.net) || [relay.nostr.net](https://relay.nostr.net) ||  [nostr.at](https://nostr.at) || [wot.nostr.net](https://wot.nostr.net) || [delete.nostr.net](https://delete.nostr.net)
 
-"nostr" stands for "**N**otes and **O**ther **S**tuff **T**ransmitted by
-**R**elays" and is an open protocol for censorship-resistant global networks.
+## What is Nostr?
+
+"Nostr" stands for "**N**otes and **O**ther **S**tuff **T**ransmitted by
+**R**elays" and is an open protocol for censorship-resistant global networks built on public-key cryptography. Anyone can run a relay; clients pick and choose which relays they read from and write to. There is no platform-level account or identity layer — your identity is just a keypair, and your social graph lives wherever you decide to host it.
+
+## Where to start
+
+If you're new: [start.nostr.net](https://start.nostr.net) helps you create a key and pick a client. [Damus](https://damus.io/) (iOS), [Amethyst](https://github.com/marmil-cz/Amethyst) (Android), and [Iris](https://iris.to/) (web) are the most popular clients. To understand how relays differ from a typical social network, see [NIP-01](https://github.com/nostr-protocol/nips/blob/master/01.md) (the basic protocol) and [NIP-05](https://github.com/nostr-protocol/nips/blob/master/05.md) (DNS-based verification).
+
+This list catalogs clients, relays, NIPs, libraries, and apps built on Nostr.
 
 ## Most popular
 
