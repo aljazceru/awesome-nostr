@@ -7,7 +7,7 @@ nostr.net services [start.nostr.net](https://start.nostr.net) || [relay.nostr.ne
 
 ## Where to start
 
-If you're new: [start.nostr.net](https://start.nostr.net) helps you create a key and pick a client. [Damus](https://damus.io/) (iOS), [Amethyst](https://github.com/marmil-cz/Amethyst) (Android), and [Iris](https://iris.to/) (web) are the most popular clients. To understand how relays differ from a typical social network, see [NIP-01](https://github.com/nostr-protocol/nips/blob/master/01.md) (the basic protocol) and [NIP-05](https://github.com/nostr-protocol/nips/blob/master/05.md) (DNS-based verification).
+If you're new: [start.nostr.net](https://start.nostr.net) helps you create a key and pick a client. [Damus](https://damus.io/) (iOS), [Amethyst](https://github.com/vitorpamplona/amethyst) (Android), and [Iris](https://iris.to/) (web) are the most popular clients. To understand how relays differ from a typical social network, see [NIP-01](https://github.com/nostr-protocol/nips/blob/master/01.md) (the basic protocol) and [NIP-05](https://github.com/nostr-protocol/nips/blob/master/05.md) (DNS-based verification).
 
 This list catalogs clients, relays, NIPs, libraries, and apps built on Nostr.
 
