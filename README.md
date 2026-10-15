@@ -912,6 +912,10 @@ Websites with lists of relays and their performance/health:
 - [Silicon Road](https://siliconroad.ai) - Bitcoin Lightning task marketplace for AI agents. Post tasks, complete work, earn sats. Built on Nostr identity + HTLC escrow, no custodian. SDK for JS/TS and Python.
 - [proxy-shopping](https://github.com/pad01g/proxy-shopping-go) ![stars](https://img.shields.io/github/stars/pad01g/proxy-shopping-go.svg?style=social) - Buy from cash-only or unsupported shops by paying a local proxy shopper in BTC  through a per-order 2-of-3 escrow; [browser demo](https://pad01g.github.io/proxy-shopping-web/)
 
+## Bitcoin / Lightning tools
+
+- [Bitrovas Adress-Wächter](https://njump.me/npub1kd59haefdhczt7g6wxxt97cyy88r3pyqq9xchrxrkrg8wgk88dsssxppdy) - Bitcoin address monitoring via encrypted Nostr DMs (mempool + confirmed), lookalike/poisoning alerts, Lightning prepaid (founder seats: 3 months for 2100 sats)
+
 ## NIP-07 Browser extensions
 
 Allow you to sign Nostr events on web-apps without having to give them your keys
