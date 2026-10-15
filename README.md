@@ -631,6 +631,7 @@ Websites with lists of relays and their performance/health:
 - [Amethyst crawler](https://crawler.amethyst.social/) - Find and broadcast nostr events
 - [anonroom](https://github.com/vinliao/anonroom)![stars](https://img.shields.io/github/stars/vinliao/anonroom.svg?style=social) - anonymous chat room inside nostr
 - [Bech32 for Nostr](https://nostr.xport.top/bech32-for-nostr/) - bech32 Nostr converter.
+- [Bitrovas Adress-Wächter](https://primal.net/p/npub1kd59haefdhczt7g6wxxt97cyy88r3pyqq9xchrxrkrg8wgk88dsssxppdy) - Bitcoin address monitoring via encrypted Nostr DMs (mempool + confirmed), lookalike/poisoning alerts, Lightning prepaid (founder seats: 3 months for 2100 sats)
 - [blogsync](https://github.com/canostrical/blogsync)![stars](https://img.shields.io/github/stars/canostrical/blogsync.svg?style=social) - Self-host blog articles from long-form notes e.g. via Caddy server.
 - [Bloom](https://github.com/Letdown2491/bloom)![stars](https://img.shields.io/github/stars/letdown2491/bloom.svg?style=social) - A file‑manager interface (edit metadata, share items, create shareable folders) for files and blobs stored on Blossom and NIP‑96 servers.
   - [bloomapp.me](https://bloomapp.me/) - live instance
@@ -911,10 +912,6 @@ Websites with lists of relays and their performance/health:
 - [n3xB](https://github.com/nobu-maeda/n3xb) ![stars](https://img.shields.io/github/stars/nobu-maeda/n3xb.svg?style=social) - Proposal for a Bitcoin exchange protocol and a globally shared order book on Nostr
 - [Silicon Road](https://siliconroad.ai) - Bitcoin Lightning task marketplace for AI agents. Post tasks, complete work, earn sats. Built on Nostr identity + HTLC escrow, no custodian. SDK for JS/TS and Python.
 - [proxy-shopping](https://github.com/pad01g/proxy-shopping-go) ![stars](https://img.shields.io/github/stars/pad01g/proxy-shopping-go.svg?style=social) - Buy from cash-only or unsupported shops by paying a local proxy shopper in BTC  through a per-order 2-of-3 escrow; [browser demo](https://pad01g.github.io/proxy-shopping-web/)
-
-## Bitcoin / Lightning tools
-
-- [Bitrovas Adress-Wächter](https://primal.net/p/npub1kd59haefdhczt7g6wxxt97cyy88r3pyqq9xchrxrkrg8wgk88dsssxppdy) - Bitcoin address monitoring via encrypted Nostr DMs (mempool + confirmed), lookalike/poisoning alerts, Lightning prepaid (founder seats: 3 months for 2100 sats)
 
 ## NIP-07 Browser extensions
 
