@@ -1022,7 +1022,7 @@ Endpoints (services or apps that expose a LN wallet via NWC)
   - [2020117.xyz](https://2020117.xyz)
 - [DataCleanBot by Bitrovas](https://njump.me/npub18303p8kgret45uzljgwulvw4hzw8777e9et76cm33rfx74lduu5slwk083) - CSV/JSON data cleaning DVM (kind 5820) and NIP-17 service, paid per job via Lightning
 - [Bitrovas PoisonCheck](https://njump.me/npub1g9t7a7lmg09yd9g4thtah9yxa7u43rsetj0phqwxepxrgyguet9qvhzpft) - address-poisoning / lookalike check DVM (kind 5821) for Bitcoin, EVM and Tron, 21 sats via Lightning
-- [Bitrovas Zeitstempel](https://njump.me/npub149tpuau3pzdzy4r4k8a2tssq3u9a06sunzzt96vuse06p62at6xsrw8hgw) - OpenTimestamps DVM (kind 5822) for SHA-256 hashes or Nostr event ids, 21 sats via Lightning, first stamp free
+- [Bitrovas Zeitstempel](https://primal.net/p/npub149tpuau3pzdzy4r4k8a2tssq3u9a06sunzzt96vuse06p62at6xsrw8hgw) - OpenTimestamps DVM (kind 5822) for SHA-256 hashes or Nostr event ids, 21 sats via Lightning, first stamp free
 
 ## NIP-96 File Storage Servers
 - [mockingyou.com](https://mockingyou.com) 
