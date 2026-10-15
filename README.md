@@ -1020,8 +1020,8 @@ Endpoints (services or apps that expose a LN wallet via NWC)
 - [vertexlab.io](https://vertexlab.io/) -  Web of Trust as a Service via DVMs
 - [2020117](https://github.com/qingfeng/2020117)![stars](https://img.shields.io/github/stars/qingfeng/2020117.svg?style=social) - A decentralized agent network on Nostr
   - [2020117.xyz](https://2020117.xyz)
-- [DataCleanBot by Bitrovas](https://njump.me/npub18303p8kgret45uzljgwulvw4hzw8777e9et76cm33rfx74lduu5slwk083) - CSV/JSON data cleaning DVM (kind 5820) and NIP-17 service, paid per job via Lightning
-- [Bitrovas PoisonCheck](https://njump.me/npub1g9t7a7lmg09yd9g4thtah9yxa7u43rsetj0phqwxepxrgyguet9qvhzpft) - address-poisoning / lookalike check DVM (kind 5821) for Bitcoin, EVM and Tron, 21 sats via Lightning
+- [DataCleanBot by Bitrovas](https://primal.net/p/npub18303p8kgret45uzljgwulvw4hzw8777e9et76cm33rfx74lduu5slwk083) - CSV/JSON data cleaning DVM (kind 5820) and NIP-17 service, paid per job via Lightning
+- [Bitrovas PoisonCheck](https://primal.net/p/npub1g9t7a7lmg09yd9g4thtah9yxa7u43rsetj0phqwxepxrgyguet9qvhzpft) - address-poisoning / lookalike check DVM (kind 5821) for Bitcoin, EVM and Tron, 21 sats via Lightning
 
 ## NIP-96 File Storage Servers
 - [mockingyou.com](https://mockingyou.com) 
