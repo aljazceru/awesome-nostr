@@ -914,7 +914,7 @@ Websites with lists of relays and their performance/health:
 
 ## Bitcoin / Lightning tools
 
-- [Bitrovas Adress-Wächter](https://njump.me/npub1kd59haefdhczt7g6wxxt97cyy88r3pyqq9xchrxrkrg8wgk88dsssxppdy) - Bitcoin address monitoring via encrypted Nostr DMs (mempool + confirmed), lookalike/poisoning alerts, Lightning prepaid (founder seats: 3 months for 2100 sats)
+- [Bitrovas Adress-Wächter](https://primal.net/p/npub1kd59haefdhczt7g6wxxt97cyy88r3pyqq9xchrxrkrg8wgk88dsssxppdy) - Bitcoin address monitoring via encrypted Nostr DMs (mempool + confirmed), lookalike/poisoning alerts, Lightning prepaid (founder seats: 3 months for 2100 sats)
 
 ## NIP-07 Browser extensions
 
