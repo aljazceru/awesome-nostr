@@ -146,6 +146,7 @@ of the public instances.
 - [noxir](https://github.com/kphrx/noxir)![stars](https://img.shields.io/github/stars/kphrx/noxir.svg?style=social) - Nostr relay implementation in Elixir.
 - [Pyramid](https://github.com/github-tijlxyz/khatru-pyramid)![stars](https://img.shields.io/github/stars/github-tijlxyz/khatru-pyramid.svg?style=social) - Invite-only Nostr relay built on khatru, with web-of-trust style invitation tree.
 - [Snowflare](https://github.com/SnowCait/snowflare)![stars](https://img.shields.io/github/stars/SnowCait/snowflare.svg?style=social) - A Nostr relay that runs on Cloudflare Workers.
+- [hns-relay](https://github.com/keptlive/hns-relay)![stars](https://img.shields.io/github/stars/keptlive/hns-relay.svg?style=social) - Nostr relay with optional NIP-05 write admission for a domain suffix.
 
 ### Relay lists 
 Websites with lists of relays and their performance/health:
@@ -332,6 +333,7 @@ Websites with lists of relays and their performance/health:
 - [Nosky](https://github.com/KotlinGeekDev/Nosky)![stars](https://img.shields.io/github/stars/KotlinGeekDev/Nosky.svg?style=social) - A native Android client for Nostr. Still in development
 - [nostr console](https://github.com/vishalxl/nostr_console)![stars](https://img.shields.io/github/stars/vishalxl/nostr_console.svg?style=social) - a nostr command line client written in Dart. Binaries available for Windows, Linux, and macOS
 - [Nostr Read Only Client](https://github.com/delirehberi/nostr-ro-client/)![stars](https://img.shields.io/github/stars/delirehberi/nostr-ro-client.svg?style=social) - simple cloudflare worker to serve a single user's nostr content (kind:1) as web page preview: nostr.emre.xyz
+- [NostrBin](https://github.com/gabrielmoura/NostrBin)![stars](https://img.shields.io/github/stars/gabrielmoura/NostrBin.svg?style=social) - Publish and share code snippets as signed Nostr events.
 - [Nostria](https://nostria.app) - Web, Desktop, iOS and Android app for Nostr, easy to get started for new users. Multiple feeds with multiple columns, Live Streams, Articles, Media Library, Video recording, Audio recording. 
 - [nostrich-client](https://github.com/nostrichOS/nostrich-client)![stars](https://img.shields.io/github/stars/nostrichOS/nostrich-client.svg?style=social) - Nostrich is a free and open-source Nostr client for web, iOS, Android, and macOS. Notes, profiles and media live on Nostr relays and are not hosted by Nostrich. Your keys are your account, your notes live on relays anyone can run.
   - [nostrich.org](https://nostrich.org/) - live web client
@@ -601,6 +603,8 @@ Websites with lists of relays and their performance/health:
 - [zod-nostr](https://github.com/akiomik/zod-nostr)![stars](https://img.shields.io/github/stars/akiomik/zod-nostr.svg?style=social) - Zod schemas and codecs for Nostr protocol events, identifiers, and relay messages, built on Zod v4 with optional signature verification.
 - [sidestr-rs](https://github.com/DreamLab-AI/sidestr-rs)![stars](https://img.shields.io/github/stars/DreamLab-AI/sidestr-rs.svg?style=social) - sidestr-rs — Rust port of Melvin Carvalho's sidestr sidechains, AGPL-3.0-only: the economic engine for did:nostr agents. A did:nostr key is a sidechain wallet.
 - [nostr](https://github.com/qntx/nostr)![stars](https://img.shields.io/github/stars/qntx/nostr.svg?style=social) - Nostr protocol implementation and SDK in TypeScript and Rust
+- [hns-nostr](https://github.com/keptlive/hns-nostr)![stars](https://img.shields.io/github/stars/keptlive/hns-nostr.svg?style=social) - Resolve Handshake names and NIP-05 addresses to Nostr keys with proofs.
+- [nostr-deaddrop](https://github.com/forgesworn/nostr-deaddrop)![stars](https://img.shields.io/github/stars/forgesworn/nostr-deaddrop.svg?style=social) - NIP-59 gift wraps that hide the recipient with rendezvous keys.
 
 ## Bridges and Gateways
 
@@ -929,6 +933,7 @@ Allow you to sign Nostr events on web-apps without having to give them your keys
   - [Chromium extension](https://chromewebstore.google.com/detail/bunker46/hffbfaedhainmpaodhdgepnmmkmpahaa)
   - [Firefox extension](https://addons.mozilla.org/nl/firefox/addon/bunker46/)
 - [Deepmarks](https://deepmarks.org/extension)![stars](https://img.shields.io/github/stars/ostermayer/deepmarks-public.svg?style=social) - Nostr-native bookmarking browser extension with NIP-07 signing for Chrome, Firefox, and Safari.
+- [fapico2-nostr-extension](https://github.com/eddieoz/fapico2-nostr-extension)![stars](https://img.shields.io/github/stars/eddieoz/fapico2-nostr-extension.svg?style=social) - NIP-07 extension that signs on a fapico2 board over WebHID.
 - [horse](https://github.com/fiatjaf/horse) - hardware remote nostr event signer with webserial
 - [Keys.Band](https://keys.band) - Multi-key Nostr signing extension for Chrome with a sleak UI/UX. Based on NOS2X.
 - [NIP-07 Signing Extension Tester](https://github.com/neilck/nip07-tester)![stars](https://img.shields.io/github/stars/neilck/nip07-tester.svg?style=social) - This Next.js app tests NIP-07, showing supported functions and raw results for the current signing extension.
