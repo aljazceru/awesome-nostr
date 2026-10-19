@@ -145,20 +145,17 @@ of the public instances.
 - [note-mixer-relay](https://github.com/gzuuus/note-mixer-relay)![stars](https://img.shields.io/github/stars/gzuuus/note-mixer-relay.svg?style=social) - A relay that mixes notes between users for privacy.
 - [noxir](https://github.com/kphrx/noxir)![stars](https://img.shields.io/github/stars/kphrx/noxir.svg?style=social) - Nostr relay implementation in Elixir.
 - [Pyramid](https://github.com/github-tijlxyz/khatru-pyramid)![stars](https://img.shields.io/github/stars/github-tijlxyz/khatru-pyramid.svg?style=social) - Invite-only Nostr relay built on khatru, with web-of-trust style invitation tree.
+- [relay.nostr.net](wss://relay.nostr.net) - relay run by nostr.net
 - [Snowflare](https://github.com/SnowCait/snowflare)![stars](https://img.shields.io/github/stars/SnowCait/snowflare.svg?style=social) - A Nostr relay that runs on Cloudflare Workers.
 - [hns-relay](https://github.com/keptlive/hns-relay)![stars](https://img.shields.io/github/stars/keptlive/hns-relay.svg?style=social) - Nostr relay with optional NIP-05 write admission for a domain suffix.
 
 ### Relay lists 
 Websites with lists of relays and their performance/health:
 - [georelays](https://github.com/permissionlesstech/georelays)![stars](https://img.shields.io/github/stars/permissionlesstech/georelays.svg?style=social) - A collection of nostr relays and their estimated geographic locations for discovering nearby relays.
-- [relay.nostr.net](wss://relay.nostr.net) - relay run by nostr.net 
 - [nostr.info](https://nostr.info/relays/) - real-time checking of the status of some known relays.
 - [nostr.watch](https://nostr.watch)![stars](https://img.shields.io/github/stars/sandwichfarm/nostr-watch.svg?style=social) - real-time checking of the status of some known relays.
 - [relays.xport.top](https://relays.xport.top) - relays list sortable by ping, activity, etc.
 - [trustedrelays.xyz](https://trustedrelays.xyz) - relays list with trust scores for known relays using Trusted Relay Assertions.
-- [nostr-no-su](https://github.com/neverclear86/nostr-no-su)![stars](https://img.shields.io/github/stars/neverclear86/nostr-no-su.svg?style=social) - Nostr bunker (NIP-46) and utility server in Gleam/BEAM
-- [watchtower](https://github.com/fiatjaf/watchtower)![stars](https://img.shields.io/github/stars/fiatjaf/watchtower.svg?style=social) - An admin panel for relays that speak NIP-86, the relay management API.
-- [styx](https://github.com/styx-secure/styx)![stars](https://img.shields.io/github/stars/styx-secure/styx.svg?style=social) - Experimental secure application substrate for sensitive workflows: self-custodied identity, E2EE collaboration, verifiable state, offline operation, and untrusted relay infrastructure. Building toward Themis,   privacy-preserving case management.
 
 ## Clients
 ### Long form clients
@@ -651,6 +648,7 @@ Websites with lists of relays and their performance/health:
 - [CSV Importer](https://csv-importer.coracle.social/) - Publish Nostr events in bulk from CSV files.
 - [Chief](https://github.com/0xtrr/chief) - A Strfry write policy plugin that provides blacklists for public keys, event kinds and words/sentences.
 - [Cloud Seeder](https://github.com/ipv6rslimited/cloudseeder)![stars](https://img.shields.io/github/stars/ipv6rslimited/cloudseeder.svg?style=social) - A 1-click deployment and management tool for nostr-rs-relay and other appliances.
+- [watchtower](https://github.com/fiatjaf/watchtower)![stars](https://img.shields.io/github/stars/fiatjaf/watchtower.svg?style=social) - An admin panel for relays that speak NIP-86, the relay management API.
 - [contact cloud](https://github.com/canostrical/contact_cloud)![stars](https://img.shields.io/github/stars/canostrical/contact_cloud.svg?style=social) - Discover the Nostr contact list graph and your own pubkey in it.
 - [Contact list backup](https://nostr.xport.top/contact-list-backup/) - Backup and restore your contacts
 - [deed](https://github.com/zig-nostr/deed)![stars](https://img.shields.io/github/stars/zig-nostr/deed.svg?style=social) - Fastest and smallest nostr command line, built for AI agents and humans.
@@ -886,6 +884,7 @@ Websites with lists of relays and their performance/health:
 - [My Signet Lite](https://github.com/forgesworn/signet-lite)![stars](https://img.shields.io/github/stars/forgesworn/signet-lite.svg?style=social) - NIP-46 remote signer as an installable PWA. Bunker and nostrconnect pairing, several identities from one seed via nsec-tree, per-app and per-kind permissions, and an on-device activity log. NIP-44 only for new encryption.
   - [lite.mysignet.app](https://lite.mysignet.app) - live instance
 - [nostr-signing-device](https://github.com/lnbits/nostr-signing-device) - Signing device for Nostr built on ESP32
+- [nostr-no-su](https://github.com/neverclear86/nostr-no-su)![stars](https://img.shields.io/github/stars/neverclear86/nostr-no-su.svg?style=social) - Nostr bunker (NIP-46) and utility server in Gleam/BEAM
 - [nostrum](https://github.com/nostr-connect/nostrum)![stars](https://img.shields.io/github/stars/nostr-connect/nostrum.svg?style=social) - Nostrum it's a mobile app that allows you to sign transactions and messages with your Nostr keys. Nostrum is the reference implementation for a remote signer app (ie. Wallet) of the Nostr Connect protocol.
 - [Notary](https://github.com/zig-nostr/notary)![stars](https://img.shields.io/github/stars/zig-nostr/notary.svg?style=social) - Native NIP-46 remote signer for macOS and Linux, written in Zig. The key stays in a local daemon, encrypted with NIP-49, and a native window shows each request before it is signed.
 - [signer.bitmacro.io](https://signer.bitmacro.io) - Managed NIP-46 (Nostr Connect) bunker: encrypted vault, remote signing via relay without exposing nsec in plaintext. Open source, self-hostable.
@@ -1163,6 +1162,7 @@ Outside of nostr itself, you find the community on:
 - [O_GITS](https://o-gits.com:8443)![stars](https://img.shields.io/github/stars/SPcitydog/ogits-node.svg?style=social) - a digital life-form that propagates over public Nostr relays: a 100-dimensional tensor organism that evolves, dies and is reborn. [code](https://github.com/SPcitydog/ogits-node)
 - [ostrich.work](https://ostrich.work/) - nostr job board
 - [RSS feeds for news on Nostr](https://verityj.github.io/nostr-news-feeds) ![stars](https://img.shields.io/github/stars/verityj/verityj.github.io.svg?style=social) - a curated list of news press channels RSS feeds that we can follow on Nostr
+- [styx](https://github.com/styx-secure/styx)![stars](https://img.shields.io/github/stars/styx-secure/styx.svg?style=social) - Experimental secure application substrate for sensitive workflows: self-custodied identity, E2EE collaboration, verifiable state, offline operation, and untrusted relay infrastructure. Building toward Themis,   privacy-preserving case management.
 - [Summaries of all Nostr Improvements Proposals](https://anchor.fm/s/d8e8d5a4/podcast/rss) - ChatGPT generated summaries of all NIPs by k00b
 - [Tracker for Undocumented Nostr Event Kinds](https://undocumented.nostrkinds.info/) - monitors undocumented event kinds in the nostr network
 - [vanilla-js-nostr](https://github.com/supertestnet/vanilla-js-nostr)![stars](https://img.shields.io/github/stars/supertestnet/vanilla-js-nostr.svg?style=social) - a demo of posting and viewing a feed in nostr using vanilla javascript
