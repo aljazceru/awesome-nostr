@@ -1170,6 +1170,8 @@ Outside of nostr itself, you find the community on:
 - [Zaplife](https://zaplife.lol) - Real-time feed for nostr zaps. The best tool to shut up the "lightning doesn't work" people. [⚡ zap](https://nostr.net/grant/?zap=pablof7z@primal.net)
 - [The Attention Protocol](https://joinnextblock.com/billboard/book) - a love story published on nostr
 - [AndOtherStuff](https://andotherstuff.org/) - a collective that creates and stewards freedom tech, open tools, protocols, and applications.
+- [awesome-bitcoin-culture](https://github.com/itstomekk/awesome-bitcoin-culture)![stars](https://img.shields.io/github/stars/itstomekk/awesome-bitcoin-culture.svg?style=social) - curated list of art, film, books, music, podcasts and games about Bitcoin, with a searchable [gallery](https://itstomekk.github.io/awesome-bitcoin-culture/)
+- [awesome-bitcoin-events](https://github.com/itstomekk/awesome-bitcoin-events)![stars](https://img.shields.io/github/stars/itstomekk/awesome-bitcoin-events.svg?style=social) - calendar of Bitcoin conferences, meetups, festivals and retreats worldwide, with a [map](https://itstomekk.github.io/awesome-bitcoin-events/)
 
 ## Deprecated/Defunct
 
