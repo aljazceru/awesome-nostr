@@ -648,7 +648,6 @@ Websites with lists of relays and their performance/health:
 - [CSV Importer](https://csv-importer.coracle.social/) - Publish Nostr events in bulk from CSV files.
 - [Chief](https://github.com/0xtrr/chief) - A Strfry write policy plugin that provides blacklists for public keys, event kinds and words/sentences.
 - [Cloud Seeder](https://github.com/ipv6rslimited/cloudseeder)![stars](https://img.shields.io/github/stars/ipv6rslimited/cloudseeder.svg?style=social) - A 1-click deployment and management tool for nostr-rs-relay and other appliances.
-- [watchtower](https://github.com/fiatjaf/watchtower)![stars](https://img.shields.io/github/stars/fiatjaf/watchtower.svg?style=social) - An admin panel for relays that speak NIP-86, the relay management API.
 - [contact cloud](https://github.com/canostrical/contact_cloud)![stars](https://img.shields.io/github/stars/canostrical/contact_cloud.svg?style=social) - Discover the Nostr contact list graph and your own pubkey in it.
 - [Contact list backup](https://nostr.xport.top/contact-list-backup/) - Backup and restore your contacts
 - [deed](https://github.com/zig-nostr/deed)![stars](https://img.shields.io/github/stars/zig-nostr/deed.svg?style=social) - Fastest and smallest nostr command line, built for AI agents and humans.
@@ -785,6 +784,7 @@ Websites with lists of relays and their performance/health:
 - [toll-booth](https://github.com/forgesworn/toll-booth)![stars](https://img.shields.io/github/stars/forgesworn/toll-booth.svg?style=social) - HTTP 402 payment middleware with NWC backend and Cashu support. Companion tools: toll-booth-announce (kind 31402 service discovery), toll-booth-dvm (NIP-90 DVM bridge), 402-mcp (AI agent L402 client). [⚡ zap](https://nostr.net/grant/?zap=profusemeat89@walletofsatoshi.com)
 - [tostr](https://github.com/slaninas/tostr)![stars](https://img.shields.io/github/stars/slaninas/tostr.svg?style=social) - a twitter to nostr bot
 - [Undelete my Nostr](https://yonle.github.io/undelete-my-nostr)![stars](https://img.shields.io/github/stars/Yonle/undelete-my-nostr.svg?style=social) - Simple tool for restoring deleted nostr account.
+- [watchtower](https://github.com/iqbqioza/watchtower)![stars](https://img.shields.io/github/stars/iqbqioza/watchtower.svg?style=social) - An admin panel for relays that speak NIP-86, the relay management API.
 - [y-ndk](https://github.com/colealbon/y-ndk)![stars](https://img.shields.io/github/stars/colealbon/y-ndk.svg?style=social) - yjs provider over nostr relays
 - [Zapounty](https://github.com/ZigBalthazar/zapounty)![stars](https://img.shields.io/github/stars/ZigBalthazar/zapounty.svg?style=social) - A GitHub app that let you to put bounties for developers to fix issues on a repo, paid in zaps!
 - [Zapper](https://zapper.nostrapps.org) - Nostr micro-app for zapping
