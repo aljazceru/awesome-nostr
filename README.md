@@ -846,6 +846,7 @@ Websites with lists of relays and their performance/health:
  - [Iris Files](https://files.iris.to) - Blossom based filesystem and explorer
 - [jellyfish.land](https://jellyfish.land/nip05) - Nostr NIP-05 handles on @nostr.eco domain with WoT protection
 - [lifpay.me](https://lifpay.me) - Lightning wallet with NIP-05 ID registration service.
+- [mybuho.de](https://home.mybuho.de/buhogo) - Paid NIP-05 names (name@mybuho.de), registered in the BuhoGO wallet.
 - [nanostr](https://github.com/xbol0/nanostr)![stars](https://img.shields.io/github/stars/xbol0/nanostr?style=social) - A NIP-05 name server written in Deno.
 - [Nostr-Check.com](https://nostr-check.com) - A free NIP-05 ID registration service.
 - [NostrAddress.com](https://nostraddress.com) - Free and Paid Nostr Address (NIP-05) identifier service with premium relay and vanity domains.
@@ -960,6 +961,7 @@ Clients (apps using NWC to access a LN wallet)
 - [awesome-nwc](https://github.com/getAlby/awesome-nwc)![stars](https://img.shields.io/github/stars/getAlby/awesome-nwc.svg?style=social) - Curated list of awesome projects implementing Nostr Wallet Connect (NWC)
 - [Alby Go](https://albygo.com) - A simple lightning mobile wallet interface that works great with Alby Hub.
 - [Amethyst](https://github.com/vitorpamplona/amethyst)![stars](https://img.shields.io/github/stars/vitorpamplona/amethyst.svg?style=social) - Android-only app
+- [BuhoGO](https://github.com/Buho-Ecosystem/Buho_go)![stars](https://img.shields.io/github/stars/Buho-Ecosystem/Buho_go.svg?style=social) - Android and web Bitcoin wallet that connects NWC wallets alongside its own self-custodial ones
 - [Damus](https://damus.io/) - The OG nostr client for iOS
 - [Lume](https://lume.nu) - Cross-platform desktop app
 - [nostrcheck-server](https://github.com/quentintaranpino/nostrcheck-server)![stars](https://img.shields.io/github/stars/quentintaranpino/nostrcheck-server.svg?style=social) - server with relay, File Hosting, Nostr Address, Lightning Redirects, NWC and WoT.
