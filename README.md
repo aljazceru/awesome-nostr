@@ -852,7 +852,6 @@ Websites with lists of relays and their performance/health:
 - [NostrAddress.com](https://nostraddress.com) - Free and Paid Nostr Address (NIP-05) identifier service with premium relay and vanity domains.
 - [nostrcheck.me](https://nostrcheck.me/) - A free NIP-05 ID (nostr address) registration service, lightning redirection and media uploads. [⚡ zap](https://nostr.net/grant/?zap=public@nostrcheck.me)
 - [Nostrich House](https://nostrich.house) - Paid NIP-05 service with nostr bot interface. Buy your nostr address with DM to nostrich@nostrich.house for 1 sat/hour, anonymous, immediate.
-- [nostrich.love](https://uselessshit.co/nostr/nip-05/) - A Nostr Address registration service.
 - [nostrplebs](https://nostrplebs.com) - The oldest and original Nostr address registration and identity management service.
 - [nostrprotocol.net](https://github.com/KiPSOFT/nostr-nip05-service)![stars](https://img.shields.io/github/stars/KiPSOFT/nostr-nip05-service?style=social) - A free NIP-05 identifier service.
 - [pleroma2nip05](https://code.taurix.net/guy/pleroma2nip05) - A Python based service to link pleroma ID's to nostr keys.
