@@ -284,10 +284,10 @@ Websites with lists of relays and their performance/health:
 - [GUPT](https://github.com/besoeasy/gupt)![stars](https://img.shields.io/github/stars/besoeasy/gupt.svg?style=social) - Anonymous Nostr messenger & privacy suite: E2E chat, P2P video/audio calls, screen sharing, encrypted passwords/notes/bookmarks.
   - [gupt.app](https://gupt.app/) - live instance
   - [Flatpak](https://flathub.org/en/apps/com.besoeasy.gupt) - Linux desktop app
-  - [Holoboard](https://holoboard.space) - A bulletin board powered by sats
 - [Hook Cafe](https://github.com/kuba-04/hook.cafe)![stars](https://img.shields.io/github/stars/kuba-04/hook.cafe.svg?style=social) - A social app helping people to meet in real life
   -  [hook.cafe](https://hook.cafe) - live instance
 - [Heya.fund](https://heya.fund/)![stars](https://github.com/verbiricha/goalz) - Fund causes and goals with lightning
+- [Holoboard.space](https://holoboard.space)![stars](https://github.com/ptrio42/holoboard.space) - A Nostr bulletin board where notes are ranked with sats
 - [iris](https://github.com/irislib/iris-messenger)![stars](https://img.shields.io/github/stars/irislib/iris-messenger.svg?style=social) - A nostr web client
   - [iris.to](https://iris.to) - live instance
   - [Android app](https://play.google.com/store/apps/details?id=to.iris.twa)
