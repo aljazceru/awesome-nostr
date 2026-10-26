@@ -515,6 +515,8 @@ Websites with lists of relays and their performance/health:
 - Feature [comparison list of Nostr clients](https://github.com/vishalxl/Nostr-Clients-Features-List)![stars](https://img.shields.io/github/stars/vishalxl/Nostr-Clients-Features-List.svg?style=social)
 - [Feature Matrix for Nostr Clients](https://github.com/nostorg/clients)![stars](https://img.shields.io/github/stars/nostorg/clients.svg?style=social)
   - [Landing page](https://nostorg.github.io/clients/)
+- [Nostr Scrutiny](https://github.com/rzazo24/nostr-scrutiny)![stars](https://img.shields.io/github/stars/rzazo24/nostr-scrutiny.svg?style=social) - Fact sheets on Nostr clients: publishers, key handling, code, and privacy, with sources.
+  - [scrutiny.hivescope.xyz](https://scrutiny.hivescope.xyz/)
 
 ## Libraries
 - [amberflutter](https://github.com/sebdeveloper6952/amberflutter)![stars](https://img.shields.io/github/stars/sebdeveloper6952/amberflutter.svg?style=social) - A Flutter wrapper for Amber (Offline Signer).
