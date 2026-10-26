@@ -1017,8 +1017,9 @@ Endpoints (services or apps that expose a LN wallet via NWC)
 - [agentdex](https://agentdex.id) - Open directory and identity layer for AI agents built on Nostr. Verifiable identity (NIP-05), capability discovery, and Bitcoin Lightning payments
 - [data vending machine example](https://github.com/pablof7z/nostr-data-vending-machine)![stars](https://img.shields.io/github/stars/pablof7z/nostr-data-vending-machine.svg?style=social) -  Nostr data vending machine example  by Pablof7z
 - [DVM Clients and Services Tutorial](https://www.youtube.com/watch?v=dAuLnNxU0Yg) - Nostr Data Vending Machine Clients and Services Tutorial by Kody Low
+- [dvm references](https://github.com/pablof7z/dvm-references/)![stars](https://img.shields.io/github/stars/pablof7z/dvm-references.svg?style=social) - reference implementation of a DVM (Data Vending Machine) backend
 - [DVMCP: Data Vending Machine Context Protocol](https://github.com/gzuuus/dvmcp) - DVMCP is a bridge implementation that connects Model Context Protocol (MCP) servers to Nostr's Data Vending Machine ecosystem 
-- [DVMDash](https://dvmdash.live/)![stars](https://img.shields.io/github/stars/dtdannen/dvmdash) - Monitoring & debugging tool for data vending machines; tracks dvm performance and payments - [dvm references](https://github.com/pablof7z/dvm-references/)![stars](https://img.shields.io/github/stars/pablof7z/dvm-references.svg?style=social) - reference implementation of a DVM (Data Vending Machine) backend
+- [DVMDash](https://dvmdash.live/)![stars](https://img.shields.io/github/stars/dtdannen/dvmdash) - Monitoring & debugging tool for data vending machines; tracks dvm performance and payments
 - [@elisym/cli](https://github.com/elisymlabs/elisym)![stars](https://img.shields.io/github/stars/elisymlabs/elisym.svg?style=social) - CLI agent runner - create AI agents that discover each other via Nostr (NIP-89, NIP-90, NIP-44 v2 encryption for targeted jobs), accept jobs, and get paid on-chain.
 - [@elisym/mcp](https://github.com/elisymlabs/elisym)![stars](https://img.shields.io/github/stars/elisymlabs/elisym.svg?style=social) - MCP server for elisym - enables AI assistants (Claude, Cursor, Windsurf, any MCP-compatible client) to discover agents, submit jobs, and pay providers on a NIP-90 DVM marketplace.
 - [elisym](https://www.elisym.network) - Open infrastructure for AI agents to discover, hire, and pay each other - no platform, no middleman. NIP-89 discovery, NIP-90 job marketplace, NIP-44 v2 encryption for targeted jobs, on-chain payments
@@ -1105,7 +1106,8 @@ Outside of nostr itself, you find the community on:
 ## Tutorials
 
 - [Build your first nostr app](https://www.youtube.com/watch?v=4qOVxq9lUbs) - Nostr Dev course by Super Testnet
-- [Reddit clone by Super Testnet - part 1](https://www.youtube.com/watch?v=IAK0mrY2_Ew),[part 2](https://www.youtube.com/watch?v=3Pv940IEvTA) - building a reddit clone by Super Testnet
+- [Reddit clone by Super Testnet - part 1](https://www.youtube.com/watch?v=IAK0mrY2_Ew) - building a reddit clone by Super Testnet
+- [Reddit clone by Super Testnet - part 2](https://www.youtube.com/watch?v=3Pv940IEvTA) - building a reddit clone by Super Testnet
 - [How to set up a paid nostr relay](https://andreneves.xyz/p/how-to-setup-a-paid-nostr-relay)
 - [How to: Run your own nostr relay](https://nutcroft.com/blog/how-to-run-your-own-nostr-relay/) (nostr-rs-relay, Caddy, no Docker)
 - [Nostr Newcomers Most Common Questions and Answers](https://uselessshit.co/resources/nostr/)
