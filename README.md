@@ -913,6 +913,8 @@ Websites with lists of relays and their performance/health:
 - [powpub](https://lab.oak-node.net/powpub) - A decentralized protocol to buy Nostr vanity pubkeys or sell hashrate
   - [WebLN demo](https://lab.oak-node.net/powpub/uv/wasm-client/) - Simple web demo where clients can pay with WebLN
 - [rana](https://github.com/grunch/rana)![stars](https://img.shields.io/github/stars/grunch/rana.svg?style=social) - Vanity pubkey miner based on nip13
+- [retro-crypto](https://github.com/bowler-bear/retro-crypto)![stars](https://img.shields.io/github/stars/bowler-bear/retro-crypto.svg?style=social) - Multi-coin seed and address software for retro game systems (CLI and Nintendo 64), with Nostr keys and a vanity pubkey miner.
+- [PSXX](https://github.com/0xVSultan/PSXX)![stars](https://img.shields.io/github/stars/0xVSultan/PSXX.svg?style=social) - Offline wallet, transaction signer and vanity address search (including Nostr npub) for the original PlayStation 1 (PSX), booting from a memory card.
 
 ## Peer-to-peer markets
 
