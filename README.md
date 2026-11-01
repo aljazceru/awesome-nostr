@@ -484,6 +484,8 @@ Websites with lists of relays and their performance/health:
 - [Sanki](https://sanki.app) - Chess, ōgi and xiongqi playing each other on one 8×8 board; no sign-up, games are signed events (custom kinds 3418-3441, NIPs at [sashite/nostr](https://github.com/sashite/nostr))
 - [verdana](https://github.com/fiatjaf/verdana)![stars](https://img.shields.io/github/stars/fiatjaf/verdana.svg?style=social) - napp runner for desktop and android
 - [statim](https://github.com/alaibe/statim)![stars](https://img.shields.io/github/stars/alaibe/statim.svg?style=social) - Self-custodial messenger. Your account is twelve words on your device: encrypted chats over XMTP, Nostr and Waku, Telegram and Matrix in the same inbox, and a wallet in the conversation. iOS, macOS, Windows, Linux, Android.
+- [Kintrinsic](https://github.com/forgesworn/kintrinsic)![stars](https://img.shields.io/github/stars/forgesworn/kintrinsic.svg?style=social) - Family screen-time and app limits, signed and delivered over Nostr relays.
+- [Worldline](https://github.com/worldline-calendar/worldline)![stars](https://img.shields.io/github/stars/worldline-calendar/worldline.svg?style=social) - Mac and iPhone calendar synced end-to-end encrypted over public Nostr relays.
 
 
 
