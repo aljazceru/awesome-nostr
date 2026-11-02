@@ -400,6 +400,7 @@ Websites with lists of relays and their performance/health:
 - [P2P band](https://p2p.band/)![stars](https://img.shields.io/github/stars/KoalaSat/p2pband.svg?style=social) -  P2P Bitcoin exchanges decentralized aggregator 
 - [Rabbit](https://github.com/syusui-s/rabbit)![stars](https://img.shields.io/github/stars/syusui-s/rabbit?style=social) - A nostr client like TweetDeck
 - [Rebased](https://codeberg.org/Zsub/rebased) - rebased — unify dev cryptography with your npub..
+- [Rougee](https://github.com/cyberdreadx/rougee-gram)![stars](https://img.shields.io/github/stars/cyberdreadx/rougee-gram.svg?style=social) - Instagram-style photo, video & reels client mixing Nostr and RougeChain posts, with private custom feeds (NIP-51). [rougee.app](https://rougee.app/)
 - [Samiz](https://github.com/KoalaSat/Samiz)![stars](https://img.shields.io/github/stars/KoalaSat/Samiz.svg?style=social) -  BLE mesh for nostr notes when the internet is down 
 - [Satlantis](https://www.satlantis.io/) - Social discovery app for events, calendars, communities, and destinations.
 - [Satellite](https://github.com/lovvtide/satellite-web)![stars](https://img.shields.io/github/stars/lovvtide/satellite-web.svg?style=social) - Nostr web client with Reddit-style threads
