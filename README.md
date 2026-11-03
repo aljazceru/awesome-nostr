@@ -206,6 +206,10 @@ Websites with lists of relays and their performance/health:
 - [Feather](https://github.com/dergigi/feather)![stars](https://img.shields.io/github/stars/dergigi/feather.svg?style=social) - Native Android client with signer login, swipeable feeds, full-screen media, and NWC zaps.
   - [Website](https://feather.dergigi.com/)
   - [Zapstore](https://zapstore.dev/apps/org.dergigi.feather)
+- [monostr](https://github.com/schmidt1024/monostr)![stars](https://img.shields.io/github/stars/schmidt1024/monostr.svg?style=social) - Android nostr client with private Monero tips on likes and reposts.
+  - [Website](https://monostr.com/)
+  - [Zapstore](https://zapstore.dev/apps/com.monostr.app)
+  - [F-Droid](https://f-droid.org/packages/com.monostr.app/)
 - [nospeak](https://github.com/psic4t/nospeak)![stars](https://img.shields.io/github/stars/psic4t/nospeak.svg?style=social) - A nospeak is a modern F-Droid Nostr chat client.
 - [Nmail](https://github.com/nogringo/nostr-mail-client)![stars](https://img.shields.io/github/stars/nogringo/nostr-mail-client.svg?style=social) -  Flutter email client for Nostr - send and receive encrypted emails using the Nostr protocol.
 - [NosCall](https://github.com/sanah9/noscall)![stars](https://img.shields.io/github/stars/sanah9/noscall.svg?style=social) -  A secure audio and video calling app built on Nostr protocol. Features end-to-end encrypted calls with cross-platform support.
