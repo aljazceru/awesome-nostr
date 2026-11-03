@@ -265,7 +265,6 @@ Websites with lists of relays and their performance/health:
 - [earthly](https://github.com/moogmodular/earthly)![stars](https://img.shields.io/github/stars/moogmodular/earthly.svg?style=social) - A social geojson editor with maps on Nostr
 - [electron-nostr](https://github.com/wds4/electron-react-boilerplate-nostr)![stars](https://img.shields.io/github/stars/wds4/electron-react-boilerplate-nostr?style=social) - A bare-bones desktop nostr client using electron-react-boilerplate. The goal is to be an easy template for people to experiment with different ideas on decentralized ratings, reputation, and web of trust
 - [emon](https://github.com/sebastiaanwouters/emon)![stars](https://img.shields.io/github/stars/sebastiaanwouters/emon.svg?style=social) - Encrypted DMs over nostr with lightning payments integrated (WIP).
-  - [emon.chat](https://emon.chat)
 - [Fevela](https://github.com/dtonon/fevela)![stars](https://img.shields.io/github/stars/dtonon/fevela.svg?style=social) - A Nostr social client with an innovative interface that gives you back full control of your attention and time.
   - [fevela.me](https://fevela.me) - live instance
 - [Flycat](https://github.com/digi-monkey/flycat-web)![stars](https://img.shields.io/github/stars/digi-monkey/flycat-web.svg?style=social) - A 2000s old-school style web client which support blogging on Nostr
@@ -289,7 +288,6 @@ Websites with lists of relays and their performance/health:
   - [gupt.app](https://gupt.app/) - live instance
   - [Flatpak](https://flathub.org/en/apps/com.besoeasy.gupt) - Linux desktop app
 - [Hook Cafe](https://github.com/kuba-04/hook.cafe)![stars](https://img.shields.io/github/stars/kuba-04/hook.cafe.svg?style=social) - A social app helping people to meet in real life
-  -  [hook.cafe](https://hook.cafe) - live instance
 - [Heya.fund](https://heya.fund/)![stars](https://github.com/verbiricha/goalz) - Fund causes and goals with lightning
 - [Holoboard.space](https://holoboard.space)![stars](https://github.com/ptrio42/holoboard.space) - A Nostr bulletin board where notes are ranked with sats
 - [iris](https://github.com/irislib/iris-messenger)![stars](https://img.shields.io/github/stars/irislib/iris-messenger.svg?style=social) - A nostr web client
@@ -360,10 +358,8 @@ Websites with lists of relays and their performance/health:
 - [Nostribe.com](https://github.com/sepehr-safari/nostribe-web-client) ![stars](https://img.shields.io/github/stars/sepehr-safari/nostribe-web-client.svg?style=social) - Nostr client web app built with Next.js 13 and TypeScript.
 - [AllSocial.me](https://allsocial.me/) - Linktree-like application for social media links based on nostr.
 - [Nostrid](https://github.com/lapulpeta/Nostrid)![stars](https://img.shields.io/github/stars/lapulpeta/Nostrid.svg?style=social) - Multi-platform client currently offering binaries for Android, Windows, MacOS and Linux.
-  - [Nostrid.Web](https://web.nostrid.app/) - Web version running completely on the browser. It can be installed locally as PWA.
 - [Nostrmo](https://github.com/haorendashu/nostrmo)![stars](https://img.shields.io/github/stars/haorendashu/nostrmo.svg?style=social) - A flutter nostr client for Android, IOS, MacOS, Windows, Web and Linux.
 - [nostromat](https://github.com/ekimber/nostromat)![stars](https://img.shields.io/github/stars/ekimber/nostromat.svg?style=social) - A Twitter-style Nostr web client, written in Clojurescript/React
-  - [nostrom.at](https://nostrom.at) - live instance
 - [Nostrord](https://github.com/nostrord/nostrord)![stars](https://img.shields.io/github/stars/nostrord/nostrord.svg?style=social) - A cross-platform NIP-29 group chat client built with Kotlin Multiplatform & Compose Multiplatform.
 - [Nostros](https://github.com/KoalaSat/nostros)![stars](https://img.shields.io/github/stars/KoalaSat/nostros.svg?style=social) - A nostr mobile client for Android
 - [Nostrtium](https://github.com/pjv/nostrtium)![stars](https://img.shields.io/github/stars/pjv/nostrtium.svg?style=social) - Post to Nostr directly from within WordPress
@@ -397,7 +393,6 @@ Websites with lists of relays and their performance/health:
 - [Pollerama](https://pollerama.fun/) - A polls implementation on nostr, with features like Proof of Work Filtering, Followset filtering, and more.
   - [Github Repo](https://github.com/abhay-raizada/nostr-polls)![stars](https://img.shields.io/github/stars/abhay-raizada/nostr-polls)
 - [Pollstr](https://github.com/mroxso/pollstr)![stars](https://img.shields.io/github/stars/mroxso/pollstr?style=social) - A nostr web client with a focus on polls.
-  - [pollstr.online](https://pollstr.online) - live instance
 - [Postr For Nostr](https://github.com/joel-st/postr-for-nostr)![stars](https://img.shields.io/github/stars/joel-st/postr-for-nostr.svg?style=social) - Post to Nostr directly from within WordPress using NIP-07
 - [Pretty Good Apps](https://github.com/wds4/pretty-good)![stars](https://img.shields.io/github/stars/wds4/pretty-good?style=social) - A desktop Nostr client for Linux, macOS, and windows with a focus on decentralized reputation and web of trust. First application: crowdsourced decentralized list curation.
 - [Primal](https://primal.net) - Lightning-fast web client for Nostr. Features extensive analytics, vanity profiles, and more.
@@ -448,7 +443,6 @@ Websites with lists of relays and their performance/health:
 - [yakihonne.com](https://yakihonne.com) - YakiHonne is a Nostr-based decentralized content media protocol that supports blogs, flash news, curation, videos, uncensored notes, zaps, and other content types. Join us now and experience the joy of decentralized publishing, review, and settlement media networks.
   - [YakiHonne mobile app](https://yakihonne.com/yakihonne-mobile-app) – iOS and Android app
 - [Yana](https://github.com/frnandu/yana)![stars](https://img.shields.io/github/stars/frnandu/yana.svg?style=social) - Yana is a nostr client focused on performance in slower devices and modularity of features.
-  - [yana.do](https://yana.do)
 - [ygege](https://github.com/UwUDev/ygege)![stars](https://img.shields.io/github/stars/UwUDev/ygege.svg?style=social) -  Support Tor High-performance torrents indexer for services using the U2P system written in Rust.
 - [Zap Cooking](https://zap.cooking/)![stars](https://img.shields.io/github/stars/zapcooking/frontend.svg?style=social) - Nostr's only recipe-sharing client: browse the OnlyFood feed, publish recipes, join polls and the recipe market, plan meals with grocery lists and nutrition insights, and zap cooks to support them. [⚡ zap](https://nostr.net/grant/?zap=zapcooking@sats.zap.cooking)
   - [Zapstore](https://zapstore.dev/apps/cooking.zap.app) - Android app with group cooking, encrypted DMs, and a built-in Spark or NWC wallet
@@ -981,7 +975,6 @@ Clients (apps using NWC to access a LN wallet)
 - [Nostur](https://nostur.com) - A nostr client for iPhone and macOS
 - [YakiHonne](https://yakihonne.com/yakihonne-mobile-app) - iOS and Android app
 - [Yana](https://github.com/frnandu/yana)![stars](https://img.shields.io/github/stars/frnandu/yana.svg?style=social) - Yana is a nostr client focused on performance in slower devices and modularity of features.
-  - [yana.do](https://yana.do)
 - [ZapPlanner](https://github.com/getAlby/ZapPlanner)![stars](https://img.shields.io/github/stars/getAlby/ZapPlanner.svg?style=social) - Scheduled recurring lightning payments powered by Nostr Wallet Connect (NWC), enabling lightning subscriptions and bitcoin recurring payments
 
 Endpoints (services or apps that expose a LN wallet via NWC)
