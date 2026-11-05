@@ -198,7 +198,6 @@ Websites with lists of relays and their performance/health:
   - [0xchat on iOS](https://apps.apple.com/app/0xchat/id1637607169)
   - [0xchat on Android](https://play.google.com/store/apps/details?id=com.oxchat.nostr)
 - [Daisy](https://github.com/neb-b/daisy) - Mobile client for Android and iOS
-  - [testflight + android builds](https://neb.lol/nostr)
 - [damus](https://github.com/damus-io/damus)![stars](https://img.shields.io/github/stars/damus-io/damus.svg?style=social) - a twitter-like nostr client for iOS and MacOS
   - [damus on testflight](https://testflight.apple.com/join/CLwjLxWl)
   - [damus on Mac app store](https://apps.apple.com/us/app/damus/id1628663131)
@@ -579,7 +578,6 @@ Websites with lists of relays and their performance/health:
 - [nsec-tree](https://github.com/forgesworn/nsec-tree)![stars](https://img.shields.io/github/stars/forgesworn/nsec-tree.svg?style=social) - Deterministic sub-identity derivation: one master secret, unlimited unlinkable Nostr identities, with optional proofs of common ownership. TypeScript, with a Python port in [nsec-tree-py](https://github.com/forgesworn/nsec-tree-py).
 - [Osty](https://github.com/ostyjs/create-osty)![stars](https://img.shields.io/github/stars/ostyjs/create-osty.svg?style=social)
   - [npm create osty@latest](https://www.npmjs.com/package/create-osty) - Osty on NPM
-  - [osty.dev](https://osty.dev) - Landing Website of Osty
 - [paravel](https://github.com/coracle-social/paravel) ![stars](https://img.shields.io/github/stars/coracle-social/paravel.svg?style=social) - an abstract toolkit for writing nostr clients.
 - [pynostr](https://github.com/holgern/pynostr)![stars](https://img.shields.io/github/stars/holgern/pynostr.svg?style=social) - a python library for nostr
 - [python-nostr](https://github.com/jeffthibault/python-nostr)![stars](https://img.shields.io/github/stars/jeffthibault/python-nostr.svg?style=social) - a python library for making clients
@@ -618,7 +616,6 @@ Websites with lists of relays and their performance/health:
 - [Mostr](https://gitlab.com/soapbox-pub/mostr)![stars](https://img.shields.io/gitlab/stars/soapbox-pub/mostr.svg?style=social) - a bridge between Nostr and the Fediverse (Mastodon, ActivityPub, etc.)
 - [Nostr over LoRa](https://github.com/geoffwhittington/meshtastic-bridge) ![stars](https://img.shields.io/github/stars/geoffwhittington/meshtastic-bridge.svg?style=social) - a gateway that can relay off-grid [Meshtastic](https://meshtastic.org) messages to NoStr.
 - [nostr-to-rss ](https://github.com/gustavonmartins/nostr-to-rss)![stars](https://img.shields.io/github/stars/gustavonmartins/nostr-to-rss.svg?style=social) - nostr to RSS bridge, enabling you to subscribe to nostr events in RSS clients
-  - [nostr-to-rss](https://nostr-to-rss.deno.dev/) - live instance 
 - [NostrBridge](https://github.com/duozhutuan/NostrBridge/)![stars](https://img.shields.io/github/stars/duozhutuan/NostrBridge.svg?style=social) - NostrBridge provides two core features aimed at facilitating WebSocket connection forwarding and message forwarding under the Nostr protocol. 
 - [nostrss](https://github.com/Asone/nostrss)![stars](https://img.shields.io/github/stars/Asone/nostrss.svg?style=social) - A flexible and lightweight application to broadcast  RSS feeds on Nostr
 - [rssnotes](https://github.com/trinidz/rssnotes) ![stars](https://img.shields.io/github/stars/trinidz/rssnotes.svg?style=social) -  RSS/Atom to Nostr relay. Fork of [rsslay](https://github.com/piraces/rsslay).
@@ -691,7 +688,7 @@ Websites with lists of relays and their performance/health:
   - [Reportable](https://www.mutable.top/reportable) - Browse public NIP-56 reports (kind:1984): a pubkey's report history or the live feed, no sign-in required.
   - [Snoopable](https://www.mutable.top/snoopable) - Analyzes public NIP-04 DM metadata to show top contacts, activity timing, and shareable summaries for any npub.
 - [NAKE](https://tsukemonogit.github.io/nake-website/)![stars](https://img.shields.io/github/stars/tsukemonogit/nake.svg?style=social) - a browser extension to easily convert between Nostr hex IDs and NIP-19 entities.
-- [nashboard](https://github.com/vinliao/nashboard)![stars](https://img.shields.io/github/stars/vinliao/nashboard.svg?style=social) - a Nostr network dashboard with network statistics, reachable [here](https://nashboard.space/)
+- [nashboard](https://github.com/vinliao/nashboard)![stars](https://img.shields.io/github/stars/vinliao/nashboard.svg?style=social) - a Nostr network dashboard with network statistics
 - [ndxstr](https://github.com/ArcadeCity/ndxstr)![stars](https://img.shields.io/github/stars/ArcadeCity/ndxstr.svg?style=social) - nostr's layer 2 indexing nodes, with more advanced querying capability than currently supported by relays
 - [nip06-cli](https://github.com/jaonoctus/nip06-cli)![stars](https://img.shields.io/github/stars/jaonoctus/nip06-cli.svg?style=social) - a Node.js CLI to generate or restore NIP-06 seed phrases
 - [nip06-web](https://github.com/jaonoctus/nip06-web)![stars](https://img.shields.io/github/stars/jaonoctus/nip06-web.svg?style=social) - a website to generate or restore NIP-06 seed phrases
@@ -1068,7 +1065,7 @@ Endpoints (services or apps that expose a LN wallet via NWC)
 - [nostr-wot-extension](https://github.com/nostr-wot/nostr-wot-extension)![stars](https://img.shields.io/github/stars/nostr-wot/nostr-wot-extension.svg?style=social) - WoT browser extension, create your own custom trust scoring and query social distance between pubkeys via remote oracle or local graph.
 - [relatr](https://github.com/contextvm/relatr)![stars](https://img.shields.io/github/stars/contextvm/relatr.svg?style=social)
 - [WoT relay](https://github.com/bitvora/wot-relay.git)![stars](https://img.shields.io/github/stars/bitvora/wot-relay.svg?style=social) - relay for every note in your web of trust
-- [wot-scoring](https://github.com/joelklabo/wot-scoring)![stars](https://img.shields.io/github/stars/joelklabo/wot-scoring.svg?style=social) - NIP-85 trust scoring engine with PageRank, sybil detection, trust circles. Live at [wot.klabo.world](https://wot.klabo.world)
+- [wot-scoring](https://github.com/joelklabo/wot-scoring)![stars](https://img.shields.io/github/stars/joelklabo/wot-scoring.svg?style=social) - NIP-85 trust scoring engine with PageRank, sybil detection, trust circles.
 
 
 
@@ -1086,7 +1083,6 @@ Endpoints (services or apps that expose a LN wallet via NWC)
 
 - [Gamestr](https://gamestr.io/) - A decentralized gaming platform built on Nostr, enabling peer-to-peer play without centralized servers.
 - [NostrDice](https://github.com/NostrDice/nostrdice)![stars](https://img.shields.io/github/stars/NostrDice/nostrdice) - NostrDice is a provably fair betting game combining the power of Lightning and Nostr.
-  - Live: [app.nostrdice.com](https://app.nostrdice.com)
 - [Nostrian Conquest](https://nostrian-conquest.com) - A turn-based multiplayer space strategy game inspired by classic BBS door games, rebuilt in Rust and powered by Nostr for decentralized play.
 - [Parlour](https://github.com/braedonsaunders/parlour)![stars](https://img.shields.io/github/stars/braedonsaunders/parlour) - Classic card games (Hearts, Euchre, Spades, Cribbage and more) played with friends over a room code. Nostr relays carry the room announcements and WebRTC signaling, so there are no accounts and no game server.
   - Live: [parlour.cards](https://parlour.cards)
