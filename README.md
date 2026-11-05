@@ -500,6 +500,7 @@ Websites with lists of relays and their performance/health:
 - [Milk Market](https://milk.market) - A Nostr-native marketplace.
 - [Mostro Mobile](https://github.com/MostroP2P/mobile)![stars](https://img.shields.io/github/stars/MostroP2P/mobile.svg?style=social) - Mobile client for the Mostro P2P exchange platform. [⚡ zap](https://nostr.net/grant/?zap=mostro_p2p@sats.mobi)
 - [infinitemarkets](https://github.com/bitkarrot/infinitemarkets)![stars](https://img.shields.io/github/stars/bitkarrot/infinitemarkets.svg?style=social) - A NIP-99 compliant open markets extension for LNBits
+- [Iris Market](https://github.com/irislib/iris-market)![stars](https://img.shields.io/github/stars/irislib/iris-market.svg?style=social) - NIP-99 marketplace with native apps, web browsing, private enquiries, and CLI/MCP tools for agents. Early prototype.
 
 ### Web Bookmarking ([NIP-B0](https://github.com/nostr-protocol/nips/blob/master/B0.md))
 - [Community Curated Nostr Stuff (CCNS)](https://github.com/Sebastix/CCNS)![stars](https://img.shields.io/github/stars/Sebastix/CCNS.svg?style=social) - CCNS is a Nostr-focused community platform centered around link aggregation and discussion topics.
@@ -671,6 +672,7 @@ Websites with lists of relays and their performance/health:
 - [nowhere](https://github.com/5t34k/nowhere)![stars](https://img.shields.io/github/stars/5t34k/nowhere.svg?style=social) - Encodes an entire website into a URL fragment. The site lives in the link itself and is never stored on a server. Eight tools (forum, event, fundraiser, store, petition, message, drop, art) publish without accounts or platform permission. Orders and messages route through Nostr relays using ephemeral keys.
 - [noz](https://github.com/privkeyio/noz)![stars](https://img.shields.io/github/stars/privkeyio/noz.svg?style=social) - Nostr On Zig, a small, fast Nostr command-line tool built on libnostr-z.
 - [http-nostr-publisher](https://github.com/getAlby/http-nostr-publisher)![stars](https://img.shields.io/github/stars/getAlby/http-nostr-publisher?style=social) - A Cloudflare worker to publish Nostr events to relays through a non-blocking HTTP interface .
+- [Iris Nostr](https://github.com/irislib/iris-nostr)![stars](https://img.shields.io/github/stars/irislib/iris-nostr.svg?style=social) - Rust CLI and library for querying, caching, signing and publishing Nostr events, with social-graph filtering and Hashtree-backed offline data.
 - [keystr-rs](https://github.com/keystr/keystr-rs)![stars](https://img.shields.io/github/stars/keystr/keystr-rs?style=social) - An application for managing Nostr keys. Written in Rust, with simple UI (Iced).
 - [knob](https://github.com/plantimals/knob)![stars](https://img.shields.io/github/stars/plantimals/knob.svg?style=social) - command line tool to post text files to nostr
 - [LikZap](https://github.com/silencesoft/likzap)![stars](https://img.shields.io/github/stars/silencesoft/likzap.svg?style=social) - A nostr bot to zap a note when you like it.
