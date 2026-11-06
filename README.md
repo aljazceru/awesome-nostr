@@ -484,6 +484,7 @@ Websites with lists of relays and their performance/health:
 - [statim](https://github.com/alaibe/statim)![stars](https://img.shields.io/github/stars/alaibe/statim.svg?style=social) - Self-custodial messenger. Your account is twelve words on your device: encrypted chats over XMTP, Nostr and Waku, Telegram and Matrix in the same inbox, and a wallet in the conversation. iOS, macOS, Windows, Linux, Android.
 - [Kintrinsic](https://github.com/forgesworn/kintrinsic)![stars](https://img.shields.io/github/stars/forgesworn/kintrinsic.svg?style=social) - Family screen-time and app limits, signed and delivered over Nostr relays.
 - [Worldline](https://github.com/worldline-calendar/worldline)![stars](https://img.shields.io/github/stars/worldline-calendar/worldline.svg?style=social) - Mac and iPhone calendar synced end-to-end encrypted over public Nostr relays.
+- [Func](https://func.rsvp)![stars](https://img.shields.io/github/stars/mvc-dot/func.svg?style=social) - Private, expiring chat and photo rooms for an event. Guests scan a QR code and join with no account; everything is encrypted with a key that only exists in the invite link, stored as NIP-40 expiring events, with photos on Blossom. One static file. [source](https://github.com/mvc-dot/func)
 
 
 
