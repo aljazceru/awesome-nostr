@@ -763,7 +763,6 @@ Websites with lists of relays and their performance/health:
 - [Nostrobots](https://github.com/ocknamo/n8n-nodes-nostrobots)![stars](https://img.shields.io/github/stars/ocknamo/n8n-nodes-nostrobots.svg?style=social) - a set of community nodes for using n8n workflow automation with Nostr
 - [NostrP2P](https://github.com/ryogrid/nostrp2p)![stars](https://img.shields.io/github/stars/ryogrid/nostrp2p.svg?style=social) - Pure peer-to-peer distributed microblog system on NAT transparent overlay network implemented in Golang based on idea of Nostr
 - [NostrReply](https://github.com/gourcetools/nostreply)![stars](https://img.shields.io/github/stars/gourcetools/nostreply.svg?style=social) - Bot that replies to specified text on nostr global feed using NIP50
-- [NostrSwap](https://www.nostrswap.com/) - NostrSwap is a fully decentralized exchange built on Nostr Protocol.
 - [NostrTool](https://nostrtool.com/) - a tool to play with keys.
 - [nostrview](https://nostrview.com) - A nostr search engine. Search by content, tags, events or pub keys.
 - [novia](https://github.com/teamnovia/novia)![stars](https://img.shields.io/github/stars/teamnovia/novia.svg?style=social) - Nostr video archive 
@@ -793,7 +792,6 @@ Websites with lists of relays and their performance/health:
 - [Zapounty](https://github.com/ZigBalthazar/zapounty)![stars](https://img.shields.io/github/stars/ZigBalthazar/zapounty.svg?style=social) - A GitHub app that let you to put bounties for developers to fix issues on a repo, paid in zaps!
 - [Zapper](https://zapper.nostrapps.org) - Nostr micro-app for zapping
 - [YEGHRO unFollow Tool](https://unfollow.yeghro.com) - A tool that allows you to unfollow inactive users on nostr.
-- [NADAR](https://nadar.tigerville.no/) - A tool to find which relays have a note (`nevent`). Discovers relays with soon deprecated nostr.watch API.
 - [NADAR 2.0](https://nadar.sandwich.farm) - A tool to find which relays have a note (`nevent` or `naddr`). Discovers relays with NIP-66.
 - [Nostr in Move](https://github.com/rooch-network/rooch/tree/main/examples/nostr) - A tool to help persist Nostr event in Move oriented blockchains.
 - [Zapit](https://zapit.space) - Create live message boards powered by instant bitcoin lightning payments & nostr. No accounts, no hassle—just real-time engagement for your events and communities.
@@ -848,7 +846,6 @@ Websites with lists of relays and their performance/health:
  - [Iris Docs](https://docs.iris.to) - Collaborative document editing over Nostr & blossom
  - [Iris Video](https://video.iris.to) - Videos over Nostr & blossom
  - [Iris Files](https://files.iris.to) - Blossom based filesystem and explorer
-- [jellyfish.land](https://jellyfish.land/nip05) - Nostr NIP-05 handles on @nostr.eco domain with WoT protection
 - [lifpay.me](https://lifpay.me) - Lightning wallet with NIP-05 ID registration service.
 - [mybuho.de](https://home.mybuho.de/buhogo) - Paid NIP-05 names (name@mybuho.de), registered in the BuhoGO wallet.
 - [nanostr](https://github.com/xbol0/nanostr)![stars](https://img.shields.io/github/stars/xbol0/nanostr?style=social) - A NIP-05 name server written in Deno.
@@ -1032,7 +1029,6 @@ Endpoints (services or apps that expose a LN wallet via NWC)
 - [NostrDVM](https://github.com/believethehype/nostrdvm)![stars](https://img.shields.io/github/stars/believethehype/nostrdvm.svg?style=social) - NostrDVM: Nostr NIP90 Data Vending Machine Framework in python
 - [dvm-textgen](https://github.com/joelklabo/dvm-textgen)![stars](https://img.shields.io/github/stars/joelklabo/dvm-textgen.svg?style=social) - NIP-90 text generation DVM (kind 5050) in Go, paid via Lightning
 - [dvm-imagegen](https://github.com/joelklabo/dvm-imagegen)![stars](https://img.shields.io/github/stars/joelklabo/dvm-imagegen.svg?style=social) - NIP-90 image generation DVM (kind 5100) in Go, paid via Lightning
-- [tasktiger.io](https://tasktiger.io/) - another DVM provider
 - [vendata.io](https://github.com/pablof7z/vendata.io) - data processing AI marketplace with nostr data vending machines
 - [vertexlab.io](https://vertexlab.io/) -  Web of Trust as a Service via DVMs
 - [2020117](https://github.com/qingfeng/2020117)![stars](https://img.shields.io/github/stars/qingfeng/2020117.svg?style=social) - A decentralized agent network on Nostr
@@ -1050,8 +1046,6 @@ Endpoints (services or apps that expose a LN wallet via NWC)
 - [nostrage](https://nostrage.com)
 - [NostrMedia.com](https://nostrmedia.com) [⚡ zap](https://nostr.net/grant/?zap=b0cc79@wallet.yakihonne.com)
 - [sovbit](https://files.sovbit.host)
-- [sove](https://sove.rent)
-- [void.cat](https://void.cat)
 - [route96](https://github.com/v0l/route96)![stars](https://img.shields.io/github/stars/v0l/route96.svg?style=social) - A Blossom/NIP-96 file storage server implementation
 
 ## Nostr Web Services (NWS)
