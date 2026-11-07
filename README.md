@@ -311,7 +311,7 @@ Websites with lists of relays and their performance/health:
 - [mapstr](https://mapstr.xyz/) - Find local businesses which accept BTC and add reviews to those businesses as a customer. Allows ability to receive Zaps for your reviews. You can also add Nostr notes with coordinates which allows them to be mapped to your location.
 - [Member](https://github.com/memberapp/memberapp.github.io)![stars](https://img.shields.io/github/stars/memberapp/memberapp.github.io.svg?style=social) - Progressive Web App Client. Works on desktop and mobile.
   - [member.cash](https://member.cash/) - live instance
-- [Memestr](https://memestr.app/) - nostr hub for memes.
+- [Memestr](https://github.com/AaruBama/memestr)![stars](https://img.shields.io/github/stars/AaruBama/memestr.svg?style=social) - nostr hub for memes.
 - [MeShell](https://github.com/BEEBSDONE/MeShell_Nodejs)![stars](https://img.shields.io/github/stars/BEEBSDONE/MeShell_Nodejs.svg?style=social) - Web, iOS, and Android blog type client destined to publish articles and researches for independent journalists.
   - [MeShell.io](https://meshell.io) - Landing page for more information
 - [Meetstr](https://github.com/gillohner/meetstr)![stars](https://img.shields.io/github/stars/gillohner/meetstr.svg?style=social) - Meetstr is a nostr client for discovering, viewing, and managing NIP-52 based calendars for Meetups and community events.
@@ -435,7 +435,6 @@ Websites with lists of relays and their performance/health:
 - [White Noise](https://github.com/marmot-protocol/whitenoise)![stars](https://img.shields.io/github/stars/marmot-protocol/whitenoise.svg?style=social) - Secure group messenger using the Marmot Protocol (MLS + Nostr) with forward secrecy. Available for Android, iOS, macOS, Linux, and as a [TUI](https://github.com/marmot-protocol/wn-tui).
   - [whitenoise.chat](https://whitenoise.chat)
 - [wikistr](https://github.com/fiatjaf/wikistr)![stars](https://img.shields.io/github/stars/fiatjaf/wikistr.svg?style=social) - A "wikipedia" client for nostr
-  - [wikistr.com](https://wikistr.com/)
 - [Wirthy](https://wirthy.app) - Browser extension that lets you clip a page with its original layout intact, rate it on a five-level signal scale, and publish your evaluation to Nostr; private clips stay in your browser and publishing is always opt-in.
   - [github.com/steveja42/wirthy](https://github.com/steveja42/wirthy)![stars](https://img.shields.io/github/stars/steveja42/wirthy.svg?style=social) - source
 - [Written](https://github.com/silencesoft/written)![stars](https://img.shields.io/github/stars/silencesoft/written.svg?style=social) - Self hosted blog using nostr long-form content (NIP-23) and it shows only posts by selected authors.
@@ -773,7 +772,6 @@ Websites with lists of relays and their performance/health:
 - [powrelay.xyz](https://powrelay.xyz) - A proof of work-based nostr explorer.
 - [publsp](https://github.com/smallworlnd/publsp)![stars](https://img.shields.io/github/stars/smallworlnd/publsp.svg?style=social) A CLI tool for any Lightning Network node or Lightning Service Provider (LSP) to advertise liquidity offers over Nostr.
 - [Relay Kit](https://relayk.it) - Turn a VPS into a sovereign nostr hub. Deploy and manage Nostr relays, Blossom servers, and nsite gateways. Link your domains. From one easy dashboard UI. One script install on any server, then auth via nostr to access.
-- [Replies](https://replies.nostrapps.org) - Nostr micro-app for viewing replies and reactions to events
 - [The Resurrector](https://www.plebsvszombies.cc/resurrector) - A standalone feature of Plebs vs. Zombies that lets users undelete their nostr profiles if they were previously deleted.
 - [safebox](https://github.com/trbouma/safebox)![stars](https://img.shields.io/github/stars/trbouma/safebox?style=social) -  private portable safebox on nostr
 - [scoop-nostr](https://github.com/nostorg/scoop-nostr)![stars](https://img.shields.io/github/stars/nostorg/scoop-nostr?style=social) - Scoop bucket for Nostr software.
