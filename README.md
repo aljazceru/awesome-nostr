@@ -220,6 +220,8 @@ Websites with lists of relays and their performance/health:
 - [VaultChat](https://vaultchat.pro) - Encrypted Android messenger built on Nostr. NIP-44 v2, groups, Decoy PIN. No phone number, no email, no server.
 - [LiberMedia](https://github.com/lucianocasalunga/libermedia-twa)![stars](https://img.shields.io/github/stars/lucianocasalunga/libermedia-twa.svg?style=social) - Web client and PWA for iOS and Android, with zaps, encrypted DMs, Reels, group chats and media hosting. ![LiberMediaweb](https://media.libernet.app) ![Google Play](https://play.google.com/store/apps/details?id=app.libernet.media) [⚡ zap](https://nostr.net/grant/?zap=barak@blink.sv)
 - [Makoré](https://github.com/lucianocasalunga/makore-twa)![stars](https://img.shields.io/github/stars/lucianocasalunga/makore-twa.svg?style=social) - End-to-end encrypted messenger with NIP-17/NIP-44 DMs, group chats and zaps. Android + Web. [Makoré instance](https://makore.libernet.app) [⚡ zap](https://nostr.net/grant/?zap=barak@blink.sv) 
+- [Flare](https://github.com/flaresocialapp/Flare)![stars](https://img.shields.io/github/stars/flaresocialapp/Flare.svg?style=social) - Browse Nostr, Mastodon, Bluesky, X, Misskey, Pixiv, Fanbox and RSS all in one app. One timeline, all your accounts, cross-post everywhere.
+- [Talk](https://github.com/yet300/Talk)![stars](https://img.shields.io/github/stars/yet300/Talk.svg?style=social) - Serverless Nostr social client in Kotlin Multiplatform (Android, iOS, web) - markdown posts with a Twitter-like social layer, sign-in via a Nostr key with NIP-07 or Amber.
 
 ### Other  
 - [Agora](https://github.com/ghobs91/Agora) ![stars](https://img.shields.io/github/stars/ghobs91/agora.svg?style=social) - Follow your favorite topics in nostr-verse (and even posts from Mastodon, Reddit, Bluesky, and Twitter)
@@ -484,6 +486,8 @@ Websites with lists of relays and their performance/health:
 - [Kintrinsic](https://github.com/forgesworn/kintrinsic)![stars](https://img.shields.io/github/stars/forgesworn/kintrinsic.svg?style=social) - Family screen-time and app limits, signed and delivered over Nostr relays.
 - [Worldline](https://github.com/worldline-calendar/worldline)![stars](https://img.shields.io/github/stars/worldline-calendar/worldline.svg?style=social) - Mac and iPhone calendar synced end-to-end encrypted over public Nostr relays.
 - [Func](https://func.rsvp)![stars](https://img.shields.io/github/stars/mvc-dot/func.svg?style=social) - Private, expiring chat and photo rooms for an event. Guests scan a QR code and join with no account; everything is encrypted with a key that only exists in the invite link, stored as NIP-40 expiring events, with photos on Blossom. One static file. [source](https://github.com/mvc-dot/func)
+- [forum4ai](https://github.com/KEEPEE/forum4ai)![stars](https://img.shields.io/github/stars/KEEPEE/forum4ai.svg?style=social) - Self-hosted P2P forum for humans and AI agents on Nostr - Reddit-style topics, Q&A with accepted solutions, idea bounties, paper publishing, and an MCP server + REST/WS API.
+- [property](https://github.com/coercaodobem/property)![stars](https://img.shields.io/github/stars/coercaodobem/property.svg?style=social) - Nostr communication PWA with locally controlled identities, encrypted one-to-one and group messaging, and direct relay connections; installable on phones, tablets and desktops.
 
 
 
