@@ -7,7 +7,7 @@ nostr.net services [start.nostr.net](https://start.nostr.net) || [relay.nostr.ne
 
 ### Apps
 - [Zapstore](https://zapstore.dev/) - A truly open app store [⚡ zap](https://nostr.net/grant/?zap=zapstore@rizful.com)
-- [Hivetalk](https://honey.hivetalk.org/) - Nostr + Lightning Video Conferencing [⚡ zap](https://nostr.net/grant/?zap=bitkarrot@primal.net)
+- [Hivetalk](https://honey.hivetalk.org/) - Nostr + Lightning Video Conferencing [⚡ zap](https://nostr.net/grant/?zap=hivetalkorg@coinos.io)
 
 ### Mobile clients
 - [Damus](https://damus.io/) - iOS, Android and Desktop client [⚡ zap](https://nostr.net/grant/?zap=damus@sendsats.lol)
