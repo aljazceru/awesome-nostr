@@ -8,6 +8,7 @@ nostr.net services [start.nostr.net](https://start.nostr.net) || [relay.nostr.ne
 ### Apps
 - [Zapstore](https://zapstore.dev/) - A truly open app store [⚡ zap](https://nostr.net/grant/?zap=zapstore@rizful.com)
 - [Hivetalk](https://honey.hivetalk.org/) - Nostr + Lightning Video Conferencing [⚡ zap](https://nostr.net/grant/?zap=hivetalkorg@coinos.io)
+- [Cloud Atlas OS](https://cloudatlasos.org) - Free, peer-to-peer superapp on a 3D globe for rides, rooms, meals, tools, skills, socializing and volunteering. Zero commission, zero fees, runs on Nostr
 
 ### Mobile clients
 - [Damus](https://damus.io/) - iOS, Android and Desktop client [⚡ zap](https://nostr.net/grant/?zap=damus@sendsats.lol)
