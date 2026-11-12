@@ -139,6 +139,7 @@ of the public instances.
 - [chronicle](https://github.com/dtonon/chronicle)![stars](https://img.shields.io/github/stars/dtonon/chronicle.svg?style=social) - A personal Nostr relay that lets you keep your own copy of your notes.
 - [HORNET Storage](https://github.com/HORNET-Storage/HORNETS-Nostr-Relay)![stars](https://img.shields.io/github/stars/HORNET-Storage/HORNETS-Nostr-Relay.svg?style=social) - A multimedia-focused Nostr relay with built-in support for storing larger media files.
 - [jingle](https://github.com/fiatjaf/jingle)![stars](https://img.shields.io/github/stars/fiatjaf/jingle.svg?style=social) - A simple Nostr relay framework.
+- [lisp-nostr-relay](https://github.com/mattn/lisp-nostr-relay)![stars](https://img.shields.io/github/stars/mattn/lisp-nostr-relay.svg?style=social) - Nostr relay written in Common Lisp.
 - [mimoty](https://github.com/gzuuus/mimoty)![stars](https://img.shields.io/github/stars/gzuuus/mimoty.svg?style=social) - A Nostr relay implementation.
 - [nostr-filter](https://github.com/imksoo/nostr-filter)![stars](https://img.shields.io/github/stars/imksoo/nostr-filter.svg?style=social) - A filter proxy for Nostr relays.
 - [Nostrify](https://nostrify.dev) - Nostr framework for Deno and web — relay, client, and shared utilities by the Soapbox team.
@@ -148,9 +149,11 @@ of the public instances.
 - [relay.nostr.net](wss://relay.nostr.net) - relay run by nostr.net
 - [Snowflare](https://github.com/SnowCait/snowflare)![stars](https://img.shields.io/github/stars/SnowCait/snowflare.svg?style=social) - A Nostr relay that runs on Cloudflare Workers.
 - [hns-relay](https://github.com/keptlive/hns-relay)![stars](https://img.shields.io/github/stars/keptlive/hns-relay.svg?style=social) - Nostr relay with optional NIP-05 write admission for a domain suffix.
+- [nostrsearch](https://github.com/v0l/nostrsearch)![stars](https://img.shields.io/github/stars/v0l/nostrsearch.svg?style=social) - Full-archive Nostr relay with NIP-50 search over the entire event corpus.
 
 ### Relay lists 
 Websites with lists of relays and their performance/health:
+- [BigBrotr](https://bigbrotr.com)![stars](https://img.shields.io/github/stars/BigBrotr/bigbrotr.svg?style=social) - Relay discovery and NIP-66 health checks across clearnet, Tor, I2P and Lokinet.
 - [georelays](https://github.com/permissionlesstech/georelays)![stars](https://img.shields.io/github/stars/permissionlesstech/georelays.svg?style=social) - A collection of nostr relays and their estimated geographic locations for discovering nearby relays.
 - [nostr.info](https://nostr.info/relays/) - real-time checking of the status of some known relays.
 - [nostr.watch](https://nostr.watch)![stars](https://img.shields.io/github/stars/sandwichfarm/nostr-watch.svg?style=social) - real-time checking of the status of some known relays.
