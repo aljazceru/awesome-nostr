@@ -549,7 +549,6 @@ Websites with lists of relays and their performance/health:
 - [Nostrbook](https://nostrbook.dev/) - A Comprehensive Registry of Nostr Documentation. Structured, detailed knowledge about Nostr for both humans and AI.
 - [nostr-attestations](https://github.com/forgesworn/nostr-attestations)![stars](https://img.shields.io/github/stars/forgesworn/nostr-attestations.svg?style=social) - One parameterised replaceable event kind (31000) for credentials, endorsements, vouches, provenance and licensing. Build, parse and validate attestation events. TypeScript.
 - [nostr-bot](https://github.com/slaninas/nostr-bot)![stars](https://img.shields.io/github/stars/slaninas/nostr-bot.svg?style=social) - a Rust library for writing bots
-- [NostrBotKit](https://codeberg.org/Tuxor/NostrBotKit) - Self-hosted bot framework for Nostr written in Rust. Multi-bot orchestration, NIP-17/NIP-04 encrypted DM commands, YAML config, permission tiers, Docker deployment.
 - [nostr-connect](https://github.com/nostr-connect/connect)![stars](https://img.shields.io/github/stars/nostr-connect/connect.svg?style=social) - Nostr Connect SDK for TypeScript is a library that allows you to easily integrate Nostr Connect into your web application
 - [nostr-deno](https://github.com/KiPSOFT/nostr-deno)![stars](https://img.shields.io/github/stars/KiPSOFT/nostr-deno.svg?style=social) - a client library for Deno javascript runtime.
 - [nostr-development-kit - NDK](https://github.com/nostr-dev-kit/ndk)![stars](https://img.shields.io/github/stars/nostr-dev-kit/ndk.svg?style=social) - NDK is a nostr development kit that makes the experience of building Nostr-related applications, whether they are relays, clients, or anything in between, better, more reliable.
@@ -648,7 +647,7 @@ Websites with lists of relays and their performance/health:
   - [bloomapp.me](https://bloomapp.me/) - live instance
 - [File Blossom](https://qyronx.github.io/fileblossom/) - A browser based, serverless, encrypted file sharing site without any limit and privacy suite built on Nostr and Blossom.
 - [bray](https://github.com/forgesworn/bray)![stars](https://img.shields.io/github/stars/forgesworn/bray.svg?style=social) - Trust-aware Nostr MCP server for AI agents. 234 tools across identity, social, trust, dispatch, relay, marketplace, privacy, and encrypted access. Works with Claude, ChatGPT, Gemini, Cursor, or any MCP client.
-- [Bookmarkstr](https://bookmarkstr.store/) - A browser extension for reading and managing nostr bookmarks
+- [Bookmarkstr](https://bookmarkstr.pages.dev) - A browser extension for reading and managing nostr bookmarks
 - [BlazeJump.NostrConnect](https://github.com/drmikesamy/BlazeJump.NostrConnect)![stars](https://img.shields.io/github/stars/drmikesamy/BlazeJump.NostrConnect.svg?style=social) - an Android based remote NostrConnect signer and web project using QR codes and Nip44 encryption by default
 - [cafe-society.news](https://github.com/colealbon/cafe-society)![stars](https://img.shields.io/github/stars/colealbon/cafe-society.svg?style=social) - Self-sovereign machine learning training tool for nostr global feed.  Trained models can be monetized/distributed over nostr private messages.  Your pre-paid model subscribers register via lightning payments. [⚡ zap](https://nostr.net/grant/?zap=cafe@getalby.com)
 - [CSV Importer](https://csv-importer.coracle.social/) - Publish Nostr events in bulk from CSV files.
@@ -696,7 +695,7 @@ Websites with lists of relays and their performance/health:
 - [ndxstr](https://github.com/ArcadeCity/ndxstr)![stars](https://img.shields.io/github/stars/ArcadeCity/ndxstr.svg?style=social) - nostr's layer 2 indexing nodes, with more advanced querying capability than currently supported by relays
 - [nip06-cli](https://github.com/jaonoctus/nip06-cli)![stars](https://img.shields.io/github/stars/jaonoctus/nip06-cli.svg?style=social) - a Node.js CLI to generate or restore NIP-06 seed phrases
 - [nip06-web](https://github.com/jaonoctus/nip06-web)![stars](https://img.shields.io/github/stars/jaonoctus/nip06-web.svg?style=social) - a website to generate or restore NIP-06 seed phrases
-  - [nip06.jaonoct.us](https://nip06.jaonoct.us) - by jaonoctus
+  - [nip06.jaonoctus.dev](https://nip06.jaonoctus.dev) - by jaonoctus
 - [NIP-99 Listing Preflight](https://softpeanut.github.io/shopstr-listing-benchmark/) - Checks classified-listing JSON locally for common metadata and accidental contact or location exposure. [⚡ zap](https://nostr.net/grant/?zap=softpeanut@stacker.news)
 - [NIPF](https://github.com/nextdebug/nipf)![stars](https://img.shields.io/github/stars/nextdebug/nipf.svg?style=social) - A Python facilities manager for NOSTR ecosystem.
 - [njump](https://github.com/fiatjaf/njump)![stars](https://img.shields.io/github/stars/fiatjaf/njump.svg?style=social) - a nostr static gateway, it displays notes and other stuff from inside nostr as HTML with previews.
@@ -857,7 +856,6 @@ Websites with lists of relays and their performance/health:
 - [Nostrich House](https://nostrich.house) - Paid NIP-05 service with nostr bot interface. Buy your nostr address with DM to nostrich@nostrich.house for 1 sat/hour, anonymous, immediate.
 - [nostrplebs](https://nostrplebs.com) - The oldest and original Nostr address registration and identity management service.
 - [nostrprotocol.net](https://github.com/KiPSOFT/nostr-nip05-service)![stars](https://img.shields.io/github/stars/KiPSOFT/nostr-nip05-service?style=social) - A free NIP-05 identifier service.
-- [pleroma2nip05](https://code.taurix.net/guy/pleroma2nip05) - A Python based service to link pleroma ID's to nostr keys.
 - [siamstr.com](https://siamstr.com) - A free NIP-05 ID registration service, lightning redirection.
 - [younostr.com](https://younostr.com) - A NIP-05 ID registration service (in portuguese).
 - [hunos.hu](https://hunos.hu) - Free NIP-05 identity for the Hungarian community. [⚡ zap](https://nostr.net/grant/?zap=hunosrelay@minibits.cash)
@@ -1172,7 +1170,7 @@ Outside of nostr itself, you find the community on:
 - [vanilla-js-nostr](https://github.com/supertestnet/vanilla-js-nostr)![stars](https://img.shields.io/github/stars/supertestnet/vanilla-js-nostr.svg?style=social) - a demo of posting and viewing a feed in nostr using vanilla javascript
 - [wellorder nostr datasets](https://wiki.wellorder.net/wiki/nostr-datasets/) - Public standardized nostr datasets for benchmarking, data science, or other analysis.
 - [Zaplife](https://zaplife.lol) - Real-time feed for nostr zaps. The best tool to shut up the "lightning doesn't work" people. [⚡ zap](https://nostr.net/grant/?zap=pablof7z@primal.net)
-- [The Attention Protocol](https://joinnextblock.com/billboard/book) - a love story published on nostr
+- [The Attention Protocol](https://joinnextblock.com/book) - a love story published on nostr
 - [AndOtherStuff](https://andotherstuff.org/) - a collective that creates and stewards freedom tech, open tools, protocols, and applications.
 
 ## Deprecated/Defunct
