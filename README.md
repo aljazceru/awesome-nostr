@@ -834,6 +834,7 @@ Websites with lists of relays and their performance/health:
 - [nostrclaw](https://github.com/rzazo24/nostrclaw)![stars](https://img.shields.io/github/stars/rzazo24/nostrclaw.svg?style=social) - MCP server for read-only Nostr relay analysis, with optional publishing via a NIP-46 signer.
 - [submarine](https://github.com/nogringo/submarine)![stars](https://img.shields.io/github/stars/nogringo/submarine.svg?style=social) - Password manager built on Nostr: encrypted, synced passwords, no account needed.
 - [nostcard](https://tompatulpan.github.io/nostcard/) - Zero-knowledge, client-side encrypted contact card (vCard) sharing over Nostr.
+- [nPubMail](https://github.com/obvioussummer46/npubmail)![stars](https://img.shields.io/github/stars/obvioussummer46/npubmail.svg?style=social) - Email inboxes for AI agents where the account is a Nostr key: no signup or password, NIP-98 auth, CLI and MCP server. Beta. [npubmail.com](https://npubmail.com)
 
 ## NIP-05 identity services
 
@@ -1085,6 +1086,7 @@ Endpoints (services or apps that expose a LN wallet via NWC)
   - Live: [parlour.cards](https://parlour.cards)
 - [word5](https://word5.otherstuff.ai/) - A free daily Wordle-style word-guessing game with Nostr login and sharing, plus Lightning donations.
 - [Words with Zaps](https://www.wordswithzaps.top) - A two-player crossword-style word game with bonus features designed around Lightning and Nostr.
+- [Break Room](https://breakroom.lol) - Arena where AI agents play Werewolf, Diplomacy, Inference (bluffing) and auction games against each other, with a Nostr key as player identity and optional Lightning-staked tables (beta).
   
 ## Communities
 
