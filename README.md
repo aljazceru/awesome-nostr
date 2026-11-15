@@ -139,6 +139,7 @@ of the public instances.
 - [chronicle](https://github.com/dtonon/chronicle)![stars](https://img.shields.io/github/stars/dtonon/chronicle.svg?style=social) - A personal Nostr relay that lets you keep your own copy of your notes.
 - [HORNET Storage](https://github.com/HORNET-Storage/HORNETS-Nostr-Relay)![stars](https://img.shields.io/github/stars/HORNET-Storage/HORNETS-Nostr-Relay.svg?style=social) - A multimedia-focused Nostr relay with built-in support for storing larger media files.
 - [jingle](https://github.com/fiatjaf/jingle)![stars](https://img.shields.io/github/stars/fiatjaf/jingle.svg?style=social) - A simple Nostr relay framework.
+- [lisp-nostr-relay](https://github.com/mattn/lisp-nostr-relay)![stars](https://img.shields.io/github/stars/mattn/lisp-nostr-relay.svg?style=social) - Nostr relay written in Common Lisp.
 - [mimoty](https://github.com/gzuuus/mimoty)![stars](https://img.shields.io/github/stars/gzuuus/mimoty.svg?style=social) - A Nostr relay implementation.
 - [nostr-filter](https://github.com/imksoo/nostr-filter)![stars](https://img.shields.io/github/stars/imksoo/nostr-filter.svg?style=social) - A filter proxy for Nostr relays.
 - [Nostrify](https://nostrify.dev) - Nostr framework for Deno and web — relay, client, and shared utilities by the Soapbox team.
@@ -148,9 +149,11 @@ of the public instances.
 - [relay.nostr.net](wss://relay.nostr.net) - relay run by nostr.net
 - [Snowflare](https://github.com/SnowCait/snowflare)![stars](https://img.shields.io/github/stars/SnowCait/snowflare.svg?style=social) - A Nostr relay that runs on Cloudflare Workers.
 - [hns-relay](https://github.com/keptlive/hns-relay)![stars](https://img.shields.io/github/stars/keptlive/hns-relay.svg?style=social) - Nostr relay with optional NIP-05 write admission for a domain suffix.
+- [nostrsearch](https://github.com/v0l/nostrsearch)![stars](https://img.shields.io/github/stars/v0l/nostrsearch.svg?style=social) - Full-archive Nostr relay with NIP-50 search over the entire event corpus.
 
 ### Relay lists 
 Websites with lists of relays and their performance/health:
+- [BigBrotr](https://bigbrotr.com)![stars](https://img.shields.io/github/stars/BigBrotr/bigbrotr.svg?style=social) - Relay discovery and NIP-66 health checks across clearnet, Tor, I2P and Lokinet.
 - [georelays](https://github.com/permissionlesstech/georelays)![stars](https://img.shields.io/github/stars/permissionlesstech/georelays.svg?style=social) - A collection of nostr relays and their estimated geographic locations for discovering nearby relays.
 - [nostr.info](https://nostr.info/relays/) - real-time checking of the status of some known relays.
 - [nostr.watch](https://nostr.watch)![stars](https://img.shields.io/github/stars/sandwichfarm/nostr-watch.svg?style=social) - real-time checking of the status of some known relays.
@@ -222,6 +225,7 @@ Websites with lists of relays and their performance/health:
 - [Makoré](https://github.com/lucianocasalunga/makore-twa)![stars](https://img.shields.io/github/stars/lucianocasalunga/makore-twa.svg?style=social) - End-to-end encrypted messenger with NIP-17/NIP-44 DMs, group chats and zaps. Android + Web. [Makoré instance](https://makore.libernet.app) [⚡ zap](https://nostr.net/grant/?zap=barak@blink.sv) 
 - [Flare](https://github.com/flaresocialapp/Flare)![stars](https://img.shields.io/github/stars/flaresocialapp/Flare.svg?style=social) - Browse Nostr, Mastodon, Bluesky, X, Misskey, Pixiv, Fanbox and RSS all in one app. One timeline, all your accounts, cross-post everywhere.
 - [Talk](https://github.com/yet300/Talk)![stars](https://img.shields.io/github/stars/yet300/Talk.svg?style=social) - Serverless Nostr social client in Kotlin Multiplatform (Android, iOS, web) - markdown posts with a Twitter-like social layer, sign-in via a Nostr key with NIP-07 or Amber.
+- [Alpha Messenger](https://github.com/project0day/AlphaMessenger)![stars](https://img.shields.io/github/stars/project0day/AlphaMessenger.svg?style=social) - Private messenger with no phone number: MLS end-to-end encryption over Nostr relays, Tor built in, Rust core, native Android.
 
 ### Other  
 - [Agora](https://github.com/ghobs91/Agora) ![stars](https://img.shields.io/github/stars/ghobs91/agora.svg?style=social) - Follow your favorite topics in nostr-verse (and even posts from Mastodon, Reddit, Bluesky, and Twitter)
@@ -488,6 +492,7 @@ Websites with lists of relays and their performance/health:
 - [Func](https://func.rsvp)![stars](https://img.shields.io/github/stars/mvc-dot/func.svg?style=social) - Private, expiring chat and photo rooms for an event. Guests scan a QR code and join with no account; everything is encrypted with a key that only exists in the invite link, stored as NIP-40 expiring events, with photos on Blossom. One static file. [source](https://github.com/mvc-dot/func)
 - [forum4ai](https://github.com/KEEPEE/forum4ai)![stars](https://img.shields.io/github/stars/KEEPEE/forum4ai.svg?style=social) - Self-hosted P2P forum for humans and AI agents on Nostr - Reddit-style topics, Q&A with accepted solutions, idea bounties, paper publishing, and an MCP server + REST/WS API.
 - [property](https://github.com/coercaodobem/property)![stars](https://img.shields.io/github/stars/coercaodobem/property.svg?style=social) - Nostr communication PWA with locally controlled identities, encrypted one-to-one and group messaging, and direct relay connections; installable on phones, tablets and desktops.
+- [Nostr Navigator](https://github.com/imattau/ncc-browser)![stars](https://img.shields.io/github/stars/imattau/ncc-browser.svg?style=social) - Desktop browser that resolves services by Nostr identity instead of DNS, with NIP-07 and NIP-46 signing.
 
 
 
