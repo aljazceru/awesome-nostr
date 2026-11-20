@@ -912,6 +912,7 @@ Endpoints (services or apps that expose a LN wallet via NWC)
 - [mutiny-node](https://github.com/MutinyWallet/mutiny-node)![stars](https://img.shields.io/github/stars/MutinyWallet/mutiny-node.svg?style=social) - Lightning node implementation that powers the Mutiny wallet, with NWC support.
 - [Npub.cash](https://github.com/cashubtc/npubcash-server)![stars](https://img.shields.io/github/stars/cashubtc/npubcash-server.svg?style=social) - Lightning Address service backed by Cashu, accessible via your npub.
 - [Wally](https://github.com/ArcadeCity/wally)![stars](https://img.shields.io/github/stars/ArcadeCity/wally.svg?style=social) - Lightning wallet with NWC support by ArcadeCity.
+- [LiberWallet](https://wallet.libernet.app) - Bitcoin/Lightning custodial wallet with Nostr identity, exposes wallets via NWC (NIP-47) and supports BTC on-chain deposits.
 
 
 ## NIP-57 Zaps compatible wallets and solutions
@@ -968,6 +969,7 @@ Endpoints (services or apps that expose a LN wallet via NWC)
 - [sove](https://sove.rent)
 - [void.cat](https://void.cat)
 - [route96](https://github.com/v0l/route96)![stars](https://img.shields.io/github/stars/v0l/route96.svg?style=social) - A Blossom/NIP-96 file storage server implementation
+- [media.libernet.app](https://media.libernet.app) - Open-source NIP-96 file storage server (images, video, audio, PDF), part of the LiberNet ecosystem.
 
 ## Nostr Web Services (NWS)
 - [nws](https://github.com/asmogo/nws)![stars](https://img.shields.io/github/stars/asmogo/nws.svg?style=social) - route TCP over Nostr relays
@@ -990,6 +992,7 @@ Endpoints (services or apps that expose a LN wallet via NWC)
 - [blisk](https://github.com/pippellia-btc/blisk)![stars](https://img.shields.io/github/stars/pippellia-btc/blisk.svg?style=social) - An efficient, scalable, and deduplicated local blob storage that maintains metadata in SQLite. Fully compatible with Blossom, it gives developers a reliable database option for building their own Blossom servers.
 - [blossom servers](https://blossomservers.com/) - List of blossom servers
 - [blossom-npub-guard](https://github.com/SapienLearn/blossom-npub-guard)![stars](https://img.shields.io/github/stars/SapienLearn/blossom-npub-guard.svg?style=social) - Dependency-free TypeScript guard for clients: detects when an npub is the *host* of a Blossom npub-subdomain URL (npub1....blossom.band) so it isn't rewritten into a nostr: mention, which breaks the media URL. Ships tests for the full bug class.
+- [media.libernet.app](https://media.libernet.app) - Public Blossom server (BUD-01/BUD-02, NIP-98 auth), part of the LiberNet open-source ecosystem.
 
 ## Games on Nostr
 
