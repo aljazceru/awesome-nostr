@@ -161,6 +161,8 @@ Websites with lists of relays and their performance/health:
 - [trustedrelays.xyz](https://trustedrelays.xyz) - relays list with trust scores for known relays using Trusted Relay Assertions.
 
 ## Clients
+- [forum](https://github.com/fiatjaf/forum)![stars](https://img.shields.io/github/stars/fiatjaf/forum.svg?style=social) - Simple forum client with nested comments, upvotes and invite-only forums served by NIP-29 relay groups
+- [hypergolic](https://github.com/nostrocket/hypergolic)![stars](https://img.shields.io/github/stars/nostrocket/hypergolic.svg?style=social) - Android and iOS shell for running small Nostr web apps called napplets
 ### Long form clients
 - [untype.app](https://untype.app)
 - [Habla.news](https://github.com/verbiricha/habla.news)![stars](https://img.shields.io/github/stars/verbiricha/habla.news.svg?style=social) - Habla allows you to read, write, curate and monetize long-form content over Nostr, a censorship-resistant protocol for social media that uses long-form Nostr content.
@@ -631,6 +633,7 @@ Websites with lists of relays and their performance/health:
 ## Cache services
 
 - [Primal](https://github.com/PrimalHQ/primal-caching-service) - Caching service for Nostr connects to the specified set of relays, collects all events in real time, stores them locally, and makes them available to nostr clients through a web socket-based API.
+- [nostrmash](https://github.com/nostrmash/nostrmash) - Docker-native Nostr ingestion and indexing platform with durable Postgres storage and a Primal-compatible API
 
 ## Stats
 
@@ -839,6 +842,8 @@ Websites with lists of relays and their performance/health:
 - [nostcard](https://tompatulpan.github.io/nostcard/) - Zero-knowledge, client-side encrypted contact card (vCard) sharing over Nostr.
 - [TwinKey](https://github.com/samizdatproject/twinkey)![stars](https://img.shields.io/github/stars/samizdatproject/twinkey.svg?style=social) - Link a Bitcoin Cash address to a Nostr key with a NIP-39 identity claim: look up, verify, pay and log in (NIP-98) with no identity server.
 - [Hermes Notar](https://notar.185-190-142-134.sslip.io) - Timestamp any SHA-256 hash: instant Nostr-signed receipt (kind 21040) plus Bitcoin-anchored OpenTimestamps proof [⚡ zap](https://nostr.net/grant/?zap=hermesagent7727@coinos.io)
+- [nostr-watchdog](https://github.com/nostrmash/nostr-watchdog) - Independent Cloudflare Worker that monitors configured services and sends encrypted NIP-17 alerts
+- [deadhop](https://github.com/sandwichfarm/deadhop) - Accept on-chain bitcoin payments from services with no public address, using Nostr and ContextVM as transport
 
 ## NIP-05 identity services
 
