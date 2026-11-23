@@ -165,7 +165,6 @@ Websites with lists of relays and their performance/health:
 - [untype.app](https://untype.app)
 - [Habla.news](https://github.com/verbiricha/habla.news)![stars](https://img.shields.io/github/stars/verbiricha/habla.news.svg?style=social) - Habla allows you to read, write, curate and monetize long-form content over Nostr, a censorship-resistant protocol for social media that uses long-form Nostr content.
 - [Highlighter](https://highlighter.com) - Discover and share curated insights by people you trust.
-- [Breefly](https://breefly.social) - A low-stimulus environment where you can read articles published on nostr.
 - [Decent Newsroom](https://decentnewsroom.com/) - Explore, publish and create long form articles and magazines on nostr. [⚡ zap](https://nostr.net/grant/?zap=decentnewsroom@rizful.com)
 - [readwithboris.com](https://www.readwithboris.com/) - Long form reading and highlighting app.
 - [blogo](https://github.com/pluja/blogo)![stars](https://img.shields.io/github/stars/pluja/blogo.svg?style=social) - A simple, fast and clean blog platform powered by Nostr.
@@ -371,7 +370,6 @@ Websites with lists of relays and their performance/health:
 - [noStrudel](https://github.com/hzrd149/nostrudel)![stars](https://img.shields.io/github/stars/hzrd149/nostrudel.svg?style=social) - hzrd149's personal nostr client. [⚡ zap](https://nostr.net/grant/?zap=nostrudel@npub.cash)
   - [nostrudel.ninja](https://nostrudel.ninja/) - live instance
 - [nostrweb](https://git.qcode.ch/nostr/nostrweb) - another Nostr web client in vanilla JS
-  - [nostr.ch](https://nostr.ch/) - live instance
 - [nostter](https://github.com/SnowCait/nostter)![stars](https://img.shields.io/github/stars/SnowCait/nostter.svg?style=social) - Twitter-like web client
 - [nostui](https://github.com/akiomik/nostui)![stars](https://img.shields.io/github/stars/akiomik/nostui.svg?style=social) - A TUI client for Nostr
 - [Nostur](https://nostur.com) - Nostr client app for iOS and MacOS. ([Apple Store link](https://apps.apple.com/us/app/nostur/id1672780508)) [⚡ zap](https://nostr.net/grant/?zap=weathereddarkness25@getalby.com)
@@ -681,7 +679,6 @@ Websites with lists of relays and their performance/health:
 - [knob](https://github.com/plantimals/knob)![stars](https://img.shields.io/github/stars/plantimals/knob.svg?style=social) - command line tool to post text files to nostr
 - [LikZap](https://github.com/silencesoft/likzap)![stars](https://img.shields.io/github/stars/silencesoft/likzap.svg?style=social) - A nostr bot to zap a note when you like it.
 - [liquiditystr](https://github.com/smallworlnd/liquiditystr)![stars](https://img.shields.io/github/stars/smallworlnd/liquiditystr.svg?style=social) - A browser client for the Nostr P2P Lightning liquidity marketplace
-  - [liquiditystr.space](https://liquiditystr.space/) - live instance 
 - [lnpass](https://lnpass.github.io)![stars](https://img.shields.io/github/stars/lnpass/lnpass-web.svg?style=social) - A key manager for Lightning and nostr.
 - [lightning-memory](https://github.com/singularityjason/lightning-memory)![stars](https://img.shields.io/github/stars/singularityjason/lightning-memory.svg?style=social) - Decentralized agent memory for the Lightning economy. Nostr identity, L402 payments, MCP server.
 - [metadata_updater](https://github.com/UTXOnly/metadata_updater)![stars](https://img.shields.io/github/stars/UTXOnly/metadata_updater.svg?style=social) - Scans all known online nostr relays for stale kind 0 metadata notes, rebroadcasts latest verified note
@@ -770,7 +767,6 @@ Websites with lists of relays and their performance/health:
 - [NostrP2P](https://github.com/ryogrid/nostrp2p)![stars](https://img.shields.io/github/stars/ryogrid/nostrp2p.svg?style=social) - Pure peer-to-peer distributed microblog system on NAT transparent overlay network implemented in Golang based on idea of Nostr
 - [NostrReply](https://github.com/gourcetools/nostreply)![stars](https://img.shields.io/github/stars/gourcetools/nostreply.svg?style=social) - Bot that replies to specified text on nostr global feed using NIP50
 - [NostrTool](https://nostrtool.com/) - a tool to play with keys.
-- [nostrview](https://nostrview.com) - A nostr search engine. Search by content, tags, events or pub keys.
 - [novia](https://github.com/teamnovia/novia)![stars](https://img.shields.io/github/stars/teamnovia/novia.svg?style=social) - Nostr video archive 
 - [nsecbunkerd](https://github.com/kind-0/nsecbunkerd) - Keep your nostr keys in a single place and provide fine-grained access to your team members.
 - [Obsidian Nostr Writer](https://github.com/jamesmagoo/nostr-writer#readme) - A free Obsidian plugin that allows writers to seamlessly publish to Nostr [⚡ zap](https://nostr.net/grant/?zap=magoo@getalby.com)
@@ -863,7 +859,6 @@ Websites with lists of relays and their performance/health:
 - [nostrplebs](https://nostrplebs.com) - The oldest and original Nostr address registration and identity management service.
 - [nostrprotocol.net](https://github.com/KiPSOFT/nostr-nip05-service)![stars](https://img.shields.io/github/stars/KiPSOFT/nostr-nip05-service?style=social) - A free NIP-05 identifier service.
 - [siamstr.com](https://siamstr.com) - A free NIP-05 ID registration service, lightning redirection.
-- [younostr.com](https://younostr.com) - A NIP-05 ID registration service (in portuguese).
 - [hunos.hu](https://hunos.hu) - Free NIP-05 identity for the Hungarian community. [⚡ zap](https://nostr.net/grant/?zap=hunosrelay@minibits.cash)
 - [zap.club](https://zap.club) - NIP-05 ID service for @zap.club handles.
 - [zaps.lol](https://zaps.lol)- A free and open source NIP-05 ID registration service. [Run your own](https://github.com/jigglycrumb/nostr-address-provider).
@@ -1046,7 +1041,6 @@ Endpoints (services or apps that expose a LN wallet via NWC)
 - [Bitrovas PSBT-Check](https://primal.net/p/npub1p4puhq53dz7948tujxl0sr9tk99jl5kvwwnd5y3nh3anwn6hkrdqwfff5z) - pre-sign check DVM (kind 5823) for unsigned Bitcoin PSBTs, 21 sats via Lightning
 
 ## NIP-96 File Storage Servers
-- [mockingyou.com](https://mockingyou.com) 
 - [nostpic](https://nostpic.com)
 - [nostr.build](https://nostr.build) [⚡ zap](https://nostr.net/grant/?zap=nostrbob@primal.net)
 - [nostrcheck.me](https://nostrcheck.me)
