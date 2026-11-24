@@ -465,6 +465,7 @@ Websites with lists of relays and their performance/health:
 - [Coop](https://github.com/lumehq/coop)![stars](https://img.shields.io/github/stars/lumehq/coop.svg?style=social) - A Nostr client by the Lume team.
 - [Evento](https://github.com/sevenlabsxyz/evento-client)![stars](https://img.shields.io/github/stars/sevenlabsxyz/evento-client.svg?style=social) - A calendar/events client for Nostr.
 - [Flockstr](https://github.com/zmeyer44/flockstr)![stars](https://img.shields.io/github/stars/zmeyer44/flockstr.svg?style=social) - Subscription-based community client for Nostr.
+- [Fluid](https://github.com/Townsvilledh/fluid-wallet)![stars](https://img.shields.io/github/stars/Townsvilledh/fluid-wallet.svg?style=social) - Open-source, non-custodial multi-chain wallet (61 chains) that uses Nostr (signed kind-30078 events) for self-sovereign username claims.
 - [FreeFrom](https://freefrom.space) - A Nostr client focused on free expression.
 - [Joyboy](https://github.com/keep-starknet-strange/joyboy)![stars](https://img.shields.io/github/stars/keep-starknet-strange/joyboy.svg?style=social) - A Starknet-integrated Nostr client.
 - [Nalgorithm](https://cypherpunk.today/nalgorithm/) - Algorithmic feed reader for Nostr.
