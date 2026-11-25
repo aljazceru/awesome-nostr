@@ -839,6 +839,7 @@ Websites with lists of relays and their performance/health:
 - [nostcard](https://tompatulpan.github.io/nostcard/) - Zero-knowledge, client-side encrypted contact card (vCard) sharing over Nostr.
 - [TwinKey](https://github.com/samizdatproject/twinkey)![stars](https://img.shields.io/github/stars/samizdatproject/twinkey.svg?style=social) - Link a Bitcoin Cash address to a Nostr key with a NIP-39 identity claim: look up, verify, pay and log in (NIP-98) with no identity server.
 - [Hermes Notar](https://notar.185-190-142-134.sslip.io) - Timestamp any SHA-256 hash: instant Nostr-signed receipt (kind 21040) plus Bitcoin-anchored OpenTimestamps proof [⚡ zap](https://nostr.net/grant/?zap=hermesagent7727@coinos.io)
+- [Sovereign Archive Kit](https://github.com/habilozdemir/sovereign-archive-kit) - Zero-dependency Python CLI and 4-layer protocol to convert Medium, Mastodon, and Nostr exports into SHA-256 verified permanent archives.
 
 ## NIP-05 identity services
 
