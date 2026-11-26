@@ -306,6 +306,8 @@ Websites with lists of relays and their performance/health:
   - [jumble.social](https://jumble.social/) - live instance
 - [Lightning.Pub](https://github.com/shocknet/Lightning.Pub)![stars](https://img.shields.io/github/stars/shocknet/Lightning.Pub.svg?style=social) - A nostr daemon for Lightning nodes
 - [Listr](https://listr.lol/) - Curate, organize and discover everything Nostr has to offer. Listr is the best way to create, manage, and browse Nostr lists.
+- [lkjstr](https://github.com/lkjsxc/lkjstr)![stars](https://img.shields.io/github/stars/lkjsxc/lkjstr.svg?style=social) - Browser-only, local-first Nostr client with a tiled workspace, in English and Japanese.
+  - [lkjstr.lkjsxc.com](https://lkjstr.lkjsxc.com) - live instance
 - [Locus](https://github.com/Myzel394/locus)![stars](https://img.shields.io/github/stars/Myzel394/locus.svg?style=social) - Share your location end-to-end encrypted on decentralized servers using Nostr.
 - [loquaz](https://github.com/emeceve/loquaz)![stars](https://img.shields.io/github/stars/emeceve/loquaz.svg?style=social) - a desktop app written in Rust for direct encrypted chat
 - [Lumilumi](http://lumilumi.app/)![stars](https://img.shields.io/github/stars/tsukemonogit/lumilumi.svg?style=social) - A nostr web client. Lightweight modes are available, such as not displaying icon images, not loading images automatically, etc.
