@@ -207,6 +207,7 @@ Websites with lists of relays and their performance/health:
 - [Feather](https://github.com/dergigi/feather)![stars](https://img.shields.io/github/stars/dergigi/feather.svg?style=social) - Native Android client with signer login, swipeable feeds, full-screen media, and NWC zaps.
   - [Website](https://feather.dergigi.com/)
   - [Zapstore](https://zapstore.dev/apps/org.dergigi.feather)
+- [hypergolic](https://github.com/nostrocket/hypergolic)![stars](https://img.shields.io/github/stars/nostrocket/hypergolic.svg?style=social) - Android and iOS shell for running small Nostr web apps called napplets
 - [monostr](https://github.com/schmidt1024/monostr)![stars](https://img.shields.io/github/stars/schmidt1024/monostr.svg?style=social) - Android nostr client with private Monero tips on likes and reposts.
   - [Website](https://monostr.com/)
   - [Zapstore](https://zapstore.dev/apps/com.monostr.app)
@@ -275,6 +276,8 @@ Websites with lists of relays and their performance/health:
 - [FSociety](https://github.com/non-npc/FSociety)![stars](https://img.shields.io/github/stars/non-npc/FSociety.svg?style=social) - Portable  desktop messenger offering encrypted private chats, communities, and file sharing. (windows/linux)
 - [Formstr](https://github.com/abhay-raizada/nostr-forms)![stars](https://img.shields.io/github/stars/abhay-raizada/nostr-forms.svg?style=social) - A Google Forms alternative built on top of the nostr protocol.
   - [formstr.app](https://formstr.app/) - live instance
+- [forum](https://github.com/fiatjaf/forum)![stars](https://img.shields.io/github/stars/fiatjaf/forum.svg?style=social) - Simple forum client with nested comments, upvotes and invite-only forums served by NIP-29 relay groups
+  - [forum.fiatjaf.com](https://forum.fiatjaf.com) - live instance
 - [futr](https://github.com/prolic/futr)![stars](https://img.shields.io/github/stars/prolic/futr.svg?style=social) - nostr client desktop app written in Haskell
 - [getwired.app](https://github.com/smolgrrr/Wired)![stars](https://img.shields.io/github/stars/smolgrrr/Wired.svg?style=social) Anonymous-first client with PoW notes
 - [gitplaza](https://codeberg.org/dluvian/gitplaza) - git stuff client for Desktop
@@ -630,6 +633,7 @@ Websites with lists of relays and their performance/health:
 ## Cache services
 
 - [Primal](https://github.com/PrimalHQ/primal-caching-service) - Caching service for Nostr connects to the specified set of relays, collects all events in real time, stores them locally, and makes them available to nostr clients through a web socket-based API.
+- [nostrmash](https://github.com/nostrmash/nostrmash) - Docker-native Nostr ingestion and indexing platform with durable Postgres storage and a Primal-compatible API
 
 ## Stats
 
@@ -837,6 +841,7 @@ Websites with lists of relays and their performance/health:
 - [nPubMail](https://github.com/obvioussummer46/npubmail)![stars](https://img.shields.io/github/stars/obvioussummer46/npubmail.svg?style=social) - Email inboxes for AI agents where the account is a Nostr key: no signup or password, NIP-98 auth, CLI and MCP server. Beta. [npubmail.com](https://npubmail.com)
 - [TwinKey](https://github.com/samizdatproject/twinkey)![stars](https://img.shields.io/github/stars/samizdatproject/twinkey.svg?style=social) - Link a Bitcoin Cash address to a Nostr key with a NIP-39 identity claim: look up, verify, pay and log in (NIP-98) with no identity server.
 - [Hermes Notar](https://notar.185-190-142-134.sslip.io) - Timestamp any SHA-256 hash: instant Nostr-signed receipt (kind 21040) plus Bitcoin-anchored OpenTimestamps proof [⚡ zap](https://nostr.net/grant/?zap=hermesagent7727@coinos.io)
+- [nostr-watchdog](https://github.com/nostrmash/nostr-watchdog) - Independent Cloudflare Worker that monitors configured services and sends encrypted NIP-17 alerts
 
 ## NIP-05 identity services
 
