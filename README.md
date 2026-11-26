@@ -161,8 +161,6 @@ Websites with lists of relays and their performance/health:
 - [trustedrelays.xyz](https://trustedrelays.xyz) - relays list with trust scores for known relays using Trusted Relay Assertions.
 
 ## Clients
-- [forum](https://github.com/fiatjaf/forum)![stars](https://img.shields.io/github/stars/fiatjaf/forum.svg?style=social) - Simple forum client with nested comments, upvotes and invite-only forums served by NIP-29 relay groups
-- [hypergolic](https://github.com/nostrocket/hypergolic)![stars](https://img.shields.io/github/stars/nostrocket/hypergolic.svg?style=social) - Android and iOS shell for running small Nostr web apps called napplets
 ### Long form clients
 - [untype.app](https://untype.app)
 - [Habla.news](https://github.com/verbiricha/habla.news)![stars](https://img.shields.io/github/stars/verbiricha/habla.news.svg?style=social) - Habla allows you to read, write, curate and monetize long-form content over Nostr, a censorship-resistant protocol for social media that uses long-form Nostr content.
@@ -210,6 +208,7 @@ Websites with lists of relays and their performance/health:
 - [Feather](https://github.com/dergigi/feather)![stars](https://img.shields.io/github/stars/dergigi/feather.svg?style=social) - Native Android client with signer login, swipeable feeds, full-screen media, and NWC zaps.
   - [Website](https://feather.dergigi.com/)
   - [Zapstore](https://zapstore.dev/apps/org.dergigi.feather)
+- [hypergolic](https://github.com/nostrocket/hypergolic)![stars](https://img.shields.io/github/stars/nostrocket/hypergolic.svg?style=social) - Android and iOS shell for running small Nostr web apps called napplets
 - [monostr](https://github.com/schmidt1024/monostr)![stars](https://img.shields.io/github/stars/schmidt1024/monostr.svg?style=social) - Android nostr client with private Monero tips on likes and reposts.
   - [Website](https://monostr.com/)
   - [Zapstore](https://zapstore.dev/apps/com.monostr.app)
@@ -278,6 +277,8 @@ Websites with lists of relays and their performance/health:
 - [FSociety](https://github.com/non-npc/FSociety)![stars](https://img.shields.io/github/stars/non-npc/FSociety.svg?style=social) - Portable  desktop messenger offering encrypted private chats, communities, and file sharing. (windows/linux)
 - [Formstr](https://github.com/abhay-raizada/nostr-forms)![stars](https://img.shields.io/github/stars/abhay-raizada/nostr-forms.svg?style=social) - A Google Forms alternative built on top of the nostr protocol.
   - [formstr.app](https://formstr.app/) - live instance
+- [forum](https://github.com/fiatjaf/forum)![stars](https://img.shields.io/github/stars/fiatjaf/forum.svg?style=social) - Simple forum client with nested comments, upvotes and invite-only forums served by NIP-29 relay groups
+  - [forum.fiatjaf.com](https://forum.fiatjaf.com) - live instance
 - [futr](https://github.com/prolic/futr)![stars](https://img.shields.io/github/stars/prolic/futr.svg?style=social) - nostr client desktop app written in Haskell
 - [getwired.app](https://github.com/smolgrrr/Wired)![stars](https://img.shields.io/github/stars/smolgrrr/Wired.svg?style=social) Anonymous-first client with PoW notes
 - [gitplaza](https://codeberg.org/dluvian/gitplaza) - git stuff client for Desktop
