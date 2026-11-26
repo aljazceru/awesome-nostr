@@ -832,7 +832,6 @@ Websites with lists of relays and their performance/health:
 - [Spotstr](https://github.com/k0sti/spotstr)![stars](https://img.shields.io/github/stars/k0sti/spotstr.svg?style=social) - Location sharing client on Nostr.
 - [TENEX](https://github.com/tenex-chat/tenex)![stars](https://img.shields.io/github/stars/tenex-chat/tenex.svg?style=social) - AI agent orchestration platform on Nostr.
 - [TollGate](https://tollgate.me) - Pay-per-use Wi-Fi access using Nostr and Lightning.
-- [Yondar](https://go.yondar.me) - Location-based social discovery on Nostr.
 - [kithmoot](https://github.com/forgesworn/kithmoot)![stars](https://img.shields.io/github/stars/forgesworn/kithmoot.svg?style=social) - Multi-device conference rooms over Nostr: a town hall nobody owns
 - [cambium](https://github.com/forgesworn/cambium)![stars](https://img.shields.io/github/stars/forgesworn/cambium.svg?style=social) - Android NIP-55 signer that holds no keys: every request is proxied to a Heartwood hardware signer over NIP-46
 - [nostrclaw](https://github.com/rzazo24/nostrclaw)![stars](https://img.shields.io/github/stars/rzazo24/nostrclaw.svg?style=social) - MCP server for read-only Nostr relay analysis, with optional publishing via a NIP-46 signer.
