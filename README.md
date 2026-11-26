@@ -843,7 +843,6 @@ Websites with lists of relays and their performance/health:
 - [TwinKey](https://github.com/samizdatproject/twinkey)![stars](https://img.shields.io/github/stars/samizdatproject/twinkey.svg?style=social) - Link a Bitcoin Cash address to a Nostr key with a NIP-39 identity claim: look up, verify, pay and log in (NIP-98) with no identity server.
 - [Hermes Notar](https://notar.185-190-142-134.sslip.io) - Timestamp any SHA-256 hash: instant Nostr-signed receipt (kind 21040) plus Bitcoin-anchored OpenTimestamps proof [⚡ zap](https://nostr.net/grant/?zap=hermesagent7727@coinos.io)
 - [nostr-watchdog](https://github.com/nostrmash/nostr-watchdog) - Independent Cloudflare Worker that monitors configured services and sends encrypted NIP-17 alerts
-- [deadhop](https://github.com/sandwichfarm/deadhop) - Accept on-chain bitcoin payments from services with no public address, using Nostr and ContextVM as transport
 
 ## NIP-05 identity services
 
