@@ -358,7 +358,6 @@ Websites with lists of relays and their performance/health:
 - [nostr.time](https://github.com/coracle-social/nostrtime)![stars](https://img.shields.io/github/stars/coracle-social/nostrtime.svg?style=social) - A calendar app built on nostr
 - [nostras](https://nostras.app) - A Nostr PWA client backed by its own self-hosted relay + AI-DVM compute (NIP-90 summarize/translate/ask, NIP-50 search, NWC zaps) 
   - [app.nostras.app](https://app.nostras.app) - live instance
-- [NostrChat.io](https://nostrchat.io/) - NostrChat is a chat app where you can have group chats, DM, threads, and emojis.
 - [Nostree](https://github.com/gzuuus/linktr-nostr)![stars](https://img.shields.io/github/stars/gzuuus/linktr-nostr.svg?style=social) - [nostree.me](https://nostree.me) A Nostr-based application linktree-style to create, manage and discover link lists, show notes and other stuff.
 - [NostrEmitter](https://github.com/cmdruid/nostr-emitter)![stars](https://img.shields.io/github/stars/cmdruid/nostr-emitter.svg?style=social) - Simple E2E encrypted client and EventEmitter object
 - [Nostribe.com](https://github.com/sepehr-safari/nostribe-web-client) ![stars](https://img.shields.io/github/stars/sepehr-safari/nostribe-web-client.svg?style=social) - Nostr client web app built with Next.js 13 and TypeScript.
@@ -970,7 +969,7 @@ Clients (apps using NWC to access a LN wallet)
 - [Amethyst](https://github.com/vitorpamplona/amethyst)![stars](https://img.shields.io/github/stars/vitorpamplona/amethyst.svg?style=social) - Android-only app
 - [BuhoGO](https://github.com/Buho-Ecosystem/Buho_go)![stars](https://img.shields.io/github/stars/Buho-Ecosystem/Buho_go.svg?style=social) - Android and web Bitcoin wallet that connects NWC wallets alongside its own self-custodial ones
 - [Damus](https://damus.io/) - The OG nostr client for iOS
-- [Lume](https://lume.nu) - Cross-platform desktop app
+- [Lume](https://github.com/lumehq/lume)![stars](https://img.shields.io/github/stars/lumehq/lume.svg?style=social) - Cross-platform desktop app
 - [nostrcheck-server](https://github.com/quentintaranpino/nostrcheck-server)![stars](https://img.shields.io/github/stars/quentintaranpino/nostrcheck-server.svg?style=social) - server with relay, File Hosting, Nostr Address, Lightning Redirects, NWC and WoT.
 - [Nostrmo](https://github.com/haorendashu/nostrmo)![stars](https://img.shields.io/github/stars/haorendashu/nostrmo.svg?style=social) - A flutter nostr client for Android, IOS, MacOS, Windows, Web and Linux.
 - [nostter](https://github.com/SnowCait/nostter)![stars](https://img.shields.io/github/stars/SnowCait/nostter.svg?style=social) - Twitter-like web client
@@ -1167,7 +1166,6 @@ Outside of nostr itself, you find the community on:
 - [nostr.build](https://nostr.build/) - nostr image uploader
 - [nostrability](https://github.com/nostrability/nostrability)![stars](https://img.shields.io/github/stars/nostrability/nostrability.svg?style=social) - The practical documentation of how various nostr apps play together.
 - [O_GITS](https://o-gits.com:8443)![stars](https://img.shields.io/github/stars/SPcitydog/ogits-node.svg?style=social) - a digital life-form that propagates over public Nostr relays: a 100-dimensional tensor organism that evolves, dies and is reborn. [code](https://github.com/SPcitydog/ogits-node)
-- [ostrich.work](https://ostrich.work/) - nostr job board
 - [RSS feeds for news on Nostr](https://verityj.github.io/nostr-news-feeds) ![stars](https://img.shields.io/github/stars/verityj/verityj.github.io.svg?style=social) - a curated list of news press channels RSS feeds that we can follow on Nostr
 - [styx](https://github.com/styx-secure/styx)![stars](https://img.shields.io/github/stars/styx-secure/styx.svg?style=social) - Experimental secure application substrate for sensitive workflows: self-custodied identity, E2EE collaboration, verifiable state, offline operation, and untrusted relay infrastructure. Building toward Themis,   privacy-preserving case management.
 - [Summaries of all Nostr Improvements Proposals](https://anchor.fm/s/d8e8d5a4/podcast/rss) - ChatGPT generated summaries of all NIPs by k00b
@@ -1195,9 +1193,11 @@ Outside of nostr itself, you find the community on:
 - [Listr](https://github.com/sepehr-safari/listr) ![stars](https://img.shields.io/github/stars/sepehr-safari/listr.svg?style=social) - A Nostr Web Client for Making Lists.
 - [nodestr](https://github.com/Dolu89/nodestr-relay)![stars](https://img.shields.io/github/stars/Dolu89/nodestr-relay.svg?style=social) - a Node.js implementation
 - [nostr-pass](https://github.com/plantimals/nostr-pass)![stars](https://img.shields.io/github/stars/plantimals/nostr-pass.svg?style=social) - experimenting with nostr priv/pub key pairs for replacing passwords
+- [NostrChat.io](https://github.com/NostrChat/NostrChat)![stars](https://img.shields.io/github/stars/NostrChat/NostrChat.svg?style=social) - NostrChat is a chat app where you can have group chats, DM, threads, and emojis.
 - [nostore](https://github.com/ursuscamp/nostore)![stars](https://img.shields.io/github/stars/ursuscamp/nostore.svg?style=social) - Nostr Signer Extension for iOS/macOS Safari
 - [nostrpy](https://github.com/monty888/nostrpy)![stars](https://img.shields.io/github/stars/monty888/nostrpy.svg?style=social) - relay, client, and other tooling in python (No longer being developed.)
 - [Nozzle](https://github.com/dluvian/Nozzle)![stars](https://img.shields.io/github/stars/dluvian/Nozzle.svg?style=social) - A lightweight Android client
+- [ostrich.work](https://github.com/erskingardner/ostrich.work)![stars](https://img.shields.io/github/stars/erskingardner/ostrich.work.svg?style=social) - nostr job board
 - [Plebstr](https://plebstr.com) - Nostr client Reimagined, the most beautiful Twitter-like nostr client for iOS & Android. [⚡ zap](https://nostr.net/grant/?zap=passivebit94@walletofsatoshi.com)
 - [rsslay](https://github.com/piraces/rsslay)![stars](https://img.shields.io/github/stars/piraces/rsslay.svg?style=social) - fork of the rsslay by @fiatjaf. a bridge that puts RSS feeds into Nostr optimized, more funcionalities and UI improvements. Live at [rsslay.nostr.moe](https://rsslay.nostr.moe/)
 - [Nsec App](https://nsec.app) - Browser-based NIP-46 bunker that lets you sign events without exposing your nsec.
