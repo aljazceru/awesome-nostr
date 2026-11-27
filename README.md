@@ -168,7 +168,6 @@ Websites with lists of relays and their performance/health:
 - [Decent Newsroom](https://decentnewsroom.com/) - Explore, publish and create long form articles and magazines on nostr. [⚡ zap](https://nostr.net/grant/?zap=decentnewsroom@rizful.com)
 - [readwithboris.com](https://www.readwithboris.com/) - Long form reading and highlighting app.
 - [blogo](https://github.com/pluja/blogo)![stars](https://img.shields.io/github/stars/pluja/blogo.svg?style=social) - A simple, fast and clean blog platform powered by Nostr.
-- [blogstack.io](https://blogstack.io) - Long-form publishing platform on Nostr.
 - [Boris](https://github.com/dergigi/boris)![stars](https://img.shields.io/github/stars/dergigi/boris.svg?style=social)[⚡ zap](https://nostr.net/grant/?zap=dergigi@primal.net) - A Nostr long-form reading client.
 - [Captain's Log](https://github.com/nodetec/captains-log)![stars](https://img.shields.io/github/stars/nodetec/captains-log.svg?style=social) - A Nostr-powered long-form journal application.
 - [MAKIMONO](https://makimono.lumilumi.app) - Long-form writing client by the Lumilumi team.
@@ -320,7 +319,6 @@ Websites with lists of relays and their performance/health:
 - [keychat](https://github.com/keychat-io/keychat-app)![stars](https://img.shields.io/github/stars/keychat-io/keychat-app.svg?style=social) - Chat app built on nostr with bitcoin and ecash support
 - [mapstr](https://mapstr.xyz/) - Find local businesses which accept BTC and add reviews to those businesses as a customer. Allows ability to receive Zaps for your reviews. You can also add Nostr notes with coordinates which allows them to be mapped to your location.
 - [Member](https://github.com/memberapp/memberapp.github.io)![stars](https://img.shields.io/github/stars/memberapp/memberapp.github.io.svg?style=social) - Progressive Web App Client. Works on desktop and mobile.
-  - [member.cash](https://member.cash/) - live instance
 - [Memestr](https://github.com/AaruBama/memestr)![stars](https://img.shields.io/github/stars/AaruBama/memestr.svg?style=social) - nostr hub for memes.
 - [MeShell](https://github.com/BEEBSDONE/MeShell_Nodejs)![stars](https://img.shields.io/github/stars/BEEBSDONE/MeShell_Nodejs.svg?style=social) - Web, iOS, and Android blog type client destined to publish articles and researches for independent journalists.
   - [MeShell.io](https://meshell.io) - Landing page for more information
@@ -378,7 +376,7 @@ Websites with lists of relays and their performance/health:
 - [nostui](https://github.com/akiomik/nostui)![stars](https://img.shields.io/github/stars/akiomik/nostui.svg?style=social) - A TUI client for Nostr
 - [Nostur](https://nostur.com) - Nostr client app for iOS and MacOS. ([Apple Store link](https://apps.apple.com/us/app/nostur/id1672780508)) [⚡ zap](https://nostr.net/grant/?zap=weathereddarkness25@getalby.com)
 - [Notedeck](https://github.com/damus-io/notedeck)![stars](https://img.shields.io/github/stars/damus-io/notedeck.svg?style=social) - Rust based desktop nostr browser by Damus
-- [notestack.com](https://notestack.com)![stars](https://img.shields.io/github/stars/nodetec/notestack.svg?style=social) - Blogging site for nostr, supports markdown
+- [notestack.com](https://github.com/nodetec/notestack)![stars](https://img.shields.io/github/stars/nodetec/notestack.svg?style=social) - Blogging site for nostr, supports markdown
 - [NOW - Nostr Outbox for Wordpress](https://github.com/Mnpezz/nostr-outbox-for-wordpress/tree/main)![stars](https://img.shields.io/github/stars/Mnpezz/nostr-outbox-for-wordpress.svg?style=social) - Send WordPress and WooCommerce notifications via Nostr instead of email. Includes Lightning payments at checkout, Nostr login, NIP-05 verification, and encrypted direct messaging.
 - [npub.world](https://npub.world/) - A nostr profile search engine
 - [nRreadr](https://gitworkshop.dev/npub1nreadrm474vljnnj42f4766a7fkg8jagrwa5438hdxecrpvr4zjq9pz28m/relay.ngit.dev/nreadr) - KOReader plugin that publishes ebook highlights to Nostr (NIP-84).
